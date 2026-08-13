@@ -1,0 +1,7 @@
+# 원자료는 저작권 때문에 커밋하지 않는다. 목록(MANIFEST.md)만 공개한다.
+raw/*
+!raw/MANIFEST.md
+
+node_modules/
+.DS_Store
+*.log

@@ -82,7 +82,7 @@ edtech-oracle/
 ```markdown
 ---
 title: 로버트 가네
-type: pioneer                      # pioneer | concept | debate | source
+type: pioneer                      # pioneer | concept | debate | source | meta
 slug: robert-gagne
 sources: [gagne-1985, gagne-briggs-1974, reiser-2017]
 related: ["[[concepts/nine-events]]", "[[debates/design-vs-constructivism]]"]
@@ -97,10 +97,12 @@ updated: 2026-08-14
 요구한다고 보았다[^gagne-1985].
 
 [^gagne-1985]: Gagné, R. M. (1985). *The Conditions of Learning* (4th ed.).
-    Holt, Rinehart and Winston. pp. 47–68. — tier A
+    Holt, Rinehart and Winston. pp. 47–68. — tier A · [[sources/gagne-1985]]
 ```
 
 **티어를 각주에 인라인으로 표기**한다. `sources.json`을 열지 않아도 답변 텍스트만으로 근거 강도를 판별할 수 있어야 한다 — 디스코드에서 사용자가 보는 것은 답변 텍스트뿐이다.
+
+**각주 정의는 반드시 `[[sources/<id>]]` 링크로 끝난다.** 각주(`[^id]`)는 wikilink가 아니므로, 이 링크가 없으면 출처 페이지 약 100개가 전부 고아가 되어 규칙 7에 걸린다. 이 규칙 덕에 어떤 인용에서든 출처 요약 페이지로 한 번에 이동할 수 있다.
 
 ### 4.1 출처 티어
 
@@ -118,16 +120,18 @@ pantheon 체계를 계승한다.
 
 `scripts/lint-wiki.mjs`가 강제한다. 이것이 §8 4단계 병렬 확장의 게이트다.
 
-| # | 규칙 | 실패 예 |
-|---|---|---|
-| 1 | 프론트매터 필수 필드 존재·유효 | `type` 누락, 미정의 enum 값 |
-| 2 | 본문의 모든 `[^id]`가 페이지 내에 정의됨 | 정의 없는 각주 참조 |
-| 3 | 모든 각주 id가 `sources.json`에 실재 | 존재하지 않는 출처 인용 |
-| 4 | 프론트매터 `sources:` ≡ 본문 각주 집합 | 선언과 실사용 불일치 |
-| 5 | 모든 `[[wikilink]]`가 실재 파일로 해석됨 | 깨진 링크 |
-| 6 | **인용 밀도** — 모든 `##` 섹션에 각주 ≥ 1 | 근거 없는 서술 |
-| 7 | 고아 페이지 없음 (`index.md`에서 도달 가능) | 아무도 링크하지 않는 페이지 |
-| 8 | `confidence: high`는 A/B 티어 출처 ≥ 1 | C티어만으로 high 선언 |
+규칙은 **`type`별로 적용 범위가 다르다.** `meta`(`index.md` · `log.md` · `router-map.md` · `KNOWN-ISSUES.md`)는 근거를 서술하는 페이지가 아니므로 인용 관련 규칙에서 면제된다. 면제하지 않으면 임포터가 생성한 파일에서 2단계 게이트가 곧바로 실패한다.
+
+| # | 규칙 | 적용 대상 | 실패 예 |
+|---|---|---|---|
+| 1 | 프론트매터 필수 필드 존재·유효 | 전체 (필수 필드는 `type`별로 다름) | `type` 누락, 미정의 enum 값 |
+| 2 | 본문의 모든 `[^id]`가 페이지 내에 정의됨 | 전체 | 정의 없는 각주 참조 |
+| 3 | 모든 각주 id가 `sources.json`에 실재 | 전체 | 존재하지 않는 출처 인용 |
+| 4 | 프론트매터 `sources:` ≡ 본문 각주 집합 | 전체 | 선언과 실사용 불일치 |
+| 5 | 모든 `[[wikilink]]`가 실재 파일로 해석됨 | 전체 | 깨진 링크 |
+| 6 | **인용 밀도** — 모든 `##` 섹션에 각주 ≥ 1 | pioneer · concept · debate | 근거 없는 서술 |
+| 7 | 고아 페이지 없음 (`index.md`에서 도달 가능) | 전체 | 아무도 링크하지 않는 페이지 |
+| 8 | `confidence: high`는 A/B 티어 출처 ≥ 1 | pioneer · concept · debate | C티어만으로 high 선언 |
 
 `--strict` 플래그는 위 8규칙 전부를 오류로 처리한다. 기본 모드는 6·7을 경고로 처리해 작성 중 상태를 허용한다.
 
@@ -212,7 +216,9 @@ tools: Read, Grep, Glob
 
 ### 7.4 에이전트는 손으로 쓰지 않는다
 
-`scripts/gen-agents.mjs`가 `wiki/pioneers/*.md`의 프론트매터를 읽어 38개 파일을 생성한다. 위키가 정본이고 에이전트는 파생물이므로, 근거가 갱신되면 재생성만으로 동기화가 끝난다. 36개를 손으로 관리하면 반드시 어긋난다.
+`scripts/gen-agents.mjs`가 `wiki/pioneers/*.md`의 프론트매터를 읽어 **위인 36개를 생성**한다. `router`와 `curator`는 위인 페이지에서 파생되지 않으므로 정적 템플릿으로 따로 관리한다 (36 생성 + 2 정적 = 38).
+
+위키가 정본이고 위인 에이전트는 파생물이므로, 근거가 갱신되면 재생성만으로 동기화가 끝난다. 36개를 손으로 관리하면 반드시 어긋난다.
 
 `description` 필드는 예산 항목이다. 36개 description이 매 세션 시스템 프롬프트에 실린다(약 1,000토큰 상시 점유). description에는 **"언제 이 위인을 부르는가"만** 압축해 쓰고 전기는 넣지 않는다.
 
