@@ -7,7 +7,7 @@ life: 1923—2020
 concepts: [교수기술, 교육 조직, 체제적 관점, 교수매체]
 related: []
 updated: 2026-08-14
-sources: [bio-heinich-iu, heinich-1984, heinich-media-1982]
+sources: [bio-heinich-iu, heinich-1984, heinich-media-1982, seels-richey-1994, seels-richey-1994-case]
 confidence: high
 ---
 
@@ -44,6 +44,18 @@ confidence: high
 
 하이니히는 1971–72년 AECT 회장, 1972–82년 ECT Foundation 초대 회장을 맡았고 AV Communication Review 편집을 이끌었다. 1982년 공동 집필한 『Instructional Media and the New Technologies of Instruction』은 교수매체 교육의 표준 교재가 됐다. 1990년 은퇴한 뒤 2020년 사망했으며, 교육기술의 적절한 분석 단위가 도구인가 조직인가라는 질문을 남겼다.[^bio-heinich-iu][^heinich-media-1982][^heinich-1984]
 
+## 당대의 비판
+
+하이니히는 교육공학의 적절한 연구대상을 교수기술과 그것이 작동하는 교육 조직의 결합으로 물었다.[^heinich-1984] 그러나 실스와 리치는 1994년 교육공학을 학습을 위한 과정과 자원의 설계·개발·활용·관리·평가에 관한 이론과 실천으로 정의했다. 이 대안적 정의에서는 조직 분석이 중요하더라도, 조직을 중심에 둔 설명만으로 분야의 활동과 자원을 모두 포괄할 수 없다는 반론이 가능하다.[^seels-richey-1994]
+
+리치와 실스는 1994년 분야 정의가 위원회 논의와 사례를 거쳐 형성된 합의의 결과였다고 기록했다. 이 설명은 교육공학의 경계를 하나의 ‘적절한 연구대상’으로 확정하기보다, 연구자와 실천가가 여러 영역을 협상해 정한다는 관점을 제시한다. 따라서 하이니히의 조직 중심 분석은 강력한 관점이지만 분야 전체의 유일한 분석 단위라는 지위에는 이견이 남는다.[^seels-richey-1994-case][^heinich-1984]
+
+## 한계
+
+하이니히의 조직·체제 관점은 기술이 학교의 역할·자원·의사결정 구조 안에서 채택되는 조건을 설명하는 데 강하지만, 학습자가 내용을 어떻게 이해하고 기억하는지 또는 매체의 효과가 어떤 인지 과정에서 생기는지를 자체적으로 설명하지는 않는다. 교수매체 선택과 교수설계의 연결도 교육 문제를 구조화하는 틀이지, 학습 결과의 인과를 보장하는 모형은 아니다.[^heinich-1984][^heinich-media-1982]
+
+이 관점은 교수 문제와 목표, 학습자와 조직 조건을 먼저 파악한 뒤 매체와 수업을 조정할 수 있다는 전제를 둔다. 목표가 합의되지 않았거나 조직의 제약이 설계 선택과 충돌하는 상황에서는 체제 분석이 조건을 드러낼 수는 있어도 어떤 교육적 가치를 우선할지, 어떤 학습 결과를 선택할지를 대신 결정하지 못한다.[^heinich-1984][^heinich-media-1982]
+
 ## 연표
 
 - **1969** 인디애나대학교 합류 — Instructional Systems Technology 교수로 부임해 학문의 체제적 기초를 가르쳤다.[^bio-heinich-iu]
@@ -53,3 +65,5 @@ confidence: high
 [^bio-heinich-iu]: Indiana University School of Education. (2020). Robert Heinich — In Memoriam. Indiana University. <https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf> — tier B · [[sources/bio-heinich-iu]]
 [^heinich-1984]: Robert Heinich. (1984). The Proper Study of Instructional Technology. Educational Communication and Technology Journal, 32(2). DOI: 10.1007/BF02766667. <https://doi.org/10.1007/BF02766667> — tier B · [[sources/heinich-1984]]
 [^heinich-media-1982]: Robert Heinich; Michael Molenda; James D. Russell. (1982). Instructional Media and the New Technologies of Instruction. John Wiley & Sons. <https://search.worldcat.org/title/7476704> — tier A · [[sources/heinich-media-1982]]
+[^seels-richey-1994]: Barbara B. Seels; Rita C. Richey. (1994). Instructional Technology: The Definition and Domains of the Field. Association for Educational Communications and Technology. <https://openlibrary.org/books/OL1127250M/Instructional_technology> — tier A · [[sources/seels-richey-1994]]
+[^seels-richey-1994-case]: Rita C. Richey; Barbara Seels. (1994). Defining a Field: A Case Study of the Development of the 1994 Definition. Educational Media and Technology Yearbook. <https://eric.ed.gov/?id=EJ491599> — tier B · [[sources/seels-richey-1994-case]]

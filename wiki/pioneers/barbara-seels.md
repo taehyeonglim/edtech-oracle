@@ -7,7 +7,7 @@ life: 생몰연도 공개 전거 미확인
 concepts: [설계, 개발, 활용, 관리와 평가]
 related: []
 updated: 2026-08-14
-sources: [bio-seels-archive, seels-richey-1994, seels-richey-1994-case]
+sources: [bio-seels-archive, heinich-1984, seels-richey-1994, seels-richey-1994-case]
 confidence: high
 ---
 
@@ -44,6 +44,18 @@ confidence: high
 
 1994년 정의는 기기 중심 인식을 넘어 전문직의 지식 영역을 구조화했다는 점에서 중요하다. 동시에 기술과 실천이 변하면 분야 정의도 재검토되어야 한다. 실스의 문서들은 최종 문장만이 아니라 위원회 토론, 사례, 초안이 합의를 만드는 과정을 보여준다는 점에서 교육공학사 자료로 가치가 있다.[^bio-seels-archive][^seels-richey-1994-case]
 
+## 당대의 비판
+
+1994년 정의에 앞서 로버트 하이니히는 교육공학의 적절한 연구대상이 장비나 명칭 자체가 아니라 교수 문제와 그것이 작동하는 학교 조직이어야 한다고 주장했다.[^heinich-1984] 이 관점은 설계·개발·활용·관리·평가라는 활동 영역을 정리하는 실스·리치의 정의가 교육 문제의 원인과 조직 조건을 그 자체로 설명하지는 않는다고 반론한다.[^heinich-1984][^seels-richey-1994]
+
+하이니히에게 교사 역할, 자원 배분, 의사결정 구조는 기술 채택의 결과를 좌우하는 분석 대상이었다. 따라서 다섯 영역을 분야의 지도처럼 사용할 수는 있어도, 어떤 조직에서 왜 같은 자원이 다르게 활용되는지까지 설명하려면 별도의 조직 분석이 필요하다.[^heinich-1984]
+
+## 한계
+
+1994년 정의는 교육공학이 무엇을 연구하고 수행하는지의 범위를 정리하는 정의이지, 특정 교수방법이 언제 학습을 일으키는지를 예측하는 학습이론은 아니다. 다섯 영역을 제시해도 목표·학습자·맥락에 따른 선택 규칙이 자동으로 나오지는 않는다.[^seels-richey-1994]
+
+정의의 성립 과정을 검토한 리치와 실스는 그것이 위원회 논의와 사례를 거친 역사적 합의였음을 보여준다. 그러므로 이 정의는 영구적인 본질 목록이라기보다 당시 분야가 자신의 경계를 조정한 문서로 읽어야 하며, 새로운 기술과 실천이 등장할 때 범주와 용어를 다시 검토해야 한다.[^seels-richey-1994-case]
+
 ## 연표
 
 - **1970** 오하이오주립대학교 박사 — 매스커뮤니케이션 박사학위 후 피츠버그대학교에서 메시지 설계와 시각문해를 연구했다.[^bio-seels-archive]
@@ -51,5 +63,6 @@ confidence: high
 - **1994** 정의와 영역 출간 — 리타 리치와 교육공학의 다섯 영역을 체계적으로 발표했다.[^seels-richey-1994]
 
 [^bio-seels-archive]: International Visual Literacy Association. (2020). Barbara Seels Papers, 1968–1999. Visual Literacy Today. <https://visualliteracytoday.org/barbara-seels-papers-1968-1999-mss-156/> — tier B · [[sources/bio-seels-archive]]
+[^heinich-1984]: Robert Heinich. (1984). The Proper Study of Instructional Technology. Educational Communication and Technology Journal, 32(2). DOI: 10.1007/BF02766667. <https://doi.org/10.1007/BF02766667> — tier B · [[sources/heinich-1984]]
 [^seels-richey-1994]: Barbara B. Seels; Rita C. Richey. (1994). Instructional Technology: The Definition and Domains of the Field. Association for Educational Communications and Technology. <https://openlibrary.org/books/OL1127250M/Instructional_technology> — tier A · [[sources/seels-richey-1994]]
 [^seels-richey-1994-case]: Rita C. Richey; Barbara Seels. (1994). Defining a Field: A Case Study of the Development of the 1994 Definition. Educational Media and Technology Yearbook. <https://eric.ed.gov/?id=EJ491599> — tier B · [[sources/seels-richey-1994-case]]

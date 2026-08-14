@@ -7,7 +7,7 @@ life: 1904—1990
 concepts: [조작적 조건형성, 강화, 프로그램 학습, 교수기계]
 related: ["[[debates/skinner-gagne]]"]
 updated: 2026-08-14
-sources: [bio-wiki-skinner, gagne-1965, gagne-1985, reiser-2017, schunk-2012, skinner-1954, skinner-1957]
+sources: [bio-wiki-skinner, bruner-1960, gagne-1965, gagne-1985, reiser-2017, schunk-2012, skinner-1954, skinner-1957]
 confidence: high
 ---
 
@@ -44,6 +44,18 @@ confidence: high
 
 『Verbal Behavior』(1957), 『Beyond Freedom and Dignity』(1971) 등에서 스키너는 언어와 사회행동도 결과의 역사로 분석할 수 있다고 주장했다. 1990년 매사추세츠주 케임브리지에서 사망한 뒤에도 즉각 피드백·작은 수행 단위·강화 구조는 교육기술에 남았다. 반면 언어, 의미, 사회문화적 맥락을 행동 결과만으로 설명할 수 있는지를 둘러싼 논쟁은 그의 유산을 읽을 때 빠뜨릴 수 없다.[^bio-wiki-skinner][^skinner-1954][^skinner-1957][^schunk-2012]
 
+## 당대의 비판
+
+데일 스쿤크는 행동주의 학습이론이 관찰 가능한 행동 변화와 환경의 결과를 설명하는 데 강하지만, 학습자가 정보를 어떻게 표상하고 조직하는지까지는 충분히 설명하지 못한다고 정리했다. 이 반론은 강화와 반응의 변화만으로 학습의 인지적 과정을 포괄할 수 있는지 묻는다.[^schunk-2012]
+
+제롬 브루너는 교육의 핵심을 학습자가 교과의 구조를 파악하고 새로운 상황에 적용할 수 있게 되는 데 두었다.[^bruner-1960] 브루너의 관점에서 보면 스키너의 소단계 프로그램과 즉각적 피드백은 수행을 형성하는 데 유용할 수 있지만, 이해·발견·일반화의 과정을 행동의 점진적 변화로만 기술하기에는 부족하다.[^bruner-1960][^skinner-1954]
+
+## 한계
+
+스키너의 교육 분석은 학습자가 보이는 반응, 그 반응을 뒤따르는 결과, 그리고 그 결과를 배열하는 환경을 중심으로 한다. 따라서 언어의 의미, 학습자가 세운 목표, 공동체 안에서 정체성이 변하는 과정처럼 행동의 빈도나 형태로 바로 환원되지 않는 현상을 독립적으로 설명하는 데 범위가 있다.[^skinner-1954][^skinner-1957]
+
+프로그램 학습과 교수기계는 작은 단위, 즉각적 확인, 다음 단계로의 진행을 설계하는 장치로 읽을 수 있지만, 이를 모든 학습에 동일하게 적용하는 체크리스트로 오용하면 이해와 전이에 필요한 탐구를 반응 훈련으로 축소할 수 있다. 이 한계는 스키너의 원리를 부정하는 말이 아니라, 그 원리가 직접 다루는 관찰 가능한 수행과 강화 조건의 범위를 넘겨 적용할 때 생기는 경계다.[^skinner-1954][^schunk-2012]
+
 ## 연표
 
 - **1938** The Behavior of Organisms — 행동분석의 실험적 기반을 체계화했다.[^skinner-1954]
@@ -55,6 +67,7 @@ confidence: high
 - [[debates/skinner-gagne]] — 행동 단위와 학습 조건 (상대: 로버트 가녜)[^skinner-1954][^gagne-1965][^gagne-1985]
 
 [^bio-wiki-skinner]: Wikipedia editors. B. F. Skinner. Wikipedia. <https://en.wikipedia.org/wiki/B._F._Skinner> — tier C · [[sources/bio-wiki-skinner]]
+[^bruner-1960]: Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <https://archive.org/details/processofeducati00brun> — tier A · [[sources/bruner-1960]]
 [^gagne-1965]: Robert M. Gagné. (1965). The Conditions of Learning. Holt, Rinehart and Winston. <https://archive.org/details/conditionsoflear0000gagn> — tier A · [[sources/gagne-1965]]
 [^gagne-1985]: Robert M. Gagné; Leslie J. Briggs; Walter W. Wager. (1985). Principles of Instructional Design. Holt, Rinehart and Winston. <https://archive.org/details/principlesofinst0000gagn> — tier B · [[sources/gagne-1985]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]

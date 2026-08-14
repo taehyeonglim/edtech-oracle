@@ -7,7 +7,7 @@ life: 1943—1999
 concepts: [메타인지, 상호교수법, 학습자 공동체, 설계실험]
 related: []
 updated: 2026-08-14
-sources: [bio-brown-berkeley, bio-brown-fabbs, brown-1992, brown-palincsar-1984]
+sources: [bio-brown-berkeley, bio-brown-fabbs, brown-1992, brown-palincsar-1984, collins-2004]
 confidence: high
 ---
 
@@ -44,6 +44,18 @@ confidence: high
 
 브라운은 1988년 UC Berkeley 교육대학원으로 옮겨 남편이자 협력자 Joseph Campione과 Fostering Communities of Learners를 발전시켰다. 이론에 근거한 교실 환경을 실제 학교에서 반복적으로 만들고 수정하는 작업은 1992년 설계실험 논문으로 정식화됐다. National Academy of Education 회장 등을 역임한 그는 1999년 6월 4일 갑작스러운 질환으로 56세에 사망했다.[^bio-brown-berkeley][^brown-1992]
 
+## 당대의 비판
+
+브라운의 설계실험은 실제 교실의 복잡성을 연구 안으로 들여왔다.[^brown-1992] 앨런 콜린스·다이애나 조지프·캐서린 비엘라시크는 설계연구가 성공 사례 보고로 끝나지 않으려면 이론적 주장과 방법론적 절차를 함께 명시해야 한다고 요구했다. 반복적 개입을 했다는 사실만으로 다른 교실에 적용할 수 있는 원리가 확보되는 것은 아니며, 설계 과정·자료·이론의 관계를 드러내야 한다는 방법론적 반론이다.[^collins-2004]
+
+이들의 지적은 실제 맥락을 포기하자는 뜻이 아니라, 현장에 맞춘 개입과 그로부터 추출할 수 있는 설계 원리를 구분하자는 교정이다. 교사·학생과 함께 개입을 바꾸는 연구에서는 무엇이 효과를 냈는지와 어떤 조건에서 재현될 수 있는지를 별도로 설명해야 한다.[^collins-2004][^brown-1992]
+
+## 한계
+
+상호교수법의 대표 연구는 독해 이해를 촉진하는 요약·질문·명료화·예측 전략의 협력적 사용을 다룬다. 따라서 이 결과만으로 모든 교과, 연령, 학습목표에서 같은 대화 구조가 동일하게 효과적이라고 일반화할 수는 없다.[^brown-palincsar-1984]
+
+브라운은 설계실험을 복합 개입의 이론적·방법론적 도전으로 제시했다. 실제 교실과 함께 이론과 개입을 반복 수정하는 방식은 맥락 적합성을 높이지만, 개입 요소가 많고 변화가 누적되어 어떤 요소가 어떤 결과를 만들었는지 단순한 인과 추정으로 환원하기 어렵다.[^brown-1992]
+
 ## 연표
 
 - **1984** 상호교수법 — 학생과 교사가 독해 전략을 번갈아 이끄는 대화적 교수 모형을 검증했다.[^brown-palincsar-1984]
@@ -54,3 +66,4 @@ confidence: high
 [^bio-brown-fabbs]: Federation of Associations in Behavioral & Brain Sciences. In Memory Of Ann L. Brown. FABBS. <https://fabbs.org/about/in-honor-of/ann-l-brown-phd/> — tier B · [[sources/bio-brown-fabbs]]
 [^brown-1992]: Ann L. Brown. (1992). Design Experiments: Theoretical and Methodological Challenges in Creating Complex Interventions in Classroom Settings. Journal of the Learning Sciences, 2(2). DOI: 10.1207/s15327809jls0202_2. <https://doi.org/10.1207/s15327809jls0202_2> — tier B · [[sources/brown-1992]]
 [^brown-palincsar-1984]: Annemarie Sullivan Palincsar; Ann L. Brown. (1984). Reciprocal Teaching of Comprehension-Fostering and Comprehension-Monitoring Activities. Cognition and Instruction, 1(2). DOI: 10.1207/s1532690xci0102_1. <https://doi.org/10.1207/s1532690xci0102_1> — tier B · [[sources/brown-palincsar-1984]]
+[^collins-2004]: Allan Collins; Diana Joseph; Katerine Bielaczyc. (2004). Design Research: Theoretical and Methodological Issues. Journal of the Learning Sciences, 13(1). DOI: 10.1207/S15327809JLS1301_2. <https://doi.org/10.1207/S15327809JLS1301_2> — tier B · [[sources/collins-2004]]
