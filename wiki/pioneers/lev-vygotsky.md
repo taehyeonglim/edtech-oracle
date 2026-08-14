@@ -7,7 +7,7 @@ life: 1896—1934
 concepts: [근접발달영역, 사회적 매개, 언어와 사고, 내면화]
 related: ["[[debates/vygotsky-bandura]]", "[[debates/vygotsky-papert]]", "[[debates/lave-vygotsky]]"]
 updated: 2026-08-14
-sources: [bandura-1977, bio-wiki-vygotsky, lave-1988, lave-wenger-1991, papert-1980, schunk-2012, vygotsky-1934, vygotsky-1978]
+sources: [bandura-1977, bio-wiki-vygotsky, vandeveer-valsiner-1991, lave-1988, lave-wenger-1991, papert-1980, schunk-2012, vygotsky-1934, vygotsky-1978]
 confidence: high
 ---
 
@@ -34,15 +34,15 @@ confidence: high
 
 ## 모스크바의 법학도에서 심리학자로
 
-레프 세묘노비치 비고츠키는 1896년 러시아 제국의 오르샤에서 태어났다. 모스크바대학교에서 법학을 공부하는 동시에 샤냐프스키대학교에서 문학·철학·심리학을 수강했고, 고멜에서 교사와 연구자로 일하며 언어·예술·장애교육 문제에 관여했다. 1924년 레닌그라드에서 열린 심리신경학 회의 발표를 계기로 모스크바 심리학계에 합류했다.[^bio-wiki-vygotsky][^vygotsky-1934]
+레프 세묘노비치 비고츠키는 1896년 러시아 제국의 오르샤에서 태어났다. 모스크바대학교에서 법학을 공부하는 동시에 샤냐프스키대학교에서 문학·철학·심리학을 수강했고, 고멜에서 교사와 연구자로 일하며 언어·예술·장애교육 문제에 관여했다. 1924년 레닌그라드에서 열린 심리신경학 회의 발표를 계기로 모스크바 심리학계에 합류했다.[^bio-wiki-vygotsky][^vandeveer-valsiner-1991][^vygotsky-1934]
 
 ## 문화역사적 심리학의 짧은 전성기
 
-비고츠키는 알렉산드르 루리아와 알렉세이 레온티예프를 포함한 동료들과 함께 고등 정신 기능이 사회적 활동과 문화적 도구를 통해 형성된다고 주장했다. 1920년대 후반부터 모스크바의 심리학·결함학 연구기관에서 일했고, 1931년 이후에는 우크라이나와 모스크바의 연구를 오가며 발달·언어·교육 문제를 확장했다. 그의 생애 동안 책으로 완성된 작업은 제한적이었고, 많은 영어권 영향은 사후 편집·번역을 통해 이루어졌다.[^bio-wiki-vygotsky][^vygotsky-1978]
+비고츠키는 알렉산드르 루리아와 알렉세이 레온티예프를 포함한 동료들과 함께 고등 정신 기능이 사회적 활동과 문화적 도구를 통해 형성된다고 주장했다. 1920년대 후반부터 모스크바의 심리학·결함학 연구기관에서 일했고, 1931년 이후에는 우크라이나와 모스크바의 연구를 오가며 발달·언어·교육 문제를 확장했다. 그의 생애 동안 책으로 완성된 작업은 제한적이었고, 많은 영어권 영향은 사후 편집·번역을 통해 이루어졌다.[^bio-wiki-vygotsky][^vandeveer-valsiner-1991][^vygotsky-1978]
 
 ## 사후 출판과 번역의 문제
 
-비고츠키는 결핵으로 1934년 모스크바에서 사망했다. 같은 해 출간된 『Thought and Language』와 1978년 영어권에 널리 소개된 『Mind in Society』는 후대 교육연구에서 핵심 텍스트가 되었지만, 편집과 번역의 개입을 함께 검토해야 한다. 근접발달영역과 발판이라는 용어를 사용할 때는 비고츠키의 원래 논의와 후대 교수전략의 용례를 구분해야 한다.[^bio-wiki-vygotsky][^vygotsky-1934][^vygotsky-1978]
+비고츠키는 결핵으로 1934년 모스크바에서 사망했다.[^vandeveer-valsiner-1991] 같은 해 출간된 『Thought and Language』와 1978년 영어권에 널리 소개된 『Mind in Society』는 후대 교육연구에서 핵심 텍스트가 되었지만, 편집과 번역의 개입을 함께 검토해야 한다. 근접발달영역과 발판이라는 용어를 사용할 때는 비고츠키의 원래 논의와 후대 교수전략의 용례를 구분해야 한다.[^bio-wiki-vygotsky][^vygotsky-1934][^vygotsky-1978]
 
 ## 당대의 비판
 
@@ -70,6 +70,7 @@ confidence: high
 
 [^bandura-1977]: Albert Bandura. (1977). Social Learning Theory. Prentice Hall. <https://archive.org/details/sociallearningth00band> — tier A · [[sources/bandura-1977]]
 [^bio-wiki-vygotsky]: Wikipedia editors. Lev Vygotsky. Wikipedia. <https://en.wikipedia.org/wiki/Lev_Vygotsky> — tier C · [[sources/bio-wiki-vygotsky]]
+[^vandeveer-valsiner-1991]: René van der Veer; Jaan Valsiner. (1991). Understanding Vygotsky: A Quest for Synthesis. Blackwell. <https://archive.org/details/understandingvyg0000veer> — tier B · [[sources/vandeveer-valsiner-1991]]
 [^lave-1988]: Jean Lave. (1988). Cognition in Practice. Cambridge University Press. DOI: 10.1017/CBO9780511609268. <https://doi.org/10.1017/CBO9780511609268> — tier A · [[sources/lave-1988]]
 [^lave-wenger-1991]: Jean Lave; Etienne Wenger. (1991). Situated Learning: Legitimate Peripheral Participation. Cambridge University Press. <https://www.ischool.berkeley.edu/research/publications/1991/situated-learning-legitimate-peripheral-participation> — tier A · [[sources/lave-wenger-1991]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]

@@ -96,6 +96,6 @@ updated: 2026-08-14
 - [[concepts/performance-gap]] — 수행 격차
 - [[concepts/community-of-practice]] — 실천공동체
 
-## 출처 (122)
+## 출처 (140)
 
 출처 페이지는 각 위인·논쟁 페이지의 각주에서 도달한다. 전체 목록은 `sources.json`에 있다.

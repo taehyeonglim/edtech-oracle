@@ -7,7 +7,7 @@ life: 1947—
 concepts: [이중 채널, 제한된 작업기억, 능동적 처리, 외재적 인지부하]
 related: ["[[debates/bruner-mayer]]", "[[debates/papert-mayer]]", "[[debates/dale-mayer]]", "[[debates/novak-mayer]]", "[[debates/clark-mayer]]", "[[debates/kozma-mayer]]"]
 updated: 2026-08-14
-sources: [bio-mayer-ucsb, bio-wiki-mayer, bruner-1966, clark-1983, clark-1994, dale-1946, kozma-1991, kozma-1994, mayer-1997, mayer-2005, molenda-2003-cone, novak-1984, novak-2002, papert-1980, reiser-2017, sweller-1988, sweller-2011]
+sources: [bio-mayer-ucsb, bio-wiki-mayer, apa-mayer-2018, bruner-1966, clark-1983, clark-1994, dale-1946, kozma-1991, kozma-1994, mayer-1997, mayer-2005, molenda-2003-cone, novak-1984, novak-2002, papert-1980, reiser-2017, sweller-1988, sweller-2011]
 confidence: high
 ---
 
@@ -34,7 +34,7 @@ confidence: high
 
 ## 인지심리학과 교육의 접점
 
-리처드 E. 메이어는 1947년생 미국 교육심리학자로, 마이애미대학교와 미시간대학교에서 교육을 받고 1973년 미시간대학교에서 심리학 박사학위를 받았다. 인디애나대학교를 거쳐 1975년부터 캘리포니아대학교 산타바버라에서 활동했고, 현재는 Psychological & Brain Sciences의 Distinguished Professor로 소개된다.[^bio-wiki-mayer][^bio-mayer-ucsb]
+리처드 E. 메이어는 1947년생 미국 교육심리학자로, 마이애미대학교와 미시간대학교에서 교육을 받고 1973년 미시간대학교에서 심리학 박사학위를 받았다. 인디애나대학교를 거쳐 1975년부터 캘리포니아대학교 산타바버라에서 활동했고, 현재는 Psychological & Brain Sciences의 Distinguished Professor로 소개된다.[^bio-wiki-mayer][^bio-mayer-ucsb][^apa-mayer-2018]
 
 ## 말·그림·작업기억
 
@@ -42,7 +42,7 @@ confidence: high
 
 ## 디지털 학습으로 확장된 경력
 
-메이어는 미국심리학회 Division 15 회장, 미국교육연구학회 Division C 부회장, 여러 학술지 편집자를 맡았고 Thorndike Award·Scribner Award 등을 받았다. 연구 관심은 멀티미디어를 넘어 온라인 튜터, 가상현실, 게임, 교육용 에이전트로 확장되었다. 다만 설계 원리는 절대 규칙이 아니라 학습자·내용·매체 맥락에서 검증할 가설로 사용해야 한다.[^bio-wiki-mayer][^bio-mayer-ucsb][^mayer-2005]
+메이어는 미국심리학회 Division 15 회장, 미국교육연구학회 Division C 부회장, 여러 학술지 편집자를 맡았고 Thorndike Award·Scribner Award, 2018년 미국심리학회 대통령 표창(Presidential Citation) 등을 받았다.[^apa-mayer-2018] 연구 관심은 멀티미디어를 넘어 온라인 튜터, 가상현실, 게임, 교육용 에이전트로 확장되었다. 다만 설계 원리는 절대 규칙이 아니라 학습자·내용·매체 맥락에서 검증할 가설로 사용해야 한다.[^bio-wiki-mayer][^bio-mayer-ucsb][^mayer-2005]
 
 ## 당대의 비판
 
@@ -73,6 +73,7 @@ confidence: high
 
 [^bio-mayer-ucsb]: Department of Psychological & Brain Sciences. Richard Mayer. University of California, Santa Barbara. <https://psych.ucsb.edu/people/faculty/richard-mayer> — tier B · [[sources/bio-mayer-ucsb]]
 [^bio-wiki-mayer]: Wikipedia editors. Richard E. Mayer. Wikipedia. <https://en.wikipedia.org/wiki/Richard_E._Mayer> — tier C · [[sources/bio-wiki-mayer]]
+[^apa-mayer-2018]: American Psychological Association. (2018). Richard E. Mayer, PhD, Awarded 2018 Presidential Citation. American Psychological Association. <https://www.apa.org/about/governance/president/citation/richard-e-mayer> — tier B · [[sources/apa-mayer-2018]]
 [^bruner-1966]: Jerome S. Bruner. (1966). Toward a Theory of Instruction. Harvard University Press. <https://archive.org/details/towardtheoryofin00brun> — tier A · [[sources/bruner-1966]]
 [^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier B · [[sources/clark-1983]]
 [^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier B · [[sources/clark-1994]]

@@ -754,7 +754,8 @@
     "authors": "Open Library",
     "title": "Walter Dick — Author Record",
     "publisher": "Internet Archive",
-    "url": "https://openlibrary.org/authors/OL450418A/Walter_Dick"
+    "url": "https://openlibrary.org/authors/OL450418A/Walter_Dick",
+    "accessed": "2026-08-14"
   },
   {
     "id": "sweller-2016-story",
@@ -774,7 +775,8 @@
     "authors": "Wikidata contributors; BIBSYS Authority File",
     "title": "Jean Lave (Q1685635)",
     "publisher": "Wikidata",
-    "url": "https://www.wikidata.org/wiki/Q1685635"
+    "url": "https://www.wikidata.org/wiki/Q1685635",
+    "accessed": "2026-08-14"
   },
   {
     "id": "apa-ethics",
@@ -783,7 +785,8 @@
     "authors": "American Psychological Association",
     "title": "APA Style: Citing Sources",
     "year": "2024",
-    "url": "https://apastyle.apa.org/style-grammar-guidelines/references"
+    "url": "https://apastyle.apa.org/style-grammar-guidelines/references",
+    "accessed": "2026-08-14"
   },
   {
     "id": "bio-heinich-iu",
@@ -977,7 +980,8 @@
     "authors": "Wikipedia editors",
     "title": "Allan M. Collins",
     "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Allan_M._Collins"
+    "url": "https://en.wikipedia.org/wiki/Allan_M._Collins",
+    "accessed": "2026-08-14"
   },
   {
     "id": "collins-1989",
@@ -1221,5 +1225,185 @@
     "publisher": "Educational Technology Research and Development, 50(2)",
     "url": "https://doi.org/10.1007/BF02504993",
     "doi": "10.1007/BF02504993"
+  },
+  {
+    "id": "gagne-1974",
+    "tier": "A",
+    "type": "원저서",
+    "authors": "Robert M. Gagné",
+    "title": "Essentials of Learning for Instruction",
+    "year": "1974",
+    "publisher": "Dryden Press",
+    "url": "https://archive.org/details/essentialsoflear0000gagn_y0y6"
+  },
+  {
+    "id": "bruner-1990",
+    "tier": "A",
+    "type": "원저서",
+    "authors": "Jerome Bruner",
+    "title": "Acts of Meaning",
+    "year": "1990",
+    "publisher": "Harvard University Press",
+    "url": "https://www.hup.harvard.edu/books/9780674003613"
+  },
+  {
+    "id": "merrill-twitchell-1994",
+    "tier": "A",
+    "type": "원저서",
+    "authors": "M. David Merrill; David G. Twitchell (Ed.)",
+    "title": "Instructional Design Theory",
+    "year": "1994",
+    "publisher": "Educational Technology Publications",
+    "url": "https://openlibrary.org/books/OL1433631M"
+  },
+  {
+    "id": "keller-1983",
+    "tier": "B",
+    "type": "원저서 수록 장",
+    "authors": "John M. Keller",
+    "title": "Motivational Design of Instruction",
+    "year": "1983",
+    "publisher": "Instructional-Design Theories and Models: An Overview of Their Current Status (C. M. Reigeluth, Ed.), Lawrence Erlbaum Associates, pp. 383-434",
+    "url": "https://archive.org/details/instructionaldes0000unse_j6c8"
+  },
+  {
+    "id": "papert-1993",
+    "tier": "A",
+    "type": "원저서",
+    "authors": "Seymour Papert",
+    "title": "The Children's Machine: Rethinking School in the Age of the Computer",
+    "year": "1993",
+    "publisher": "Basic Books",
+    "url": "https://archive.org/details/childrensmachine00seym"
+  },
+  {
+    "id": "anderson-krathwohl-2001",
+    "tier": "B",
+    "type": "연구서",
+    "authors": "Lorin W. Anderson; David R. Krathwohl (Eds.)",
+    "title": "A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives",
+    "year": "2001",
+    "publisher": "Longman",
+    "url": "https://openlibrary.org/works/OL16641840W/A_taxonomy_for_learning_teaching_and_assessing"
+  },
+  {
+    "id": "pillsbury-dewey-1957",
+    "tier": "B",
+    "type": "학회 전기 회고록",
+    "authors": "Walter B. Pillsbury",
+    "title": "John Dewey 1859–1952: A Biographical Memoir",
+    "year": "1957",
+    "publisher": "National Academy of Sciences",
+    "url": "https://www.nasonline.org/wp-content/uploads/2024/06/dewey-john.pdf"
+  },
+  {
+    "id": "woodworth-thorndike-1952",
+    "tier": "B",
+    "type": "학회 전기 회고록",
+    "authors": "Robert S. Woodworth",
+    "title": "Edward Lee Thorndike: A Biographical Memoir",
+    "year": "1952",
+    "publisher": "National Academy of Sciences",
+    "url": "https://www.nasonline.org/wp-content/uploads/2024/06/thorndike-edward-1.pdf"
+  },
+  {
+    "id": "vandeveer-valsiner-1991",
+    "tier": "B",
+    "type": "학술 전기서",
+    "authors": "René van der Veer; Jaan Valsiner",
+    "title": "Understanding Vygotsky: A Quest for Synthesis",
+    "year": "1991",
+    "publisher": "Blackwell",
+    "url": "https://archive.org/details/understandingvyg0000veer"
+  },
+  {
+    "id": "rachlin-skinner-1995",
+    "tier": "B",
+    "type": "학회 전기 회고록",
+    "authors": "Howard Rachlin",
+    "title": "B. F. Skinner (Biographical Memoirs, Vol. 67)",
+    "year": "1995",
+    "publisher": "National Academy of Sciences",
+    "url": "https://www.nationalacademies.org/read/4894/chapter/19"
+  },
+  {
+    "id": "uchicago-bloom-1999",
+    "tier": "B",
+    "type": "대학 공식 부고",
+    "authors": "University of Chicago News Office",
+    "title": "Bloom, influential education researcher",
+    "year": "1999",
+    "publisher": "The University of Chicago Chronicle, Vol. 19, No. 1",
+    "url": "https://chronicle.uchicago.edu/990923/bloom.shtml"
+  },
+  {
+    "id": "rothkopf-gagne-2002",
+    "tier": "B",
+    "type": "학회 추모문",
+    "authors": "Ernst Z. Rothkopf",
+    "title": "In Appreciation: Robert Mills Gagné (1916–2002)",
+    "year": "2002",
+    "publisher": "Observer, Association for Psychological Science",
+    "url": "https://www.psychologicalscience.org/observer/in-appreciation-robert-mills-gagne-1916-2002"
+  },
+  {
+    "id": "gardner-bruner-2017",
+    "tier": "B",
+    "type": "학회 전기 회고록",
+    "authors": "Howard Gardner",
+    "title": "Jerome Seymour Bruner (Biographical Memoir)",
+    "year": "2017",
+    "publisher": "Proceedings of the American Philosophical Society, Vol. 161, No. 4",
+    "url": "https://www.amphilsoc.org/sites/default/files/2018-03/attachments/Bruner.pdf"
+  },
+  {
+    "id": "ozer-bandura-2022",
+    "tier": "B",
+    "type": "학회지 부고",
+    "authors": "Elizabeth M. Ozer",
+    "title": "Albert Bandura (1925–2021)",
+    "year": "2022",
+    "publisher": "American Psychologist",
+    "url": "https://escholarship.org/uc/item/8pw310xd"
+  },
+  {
+    "id": "simsek-merrill-2010",
+    "tier": "B",
+    "type": "피어리뷰 인터뷰 논문",
+    "authors": "Ali Şimşek; M. David Merrill",
+    "title": "Interview with M. David Merrill: Half a Century of Experience in the Field of Educational Technology and Instructional Design",
+    "year": "2010",
+    "publisher": "Contemporary Educational Technology, Vol. 1, No. 2",
+    "url": "https://files.eric.ed.gov/fulltext/ED542979.pdf"
+  },
+  {
+    "id": "simsek-keller-2014",
+    "tier": "B",
+    "type": "피어리뷰 인터뷰 논문",
+    "authors": "Ali Şimşek; John M. Keller",
+    "title": "Interview with John M. Keller on Motivational Design of Instruction",
+    "year": "2014",
+    "publisher": "Contemporary Educational Technology, Vol. 5, No. 1",
+    "url": "https://files.eric.ed.gov/fulltext/EJ1105558.pdf"
+  },
+  {
+    "id": "mitnews-papert-2016",
+    "tier": "B",
+    "type": "대학 공식 부고",
+    "authors": "MIT News Office",
+    "title": "Seymour Papert, pioneer of constructionist learning, dies at 88",
+    "year": "2016",
+    "publisher": "MIT News",
+    "url": "https://news.mit.edu/2016/seymour-papert-pioneer-of-constructionist-learning-dies-0801"
+  },
+  {
+    "id": "apa-mayer-2018",
+    "tier": "B",
+    "type": "학회 공식 수상 기록",
+    "authors": "American Psychological Association",
+    "title": "Richard E. Mayer, PhD, Awarded 2018 Presidential Citation",
+    "year": "2018",
+    "publisher": "American Psychological Association",
+    "url": "https://www.apa.org/about/governance/president/citation/richard-e-mayer"
   }
 ]

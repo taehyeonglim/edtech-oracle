@@ -7,7 +7,7 @@ life: 1859—1952
 concepts: [경험의 재구성, 민주주의와 교육, 탐구, 학습자 중심성]
 related: ["[[debates/dewey-thorndike]]"]
 updated: 2026-08-14
-sources: [bio-wiki-dewey, dewey-1916, dewey-1938, reiser-2017, schunk-2012, thorndike-1913]
+sources: [bio-wiki-dewey, pillsbury-dewey-1957, dewey-1916, dewey-1938, reiser-2017, schunk-2012, thorndike-1913]
 confidence: high
 ---
 
@@ -34,15 +34,15 @@ confidence: high
 
 ## 버몬트에서 시카고 실험학교까지
 
-존 듀이는 1859년 버몬트주 벌링턴에서 태어나 버몬트대학교를 졸업한 뒤 존스홉킨스대학교에서 철학 박사학위를 받았다. 미시간대학교와 미네소타대학교에서 가르친 뒤 시카고대학교로 옮겼고, 1896년에는 아내 앨리스와 함께 Laboratory School을 열었다. 이 학교는 경험·탐구·협동을 실제 교육과정에서 시험한 장소였다.[^bio-wiki-dewey][^dewey-1916]
+존 듀이는 1859년 버몬트주 벌링턴에서 태어나 버몬트대학교를 졸업한 뒤 존스홉킨스대학교에서 철학 박사학위를 받았다. 미시간대학교와 미네소타대학교에서 가르친 뒤 시카고대학교로 옮겼고, 1896년에는 아내 앨리스와 함께 Laboratory School을 열었다. 이 학교는 경험·탐구·협동을 실제 교육과정에서 시험한 장소였다.[^bio-wiki-dewey][^pillsbury-dewey-1957][^dewey-1916]
 
 ## 프래그머티즘의 공적 교육
 
-듀이의 교육론은 교실을 사회와 분리된 준비 공간으로 보지 않았다. 1916년 『Democracy and Education』은 지식, 습관, 의사소통, 민주주의를 하나의 교육철학 안에 놓았고, 1930년대 컬럼비아대학교 시기에는 경험의 질과 교육적 성장 문제를 다시 다듬었다. 그는 1904년 컬럼비아대학교 Teachers College에 합류해 1930년대 후반까지 활동했다.[^bio-wiki-dewey][^dewey-1916][^dewey-1938]
+듀이의 교육론은 교실을 사회와 분리된 준비 공간으로 보지 않았다. 1916년 『Democracy and Education』은 지식, 습관, 의사소통, 민주주의를 하나의 교육철학 안에 놓았고, 1930년대 컬럼비아대학교 시기에는 경험의 질과 교육적 성장 문제를 다시 다듬었다. 그는 1904년 컬럼비아대학교 Teachers College에 합류해 1930년대 후반까지 활동했다.[^bio-wiki-dewey][^pillsbury-dewey-1957][^dewey-1916][^dewey-1938]
 
 ## 말년의 국제적 목소리와 유산
 
-듀이는 중국·일본·터키·소련 등에서 강연과 조사 활동을 하며 교육을 민주적 공공성의 문제로 다뤘다. 1952년 뉴욕에서 사망한 뒤에도 경험학습, 프로젝트학습, 반성적 탐구라는 어휘를 통해 교육공학의 설계 질문에 남았다. 다만 현대의 모든 학습자 중심 수업을 듀이의 직접 계승으로 부르는 것은 역사적 매개를 생략할 수 있으므로 구분이 필요하다.[^bio-wiki-dewey][^dewey-1938][^reiser-2017]
+듀이는 중국·일본·터키·소련 등에서 강연과 조사 활동을 하며 교육을 민주적 공공성의 문제로 다뤘다. 1952년 뉴욕에서 사망한 뒤에도 경험학습, 프로젝트학습, 반성적 탐구라는 어휘를 통해 교육공학의 설계 질문에 남았다. 다만 현대의 모든 학습자 중심 수업을 듀이의 직접 계승으로 부르는 것은 역사적 매개를 생략할 수 있으므로 구분이 필요하다.[^bio-wiki-dewey][^pillsbury-dewey-1957][^dewey-1938][^reiser-2017]
 
 ## 당대의 비판
 
@@ -67,6 +67,7 @@ confidence: high
 - [[debates/dewey-thorndike]] — 경험 vs. 측정 (상대: 에드워드 손다이크)[^dewey-1916][^thorndike-1913][^schunk-2012]
 
 [^bio-wiki-dewey]: Wikipedia editors. John Dewey. Wikipedia. <https://en.wikipedia.org/wiki/John_Dewey> — tier C · [[sources/bio-wiki-dewey]]
+[^pillsbury-dewey-1957]: Walter B. Pillsbury. (1957). John Dewey 1859–1952: A Biographical Memoir. National Academy of Sciences. <https://www.nasonline.org/wp-content/uploads/2024/06/dewey-john.pdf> — tier B · [[sources/pillsbury-dewey-1957]]
 [^dewey-1916]: John Dewey. (1916). Democracy and Education. Macmillan. <https://archive.org/details/democracyandeduc00deweuoft> — tier A · [[sources/dewey-1916]]
 [^dewey-1938]: John Dewey. (1938). Experience and Education. Macmillan. <https://archive.org/details/experienceeducat00dewe> — tier A · [[sources/dewey-1938]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]

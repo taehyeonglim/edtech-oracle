@@ -7,7 +7,7 @@ life: 1913—1999
 concepts: [교육목표 분류, 인지적 영역, 완전학습, 평가 정렬]
 related: ["[[debates/bloom-gagne]]", "[[debates/bloom-keller]]", "[[debates/bloom-glaser]]"]
 updated: 2026-08-14
-sources: [bio-wiki-bloom, bloom-1956, bloom-1968, gagne-1965, gagne-1985, glaser-1963, keller-1987, reiser-2017]
+sources: [bio-wiki-bloom, uchicago-bloom-1999, bloom-1956, bloom-1968, gagne-1965, gagne-1985, glaser-1963, keller-1987, reiser-2017, anderson-krathwohl-2001]
 confidence: high
 ---
 
@@ -34,7 +34,7 @@ confidence: high
 
 ## 시카고대학교의 시험과 교육목표
 
-벤저민 새뮤얼 블룸은 1913년 펜실베이니아주 랜스퍼드에서 태어났다. 펜실베이니아주립대학교에서 학사와 석사학위를 받은 뒤 시카고대학교에서 박사학위를 취득했고, 1940년대에는 대학의 시험·평가 업무에 참여했다. 여러 대학의 시험 문항을 비교할 수 있는 공용 언어를 만들려는 문제의식이 분류학 프로젝트의 배경이 되었다.[^bio-wiki-bloom][^bloom-1956]
+벤저민 새뮤얼 블룸은 1913년 펜실베이니아주 랜스퍼드에서 태어났다. 펜실베이니아주립대학교에서 학사와 석사학위를 받은 뒤 시카고대학교에서 박사학위를 취득했고, 1943년부터 1959년까지 시카고대학교 University Examiner로 일하며 학부생의 학위 취득 요건 시험을 개발했다. 여러 대학의 시험 문항을 비교할 수 있는 공용 언어를 만들려는 문제의식이 분류학 프로젝트의 배경이 되었다.[^bio-wiki-bloom][^uchicago-bloom-1999][^bloom-1956]
 
 ## 분류학 위원회와 완전학습
 
@@ -42,7 +42,7 @@ confidence: high
 
 ## 평가를 설계의 중심으로
 
-블룸은 1948년부터 1970년까지 시카고대학교에서 활동했고, 국제 교육평가 연구에도 관여했다. 1999년 시카고에서 사망했으며, 목표·활동·평가의 정렬을 교육설계의 공통 문제로 만든 인물로 기억된다. 그러나 분류학을 수업의 자동 처방전이나 학습의 위계로 사용하면 원래의 평가·의사소통 목적을 벗어날 수 있다.[^bio-wiki-bloom][^bloom-1956][^reiser-2017]
+블룸은 1948년부터 1970년까지 시카고대학교에서 활동했고, 국제 교육평가 연구에도 관여했다. 시카고대학교의 Charles H. Swift Distinguished Service Professor Emeritus였으며, 1999년 9월 13일 시카고 자택에서 86세로 사망했다. 목표·활동·평가의 정렬을 교육설계의 공통 문제로 만든 인물로 기억된다.[^uchicago-bloom-1999] 그러나 분류학을 수업의 자동 처방전이나 학습의 위계로 사용하면 원래의 평가·의사소통 목적을 벗어날 수 있다.[^bio-wiki-bloom][^bloom-1956][^reiser-2017]
 
 ## 당대의 비판
 
@@ -64,7 +64,7 @@ confidence: high
 
 - **1956** Taxonomy — 교육목표의 인지적 영역을 체계화했다.[^bloom-1956]
 - **1968** Learning for Mastery — 완전학습의 수업·평가 조건을 제시했다.[^bloom-1968]
-- **2001** Revised Taxonomy — 후대 연구자들이 분류학을 동사·지식 차원으로 재구성했다.[^bloom-1956]
+- **2001** Revised Taxonomy — 후대 연구자들이 분류학을 동사·지식 차원으로 재구성했다.[^anderson-krathwohl-2001]
 
 ## 대립축
 
@@ -73,6 +73,7 @@ confidence: high
 - [[debates/bloom-glaser]] — 목표 분류와 기준참조 측정 (상대: 로버트 글레이저)[^bloom-1956][^glaser-1963]
 
 [^bio-wiki-bloom]: Wikipedia editors. Benjamin Bloom. Wikipedia. <https://en.wikipedia.org/wiki/Benjamin_Bloom> — tier C · [[sources/bio-wiki-bloom]]
+[^uchicago-bloom-1999]: University of Chicago News Office. (1999). Bloom, influential education researcher. The University of Chicago Chronicle, Vol. 19, No. 1. <https://chronicle.uchicago.edu/990923/bloom.shtml> — tier B · [[sources/uchicago-bloom-1999]]
 [^bloom-1956]: Benjamin S. Bloom (ed.). (1956). Taxonomy of Educational Objectives: The Classification of Educational Goals. Longmans, Green. <https://archive.org/details/taxonomyofeducat0000bloo_o9o7> — tier A · [[sources/bloom-1956]]
 [^bloom-1968]: Benjamin S. Bloom. (1968). Learning for Mastery. UCLA Evaluation Comment. Evaluation Comment, 1(2). <https://eric.ed.gov/?id=ED053419> — tier B · [[sources/bloom-1968]]
 [^gagne-1965]: Robert M. Gagné. (1965). The Conditions of Learning. Holt, Rinehart and Winston. <https://archive.org/details/conditionsoflear0000gagn> — tier A · [[sources/gagne-1965]]
@@ -80,3 +81,4 @@ confidence: high
 [^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier B · [[sources/glaser-1963]]
 [^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier B · [[sources/keller-1987]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]
+[^anderson-krathwohl-2001]: Lorin W. Anderson; David R. Krathwohl (Eds.). (2001). A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives. Longman. <https://openlibrary.org/works/OL16641840W/A_taxonomy_for_learning_teaching_and_assessing> — tier B · [[sources/anderson-krathwohl-2001]]

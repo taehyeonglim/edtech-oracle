@@ -7,7 +7,7 @@ life: 1904—1990
 concepts: [조작적 조건형성, 강화, 프로그램 학습, 교수기계]
 related: ["[[debates/skinner-gagne]]"]
 updated: 2026-08-14
-sources: [bio-wiki-skinner, bruner-1960, gagne-1965, gagne-1985, reiser-2017, schunk-2012, skinner-1954, skinner-1957]
+sources: [bio-wiki-skinner, rachlin-skinner-1995, bruner-1960, gagne-1965, gagne-1985, reiser-2017, schunk-2012, skinner-1954, skinner-1957]
 confidence: high
 ---
 
@@ -34,7 +34,7 @@ confidence: high
 
 ## 문학도에서 행동분석가로
 
-버러스 프레더릭 스키너는 1904년 펜실베이니아주 서스쿼해나에서 태어났다. 해밀턴대학교에서 영문학을 공부한 뒤 작가를 꿈꾸었지만, 존 왓슨과 이반 파블로프의 연구를 접하며 심리학으로 방향을 바꾸었다. 하버드대학교에서 박사학위를 받은 뒤 미네소타대학교와 인디애나대학교를 거쳐 1948년 하버드로 돌아왔다.[^bio-wiki-skinner][^skinner-1954]
+버러스 프레더릭 스키너는 1904년 펜실베이니아주 서스쿼해나에서 태어났다. 해밀턴대학교에서 영문학을 공부한 뒤 작가를 꿈꾸었지만, 존 왓슨과 이반 파블로프의 연구를 접하며 심리학으로 방향을 바꾸었다. 하버드대학교에서 박사학위를 받은 뒤 미네소타대학교와 인디애나대학교를 거쳐 1948년 하버드로 돌아왔다.[^bio-wiki-skinner][^rachlin-skinner-1995][^skinner-1954]
 
 ## 전쟁·실험실·교수기계
 
@@ -42,7 +42,7 @@ confidence: high
 
 ## 급진적 행동주의의 공과
 
-『Verbal Behavior』(1957), 『Beyond Freedom and Dignity』(1971) 등에서 스키너는 언어와 사회행동도 결과의 역사로 분석할 수 있다고 주장했다. 1990년 매사추세츠주 케임브리지에서 사망한 뒤에도 즉각 피드백·작은 수행 단위·강화 구조는 교육기술에 남았다. 반면 언어, 의미, 사회문화적 맥락을 행동 결과만으로 설명할 수 있는지를 둘러싼 논쟁은 그의 유산을 읽을 때 빠뜨릴 수 없다.[^bio-wiki-skinner][^skinner-1954][^skinner-1957][^schunk-2012]
+『Verbal Behavior』(1957), 『Beyond Freedom and Dignity』(1971) 등에서 스키너는 언어와 사회행동도 결과의 역사로 분석할 수 있다고 주장했다. 1990년 매사추세츠주 케임브리지에서 사망한 뒤에도[^rachlin-skinner-1995] 즉각 피드백·작은 수행 단위·강화 구조는 교육기술에 남았다. 반면 언어, 의미, 사회문화적 맥락을 행동 결과만으로 설명할 수 있는지를 둘러싼 논쟁은 그의 유산을 읽을 때 빠뜨릴 수 없다.[^bio-wiki-skinner][^skinner-1954][^skinner-1957][^schunk-2012]
 
 ## 당대의 비판
 
@@ -67,6 +67,7 @@ confidence: high
 - [[debates/skinner-gagne]] — 행동 단위와 학습 조건 (상대: 로버트 가녜)[^skinner-1954][^gagne-1965][^gagne-1985]
 
 [^bio-wiki-skinner]: Wikipedia editors. B. F. Skinner. Wikipedia. <https://en.wikipedia.org/wiki/B._F._Skinner> — tier C · [[sources/bio-wiki-skinner]]
+[^rachlin-skinner-1995]: Howard Rachlin. (1995). B. F. Skinner (Biographical Memoirs, Vol. 67). National Academy of Sciences. <https://www.nationalacademies.org/read/4894/chapter/19> — tier B · [[sources/rachlin-skinner-1995]]
 [^bruner-1960]: Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <https://archive.org/details/processofeducati00brun> — tier A · [[sources/bruner-1960]]
 [^gagne-1965]: Robert M. Gagné. (1965). The Conditions of Learning. Holt, Rinehart and Winston. <https://archive.org/details/conditionsoflear0000gagn> — tier A · [[sources/gagne-1965]]
 [^gagne-1985]: Robert M. Gagné; Leslie J. Briggs; Walter W. Wager. (1985). Principles of Instructional Design. Holt, Rinehart and Winston. <https://archive.org/details/principlesofinst0000gagn> — tier B · [[sources/gagne-1985]]

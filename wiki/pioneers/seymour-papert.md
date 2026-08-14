@@ -7,7 +7,7 @@ life: 1928—2016
 concepts: [Constructionism, Logo, 강력한 아이디어, 만들며 배우기]
 related: ["[[debates/vygotsky-papert]]", "[[debates/papert-mayer]]", "[[debates/jonassen-papert]]", "[[debates/scardamalia-papert]]"]
 updated: 2026-08-14
-sources: [bio-papert-mit, bio-wiki-papert, dewey-1938, jonassen-2000, mayer-1997, mayer-2005, papert-1980, reiser-2017, scardamalia-1989, scardamalia-1994, sweller-1988, vygotsky-1978]
+sources: [bio-papert-mit, bio-wiki-papert, mitnews-papert-2016, dewey-1938, jonassen-2000, mayer-1997, mayer-2005, papert-1980, papert-1993, reiser-2017, scardamalia-1989, scardamalia-1994, sweller-1988, vygotsky-1978]
 confidence: high
 ---
 
@@ -37,11 +37,11 @@ Papert는 지식이 학습자의 머릿속에서 구성된다는 구성주의를
 
 ## 인공지능과 Logo
 
-파퍼트는 1963년 MIT에 합류해 Marvin Minsky와 인공지능 연구를 했고, 1960년대 후반 Logo 프로그래밍 언어와 거북이 그래픽을 어린이의 수학적 사고 도구로 발전시켰다. MIT AI Laboratory와 이후 Media Lab에서 활동하며 컴퓨터를 지식을 전달하는 장치가 아니라, 학습자가 아이디어를 만들고 디버깅하는 재료로 해석했다.[^bio-wiki-papert][^papert-1980][^bio-papert-mit]
+파퍼트는 1963년 MIT에 합류해 Marvin Minsky와 인공지능 연구를 했고, 1960년대 후반 Logo 프로그래밍 언어와 거북이 그래픽을 어린이의 수학적 사고 도구로 발전시켰다. MIT AI Laboratory와 이후 Media Lab의 창립 교수진으로 활동하며 컴퓨터를 지식을 전달하는 장치가 아니라, 학습자가 아이디어를 만들고 디버깅하는 재료로 해석했다.[^bio-wiki-papert][^papert-1980][^bio-papert-mit][^mitnews-papert-2016]
 
 ## Constructionism의 유산
 
-1980년 『Mindstorms』는 컴퓨터·어린이·강력한 아이디어의 관계를 대중화했고, 이후 LEGO와의 협력은 제작·로봇·프로그래밍 학습으로 확장되었다. 파퍼트는 2016년 미국 메인주에서 사망했다. 그의 Constructionism은 듀이·피아제·비고츠키와 대화할 수 있지만, 모든 만들기 활동을 자동으로 구성주의 학습이라고 부르지는 않는다.[^bio-wiki-papert][^papert-1980][^bio-papert-mit][^dewey-1938]
+1980년 『Mindstorms』는 컴퓨터·어린이·강력한 아이디어의 관계를 대중화했고, 이후 LEGO와의 협력은 제작·로봇·프로그래밍 학습으로 확장되었다. 파퍼트는 2016년 미국 메인주에서 88세로 사망했다.[^mitnews-papert-2016] 그의 Constructionism은 듀이·피아제·비고츠키와 대화할 수 있지만, 모든 만들기 활동을 자동으로 구성주의 학습이라고 부르지는 않는다.[^bio-wiki-papert][^papert-1980][^bio-papert-mit][^dewey-1938]
 
 ## 당대의 비판
 
@@ -61,7 +61,7 @@ Papert는 지식이 학습자의 머릿속에서 구성된다는 구성주의를
 
 - **1967** Logo turtle — 프로그래밍을 어린이의 수학적 탐구 도구로 발전시켰다.[^papert-1980]
 - **1980** Mindstorms — 컴퓨터와 강력한 아이디어를 통한 학습을 이론화했다.[^papert-1980]
-- **1993** The Children’s Machine — 학교와 컴퓨터의 관계를 다시 상상했다.[^papert-1980]
+- **1993** The Children’s Machine — 학교와 컴퓨터의 관계를 다시 상상했다.[^papert-1993]
 
 ## 대립축
 
@@ -72,11 +72,13 @@ Papert는 지식이 학습자의 머릿속에서 구성된다는 구성주의를
 
 [^bio-papert-mit]: Yasmin Kafai / MIT Press. A Tribute to Seymour Papert. MIT Press. <https://mitpress.mit.edu/a-tribute-to-seymour-papert/> — tier B · [[sources/bio-papert-mit]]
 [^bio-wiki-papert]: Wikipedia editors. Seymour Papert. Wikipedia. <https://en.wikipedia.org/wiki/Seymour_Papert> — tier C · [[sources/bio-wiki-papert]]
+[^mitnews-papert-2016]: MIT News Office. (2016). Seymour Papert, pioneer of constructionist learning, dies at 88. MIT News. <https://news.mit.edu/2016/seymour-papert-pioneer-of-constructionist-learning-dies-0801> — tier B · [[sources/mitnews-papert-2016]]
 [^dewey-1938]: John Dewey. (1938). Experience and Education. Macmillan. <https://archive.org/details/experienceeducat00dewe> — tier A · [[sources/dewey-1938]]
 [^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier B · [[sources/jonassen-2000]]
 [^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1997). A Split-Attention Effect in Multimedia Learning. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier B · [[sources/mayer-1997]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]
+[^papert-1993]: Seymour Papert. (1993). The Children's Machine: Rethinking School in the Age of the Computer. Basic Books. <https://archive.org/details/childrensmachine00seym> — tier A · [[sources/papert-1993]]
 [^scardamalia-1989]: Marlene Scardamalia; Carl Bereiter; Robert S. McLean et al.. (1989). Computer-Supported Intentional Learning Environments. Journal of Educational Computing Research, 5(1). DOI: 10.2190/CYXD-6XG4-UFN5-YFB0. <https://doi.org/10.2190/CYXD-6XG4-UFN5-YFB0> — tier B · [[sources/scardamalia-1989]]
 [^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier B · [[sources/scardamalia-1994]]
 [^vygotsky-1978]: L. S. Vygotsky; ed. Michael Cole et al.. (1978). Mind in Society: The Development of Higher Psychological Processes. Harvard University Press. <https://www.hup.harvard.edu/books/9780674576292> — tier B · [[sources/vygotsky-1978]]

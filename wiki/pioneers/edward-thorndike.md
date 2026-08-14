@@ -7,7 +7,7 @@ life: 1874—1949
 concepts: [효과의 법칙, 연결주의, 전이, 교육 측정]
 related: ["[[debates/dewey-thorndike]]"]
 updated: 2026-08-14
-sources: [bio-wiki-thorndike, dewey-1916, reiser-2017, schunk-2012, skinner-1954, thorndike-1913]
+sources: [bio-wiki-thorndike, woodworth-thorndike-1952, dewey-1916, reiser-2017, schunk-2012, skinner-1954, thorndike-1913]
 confidence: high
 ---
 
@@ -33,15 +33,15 @@ confidence: high
 
 ## 하버드의 문제상자와 동물지능 연구
 
-에드워드 리 손다이크는 1874년 매사추세츠 윌리엄스버그에서 태어났다. 웨슬리언대학교를 거쳐 하버드대학교에서 윌리엄 제임스의 강의를 들었고, 컬럼비아대학교에서 제임스 맥킨 캐텔의 지도로 박사 연구를 마쳤다. 1898년 발표한 동물지능 연구는 문제상자에서 고양이가 시행착오를 거쳐 반응을 선택하는 과정을 기록했다.[^bio-wiki-thorndike][^thorndike-1913]
+에드워드 리 손다이크는 1874년 매사추세츠 윌리엄스버그에서 태어났다. 웨슬리언대학교를 거쳐 하버드대학교에서 윌리엄 제임스의 강의를 들었고, 컬럼비아대학교에서 제임스 맥킨 캐텔의 지도로 박사 연구를 마쳤다. 1898년 발표한 동물지능 연구는 문제상자에서 고양이가 시행착오를 거쳐 반응을 선택하는 과정을 기록했다.[^bio-wiki-thorndike][^woodworth-thorndike-1952][^thorndike-1913]
 
 ## 교사교육과 측정의 제도화
 
-손다이크는 컬럼비아대학교 Teachers College에서 오랜 기간 활동하며 교육심리학을 학교 측정과 연결했다. 1903년부터 교육심리학을 체계적으로 출판했고, 1913년 『Educational Psychology』에서는 인간의 원래 능력, 학습, 전이를 실험과 수량화의 언어로 정리했다. 이 시기 연구는 교육을 과학적 측정의 대상으로 만들었지만, 교육의 가치와 맥락을 수치로 환원할 위험도 동시에 키웠다.[^bio-wiki-thorndike][^thorndike-1913][^schunk-2012]
+손다이크는 컬럼비아대학교 Teachers College에서 오랜 기간 활동하며 교육심리학을 학교 측정과 연결했다. 1903년부터 교육심리학을 체계적으로 출판했고, 1913년 『Educational Psychology』에서는 인간의 원래 능력, 학습, 전이를 실험과 수량화의 언어로 정리했다. 이 시기 연구는 교육을 과학적 측정의 대상으로 만들었지만, 교육의 가치와 맥락을 수치로 환원할 위험도 동시에 키웠다.[^bio-wiki-thorndike][^woodworth-thorndike-1952][^thorndike-1913][^schunk-2012]
 
 ## 효과의 법칙 이후
 
-손다이크의 효과의 법칙은 만족스러운 결과를 따르는 반응이 상황과 더 강하게 연결된다는 주장으로 요약된다. 이 개념은 스키너의 행동분석으로 단순히 직선 계승된 것이 아니라, 실험심리학과 교육평가를 거치며 여러 차례 재해석되었다. 그는 1949년 뉴욕에서 사망했으며, 오늘날에는 연습·피드백·수행측정의 역사적 계보에서 읽는 것이 적절하다.[^bio-wiki-thorndike][^thorndike-1913][^skinner-1954]
+손다이크의 효과의 법칙은 만족스러운 결과를 따르는 반응이 상황과 더 강하게 연결된다는 주장으로 요약된다. 이 개념은 스키너의 행동분석으로 단순히 직선 계승된 것이 아니라, 실험심리학과 교육평가를 거치며 여러 차례 재해석되었다. 그는 1949년 뉴욕에서 사망했으며, 오늘날에는 연습·피드백·수행측정의 역사적 계보에서 읽는 것이 적절하다.[^bio-wiki-thorndike][^woodworth-thorndike-1952][^thorndike-1913][^skinner-1954]
 
 ## 당대의 비판
 
@@ -66,6 +66,7 @@ confidence: high
 - [[debates/dewey-thorndike]] — 경험 vs. 측정 (상대: 존 듀이)[^dewey-1916][^thorndike-1913][^schunk-2012]
 
 [^bio-wiki-thorndike]: Wikipedia editors. Edward Thorndike. Wikipedia. <https://en.wikipedia.org/wiki/Edward_Thorndike> — tier C · [[sources/bio-wiki-thorndike]]
+[^woodworth-thorndike-1952]: Robert S. Woodworth. (1952). Edward Lee Thorndike: A Biographical Memoir. National Academy of Sciences. <https://www.nasonline.org/wp-content/uploads/2024/06/thorndike-edward-1.pdf> — tier B · [[sources/woodworth-thorndike-1952]]
 [^dewey-1916]: John Dewey. (1916). Democracy and Education. Macmillan. <https://archive.org/details/democracyandeduc00deweuoft> — tier A · [[sources/dewey-1916]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]
 [^schunk-2012]: Dale H. Schunk. (2012). Learning Theories: An Educational Perspective. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303> — tier B · [[sources/schunk-2012]]

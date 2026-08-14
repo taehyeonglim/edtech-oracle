@@ -7,7 +7,7 @@ life: 1916—2002
 concepts: [학습 결과, 아홉 가지 수업사태, 내적 조건, 외적 조건]
 related: ["[[debates/skinner-gagne]]", "[[debates/bloom-gagne]]", "[[debates/mager-gagne]]", "[[debates/gagne-glaser]]"]
 updated: 2026-08-14
-sources: [bio-gagne-open-text, bio-wiki-gagne, bloom-1956, gagne-1965, gagne-1985, glaser-1963, glaser-1984, jonassen-1991, mager-1962, merrienboer-2002, papert-1980, reiser-2017, skinner-1954]
+sources: [bio-gagne-open-text, bio-wiki-gagne, rothkopf-gagne-2002, bloom-1956, gagne-1965, gagne-1974, gagne-1985, glaser-1963, glaser-1984, jonassen-1991, mager-1962, merrienboer-2002, papert-1980, reiser-2017, skinner-1954]
 confidence: high
 ---
 
@@ -42,7 +42,7 @@ confidence: high
 
 ## 학습의 조건과 유산
 
-『The Conditions of Learning』(1965)은 학습 결과의 유형과 내·외적 조건을 분리해 제시했고, 이후 판본과 Briggs·Wager와의 공동 저술은 이를 교수설계의 실천 언어로 확장했다. 가녜는 2002년 테네시주 시그널 마운틴에서 사망했다. 그의 모델은 행동주의와 인지주의 사이의 절충으로 읽을 수 있지만, 모든 수업을 아홉 단계로 기계적으로 배열하는 해석은 원전의 조건적 성격을 축소한다.[^bio-wiki-gagne][^bio-gagne-open-text][^gagne-1965][^gagne-1985]
+『The Conditions of Learning』(1965)은 학습 결과의 유형과 내·외적 조건을 분리해 제시했고, 이후 판본과 Briggs·Wager와의 공동 저술은 이를 교수설계의 실천 언어로 확장했다. 가녜는 2002년 4월 28일 테네시주 시그널 마운틴에서 85세로 사망했다.[^rothkopf-gagne-2002] 그의 모델은 행동주의와 인지주의 사이의 절충으로 읽을 수 있지만, 모든 수업을 아홉 단계로 기계적으로 배열하는 해석은 원전의 조건적 성격을 축소한다.[^bio-wiki-gagne][^bio-gagne-open-text][^gagne-1965][^gagne-1985]
 
 ## 당대의 비판
 
@@ -63,7 +63,7 @@ confidence: high
 ## 연표
 
 - **1965** The Conditions of Learning — 학습 결과와 학습 조건의 관계를 체계화했다.[^gagne-1965]
-- **1974** Essentials of Learning — 학습의 내·외적 조건을 교육심리학의 언어로 정리했다.[^gagne-1965]
+- **1974** Essentials of Learning — 학습의 내·외적 조건을 교육심리학의 언어로 정리했다.[^gagne-1974]
 - **1985** Principles of Instructional Design — 교수설계 원리를 실천적 체계로 확장했다.[^gagne-1985]
 
 ## 대립축
@@ -73,10 +73,12 @@ confidence: high
 - [[debates/mager-gagne]] — 수행목표와 학습 결과 (상대: 로버트 메이거)[^mager-1962][^gagne-1965][^gagne-1985]
 - [[debates/gagne-glaser]] — 학습 조건과 교수심리 (상대: 로버트 글레이저)[^gagne-1985][^glaser-1963][^glaser-1984]
 
+[^rothkopf-gagne-2002]: Ernst Z. Rothkopf. (2002). In Appreciation: Robert Mills Gagné (1916–2002). Observer, Association for Psychological Science. <https://www.psychologicalscience.org/observer/in-appreciation-robert-mills-gagne-1916-2002> — tier B · [[sources/rothkopf-gagne-2002]]
 [^bio-gagne-open-text]: John H. Curry; Sacha Johnson; Rebeca Peacock. Robert Gagné and the Systematic Design of Instruction. BYU / LibreTexts. <https://socialsci.libretexts.org/Bookshelves/Education_and_Professional_Development/Design_for_Learning_-_Principles_Processes_and_Praxis_%28McDonald_and_West%29/02%3A_Instructional_Design_Knowledge/06%3A_Instructional_Design_Processes/6.02%3A_Robert_Gagne_And_The_Systematic_Design_Of_Instruction> — tier B · [[sources/bio-gagne-open-text]]
 [^bio-wiki-gagne]: Wikipedia editors. Robert M. Gagné. Wikipedia. <https://en.wikipedia.org/wiki/Robert_M._Gagn%C3%A9> — tier C · [[sources/bio-wiki-gagne]]
 [^bloom-1956]: Benjamin S. Bloom (ed.). (1956). Taxonomy of Educational Objectives: The Classification of Educational Goals. Longmans, Green. <https://archive.org/details/taxonomyofeducat0000bloo_o9o7> — tier A · [[sources/bloom-1956]]
 [^gagne-1965]: Robert M. Gagné. (1965). The Conditions of Learning. Holt, Rinehart and Winston. <https://archive.org/details/conditionsoflear0000gagn> — tier A · [[sources/gagne-1965]]
+[^gagne-1974]: Robert M. Gagné. (1974). Essentials of Learning for Instruction. Dryden Press. <https://archive.org/details/essentialsoflear0000gagn_y0y6> — tier A · [[sources/gagne-1974]]
 [^gagne-1985]: Robert M. Gagné; Leslie J. Briggs; Walter W. Wager. (1985). Principles of Instructional Design. Holt, Rinehart and Winston. <https://archive.org/details/principlesofinst0000gagn> — tier B · [[sources/gagne-1985]]
 [^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier B · [[sources/glaser-1963]]
 [^glaser-1984]: Robert Glaser. (1984). Education and Thinking: The Role of Knowledge. American Psychologist, 39(2). DOI: 10.1037/0003-066X.39.2.93. <https://doi.org/10.1037/0003-066X.39.2.93> — tier B · [[sources/glaser-1984]]

@@ -7,7 +7,7 @@ life: 1925—2021
 concepts: [관찰학습, 자기효능감, 상호결정론, 대리강화]
 related: ["[[debates/vygotsky-bandura]]", "[[debates/bandura-keller]]"]
 updated: 2026-08-14
-sources: [bandura-1977, bandura-1997, bio-wiki-bandura, keller-1987, schunk-2012, vygotsky-1978]
+sources: [bandura-1977, bandura-1997, bio-wiki-bandura, ozer-bandura-2022, keller-1987, schunk-2012, vygotsky-1978]
 confidence: high
 ---
 
@@ -34,7 +34,7 @@ confidence: high
 
 ## 앨버타에서 스탠퍼드로
 
-앨버트 반두라는 1925년 캐나다 앨버타주 문데어에서 태어났다. 브리티시컬럼비아대학교에서 심리학을 공부하고 아이오와대학교에서 임상심리학 박사학위를 받은 뒤, 1953년 스탠퍼드대학교 교수로 합류해 평생 연구를 이어갔다. 그는 관찰된 행동이 단순 모방을 넘어 인지·정서·자기조절과 함께 작동한다고 보았다.[^bio-wiki-bandura][^bandura-1977]
+앨버트 반두라는 1925년 캐나다 앨버타주 문데어에서 태어났다. 브리티시컬럼비아대학교에서 심리학을 공부하고 아이오와대학교에서 임상심리학 박사학위를 받은 뒤, 1953년 스탠퍼드대학교 교수로 합류해 평생 연구를 이어갔다.[^bio-wiki-bandura][^ozer-bandura-2022] 그는 관찰된 행동이 단순 모방을 넘어 인지·정서·자기조절과 함께 작동한다고 보았다.[^bandura-1977]
 
 ## 보보 인형 실험과 사회학습
 
@@ -42,7 +42,7 @@ confidence: high
 
 ## 자기효능감과 말년의 영향
 
-『Self-Efficacy: The Exercise of Control』(1997)은 성공 경험, 대리 경험, 언어적 설득, 정서 상태가 과제를 해낼 수 있다는 믿음에 미치는 영향을 종합했다. 반두라는 스탠퍼드에서 명예교수로 활동하며 교육·건강·조직 연구에 영향을 주었고, 2021년 캘리포니아주 스탠퍼드에서 사망했다. 자기효능감은 동기 설계와 연결되지만 ARCS의 자신감과 동일한 개념은 아니다.[^bio-wiki-bandura][^bandura-1997][^keller-1987]
+『Self-Efficacy: The Exercise of Control』(1997)은 성공 경험, 대리 경험, 언어적 설득, 정서 상태가 과제를 해낼 수 있다는 믿음에 미치는 영향을 종합했다. 반두라는 스탠퍼드에서 명예교수로 활동하며 교육·건강·조직 연구에 영향을 주었고, 2021년 캘리포니아주 스탠퍼드에서 사망했다.[^ozer-bandura-2022] 자기효능감은 동기 설계와 연결되지만 ARCS의 자신감과 동일한 개념은 아니다.[^bio-wiki-bandura][^bandura-1997][^keller-1987]
 
 ## 당대의 비판
 
@@ -70,6 +70,7 @@ confidence: high
 [^bandura-1977]: Albert Bandura. (1977). Social Learning Theory. Prentice Hall. <https://archive.org/details/sociallearningth00band> — tier A · [[sources/bandura-1977]]
 [^bandura-1997]: Albert Bandura. (1997). Self-Efficacy: The Exercise of Control. W. H. Freeman. <https://archive.org/details/selfefficacyexer0000band> — tier A · [[sources/bandura-1997]]
 [^bio-wiki-bandura]: Wikipedia editors. Albert Bandura. Wikipedia. <https://en.wikipedia.org/wiki/Albert_Bandura> — tier C · [[sources/bio-wiki-bandura]]
+[^ozer-bandura-2022]: Elizabeth M. Ozer. (2022). Albert Bandura (1925–2021). American Psychologist. <https://escholarship.org/uc/item/8pw310xd> — tier B · [[sources/ozer-bandura-2022]]
 [^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier B · [[sources/keller-1987]]
 [^schunk-2012]: Dale H. Schunk. (2012). Learning Theories: An Educational Perspective. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303> — tier B · [[sources/schunk-2012]]
 [^vygotsky-1978]: L. S. Vygotsky; ed. Michael Cole et al.. (1978). Mind in Society: The Development of Higher Psychological Processes. Harvard University Press. <https://www.hup.harvard.edu/books/9780674576292> — tier B · [[sources/vygotsky-1978]]
