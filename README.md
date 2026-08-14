@@ -1,5 +1,7 @@
 # 에듀테크 오라클
 
+**[근거 위키 열람 → taehyeonglim.github.io/edtech-oracle](https://taehyeonglim.github.io/edtech-oracle/)**
+
 에듀테크에 관해 물으면 **교육공학의 위인 36인이 등장해 학술적 근거를 인용하며** 답한다. 한 명이 답하기도 하고 여러 명이 갈리기도 하며, 서로 토론하기도 한다.
 
 선행 프로젝트 [edtech-pantheon](https://github.com/taehyeonglim/edtech-pantheon)이 교육공학을 **읽는** 아카이브라면, 오라클은 같은 근거로 **말하는** 시스템이다.
@@ -75,10 +77,10 @@ wiki/
 "모든 말에 근거를 인용한다"는 주장을 눈으로 따라갈 수가 없다. 전체 위키링크 905개 중
 **509개(56%)가 각주 안의 출처 링크**라 손실이 특히 크다.
 
-정적 사이트가 그 경로를 연다.
+정적 사이트가 그 경로를 연다 — **<https://taehyeonglim.github.io/edtech-oracle/>**
 
 ```bash
-npm run preview     # 빌드 + http://localhost:4173
+npm run preview     # 로컬에서 빌드 + http://localhost:4173
 ```
 
 - **본문 → 각주 → 출처 → 인용처**의 왕복이 닫힌다. 출처 페이지는 `related`가 없어
