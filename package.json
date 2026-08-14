@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "test": "node --test \"test/*.test.mjs\"",
     "lint": "node scripts/lint-wiki.mjs",
     "lint:strict": "node scripts/lint-wiki.mjs --strict",
     "import": "tsx scripts/import-pantheon.mts",
-    "gen-agents": "node scripts/gen-agents.mjs"
+    "gen-agents": "node scripts/gen-agents.mjs",
+    "build": "node scripts/build-site.mjs --out dist",
+    "serve": "node scripts/serve.mjs dist 4173",
+    "preview": "npm run build && npm run serve"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",
+    "markdown-it": "^15.0.0",
+    "markdown-it-footnote": "^4.0.0",
     "tsx": "^4.19.2"
   }
 }
