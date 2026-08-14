@@ -141,16 +141,28 @@ pantheon 체계를 계승한다.
 
 4분할한다.
 
-| 디렉터리 | 역할 | 생성 규칙 |
-|---|---|---|
-| `pioneers/` | 위인의 정체성과 **자기 입장** | pantheon 36인 |
-| `concepts/` | 개념 정본 | **2인 이상이 공유하는 개념만.** 1인 전용 개념은 위인 페이지에 인라인 |
-| `debates/` | 대립축 | pantheon `relationships` 중 `layer: "comparison"` |
-| `sources/` | 출처 요약 | `sources.json` 항목 중 위키가 실제 인용하는 것 |
+| 디렉터리 | 역할 | 생성 규칙 | 초기 개수 |
+|---|---|---|---|
+| `pioneers/` | 위인의 정체성과 **자기 입장** | pantheon 36인 | 36 |
+| `concepts/` | 개념 정본 | 유기적 성장 (§5.1) | 3 → 증가 |
+| `debates/` | 대립축 | `relationships` 중 `layer: "comparison"` | 34 |
+| `sources/` | 출처 요약 | 위키가 실제 인용하는 출처만 | ≤124 |
 
 위인 페이지는 개념 정의를 쓰지 않고 `[[concepts/cognitive-load]]`로 링크한 뒤 **그 개념에 대한 자기 입장만** 쓴다. Sweller와 Mayer가 인지부하를 공유해도 정의는 한 곳에만 존재하므로, 두 페이지가 서로 모순되는 정의를 갖는 사태를 구조로 차단한다.
 
-`concepts/`를 "2인 이상 공유"로 제한하는 이유: pantheon 36인의 `concepts[]`를 전부 펼치면 대부분 1회만 등장하는 항목이라 고아 스텁이 대량 생성된다(lint 7 위반).
+### 5.1 concepts/는 유기적으로 자란다
+
+**pantheon에는 통제 어휘가 없다.** 실측 결과 `concepts[]` 고유값 141개 중 2인 이상이 공유하는 것은 **3개**뿐이고(교수기계 · 수행 격차 · 실천공동체), `domains` · `school` · `era`도 대부분 1인 전용이다. 전부 페이지로 만들면 고아 스텁 138개가 생기고(규칙 7 위반), 기계적 공유 추출만 쓰면 개념 계층이 3개로 붕괴한다.
+
+따라서 3단계로 자란다.
+
+1. **이관** — 기계적으로 공유되는 3개만 생성
+2. **파일럿** — 가네 · 파퍼트 · 메이어가 실제로 필요로 하는 개념만 근거와 함께 생성
+3. **확장** — codex는 **이미 존재하는 개념 페이지에만 링크**한다. 새 개념은 프론트매터 `proposed_concepts: [...]`로 **제안만** 하고 링크하지 않는다. Claude가 검토해 승인한 것만 페이지로 만든다.
+
+3단계의 제약이 핵심이다. codex가 자유롭게 개념 페이지를 만들면 33인 × 평균 4개 = 130여 개의 중복·날조 개념이 생긴다. 링크를 금지하면 규칙 5(깨진 링크)에도 걸리지 않는다.
+
+교육공학의 실제 쟁점 지도는 `debates/` 34개가 이미 담고 있다 — `clark-kozma 매체 효과 논쟁`, `papert-mayer 만들며 배우기 vs. 설명을 통한 학습` 등 전부 라벨과 `sourceIds`를 갖추고 있다. 개념 계층이 얇게 출발해도 토론 기능은 1일차부터 동작한다.
 
 ## 6. 시대 격차 — 3마커 체계
 
@@ -286,15 +298,21 @@ raw/에 자료 투입
 
 ### 9.1 이관 방식
 
-`scripts/import-pantheon.mts`는 `npx tsx`로 실행하며 pantheon의 `src/data/*.ts`를 직접 import한다(경로는 `PANTHEON_PATH`, 기본 `../edtech-pantheon`). 해당 데이터 모듈은 타입과 형제 모듈만 import하므로 Astro 런타임 없이 로드된다.
+`scripts/import-pantheon.mts`는 `tsx`로 실행하며 pantheon의 `src/data/*.ts`를 직접 import한다(경로는 `PANTHEON_PATH`, 기본 `../edtech-pantheon`).
+
+**Node 기본 타입 스트리핑으로는 안 된다** — pantheon 모듈이 `import { expandedPioneers } from "./pioneers-expansion"`처럼 확장자 없는 값 import를 쓰는데 Node ESM은 확장자를 요구한다. `tsx`는 이를 해석한다. 실측 검증 완료(2026-08-14): `pioneers 36 · sources 124 · relationships 54 · biographies 36` 정상 로드.
 
 산출:
-- `wiki/pioneers/*.md` 36 — `sections[]` → `##` 섹션, `sourceIds` → 각주
-- `sources.json` 124 — `Source` 타입 그대로 + tier
-- `wiki/sources/*.md` — 실제 인용되는 출처만
-- `wiki/debates/*.md` — `relationships` 중 `layer: "comparison"`
-- `wiki/concepts/*.md` — 2인 이상 공유 개념만
-- `wiki/router-map.md` — `domains` · `concepts` → 위인 매핑
+
+| 산출물 | 개수 | 원천 |
+|---|---|---|
+| `wiki/pioneers/*.md` | 36 | `pioneers` + `biographies` — `sections[]`·전기 → `##` 섹션, `sourceIds` → 각주 |
+| `sources.json` | 124 | `sources` 그대로 (tier 포함) |
+| `wiki/sources/*.md` | ≤124 | 위키가 실제 인용하는 id만. 미인용 id는 경고 출력 |
+| `wiki/debates/*.md` | 34 | `relationships` 중 `layer: "comparison"` |
+| `wiki/concepts/*.md` | 3 | 2인 이상 공유 개념 (§5.1) |
+| `wiki/router-map.md` | 1 | `domains` · `concepts` · `debates` → 위인 매핑 |
+| `wiki/index.md` · `log.md` · `KNOWN-ISSUES.md` | 3 | `type: meta` |
 
 ### 9.2 파일럿 3인
 
