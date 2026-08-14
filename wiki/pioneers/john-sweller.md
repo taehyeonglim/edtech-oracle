@@ -7,7 +7,7 @@ life: 1946—
 concepts: [인지부하, 해결 예제, 주의분할, 전문성 역전]
 related: []
 updated: 2026-08-14
-sources: [bio-sweller-unsw, sweller-1988, sweller-2011, sweller-2016-story]
+sources: [bio-sweller-unsw, jonassen-2000, merrienboer-2002, sweller-1988, sweller-2011, sweller-2016-story]
 confidence: high
 ---
 
@@ -44,6 +44,18 @@ confidence: high
 
 인지부하 이론은 화면을 무조건 단순하게 만들라는 미학적 규칙이 아니다. 과제의 요소 상호작용, 학습자의 사전지식, 정보의 시간적·공간적 배치를 함께 분석해야 한다. 초보자에게 도움이 되는 완성 예제가 전문가에게는 불필요할 수 있다는 전문성 역전 효과는 설계 원리가 학습자 상태에 따라 달라진다는 점을 보여준다.[^bio-sweller-unsw][^sweller-2011]
 
+## 당대의 비판
+
+조나센은 문제해결을 단일한 일반 전략으로 다루지 않고, 문제 유형·표상·영역 지식에 따른 설계 이론으로 접근했다.[^jonassen-2000] 문제해결에서 생기는 부담을 줄이는 데 초점을 둔 스웰러의 설명[^sweller-1988]에 대해서는, 부담을 줄이는 것만으로 학습과 문제해결을 설명할 수 없으며 무엇을 어떻게 표상하고 어떤 지식을 동원하는지가 중요하다는 반론이 제기된다.[^jonassen-2000]
+
+반 메리엔보어·클라크·드 크룩은 4C/ID 모형에서 복합기술을 전체 과제, 지원 정보, 절차 정보, 부분과제 연습의 결합으로 설계했다.[^merrienboer-2002] 이 접근은 복합 수행의 통합과 전이를 인지부하 관리만으로 환원하지 말고 과제 전체와 반복적 수행을 함께 다뤄야 한다고 주장한다.[^merrienboer-2002][^sweller-2011]
+
+## 한계
+
+스웰러의 이론은 작업기억의 용량, 요소 상호작용, 장기기억 도식, 사전지식을 설계의 출발점으로 삼는다. 따라서 동기, 정체성, 사회적 참여처럼 인지부하의 구조로 환원되지 않는 학습 조건을 독립적으로 설명하는 이론은 아니다.[^sweller-2011]
+
+고유부하는 과제의 요소 상호작용과 학습자 전문성에 따라 달라지므로, 한 자료가 모든 학습자에게 동일한 난이도나 동일한 부하를 갖지 않는다. 초보자에게 유효한 해결 예제나 단순화 규칙을 전문가에게 그대로 적용하거나 학습에 필요한 복잡성까지 제거하면 전문성 역전과 과소도전이 생길 수 있다.[^sweller-1988][^sweller-2011]
+
 ## 연표
 
 - **1972** 애들레이드대학교 박사 — 심리학 박사학위를 받고 문제해결과 인지과정 연구를 발전시켰다.[^bio-sweller-unsw]
@@ -51,6 +63,8 @@ confidence: high
 - **2011** Cognitive Load Theory — 30여 년의 연구와 교수설계 효과를 연구서로 종합했다.[^sweller-2011]
 
 [^bio-sweller-unsw]: School of Education. Emeritus Professor John Sweller. UNSW Sydney. <https://www.unsw.edu.au/staff/john-sweller> — tier B · [[sources/bio-sweller-unsw]]
+[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier B · [[sources/jonassen-2000]]
+[^merrienboer-2002]: Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock. (2002). Blueprints for Complex Learning: The 4C/ID-model. Educational Technology Research and Development, 50(2). DOI: 10.1007/BF02504993. <https://doi.org/10.1007/BF02504993> — tier B · [[sources/merrienboer-2002]]
 [^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier B · [[sources/sweller-1988]]
 [^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier A · [[sources/sweller-2011]]
 [^sweller-2016-story]: John Sweller. (2016). Story of a Research Program. Education Review, 23. DOI: 10.14507/er.v23.2025. <https://doi.org/10.14507/er.v23.2025> — tier A · [[sources/sweller-2016-story]]

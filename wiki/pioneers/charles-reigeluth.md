@@ -7,7 +7,7 @@ life: 1946—
 concepts: [정교화이론, 교수이론, 형성연구, 학습자 중심 체제]
 related: ["[[debates/dick-reigeluth]]", "[[debates/reigeluth-richey]]"]
 updated: 2026-08-14
-sources: [bio-reigeluth-author, dick-carey-1978, reigeluth-1983, reigeluth-frick-1999, richey-klein-2007]
+sources: [bio-reigeluth-author, dick-carey-1978, dick-1996, reigeluth-1983, reigeluth-frick-1999, richey-klein-2007]
 confidence: high
 ---
 
@@ -44,6 +44,18 @@ confidence: high
 
 후기 연구에서 그는 시간은 고정하고 성취가 달라지는 선별 중심 학교를, 성취를 기준으로 시간과 지원을 조정하는 학습자 중심 체제로 바꾸어야 한다고 주장했다. 형성연구는 실제 설계 사례에서 이론의 방법을 적용·수정하며 개선점을 찾는다. 그의 작업은 설계 이론을 보편 법칙보다 맥락에 민감한 처방적 지식으로 읽게 한다.[^reigeluth-frick-1999][^bio-reigeluth-author]
 
+## 당대의 비판
+
+딕은 체계적 교수설계 모형에서 요구분석·목표·평가·전략·개발과 수정을 연결하는 설계 절차를 명시했다.[^dick-carey-1978][^dick-1996] 목표·조건·방법의 관계를 처방적 이론으로 설명하는 라이겔루스의 접근[^reigeluth-1983]에 대해서는, 맥락에 따른 선택만으로는 실제 설계 과정과 산출물을 충분히 안내하기 어렵다는 반론이 제기된다.[^dick-1996]
+
+리치와 클라인은 설계·개발 연구를 별도의 연구 방법으로 정리하며, 설계 산출물과 이론은 체계적인 개발·평가·반복의 근거를 제시해야 한다고 했다.[^richey-klein-2007] 따라서 형성연구에서 얻은 맥락적 개선 사례[^reigeluth-frick-1999]를 곧바로 일반적 교수이론의 증거로 확대할 수 없다는 방법론적 비판이 가능하다.[^richey-klein-2007]
+
+## 한계
+
+라이겔루스는 교수이론을 목표와 조건에 의존하는 설계지향적 처방으로 정리한다. 그러므로 목표가 불분명하거나 조건을 충분히 기술할 수 없는 상황에서는 이론이 자동으로 방법을 선택해 주지 않으며, 별도의 분석과 판단이 필요하다.[^reigeluth-1983]
+
+형성연구는 실제 적용 사례에서 이론을 만들고 개선하는 방법이므로, 사례에서 작동한 방법의 범위와 조건을 벗어나면 결과를 일반화할 수 없다. 따라서 사례의 조건과 방법을 함께 기술하지 않으면 이론의 적용 범위를 판정하기 어렵다.[^reigeluth-frick-1999]
+
 ## 연표
 
 - **1969** 하버드대학교 경제학 학사 — 이후 고등학교 과학 교사를 거쳐 교수심리 연구로 이동했다.[^bio-reigeluth-author]
@@ -57,6 +69,7 @@ confidence: high
 
 [^bio-reigeluth-author]: Charles M. Reigeluth. About Me. Charles M. Reigeluth. <https://www.reigeluth.net/me-c1owg> — tier A · [[sources/bio-reigeluth-author]]
 [^dick-carey-1978]: Walter Dick; Lou Carey. (1978). The Systematic Design of Instruction. Scott, Foresman. <https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146> — tier A · [[sources/dick-carey-1978]]
+[^dick-1996]: Walter Dick. (1996). The Dick and Carey Model: Will It Survive the Decade?. Educational Technology Research and Development, 44. DOI: 10.1007/BF02300425. <https://doi.org/10.1007/BF02300425> — tier B · [[sources/dick-1996]]
 [^reigeluth-1983]: Charles M. Reigeluth (ed.). (1983). Instructional-Design Theories and Models, Volume I. Lawrence Erlbaum Associates. <https://www.routledge.com/Instructional-Design-Theories-and-Models-An-Overview-of-their-Current-Status/Reigeluth/p/book/9780898592757> — tier A · [[sources/reigeluth-1983]]
 [^reigeluth-frick-1999]: Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodology for Creating and Improving Design Theories. Instructional-Design Theories and Models, Volume II. <https://www.reigeluth.net/research-methods> — tier B · [[sources/reigeluth-frick-1999]]
 [^richey-klein-2007]: Rita C. Richey; James D. Klein. (2007). Design and Development Research. Lawrence Erlbaum Associates. <https://www.routledge.com/Design-and-Development-Research-Methods-Strategies-and-Issues/Richey-Klein/p/book/9780805857320> — tier A · [[sources/richey-klein-2007]]
