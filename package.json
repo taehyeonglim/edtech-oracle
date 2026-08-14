@@ -1,0 +1,17 @@
+{
+  "name": "edtech-oracle",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "lint": "node scripts/lint-wiki.mjs",
+    "lint:strict": "node scripts/lint-wiki.mjs --strict",
+    "import": "tsx scripts/import-pantheon.mts",
+    "gen-agents": "node scripts/gen-agents.mjs"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "tsx": "^4.19.2"
+  }
+}

@@ -75,7 +75,7 @@ mkdir -p wiki/pioneers wiki/concepts wiki/debates wiki/sources \
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test \"test/*.test.mjs\"",
     "lint": "node scripts/lint-wiki.mjs",
     "lint:strict": "node scripts/lint-wiki.mjs --strict",
     "import": "tsx scripts/import-pantheon.mts",
