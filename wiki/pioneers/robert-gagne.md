@@ -7,7 +7,7 @@ life: 1916—2002
 concepts: [학습 결과, 아홉 가지 수업사태, 내적 조건, 외적 조건]
 related: ["[[debates/skinner-gagne]]", "[[debates/bloom-gagne]]", "[[debates/mager-gagne]]", "[[debates/gagne-glaser]]"]
 updated: 2026-08-14
-sources: [bio-gagne-open-text, bio-wiki-gagne, bloom-1956, gagne-1965, gagne-1985, glaser-1963, glaser-1984, mager-1962, reiser-2017, skinner-1954]
+sources: [bio-gagne-open-text, bio-wiki-gagne, bloom-1956, gagne-1965, gagne-1985, glaser-1963, glaser-1984, jonassen-1991, mager-1962, merrienboer-2002, papert-1980, reiser-2017, skinner-1954]
 confidence: high
 ---
 
@@ -44,6 +44,22 @@ confidence: high
 
 『The Conditions of Learning』(1965)은 학습 결과의 유형과 내·외적 조건을 분리해 제시했고, 이후 판본과 Briggs·Wager와의 공동 저술은 이를 교수설계의 실천 언어로 확장했다. 가녜는 2002년 테네시주 시그널 마운틴에서 사망했다. 그의 모델은 행동주의와 인지주의 사이의 절충으로 읽을 수 있지만, 모든 수업을 아홉 단계로 기계적으로 배열하는 해석은 원전의 조건적 성격을 축소한다.[^bio-wiki-gagne][^bio-gagne-open-text][^gagne-1965][^gagne-1985]
 
+## 당대의 비판
+
+파퍼트는 이 전통을 "instructionism"이라 부르며, 미리 분석된 위계와 처방된 사태가 아이가 스스로 강력한 아이디어를 구성하는 경험을 대체한다고 보았다.[^papert-1980]
+
+조나센은 더 근본적인 지점을 짚었다. 객관주의 설계 전통은 지식을 학습자 바깥에 존재하며 전달 가능한 대상으로 전제하는데, 구성주의는 그 인식론적 전제 자체를 받아들이지 않으므로 설계 절차를 개선하는 것으로는 간극이 메워지지 않는다는 것이다.[^jonassen-1991]
+
+판 메리엔보어는 설계 내부에서 비판했다. 부분과제로 분해해 계열화하는 접근은 각 요소를 익히게 하지만 요소들을 실시간으로 조정하는 능력을 다루지 못하므로, 복합기술에는 전체과제 중심 설계가 필요하다고 보았다.[^merrienboer-2002]
+
+## 한계
+
+아홉 가지 수업사태는 순서가 고정된 체크리스트가 아니라 학습 결과의 종류에 따라 선택·배열하는 설계 질문인데, 실무에서는 아홉 칸을 채우는 양식으로 오용되어 왔다.[^gagne-1985][^reiser-2017]
+
+학습 결과 다섯 범주 중 지적기능은 조건 처방이 상세하지만, 태도와 인지전략은 같은 수준의 구체성을 갖지 못한다. 무엇을 가르칠지가 명확한 영역에서 강하고 모호한 영역에서 약하다.[^gagne-1985]
+
+이 모델은 학습 결과가 사전에 정의될 수 있다고 전제한다. 목표 자체가 논쟁 대상인 영역에서는 설계의 출발점을 제공하지 못한다.[^gagne-1965]
+
 ## 연표
 
 - **1965** The Conditions of Learning — 학습 결과와 학습 조건의 관계를 체계화했다.[^gagne-1965]
@@ -64,6 +80,9 @@ confidence: high
 [^gagne-1985]: Robert M. Gagné; Leslie J. Briggs; Walter W. Wager. (1985). Principles of Instructional Design. Holt, Rinehart and Winston. <https://archive.org/details/principlesofinst0000gagn> — tier B · [[sources/gagne-1985]]
 [^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier B · [[sources/glaser-1963]]
 [^glaser-1984]: Robert Glaser. (1984). Education and Thinking: The Role of Knowledge. American Psychologist, 39(2). DOI: 10.1037/0003-066X.39.2.93. <https://doi.org/10.1037/0003-066X.39.2.93> — tier B · [[sources/glaser-1984]]
+[^jonassen-1991]: David H. Jonassen. (1991). Objectivism versus Constructivism: Do We Need a New Philosophical Paradigm?. Educational Technology Research and Development, 39. DOI: 10.1007/BF02296434. <https://doi.org/10.1007/BF02296434> — tier B · [[sources/jonassen-1991]]
+[^merrienboer-2002]: Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock. (2002). Blueprints for Complex Learning: The 4C/ID-model. Educational Technology Research and Development, 50(2). DOI: 10.1007/BF02504993. <https://doi.org/10.1007/BF02504993> — tier B · [[sources/merrienboer-2002]]
+[^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]
 [^mager-1962]: Robert F. Mager. (1962). Preparing Objectives for Programmed Instruction. Fearon Publishers. <https://eric.ed.gov/?id=ED018143> — tier A · [[sources/mager-1962]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]
 [^skinner-1954]: B. F. Skinner. (1954). The Science of Learning and the Art of Teaching. Harvard Educational Review, 24(2). <https://cir.nii.ac.jp/crid/1572824500723500288?lang=en> — tier B · [[sources/skinner-1954]]

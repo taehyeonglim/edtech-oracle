@@ -7,7 +7,7 @@ life: 1928—2016
 concepts: [Constructionism, Logo, 강력한 아이디어, 만들며 배우기]
 related: ["[[debates/vygotsky-papert]]", "[[debates/papert-mayer]]", "[[debates/jonassen-papert]]", "[[debates/scardamalia-papert]]"]
 updated: 2026-08-14
-sources: [bio-papert-mit, bio-wiki-papert, dewey-1938, jonassen-2000, mayer-1997, mayer-2005, papert-1980, scardamalia-1989, scardamalia-1994, vygotsky-1978]
+sources: [bio-papert-mit, bio-wiki-papert, dewey-1938, jonassen-2000, mayer-1997, mayer-2005, papert-1980, reiser-2017, scardamalia-1989, scardamalia-1994, sweller-1988, vygotsky-1978]
 confidence: high
 ---
 
@@ -43,6 +43,20 @@ Papert는 지식이 학습자의 머릿속에서 구성된다는 구성주의를
 
 1980년 『Mindstorms』는 컴퓨터·어린이·강력한 아이디어의 관계를 대중화했고, 이후 LEGO와의 협력은 제작·로봇·프로그래밍 학습으로 확장되었다. 파퍼트는 2016년 미국 메인주에서 사망했다. 그의 Constructionism은 듀이·피아제·비고츠키와 대화할 수 있지만, 모든 만들기 활동을 자동으로 구성주의 학습이라고 부르지는 않는다.[^bio-wiki-papert][^papert-1980][^bio-papert-mit][^dewey-1938]
 
+## 당대의 비판
+
+인지 실증 전통은 안내 없는 탐구의 비용을 지적했다. 스웰러는 초심자가 목표를 향해 스스로 경로를 찾는 문제해결이 작업기억을 과제 자체가 아니라 탐색에 쓰게 만든다고 보았고, 이 부하가 스키마 형성을 방해한다고 주장했다.[^sweller-1988]
+
+메이어를 비롯한 멀티미디어 학습 연구자들은 같은 근거 위에서, 학습자의 능동적 인지 처리를 요구하되 안내를 제거하지는 않는 설계를 제안했다. 쟁점은 "학습자가 능동적인가"가 아니라 "안내를 얼마나 남기는가"였다.[^mayer-2005]
+
+이 대립은 [[debates/papert-mayer]]에 정리되어 있다.[^papert-1980][^mayer-2005]
+
+## 한계
+
+구성이 일어나려면 풍부한 재료와 그것을 다룰 줄 아는 어른이 곁에 있어야 한다. Mindstorms는 그런 환경을 전제하지만 그 조건을 어떻게 만드는지는 명세하지 않는다. 조건이 갖춰지지 않은 교실에서 같은 설계가 같은 결과를 낳는다는 근거는 이 저작에 없다.[^papert-1980]
+
+또한 이 관점은 학습을 측정하는 언어를 제공하지 않는다. 무엇이 배워졌는지를 제도가 요구하는 형식으로 보여 주기 어렵고, 이것이 교육공학의 주류 설계 전통과 접속하기 어려웠던 실질적 이유다.[^papert-1980][^reiser-2017]
+
 ## 연표
 
 - **1967** Logo turtle — 프로그래밍을 어린이의 수학적 탐구 도구로 발전시켰다.[^papert-1980]
@@ -66,3 +80,5 @@ Papert는 지식이 학습자의 머릿속에서 구성된다는 구성주의를
 [^scardamalia-1989]: Marlene Scardamalia; Carl Bereiter; Robert S. McLean et al.. (1989). Computer-Supported Intentional Learning Environments. Journal of Educational Computing Research, 5(1). DOI: 10.2190/CYXD-6XG4-UFN5-YFB0. <https://doi.org/10.2190/CYXD-6XG4-UFN5-YFB0> — tier B · [[sources/scardamalia-1989]]
 [^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier B · [[sources/scardamalia-1994]]
 [^vygotsky-1978]: L. S. Vygotsky; ed. Michael Cole et al.. (1978). Mind in Society: The Development of Higher Psychological Processes. Harvard University Press. <https://www.hup.harvard.edu/books/9780674576292> — tier B · [[sources/vygotsky-1978]]
+[^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]
+[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier B · [[sources/sweller-1988]]

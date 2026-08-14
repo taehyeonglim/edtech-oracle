@@ -4,7 +4,7 @@
  * 이 스크립트가 정본이다. lint 위반이 나오면 위키를 손으로 고치지 말고
  * 여기를 고친 뒤 다시 실행한다.
  */
-import { mkdirSync, writeFileSync, rmSync } from "node:fs";
+import { mkdirSync, writeFileSync, rmSync, existsSync, readdirSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
@@ -32,6 +32,26 @@ const thesisById = new Map<string, string>(pioneers.map((p: any) => [p.id, p.the
 
 /** 위키가 실제로 인용한 출처. 출처 페이지는 이 집합에 든 것만 만든다. */
 const cited = new Set<string>();
+
+/*
+ * 임포터는 일회성 부트스트랩이다. 이관이 끝나면 위키가 정본이 된다.
+ *
+ * 파일럿 심화와 33인 확장은 위인 페이지를 직접 고치므로, 가드 없이 재실행하면
+ * 그 작업이 통째로 사라진다. 경계를 문서로만 적으면 지켜지지 않으므로 코드로 막는다.
+ */
+const force = process.argv.includes("--force");
+const existingPioneers = existsSync(join(WIKI, "pioneers"))
+  ? readdirSync(join(WIKI, "pioneers")).filter((f) => f.endsWith(".md"))
+  : [];
+
+if (existingPioneers.length > 0 && !force) {
+  console.error(
+    `✋ 위인 페이지가 이미 ${existingPioneers.length}개 있다. 임포터는 일회성 부트스트랩이며\n` +
+      `   이관 이후에는 위키가 정본이다. 재실행하면 심화·확장 작업이 사라진다.\n` +
+      `   정말 처음부터 다시 만들려면 --force를 붙인다.`,
+  );
+  process.exit(1);
+}
 
 // 재실행 시 이름이 바뀐 옛 페이지가 남아 고아가 되지 않게 생성 대상 디렉터리를 비운다.
 for (const dir of ["pioneers", "debates", "concepts", "sources"]) {

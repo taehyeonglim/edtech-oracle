@@ -7,7 +7,7 @@ life: 1947—
 concepts: [이중 채널, 제한된 작업기억, 능동적 처리, 외재적 인지부하]
 related: ["[[debates/bruner-mayer]]", "[[debates/papert-mayer]]", "[[debates/dale-mayer]]", "[[debates/novak-mayer]]", "[[debates/clark-mayer]]", "[[debates/kozma-mayer]]"]
 updated: 2026-08-14
-sources: [bio-mayer-ucsb, bio-wiki-mayer, bruner-1966, clark-1983, clark-1994, dale-1946, kozma-1991, kozma-1994, mayer-1997, mayer-2005, molenda-2003-cone, novak-1984, novak-2002, papert-1980, reiser-2017]
+sources: [bio-mayer-ucsb, bio-wiki-mayer, bruner-1966, clark-1983, clark-1994, dale-1946, kozma-1991, kozma-1994, mayer-1997, mayer-2005, molenda-2003-cone, novak-1984, novak-2002, papert-1980, reiser-2017, sweller-1988, sweller-2011]
 confidence: high
 ---
 
@@ -44,6 +44,18 @@ confidence: high
 
 메이어는 미국심리학회 Division 15 회장, 미국교육연구학회 Division C 부회장, 여러 학술지 편집자를 맡았고 Thorndike Award·Scribner Award 등을 받았다. 연구 관심은 멀티미디어를 넘어 온라인 튜터, 가상현실, 게임, 교육용 에이전트로 확장되었다. 다만 설계 원리는 절대 규칙이 아니라 학습자·내용·매체 맥락에서 검증할 가설로 사용해야 한다.[^bio-wiki-mayer][^bio-mayer-ucsb][^mayer-2005]
 
+## 당대의 비판
+
+파퍼트 계열은 통제된 짧은 과제에서 얻은 원리가 학습자가 몇 주에 걸쳐 무언가를 만드는 상황으로 옮겨 가지 않는다고 보았다. 분할 주의를 몇 초 단위로 측정하는 실험은 "무엇을 만들 가치가 있는가"라는 질문을 다루지 않는다는 것이다.[^papert-1980]
+
+코즈마는 다른 각도에서 반박했다. 매체의 상징체계와 처리 기능은 교수방법과 깔끔하게 분리되지 않으므로, 방법만 남기고 매체를 상수로 두는 설계는 매체가 실제로 여는 가능성을 놓친다고 주장했다.[^kozma-1991][^kozma-1994]
+
+## 한계
+
+멀티미디어 원리의 근거는 대체로 짧고 잘 통제된 과제에서 나온다. 통제가 강할수록 인과 추론은 선명해지지만 실제 교실의 지속 기간·동기·사회적 맥락은 설계에서 제거된다. 생태 타당도는 이 연구 프로그램이 구조적으로 지불하는 비용이다.[^mayer-2005]
+
+또한 이 원리들은 작업기억 용량이 제한적이라는 인지부하 이론의 전제 위에 서 있다. 그 전제가 흔들리면 원리의 근거도 함께 흔들린다 — 원리는 독립적으로 서 있는 경험 법칙이 아니라 특정 인지 구조 모형에 딸린 따름정리다.[^sweller-1988][^sweller-2011]
+
 ## 연표
 
 - **1997** Split-attention research — 멀티미디어 학습에서 주의 분할의 영향을 실험했다.[^mayer-1997]
@@ -74,3 +86,5 @@ confidence: high
 [^novak-2002]: Joseph D. Novak. (2002). Meaningful Learning: The Essential Factor for Conceptual Change. Science Education, 86(4). DOI: 10.1002/sce.10032. <https://doi.org/10.1002/sce.10032> — tier B · [[sources/novak-2002]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]
+[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier B · [[sources/sweller-1988]]
+[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier A · [[sources/sweller-2011]]
