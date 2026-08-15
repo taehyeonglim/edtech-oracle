@@ -43,7 +43,7 @@ speakers: [robert-gagne, richard-mayer]
 | 3 | 각주 id가 화자 페이지의 `sources` 안에 있다 | 위조급 |
 | 4 | 각주의 tier 표기가 `sources.json`과 일치한다 | 위조급 |
 | 5 | 화자가 실재 위인 slug이거나 `_orchestrator`다 | 위조급 |
-| 6 | 프론트매터 `speakers` ≡ 본문 화자 집합 | 위조급 |
+| 6 | 프론트매터 `speakers` ≡ 본문 화자 집합. 첫 `## ` 앞에 본문이 없다 | 위조급 |
 | 7 | `_orchestrator` 섹션에 각주가 없다 | 위조급 |
 | 8 | 각주 정의가 `— tier X · [[sources/id]]`로 끝난다 | 형식급 |
 | 9 | 주장 문단이 세 마커 중 하나로 시작한다 | 형식급 |

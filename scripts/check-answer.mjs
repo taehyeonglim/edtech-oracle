@@ -77,6 +77,14 @@ export function checkAnswer({ file, wikiDir, sourcesPath, ctx }) {
   const markers = { 근거: 0, 적용: 0, 근거없음: 0 };
   const seenSpeakers = new Set();
 
+  // speakerSections()는 첫 `## ` 이전을 버린다. 버려진 자리에 발언을 숨기면 어떤 규칙에도 걸리지 않으므로
+  // 여기서 막는다 — 화자에게 귀속되지 않은 본문은 검사할 수 없는 본문이다.
+  const firstHeading = body.search(/^##\s+/m);
+  const preamble = (firstHeading === -1 ? body : body.slice(0, firstHeading)).trim();
+  if (preamble) {
+    findings.push(forge(6, "", `화자 섹션 앞에 귀속되지 않은 본문이 있다: ${preamble.slice(0, 24)}…`));
+  }
+
   for (const { speaker, text } of speakerSections(body)) {
     const isOrchestrator = speaker === ORCHESTRATOR;
     const known = pioneerSources.has(speaker);
@@ -155,7 +163,7 @@ export function checkAnswer({ file, wikiDir, sourcesPath, ctx }) {
       findings.push(forge(6, s, `프론트매터 speakers에 있으나 본문에 없다: ${s}`));
     }
   }
-  if (seenSpeakers.size === 0 && declaredSpeakers.size === 0) {
+  if (seenSpeakers.size === 0 && declaredSpeakers.size === 0 && !preamble) {
     findings.push(forge(6, "", "화자 섹션이 없다. 발언을 위인에게 귀속할 수 없다"));
   }
 

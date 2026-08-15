@@ -124,6 +124,26 @@ test("규칙 6 — 화자 섹션이 하나도 없으면 걸린다", () => {
   assert.ok(rulesOf(findings).includes(6));
 });
 
+test("규칙 6 — 화자 섹션 앞에 숨긴 본문은 통과하지 못한다", () => {
+  // speakerSections()가 버리는 자리다. 여기에 위조 각주를 숨겨도 걸려야 한다.
+  const body = ["귀속되지 않은 문장이다.[^made-up]", "", GOOD_BODY].join("\n");
+  const { findings } = run(body);
+  assert.ok(rulesOf(findings).includes(6));
+  assert.equal(severityOf(findings, 6), "forge");
+});
+
+test("규칙 8 — 각주 id와 출처 링크가 다르다", () => {
+  const body = [
+    "## a-pioneer",
+    "",
+    "[근거] 주장이다.[^a-src]",
+    "",
+    "[^a-src]: 저자 A. 제목 A. — tier A · [[sources/b-src]]",
+  ].join("\n");
+  const { findings } = run(body);
+  assert.ok(findings.some((f) => f.rule === 8 && /출처 링크가 다르다/.test(f.message)));
+});
+
 test("규칙 7 — 사회자 섹션에 각주가 있다", () => {
   const body = [
     "## a-pioneer",

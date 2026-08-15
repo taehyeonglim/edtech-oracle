@@ -83,7 +83,7 @@ speakers: [robert-gagne, richard-mayer]
 | 3 | 각주 id가 화자 페이지의 프론트매터 `sources` 안에 있다 | **인용 범위를 벗어났다** |
 | 4 | 각주 정의의 `tier X` 표기가 `sources.json`의 tier와 일치한다 | 티어를 위조했다 |
 | 5 | 화자가 실재 pioneer slug이거나 `_orchestrator`다 | 귀속이 불가능하다 |
-| 6 | 프론트매터 `speakers` ≡ 본문 화자 집합(`_orchestrator` 제외) | 화자 목록을 조작했다 |
+| 6 | 프론트매터 `speakers` ≡ 본문 화자 집합(`_orchestrator` 제외)이고, 첫 `## ` 앞에 본문이 없다 | 화자 목록을 조작했다 / 귀속되지 않은 자리에 발언을 숨겼다 |
 | 7 | `_orchestrator` 섹션에 각주가 없다 | 사회자가 위인 발언을 합성했다 |
 
 ### 형식급 — 기록만
