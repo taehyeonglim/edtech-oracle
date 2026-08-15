@@ -6,6 +6,7 @@ import { join } from "node:path";
 import {
   buildArgs,
   parseResult,
+  makeSpeakerWatcher,
   runClaude,
   snapshotAnswers,
   findAnswer,
@@ -34,11 +35,13 @@ test("프롬프트는 -p 바로 뒤에 온다 — 가변 인자에 먹히면 안
   const args = buildArgs({ prompt: "/ask 학습이란 무엇일까?" });
   assert.equal(args[0], "-p");
   assert.equal(args[1], "/ask 학습이란 무엇일까?");
+  assert.equal(args.at(-2), "--output-format");
+  assert.equal(args.at(-1), "stream-json", "위인이 끝나는 순간을 알려면 스트림이어야 한다");
 
   const i = args.indexOf("--disallowedTools");
   assert.ok(i > 0);
   assert.equal(args[i + 1], "AskUserQuestion");
-  assert.equal(args[i + 2], "--output-format", "가변 인자 뒤에 플래그가 없으면 안 된다");
+  assert.match(args[i + 2], /^--/, "가변 인자 뒤에는 반드시 다른 플래그가 와야 값이 안 먹힌다");
   assert.notEqual(args.at(-1), "AskUserQuestion", "가변 인자가 마지막이면 안 된다");
 });
 
@@ -87,7 +90,10 @@ test("JSON이 아니면 stderr를 그대로 담아 돌려준다 — 조용히 �
 test("실행에 성공하면 값으로 돌려준다", async () => {
   const dir = tmp();
   const bin = fakeClaude(dir, {
-    stdout: JSON.stringify({ result: "안녕", session_id: "sid-9", num_turns: 1 }),
+    stdout: [
+      JSON.stringify({ type: "system", subtype: "init" }),
+      JSON.stringify({ type: "result", result: "안녕", session_id: "sid-9", num_turns: 1 }),
+    ].join("\n"),
   });
   const r = await runClaude({ prompt: "x", cwd: dir, bin });
   assert.equal(r.ok, true);
@@ -105,7 +111,7 @@ test("실행 파일이 없어도 예외를 던지지 않는다", async () => {
 
 test("시간을 넘기면 중단하고 그 사실을 남긴다", async () => {
   const dir = tmp();
-  const bin = fakeClaude(dir, { stdout: "{}", sleep: 5 });
+  const bin = fakeClaude(dir, { stdout: JSON.stringify({ type: "result" }), sleep: 5 });
   const r = await runClaude({ prompt: "x", cwd: dir, bin, timeoutMs: 300 });
   assert.equal(r.ok, false);
   assert.match(r.error, /끝나지 않아 중단/);
@@ -141,4 +147,67 @@ test("새 파일이 없으면 가장 최근에 고친 파일을 준다 — /deba
 test("답변 디렉터리가 없어도 터지지 않는다", () => {
   assert.deepEqual([...snapshotAnswers("/없는/경로")], []);
   assert.deepEqual(findAnswer("/없는/경로", new Set()), { file: null, created: false });
+});
+
+/** 스트림 이벤트 한 줄을 만든다. 실제 `stream-json` 출력에서 뽑은 모양이다. */
+const ev = (content, parent = null) => ({
+  type: "assistant",
+  ...(parent ? { parent_tool_use_id: parent } : {}),
+  message: { content },
+});
+
+test("서브에이전트가 끝나는 순간을 잡아낸다", () => {
+  const got = [];
+  const watch = makeSpeakerWatcher((s) => got.push(s));
+
+  watch(ev([{ type: "tool_use", name: "Agent", id: "t1", input: { subagent_type: "john-dewey" } }]));
+  watch(ev([{ type: "tool_use", name: "Agent", id: "t2", input: { subagent_type: "lev-vygotsky" } }]));
+  // 위인이 위키를 읽는 중간 과정. 발언이 아니므로 무시한다.
+  watch(ev([{ type: "tool_use", name: "Read", id: "r1", input: {} }], "t1"));
+  // 비고츠키가 먼저 끝난다 — 호출 순서와 완료 순서는 다르다.
+  watch(ev([{ type: "tool_result", tool_use_id: "t2", content: [{ type: "text", text: "비고츠키 발언" }] }]));
+  watch(ev([{ type: "tool_result", tool_use_id: "t1", content: "듀이 발언" }]));
+
+  assert.deepEqual(got, [
+    { slug: "lev-vygotsky", text: "비고츠키 발언" },
+    { slug: "john-dewey", text: "듀이 발언" },
+  ]);
+});
+
+test("서브에이전트 안에서 일어난 일은 발언으로 세지 않는다", () => {
+  const got = [];
+  const watch = makeSpeakerWatcher((s) => got.push(s));
+  // 위인이 자기 안에서 또 다른 Agent를 부르는 경우. parent가 있으면 통째로 무시한다.
+  watch(ev([{ type: "tool_use", name: "Agent", id: "inner", input: { subagent_type: "router" } }], "t1"));
+  watch(ev([{ type: "tool_result", tool_use_id: "inner", content: "x" }], "t1"));
+  assert.deepEqual(got, []);
+});
+
+test("스트림이 청크 경계에서 잘려도 이벤트를 잃지 않는다", async () => {
+  // NDJSON은 줄 단위지만 파이프 청크는 줄 경계를 지키지 않는다.
+  const dir = tmp();
+  const bin = join(dir, "chunky");
+  const line = JSON.stringify({ type: "result", result: "끝", session_id: "sid-c" });
+  writeFileSync(
+    bin,
+    `#!/bin/sh\nprintf '%s' '${line.slice(0, 20)}'\nsleep 0.2\nprintf '%s\\n' '${line.slice(20)}'\n`,
+  );
+  chmodSync(bin, 0o755);
+
+  const seen = [];
+  const r = await runClaude({ prompt: "x", cwd: dir, bin, onEvent: (e) => seen.push(e.type) });
+  assert.equal(r.sessionId, "sid-c", "반쪽 줄을 이어 붙이지 못했다");
+  assert.deepEqual(seen, ["result"]);
+  rmSync(dir, { recursive: true, force: true });
+});
+
+test("구독자가 터져도 실행은 끝까지 간다", async () => {
+  const dir = tmp();
+  const bin = fakeClaude(dir, {
+    stdout: JSON.stringify({ type: "result", result: "끝", session_id: "sid-x" }),
+  });
+  const r = await runClaude({ prompt: "x", cwd: dir, bin, onEvent: () => { throw new Error("게시 실패"); } });
+  assert.equal(r.ok, true, "구독자의 예외가 실행을 죽였다");
+  assert.equal(r.sessionId, "sid-x");
+  rmSync(dir, { recursive: true, force: true });
 });

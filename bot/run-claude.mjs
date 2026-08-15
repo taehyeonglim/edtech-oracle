@@ -52,8 +52,48 @@ export function buildArgs({
   args.push("--permission-mode", permissionMode);
   args.push("--disallowedTools", ...DISALLOWED);
   // 가변 인자 뒤에 반드시 다른 플래그가 온다. 이 줄이 마지막이어야 하는 이유다.
-  args.push("--output-format", "json");
+  //
+  // `stream-json`을 쓰는 이유는 **위인이 끝나는 순간을 알기 위해서**다. `json`은 프로세스가
+  // 끝나야 한 덩어리로 나오는데, 위인 셋은 병렬로 돌다가 45초씩 벌어져 끝나고 그 뒤로도
+  // 오케스트레이터가 파일을 쓰고 게이트를 도느라 2분 39초가 더 걸린다(실측). 스트림을 보면
+  // 각 위인의 `tool_result`가 그 사람이 끝나는 즉시 도착한다.
+  //
+  // `--forward-subagent-text`는 쓰지 않는다. 서브에이전트 **내부** 메시지를 흘려주는 플래그인데
+  // 우리가 필요한 최종 반환값은 그것 없이도 최상위 `tool_result`로 온다.
+  args.push("--verbose", "--output-format", "stream-json");
   return args;
+}
+
+/**
+ * 스트림에서 **서브에이전트가 끝나는 순간**을 잡아낸다.
+ *
+ * `tool_use:Agent`가 id와 `subagent_type`(=위인 slug)을 알려주고, 같은 id의 `tool_result`가
+ * 그 위인의 최종 발언을 담아 온다. 둘 사이의 간격이 그 위인이 실제로 생각한 시간이다.
+ *
+ * `parent_tool_use_id`가 있는 이벤트는 서브에이전트 **안에서** 일어난 일이라 무시한다 —
+ * 위인이 위키를 읽는 중간 과정이지 발언이 아니다.
+ *
+ * 순수 함수를 돌려준다. 프로세스도 디스코드도 모른다.
+ */
+export function makeSpeakerWatcher(onSpeaker) {
+  const pending = new Map();
+  return (ev) => {
+    if (!ev || ev.parent_tool_use_id) return;
+    const content = ev.message?.content;
+    if (!Array.isArray(content)) return;
+    for (const b of content) {
+      if (b.type === "tool_use" && b.name === "Agent" && b.id) {
+        pending.set(b.id, b.input?.subagent_type ?? null);
+      } else if (b.type === "tool_result" && pending.has(b.tool_use_id)) {
+        const slug = pending.get(b.tool_use_id);
+        pending.delete(b.tool_use_id);
+        const text = Array.isArray(b.content)
+          ? b.content.map((x) => x?.text ?? "").join("")
+          : String(b.content ?? "");
+        if (slug) onSpeaker({ slug, text });
+      }
+    }
+  };
 }
 
 export function runClaude({
@@ -64,6 +104,7 @@ export function runClaude({
   bin = "claude",
   timeoutMs = DEFAULT_TIMEOUT_MS,
   permissionMode = PERMISSION_MODE,
+  onEvent = null,
 } = {}) {
   const args = buildArgs({ prompt, resume, appendSystemPrompt, permissionMode });
 
@@ -71,7 +112,36 @@ export function runClaude({
     const child = spawn(bin, args, { cwd, stdio: ["ignore", "pipe", "pipe"] });
     let out = "";
     let err = "";
+    let buffer = "";
     let timedOut = false;
+
+    /** NDJSON은 줄 단위지만 청크 경계가 줄 경계와 맞지 않는다. 완성된 줄만 넘긴다. */
+    const feed = (chunk) => {
+      buffer += chunk;
+      let nl;
+      while ((nl = buffer.indexOf("\n")) >= 0) {
+        const line = buffer.slice(0, nl).trim();
+        buffer = buffer.slice(nl + 1);
+        if (!line) continue;
+        let ev;
+        try {
+          ev = JSON.parse(line);
+        } catch {
+          continue; // JSON이 아닌 줄은 흘려보낸다. 마지막 result만 있으면 된다
+        }
+        // 마지막 `result` 이벤트가 `--output-format json`의 출력과 같은 모양이라
+        // `parseResult()`를 그대로 재사용한다.
+        if (ev.type === "result") out = line;
+        if (onEvent) {
+          try {
+            onEvent(ev);
+          } catch (e) {
+            // 구독자의 예외가 실행을 죽이지 않는다. 게시가 실패해도 답변은 끝까지 간다.
+            err += `\n[onEvent] ${e.message}`;
+          }
+        }
+      }
+    };
 
     const timer = setTimeout(() => {
       timedOut = true;
@@ -79,7 +149,7 @@ export function runClaude({
     }, timeoutMs);
 
     child.stdout.on("data", (d) => {
-      out += d;
+      feed(String(d));
     });
     child.stderr.on("data", (d) => {
       err += d;
@@ -95,6 +165,7 @@ export function runClaude({
 
     child.on("close", (code) => {
       clearTimeout(timer);
+      feed("\n"); // 줄바꿈 없이 끝난 마지막 줄을 흘려보내지 않는다
       if (timedOut) return fail(`${Math.round(timeoutMs / 1000)}초 안에 끝나지 않아 중단했다`);
       resolve(parseResult({ out, err, code }));
     });

@@ -8,7 +8,9 @@
  * 갈아 끼울 수 있는 유일한 방법이다. 버튼이 달린 조작 메시지는 **봇 자신**이 보낸다 —
  * 채널 웹훅은 애플리케이션 소유가 아니라 components가 거부된다.
  */
-import { readFileSync } from "node:fs";
+import { readFileSync, mkdtempSync } from "node:fs";
+import { tmpdir } from "node:os";
+import matter from "gray-matter";
 import { createHash } from "node:crypto";
 import { execFile } from "node:child_process";
 import { join } from "node:path";
@@ -25,7 +27,9 @@ import {
   MessageFlags,
 } from "discord.js";
 import { loadPages } from "../scripts/wiki-parse.mjs";
-import { runClaude, snapshotAnswers, findAnswer } from "./run-claude.mjs";
+import { loadAnswerContext, speakerSections } from "../scripts/check-answer.mjs";
+import { runClaude, snapshotAnswers, findAnswer, makeSpeakerWatcher } from "./run-claude.mjs";
+import { gateSection, sameText } from "./gate.mjs";
 import { render, checkSummary } from "./render.mjs";
 
 const CONFIG_PATH = new URL("./config.json", import.meta.url);
@@ -83,6 +87,10 @@ function speakersFromWiki(wikiDir) {
 }
 
 const speakers = speakersFromWiki(join(config.repo, "wiki"));
+/** 스트림으로 받은 발언을 검사할 때 쓰는 임시 자리. 프로세스와 함께 사라진다. */
+const gateDir = mkdtempSync(join(tmpdir(), "oracle-gate-"));
+/** 답변 파일에 들어갈 수 있는 화자. 라우터 같은 다른 서브에이전트를 걸러 낸다. */
+const pioneers = new Set(Object.keys(speakers).filter((k) => !k.startsWith("_")));
 const webhook = new WebhookClient({ url: config.webhookUrl });
 
 /**
@@ -168,6 +176,41 @@ function commitAnswer(file, subject) {
  */
 async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since = 0, subject }) {
   const before = snapshotAnswers(answersDir);
+  // 이미 올린 발언. 키는 `<slug>#<그 화자의 몇 번째 발언인가>` — `/debate`는 같은 위인이
+  // 라운드마다 다시 말하므로 slug만으로는 구분되지 않는다.
+  const posted = new Map();
+  const seen = new Map();
+  const nextKey = (slug) => {
+    const n = seen.get(slug) ?? 0;
+    seen.set(slug, n + 1);
+    return `${slug}#${n}`;
+  };
+
+  // 게시를 한 줄로 세운다. 위인 둘이 몇 초 차이로 끝나면 웹훅 호출이 겹쳐
+  // 한 사람의 1/2·2/2가 다른 사람 사이에 끼어 버린다.
+  let queue = Promise.resolve();
+  const enqueue = (payloads) => {
+    queue = queue.then(() => postAll(payloads)).catch((e) => console.error(`게시 실패: ${e.message}`));
+  };
+
+  const ctx = loadAnswerContext({ wikiDir: join(config.repo, "wiki"), sourcesPath: join(config.repo, "sources.json") });
+  const onSpeaker = ({ slug, text }) => {
+    if (!pioneers.has(slug)) return; // 라우터 등은 답변 파일에 들어가지 않으므로 순번도 세지 않는다
+    // 순번은 **게이트 통과 여부와 무관하게** 센다. 건너뛴 발언이 순번을 비우면
+    // 마지막 정산에서 화자의 몇 번째 발언인지가 한 칸씩 어긋난다.
+    const k = nextKey(slug);
+    const { md, skip } = gateSection({ slug, text, ctx, dir: gateDir, pioneers });
+    if (skip) {
+      // 위조급이 남았으면 여기서 멈춘다. 오케스트레이터가 재호출로 고친 판이
+      // 마지막 정산에서 올라간다 — 검사를 통과하지 않은 인용은 채널에 먼저 나가지 않는다.
+      console.log(`  보류 ${slug}: ${skip}`);
+      return;
+    }
+    posted.set(k, text);
+    console.log(`  게시 ${slug}`);
+    enqueue(render(md, { baseUrl: config.baseUrl, speakers }).payloads);
+  };
+
   const run = await withProgress(channel, `\`${subject}\` 처리 중`, () =>
     runClaude({
       prompt,
@@ -175,6 +218,7 @@ async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since =
       resume,
       appendSystemPrompt,
       timeoutMs: config.timeoutMs,
+      onEvent: makeSpeakerWatcher(onSpeaker),
     }),
   );
 
@@ -198,14 +242,35 @@ async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since =
   const from = created ? 0 : since;
   const { payloads, sectionCount } = render(md, { since: from, baseUrl: config.baseUrl, speakers });
 
-  if (!payloads.length) {
+  if (sectionCount <= from) {
     // 파일은 있는데 새 섹션이 없다 — "파일이 안 생김"과 같은 실패다. 조용히 넘어가면
     // 몇 분을 기다린 끝에 요약 한 줄만 남는다.
     await say(channel, `답변 파일에 새 발언이 없다(\`${file}\`). ${raw()}`);
     return { ok: false, file, sectionCount: since, sessionId: run.sessionId };
   }
 
-  await postAll(payloads);
+  await queue; // 스트림으로 올린 것들이 다 나간 뒤에 정산한다
+
+  // 정산 — 스트림으로 이미 올린 발언은 다시 올리지 않는다. 다만 게이트가 재호출을
+  // 시켜 **본문이 바뀐** 발언은 정정으로 다시 올린다. 틀린 인용이 채널에 남아 있으면
+  // 게이트가 잡아 준 의미가 사라진다.
+  const tally = new Map();
+  const drop = new Set();
+  const fixed = new Set();
+  for (const [i, s] of speakerSections(matter(md).content).entries()) {
+    if (i < from) continue;
+    const n = tally.get(s.speaker) ?? 0;
+    tally.set(s.speaker, n + 1);
+    const k = `${s.speaker}#${n}`;
+    if (!posted.has(k)) continue;
+    (sameText(posted.get(k), s.text) ? drop : fixed).add(i);
+  }
+
+  if (fixed.size) {
+    const who = [...fixed].map((i) => speakers[speakerSections(matter(md).content)[i].speaker]?.name).filter(Boolean);
+    await say(channel, `-# 게이트 재검에서 고쳐진 발언을 다시 올린다 — ${who.join(" · ")}`);
+  }
+  await postAll(payloads.filter((p) => !drop.has(p.section)));
 
   const summary = checkSummary(md);
   if (summary) await say(channel, `-# ${summary} · \`${file}\``);
