@@ -38,8 +38,16 @@ Claude API로 다시 구현하는 경로(프롬프트 사전 적재, 라우터 s
 | `--resume`이 컨텍스트를 복원한다 | 1차 "사과" → `--resume` 2차 "방금 말한 단어?" → "사과", session_id 동일 |
 | 되묻기를 막을 수단이 있다 | `--disallowedTools AskUserQuestion` |
 | 라운드 제어를 주입할 수단이 있다 | `--append-system-prompt` |
+| 무인 실행에서 파일을 쓸 수 있다 | `--permission-mode acceptEdits`. **`dontAsk`는 Write를 거부한다**(아래) |
 
 `--forward-subagent-text`는 쓰지 않는다. 화자 구분은 `answers/` 파일이 확정해 준다.
+
+### 권한 모드는 `acceptEdits`다
+
+초안은 `dontAsk`였다. 실제로 돌려 보니 **Bash는 통과하고 Write가 거부된다** — 봇이 답변
+파일을 한 건도 저장하지 못한 채 "저장에 실패했습니다"라는 산문만 게시했을 것이다.
+`acceptEdits`는 Write·Bash 모두 통과한다(2026-08-15 실측). `bypassPermissions`는 전부
+허용하지만 무인 실행에 그만한 권한을 줄 이유가 없다.
 
 ## 사용 범위 — 단일 사용자
 
@@ -88,7 +96,7 @@ bot/                      새 디렉터리 · 자체 package.json
 ```
 deferReply()                       디스코드 3초 제한 회피 (실측 2분 소요)
 claude -p "/ask <질문>" --output-format json
-  --disallowedTools AskUserQuestion --permission-mode dontAsk
+  --disallowedTools AskUserQuestion --permission-mode acceptEdits
 새로 생긴 answers/*.md 찾기
 render.mjs로 화자별 페이로드 변환
 웹훅으로 순서대로 게시 + 검사 요약 한 줄
