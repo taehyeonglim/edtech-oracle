@@ -175,28 +175,97 @@ const roundButtons = (id, next) =>
   new ActionRowBuilder().addComponents(
     new ButtonBuilder()
       .setCustomId(`debate:go:${id}`)
-      .setLabel(`라운드 ${next} 진행`)
+      .setLabel(`라운드 ${next} 지금 진행`)
       .setStyle(ButtonStyle.Primary),
     new ButtonBuilder().setCustomId(`debate:end:${id}`).setLabel("종료").setStyle(ButtonStyle.Secondary),
   );
 
 /**
- * 버튼을 누르지 않고 방치했을 때의 정책.
+ * 라운드는 **기다렸다 알아서 넘어간다.** 버튼은 그 흐름에 끼어드는 수단이다 —
+ * 기다리기 싫으면 "지금 진행", 여기서 멈추려면 "종료".
  *
- * 자동으로 다음 라운드를 돌리면 자리를 비운 사이 토론이 혼자 끝나 있고 구독 사용량도
- * 혼자 쓴다. 그래서 **기다리다 조용히 접는다** — 다시 하고 싶으면 `/debate`를 다시 부르면
- * 된다. 값은 `config.json`의 `debateIdleMs`로 바꾼다.
+ * 그래서 이 값은 "포기하기 전 유예"가 아니라 "끼어들 틈"이다. 길게 잡을 이유가 없다.
+ * `config.json`의 `debateAutoMs`로 바꾼다.
  */
-const DEBATE_IDLE_MS = config.debateIdleMs ?? 30 * 60 * 1000;
+const DEBATE_AUTO_MS = config.debateAutoMs ?? 90 * 1000;
 
-function armIdleTimer(id, channel) {
+function armAutoAdvance(id, channel) {
   const state = debates.get(id);
   if (!state) return;
   clearTimeout(state.timer);
-  state.timer = setTimeout(async () => {
-    if (!debates.delete(id)) return;
-    await say(channel, `-# 토론을 접었다 — ${Math.round(DEBATE_IDLE_MS / 60000)}분 동안 응답이 없었다.`);
-  }, DEBATE_IDLE_MS);
+  state.timer = setTimeout(() => {
+    if (!debates.has(id)) return;
+    advance(id, channel, (next) => stripControls(id, next)).catch((e) => {
+      console.error(e);
+      say(channel, `자동 진행에서 오류가 났다: ${e.message}`).catch(() => {});
+    });
+  }, DEBATE_AUTO_MS);
+}
+
+/** 타이머가 진행할 때는 응답할 인터랙션이 없다. 남아 있는 버튼을 메시지에서 직접 걷는다. */
+async function stripControls(id, next) {
+  const control = debates.get(id)?.control;
+  if (!control) return;
+  await control.edit({ content: `라운드 ${next} 진행 중…`, components: [] }).catch(() => {});
+}
+
+/**
+ * 다음 라운드로 넘어간다. 버튼과 자동 진행 타이머가 **같은 경로**를 쓴다.
+ *
+ * @param {(next: number) => Promise<unknown>} ack  버튼을 걷어 내는 방법. 호출자마다 다르다
+ * @returns {Promise<"gone"|"busy"|"done">}
+ */
+async function advance(id, channel, ack) {
+  const state = debates.get(id);
+  if (!state) return "gone";
+  clearTimeout(state.timer);
+
+  if (busy) {
+    // 접지 않는다. 돌고 있는 실행이 끝나면 다시 시도한다.
+    armAutoAdvance(id, channel);
+    return "busy";
+  }
+  // 락은 검사 직후 동기적으로. `ack`부터 기다리면 그 사이에 다른 요청이 통과한다.
+  const next = state.round + 1;
+  busy = state.subject;
+  try {
+    await ack(next);
+    const r = await runAndPost(channel, {
+      prompt: ROUND_PROMPT[next],
+      resume: state.sessionId,
+      since: state.sectionCount,
+      subject: state.subject,
+    });
+    if (!r.ok) {
+      debates.delete(id);
+      return "done";
+    }
+    if (next >= 3) {
+      debates.delete(id);
+      await say(channel, "라운드 3까지 끝났다.");
+      return "done";
+    }
+    // `sessionId`는 덮어쓰지 않고 지킨다. resume 실행이 null을 돌려주면 다음 라운드가
+    // 새 세션으로 시작해 앞의 토론을 통째로 잊는다.
+    debates.set(id, { ...state, ...r, sessionId: r.sessionId ?? state.sessionId, round: next });
+    await offerNext(id, channel, next);
+    return "done";
+  } finally {
+    busy = null;
+  }
+}
+
+/** 라운드가 끝났음을 알리고 다음 라운드 시계를 건다. */
+async function offerNext(id, channel, round) {
+  const wait = Math.round(DEBATE_AUTO_MS / 1000);
+  const control = await say(
+    channel,
+    `라운드 ${round}이 끝났다. ${wait}초 뒤 라운드 ${round + 1}로 넘어간다.`,
+    [roundButtons(id, round + 1)],
+  );
+  const state = debates.get(id);
+  if (state) state.control = control;
+  armAutoAdvance(id, channel);
 }
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
@@ -265,9 +334,8 @@ async function onCommand(interaction) {
     if (!r.ok || !r.sessionId) return;
 
     const id = interaction.id;
-    debates.set(id, { ...r, subject, round: 1, timer: null });
-    await say(channel, `라운드 1이 끝났다.`, [roundButtons(id, 2)]);
-    armIdleTimer(id, channel);
+    debates.set(id, { ...r, subject, round: 1, timer: null, control: null });
+    await offerNext(id, channel, 1);
   } finally {
     busy = null;
   }
@@ -281,46 +349,20 @@ async function onButton(interaction) {
     return;
   }
 
-  clearTimeout(state.timer);
   if (action === "end") {
+    clearTimeout(state.timer);
     debates.delete(id);
     await interaction.update({ content: `라운드 ${state.round}에서 토론을 마쳤다.`, components: [] });
     return;
   }
 
-  if (busy) {
+  // "지금 진행"은 시계를 앞당길 뿐이다. 타이머와 같은 함수로 들어가 락도 같이 쓴다.
+  // `advance()`는 첫 `await` 전에 락을 잡으므로 여기서 미리 기다리면 안 된다.
+  const outcome = await advance(id, interaction.channel, (next) =>
+    interaction.update({ content: `라운드 ${next} 진행 중…`, components: [] }),
+  );
+  if (outcome === "busy") {
     await interaction.reply({ content: `진행 중이다 — ${busy}`, flags: MessageFlags.Ephemeral });
-    armIdleTimer(id, interaction.channel);
-    return;
-  }
-
-  const next = state.round + 1;
-  // 커맨드 쪽과 같은 이유로 `await`보다 먼저 잡는다. 버튼 더블클릭이 같은 경쟁을 만든다.
-  busy = state.subject;
-  try {
-    await interaction.update({ content: `라운드 ${next} 진행 중…`, components: [] });
-    const r = await runAndPost(interaction.channel, {
-      prompt: ROUND_PROMPT[next],
-      resume: state.sessionId,
-      since: state.sectionCount,
-      subject: state.subject,
-    });
-    if (!r.ok) {
-      debates.delete(id);
-      return;
-    }
-    if (next >= 3) {
-      debates.delete(id);
-      await say(interaction.channel, "라운드 3까지 끝났다.");
-      return;
-    }
-    // `sessionId`는 덮어쓰지 않고 지킨다. resume 실행이 null을 돌려주면 다음 라운드가
-    // 새 세션으로 시작해 앞의 토론을 통째로 잊는다.
-    debates.set(id, { ...state, ...r, sessionId: r.sessionId ?? state.sessionId, round: next });
-    await say(interaction.channel, `라운드 ${next}이 끝났다.`, [roundButtons(id, next + 1)]);
-    armIdleTimer(id, interaction.channel);
-  } finally {
-    busy = null;
   }
 }
 

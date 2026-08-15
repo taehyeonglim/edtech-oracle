@@ -6,6 +6,6 @@
   "webhookUrl": "",
   "baseUrl": "https://taehyeonglim.github.io/edtech-oracle",
   "timeoutMs": 900000,
-  "debateIdleMs": 1800000,
+  "debateAutoMs": 90000,
   "speakers": {}
 }
