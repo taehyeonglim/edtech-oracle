@@ -13,3 +13,6 @@ dist/
 bot/config.json
 bot/node_modules/
 bot/state.json
+
+# 이미지 생성 원본 — 파생본(web/assets/portraits/)만 배포한다
+images/
