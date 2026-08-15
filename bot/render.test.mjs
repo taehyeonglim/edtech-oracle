@@ -134,6 +134,17 @@ test("섹션 인덱스 델타 — 이미 올린 수 이후만 나온다", () => 
   assert.equal(render(md, { baseUrl: BASE, since: 3 }).payloads.length, 0);
 });
 
+test("커서가 파일보다 앞서면 빈 배열이 나온다 — 호출부가 이 경우를 실패로 다뤄야 한다", () => {
+  // `/debate` 라운드 2에서 claude가 이어 쓰지 않고 새 파일을 만들면 앞 파일의 섹션 수가
+  // 새 파일에 적용돼 델타가 통째로 비고, 라운드 전체가 채널에 올라오지 않는다.
+  const md = answer(["## john-dewey\n\n새 파일의 첫 발언."]);
+  const { payloads, sectionCount } = render(md, { baseUrl: BASE, since: 4 });
+  assert.equal(payloads.length, 0);
+  assert.equal(sectionCount, 1, "sectionCount는 커서가 아니라 파일의 실제 섹션 수다");
+  // 커서를 버리면 되찾는다. index.mjs가 `created`일 때 하는 일이다.
+  assert.equal(render(md, { baseUrl: BASE, since: 0 }).payloads.length, 1);
+});
+
 test("_orchestrator는 사회자 이름으로, 아바타 없이 게시된다", () => {
   const md = answer(["## _orchestrator\n\n이 둘은 학습의 소재지에서 갈린다."]);
   const [p] = render(md, {

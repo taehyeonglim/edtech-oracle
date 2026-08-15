@@ -52,7 +52,8 @@ function speakersFromWiki(wikiDir) {
     if (p.fm?.type === "pioneer" && p.fm?.slug) out[p.fm.slug] = { name: p.fm.title };
   }
   for (const [slug, extra] of Object.entries(config.speakers ?? {})) {
-    out[slug] = { ...out[slug], ...extra };
+    // 객체가 아닌 값은 건너뛴다. 문자열을 펼치면 글자 하나하나가 키가 된 쓰레기 항목이 남는다.
+    if (extra && typeof extra === "object") out[slug] = { ...out[slug], ...extra };
   }
   return out;
 }
@@ -126,17 +127,27 @@ async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since =
     return { ok: false, file: null, sectionCount: since, sessionId: run.sessionId };
   }
 
-  const { file } = findAnswer(answersDir, before);
+  const raw = () => `실행 결과 원문을 대신 올린다.\n\n${String(run.result).slice(0, 1800)}`;
+
+  const { file, created } = findAnswer(answersDir, before);
   if (!file) {
-    await say(
-      channel,
-      `답변 파일이 생기지 않아 실행 결과 원문을 올린다.\n\n${String(run.result).slice(0, 1800)}`,
-    );
+    await say(channel, `답변 파일이 생기지 않았다. ${raw()}`);
     return { ok: false, file: null, sectionCount: since, sessionId: run.sessionId };
   }
 
   const md = readFileSync(join(answersDir, file), "utf8");
-  const { payloads, sectionCount } = render(md, { since, baseUrl: config.baseUrl, speakers });
+  // 라운드를 이어 가는데 **새 파일**이 생겼다면 커서를 버린다. 앞 파일의 섹션 수를
+  // 새 파일에 적용하면 델타가 통째로 비어 라운드 전체가 채널에 올라오지 않는다.
+  const from = created ? 0 : since;
+  const { payloads, sectionCount } = render(md, { since: from, baseUrl: config.baseUrl, speakers });
+
+  if (!payloads.length) {
+    // 파일은 있는데 새 섹션이 없다 — "파일이 안 생김"과 같은 실패다. 조용히 넘어가면
+    // 몇 분을 기다린 끝에 요약 한 줄만 남는다.
+    await say(channel, `답변 파일에 새 발언이 없다(\`${file}\`). ${raw()}`);
+    return { ok: false, file, sectionCount: since, sessionId: run.sessionId };
+  }
+
   await postAll(payloads);
 
   const summary = checkSummary(md);
@@ -235,12 +246,13 @@ async function onCommand(interaction) {
     await interaction.reply({ content: `진행 중이다 — ${busy}`, flags: MessageFlags.Ephemeral });
     return;
   }
-  // 3초 안에 답해야 한다. 최종 출력은 절대 이 토큰에 걸지 않는다 —
-  // 지연 응답은 15분에 만료되는데 `/debate` 3라운드는 그것을 넘길 수 있다.
-  await interaction.reply({ content: `${isAsk ? "/ask" : "/debate"} 시작했다: ${subject}` });
-
+  // 락은 검사 직후 **동기적으로** 잡는다. 사이에 `await`가 하나라도 있으면 그 왕복 동안
+  // 두 번째 요청이 검사를 똑같이 통과해 같은 작업 트리에 claude 두 개가 돈다.
   busy = subject;
   try {
+    // 3초 안에 답해야 한다. 최종 출력은 절대 이 토큰에 걸지 않는다 —
+    // 지연 응답은 15분에 만료되는데 `/debate` 3라운드는 그것을 넘길 수 있다.
+    await interaction.reply({ content: `${isAsk ? "/ask" : "/debate"} 시작했다: ${subject}` });
     if (isAsk) {
       await runAndPost(channel, { prompt: `/ask ${subject}`, subject });
       return;
@@ -283,10 +295,10 @@ async function onButton(interaction) {
   }
 
   const next = state.round + 1;
-  await interaction.update({ content: `라운드 ${next} 진행 중…`, components: [] });
-
+  // 커맨드 쪽과 같은 이유로 `await`보다 먼저 잡는다. 버튼 더블클릭이 같은 경쟁을 만든다.
   busy = state.subject;
   try {
+    await interaction.update({ content: `라운드 ${next} 진행 중…`, components: [] });
     const r = await runAndPost(interaction.channel, {
       prompt: ROUND_PROMPT[next],
       resume: state.sessionId,

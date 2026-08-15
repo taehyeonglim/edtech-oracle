@@ -28,6 +28,19 @@ cd bot && npm install
 cp config.example.json config.json   # 값을 채운다. config.json은 커밋되지 않는다
 ```
 
+| 키 | 값 |
+|---|---|
+| `repo` | 저장소 절대 경로. 여기서 `claude -p`가 돈다 |
+| `token` | 개발자 포털 > Bot > Reset Token |
+| `guildId` · `ownerId` | 서버·본인 우클릭 > ID 복사 (설정 > 고급 > 개발자 모드) |
+| `webhookUrl` | 채널 설정 > 연동 > 웹후크 |
+| `baseUrl` | 배포된 사이트 주소. 각주가 이 밑의 출처 페이지로 걸린다 |
+| `timeoutMs` · `debateIdleMs` | 한 실행의 제한 시간 · 버튼 방치 시 접는 시간 |
+| `speakers` | 위인별 덧붙임. **표시 이름은 위키에서 온다** — 여기엔 `avatarUrl` 정도만 |
+
+`speakers`를 비워 두면 아바타 없이 이름만 붙는다. 초상 권리(`KNOWN-ISSUES` #3) 때문에
+그것이 기본값이다.
+
 디스코드 개발자 포털에서 애플리케이션을 만들고,
 
 - **Bot** 탭에서 토큰을 발급해 `token`에 넣는다
