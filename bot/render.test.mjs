@@ -145,15 +145,17 @@ test("커서가 파일보다 앞서면 빈 배열이 나온다 — 호출부가 
   assert.equal(render(md, { baseUrl: BASE, since: 0 }).payloads.length, 1);
 });
 
-test("_orchestrator는 사회자 이름으로, 아바타 없이 게시된다", () => {
+test("_orchestrator의 이름은 설정이 덮어쓰지 못한다", () => {
+  // 사회자는 위인이 아니라 위키에 페이지가 없다. 이름을 설정에서 받으면 위인처럼
+  // 보이게 만들 수 있고, 그러면 각주 없는 종합이 발언으로 읽힌다.
   const md = answer(["## _orchestrator\n\n이 둘은 학습의 소재지에서 갈린다."]);
   const [p] = render(md, {
     baseUrl: BASE,
-    speakers: { _orchestrator: { name: "가짜", avatarUrl: "https://x.test/a.png" } },
+    speakers: { _orchestrator: { name: "존 듀이", avatarUrl: "https://x.test/o.png" } },
   }).payloads;
 
   assert.equal(p.username, ORCHESTRATOR_NAME);
-  assert.ok(!("avatarUrl" in p), "사회자에게 아바타가 붙었다");
+  assert.equal(p.avatarUrl, "https://x.test/o.png", "아바타는 호출부가 정한다");
 });
 
 test("아바타는 설정이 줄 때만 붙는다", () => {

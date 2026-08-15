@@ -214,9 +214,10 @@ export function render(markdown, { since = 0, baseUrl = "", speakers = {}, limit
         speaker,
         part,
         parts: parts.length,
+        // 사회자의 이름은 여기서 고정한다 — 위인이 아니므로 위키에 페이지가 없다.
         username: isOrchestrator ? ORCHESTRATOR_NAME : (info.name ?? speaker),
-        // 초상 권리(KNOWN-ISSUES #3) 때문에 아바타는 기본값이 없다. 설정이 주면 그때 붙는다.
-        ...(isOrchestrator || !info.avatarUrl ? {} : { avatarUrl: info.avatarUrl }),
+        // 아바타는 호출부가 준다. 이 모듈은 어떤 이미지가 정당한지 판단하지 않는다.
+        ...(info.avatarUrl ? { avatarUrl: info.avatarUrl } : {}),
         content,
       });
     });

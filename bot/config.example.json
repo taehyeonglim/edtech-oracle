@@ -7,5 +7,6 @@
   "baseUrl": "https://taehyeonglim.github.io/edtech-oracle",
   "timeoutMs": 900000,
   "debateAutoMs": 90000,
+  "progressMs": 30000,
   "speakers": {}
 }

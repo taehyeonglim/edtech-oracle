@@ -43,14 +43,27 @@ const config = loadConfig();
 const answersDir = join(config.repo, "answers");
 
 /**
+ * 아바타는 `gen-avatars.py`가 만들어 사이트와 함께 배포한 이니셜 이미지다.
+ *
+ * 실제 초상을 쓰지 않는 이유는 `KNOWN-ISSUES` #3이다 — 36장 중 퍼블릭 도메인·CC 근거가
+ * 확인된 것은 14장뿐이고, 근거 없는 것을 올리지 않는 프로젝트에서 나머지를 임의로
+ * 채울 수 없다. 14장만 사진을 쓰면 두 종류가 섞여 더 이상해진다.
+ */
+const avatarFor = (slug) => `${String(config.baseUrl).replace(/\/+$/, "")}/assets/avatars/${slug}.png`;
+
+/**
  * 화자 표시 이름은 **위키에서 가져온다.** 설정에 손으로 적으면 위인 페이지의 제목과
- * 갈라지고, 갈라진 쪽이 채널에 나간다. 설정은 아바타 같은 덧붙임만 담당한다.
+ * 갈라지고, 갈라진 쪽이 채널에 나간다. 설정은 덧붙임과 덮어쓰기만 담당한다.
  */
 function speakersFromWiki(wikiDir) {
   const out = {};
   for (const p of loadPages(wikiDir)) {
-    if (p.fm?.type === "pioneer" && p.fm?.slug) out[p.fm.slug] = { name: p.fm.title };
+    if (p.fm?.type === "pioneer" && p.fm?.slug) {
+      out[p.fm.slug] = { name: p.fm.title, avatarUrl: avatarFor(p.fm.slug) };
+    }
   }
+  // 사회자는 위인이 아니라 위키에 페이지가 없다. 아바타만 여기서 붙인다(이름은 render가 고정).
+  out._orchestrator = { avatarUrl: avatarFor("_orchestrator") };
   for (const [slug, extra] of Object.entries(config.speakers ?? {})) {
     // 객체가 아닌 값은 건너뛴다. 문자열을 펼치면 글자 하나하나가 키가 된 쓰레기 항목이 남는다.
     if (extra && typeof extra === "object") out[slug] = { ...out[slug], ...extra };
@@ -92,6 +105,37 @@ async function postAll(payloads) {
 /** 봇 자신이 보내는 안내·오류. 위인 발언과 섞이지 않게 웹훅을 쓰지 않는다. */
 const say = (channel, content, components = []) => channel.send({ content, components });
 
+const mmss = (ms) => {
+  const s = Math.floor(ms / 1000);
+  return `${Math.floor(s / 60)}분 ${String(s % 60).padStart(2, "0")}초`;
+};
+
+/** 진행 표시 갱신 주기. 너무 잦으면 디스코드 편집 레이트리밋에 부딪힌다. */
+const PROGRESS_MS = config.progressMs ?? 30 * 1000;
+
+/**
+ * 오래 걸리는 일 위에 경과 시간을 띄운다.
+ *
+ * `/ask` 한 번이 실측 7분이었다. 그동안 채널에 아무 신호가 없으면 고장인지 진행 중인지
+ * 구분할 수 없다 — 실제로 첫 실행에서 "답변이 안 뜬다"로 나타난 증상이다.
+ *
+ * 새 메시지를 쌓지 않고 **한 메시지를 고쳐 쓴다.** 끝나면 지운다 — 답변과 검사 요약이
+ * 뒤따르므로 진행 표시가 남을 이유가 없다.
+ */
+async function withProgress(channel, label, fn) {
+  const started = Date.now();
+  const msg = await say(channel, `${label} · 시작`).catch(() => null);
+  const timer = setInterval(() => {
+    msg?.edit(`${label} · ${mmss(Date.now() - started)}째 진행 중`).catch(() => {});
+  }, PROGRESS_MS);
+  try {
+    return await fn();
+  } finally {
+    clearInterval(timer);
+    await msg?.delete().catch(() => {});
+  }
+}
+
 /** 답변을 커밋한다. **푸시하지 않는다** — 질문 하나에 사이트를 재배포하는 것은 과하다. */
 function commitAnswer(file, subject) {
   return new Promise((resolve) => {
@@ -113,13 +157,15 @@ function commitAnswer(file, subject) {
  */
 async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since = 0, subject }) {
   const before = snapshotAnswers(answersDir);
-  const run = await runClaude({
-    prompt,
-    cwd: config.repo,
-    resume,
-    appendSystemPrompt,
-    timeoutMs: config.timeoutMs,
-  });
+  const run = await withProgress(channel, `\`${subject}\` 처리 중`, () =>
+    runClaude({
+      prompt,
+      cwd: config.repo,
+      resume,
+      appendSystemPrompt,
+      timeoutMs: config.timeoutMs,
+    }),
+  );
 
   if (!run.ok) {
     // 조용히 죽지 않는다. 레이트리밋도 폴백 없이 메시지를 그대로 전달한다.

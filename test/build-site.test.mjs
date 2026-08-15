@@ -1,7 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { existsSync, rmSync } from "node:fs";
+import { existsSync, rmSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { tmpdir } from "node:os";
 import { makeWiki, page } from "./helpers.mjs";
 import { buildSite, renderAll, findDeadLinks } from "../scripts/build-site.mjs";
 import { collect } from "../scripts/site/collect.mjs";
@@ -170,6 +171,19 @@ test("사이트 어서션 위반도 빌드를 막는다", () => {
   const out = join(root, "out");
   assert.throws(() => buildSite({ wikiDir, sourcesPath, outDir: out }), /어서션/);
   rmSync(root, { recursive: true, force: true });
+});
+
+test("하위 디렉터리 자산도 산출물로 복사된다", () => {
+  // 자산 목록을 한 겹만 읽으면 `avatars`가 디렉터리 이름으로 들어오고 복사 단계가
+  // "파일이 아니다"라며 조용히 건너뛴다 — 빌드는 성공하는데 아바타 37장이 없다.
+  const out = join(tmpdir(), `oracle-assets-${process.pid}`);
+  buildSite({ wikiDir: "wiki", sourcesPath: "sources.json", outDir: out });
+
+  const avatars = readdirSync(join(out, "assets", "avatars"));
+  assert.ok(avatars.length >= 36, `아바타가 ${avatars.length}개뿐이다`);
+  assert.ok(avatars.includes("john-dewey.png"));
+  assert.ok(existsSync(join(out, "assets", "site.css")), "최상위 자산도 그대로 복사돼야 한다");
+  rmSync(out, { recursive: true, force: true });
 });
 
 test("두 번 렌더해도 결과가 완전히 같다", () => {

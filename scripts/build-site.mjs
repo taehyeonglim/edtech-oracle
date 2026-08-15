@@ -105,12 +105,28 @@ export function findDeadLinks(files, assetNames) {
   return dead;
 }
 
-function listAssets() {
+/**
+ * `web/assets/` 아래 모든 파일을 상대경로로 편다.
+ *
+ * 재귀가 필요한 이유는 아바타다(`assets/avatars/<slug>.png`, 37개). 한 겹만 읽으면
+ * 디렉터리 이름이 목록에 들어오고 `writeAll`이 파일이 아니라며 조용히 건너뛴다 —
+ * 빌드는 성공하는데 산출물에 이미지가 없다.
+ */
+function listAssets(dir = ASSET_DIR, prefix = "") {
+  let out = [];
+  let names;
   try {
-    return readdirSync(ASSET_DIR).filter((n) => !n.startsWith("."));
+    names = readdirSync(dir);
   } catch {
     return [];
   }
+  for (const n of names) {
+    if (n.startsWith(".")) continue;
+    const p = join(dir, n);
+    if (statSync(p).isDirectory()) out = out.concat(listAssets(p, `${prefix}${n}/`));
+    else out.push(`${prefix}${n}`);
+  }
+  return out;
 }
 
 function writeAll(outDir, files) {
@@ -122,10 +138,10 @@ function writeAll(outDir, files) {
   }
   const assets = listAssets();
   if (assets.length) {
-    mkdirSync(join(outDir, "assets"), { recursive: true });
     for (const name of assets) {
-      const src = join(ASSET_DIR, name);
-      if (statSync(src).isFile()) writeFileSync(join(outDir, "assets", name), readFileSync(src));
+      const dest = join(outDir, "assets", name);
+      mkdirSync(dirname(dest), { recursive: true });
+      writeFileSync(dest, readFileSync(join(ASSET_DIR, name)));
     }
   }
   return files.size + assets.length;
