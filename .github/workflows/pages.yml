@@ -27,9 +27,12 @@ jobs:
       - run: npm ci
       # 게이트 1 — 근거 무결성. 여기가 빨간데 배포하면 깨진 근거를 예쁘게 포장하는 셈이다.
       - run: npm run lint:strict
-      # 게이트 2 — 렌더러·색인 회귀
+      # 게이트 2 — 답변 무결성. 위인이 지어냈거나 자기 페이지 밖에서 인용한 답변은 저장소에 남지 못한다.
+      #            형식급(마커·각주 서식)은 경고로만 나온다.
+      - run: npm run lint:answers
+      # 게이트 3 — 렌더러·색인 회귀
       - run: npm test
-      # 게이트 3 — 빌드 내부에서 lint를 다시 돌리고 산출물의 내부 링크를 전수 검사한다
+      # 게이트 4 — 빌드 내부에서 lint를 다시 돌리고 산출물의 내부 링크를 전수 검사한다
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

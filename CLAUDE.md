@@ -60,8 +60,17 @@
 ```bash
 npm run lint          # 작성 중 — 규칙 6·7은 경고
 npm run lint:strict   # 커밋 전·게이트 — 전부 오류
+npm run lint:answers  # answers/ 답변 무결성 — 위조급만 exit 1
 npm test              # 파서·lint 단위 테스트
 ```
+
+## 답변 게이트
+
+위키는 `lint`가, 답변은 `lint:answers`가 검사한다. 답변은 `answers/`에 저장하며 `wiki/` 밖이다 —
+안에 두면 lint 규칙 1·7이 깨진다. 규칙과 형식은 [`answers/README.md`](answers/README.md)가 정본이다.
+
+핵심 규칙 하나만 옮기면, **위인은 자기 페이지 프론트매터 `sources`에 있는 출처만 인용할 수 있다.**
+위인 격리(아래 "위키 수정 권한") 때문에 인용 가능 집합이 확정되어 있어 성립하는 검사다.
 
 ## 위키 수정 권한
 
