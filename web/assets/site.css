@@ -18,7 +18,9 @@
   --tier-c: #8a5a12;
   --tier-c-bg: #f6e9d2;
   --mark: #ffe9a8;
-  --measure: 34rem;
+  /* 한글 본문 약 42자/줄. main이 쓸 수 있는 47rem 안에 든다 —
+     34rem이던 때는 본문 오른쪽에 13rem이 빈 채로 남아 넓은데 답답했다. */
+  --measure: 42rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,8 +54,10 @@ body {
   color: var(--ink);
   font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo",
     "Noto Sans KR", "Malgun Gothic", sans-serif;
+  /* keep-all은 한글 단어를 쪼개지 않는다. 긴 URL만 break-word로 흘린다 —
+     anywhere는 최소폭 계산까지 바꿔 그리드가 예상 밖으로 좁아진다. */
   word-break: keep-all;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 a { color: var(--accent); text-underline-offset: 0.18em; }
@@ -140,7 +144,8 @@ h1 { font-size: clamp(1.7rem, 4vw, 2.3rem); line-height: 1.25; margin: 0 0 .5rem
   margin: 2.4rem 0 .7rem; font-size: 1.22rem; letter-spacing: -.01em;
   padding-bottom: .3rem; border-bottom: 1px solid var(--rule);
 }
-.prose p { margin: 0 0 1rem; }
+/* 줄높이가 1.75(28px)인데 문단 간격이 16px이면 문단이 서로 붙어 보인다. */
+.prose p { margin: 0 0 1.35rem; }
 .prose ul, .prose ol { padding-left: 1.3rem; }
 .prose li { margin: .3rem 0; }
 .prose blockquote {
