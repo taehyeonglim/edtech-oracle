@@ -93,6 +93,28 @@ test("렌더 결과에 미변환 마크업이나 undefined가 남지 않는다",
   }
 });
 
+test("2열 그리드는 목차가 있는 페이지에만 붙는다", () => {
+  // wrap--doc이 목차 없는 페이지에 붙으면 유일한 자식인 <main>이 13rem 칸에 배치돼
+  // 본문이 208px로 눌리고 오른쪽 47rem이 빈다. 브라우즈·지도 페이지가 전부 그랬다.
+  let checked = 0;
+  for (const [k, html] of realFiles) {
+    if (!k.endsWith(".html")) continue;
+    const hasToc = html.includes('<nav class="toc"');
+    const hasDoc = /<div class="wrap wrap--doc"/.test(html);
+    assert.equal(hasDoc, hasToc, `${k}: 목차=${hasToc}인데 wrap--doc=${hasDoc}`);
+    checked += 1;
+  }
+  assert.ok(checked > 200, `기준선이 너무 작다: ${checked}`);
+});
+
+test("목차 없는 페이지가 실제로 존재한다", () => {
+  // 위 테스트는 모든 페이지에 목차가 있으면 공허하게 통과한다.
+  const noToc = [...realFiles].filter(
+    ([k, html]) => k.endsWith(".html") && !html.includes('<nav class="toc"'),
+  );
+  assert.ok(noToc.length >= 5, `목차 없는 페이지가 ${noToc.length}개뿐이다`);
+});
+
 test("깊이 1 페이지의 자산 링크는 ../assets로 올라간다", () => {
   const html = realFiles.get("pioneers/robert-gagne.html");
   assert.match(html, /href="\.\.\/assets\/site\.css"/);

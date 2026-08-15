@@ -99,8 +99,10 @@ a:hover { text-decoration-thickness: 2px; }
   max-width: 68rem; margin: 0 auto;
   padding: clamp(1.5rem, 4vw, 2.5rem) clamp(1rem, 4vw, 2.5rem) 0;
 }
+/* 목차가 있는 문서 페이지만 2열이다. 목차 없는 브라우즈·지도 페이지에까지 2열을 깔면
+   유일한 자식인 <main>이 13rem 칸에 배치돼 본문이 208px로 눌린다. */
 @media (min-width: 60rem) {
-  .wrap { grid-template-columns: 13rem minmax(0, 1fr); }
+  .wrap--doc { grid-template-columns: 13rem minmax(0, 1fr); }
   .toc { position: sticky; top: 1.5rem; align-self: start; }
 }
 main:focus { outline: none; }
@@ -248,7 +250,13 @@ h2:hover .h-anchor, .h-anchor:focus { opacity: 1; }
 .card__chips { margin: .5rem 0 0; display: flex; flex-wrap: wrap; gap: .25rem; }
 .card__chips .chip { font-size: .74rem; }
 
-.rows { list-style: none; padding: 0; margin: 1.2rem 0 0; }
+/* 출처 140행·개념 141행을 1열로 쌓으면 스크롤이 폭발한다. 넓은 화면에서 2열로 나눈다.
+   최소 26rem은 출처 제목 길이에서 나왔다 — 중앙 39자·90% 68자라 더 좁히면 제목이 접힌다. */
+.rows {
+  list-style: none; padding: 0; margin: 1.2rem 0 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  column-gap: 2.2rem;
+}
 .row { padding: .55rem 0; border-bottom: 1px solid var(--rule); }
 .row__title { font-weight: 600; text-decoration: none; color: var(--ink); }
 a.row__title:hover { color: var(--accent); }

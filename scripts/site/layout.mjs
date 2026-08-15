@@ -37,6 +37,9 @@ export function layout({ fromId, title, subtitle = "", nav = [], body, toc = [],
 <ol>${toc.map((t) => `<li><a href="#${esc(t.id)}">${esc(t.text)}</a></li>`).join("")}</ol>
 </nav>`
     : "";
+  // 2열 그리드는 목차가 있을 때만이다. 없는데 2열을 깔면 유일한 자식인 <main>이
+  // 13rem 칸에 배치돼 본문이 208px로 눌리고 오른쪽 47rem이 통째로 빈다.
+  const wrapClass = toc.length ? "wrap wrap--doc" : "wrap";
 
   return `<!doctype html>
 <html lang="ko">
@@ -53,7 +56,7 @@ ${extraHead}</head>
   <a class="site-head__brand" href="${esc(relUrl(fromId, "index.html"))}">에듀테크 오라클</a>
   <nav class="site-head__nav" aria-label="주요">${navHtml}</nav>
 </header>
-<div class="wrap">
+<div class="${wrapClass}">
 ${tocHtml}
 <main id="main" tabindex="-1">
 ${body}
