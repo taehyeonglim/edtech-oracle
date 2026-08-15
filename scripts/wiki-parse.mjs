@@ -64,6 +64,26 @@ export function stripFootnoteDefs(body) {
   return out.join("\n");
 }
 
+/** 각주 정의 블록(정의 줄 + 들여쓴 연속 줄)을 id와 함께 통째로 꺼낸다. */
+export function footnoteBlocks(text) {
+  const out = [];
+  let cur = null;
+  for (const line of text.split(EOL_RE)) {
+    const m = DEF_LINE_RE.exec(line);
+    if (m) {
+      cur = { id: m[1], lines: [line] };
+      out.push(cur);
+      continue;
+    }
+    if (cur && (/^\s+\S/.test(line) || line.trim() === "")) {
+      cur.lines.push(line);
+      continue;
+    }
+    cur = null;
+  }
+  return out.map((b) => ({ id: b.id, text: b.lines.join(" ").replace(/\s+/g, " ").trim() }));
+}
+
 /** 레벨 2(`## `) 섹션만 자른다. 각주 정의는 미리 제거한다. */
 export function sections(body) {
   const parts = [];

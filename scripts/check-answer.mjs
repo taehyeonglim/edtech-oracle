@@ -1,7 +1,13 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 import matter from "gray-matter";
-import { loadPages, footnoteRefs, stripFootnoteDefs, asDateString } from "./wiki-parse.mjs";
+import {
+  loadPages,
+  footnoteRefs,
+  footnoteBlocks,
+  stripFootnoteDefs,
+  asDateString,
+} from "./wiki-parse.mjs";
 
 /** 사회자 발언. 위인이 아니므로 인용 범위(규칙 3)와 마커(규칙 9~11)의 대상이 아니다. */
 export const ORCHESTRATOR = "_orchestrator";
@@ -22,7 +28,6 @@ const DEF_TAIL_RE = /—\s*tier\s+([ABC])\s*·\s*\[\[sources\/([^\]|]+?)\s*\]\]$
 const INDENT = " {0,3}";
 /** CRLF에서 `\r`은 줄 종결자라 `.`와 `$`에 걸리지 않는다. 줄을 자를 때 함께 떼어낸다. */
 const EOL_RE = /\r?\n/;
-const DEF_LINE_RE = new RegExp(`^${INDENT}\\[\\^([^\\]\\s]+)\\]:`);
 const HEADING_RE = new RegExp(`^${INDENT}##\\s+(.+)$`);
 /** 마커를 요구하지 않는 블록. 인용문·목록·표와 되묻기 신호. */
 const SKIP_PARA_RE = /^(>|[-*]\s|\d+\.\s|\||NEEDS_CLARIFICATION)/;
@@ -44,26 +49,6 @@ export function speakerSections(body) {
     }
   }
   return out.map((s) => ({ speaker: s.speaker, text: s.lines.join("\n") }));
-}
-
-/** 각주 정의 블록(정의 줄 + 들여쓴 연속 줄)을 id와 함께 통째로 꺼낸다. */
-export function footnoteBlocks(text) {
-  const out = [];
-  let cur = null;
-  for (const line of text.split(EOL_RE)) {
-    const m = DEF_LINE_RE.exec(line);
-    if (m) {
-      cur = { id: m[1], lines: [line] };
-      out.push(cur);
-      continue;
-    }
-    if (cur && (/^\s+\S/.test(line) || line.trim() === "")) {
-      cur.lines.push(line);
-      continue;
-    }
-    cur = null;
-  }
-  return out.map((b) => ({ id: b.id, text: b.lines.join(" ").replace(/\s+/g, " ").trim() }));
 }
 
 const paragraphs = (text) =>

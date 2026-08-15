@@ -3,6 +3,7 @@ import { pathToFileURL } from "node:url";
 import {
   loadPages,
   footnoteDefs,
+  footnoteBlocks,
   footnoteRefs,
   wikilinks,
   sections,
@@ -152,6 +153,24 @@ function rule8(pages, sourceById) {
   return out;
 }
 
+/**
+ * 각주 정의의 서지가 sources.json의 제목을 담아야 한다.
+ * id만 대조하면 유효한 id를 유지한 채 저자·제목을 통째로 바꿔 써도 통과하고,
+ * 렌더된 각주에는 그 서지가 근거인 것처럼 표시된다. URL은 축약되는 경우가 있어 보지 않는다.
+ */
+function rule9(pages, sourceById) {
+  const out = [];
+  for (const p of pages) {
+    for (const b of footnoteBlocks(p.body)) {
+      const title = sourceById.get(b.id)?.title;
+      if (title && !b.text.includes(title)) {
+        out.push(find(9, p, `서지가 sources.json과 다르다: [^${b.id}]의 제목은 "${title}"이다`));
+      }
+    }
+  }
+  return out;
+}
+
 export function lintWiki({ wikiDir, sourcesPath, strict = false }) {
   const pages = loadPages(wikiDir);
   const sources = JSON.parse(readFileSync(sourcesPath, "utf8"));
@@ -165,6 +184,7 @@ export function lintWiki({ wikiDir, sourcesPath, strict = false }) {
     ...rule6(pages),
     ...rule7(pages),
     ...rule8(pages, sourceById),
+    ...rule9(pages, sourceById),
   ];
   if (strict) return findings;
   return findings.map((f) => (SOFT_RULES.has(f.rule) ? { ...f, severity: "warn" } : f));

@@ -49,7 +49,7 @@ test("정상 위키는 위반이 없다", () => {
 
 test("규칙 1 — 프론트매터 필수 필드 누락", () => {
   const bad =
-    "---\ntitle: 위인 1\ntype: pioneer\n---\n\n## 절\n주장[^a-src].\n\n[^a-src]: A. — tier A · [[sources/a-src]]\n";
+    "---\ntitle: 위인 1\ntype: pioneer\n---\n\n## 절\n주장[^a-src].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n";
   assert.ok(rules(run({ "pioneers/p1.md": bad })).includes(1));
 });
 
@@ -58,7 +58,7 @@ test("규칙 2 — 정의 없는 각주 참조", () => {
     type: "pioneer",
     title: "위인 1",
     extra: "slug: p1\nsources: [a-src]\nconfidence: high",
-    body: "## 절\n주장[^a-src] 그리고 또[^missing].\n\n[^a-src]: A. — tier A · [[sources/a-src]]\n",
+    body: "## 절\n주장[^a-src] 그리고 또[^missing].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
   });
   assert.ok(rules(run({ "pioneers/p1.md": bad })).includes(2));
 });
@@ -78,7 +78,7 @@ test("규칙 4 — 프론트매터 sources와 본문 각주 불일치", () => {
     type: "pioneer",
     title: "위인 1",
     extra: "slug: p1\nsources: [a-src, c-src]\nconfidence: high",
-    body: "## 절\n주장[^a-src].\n\n[^a-src]: A. — tier A · [[sources/a-src]]\n",
+    body: "## 절\n주장[^a-src].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
   });
   assert.ok(rules(run({ "pioneers/p1.md": bad })).includes(4));
 });
@@ -88,7 +88,7 @@ test("규칙 5 — 깨진 wikilink", () => {
     type: "pioneer",
     title: "위인 1",
     extra: "slug: p1\nsources: [a-src]\nconfidence: high",
-    body: "## 절\n주장[^a-src]. [[concepts/nonexistent]]\n\n[^a-src]: A. — tier A · [[sources/a-src]]\n",
+    body: "## 절\n주장[^a-src]. [[concepts/nonexistent]]\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
   });
   assert.ok(rules(run({ "pioneers/p1.md": bad })).includes(5));
 });
@@ -98,7 +98,7 @@ test("규칙 6 — 각주 없는 ## 섹션", () => {
     type: "pioneer",
     title: "위인 1",
     extra: "slug: p1\nsources: [a-src]\nconfidence: high",
-    body: "## 근거 있는 절\n주장[^a-src].\n\n## 근거 없는 절\n그냥 서술이다.\n\n[^a-src]: A. — tier A · [[sources/a-src]]\n",
+    body: "## 근거 있는 절\n주장[^a-src].\n\n## 근거 없는 절\n그냥 서술이다.\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
   });
   assert.ok(rules(run({ "pioneers/p1.md": bad })).includes(6));
 });
@@ -121,7 +121,7 @@ test("규칙 7 — index에서 도달 불가한 고아 페이지", () => {
     type: "concept",
     title: "고아",
     extra: "sources: [a-src]\nconfidence: high",
-    body: "## 정의\n정의다[^a-src].\n\n[^a-src]: A. — tier A · [[sources/a-src]]\n",
+    body: "## 정의\n정의다[^a-src].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
   });
   assert.ok(rules(run({ "concepts/orphan.md": orphan })).includes(7));
 });
@@ -147,6 +147,28 @@ test("규칙 8 — 계산값과 같으면 통과한다", () => {
   assert.ok(!rules(run({ "pioneers/p1.md": ok })).includes(8));
 });
 
+test("규칙 9 — 각주 서지가 sources.json과 다르다", () => {
+  // id만 대조하면 유효한 id를 유지한 채 저자·제목을 통째로 바꿔 써도 통과한다.
+  const bad = page({
+    type: "pioneer",
+    title: "위인 1",
+    extra: "slug: p1\nsources: [a-src]\nconfidence: high",
+    body: "## 절\n주장[^a-src].\n\n[^a-src]: 존재하지 않는 저자. 존재하지 않는 책. — tier A · [[sources/a-src]]\n",
+  });
+  assert.ok(rules(run({ "pioneers/p1.md": bad })).includes(9));
+});
+
+test("규칙 9 — sources.json에 없는 id는 서지를 검증하지 않는다", () => {
+  // 규칙 3이 이미 잡는다. 여기서 제목을 추측하지 않는다.
+  const bad = page({
+    type: "pioneer",
+    title: "위인 1",
+    extra: "slug: p1\nsources: [ghost]\nconfidence: high",
+    body: "## 절\n주장[^ghost].\n\n[^ghost]: 아무 서지. — tier A · [[sources/a-src]]\n",
+  });
+  assert.ok(!rules(run({ "pioneers/p1.md": bad })).includes(9));
+});
+
 test("규칙 1 — source 페이지에 confidence가 있으면 잡는다", () => {
   const bad = page({
     type: "source",
@@ -162,7 +184,7 @@ test("기본 모드는 규칙 6·7을 경고로 낮춘다", () => {
     type: "pioneer",
     title: "위인 1",
     extra: "slug: p1\nsources: [a-src]\nconfidence: high",
-    body: "## 근거 없는 절\n서술.\n\n## 근거 있는 절\n주장[^a-src].\n\n[^a-src]: A. — tier A · [[sources/a-src]]\n",
+    body: "## 근거 없는 절\n서술.\n\n## 근거 있는 절\n주장[^a-src].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
   });
   const findings = run({ "pioneers/p1.md": bad }, { strict: false });
   assert.ok(findings.some((f) => f.rule === 6 && f.severity === "warn"));

@@ -133,13 +133,13 @@ test("사이트 어서션 위반도 빌드를 막는다", () => {
         type: "pioneer",
         title: "위인",
         extra: "slug: p\nrole: 역할\nlife: 1900—2000\nconcepts: [가]\nsources: [a]\nconfidence: low",
-        body: "## 절\n\n주장[^a]\n\n[^a]: 저자. — tier A · [[sources/a]]",
+        body: "## 절\n\n주장[^a]\n\n[^a]: 저자. 제목. — tier A · [[sources/a]]",
       }),
       "sources/a.md": page({
         type: "source",
         title: "출처",
         extra: "sources: [a]",
-        body: "## 절\n\n설명[^a]\n\n[^a]: 저자. — tier A · [[sources/a]]",
+        body: "## 절\n\n설명[^a]\n\n[^a]: 저자. 제목. — tier A · [[sources/a]]",
       }),
     },
     // 레지스트리는 C인데 본문은 A라고 말한다 → 사이트가 거짓말을 하게 된다
