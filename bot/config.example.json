@@ -1,0 +1,14 @@
+{
+  "repo": "/Users/taehyeong/Documents/GitHub/edtech-oracle",
+  "token": "디스코드 봇 토큰 — 개발자 포털 > Bot > Reset Token",
+  "guildId": "서버 ID — 서버 우클릭 > ID 복사 (개발자 모드 필요)",
+  "ownerId": "본인 사용자 ID — 이 사람의 명령만 받는다",
+  "webhookUrl": "https://discord.com/api/webhooks/... — 채널 설정 > 연동 > 웹후크",
+  "baseUrl": "https://taehyeonglim.github.io/edtech-oracle",
+  "timeoutMs": 900000,
+  "debateIdleMs": 1800000,
+  "speakers": {
+    "_주석": "표시 이름은 위키 위인 페이지의 title에서 가져온다. 여기는 덧붙임만 적는다.",
+    "robert-gagne": { "avatarUrl": "초상 권리(KNOWN-ISSUES #3) 때문에 기본은 비워 둔다" }
+  }
+}

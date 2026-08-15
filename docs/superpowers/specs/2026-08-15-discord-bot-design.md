@@ -1,7 +1,7 @@
 # 디스코드 봇 — 설계 명세
 
 **날짜** 2026-08-15
-**상태** 설계 승인됨. 구현 전
+**상태** 구현됨 (2026-08-15). 실전 실행 미검증
 **전제** 맥미니 24시간 가동 · 구독제 Claude Code · **단일 사용자(본인) 전용**
 
 ## 무엇을 만드는가
@@ -64,7 +64,8 @@ bot/                      새 디렉터리 · 자체 package.json
   index.mjs               디스코드 클라이언트 · 슬래시 커맨드 등록 · 락
   run-claude.mjs          claude -p 실행 · session_id 보관
   render.mjs              answers/*.md → 웹훅 페이로드 (순수 함수)
-  config.json             길드·채널·본인 사용자 ID·웹훅 URL·사이트 base URL
+  config.json             길드·본인 사용자 ID·웹훅 URL·사이트 base URL (커밋 안 함)
+  config.example.json     위 파일의 빈 서식
 ```
 
 **`bot/`에 자체 `package.json`을 둔다.** 루트는 README가 "런타임 의존성 0"이라고 공언한
@@ -94,7 +95,7 @@ bot/                      새 디렉터리 · 자체 package.json
 ### `/ask <질문>`
 
 ```
-deferReply()                       디스코드 3초 제한 회피 (실측 2분 소요)
+reply("시작했다")                   3초 안에. 최종 출력은 이 토큰에 걸지 않는다
 claude -p "/ask <질문>" --output-format json
   --disallowedTools AskUserQuestion --permission-mode acceptEdits
 새로 생긴 answers/*.md 찾기
@@ -188,3 +189,11 @@ base URL은 `config.json`에 둔다. `scripts/site/urls.mjs`는 의도적으로 
 - 각주가 절대 URL로 바뀐다
 - `_orchestrator` 섹션은 아바타 없이 게시된다
 - 실제 `answers/2026-08-15-what-is-learning.md`로 회귀 검사
+
+`bot/run-claude.test.mjs` — 가짜 `claude` 실행 파일을 세워 프로세스 경로까지 검사한다.
+
+- 프롬프트가 `-p` 바로 뒤에 온다 (`--disallowedTools`가 가변 인자라 뒤의 값을 삼킨다)
+- `is_error: true`는 종료 코드가 0이어도 실패다
+- JSON이 아닌 출력이면 stderr를 담아 돌려준다 — 조용히 죽지 않는다
+- 시간초과에 중단하고 그 사실을 남긴다
+- 새 파일이 없으면 최근 수정 파일을 준다 (`/debate`는 이어 쓴다)

@@ -12,6 +12,7 @@
     "test": "node --test \"*.test.mjs\""
   },
   "dependencies": {
+    "discord.js": "^14.27.0",
     "gray-matter": "^4.0.3"
   }
 }
