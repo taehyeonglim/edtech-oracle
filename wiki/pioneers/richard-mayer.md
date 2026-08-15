@@ -6,7 +6,7 @@ role: 교육심리학자 · 멀티미디어 학습 연구자
 life: 1947—
 concepts: [이중 채널, 제한된 작업기억, 능동적 처리, 외재적 인지부하]
 related: ["[[debates/bruner-mayer]]", "[[debates/papert-mayer]]", "[[debates/dale-mayer]]", "[[debates/novak-mayer]]", "[[debates/clark-mayer]]", "[[debates/kozma-mayer]]"]
-updated: 2026-08-14
+updated: 2026-08-15
 sources: [bio-mayer-ucsb, bio-wiki-mayer, apa-mayer-2018, bruner-1966, clark-1983, clark-1994, dale-1946, kozma-1991, kozma-1994, mayer-1997, mayer-2005, molenda-2003-cone, novak-1984, novak-2002, papert-1980, reiser-2017, sweller-1988, sweller-2011]
 confidence: medium
 ---
@@ -80,7 +80,7 @@ confidence: medium
 [^dale-1946]: Edgar Dale. (1946). Audio-Visual Methods in Teaching. Dryden Press. <https://archive.org/details/audiovisualmetho0000edga> — tier A · [[sources/dale-1946]]
 [^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier B · [[sources/kozma-1991]]
 [^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier B · [[sources/kozma-1994]]
-[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1997). A Split-Attention Effect in Multimedia Learning. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier B · [[sources/mayer-1997]]
+[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier B · [[sources/mayer-1997]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 [^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier B · [[sources/molenda-2003-cone]]
 [^novak-1984]: Joseph D. Novak; D. Bob Gowin. (1984). Learning How to Learn. Cambridge University Press. DOI: 10.1017/CBO9781139173469. <https://doi.org/10.1017/CBO9781139173469> — tier A · [[sources/novak-1984]]

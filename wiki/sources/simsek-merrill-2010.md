@@ -1,7 +1,7 @@
 ---
-title: "Interview with M. David Merrill"
+title: "Interview with M. David Merrill: Half a Century of Experience in the Field of Educational Technology and Instructional Design"
 type: source
-updated: 2026-08-14
+updated: 2026-08-15
 sources: [simsek-merrill-2010]
 ---
 
