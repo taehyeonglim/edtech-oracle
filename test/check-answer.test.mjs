@@ -191,6 +191,35 @@ test("규칙 9 — 마커 없는 문단", () => {
   assert.equal(severityOf(findings, 9), "form");
 });
 
+test("규칙 9 — 마커가 첫 줄 끝에 있어도 인정한다", () => {
+  // 실제 답변에서 나온 형태다. 듀이는 `**소제목** [근거]` 다음 줄에 본문을 쓴다.
+  const body = [
+    "## a-pioneer",
+    "",
+    "**경험의 재구성으로서의 학습** [근거]",
+    "학습이란 경험의 재구성이다.[^a-src]",
+    "",
+    DEF_A,
+  ].join("\n");
+  const { findings, markers } = run(body);
+  assert.ok(!rulesOf(findings).includes(9));
+  assert.equal(markers.근거, 1);
+});
+
+test("규칙 9 — 둘째 줄 이후의 마커는 인정하지 않는다", () => {
+  const body = [
+    "## a-pioneer",
+    "",
+    "첫 줄에는 마커가 없다.",
+    "둘째 줄에 [근거] 를 숨긴다.[^a-src]",
+    "",
+    DEF_A,
+  ].join("\n");
+  const { findings, markers } = run(body);
+  assert.ok(rulesOf(findings).includes(9));
+  assert.equal(markers.근거, 0);
+});
+
 test("규칙 10 — [근거]인데 각주가 없다", () => {
   const body = ["## a-pioneer", "", "[근거] 각주 없이 단정한다."].join("\n");
   const { findings } = run(body);

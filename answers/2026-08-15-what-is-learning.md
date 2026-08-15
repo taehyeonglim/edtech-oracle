@@ -10,10 +10,10 @@ speakers:
 check:
   status: violations
   forge: 0
-  form: 21
+  form: 15
   markers:
-    근거: 0
-    적용: 2
+    근거: 5
+    적용: 3
     근거없음: 0
 ---
 

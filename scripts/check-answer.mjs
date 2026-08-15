@@ -7,7 +7,12 @@ import { loadPages, footnoteRefs, stripFootnoteDefs, asDateString } from "./wiki
 export const ORCHESTRATOR = "_orchestrator";
 
 const MARKERS = ["근거없음", "근거", "적용"];
-const MARKER_RE = new RegExp(`^\\[(${MARKERS.join("|")})\\]`);
+/**
+ * 문단 첫 줄 어디에 있어도 마커로 인정한다. 위인들은 `**소제목** [근거]` 뒤에 본문을 쓰는데,
+ * 첫 글자만 보면 마커를 단 문단을 누락으로 세고 [근거] 집계가 0이 된다.
+ * 둘째 줄부터는 보지 않는다 — 본문 중간에 마커를 흘려 넣는 것과 구분해야 한다.
+ */
+const MARKER_RE = new RegExp(`\\[(${MARKERS.join("|")})\\]`);
 /** CLAUDE.md의 각주 정의 형식. 이 꼬리가 없으면 출처 페이지가 고아가 된다. */
 const DEF_TAIL_RE = /—\s*tier\s+([ABC])\s*·\s*\[\[sources\/([^\]|]+?)\s*\]\]$/;
 const DEF_LINE_RE = /^\[\^([^\]\s]+)\]:/;
@@ -136,7 +141,7 @@ export function checkAnswer({ file, wikiDir, sourcesPath, ctx }) {
 
     for (const para of paragraphs(text)) {
       if (SKIP_PARA_RE.test(para)) continue;
-      const m = MARKER_RE.exec(para);
+      const m = MARKER_RE.exec(para.split("\n")[0]);
       if (!m) {
         findings.push(form(9, speaker, `마커 없는 문단: ${para.slice(0, 24)}…`));
         continue;
