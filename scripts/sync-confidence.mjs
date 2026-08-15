@@ -82,4 +82,5 @@ function cli(argv) {
   console.log(`\n${dry ? "[--dry] " : ""}갱신 ${updated.length}건, 제거 ${removed.length}건`);
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) cli(process.argv.slice(2));
+// argv[1]은 `node -e`나 워커에서 없다. 가드가 없으면 모듈을 import만 해도 터진다.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) cli(process.argv.slice(2));

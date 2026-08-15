@@ -6,8 +6,13 @@ export const PAGE_TYPES = ["pioneer", "concept", "debate", "source", "meta"];
 /** 근거를 서술하는 타입. 인용 밀도(규칙 6)와 티어(규칙 8)의 적용 대상. */
 export const EVIDENCE_TYPES = new Set(["pioneer", "concept", "debate"]);
 
-const DEF_LINE_RE = /^\[\^([^\]\s]+)\]:/;
-const DEF_RE = /^\[\^([^\]\s]+)\]:/gm;
+/**
+ * CommonMark는 들여쓰기 3칸까지 블록으로 인정하고 4칸부터 코드블록으로 본다.
+ * 줄 시작만 보면 렌더러는 각주·헤딩으로 그리는데 파서는 산문으로 읽어 검사가 통째로 비켜간다.
+ */
+const INDENT = " {0,3}";
+const DEF_LINE_RE = new RegExp(`^${INDENT}\\[\\^([^\\]\\s]+)\\]:`);
+const DEF_RE = new RegExp(`^${INDENT}\\[\\^([^\\]\\s]+)\\]:`, "gm");
 const REF_RE = /\[\^([^\]\s]+)\](?!:)/g;
 const LINK_RE = /\[\[([^\]|]+)(?:\|[^\]]*)?\]\]/g;
 
@@ -58,7 +63,7 @@ export function sections(body) {
   const parts = [];
   let cur = null;
   for (const line of stripFootnoteDefs(body).split("\n")) {
-    const m = /^##\s+(.+)$/.exec(line);
+    const m = new RegExp(`^${INDENT}##\\s+(.+)$`).exec(line);
     if (m) {
       cur = { title: m[1].trim(), lines: [] };
       parts.push(cur);

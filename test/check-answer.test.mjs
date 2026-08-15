@@ -144,6 +144,73 @@ test("규칙 8 — 각주 id와 출처 링크가 다르다", () => {
   assert.ok(findings.some((f) => f.rule === 8 && /출처 링크가 다르다/.test(f.message)));
 });
 
+test("규칙 6 — 들여쓴 화자 헤딩으로 귀속을 우회하지 못한다", () => {
+  // CommonMark는 3칸까지 헤딩으로 렌더링한다. 줄 시작만 보면 렌더러는 화자 구분으로 그리는데
+  // 검사기는 앞 화자의 산문으로 읽어, 인용 범위(규칙 3)가 엉뚱한 위인 기준으로 평가된다.
+  const body = [
+    "## a-pioneer",
+    "",
+    "[근거] 정상 발언이다.[^a-src]",
+    "",
+    "  ## b-pioneer",
+    "",
+    "[근거] b를 사칭하며 a의 출처를 인용한다.[^a-src]",
+    "",
+    DEF_A,
+  ].join("\n");
+  const { findings } = run(body);
+  assert.ok(rulesOf(findings).includes(6));
+  assert.equal(severityOf(findings, 6), "forge");
+});
+
+test("들여쓴 각주 정의도 정의로 인정한다", () => {
+  // markdown-it-footnote가 렌더링하므로 검사기도 봐야 티어·서지 검증이 돈다.
+  const body = ["## a-pioneer", "", "[근거] 주장이다.[^a-src]", "", `  ${DEF_A}`].join("\n");
+  const { findings } = run(body);
+  assert.deepEqual(findings, []);
+});
+
+test("4칸 들여쓰기는 코드블록이므로 헤딩이 아니다", () => {
+  const body = [
+    "## a-pioneer",
+    "",
+    "[근거] 주장이다.[^a-src]",
+    "",
+    "    ## b-pioneer",
+    "",
+    DEF_A,
+  ].join("\n");
+  const { findings } = run(body);
+  assert.ok(!rulesOf(findings).includes(6));
+});
+
+test("규칙 12 — 각주 서지가 sources.json과 다르다", () => {
+  // id만 대조하면 유효한 id를 유지한 채 저자·제목을 통째로 날조할 수 있다.
+  const body = [
+    "## a-pioneer",
+    "",
+    "[근거] 주장이다.[^a-src]",
+    "",
+    "[^a-src]: 존재하지 않는 저자. 존재하지 않는 책. — tier A · [[sources/a-src]]",
+  ].join("\n");
+  const { findings } = run(body);
+  assert.ok(rulesOf(findings).includes(12));
+  assert.equal(severityOf(findings, 12), "forge");
+});
+
+test("규칙 12 — sources.json에 없는 id는 서지를 검증하지 않는다", () => {
+  // 규칙 2가 이미 잡는다. 여기서 제목을 추측하지 않는다.
+  const body = [
+    "## a-pioneer",
+    "",
+    "[근거] 주장이다.[^made-up]",
+    "",
+    "[^made-up]: 아무 서지. — tier A · [[sources/made-up]]",
+  ].join("\n");
+  const { findings } = run(body);
+  assert.ok(!rulesOf(findings).includes(12));
+});
+
 test("규칙 7 — 사회자 섹션에 각주가 있다", () => {
   const body = [
     "## a-pioneer",

@@ -111,4 +111,5 @@ function cli(argv) {
   console.log("그 개념에 대해 A·B 티어 근거를 이미 갖는지는 사람이 판정한다.");
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) cli(process.argv.slice(2));
+// argv[1]은 `node -e`나 워커에서 없다. 가드가 없으면 모듈을 import만 해도 터진다.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) cli(process.argv.slice(2));

@@ -15,7 +15,13 @@ const MARKERS = ["근거없음", "근거", "적용"];
 const MARKER_RE = new RegExp(`\\[(${MARKERS.join("|")})\\]`);
 /** CLAUDE.md의 각주 정의 형식. 이 꼬리가 없으면 출처 페이지가 고아가 된다. */
 const DEF_TAIL_RE = /—\s*tier\s+([ABC])\s*·\s*\[\[sources\/([^\]|]+?)\s*\]\]$/;
-const DEF_LINE_RE = /^\[\^([^\]\s]+)\]:/;
+/**
+ * CommonMark는 들여쓰기 3칸까지 블록으로 인정한다. 줄 시작만 보면 `  ## 다른위인`이
+ * 헤딩으로 렌더링되는데 검사기는 앞 화자의 산문으로 읽어 귀속이 통째로 어긋난다.
+ */
+const INDENT = " {0,3}";
+const DEF_LINE_RE = new RegExp(`^${INDENT}\\[\\^([^\\]\\s]+)\\]:`);
+const HEADING_RE = new RegExp(`^${INDENT}##\\s+(.+)$`);
 /** 마커를 요구하지 않는 블록. 인용문·목록·표와 되묻기 신호. */
 const SKIP_PARA_RE = /^(>|[-*]\s|\d+\.\s|\||NEEDS_CLARIFICATION)/;
 
@@ -27,7 +33,7 @@ export function speakerSections(body) {
   const out = [];
   let cur = null;
   for (const line of body.split("\n")) {
-    const m = /^##\s+(.+)$/.exec(line);
+    const m = HEADING_RE.exec(line);
     if (m) {
       cur = { speaker: m[1].trim(), lines: [] };
       out.push(cur);
@@ -84,7 +90,7 @@ export function checkAnswer({ file, wikiDir, sourcesPath, ctx }) {
 
   // speakerSections()는 첫 `## ` 이전을 버린다. 버려진 자리에 발언을 숨기면 어떤 규칙에도 걸리지 않으므로
   // 여기서 막는다 — 화자에게 귀속되지 않은 본문은 검사할 수 없는 본문이다.
-  const firstHeading = body.search(/^##\s+/m);
+  const firstHeading = body.search(new RegExp(`^${INDENT}##\\s+`, "m"));
   const preamble = (firstHeading === -1 ? body : body.slice(0, firstHeading)).trim();
   if (preamble) {
     findings.push(forge(6, "", `화자 섹션 앞에 귀속되지 않은 본문이 있다: ${preamble.slice(0, 24)}…`));
@@ -134,6 +140,15 @@ export function checkAnswer({ file, wikiDir, sourcesPath, ctx }) {
       const declared = sourceById.get(block.id)?.tier;
       if (declared && tier !== declared) {
         findings.push(forge(4, speaker, `티어 표기 불일치: [^${block.id}]는 ${declared}인데 ${tier}로 적혔다`));
+      }
+    }
+
+    // id만 대조하면 유효한 id를 유지한 채 저자·제목을 통째로 날조할 수 있다.
+    // 렌더된 각주에는 날조된 서지가 그대로 표시된다.
+    for (const block of blocks) {
+      const title = sourceById.get(block.id)?.title;
+      if (title && !block.text.includes(title)) {
+        findings.push(forge(12, speaker, `서지가 sources.json과 다르다: [^${block.id}]의 제목은 "${title}"이다`));
       }
     }
 
@@ -234,4 +249,7 @@ function cli(argv) {
   process.exit(forgeTotal > 0 ? 1 : 0);
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) cli(process.argv.slice(2));
+// argv[1]은 `node -e`나 워커에서 없다. 가드가 없으면 모듈을 import만 해도 터진다.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  cli(process.argv.slice(2));
+}

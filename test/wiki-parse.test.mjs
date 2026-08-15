@@ -47,6 +47,27 @@ test("stripFootnoteDefs는 정의와 들여쓴 연속 줄을 제거한다", () =
   assert.ok(stripped.includes("## 다음 절"));
 });
 
+test("sections는 3칸까지 들여쓴 ## 도 자른다", () => {
+  // CommonMark·markdown-it이 헤딩으로 렌더링하는 범위다. 놓치면 근거 없는 섹션을
+  // 들여쓰기로 숨겨 규칙 6과 confidence 계산을 비켜갈 수 있다.
+  assert.deepEqual(
+    sections("## 하나\n본문\n\n   ## 둘\n본문\n").map((s) => s.title),
+    ["하나", "둘"],
+  );
+});
+
+test("sections는 4칸 들여쓴 ## 는 코드블록으로 보고 자르지 않는다", () => {
+  assert.deepEqual(
+    sections("## 하나\n본문\n\n    ## 둘\n본문\n").map((s) => s.title),
+    ["하나"],
+  );
+});
+
+test("footnoteDefs는 3칸까지 들여쓴 정의를 인정한다", () => {
+  assert.deepEqual(footnoteDefs("  [^a]: 저자. — tier A · [[sources/a]]\n"), ["a"]);
+  assert.deepEqual(footnoteDefs("    [^a]: 코드블록이다\n"), []);
+});
+
 test("sections는 ## 만 자르고 ### 는 무시한다", () => {
   const body = "머리말\n\n## 첫 절\n가[^a].\n\n### 하위\n나\n\n## 둘째 절\n다[^a].\n";
   const s = sections(body);
