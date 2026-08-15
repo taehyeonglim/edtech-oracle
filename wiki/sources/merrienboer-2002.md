@@ -3,7 +3,6 @@ title: "Blueprints for Complex Learning: The 4C/ID-model"
 type: source
 updated: 2026-08-14
 sources: [merrienboer-2002]
-confidence: high
 ---
 
 ## 서지

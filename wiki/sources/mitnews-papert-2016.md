@@ -3,7 +3,6 @@ title: "Seymour Papert, pioneer of constructionist learning, dies at 88"
 type: source
 updated: 2026-08-14
 sources: [mitnews-papert-2016]
-confidence: high
 ---
 
 ## 서지

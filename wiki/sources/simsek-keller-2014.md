@@ -3,7 +3,6 @@ title: "Interview with John M. Keller on Motivational Design of Instruction"
 type: source
 updated: 2026-08-14
 sources: [simsek-keller-2014]
-confidence: high
 ---
 
 ## 서지

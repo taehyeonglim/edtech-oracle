@@ -3,7 +3,6 @@ title: "Design Research: Theoretical and Methodological Issues"
 type: source
 updated: 2026-08-14
 sources: [collins-2004]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Robert Heinich — In Memoriam
 type: source
 updated: 2026-08-14
 sources: [bio-heinich-iu]
-confidence: high
 ---
 
 ## 서지

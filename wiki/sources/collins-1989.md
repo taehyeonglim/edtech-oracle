@@ -3,7 +3,6 @@ title: "Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and M
 type: source
 updated: 2026-08-14
 sources: [collins-1989]
-confidence: high
 ---
 
 ## 서지

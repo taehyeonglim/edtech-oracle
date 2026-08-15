@@ -3,7 +3,6 @@ title: Allan M. Collins
 type: source
 updated: 2026-08-14
 sources: [bio-collins-authority]
-confidence: low
 ---
 
 ## 서지

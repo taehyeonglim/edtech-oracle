@@ -3,7 +3,6 @@ title: Basic Principles of Curriculum and Instruction
 type: source
 updated: 2026-08-14
 sources: [tyler-1949]
-confidence: high
 ---
 
 ## 서지

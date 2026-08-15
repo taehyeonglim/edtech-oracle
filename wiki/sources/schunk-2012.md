@@ -3,7 +3,6 @@ title: "Learning Theories: An Educational Perspective"
 type: source
 updated: 2026-08-14
 sources: [schunk-2012]
-confidence: high
 ---
 
 ## 서지

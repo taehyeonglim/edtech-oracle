@@ -3,7 +3,6 @@ title: "Taxonomy of Educational Objectives: The Classification of Educational Go
 type: source
 updated: 2026-08-14
 sources: [bloom-1956]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: First Principles of Instruction
 type: source
 updated: 2026-08-14
 sources: [merrill-2002]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Walter Dick — Author Record
 type: source
 updated: 2026-08-14
 sources: [bio-dick-authority]
-confidence: low
 ---
 
 ## 서지

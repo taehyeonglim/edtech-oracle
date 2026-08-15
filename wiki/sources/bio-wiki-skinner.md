@@ -3,7 +3,6 @@ title: B. F. Skinner
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-skinner]
-confidence: low
 ---
 
 ## 서지

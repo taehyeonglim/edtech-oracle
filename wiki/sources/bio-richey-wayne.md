@@ -3,7 +3,6 @@ title: Rita C. Richey — Academy Member Profile
 type: source
 updated: 2026-08-14
 sources: [bio-richey-wayne]
-confidence: high
 ---
 
 ## 서지

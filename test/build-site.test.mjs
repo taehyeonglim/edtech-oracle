@@ -138,7 +138,7 @@ test("사이트 어서션 위반도 빌드를 막는다", () => {
       "sources/a.md": page({
         type: "source",
         title: "출처",
-        extra: "sources: [a]\nconfidence: low",
+        extra: "sources: [a]",
         body: "## 절\n\n설명[^a]\n\n[^a]: 저자. — tier A · [[sources/a]]",
       }),
     },

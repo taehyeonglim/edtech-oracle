@@ -3,7 +3,6 @@ title: Seymour Papert
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-papert]
-confidence: low
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Teaching Machines and Mechanical Learning
 type: source
 updated: 2026-08-14
 sources: [pressey-smithsonian]
-confidence: high
 ---
 
 ## 서지

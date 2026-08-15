@@ -3,7 +3,6 @@ title: "Instructional Technology: The Definition and Domains of the Field"
 type: source
 updated: 2026-08-14
 sources: [seels-richey-1994]
-confidence: high
 ---
 
 ## 서지

@@ -8,7 +8,7 @@ concepts: [가치 있는 수행, Behavior Engineering Model, 수행 격차, Huma
 related: ["[[debates/mager-gilbert]]", "[[debates/gilbert-clark]]"]
 updated: 2026-08-14
 sources: [bio-clark-interview, bio-clark-usc, bio-gilbert-sixboxes, gilbert-1978, gilbert-2019, mager-1962]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

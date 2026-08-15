@@ -3,7 +3,6 @@ title: "Educational Psychology: The Original Nature of Man"
 type: source
 updated: 2026-08-14
 sources: [thorndike-1913]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: "Understanding Vygotsky: A Quest for Synthesis"
 type: source
 updated: 2026-08-14
 sources: [vandeveer-valsiner-1991]
-confidence: high
 ---
 
 ## 서지

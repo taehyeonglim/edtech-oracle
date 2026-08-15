@@ -3,7 +3,6 @@ title: A Tribute to Seymour Papert
 type: source
 updated: 2026-08-14
 sources: [bio-papert-mit]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Guide to the Ralph W. Tyler Papers 1931–1988
 type: source
 updated: 2026-08-14
 sources: [bio-tyler-uchicago]
-confidence: high
 ---
 
 ## 서지

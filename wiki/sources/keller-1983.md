@@ -3,7 +3,6 @@ title: Motivational Design of Instruction
 type: source
 updated: 2026-08-14
 sources: [keller-1983]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Preparing Objectives for Programmed Instruction
 type: source
 updated: 2026-08-14
 sources: [mager-1962]
-confidence: high
 ---
 
 ## 서지

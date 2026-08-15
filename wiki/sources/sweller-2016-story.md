@@ -3,7 +3,6 @@ title: Story of a Research Program
 type: source
 updated: 2026-08-14
 sources: [sweller-2016-story]
-confidence: high
 ---
 
 ## 서지

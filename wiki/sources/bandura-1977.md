@@ -3,7 +3,6 @@ title: Social Learning Theory
 type: source
 updated: 2026-08-14
 sources: [bandura-1977]
-confidence: high
 ---
 
 ## 서지

@@ -16,7 +16,11 @@
 
 전 타입 필수: `title`, `type`, `updated`(YYYY-MM-DD)
 
-`pioneer` · `concept` · `debate` · `source` 추가 필수: `sources`(배열), `confidence`(`high` | `medium` | `low`)
+`pioneer` · `concept` · `debate` · `source` 추가 필수: `sources`(배열)
+
+`pioneer` · `concept` · `debate` 추가 필수: `confidence`(`high` | `medium` | `low`)
+
+**`source`에는 `confidence`를 두지 않는다.** 출처 페이지는 자기 자신만 인용하므로 그 값이 tier의 재진술이 된다.
 
 `pioneer` 추가 필수: `slug`, `role`, `life`, `concepts`
 
@@ -37,7 +41,20 @@
 | B | 피어리뷰 논문, 학술서, 학회·대학 공식 기록 | 없음 |
 | C | 백과사전, 일반 참고 자료 | **단독 근거 금지** |
 
-`confidence: high`를 선언하려면 A 또는 B 티어 출처가 최소 하나 있어야 한다.
+## confidence
+
+페이지의 `confidence`는 **모든 `##` 섹션의 "그 섹션 최강 티어" 중 가장 약한 것**이다.
+
+```
+섹션 최강 티어 = 그 섹션이 참조한 각주들의 tier 중 최강 (A > B > C)
+각주 없는 섹션 = 계산에서 제외
+페이지 값       = 섹션 최강 티어들 중 최약
+매핑            A → high · B → medium · C → low
+```
+
+`high`는 "모든 섹션이 원저작으로 받쳐져 있다"는 뜻이다. 페이지 전체를 한 덩어리로 보면 위인은 자기 대표 저작(tier A)을 반드시 인용하므로 언제나 high가 된다 — 섹션 단위로 봐야 "연표만 2차 문헌으로 받쳐져 있다"가 드러난다.
+
+손으로 정하지 않는다. `npm run sync:confidence`가 계산해 채우고 규칙 8이 불일치를 잡는다.
 
 ## 답변 3마커
 
@@ -61,6 +78,7 @@
 npm run lint          # 작성 중 — 규칙 6·7은 경고
 npm run lint:strict   # 커밋 전·게이트 — 전부 오류
 npm run lint:answers  # answers/ 답변 무결성 — 위조급만 exit 1
+npm run sync:confidence  # confidence를 섹션 최약 근거로 다시 계산 (--dry로 미리보기)
 npm test              # 파서·lint 단위 테스트
 ```
 

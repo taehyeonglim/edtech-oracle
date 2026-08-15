@@ -3,7 +3,6 @@ title: Allan M. Collins — Professor Emeritus
 type: source
 updated: 2026-08-14
 sources: [bio-collins-northwestern]
-confidence: high
 ---
 
 ## 서지

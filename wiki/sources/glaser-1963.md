@@ -3,7 +3,6 @@ title: "Instructional Technology and the Measurement of Learning Outcomes: Some 
 type: source
 updated: 2026-08-14
 sources: [glaser-1963]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: "John Dewey 1859–1952: A Biographical Memoir"
 type: source
 updated: 2026-08-14
 sources: [pillsbury-dewey-1957]
-confidence: high
 ---
 
 ## 서지

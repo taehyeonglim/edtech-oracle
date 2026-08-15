@@ -3,7 +3,6 @@ title: Remembering Robert Glaser
 type: source
 updated: 2026-08-14
 sources: [bio-glaser-aps]
-confidence: high
 ---
 
 ## 서지

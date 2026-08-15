@@ -3,7 +3,6 @@ title: Media Will Never Influence Learning
 type: source
 updated: 2026-08-14
 sources: [clark-1994]
-confidence: high
 ---
 
 ## 서지

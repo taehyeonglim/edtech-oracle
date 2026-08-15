@@ -3,7 +3,6 @@ title: Richard E. Mayer
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-mayer]
-confidence: low
 ---
 
 ## 서지

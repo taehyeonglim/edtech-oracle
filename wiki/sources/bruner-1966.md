@@ -3,7 +3,6 @@ title: Toward a Theory of Instruction
 type: source
 updated: 2026-08-14
 sources: [bruner-1966]
-confidence: high
 ---
 
 ## 서지

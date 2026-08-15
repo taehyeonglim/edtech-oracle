@@ -3,7 +3,6 @@ title: "In Appreciation: Robert Mills Gagné (1916–2002)"
 type: source
 updated: 2026-08-14
 sources: [rothkopf-gagne-2002]
-confidence: high
 ---
 
 ## 서지

@@ -8,7 +8,7 @@ concepts: [타일러의 네 질문, 교육목표, 학습경험, 평가 순환]
 related: []
 updated: 2026-08-14
 sources: [bio-tyler-uchicago, dewey-1938, tyler-1949, tyler-eight-year]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

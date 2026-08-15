@@ -3,7 +3,6 @@ title: Computer-Supported Intentional Learning Environments
 type: source
 updated: 2026-08-14
 sources: [scardamalia-1989]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: The Science of Learning and the Art of Teaching
 type: source
 updated: 2026-08-14
 sources: [skinner-1954]
-confidence: high
 ---
 
 ## 서지

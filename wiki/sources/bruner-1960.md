@@ -3,7 +3,6 @@ title: The Process of Education
 type: source
 updated: 2026-08-14
 sources: [bruner-1960]
-confidence: high
 ---
 
 ## 서지

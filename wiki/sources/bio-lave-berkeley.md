@@ -3,7 +3,6 @@ title: "Jean Lave: Learning as a Socially Situated Activity"
 type: source
 updated: 2026-08-14
 sources: [bio-lave-berkeley]
-confidence: high
 ---
 
 ## 서지

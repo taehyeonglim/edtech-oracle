@@ -3,7 +3,6 @@ title: "B. F. Skinner (Biographical Memoirs, Vol. 67)"
 type: source
 updated: 2026-08-14
 sources: [rachlin-skinner-1995]
-confidence: high
 ---
 
 ## 서지

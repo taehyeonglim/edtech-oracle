@@ -3,7 +3,6 @@ title: "Training Complex Cognitive Skills: A Four-Component Instructional Design
 type: source
 updated: 2026-08-14
 sources: [merrienboer-1997]
-confidence: high
 ---
 
 ## 서지

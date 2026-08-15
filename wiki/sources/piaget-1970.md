@@ -3,7 +3,6 @@ title: Genetic Epistemology
 type: source
 updated: 2026-08-14
 sources: [piaget-1970]
-confidence: high
 ---
 
 ## 서지

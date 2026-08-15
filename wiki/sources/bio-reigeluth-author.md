@@ -3,7 +3,6 @@ title: About Me
 type: source
 updated: 2026-08-14
 sources: [bio-reigeluth-author]
-confidence: high
 ---
 
 ## 서지

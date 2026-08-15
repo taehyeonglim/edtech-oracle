@@ -3,7 +3,6 @@ title: Jean Lave (Q1685635)
 type: source
 updated: 2026-08-14
 sources: [bio-lave-authority]
-confidence: low
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: "Motivational Design for Learning and Performance: The ARCS Model Approac
 type: source
 updated: 2026-08-14
 sources: [bio-keller-springer]
-confidence: high
 ---
 
 ## 서지

@@ -8,7 +8,7 @@ concepts: [경험의 원추, 시청각교육, 구체성과 추상성, 매체 선
 related: ["[[debates/dale-mayer]]"]
 updated: 2026-08-14
 sources: [bio-dale-osu, dale-1946, mayer-2005, molenda-2003-cone]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

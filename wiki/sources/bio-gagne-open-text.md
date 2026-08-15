@@ -3,7 +3,6 @@ title: Robert Gagné and the Systematic Design of Instruction
 type: source
 updated: 2026-08-14
 sources: [bio-gagne-open-text]
-confidence: high
 ---
 
 ## 서지

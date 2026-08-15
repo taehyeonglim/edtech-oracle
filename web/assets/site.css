@@ -178,6 +178,8 @@ h2:hover .h-anchor, .h-anchor:focus { opacity: 1; }
   display: inline-block; font-size: .76rem; padding: .05rem .5rem;
   border-radius: 999px; border: 1px solid var(--rule-2); color: var(--ink-3);
 }
+.conf--high { border-color: var(--tier-a); color: var(--tier-a); }
+.conf--medium { border-color: var(--tier-b); color: var(--tier-b); }
 .conf--low { border-color: var(--tier-c); color: var(--tier-c); }
 
 /* ── 각주 ────────────────────────────────────── */

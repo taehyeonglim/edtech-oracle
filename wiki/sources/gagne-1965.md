@@ -3,7 +3,6 @@ title: The Conditions of Learning
 type: source
 updated: 2026-08-14
 sources: [gagne-1965]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: M. David Merrill
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-merrill]
-confidence: low
 ---
 
 ## 서지

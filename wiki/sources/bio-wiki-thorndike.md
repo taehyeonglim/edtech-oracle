@@ -3,7 +3,6 @@ title: Edward Thorndike
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-thorndike]
-confidence: low
 ---
 
 ## 서지

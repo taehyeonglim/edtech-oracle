@@ -3,7 +3,6 @@ title: About Etienne
 type: source
 updated: 2026-08-14
 sources: [bio-wenger-author]
-confidence: high
 ---
 
 ## 서지

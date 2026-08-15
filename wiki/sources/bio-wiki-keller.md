@@ -3,7 +3,6 @@ title: John M. Keller
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-keller]
-confidence: low
 ---
 
 ## 서지

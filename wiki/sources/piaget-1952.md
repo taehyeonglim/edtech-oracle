@@ -3,7 +3,6 @@ title: The Origins of Intelligence in Children
 type: source
 updated: 2026-08-14
 sources: [piaget-1952]
-confidence: high
 ---
 
 ## 서지

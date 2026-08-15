@@ -3,7 +3,6 @@ title: Reciprocal Teaching of Comprehension-Fostering and Comprehension-Monitori
 type: source
 updated: 2026-08-14
 sources: [brown-palincsar-1984]
-confidence: high
 ---
 
 ## 서지

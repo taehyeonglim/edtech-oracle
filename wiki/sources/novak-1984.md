@@ -3,7 +3,6 @@ title: Learning How to Learn
 type: source
 updated: 2026-08-14
 sources: [novak-1984]
-confidence: high
 ---
 
 ## 서지

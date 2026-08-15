@@ -3,7 +3,6 @@ title: Instructional Design Theory
 type: source
 updated: 2026-08-14
 sources: [merrill-twitchell-1994]
-confidence: high
 ---
 
 ## 서지

@@ -1,7 +1,7 @@
 ---
 title: 알려진 결함
 type: meta
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 edtech-pantheon README가 공개한 P1 이슈를 그대로 물려받았다. 데이터는 스펙대로 이관했으나,
@@ -36,8 +36,7 @@ Papert의 일부 연표 사건은 사건보다 오래된 자료만 연결되어 
 
 ## 5. 전기의 C 티어 의존
 
-다수 인물의 생애 서술이 Wikipedia 등 C 티어 자료에 의존한다. 해당 페이지는
-`confidence: low`로 표시되며 A·B 티어 전거로 교체해야 한다.
+다수 인물의 생애 서술이 Wikipedia 등 C 티어 자료에 의존한다. A·B 티어 전거로 교체해야 한다.
 
 **2026-08-14 갱신**: 듀이·손다이크·비고츠키·스키너·블룸·가녜·브루너·반두라·메릴·켈러·파퍼트·메이어
 12명에 대해 학회 전기 회고록(National Academy of Sciences 등)·대학 공식 부고·피어리뷰 인터뷰
@@ -45,3 +44,12 @@ Papert의 일부 연표 사건은 사건보다 오래된 자료만 연결되어 
 그럼에도 이 12명 외 나머지 위인들의 생애 서술은 여전히 C 티어 단독 근거에 의존하며, 대체할
 tier B 후보를 찾지 못한 `bio-dick-authority`, `bio-lave-authority`, `apa-ethics`,
 `bio-collins-authority` 네 건도 tier C로 남아 있다(접근일만 `2026-08-14`로 보완).
+
+**2026-08-15 갱신**: `confidence`를 섹션 최약 근거로 재정의하며 전 페이지를 다시 측정한 결과
+**C 티어 단독 섹션이 0건**이었다. 위 12명 작업으로 C 티어가 전부 A·B와의 병행 인용이 되었고,
+단독 근거로 남은 섹션은 없다. 남은 `bio-dick-authority`·`bio-lave-authority`·`apa-ethics`·
+`bio-collins-authority` 네 건도 각 페이지에서 다른 A·B 출처와 함께 인용된다.
+
+따라서 `confidence: low`인 페이지는 하나도 없다. 이전 서술("해당 페이지는 `confidence: low`로
+표시되며")은 실제 데이터와 어긋나 있었으므로 삭제했다. 새 정의에서 `low`는 C 단독 섹션이
+생기면 발화하는 경보등이다.

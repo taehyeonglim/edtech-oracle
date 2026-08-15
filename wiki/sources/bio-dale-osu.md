@@ -3,7 +3,6 @@ title: Edgar Dale
 type: source
 updated: 2026-08-14
 sources: [bio-dale-osu]
-confidence: high
 ---
 
 ## 서지

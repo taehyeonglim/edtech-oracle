@@ -4,7 +4,7 @@ type: debate
 related: ["[[pioneers/david-jonassen]]", "[[pioneers/david-merrill]]"]
 updated: 2026-08-14
 sources: [jonassen-2000, merrill-2002]
-confidence: high
+confidence: medium
 ---
 
 ## 쟁점

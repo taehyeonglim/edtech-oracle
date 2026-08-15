@@ -3,7 +3,6 @@ title: Jean Piaget — Trajectory
 type: source
 updated: 2026-08-14
 sources: [bio-piaget-unige]
-confidence: high
 ---
 
 ## 서지

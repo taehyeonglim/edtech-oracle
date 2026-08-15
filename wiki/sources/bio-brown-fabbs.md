@@ -3,7 +3,6 @@ title: In Memory Of Ann L. Brown
 type: source
 updated: 2026-08-14
 sources: [bio-brown-fabbs]
-confidence: high
 ---
 
 ## 서지

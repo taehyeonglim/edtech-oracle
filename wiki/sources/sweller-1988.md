@@ -3,7 +3,6 @@ title: "Cognitive Load During Problem Solving: Effects on Learning"
 type: source
 updated: 2026-08-14
 sources: [sweller-1988]
-confidence: high
 ---
 
 ## 서지

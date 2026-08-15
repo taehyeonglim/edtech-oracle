@@ -24,7 +24,7 @@ const GOOD_PIONEER = page({
 const SOURCE_PAGE = page({
   type: "source",
   title: "제목 A",
-  extra: "sources: [a-src]\nconfidence: high",
+  extra: "sources: [a-src]",
   body: "## 요약\n요약이다[^a-src].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
 });
 
@@ -126,14 +126,35 @@ test("규칙 7 — index에서 도달 불가한 고아 페이지", () => {
   assert.ok(rules(run({ "concepts/orphan.md": orphan })).includes(7));
 });
 
-test("규칙 8 — C티어만으로 confidence: high 선언", () => {
+test("규칙 8 — 선언한 confidence가 계산값과 다르다", () => {
+  // C 티어만 있는 섹션이 하나라도 있으면 low여야 한다.
   const bad = page({
     type: "pioneer",
     title: "위인 1",
     extra: "slug: p1\nsources: [c-src]\nconfidence: high",
-    body: "## 절\n주장[^c-src].\n\n[^c-src]: C. — tier C · [[sources/a-src]]\n",
+    body: "## 절\n주장[^c-src].\n\n[^c-src]: C. — tier C · [[sources/c-src]]\n",
   });
   assert.ok(rules(run({ "pioneers/p1.md": bad })).includes(8));
+});
+
+test("규칙 8 — 계산값과 같으면 통과한다", () => {
+  const ok = page({
+    type: "pioneer",
+    title: "위인 1",
+    extra: "slug: p1\nsources: [c-src]\nconfidence: low",
+    body: "## 절\n주장[^c-src].\n\n[^c-src]: C. — tier C · [[sources/c-src]]\n",
+  });
+  assert.ok(!rules(run({ "pioneers/p1.md": ok })).includes(8));
+});
+
+test("규칙 1 — source 페이지에 confidence가 있으면 잡는다", () => {
+  const bad = page({
+    type: "source",
+    title: "제목 A",
+    extra: "sources: [a-src]\nconfidence: high",
+    body: "## 요약\n요약이다[^a-src].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
+  });
+  assert.ok(rules(run({ "sources/a-src.md": bad })).includes(1));
 });
 
 test("기본 모드는 규칙 6·7을 경고로 낮춘다", () => {

@@ -3,7 +3,6 @@ title: "Situated Learning: Legitimate Peripheral Participation"
 type: source
 updated: 2026-08-14
 sources: [lave-wenger-1991]
-confidence: high
 ---
 
 ## 서지

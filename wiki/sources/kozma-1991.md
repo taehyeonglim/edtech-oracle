@@ -3,7 +3,6 @@ title: Learning with Media
 type: source
 updated: 2026-08-14
 sources: [kozma-1991]
-confidence: high
 ---
 
 ## 서지

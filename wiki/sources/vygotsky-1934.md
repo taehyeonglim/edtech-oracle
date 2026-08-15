@@ -3,7 +3,6 @@ title: Thought and Language
 type: source
 updated: 2026-08-14
 sources: [vygotsky-1934]
-confidence: high
 ---
 
 ## 서지

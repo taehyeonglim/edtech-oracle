@@ -3,7 +3,6 @@ title: "Barbara Seels Papers, 1968–1999"
 type: source
 updated: 2026-08-14
 sources: [bio-seels-archive]
-confidence: high
 ---
 
 ## 서지

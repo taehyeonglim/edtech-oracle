@@ -3,7 +3,6 @@ title: Acts of Meaning
 type: source
 updated: 2026-08-14
 sources: [bruner-1990]
-confidence: high
 ---
 
 ## 서지

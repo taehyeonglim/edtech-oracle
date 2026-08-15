@@ -8,7 +8,7 @@ concepts: [조작적 조건형성, 강화, 프로그램 학습, 교수기계]
 related: ["[[debates/skinner-gagne]]"]
 updated: 2026-08-14
 sources: [bio-wiki-skinner, rachlin-skinner-1995, bruner-1960, gagne-1965, gagne-1985, reiser-2017, schunk-2012, skinner-1954, skinner-1957]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

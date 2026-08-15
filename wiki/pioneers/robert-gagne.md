@@ -8,7 +8,7 @@ concepts: [학습 결과, 아홉 가지 수업사태, 내적 조건, 외적 조�
 related: ["[[debates/skinner-gagne]]", "[[debates/bloom-gagne]]", "[[debates/mager-gagne]]", "[[debates/gagne-glaser]]"]
 updated: 2026-08-14
 sources: [bio-gagne-open-text, bio-wiki-gagne, rothkopf-gagne-2002, bloom-1956, gagne-1965, gagne-1974, gagne-1985, glaser-1963, glaser-1984, jonassen-1991, mager-1962, merrienboer-2002, papert-1980, reiser-2017, skinner-1954]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

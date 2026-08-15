@@ -3,7 +3,6 @@ title: Toward a Design Theory of Problem Solving
 type: source
 updated: 2026-08-14
 sources: [jonassen-2000]
-confidence: high
 ---
 
 ## 서지

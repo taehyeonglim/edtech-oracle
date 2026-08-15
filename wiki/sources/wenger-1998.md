@@ -3,7 +3,6 @@ title: "Communities of Practice: Learning, Meaning, and Identity"
 type: source
 updated: 2026-08-14
 sources: [wenger-1998]
-confidence: high
 ---
 
 ## 서지

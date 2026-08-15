@@ -3,7 +3,6 @@ title: "Interview with M. David Merrill"
 type: source
 updated: 2026-08-14
 sources: [simsek-merrill-2010]
-confidence: high
 ---
 
 ## 서지

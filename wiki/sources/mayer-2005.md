@@ -3,7 +3,6 @@ title: The Cambridge Handbook of Multimedia Learning
 type: source
 updated: 2026-08-14
 sources: [mayer-2005]
-confidence: high
 ---
 
 ## 서지

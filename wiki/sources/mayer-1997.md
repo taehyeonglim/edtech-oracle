@@ -3,7 +3,6 @@ title: A Split-Attention Effect in Multimedia Learning
 type: source
 updated: 2026-08-14
 sources: [mayer-1997]
-confidence: high
 ---
 
 ## 서지

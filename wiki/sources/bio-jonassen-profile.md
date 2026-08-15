@@ -3,7 +3,6 @@ title: David H. Jonassen
 type: source
 updated: 2026-08-14
 sources: [bio-jonassen-profile]
-confidence: high
 ---
 
 ## 서지

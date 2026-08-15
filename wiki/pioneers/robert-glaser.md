@@ -8,7 +8,7 @@ concepts: [준거참조평가, 교수심리학, 전문성, 적응적 교수]
 related: ["[[debates/gagne-glaser]]", "[[debates/bloom-glaser]]"]
 updated: 2026-08-14
 sources: [bio-glaser-aps, bloom-1956, gagne-1985, glaser-1963, glaser-1984]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

@@ -8,7 +8,7 @@ concepts: [설계·개발 연구, 사용 가능한 지식, 전문 역량, 교육
 related: ["[[debates/reigeluth-richey]]"]
 updated: 2026-08-14
 sources: [bio-richey-wayne, reigeluth-frick-1999, richey-1986, richey-klein-2007, seels-richey-1994]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

@@ -8,7 +8,7 @@ concepts: [매체 어포던스, 표상, Clark–Kozma 논쟁, ICT 교육정책]
 related: ["[[debates/clark-kozma]]", "[[debates/kozma-mayer]]"]
 updated: 2026-08-14
 sources: [bio-kozma-event, bio-kozma-sri, clark-1983, clark-1994, kozma-1991, kozma-1994, mayer-2005]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

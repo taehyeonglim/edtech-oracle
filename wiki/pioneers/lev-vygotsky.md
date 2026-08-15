@@ -8,7 +8,7 @@ concepts: [근접발달영역, 사회적 매개, 언어와 사고, 내면화]
 related: ["[[debates/vygotsky-bandura]]", "[[debates/vygotsky-papert]]", "[[debates/lave-vygotsky]]"]
 updated: 2026-08-14
 sources: [bandura-1977, bio-wiki-vygotsky, vandeveer-valsiner-1991, lave-1988, lave-wenger-1991, papert-1980, schunk-2012, vygotsky-1934, vygotsky-1978]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

@@ -3,7 +3,6 @@ title: Analyzing Performance Problems
 type: source
 updated: 2026-08-14
 sources: [mager-pipe-1970]
-confidence: high
 ---
 
 ## 서지

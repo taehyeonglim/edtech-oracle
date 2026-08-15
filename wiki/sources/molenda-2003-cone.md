@@ -3,7 +3,6 @@ title: Cone of Experience
 type: source
 updated: 2026-08-14
 sources: [molenda-2003-cone]
-confidence: high
 ---
 
 ## 서지

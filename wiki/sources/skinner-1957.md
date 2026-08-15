@@ -3,7 +3,6 @@ title: Verbal Behavior
 type: source
 updated: 2026-08-14
 sources: [skinner-1957]
-confidence: high
 ---
 
 ## 서지

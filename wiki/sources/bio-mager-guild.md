@@ -3,7 +3,6 @@ title: "In Memoriam: Robert F. Mager, 1923–2020"
 type: source
 updated: 2026-08-14
 sources: [bio-mager-guild]
-confidence: high
 ---
 
 ## 서지

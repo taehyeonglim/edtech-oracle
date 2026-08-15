@@ -3,7 +3,6 @@ title: Theory of Transactional Distance
 type: source
 updated: 2026-08-14
 sources: [moore-1993]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: A Simple Apparatus Which Gives Tests and Scores—and Teaches
 type: source
 updated: 2026-08-14
 sources: [pressey-1926]
-confidence: high
 ---
 
 ## 서지

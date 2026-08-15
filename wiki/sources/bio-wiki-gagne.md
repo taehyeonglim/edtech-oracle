@@ -3,7 +3,6 @@ title: Robert M. Gagné
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-gagne]
-confidence: low
 ---
 
 ## 서지

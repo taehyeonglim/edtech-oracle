@@ -3,7 +3,6 @@ title: The Systematic Design of Instruction
 type: source
 updated: 2026-08-14
 sources: [dick-carey-1978]
-confidence: high
 ---
 
 ## 서지

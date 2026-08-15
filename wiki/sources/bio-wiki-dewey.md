@@ -3,7 +3,6 @@ title: John Dewey
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-dewey]
-confidence: low
 ---
 
 ## 서지

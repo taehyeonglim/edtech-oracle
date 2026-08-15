@@ -3,7 +3,6 @@ title: "Joseph Novak, pioneer of education theory, dies at 92"
 type: source
 updated: 2026-08-14
 sources: [bio-novak-cornell]
-confidence: high
 ---
 
 ## 서지

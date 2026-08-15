@@ -3,7 +3,6 @@ title: Toward a Design Science of Education
 type: source
 updated: 2026-08-14
 sources: [collins-1992]
-confidence: high
 ---
 
 ## 서지

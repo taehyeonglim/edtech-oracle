@@ -3,7 +3,6 @@ title: The Proper Study of Instructional Technology
 type: source
 updated: 2026-08-14
 sources: [heinich-1984]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Pioneering UC Berkeley educator Ann L. Brown dies at age 56
 type: source
 updated: 2026-08-14
 sources: [bio-brown-berkeley]
-confidence: high
 ---
 
 ## 서지

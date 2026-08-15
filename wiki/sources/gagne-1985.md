@@ -3,7 +3,6 @@ title: Principles of Instructional Design
 type: source
 updated: 2026-08-14
 sources: [gagne-1985]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: About — professional history
 type: source
 updated: 2026-08-14
 sources: [bio-merrill-author]
-confidence: high
 ---
 
 ## 서지

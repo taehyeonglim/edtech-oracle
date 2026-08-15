@@ -3,7 +3,6 @@ title: Trends and Issues in Instructional Design and Technology
 type: source
 updated: 2026-08-14
 sources: [reiser-2017]
-confidence: high
 ---
 
 ## 서지

@@ -10,11 +10,11 @@ import {
   PAGE_TYPES,
   EVIDENCE_TYPES,
 } from "./wiki-parse.mjs";
+import { computeConfidence } from "./confidence.mjs";
 
 const REQUIRED_BASE = ["title", "type", "updated"];
 const REQUIRED_EVIDENCE = ["sources", "confidence"];
 const CONFIDENCE = new Set(["high", "medium", "low"]);
-const STRONG_TIERS = new Set(["A", "B"]);
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 /** 기본 모드에서 경고로 낮추는 규칙. 작성 중 상태를 허용한다. */
 const SOFT_RULES = new Set([6, 7]);
@@ -34,12 +34,19 @@ function rule1(pages) {
     if (p.fm.updated !== undefined && !DATE_RE.test(asDateString(p.fm.updated))) {
       out.push(find(1, p, `updated는 YYYY-MM-DD여야 함: ${p.fm.updated}`));
     }
-    if (EVIDENCE_TYPES.has(p.fm.type) || p.fm.type === "source") {
+    if (EVIDENCE_TYPES.has(p.fm.type)) {
       for (const k of REQUIRED_EVIDENCE) {
         if (p.fm[k] === undefined) out.push(find(1, p, `프론트매터 '${k}' 누락`));
       }
       if (p.fm.confidence !== undefined && !CONFIDENCE.has(p.fm.confidence)) {
         out.push(find(1, p, `알 수 없는 confidence: ${p.fm.confidence}`));
+      }
+    }
+    if (p.fm.type === "source") {
+      if (p.fm.sources === undefined) out.push(find(1, p, "프론트매터 'sources' 누락"));
+      // 출처 페이지는 자기 자신만 인용하므로 confidence가 그 출처 tier의 재진술이 된다.
+      if (p.fm.confidence !== undefined) {
+        out.push(find(1, p, "source 페이지에는 confidence를 두지 않는다 (tier가 이미 강도다)"));
       }
     }
     if (p.fm.type === "pioneer" && !p.fm.slug) out.push(find(1, p, "pioneer는 slug 필수"));
@@ -128,12 +135,19 @@ function rule7(pages) {
     .map((p) => find(7, p, "index.md에서 도달 불가 (고아 페이지)"));
 }
 
+/**
+ * 선언된 confidence가 섹션 최약 근거로 계산한 값과 같아야 한다.
+ * 이전 규칙은 import가 만든 값을 같은 술어로 확인하는 순환이라 실패할 수 없었다.
+ */
 function rule8(pages, sourceById) {
   const out = [];
   for (const p of pages) {
-    if (!EVIDENCE_TYPES.has(p.fm.type) || p.fm.confidence !== "high") continue;
-    const strong = [...asSet(p.fm.sources)].some((id) => STRONG_TIERS.has(sourceById.get(id)?.tier));
-    if (!strong) out.push(find(8, p, "confidence: high인데 A·B 티어 출처가 없음"));
+    if (!EVIDENCE_TYPES.has(p.fm.type)) continue;
+    const computed = computeConfidence(p, sourceById);
+    if (computed === null) continue; // 근거를 가진 섹션이 없다. 규칙 6이 잡는다
+    if (p.fm.confidence !== computed) {
+      out.push(find(8, p, `confidence는 ${computed}여야 한다 (선언: ${p.fm.confidence})`));
+    }
   }
   return out;
 }

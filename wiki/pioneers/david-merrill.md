@@ -8,7 +8,7 @@ concepts: [제1원리, 문제 중심, 시연, 적용과 통합]
 related: ["[[debates/merrill-keller]]", "[[debates/jonassen-merrill]]", "[[debates/merrienboer-merrill]]"]
 updated: 2026-08-14
 sources: [bio-merrill-author, bio-merrill-usu, bio-wiki-merrill, simsek-merrill-2010, jonassen-2000, keller-1987, merrienboer-1997, merrienboer-2002, merrill-2002, merrill-twitchell-1994, reiser-2017]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

@@ -3,7 +3,6 @@ title: Experience and Education
 type: source
 updated: 2026-08-14
 sources: [dewey-1938]
-confidence: high
 ---
 
 ## 서지

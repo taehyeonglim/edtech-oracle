@@ -3,7 +3,6 @@ title: "Meaningful Learning: The Essential Factor for Conceptual Change"
 type: source
 updated: 2026-08-14
 sources: [novak-2002]
-confidence: high
 ---
 
 ## 서지

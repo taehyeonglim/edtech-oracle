@@ -3,7 +3,6 @@ title: Jerome Bruner
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-bruner]
-confidence: low
 ---
 
 ## 서지

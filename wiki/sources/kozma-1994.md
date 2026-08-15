@@ -3,7 +3,6 @@ title: Will Media Influence Learning? Reframing the Debate
 type: source
 updated: 2026-08-14
 sources: [kozma-1994]
-confidence: high
 ---
 
 ## 서지

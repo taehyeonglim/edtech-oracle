@@ -3,7 +3,6 @@ title: "Formative Research: A Methodology for Creating and Improving Design Theo
 type: source
 updated: 2026-08-14
 sources: [reigeluth-frick-1999]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Development and Use of the ARCS Model of Motivational Design
 type: source
 updated: 2026-08-14
 sources: [keller-1987]
-confidence: high
 ---
 
 ## 서지

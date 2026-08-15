@@ -3,7 +3,6 @@ title: Cognitive Load Theory
 type: source
 updated: 2026-08-14
 sources: [sweller-2011]
-confidence: high
 ---
 
 ## 서지

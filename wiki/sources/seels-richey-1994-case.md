@@ -3,7 +3,6 @@ title: "Defining a Field: A Case Study of the Development of the 1994 Definition
 type: source
 updated: 2026-08-14
 sources: [seels-richey-1994-case]
-confidence: high
 ---
 
 ## 서지

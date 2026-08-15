@@ -3,7 +3,6 @@ title: Richard E. Clark — Emeritus Professor
 type: source
 updated: 2026-08-14
 sources: [bio-clark-usc]
-confidence: high
 ---
 
 ## 서지

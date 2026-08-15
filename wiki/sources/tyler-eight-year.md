@@ -3,7 +3,6 @@ title: Ralph W. Tyler Papers — Eight-Year Study records
 type: source
 updated: 2026-08-14
 sources: [tyler-eight-year]
-confidence: high
 ---
 
 ## 서지

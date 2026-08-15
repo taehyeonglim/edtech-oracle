@@ -3,7 +3,6 @@ title: Emeritus Professor John Sweller
 type: source
 updated: 2026-08-14
 sources: [bio-sweller-unsw]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Democracy and Education
 type: source
 updated: 2026-08-14
 sources: [dewey-1916]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: "Robert Kozma — SRI International, Center for Technology and Learning"
 type: source
 updated: 2026-08-14
 sources: [bio-kozma-sri]
-confidence: high
 ---
 
 ## 서지

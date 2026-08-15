@@ -3,7 +3,6 @@ title: M. David Merrill — professional history
 type: source
 updated: 2026-08-14
 sources: [bio-merrill-usu]
-confidence: high
 ---
 
 ## 서지

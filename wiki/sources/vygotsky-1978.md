@@ -3,7 +3,6 @@ title: "Mind in Society: The Development of Higher Psychological Processes"
 type: source
 updated: 2026-08-14
 sources: [vygotsky-1978]
-confidence: high
 ---
 
 ## 서지

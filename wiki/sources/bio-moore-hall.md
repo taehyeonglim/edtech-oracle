@@ -3,7 +3,6 @@ title: Michael Grahame Moore — Inductee Details
 type: source
 updated: 2026-08-14
 sources: [bio-moore-hall]
-confidence: high
 ---
 
 ## 서지

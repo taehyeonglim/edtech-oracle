@@ -3,7 +3,6 @@ title: "Robert B. Kozma: ICTs and the Transformation of Education in the Knowled
 type: source
 updated: 2026-08-14
 sources: [bio-kozma-event]
-confidence: high
 ---
 
 ## 서지

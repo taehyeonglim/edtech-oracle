@@ -3,7 +3,6 @@ title: Reconsidering Research on Learning from Media
 type: source
 updated: 2026-08-14
 sources: [clark-1983]
-confidence: high
 ---
 
 ## 서지

@@ -8,7 +8,7 @@ concepts: [설계, 개발, 활용, 관리와 평가]
 related: []
 updated: 2026-08-14
 sources: [bio-seels-archive, heinich-1984, seels-richey-1994, seels-richey-1994-case]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

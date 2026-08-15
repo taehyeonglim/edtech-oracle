@@ -3,7 +3,6 @@ title: "A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's 
 type: source
 updated: 2026-08-14
 sources: [anderson-krathwohl-2001]
-confidence: high
 ---
 
 ## 서지

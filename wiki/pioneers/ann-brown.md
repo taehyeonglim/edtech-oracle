@@ -8,7 +8,7 @@ concepts: [메타인지, 상호교수법, 학습자 공동체, 설계실험]
 related: []
 updated: 2026-08-14
 sources: [bio-brown-berkeley, bio-brown-fabbs, brown-1992, brown-palincsar-1984, collins-2004]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

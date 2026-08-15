@@ -3,7 +3,6 @@ title: "Jerome Seymour Bruner (Biographical Memoir)"
 type: source
 updated: 2026-08-14
 sources: [gardner-bruner-2017]
-confidence: high
 ---
 
 ## 서지

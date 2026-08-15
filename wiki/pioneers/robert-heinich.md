@@ -8,7 +8,7 @@ concepts: [교수기술, 교육 조직, 체제적 관점, 교수매체]
 related: []
 updated: 2026-08-14
 sources: [bio-heinich-iu, heinich-1984, heinich-media-1982, seels-richey-1994, seels-richey-1994-case]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

@@ -3,7 +3,6 @@ title: "Edward Lee Thorndike: A Biographical Memoir"
 type: source
 updated: 2026-08-14
 sources: [woodworth-thorndike-1952]
-confidence: high
 ---
 
 ## 서지

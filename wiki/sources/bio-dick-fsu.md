@@ -3,7 +3,6 @@ title: Instructional Systems and Learning Technologies — Program Overview
 type: source
 updated: 2026-08-14
 sources: [bio-dick-fsu]
-confidence: high
 ---
 
 ## 서지

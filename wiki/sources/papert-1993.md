@@ -3,7 +3,6 @@ title: "The Children's Machine: Rethinking School in the Age of the Computer"
 type: source
 updated: 2026-08-14
 sources: [papert-1993]
-confidence: high
 ---
 
 ## 서지

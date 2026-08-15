@@ -4,7 +4,7 @@ type: debate
 related: ["[[pioneers/robert-gagne]]", "[[pioneers/robert-glaser]]"]
 updated: 2026-08-14
 sources: [gagne-1985, glaser-1963, glaser-1984]
-confidence: high
+confidence: medium
 ---
 
 ## 쟁점

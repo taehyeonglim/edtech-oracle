@@ -8,7 +8,7 @@ concepts: [인지도제, 모델링, 코칭과 페이딩, 설계연구]
 related: ["[[debates/lave-collins]]"]
 updated: 2026-08-14
 sources: [bio-collins-authority, bio-collins-northwestern, collins-1989, collins-1992, collins-2004, lave-wenger-1991]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

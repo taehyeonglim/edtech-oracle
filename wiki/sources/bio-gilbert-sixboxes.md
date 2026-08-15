@@ -3,7 +3,6 @@ title: Inspiration — Thomas F. Gilbert
 type: source
 updated: 2026-08-14
 sources: [bio-gilbert-sixboxes]
-confidence: high
 ---
 
 ## 서지

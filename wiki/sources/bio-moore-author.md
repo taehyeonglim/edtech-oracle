@@ -3,7 +3,6 @@ title: Michael G. Moore — Distinguished Professor Emeritus
 type: source
 updated: 2026-08-14
 sources: [bio-moore-author]
-confidence: high
 ---
 
 ## 서지

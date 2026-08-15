@@ -3,7 +3,6 @@ title: "Albert Bandura (1925–2021)"
 type: source
 updated: 2026-08-14
 sources: [ozer-bandura-2022]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: "Instructional-Design Theories and Models, Volume I"
 type: source
 updated: 2026-08-14
 sources: [reigeluth-1983]
-confidence: high
 ---
 
 ## 서지

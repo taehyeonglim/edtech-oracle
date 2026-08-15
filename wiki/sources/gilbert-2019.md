@@ -3,7 +3,6 @@ title: "Human Competence Revisited: 40 Years of Impact"
 type: source
 updated: 2026-08-14
 sources: [gilbert-2019]
-confidence: high
 ---
 
 ## 서지

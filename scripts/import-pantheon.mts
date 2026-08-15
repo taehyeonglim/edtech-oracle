@@ -103,9 +103,8 @@ function frontmatter(fm: Record<string, unknown>): string {
 /** 프론트매터 값에 콜론·대괄호가 있으면 YAML이 깨진다. 인용부호로 감싼다. */
 const q = (v: string) => (/[:#[\]{}",]/.test(v) ? `"${v.replace(/"/g, "'")}"` : v);
 
-/** A·B 티어가 하나라도 있으면 high. 규칙 8과 일관되게 유지한다. */
-const confidenceOf = (ids: Set<string>) =>
-  [...ids].some((id) => ["A", "B"].includes(sourceById.get(id)?.tier ?? "")) ? "high" : "low";
+// confidence는 여기서 정하지 않는다. 섹션 최약 근거로 계산하는 값이라 본문이 완성된 뒤에야
+// 알 수 있다. 파이프라인은 import → npm run sync:confidence → npm run lint:strict 순서다.
 
 function write(relPath: string, body: string) {
   const abs = join(WIKI, relPath);
@@ -117,7 +116,7 @@ function write(relPath: string, body: string) {
 function page(fm: Record<string, unknown>, sectionText: string, used: Set<string>): string {
   const ids = [...used].sort();
   const defs = ids.map(definition).join("\n");
-  return `${frontmatter({ ...fm, sources: ids, confidence: confidenceOf(used) })}\n\n${sectionText.trim()}\n\n${defs}\n`;
+  return `${frontmatter({ ...fm, sources: ids })}\n\n${sectionText.trim()}\n\n${defs}\n`;
 }
 
 // ── 위인 페이지 ─────────────────────────────────────────────────────

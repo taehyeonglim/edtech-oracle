@@ -3,7 +3,6 @@ title: Essentials of Learning for Instruction
 type: source
 updated: 2026-08-14
 sources: [gagne-1974]
-confidence: high
 ---
 
 ## 서지

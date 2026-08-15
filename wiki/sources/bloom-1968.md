@@ -3,7 +3,6 @@ title: Learning for Mastery
 type: source
 updated: 2026-08-14
 sources: [bloom-1968]
-confidence: high
 ---
 
 ## 서지

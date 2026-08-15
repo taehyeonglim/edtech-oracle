@@ -8,7 +8,7 @@ concepts: [Knowledge Building, CSILE, Knowledge Forum, 집단 인지]
 related: ["[[debates/wenger-scardamalia]]", "[[debates/scardamalia-papert]]"]
 updated: 2026-08-14
 sources: [bio-scardamalia-ikit, bio-scardamalia-nae, papert-1980, scardamalia-1989, scardamalia-1994, wenger-1998]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

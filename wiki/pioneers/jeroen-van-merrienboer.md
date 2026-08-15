@@ -8,7 +8,7 @@ concepts: [4C/ID, 전체과제, 지원정보, 부분과제 연습]
 related: ["[[debates/merrienboer-merrill]]"]
 updated: 2026-08-14
 sources: [bio-merrienboer-4cid, merrienboer-1997, merrienboer-2002, merrill-2002]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

@@ -3,7 +3,6 @@ title: Computer Support for Knowledge-Building Communities
 type: source
 updated: 2026-08-14
 sources: [scardamalia-1994]
-confidence: high
 ---
 
 ## 서지

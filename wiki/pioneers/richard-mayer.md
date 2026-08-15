@@ -8,7 +8,7 @@ concepts: [이중 채널, 제한된 작업기억, 능동적 처리, 외재적 �
 related: ["[[debates/bruner-mayer]]", "[[debates/papert-mayer]]", "[[debates/dale-mayer]]", "[[debates/novak-mayer]]", "[[debates/clark-mayer]]", "[[debates/kozma-mayer]]"]
 updated: 2026-08-14
 sources: [bio-mayer-ucsb, bio-wiki-mayer, apa-mayer-2018, bruner-1966, clark-1983, clark-1994, dale-1946, kozma-1991, kozma-1994, mayer-1997, mayer-2005, molenda-2003-cone, novak-1984, novak-2002, papert-1980, reiser-2017, sweller-1988, sweller-2011]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

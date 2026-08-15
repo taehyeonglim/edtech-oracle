@@ -4,7 +4,7 @@ type: debate
 related: ["[[pioneers/richard-clark]]", "[[pioneers/richard-mayer]]"]
 updated: 2026-08-14
 sources: [clark-1983, clark-1994, mayer-2005]
-confidence: high
+confidence: medium
 ---
 
 ## 쟁점

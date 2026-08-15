@@ -3,7 +3,6 @@ title: A Search to Create a Science of Education
 type: source
 updated: 2026-08-14
 sources: [bio-novak-ihmc]
-confidence: high
 ---
 
 ## 서지

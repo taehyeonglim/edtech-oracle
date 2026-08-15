@@ -4,7 +4,7 @@ type: debate
 related: ["[[pioneers/richard-clark]]", "[[pioneers/robert-kozma]]"]
 updated: 2026-08-14
 sources: [clark-1983, clark-1994, kozma-1991, kozma-1994]
-confidence: high
+confidence: medium
 ---
 
 ## 쟁점

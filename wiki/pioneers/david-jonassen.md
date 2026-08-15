@@ -8,7 +8,7 @@ concepts: [마인드툴, 구성주의 학습환경, 비구조화 문제, 의미 
 related: ["[[debates/jonassen-papert]]", "[[debates/jonassen-merrill]]", "[[debates/lave-jonassen]]"]
 updated: 2026-08-14
 sources: [bio-jonassen-profile, jonassen-1991, jonassen-2000, lave-1988, lave-wenger-1991, merrill-2002, papert-1980]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

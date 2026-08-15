@@ -3,7 +3,6 @@ title: "Richard E. Mayer, PhD, Awarded 2018 Presidential Citation"
 type: source
 updated: 2026-08-14
 sources: [apa-mayer-2018]
-confidence: high
 ---
 
 ## 서지

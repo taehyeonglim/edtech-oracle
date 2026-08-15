@@ -3,7 +3,6 @@ title: Sidney L. Pressey
 type: source
 updated: 2026-08-14
 sources: [bio-pressey-osu]
-confidence: high
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: Albert Bandura
 type: source
 updated: 2026-08-14
 sources: [bio-wiki-bandura]
-confidence: low
 ---
 
 ## 서지

@@ -3,7 +3,6 @@ title: An Interview with Richard E. Clark
 type: source
 updated: 2026-08-14
 sources: [bio-clark-interview]
-confidence: high
 ---
 
 ## 서지

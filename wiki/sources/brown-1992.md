@@ -3,7 +3,6 @@ title: "Design Experiments: Theoretical and Methodological Challenges in Creatin
 type: source
 updated: 2026-08-14
 sources: [brown-1992]
-confidence: high
 ---
 
 ## 서지

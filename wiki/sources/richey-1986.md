@@ -3,7 +3,6 @@ title: The Theoretical and Conceptual Bases of Instructional Design
 type: source
 updated: 2026-08-14
 sources: [richey-1986]
-confidence: high
 ---
 
 ## 서지

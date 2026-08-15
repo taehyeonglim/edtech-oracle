@@ -3,7 +3,6 @@ title: "Mindstorms: Children, Computers, and Powerful Ideas"
 type: source
 updated: 2026-08-14
 sources: [papert-1980]
-confidence: high
 ---
 
 ## 서지

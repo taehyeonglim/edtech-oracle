@@ -3,7 +3,6 @@ title: "Bloom, influential education researcher"
 type: source
 updated: 2026-08-14
 sources: [uchicago-bloom-1999]
-confidence: high
 ---
 
 ## 서지

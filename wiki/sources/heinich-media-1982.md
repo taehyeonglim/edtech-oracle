@@ -3,7 +3,6 @@ title: Instructional Media and the New Technologies of Instruction
 type: source
 updated: 2026-08-14
 sources: [heinich-media-1982]
-confidence: high
 ---
 
 ## 서지

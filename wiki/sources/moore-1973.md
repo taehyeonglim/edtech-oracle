@@ -3,7 +3,6 @@ title: Toward a Theory of Independent Learning and Teaching
 type: source
 updated: 2026-08-14
 sources: [moore-1973]
-confidence: high
 ---
 
 ## 서지

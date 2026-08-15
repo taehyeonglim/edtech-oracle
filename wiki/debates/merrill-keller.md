@@ -4,7 +4,7 @@ type: debate
 related: ["[[pioneers/david-merrill]]", "[[pioneers/john-keller]]"]
 updated: 2026-08-14
 sources: [keller-1987, merrill-2002]
-confidence: high
+confidence: medium
 ---
 
 ## 쟁점

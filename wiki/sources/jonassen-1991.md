@@ -3,7 +3,6 @@ title: "Objectivism versus Constructivism: Do We Need a New Philosophical Paradi
 type: source
 updated: 2026-08-14
 sources: [jonassen-1991]
-confidence: high
 ---
 
 ## 서지

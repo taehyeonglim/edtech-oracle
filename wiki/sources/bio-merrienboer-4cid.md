@@ -3,7 +3,6 @@ title: In Memoriam — Jeroen van Merriënboer
 type: source
 updated: 2026-08-14
 sources: [bio-merrienboer-4cid]
-confidence: high
 ---
 
 ## 서지

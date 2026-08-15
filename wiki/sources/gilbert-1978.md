@@ -3,7 +3,6 @@ title: "Human Competence: Engineering Worthy Performance"
 type: source
 updated: 2026-08-14
 sources: [gilbert-1978]
-confidence: high
 ---
 
 ## 서지

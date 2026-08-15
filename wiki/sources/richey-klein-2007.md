@@ -3,7 +3,6 @@ title: Design and Development Research
 type: source
 updated: 2026-08-14
 sources: [richey-klein-2007]
-confidence: high
 ---
 
 ## 서지

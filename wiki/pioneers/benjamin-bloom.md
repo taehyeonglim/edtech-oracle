@@ -8,7 +8,7 @@ concepts: [교육목표 분류, 인지적 영역, 완전학습, 평가 정렬]
 related: ["[[debates/bloom-gagne]]", "[[debates/bloom-keller]]", "[[debates/bloom-glaser]]"]
 updated: 2026-08-14
 sources: [bio-wiki-bloom, uchicago-bloom-1999, bloom-1956, bloom-1968, gagne-1965, gagne-1985, glaser-1963, keller-1987, reiser-2017, anderson-krathwohl-2001]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

@@ -8,7 +8,7 @@ concepts: [교수기계, 자기 속도 학습, 즉각적 피드백, 자동 채�
 related: []
 updated: 2026-08-14
 sources: [bio-pressey-osu, pressey-1926, pressey-smithsonian, skinner-1954]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제
