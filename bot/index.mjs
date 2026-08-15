@@ -30,6 +30,7 @@ import { loadPages } from "../scripts/wiki-parse.mjs";
 import { loadAnswerContext, speakerSections } from "../scripts/check-answer.mjs";
 import { runClaude, snapshotAnswers, findAnswer, makeSpeakerWatcher } from "./run-claude.mjs";
 import { gateSection, sameText } from "./gate.mjs";
+import { claimSingleInstance, DEFAULT_GUARD_PORT } from "./single-instance.mjs";
 import { render, checkSummary } from "./render.mjs";
 
 const CONFIG_PATH = new URL("./config.json", import.meta.url);
@@ -97,8 +98,11 @@ const webhook = new WebhookClient({ url: config.webhookUrl });
  * 락은 **메모리에만 둔다.**
  *
  * 파일 락은 봇이 죽거나 맥미니가 재부팅되면 남아서 이후 모든 요청을 영원히 거절한다.
- * 프로세스와 함께 사라지는 락은 그 자체로 복구된다. 인스턴스가 둘 이상 뜨는 상황은
- * 단일 사용자 설계에서 애초에 없다.
+ * 프로세스와 함께 사라지는 락은 그 자체로 복구된다.
+ *
+ * 다만 이 락이 지키는 범위는 **프로세스 하나뿐이다.** 2026-08-16에 봇이 실제로 둘 떠서
+ * 디스코드가 같은 인터랙션을 양쪽에 배달했고, 락은 서로를 보지 못했다. 인스턴스가 하나임은
+ * 락이 아니라 `single-instance.mjs`가 기동 시점에 보장한다.
  */
 let busy = null;
 
@@ -487,6 +491,14 @@ async function onButton(interaction) {
   if (outcome === "busy") {
     await interaction.reply({ content: `진행 중이다 — ${busy}`, flags: MessageFlags.Ephemeral });
   }
+}
+
+// 자리를 먼저 잡는다. **로그인보다 앞이어야 한다** — 게이트웨이에 붙고 나서 물러나면
+// 그 사이에 도착한 인터랙션을 두 봇이 함께 집어 진 쪽이 채널에 오류를 남긴다.
+if (!(await claimSingleInstance(config.guardPort ?? DEFAULT_GUARD_PORT))) {
+  console.error("봇이 이미 떠 있다. 둘을 띄우면 디스코드가 같은 인터랙션을 양쪽에 배달한다.");
+  console.error("`ps aux | grep index.mjs`로 확인하고 하나만 남겨라.");
+  process.exit(1);
 }
 
 client.login(config.token);

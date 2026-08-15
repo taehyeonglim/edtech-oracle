@@ -8,5 +8,6 @@
   "timeoutMs": 900000,
   "debateAutoMs": 90000,
   "progressMs": 30000,
+  "guardPort": 47821,
   "speakers": {}
 }
