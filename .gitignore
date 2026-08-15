@@ -16,3 +16,6 @@ bot/state.json
 
 # 이미지 생성 원본 — 파생본(web/assets/portraits/)만 배포한다
 images/
+
+# 봇 로그
+bot/bot.log

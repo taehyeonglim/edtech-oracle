@@ -9,6 +9,7 @@
  * 채널 웹훅은 애플리케이션 소유가 아니라 components가 거부된다.
  */
 import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { execFile } from "node:child_process";
 import { join } from "node:path";
 import {
@@ -43,13 +44,23 @@ const config = loadConfig();
 const answersDir = join(config.repo, "answers");
 
 /**
- * 아바타는 `gen-avatars.py`가 만들어 사이트와 함께 배포한 이니셜 이미지다.
- *
- * 실제 초상을 쓰지 않는 이유는 `KNOWN-ISSUES` #3이다 — 36장 중 퍼블릭 도메인·CC 근거가
- * 확인된 것은 14장뿐이고, 근거 없는 것을 올리지 않는 프로젝트에서 나머지를 임의로
- * 채울 수 없다. 14장만 사진을 쓰면 두 종류가 섞여 더 이상해진다.
+ * 아바타는 `gen-avatars.py`가 만들어 사이트와 함께 배포한 256px 정사각 이미지다.
+ * 출처와 라이선스는 `PORTRAITS.md`와 `web/assets/portraits.json`에 있다.
  */
-const avatarFor = (slug) => `${String(config.baseUrl).replace(/\/+$/, "")}/assets/avatars/${slug}.png`;
+const avatarDir = join(config.repo, "web", "assets", "avatars");
+
+function avatarFor(slug) {
+  const url = `${String(config.baseUrl).replace(/\/+$/, "")}/assets/avatars/${slug}.png`;
+  try {
+    // 내용 해시를 붙인다. 디스코드는 avatar_url을 **URL 기준으로 캐시**해서, 파일이
+    // 바뀌어도 주소가 같으면 옛 이미지를 계속 내보낸다. 이니셜을 사진으로 갈아 끼울 때
+    // 실제로 걸린 문제다. 해시를 쓰면 이미지가 바뀔 때만, 바뀐 것만 다시 받아 간다.
+    const v = createHash("sha256").update(readFileSync(join(avatarDir, `${slug}.png`))).digest("hex");
+    return `${url}?v=${v.slice(0, 8)}`;
+  } catch {
+    return url;
+  }
+}
 
 /**
  * 화자 표시 이름은 **위키에서 가져온다.** 설정에 손으로 적으면 위인 페이지의 제목과
