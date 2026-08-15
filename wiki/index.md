@@ -1,7 +1,7 @@
 ---
 title: 색인
 type: meta
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 ## 이 위키에 대하여
@@ -90,11 +90,14 @@ updated: 2026-08-14
 - [[debates/scardamalia-papert]] — 구성물 제작과 아이디어 개선
 - [[debates/merrienboer-merrill]] — 일반 원리와 복합기술 청사진
 
-## 개념 (3)
+## 개념 (6)
 
 - [[concepts/teaching-machine]] — 교수기계
 - [[concepts/performance-gap]] — 수행 격차
 - [[concepts/community-of-practice]] — 실천공동체
+- [[concepts/criterion-referenced-assessment]] — 준거참조평가
+- [[concepts/cognitive-load]] — 인지부하
+- [[concepts/design-research]] — 설계연구
 
 ## 출처 (140)
 

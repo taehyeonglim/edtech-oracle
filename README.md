@@ -45,7 +45,7 @@ wiki/
 ├── index.md · log.md · router-map.md · KNOWN-ISSUES.md   type: meta
 ├── pioneers/   36   위인의 정체성과 자기 입장
 ├── debates/    34   대립축 (Clark–Kozma 매체 효과 논쟁 등)
-├── concepts/    3   개념 정본 — 유기적으로 자란다
+├── concepts/    6   개념 정본 — `npm run concepts:candidates`가 후보를 낸다
 └── sources/   140   출처 요약
 ```
 
