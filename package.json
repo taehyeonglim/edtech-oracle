@@ -15,6 +15,7 @@
     "import": "tsx scripts/import-pantheon.mts",
     "gen-agents": "node scripts/gen-agents.mjs",
     "sync:confidence": "node scripts/sync-confidence.mjs",
+    "concepts:candidates": "node scripts/concept-candidates.mjs",
     "build": "node scripts/build-site.mjs --out dist",
     "serve": "node scripts/serve.mjs dist 4173",
     "preview": "npm run build && npm run serve"
