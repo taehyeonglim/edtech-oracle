@@ -341,7 +341,8 @@ const commands = [
 client.once("clientReady", async (c) => {
   const rest = new REST().setToken(config.token);
   await rest.put(Routes.applicationGuildCommands(c.application.id, config.guildId), { body: commands });
-  console.log(`${c.user.tag} 준비됨 · 위인 ${Object.keys(speakers).length}명`);
+  const pioneers = Object.keys(speakers).filter((k) => !k.startsWith("_")).length;
+  console.log(`${c.user.tag} 준비됨 · 위인 ${pioneers}명 · 커맨드 ${commands.length}개 등록`);
 });
 
 client.on("interactionCreate", async (interaction) => {
