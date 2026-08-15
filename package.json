@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "node --test \"test/*.test.mjs\"",
+    "test:bot": "node --test \"bot/*.test.mjs\"",
     "lint": "node scripts/lint-wiki.mjs",
     "lint:strict": "node scripts/lint-wiki.mjs --strict",
     "lint:answers": "node scripts/lint-answers.mjs",

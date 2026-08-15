@@ -1,0 +1,17 @@
+{
+  "name": "edtech-oracle-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "에듀테크 오라클의 디스코드 프론트엔드. 루트의 '런타임 의존성 0'을 지키려고 분리했다.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "node --test \"*.test.mjs\""
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

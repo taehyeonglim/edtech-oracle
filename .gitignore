@@ -8,3 +8,8 @@ node_modules/
 
 # 사이트 빌드 산출물. CI가 매번 다시 만든다. 손으로 쓴 자산은 web/에 있고 커밋한다.
 dist/
+
+# 봇 — 토큰·웹훅 URL이 들어간다
+bot/config.json
+bot/node_modules/
+bot/state.json
