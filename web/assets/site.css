@@ -179,7 +179,16 @@ h2:hover .h-anchor, .h-anchor:focus { opacity: 1; }
 .tier--B { color: var(--tier-b); background: var(--tier-b-bg); }
 .tier--C { color: var(--tier-c); background: var(--tier-c-bg); }
 .tier--\? { color: var(--ink-3); background: var(--rule); }
-.tier--inline { margin-left: .15em; font-size: .82em; }
+/* 각주 참조 안의 티어에는 배경 칩을 두지 않는다. 문장 끝에 3~4개가 연달아 붙으면
+   색칠된 블록이 벽처럼 보여 글이 끊긴다(가녜 페이지 기준 3연속 7회·4연속 1회).
+   글자·색·aria-label은 그대로 남기므로 근거 강도 정보는 하나도 잃지 않는다.
+   칩이 사라지면 9.7px 글자가 너무 작아지므로 크기를 함께 올린다. */
+.tier--inline {
+  margin-left: .1em; padding: 0; min-width: 0;
+  background: none; font-size: .95em; line-height: 1;
+}
+/* 배경이 없으면 1A2B3B가 한 덩어리로 읽힌다. 참조끼리 벌려 경계를 만든다. */
+.fnref + .fnref { margin-left: .24em; }
 
 .conf {
   display: inline-block; font-size: .76rem; padding: .05rem .5rem;
