@@ -11,6 +11,12 @@ export const EVIDENCE_TYPES = new Set(["pioneer", "concept", "debate"]);
  * 줄 시작만 보면 렌더러는 각주·헤딩으로 그리는데 파서는 산문으로 읽어 검사가 통째로 비켜간다.
  */
 const INDENT = " {0,3}";
+/**
+ * 줄 분리에 `\r`을 포함한다. JS 정규식에서 `\r`은 줄 종결자라 `.`가 매치하지 않고 `$`도
+ * 걸리지 않는다. `"\n"`으로만 자르면 CRLF 파일의 `## 제목\r`이 헤딩으로 인식되지 않아
+ * 섹션이 통째로 사라지고, 규칙 6과 confidence 계산이 함께 비켜간다.
+ */
+const EOL_RE = /\r?\n/;
 const DEF_LINE_RE = new RegExp(`^${INDENT}\\[\\^([^\\]\\s]+)\\]:`);
 const DEF_RE = new RegExp(`^${INDENT}\\[\\^([^\\]\\s]+)\\]:`, "gm");
 const REF_RE = /\[\^([^\]\s]+)\](?!:)/g;
@@ -46,7 +52,7 @@ export const wikilinks = (body) => [...body.matchAll(LINK_RE)].map((m) => m[1].t
 export function stripFootnoteDefs(body) {
   const out = [];
   let inDef = false;
-  for (const line of body.split("\n")) {
+  for (const line of body.split(EOL_RE)) {
     if (DEF_LINE_RE.test(line)) {
       inDef = true;
       continue;
@@ -62,7 +68,7 @@ export function stripFootnoteDefs(body) {
 export function sections(body) {
   const parts = [];
   let cur = null;
-  for (const line of stripFootnoteDefs(body).split("\n")) {
+  for (const line of stripFootnoteDefs(body).split(EOL_RE)) {
     const m = new RegExp(`^${INDENT}##\\s+(.+)$`).exec(line);
     if (m) {
       cur = { title: m[1].trim(), lines: [] };

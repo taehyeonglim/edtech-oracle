@@ -20,6 +20,8 @@ const DEF_TAIL_RE = /—\s*tier\s+([ABC])\s*·\s*\[\[sources\/([^\]|]+?)\s*\]\]$
  * 헤딩으로 렌더링되는데 검사기는 앞 화자의 산문으로 읽어 귀속이 통째로 어긋난다.
  */
 const INDENT = " {0,3}";
+/** CRLF에서 `\r`은 줄 종결자라 `.`와 `$`에 걸리지 않는다. 줄을 자를 때 함께 떼어낸다. */
+const EOL_RE = /\r?\n/;
 const DEF_LINE_RE = new RegExp(`^${INDENT}\\[\\^([^\\]\\s]+)\\]:`);
 const HEADING_RE = new RegExp(`^${INDENT}##\\s+(.+)$`);
 /** 마커를 요구하지 않는 블록. 인용문·목록·표와 되묻기 신호. */
@@ -32,7 +34,7 @@ const form = (rule, speaker, message) => ({ rule, severity: "form", speaker, mes
 export function speakerSections(body) {
   const out = [];
   let cur = null;
-  for (const line of body.split("\n")) {
+  for (const line of body.split(EOL_RE)) {
     const m = HEADING_RE.exec(line);
     if (m) {
       cur = { speaker: m[1].trim(), lines: [] };
@@ -48,7 +50,7 @@ export function speakerSections(body) {
 export function footnoteBlocks(text) {
   const out = [];
   let cur = null;
-  for (const line of text.split("\n")) {
+  for (const line of text.split(EOL_RE)) {
     const m = DEF_LINE_RE.exec(line);
     if (m) {
       cur = { id: m[1], lines: [line] };
@@ -156,7 +158,7 @@ export function checkAnswer({ file, wikiDir, sourcesPath, ctx }) {
 
     for (const para of paragraphs(text)) {
       if (SKIP_PARA_RE.test(para)) continue;
-      const m = MARKER_RE.exec(para.split("\n")[0]);
+      const m = MARKER_RE.exec(para.split(EOL_RE)[0]);
       if (!m) {
         findings.push(form(9, speaker, `마커 없는 문단: ${para.slice(0, 24)}…`));
         continue;
