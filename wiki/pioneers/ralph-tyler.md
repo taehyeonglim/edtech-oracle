@@ -6,8 +6,8 @@ role: 교육학자 · 교육과정 평가 연구자
 life: 1902—1994
 concepts: [타일러의 네 질문, 교육목표, 학습경험, 평가 순환]
 related: []
-updated: 2026-08-14
-sources: [bio-tyler-uchicago, dewey-1938, tyler-1949, tyler-eight-year]
+updated: 2026-08-16
+sources: [bio-tyler-uchicago, dewey-1938, goodlad-1995-tyler, tyler-1949, tyler-1973-affective-domain, tyler-1984-curriculum-research, tyler-1986-changing-evaluation, tyler-eight-year, tyler-smith-1942-progress, wraga-2017-tyler-rationale]
 confidence: medium
 ---
 
@@ -22,15 +22,19 @@ confidence: medium
 ## 주요 저작
 
 - **Basic Principles of Curriculum and Instruction** (1949) — 목표 설정, 경험 선택, 조직, 평가를 연결한 교육과정의 고전.[^tyler-1949]
-- **Appraising and Recording Student Progress** (1942) — Eight-Year Study에서 학생 성장과 평가 기록을 다룬 보고서.[^tyler-eight-year]
+- **Appraising and Recording Student Progress** (1942) — Eight-Year Study에서 학생 성장과 평가 기록을 다룬 보고서.[^tyler-eight-year] 타일러와 Eight-Year Study 평가진은 학생 진보의 평가와 기록을 550쪽 분량의 공동 보고서로 정리했다.[^tyler-smith-1942-progress]
 
 ## 목표에서 평가까지의 정렬
 
 타일러의 네 질문은 무엇을 달성할지, 어떤 경험이 이를 가능하게 할지, 경험을 어떻게 조직할지, 실제 달성 여부를 어떻게 판단할지를 잇는다. 현대의 백워드 디자인과 정렬 논의가 반복해서 만나는 구조다.[^tyler-1949]
 
+타일러는 교육과정 연구의 활용을 높이기 위해 행동연구, 목표 형성, 학습경험의 계획·조직, 프로그램 평가와 연구-실천 간 소통을 함께 다뤘다.[^tyler-1984-curriculum-research]
+
 ## 선형 체크리스트라는 오해
 
 모형은 흔히 목표를 먼저 고정하는 선형 절차로 단순화된다. 그러나 타일러는 평가 결과에 따라 교육과정을 재검토하는 순환성을 강조했고, 목표의 원천으로 학습자·사회·교과를 함께 검토했다.[^tyler-1949][^bio-tyler-uchicago]
+
+Wraga의 역사 분석에 따르면 『Basic Principles』는 Education 360 학생용 학습 안내서였으며, 타일러 합리안에는 경험 중심 교육, 문제해결 과정, 교사의 교육과정 개발 참여가 포함되었다.[^wraga-2017-tyler-rationale]
 
 ## 농촌 교사에서 교육평가 연구자로
 
@@ -44,6 +48,10 @@ confidence: medium
 
 타일러는 시카고대학교 교수와 사회과학 연구기관 책임자로 활동하며 국가적 교육평가 프로젝트에 참여했고 1994년 사망했다. 목표를 분명히 하고 증거를 정렬하는 발상은 블룸의 교육목표 분류와 메이거의 수행목표, 교수설계 모형에 영향을 주었다. 반면 교육의 우발적·비측정적 결과가 목표 목록 밖으로 밀릴 수 있다는 비판도 함께 남았다.[^bio-tyler-uchicago][^tyler-1949][^tyler-eight-year]
 
+Goodlad는 타일러의 영향이 1950년 이전 평가·교육과정 논의를 넘어 National Academy of Education, National Institute of Education, NAEP, 행동과학고등연구센터와 이후 교육개선 사업으로 이어졌다고 평가했다.[^goodlad-1995-tyler]
+
+후기 모노그래프에서 타일러는 학생학습 평가의 기존 개념과 실천의 결함을 검토하고, 교육 잠재력, 효과적 학습, 대규모 집단의 성취, 인적자원 개발을 평가하는 새 패러다임을 제안했다.[^tyler-1986-changing-evaluation]
+
 ## 당대의 비판
 
 듀이는 경험의 교육적 가치를 이미 정한 목표에 맞았는지만으로 판단하지 않고, 경험의 계속성과 상호작용, 그리고 그 경험이 이후의 성장을 여는지를 기준으로 보았다.[^dewey-1938] 이 관점은 교육과정을 목표를 먼저 고정한 뒤 경험과 평가를 정렬하는 틀로만 읽을 때, 학습 과정에서 생기는 예상 밖의 성장과 경험의 질을 주변화한다는 반론을 제기한다.[^dewey-1938][^tyler-1949]
@@ -53,6 +61,8 @@ confidence: medium
 ## 한계
 
 타일러의 네 질문은 교육목적을 말로 정하고, 그 목적을 가능하게 할 경험을 선택·조직하며, 달성 여부를 평가할 수 있을 때 특히 강력하다. 반대로 목적 자체가 여러 가치의 충돌 속에서 정해지거나 학습 결과가 사전에 예상되지 않는 영역에서는, 무엇을 목표로 삼을지와 어떤 증거를 인정할지를 이 모형만으로 결정하기 어렵다.[^tyler-1949]
+
+타일러는 정의적 성취를 평가할 수 있다고 보면서도, 은밀한 정서 반응을 포착하기 어렵고 공립학교의 목표는 비교파적·비당파적이며 사생활을 침해하지 않아야 한다고 제한했다.[^tyler-1973-affective-domain]
 
 타일러는 네 질문을 순환적으로 다시 묻는 교육과정의 틀을 제시했지만, 이를 목표 목록과 시험 점수를 맞추는 선형 체크리스트로 적용하면 학습자의 경험과 평가에서 얻은 재검토가 사라진다. 이 오용은 타일러의 질문틀 자체보다, 목표·경험·조직·평가 사이의 숙고를 단일한 측정 절차로 축소하는 데서 생긴다.[^tyler-1949][^tyler-eight-year]
 
@@ -64,5 +74,11 @@ confidence: medium
 
 [^bio-tyler-uchicago]: University of Chicago Library. Guide to the Ralph W. Tyler Papers 1931–1988. University of Chicago. <https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.TYLER> — tier B · [[sources/bio-tyler-uchicago]]
 [^dewey-1938]: John Dewey. (1938). Experience and Education. Macmillan. <https://archive.org/details/experienceeducat00dewe> — tier A · [[sources/dewey-1938]]
+[^goodlad-1995-tyler]: John I. Goodlad. (1995). Ralph Tyler: The Educators' Educator. Educational Policy, 9(1). <https://doi.org/10.1177/0895904895009001004> — tier B · [[sources/goodlad-1995-tyler]]
 [^tyler-1949]: Ralph W. Tyler. (1949). Basic Principles of Curriculum and Instruction. University of Chicago Press. <https://press.uchicago.edu/ucp/books/book/chicago/B/bo17239506.html> — tier A · [[sources/tyler-1949]]
+[^tyler-1973-affective-domain]: Ralph W. Tyler. (1973). Assessing Educational Achievement in the Affective Domain. NCME Measurement in Education, 4(3). <https://eric.ed.gov/?id=ED099394> — tier A · [[sources/tyler-1973-affective-domain]]
+[^tyler-1984-curriculum-research]: Ralph W. Tyler. (1984). Curriculum Development and Research. Using What We Know About Teaching, 29–41. <https://eric.ed.gov/?id=ED240090> — tier A · [[sources/tyler-1984-curriculum-research]]
+[^tyler-1986-changing-evaluation]: Ralph W. Tyler. (1986). Changing Concepts of Educational Evaluation. International Journal of Educational Research, 10(1), 1–113. <https://doi.org/10.1016/0883-0355(86)90008-X> — tier A · [[sources/tyler-1986-changing-evaluation]]
 [^tyler-eight-year]: University of Chicago Library. (1931–1942). Ralph W. Tyler Papers — Eight-Year Study records. University of Chicago. <https://www.lib.uchicago.edu/ead/rlg/ICU.SPCL.TYLER.pdf> — tier B · [[sources/tyler-eight-year]]
+[^tyler-smith-1942-progress]: Eugene R. Smith; Ralph W. Tyler; Evaluation Staff of the Commission on the Relation of School and College. (1942). Appraising and Recording Student Progress. Harper & Brothers. <https://openlibrary.org/books/OL6437282M> — tier A · [[sources/tyler-smith-1942-progress]]
+[^wraga-2017-tyler-rationale]: William G. Wraga. (2017). Understanding the Tyler Rationale: Basic Principles of Curriculum and Instruction in Historical Context. Espacio, Tiempo y Educación, 4(2), 227–252. <https://doi.org/10.14516/ete.156> — tier B · [[sources/wraga-2017-tyler-rationale]]

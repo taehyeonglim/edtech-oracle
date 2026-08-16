@@ -1,0 +1,841 @@
+{
+  "schema_version": 1,
+  "slug": "ralph-tyler",
+  "base_commit": "4eb0caeb885b850cf05e34a554c88a7167170698",
+  "initial_source_ids": [
+    "bio-tyler-uchicago",
+    "dewey-1938",
+    "tyler-1949",
+    "tyler-eight-year"
+  ],
+  "required_additions": 6,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary edition OL14339508M에서 실재와 Ralph Winfred Tyler 저자 전거는 확인했지만 Google Books 원문에서 후보가 제안한 문항 구성 절차의 정확한 위치를 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Ralph W. Tyler"
+        ],
+        "title": "Constructing Achievement Tests",
+        "year": "1934",
+        "publisher": "Bureau of Educational Research, Ohio State University",
+        "url": "https://books.google.com/books/about/Constructing_Achievement_Tests.html?id=4uCEAAAAIAAJ",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL14339508M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL14339508M",
+          "evidence": "OpenLibrary edition OL14339508M에서 제목·1934년·Ohio State University·저자 키 OL1120404A를 대조했다.",
+          "matched_fields": [
+            "title",
+            "publish_date",
+            "publishers",
+            "authors"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL14339508M.json",
+          "locator": "edition authors와 OpenLibrary author authority",
+          "evidence": "판본 저자 키 OL1120404A는 Ralph Winfred Tyler(1902) 전거로 연결된다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "Ralph Winfred Tyler (1902) · OpenLibrary author OL1120404A",
+              "evidence_url": "https://openlibrary.org/authors/OL1120404A.json"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary edition OL6437282M에서 제목·1942년·Harper & Brothers·OCLC 234911·by_statement와 550쪽 판본을 직접 대조했다.",
+      "source_id": "tyler-smith-1942-progress",
+      "bibliography": {
+        "authors": [
+          "Eugene R. Smith",
+          "Ralph W. Tyler",
+          "Evaluation Staff of the Commission on the Relation of School and College"
+        ],
+        "title": "Appraising and Recording Student Progress",
+        "year": "1942",
+        "publisher": "Harper & Brothers",
+        "url": "https://openlibrary.org/books/OL6437282M/Appraising_and_recording_student_progress",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6437282M",
+          "oclc": "234911"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL6437282M",
+          "evidence": "OpenLibrary edition OL6437282M에서 제목·1942년·Harper & Brothers·OCLC 234911·by_statement와 550쪽 판본을 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "publish_date",
+            "publishers",
+            "by_statement",
+            "oclc_numbers"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL6437282M.json",
+          "locator": "by_statement와 contributions",
+          "evidence": "판본의 by_statement가 Eugene R. Smith, Ralph W. Tyler, Evaluation staff를 공동 저자로 명시하고 contributions는 Ralph Winfred Tyler(1902)를 joint author로 식별한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "Ralph Winfred Tyler (1902) · joint author · OpenLibrary edition OL6437282M",
+              "evidence_url": "https://openlibrary.org/books/OL6437282M.json"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "타일러와 Eight-Year Study 평가진이 학생 진보 평가·기록을 직접 보고한 원저서다."
+      },
+      "claim_seed": {
+        "section": "주요 저작",
+        "claim": "타일러와 Eight-Year Study 평가진은 학생 진보의 평가와 기록을 550쪽 분량의 공동 보고서로 정리했다.",
+        "locator": "OpenLibrary edition OL6437282M의 by_statement, series, pagination",
+        "evidence_url": "https://openlibrary.org/books/OL6437282M.json"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 DOI·서지·저자 관계는 확인했지만 Taylor & Francis의 봇 차단으로 후보가 제안한 pp. 492–495의 평가 목적 문장을 원문에서 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Ralph W. Tyler"
+        ],
+        "title": "General Statement on Evaluation",
+        "year": "1942",
+        "publisher": "The Journal of Educational Research",
+        "url": "https://doi.org/10.1080/00220671.1942.10881106",
+        "identifiers": {
+          "doi": "10.1080/00220671.1942.10881106",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1080/00220671.1942.10881106",
+          "evidence": "Crossref API가 DOI 10.1080/00220671.1942.10881106의 제목·저자·발행연도를 후보 서지와 일치하게 반환했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "issued"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.1080%2F00220671.1942.10881106",
+          "locator": "Crossref author 필드",
+          "evidence": "Crossref가 Ralph W. Tyler를 단독 저자로 기록하고 제목이 교육평가 분야를 직접 가리킨다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Ralph W. Tyler (1902–1994) · University of Chicago professor of education · Ohio State University Bureau of Educational Research",
+              "evidence_url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.TYLER"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 판본과 목차에서 Tyler의 수록 장과 공저 관계는 확인했지만 승인 6건은 원문 주장을 더 직접 확인한 후보들로 우선 구성했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Ralph W. Tyler",
+          "Robert M. Gagné",
+          "Michael Scriven"
+        ],
+        "title": "Perspectives of Curriculum Evaluation",
+        "year": "1967",
+        "publisher": "Rand McNally",
+        "url": "https://openlibrary.org/books/OL5998082M/Perspectives_of_curriculum_evaluation",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL5998082M",
+          "oclc": "182623"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL5998082M",
+          "evidence": "OpenLibrary edition OL5998082M에서 제목·1967년·Rand McNally·OCLC 182623·목차를 대조했다.",
+          "matched_fields": [
+            "title",
+            "publish_date",
+            "publishers",
+            "by_statement",
+            "table_of_contents",
+            "oclc_numbers"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL5998082M.json",
+          "locator": "by_statement와 table_of_contents",
+          "evidence": "판본은 Ralph W. Tyler를 공저자로 기록하고 목차가 Changing Concepts of Educational Evaluation을 R. W. Tyler의 장으로 명시한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "Ralph Winfred Tyler (1902) · OpenLibrary author OL1120404A",
+              "evidence_url": "https://openlibrary.org/authors/OL1120404A.json"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-05",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary edition OL10192647M에서 책의 실재와 ISBN은 확인했지만 해당 레코드가 Ralph W. Tyler의 편집자·결론 장 저자 역할을 표시하지 않고 후보 OCLC와도 달라 관계를 확정하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Ralph W. Tyler (editor)",
+          "National Society for the Study of Education, Committee on Educational Evaluation"
+        ],
+        "title": "Educational Evaluation: New Roles, New Means",
+        "year": "1969",
+        "publisher": "National Society for the Study of Education; distributed by the University of Chicago Press",
+        "url": "https://search.worldcat.org/title/Educational-evaluation%3A-new-roles-new-means/oclc/737737985",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0226600971",
+          "eric": null,
+          "openlibrary_edition": "OL10192647M",
+          "oclc": "737737985"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL10192647M",
+          "evidence": "OpenLibrary edition OL10192647M에서 제목·1969년·National Society for the Study of Education·ISBN 0226600971을 대조했다.",
+          "matched_fields": [
+            "title",
+            "publish_date",
+            "publishers",
+            "isbn_10"
+          ]
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "판본 레코드만으로 Tyler의 editor 및 concluding-chapter author 역할을 확정하지 못했다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-06",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED099394 레코드에서 제목·저자 Tyler, Ralph W.·1973년·NCME Measurement in Education 4(3)를 직접 대조했다.",
+      "source_id": "tyler-1973-affective-domain",
+      "bibliography": {
+        "authors": [
+          "Ralph W. Tyler"
+        ],
+        "title": "Assessing Educational Achievement in the Affective Domain",
+        "year": "1973",
+        "publisher": "National Council on Measurement in Education",
+        "url": "https://eric.ed.gov/?id=ED099394",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED099394",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED099394",
+          "evidence": "ERIC ED099394 레코드에서 제목·저자 Tyler, Ralph W.·1973년·NCME Measurement in Education 4(3)를 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_date",
+            "record_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=ED099394",
+          "locator": "ERIC citation_author와 abstract",
+          "evidence": "ERIC은 Tyler, Ralph W.를 단독 저자로 표시하고 정의적 영역의 교육목표·평가라는 그의 교육평가 분야를 직접 다룬다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Ralph W. Tyler (1902–1994) · University of Chicago professor of education · Ohio State University Bureau of Educational Research",
+              "evidence_url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.TYLER"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "타일러가 정의적 영역의 평가 조건과 한계를 직접 제시한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "한계",
+        "claim": "타일러는 정의적 성취를 평가할 수 있다고 보면서도, 은밀한 정서 반응을 포착하기 어렵고 공립학교 목표는 비교파적·비당파적이며 사생활을 침해하지 않아야 한다고 제한했다.",
+        "locator": "ERIC ED099394, Abstract",
+        "evidence_url": "https://eric.ed.gov/?id=ED099394"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-07",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 DOI·서지·저자 관계는 확인했지만 Springer가 PDF 대신 접근 차단 HTML을 반환해 후보가 제안한 두 Tyler Rationale 구분을 pp. 67–68 원문에서 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Ralph W. Tyler"
+        ],
+        "title": "A Rationale for Program Evaluation",
+        "year": "1983",
+        "publisher": "Kluwer-Nijhoff Publishing",
+        "url": "https://doi.org/10.1007/978-94-009-6669-7_4",
+        "identifiers": {
+          "doi": "10.1007/978-94-009-6669-7_4",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1007/978-94-009-6669-7_4",
+          "evidence": "Crossref API가 DOI 10.1007/978-94-009-6669-7_4의 제목·저자·발행연도를 후보 서지와 일치하게 반환했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "issued"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.1007%2F978-94-009-6669-7_4",
+          "locator": "Crossref chapter author 필드",
+          "evidence": "Crossref가 Ralph W. Tyler를 이 장의 단독 저자로 기록한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Ralph W. Tyler (1902–1994) · University of Chicago professor of education · Ohio State University Bureau of Educational Research",
+              "evidence_url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.TYLER"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-08",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED240090 레코드에서 제목·저자 Tyler, Ralph W.·1984년과 수록 저작 정보를 직접 대조했다.",
+      "source_id": "tyler-1984-curriculum-research",
+      "bibliography": {
+        "authors": [
+          "Ralph W. Tyler"
+        ],
+        "title": "Curriculum Development and Research",
+        "year": "1984",
+        "publisher": "Association for Supervision and Curriculum Development",
+        "url": "https://eric.ed.gov/?id=ED240090",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED240090",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED240090",
+          "evidence": "ERIC ED240090 레코드에서 제목·저자 Tyler, Ralph W.·1984년과 수록 저작 정보를 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_date",
+            "record_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=ED240090",
+          "locator": "ERIC citation_author와 abstract",
+          "evidence": "ERIC은 Tyler, Ralph W.를 저자로 표시하고 교육과정 개발·연구, 목표 형성, 학습경험 조직과 평가를 직접 다룬 글임을 밝힌다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Ralph W. Tyler (1902–1994) · University of Chicago professor of education · Ohio State University Bureau of Educational Research",
+              "evidence_url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.TYLER"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "타일러가 교육과정 개발과 연구의 원리를 직접 제시한 원 장이다."
+      },
+      "claim_seed": {
+        "section": "목표에서 평가까지의 정렬",
+        "claim": "타일러는 교육과정 연구의 활용을 높이기 위해 행동연구, 목표 형성, 학습경험의 계획·조직, 프로그램 평가와 연구-실천 간 소통을 함께 다뤘다.",
+        "locator": "ERIC ED240090, Abstract",
+        "evidence_url": "https://eric.ed.gov/?id=ED240090"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-09",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref API와 ERIC EJ330781에서 DOI·제목·저자 Ralph W. Tyler·1986년·International Journal of Educational Research 10(1)을 대조했다.",
+      "source_id": "tyler-1986-changing-evaluation",
+      "bibliography": {
+        "authors": [
+          "Ralph W. Tyler"
+        ],
+        "title": "Changing Concepts of Educational Evaluation",
+        "year": "1986",
+        "publisher": "International Journal of Educational Research",
+        "url": "https://eric.ed.gov/?id=EJ330781",
+        "identifiers": {
+          "doi": "10.1016/0883-0355(86)90008-X",
+          "isbn": null,
+          "eric": "EJ330781",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1016/0883-0355(86)90008-X",
+          "evidence": "Crossref API와 ERIC EJ330781에서 DOI·제목·저자 Ralph W. Tyler·1986년·International Journal of Educational Research 10(1)을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "issued",
+            "volume",
+            "issue"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ330781",
+          "locator": "ERIC citation_author와 abstract",
+          "evidence": "ERIC은 Tyler, Ralph W.를 단독 저자로 표시하고 교육평가 개념·실천의 결함과 새 평가 패러다임을 직접 다루는 모노그래프로 설명한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Ralph W. Tyler (1902–1994) · University of Chicago professor of education · Ohio State University Bureau of Educational Research",
+              "evidence_url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.TYLER"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "타일러가 교육평가 개념의 결함과 새 평가 패러다임을 직접 제시한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "목표 중심 설계의 영향과 논쟁",
+        "claim": "후기 모노그래프에서 타일러는 학생학습 평가의 기존 개념과 실천의 결함을 검토하고 교육 잠재력, 효과적 학습, 대규모 집단의 성취, 인적자원 개발을 평가하는 새 패러다임을 제안했다.",
+        "locator": "ERIC EJ330781, Abstract",
+        "evidence_url": "https://eric.ed.gov/?id=EJ330781"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-10",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 DOI와 타일러 합리안을 직접 비판 대상으로 삼는 관계는 확인했지만 후보가 제안한 Dewey·예상 밖 결과 비판의 정확한 본문 위치를 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Herbert M. Kliebard"
+        ],
+        "title": "The Tyler Rationale",
+        "year": "1970",
+        "publisher": "The University of Chicago Press (The School Review)",
+        "url": "https://doi.org/10.1086/442905",
+        "identifiers": {
+          "doi": "10.1086/442905",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1086/442905",
+          "evidence": "Crossref API가 DOI 10.1086/442905의 제목·저자·발행연도를 후보 서지와 일치하게 반환했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "issued"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "criticizes",
+          "person_role": null,
+          "evidence_url": "https://api.crossref.org/works/10.1086%2F442905",
+          "locator": "제목과 서지",
+          "evidence": "논문 제목 The Tyler Rationale가 타일러의 합리안을 직접 평가 대상으로 삼으며 후대 비판 문헌으로 확인된다.",
+          "identity_signals": [
+            {
+              "kind": "theory-link",
+              "value": "The Tyler Rationale · curriculum evaluation",
+              "evidence_url": "https://api.crossref.org/works/10.1086%2F442905"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-11",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref API가 DOI 10.14516/ete.156에 대해 제목·저자 William G. Wraga·2017년·저널·초록을 반환했다.",
+      "source_id": "wraga-2017-tyler-rationale",
+      "bibliography": {
+        "authors": [
+          "William G. Wraga"
+        ],
+        "title": "Understanding the Tyler Rationale: Basic Principles of Curriculum and Instruction in Historical Context",
+        "year": "2017",
+        "publisher": "Espacio, Tiempo y Educación",
+        "url": "https://doi.org/10.14516/ete.156",
+        "identifiers": {
+          "doi": "10.14516/ete.156",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.14516/ete.156",
+          "evidence": "Crossref API가 DOI 10.14516/ete.156에 대해 제목·저자 William G. Wraga·2017년·저널·초록을 반환했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "issued",
+            "publisher",
+            "abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "about",
+          "person_role": null,
+          "evidence_url": "https://api.crossref.org/works/10.14516%2Fete.156",
+          "locator": "제목과 Crossref 수록 Abstract",
+          "evidence": "제목과 초록이 Tyler rationale, Ralph Tyler의 형성 과정, Education 360 강좌, Basic Principles의 역사적 맥락을 직접 분석한다.",
+          "identity_signals": [
+            {
+              "kind": "theory-career-link",
+              "value": "Tyler rationale · Ralph Tyler · University of Chicago Education 360",
+              "evidence_url": "https://api.crossref.org/works/10.14516%2Fete.156"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "3-other-scholar-or-institution",
+        "evidence": "타인이 타일러 합리안의 형성과 역사적 맥락을 직접 분석한 학술 논문이다."
+      },
+      "claim_seed": {
+        "section": "선형 체크리스트라는 오해",
+        "claim": "역사 분석은 『Basic Principles』가 Education 360 학생용 학습 안내서였고, 타일러 합리안이 경험 중심 교육, 문제해결 과정, 교사의 교육과정 개발 참여를 포함했다고 해석한다.",
+        "locator": "Crossref 수록 Abstract",
+        "evidence_url": "https://api.crossref.org/works/10.14516%2Fete.156"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-12",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref API와 ERIC EJ499150에서 DOI·제목·저자 John I. Goodlad·1995년·Educational Policy 서지를 대조했다.",
+      "source_id": "goodlad-1995-tyler",
+      "bibliography": {
+        "authors": [
+          "John I. Goodlad"
+        ],
+        "title": "Ralph Tyler: The Educators’ Educator",
+        "year": "1995",
+        "publisher": "SAGE Publications (Educational Policy)",
+        "url": "https://doi.org/10.1177/0895904895009001004",
+        "identifiers": {
+          "doi": "10.1177/0895904895009001004",
+          "isbn": null,
+          "eric": "EJ499150",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1177/0895904895009001004",
+          "evidence": "Crossref API와 ERIC EJ499150에서 DOI·제목·저자 John I. Goodlad·1995년·Educational Policy 서지를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "issued",
+            "publisher"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "ralph-tyler",
+          "kind": "about",
+          "person_role": null,
+          "evidence_url": "https://eric.ed.gov/?id=EJ499150",
+          "locator": "제목과 ERIC Abstract",
+          "evidence": "제목이 Ralph Tyler를 직접 지칭하고 초록은 그의 교육평가·교육과정 기여와 여러 국가 교육기관·개선 사업에서의 역할을 분석한다.",
+          "identity_signals": [
+            {
+              "kind": "official-career-link",
+              "value": "Ralph W. Tyler · National Academy of Education · NIE · NAEP · CASBS",
+              "evidence_url": "https://eric.ed.gov/?id=EJ499150"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "3-other-scholar-or-institution",
+        "evidence": "타인이 타일러의 경력과 교육평가·교육과정에 끼친 영향을 직접 분석한 학술 논문이다."
+      },
+      "claim_seed": {
+        "section": "목표 중심 설계의 영향과 논쟁",
+        "claim": "Goodlad는 타일러의 영향이 1950년 이전 평가·교육과정 논의를 넘어 National Academy of Education, National Institute of Education, NAEP, 행동과학고등연구센터와 이후 교육개선 사업으로 이어졌다고 평가했다.",
+        "locator": "ERIC EJ499150, Abstract",
+        "evidence_url": "https://eric.ed.gov/?id=EJ499150"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "goodlad-1995-tyler",
+    "tyler-1973-affective-domain",
+    "tyler-1984-curriculum-research",
+    "tyler-1986-changing-evaluation",
+    "tyler-smith-1942-progress",
+    "wraga-2017-tyler-rationale"
+  ],
+  "claim_map": [
+    {
+      "source_id": "tyler-smith-1942-progress",
+      "section": "주요 저작",
+      "claim": "타일러와 Eight-Year Study 평가진은 학생 진보의 평가와 기록을 550쪽 분량의 공동 보고서로 정리했다.",
+      "evidence_locator": "OpenLibrary edition OL6437282M의 by_statement, series, pagination"
+    },
+    {
+      "source_id": "tyler-1973-affective-domain",
+      "section": "한계",
+      "claim": "타일러는 정의적 성취를 평가할 수 있다고 보면서도, 은밀한 정서 반응을 포착하기 어렵고 공립학교의 목표는 비교파적·비당파적이며 사생활을 침해하지 않아야 한다고 제한했다.",
+      "evidence_locator": "ERIC ED099394, Abstract"
+    },
+    {
+      "source_id": "tyler-1984-curriculum-research",
+      "section": "목표에서 평가까지의 정렬",
+      "claim": "타일러는 교육과정 연구의 활용을 높이기 위해 행동연구, 목표 형성, 학습경험의 계획·조직, 프로그램 평가와 연구-실천 간 소통을 함께 다뤘다.",
+      "evidence_locator": "ERIC ED240090, Abstract"
+    },
+    {
+      "source_id": "tyler-1986-changing-evaluation",
+      "section": "목표 중심 설계의 영향과 논쟁",
+      "claim": "후기 모노그래프에서 타일러는 학생학습 평가의 기존 개념과 실천의 결함을 검토하고, 교육 잠재력, 효과적 학습, 대규모 집단의 성취, 인적자원 개발을 평가하는 새 패러다임을 제안했다.",
+      "evidence_locator": "ERIC EJ330781, Abstract"
+    },
+    {
+      "source_id": "wraga-2017-tyler-rationale",
+      "section": "선형 체크리스트라는 오해",
+      "claim": "Wraga의 역사 분석에 따르면 『Basic Principles』는 Education 360 학생용 학습 안내서였으며, 타일러 합리안에는 경험 중심 교육, 문제해결 과정, 교사의 교육과정 개발 참여가 포함되었다.",
+      "evidence_locator": "Crossref 수록 Abstract"
+    },
+    {
+      "source_id": "goodlad-1995-tyler",
+      "section": "목표 중심 설계의 영향과 논쟁",
+      "claim": "Goodlad는 타일러의 영향이 1950년 이전 평가·교육과정 논의를 넘어 National Academy of Education, National Institute of Education, NAEP, 행동과학고등연구센터와 이후 교육개선 사업으로 이어졌다고 평가했다.",
+      "evidence_locator": "ERIC EJ499150, Abstract"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/ralph-tyler.md:45|tyler-eight-year|1949|1942",
+        "file": "wiki/pioneers/ralph-tyler.md",
+        "line": 45,
+        "claimYear": 1949,
+        "sourceId": "tyler-eight-year",
+        "sourceYear": 1942,
+        "decision": "valid-context",
+        "reason": "1949는 같은 문단에서 별도 tyler-1949가 받치는 저서 발행연도이고, tyler-eight-year는 1930년대 Eight-Year Study의 평가 활동을 받친다. 오래된 기록이 1949년 출간을 뒷받침하는 구조가 아니다."
+      },
+      {
+        "key": "wiki/pioneers/ralph-tyler.md:49|tyler-1949|1994|1949",
+        "file": "wiki/pioneers/ralph-tyler.md",
+        "line": 49,
+        "claimYear": 1994,
+        "sourceId": "tyler-1949",
+        "sourceYear": 1949,
+        "decision": "valid-context",
+        "reason": "1994는 같은 문단에서 기관 약력이 받치는 사망연도이고, tyler-1949는 네 질문과 목표 정렬의 후대 영향에 관한 별도 문장을 받친다."
+      },
+      {
+        "key": "wiki/pioneers/ralph-tyler.md:49|tyler-eight-year|1994|1942",
+        "file": "wiki/pioneers/ralph-tyler.md",
+        "line": 49,
+        "claimYear": 1994,
+        "sourceId": "tyler-eight-year",
+        "sourceYear": 1942,
+        "decision": "valid-context",
+        "reason": "1994는 기관 약력이 받치는 사망연도이고, tyler-eight-year는 그와 별개로 타일러의 평가 경험과 역사적 영향을 받친다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/ralph-tyler.md:41|bio-tyler-uchicago|1902|none",
+        "file": "wiki/pioneers/ralph-tyler.md",
+        "line": 41,
+        "claimYear": 1902,
+        "sourceId": "bio-tyler-uchicago",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 시카고대 공식 기록이 타일러의 1902년 출생과 경력 사실을 직접 서술한다."
+      },
+      {
+        "key": "wiki/pioneers/ralph-tyler.md:49|bio-tyler-uchicago|1994|none",
+        "file": "wiki/pioneers/ralph-tyler.md",
+        "line": 49,
+        "claimYear": 1994,
+        "sourceId": "bio-tyler-uchicago",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 시카고대 공식 기록이 타일러의 1994년 사망과 기관 경력을 직접 서술한다."
+      },
+      {
+        "key": "wiki/pioneers/ralph-tyler.md:71|bio-tyler-uchicago|1929|none",
+        "file": "wiki/pioneers/ralph-tyler.md",
+        "line": 71,
+        "claimYear": 1929,
+        "sourceId": "bio-tyler-uchicago",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 시카고대 공식 기록이 타일러의 1929년 오하이오주립대학교 합류를 직접 서술한다."
+      }
+    ]
+  }
+}
