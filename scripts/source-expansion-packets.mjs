@@ -133,7 +133,10 @@ export function buildWriterPacket({ slug, pageText, audit, sources, conceptIds }
       url: source.url,
       doi: source.doi ?? null,
       source_review: source.source_review,
-      approved_claim: audit.candidates.find((item) => item.source_id === source.id)?.claim_review,
+      // 감사 스키마의 필드 이름은 `claim_seed`다. `claim_review`로 읽으면 언제나
+      // undefined가 되어 서술자가 어떤 주장을 써야 하는지 모른 채 일한다.
+      // `additionalProperties: false`라 감사 쪽에 별칭을 둘 수도 없다.
+      approved_claim: audit.candidates.find((item) => item.source_id === source.id)?.claim_seed,
     })),
     allowed_concept_links: conceptIds.map((id) => `[[concepts/${id}]]`).sort(),
   };

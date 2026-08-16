@@ -76,3 +76,36 @@ test("writer 패킷은 승인 id의 레지스트리 행이 빠지면 거부한�
     conceptIds: [],
   }), /승인 id의 레지스트리 행 누락/);
 });
+
+test("작성 패킷은 승인 주장을 감사에서 실제로 꺼내 온다", () => {
+  // 감사 스키마의 필드 이름은 `claim_seed`다. 패킷 빌더가 `claim_review`로 읽던
+  // 동안 approved_claim은 언제나 undefined였고, 서술자는 어떤 주장을 써야 하는지
+  // 모른 채 일했다. 파일럿에서 실제로 드러난 결함이라 회귀로 고정한다.
+  const seed = {
+    section: "주요 저작",
+    claim: "1969년 3판은 브루너의 표상 논의를 반영해 원추를 수정했다.",
+    locator: "판권지",
+    evidence_url: "https://eric.ed.gov/?id=ED043234",
+  };
+  const packet = buildWriterPacket({
+    slug: "edgar-dale",
+    pageText: "---\ntitle: 에드거 데일\n---\n",
+    audit: {
+      approved_ids: ["dale-1969"],
+      candidates: [{ source_id: "dale-1969", claim_seed: seed }],
+    },
+    sources: [{
+      id: "dale-1969",
+      tier: "A",
+      type: "원저서",
+      authors: "Edgar Dale",
+      title: "Audiovisual Methods in Teaching, Third Edition",
+      year: "1969",
+      publisher: "Holt, Rinehart & Winston",
+      url: "https://eric.ed.gov/?id=ED043234",
+      source_review: {},
+    }],
+    conceptIds: [],
+  });
+  assert.deepEqual(packet.approved_sources[0].approved_claim, seed);
+});
