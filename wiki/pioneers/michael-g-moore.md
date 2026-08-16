@@ -8,7 +8,7 @@ concepts: [교류간격, 대화, 구조, 학습자 자율성]
 related: ["[[debates/moore-dick]]", "[[debates/moore-wenger]]"]
 updated: 2026-08-14
 sources: [bio-moore-author, bio-moore-hall, dick-carey-1978, moore-1973, moore-1993, wenger-1998]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

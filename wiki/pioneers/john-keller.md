@@ -8,7 +8,7 @@ concepts: [ARCS, 주의, 관련성, 자신감과 만족]
 related: ["[[debates/bloom-keller]]", "[[debates/bandura-keller]]", "[[debates/merrill-keller]]"]
 updated: 2026-08-14
 sources: [bandura-1997, bio-keller-springer, bio-wiki-keller, simsek-keller-2014, bloom-1968, keller-1983, keller-1987, merrill-2002, reiser-2017]
-confidence: medium
+confidence: high
 ---
 
 ## 핵심 명제

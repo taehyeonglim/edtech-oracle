@@ -8,7 +8,7 @@ concepts: [인지부하, 해결 예제, 주의분할, 전문성 역전]
 related: []
 updated: 2026-08-14
 sources: [bio-sweller-unsw, jonassen-2000, merrienboer-2002, sweller-1988, sweller-2011, sweller-2016-story]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

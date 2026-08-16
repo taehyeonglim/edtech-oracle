@@ -8,7 +8,7 @@ concepts: [정교화이론, 교수이론, 형성연구, 학습자 중심 체제]
 related: ["[[debates/dick-reigeluth]]", "[[debates/reigeluth-richey]]"]
 updated: 2026-08-14
 sources: [bio-reigeluth-author, dick-carey-1978, dick-1996, reigeluth-1983, reigeluth-frick-1999, richey-klein-2007]
-confidence: high
+confidence: medium
 ---
 
 ## 핵심 명제

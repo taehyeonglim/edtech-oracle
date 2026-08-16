@@ -4,7 +4,7 @@ type: debate
 related: ["[[pioneers/benjamin-bloom]]", "[[pioneers/john-keller]]"]
 updated: 2026-08-14
 sources: [bloom-1968, keller-1987]
-confidence: medium
+confidence: high
 ---
 
 ## 쟁점

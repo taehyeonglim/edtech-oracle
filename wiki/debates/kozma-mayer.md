@@ -4,7 +4,7 @@ type: debate
 related: ["[[pioneers/robert-kozma]]", "[[pioneers/richard-mayer]]"]
 updated: 2026-08-14
 sources: [kozma-1991, kozma-1994, mayer-2005]
-confidence: medium
+confidence: high
 ---
 
 ## 쟁점

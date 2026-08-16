@@ -8,7 +8,7 @@ concepts: [매체 효과, 방법-매체 구분, 증거기반설계, 인과 추�
 related: ["[[debates/gilbert-clark]]", "[[debates/clark-kozma]]", "[[debates/clark-mayer]]"]
 updated: 2026-08-14
 sources: [bio-clark-interview, bio-clark-usc, clark-1983, clark-1994, gilbert-1978, kozma-1991, kozma-1994, mayer-2005]
-confidence: medium
+confidence: high
 ---
 
 ## 핵심 명제
