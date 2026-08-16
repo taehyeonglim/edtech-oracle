@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "slug": "edgar-dale",
-  "base_commit": "daf94fc43655857a0c49d13903aa9246f006637c",
+  "base_commit": "3580b19ce8682a268725f00bc5598dcb5c11ca90",
   "initial_source_ids": [
     "bio-dale-osu",
     "dale-1946",
@@ -630,6 +630,7 @@
           "status": "verified",
           "pioneer": "edgar-dale",
           "kind": "criticizes",
+          "person_role": null,
           "evidence_url": "https://api.crossref.org/works/10.3109/0142159X.2013.800636",
           "locator": "제목과 초록",
           "evidence": "제목이 'Edgar Dale's Pyramid of Learning in Medical Education'으로 데일에게 잘못 귀속된 학습 피라미드를 직접 대상으로 삼는 문헌 고찰이다.",
