@@ -43,7 +43,17 @@ const SOURCE_PAGE = page({
   type: "source",
   title: "제목 A",
   extra: "sources: [a-src]",
-  body: "## 요약\n요약이다[^a-src].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
+  body: [
+    "## 요약",
+    "요약이다[^a-src].",
+    "",
+    "## 티어",
+    "",
+    "**A** — 위인 본인의 원저작[^a-src]",
+    "",
+    "[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]",
+    "",
+  ].join("\n"),
 });
 
 function run(overrides, { strict = true, sources = SOURCES } = {}) {
@@ -185,6 +195,18 @@ test("규칙 9 — sources.json에 없는 id는 서지를 검증하지 않는다
     body: "## 절\n주장[^ghost].\n\n[^ghost]: 아무 서지. — tier A · [[sources/a-src]]\n",
   });
   assert.ok(!rules(run({ "pioneers/p1.md": bad })).includes(9));
+});
+
+test("규칙 11 — 위키 각주 꼬리 tier가 sources.json과 다르면 실패한다", () => {
+  const bad = GOOD_PIONEER.replace("— tier A ·", "— tier B ·");
+  const findings = run({ "pioneers/p1.md": bad });
+  assert.ok(findings.some((f) => f.rule === 11 && f.message.includes("a-src")));
+});
+
+test("규칙 12 — source 페이지의 ## 티어 문자만 오래돼도 실패한다", () => {
+  const bad = SOURCE_PAGE.replace("**A** — 위인 본인의 원저작", "**B** — 후대 종합서");
+  const findings = run({ "sources/a-src.md": bad });
+  assert.ok(findings.some((f) => f.rule === 12 && f.message.includes("A인데 B")));
 });
 
 test("규칙 1 — source 페이지에 confidence가 있으면 잡는다", () => {

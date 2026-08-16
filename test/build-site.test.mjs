@@ -143,31 +143,42 @@ test("lint 오류가 있는 위키는 빌드가 거부한다", () => {
 });
 
 test("사이트 어서션 위반도 빌드를 막는다", () => {
-  // lint는 통과하되(그래서 confidence: low) 본문 티어 표기와 레지스트리가 어긋나는 위키.
-  // lint 8규칙은 이 불일치를 보지 못한다 — 사이트 어서션이 새로 잡는 지점이다.
+  // lint는 통과하되 어서션만 잡는 위반이어야 이 테스트가 의미를 갖는다.
+  //
+  // 원래는 "본문 티어 표기 vs 레지스트리 불일치"를 썼다. 그 지점은 규칙 11이
+  // 흡수했다 — 이제 lint가 먼저 막아서 어서션까지 도달하지 못한다. 규칙 11을
+  // 둔 것은 옳다(커밋 게이트인 `lint:strict`에서 잡히는 편이 빌드 때보다 이르다).
+  // 대신 이 테스트는 **어서션에만 남은** 불변식으로 옮긴다.
+  //
+  // `related`가 2개가 아닌 debate가 그것이다. `lint-wiki.mjs`에는 `related`를
+  // 보는 규칙이 아예 없고, `assertSiteInvariants`만 개수를 센다.
   const { root, wikiDir, sourcesPath } = makeWiki(
     {
       "index.md": page({
         type: "meta",
         title: "색인",
-        body: "- [[pioneers/p]]\n- [[sources/a]]",
+        body: "- [[pioneers/p]]\n- [[debates/d]]\n- [[sources/a]]",
       }),
       "pioneers/p.md": page({
         type: "pioneer",
         title: "위인",
         extra: "slug: p\nrole: 역할\nlife: 1900—2000\nconcepts: [가]\nsources: [a]\nconfidence: low",
-        body: "## 절\n\n주장[^a]\n\n[^a]: 저자. 제목. — tier A · [[sources/a]]",
+        body: "## 절\n\n주장[^a]\n\n[^a]: 저자. 제목. — tier C · [[sources/a]]",
+      }),
+      // 대립축인데 한쪽만 있다 — lint는 통과하고 어서션이 잡는다
+      "debates/d.md": page({
+        type: "debate",
+        title: "한쪽만 있는 대립축",
+        extra: 'related: ["[[pioneers/p]]"]\nsources: [a]\nconfidence: low',
+        body: "## 쟁점\n\n쟁점이다[^a]\n\n[^a]: 저자. 제목. — tier C · [[sources/a]]",
       }),
       "sources/a.md": page({
         type: "source",
         title: "출처",
         extra: "sources: [a]",
-        body: "## 절\n\n설명[^a]\n\n[^a]: 저자. 제목. — tier A · [[sources/a]]",
+        body: "## 티어\n\n**C** — 백과사전[^a]\n\n[^a]: 저자. 제목. — tier C · [[sources/a]]",
       }),
     },
-    // 레지스트리는 C인데 본문은 A라고 말한다 → 사이트가 거짓말을 하게 된다.
-    // `tier_review`가 있어야 규칙 10을 통과해 **사이트 어서션까지 도달한다** —
-    // 없으면 lint가 먼저 막아 이 테스트가 검사하려던 지점에 닿지 못한다.
     [{
       id: "a",
       tier: "C",

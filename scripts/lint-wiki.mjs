@@ -226,6 +226,50 @@ function rule9(pages, sourceById) {
   return out;
 }
 
+const DEF_TAIL_RE = /—\s*tier\s+([ABC])\s*·\s*\[\[sources\/([^\]|]+?)\s*\]\]$/;
+
+function rule11(pages, sourceById) {
+  const out = [];
+  for (const p of pages) {
+    for (const block of footnoteBlocks(p.body)) {
+      const match = DEF_TAIL_RE.exec(block.text);
+      if (!match) {
+        out.push(find(11, p, `각주 정의가 tier·출처 링크로 끝나지 않는다: [^${block.id}]`));
+        continue;
+      }
+      const [, shownTier, linkedId] = match;
+      if (linkedId !== block.id) {
+        out.push(find(11, p, `각주 id와 출처 링크가 다르다: [^${block.id}] → ${linkedId}`));
+      }
+      const expectedTier = sourceById.get(block.id)?.tier;
+      if (expectedTier && shownTier !== expectedTier) {
+        out.push(
+          find(11, p, `티어 표기 불일치: [^${block.id}]는 ${expectedTier}인데 ${shownTier}로 적혔다`),
+        );
+      }
+    }
+  }
+  return out;
+}
+
+function rule12(pages, sourceById) {
+  const out = [];
+  for (const p of pages) {
+    if (p.fm.type !== "source") continue;
+    const id = p.id.slice("sources/".length);
+    const expectedTier = sourceById.get(id)?.tier;
+    if (!expectedTier) continue;
+    const tierSection = sections(p.body).find((section) => section.title === "티어");
+    const shownTier = /^\*\*([ABC])\*\*/m.exec(tierSection?.text ?? "")?.[1];
+    if (!shownTier) {
+      out.push(find(12, p, "## 티어에 **A**, **B**, **C** 중 하나가 없다"));
+    } else if (shownTier !== expectedTier) {
+      out.push(find(12, p, `출처 페이지 tier는 ${expectedTier}인데 ${shownTier}로 적혔다`));
+    }
+  }
+  return out;
+}
+
 export function lintWiki({ wikiDir, sourcesPath, strict = false }) {
   const pages = loadPages(wikiDir);
   const sources = JSON.parse(readFileSync(sourcesPath, "utf8"));
@@ -241,6 +285,8 @@ export function lintWiki({ wikiDir, sourcesPath, strict = false }) {
     ...rule7(pages),
     ...rule8(pages, sourceById),
     ...rule9(pages, sourceById),
+    ...rule11(pages, sourceById),
+    ...rule12(pages, sourceById),
   ];
   if (strict) return findings;
   return findings.map((f) => (SOFT_RULES.has(f.rule) ? { ...f, severity: "warn" } : f));
