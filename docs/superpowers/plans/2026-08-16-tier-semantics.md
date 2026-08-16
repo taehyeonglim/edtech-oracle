@@ -21,6 +21,8 @@
 - `sources.json` 142행 전부에 판정 경로와 근거를 기록한다. 알려진 변경 24건만 고치고 끝내지 않는다.
 - 확정된 23건은 B→A, `sweller-2011`은 A→B다. `bloom-1968`은 원문과 서지 설명을 대조해 `원저서`·A 또는 `연구서`·B 중 하나로 반드시 확정한다.
 - lint를 데이터보다 먼저 구현한다. 검사기 도입 뒤 `npm run lint:strict`의 실패는 의도된 중간 상태이고, 데이터 변경 직후에는 영향 파일을 실패 목록으로 드러내야 한다.
+- **`npm test`도 과제 1~3 동안 1건 실패한다. 이것도 의도된 중간 상태다.** `test/build-site.test.mjs`의 `하위 디렉터리 자산도 산출물로 복사된다`는 `buildSite({ wikiDir: "wiki", sourcesPath: "sources.json" })`로 **실제 위키**를 빌드하는데, `buildSite`는 strict lint를 선행하므로 `sources.json` 142행이 `tier_review`를 갖기 전까지 규칙 10에 막힌다. 이 테스트는 과제 3이 끝나야 초록이 된다. **이 실패를 없애려고 규칙 10을 느슨하게 만들거나 이 테스트를 지우지 마라.** 과제 1~3의 게이트 기준은 "전부 통과"가 아니라 **"이 한 건만 실패"**다.
+- 같은 파일의 `사이트 어서션 위반도 빌드를 막는다`는 픽스처 문제이므로 과제 1에서 함께 고친다. 그 픽스처의 출처에 `tier_review`를 넣어야 lint를 통과해 사이트 어서션까지 도달한다. 스키마를 바꾸면 그 스키마를 쓰는 모든 픽스처가 따라와야 한다 — 과제 1의 파일 목록에 `test/build-site.test.mjs`가 빠져 있었다.
 - 위키 각주 꼬리, source 페이지 `## 티어`, 저장 답변 각주 꼬리는 `sources.json.tier`와 같아야 한다. 각주 참조 id는 바꾸지 않는다.
 - `scripts/check-answer.mjs`에는 새 판정 로직을 넣지 않는다. 기존 규칙 4가 저장 답변의 tier 표기 일치를 맡는다.
 - `scripts/confidence.mjs`, `scripts/sync-confidence.mjs`, confidence 매핑은 수정하지 않는다. 저자 불일치 A를 동적으로 B로 내리지 않는다.

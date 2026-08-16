@@ -20,8 +20,63 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 /** 기본 모드에서 경고로 낮추는 규칙. 작성 중 상태를 허용한다. */
 const SOFT_RULES = new Set([6, 7]);
 
+const ORIGINAL_SOURCE_TYPES = new Set([
+  "원저서",
+  "원논문",
+  "논쟁 원논문",
+  "원논문·서지",
+  "원 장",
+]);
+const REVIEW_TIERS = new Map([
+  ["1-original-work", new Set(["A"])],
+  ["2-book-or-chapter-role", new Set(["A", "B"])],
+  ["3-other-scholar-or-institution", new Set(["B"])],
+  ["4-general-reference", new Set(["C"])],
+]);
+const sourceFinding = (message) => ({
+  rule: 10,
+  severity: "error",
+  file: "sources.json",
+  message,
+});
+
 const find = (rule, p, message) => ({ rule, severity: "error", file: p.id, message });
 const asSet = (v) => new Set(Array.isArray(v) ? v : []);
+
+export function validateSourceTiers(sources) {
+  const out = [];
+  for (const source of sources) {
+    const label = source.id ?? "(id 없음)";
+    if (ORIGINAL_SOURCE_TYPES.has(source.type) && source.tier !== "A") {
+      out.push(sourceFinding(`${label}: ${source.type}은 tier A여야 한다`));
+    }
+    if (source.type === "연구서" && source.tier !== "B") {
+      out.push(sourceFinding(`${label}: 연구서는 tier B여야 한다`));
+    }
+
+    const audit = source.tier_review;
+    if (!audit || typeof audit !== "object" || Array.isArray(audit)) {
+      out.push(sourceFinding(`${label}: tier_review 누락`));
+      continue;
+    }
+    const allowedTiers = REVIEW_TIERS.get(audit.rule);
+    if (!allowedTiers) {
+      out.push(sourceFinding(`${label}: 알 수 없는 tier_review.rule: ${audit.rule}`));
+    } else if (!allowedTiers.has(source.tier)) {
+      out.push(sourceFinding(`${label}: ${audit.rule} 경로와 tier ${source.tier}가 모순된다`));
+    }
+    if (typeof audit.evidence !== "string" || audit.evidence.trim() === "") {
+      out.push(sourceFinding(`${label}: tier_review.evidence 누락`));
+    }
+    if (ORIGINAL_SOURCE_TYPES.has(source.type) && audit.rule !== "1-original-work") {
+      out.push(sourceFinding(`${label}: ${source.type}의 판정 경로는 1-original-work여야 한다`));
+    }
+    if (source.type === "연구서" && audit.rule !== "2-book-or-chapter-role") {
+      out.push(sourceFinding(`${label}: 연구서의 판정 경로는 2-book-or-chapter-role이어야 한다`));
+    }
+  }
+  return out;
+}
 
 function rule1(pages) {
   const out = [];
@@ -176,6 +231,7 @@ export function lintWiki({ wikiDir, sourcesPath, strict = false }) {
   const sources = JSON.parse(readFileSync(sourcesPath, "utf8"));
   const sourceById = new Map(sources.map((s) => [s.id, s]));
   const findings = [
+    ...validateSourceTiers(sources),
     ...rule1(pages),
     ...rule2(pages),
     ...rule3(pages, sourceById),

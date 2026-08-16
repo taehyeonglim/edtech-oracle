@@ -165,8 +165,18 @@ test("사이트 어서션 위반도 빌드를 막는다", () => {
         body: "## 절\n\n설명[^a]\n\n[^a]: 저자. 제목. — tier A · [[sources/a]]",
       }),
     },
-    // 레지스트리는 C인데 본문은 A라고 말한다 → 사이트가 거짓말을 하게 된다
-    [{ id: "a", tier: "C", type: "백과사전", authors: "저자", title: "제목", url: "https://e.org" }]
+    // 레지스트리는 C인데 본문은 A라고 말한다 → 사이트가 거짓말을 하게 된다.
+    // `tier_review`가 있어야 규칙 10을 통과해 **사이트 어서션까지 도달한다** —
+    // 없으면 lint가 먼저 막아 이 테스트가 검사하려던 지점에 닿지 못한다.
+    [{
+      id: "a",
+      tier: "C",
+      type: "백과사전",
+      tier_review: { rule: "4-general-reference", evidence: "type-default: 백과사전" },
+      authors: "저자",
+      title: "제목",
+      url: "https://e.org",
+    }]
   );
   const out = join(root, "out");
   assert.throws(() => buildSite({ wikiDir, sourcesPath, outDir: out }), /어서션/);

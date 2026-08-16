@@ -3,9 +3,27 @@ import assert from "node:assert/strict";
 import { lintWiki } from "../scripts/lint-wiki.mjs";
 import { makeWiki, page } from "./helpers.mjs";
 
+const review = (rule, evidence) => ({ rule, evidence });
+
 const SOURCES = [
-  { id: "a-src", tier: "A", authors: "저자 A", title: "제목 A", url: "https://example.org/a" },
-  { id: "c-src", tier: "C", authors: "저자 C", title: "제목 C", url: "https://example.org/c" },
+  {
+    id: "a-src",
+    tier: "A",
+    type: "원저서",
+    tier_review: review("1-original-work", "type-default: 원저서"),
+    authors: "저자 A",
+    title: "제목 A",
+    url: "https://example.org/a",
+  },
+  {
+    id: "c-src",
+    tier: "C",
+    type: "백과사전·탐색용",
+    tier_review: review("4-general-reference", "publisher: Wikipedia"),
+    authors: "저자 C",
+    title: "제목 C",
+    url: "https://example.org/c",
+  },
 ];
 
 const INDEX = page({
@@ -28,7 +46,7 @@ const SOURCE_PAGE = page({
   body: "## 요약\n요약이다[^a-src].\n\n[^a-src]: 저자 A. 제목 A. — tier A · [[sources/a-src]]\n",
 });
 
-function run(overrides, { strict = true } = {}) {
+function run(overrides, { strict = true, sources = SOURCES } = {}) {
   const { wikiDir, sourcesPath } = makeWiki(
     {
       "index.md": INDEX,
@@ -36,7 +54,7 @@ function run(overrides, { strict = true } = {}) {
       "sources/a-src.md": SOURCE_PAGE,
       ...overrides,
     },
-    SOURCES,
+    sources,
   );
   return lintWiki({ wikiDir, sourcesPath, strict });
 }
@@ -189,4 +207,35 @@ test("기본 모드는 규칙 6·7을 경고로 낮춘다", () => {
   const findings = run({ "pioneers/p1.md": bad }, { strict: false });
   assert.ok(findings.some((f) => f.rule === 6 && f.severity === "warn"));
   assert.equal(findings.filter((f) => f.severity === "error").length, 0);
+});
+
+for (const type of ["원저서", "원논문", "논쟁 원논문", "원논문·서지", "원 장"]) {
+  test(`규칙 10 — ${type}은 A가 아니면 실패한다`, () => {
+    const bad = [{
+      ...SOURCES[0],
+      tier: "B",
+      type,
+      tier_review: review("1-original-work", `type-default: ${type}`),
+    }];
+    assert.ok(run({}, { sources: bad }).some((f) => f.rule === 10 && f.message.includes(type)));
+  });
+}
+
+test("규칙 10 — 연구서는 B가 아니면 실패한다", () => {
+  const bad = [{
+    ...SOURCES[0],
+    tier: "A",
+    type: "연구서",
+    tier_review: review("2-book-or-chapter-role", "bibliography: 누적 연구 종합서"),
+  }];
+  assert.ok(run({}, { sources: bad }).some((f) => f.rule === 10 && f.message.includes("연구서")));
+});
+
+test("규칙 10 — 모든 출처에는 판정 경로와 근거가 있어야 한다", () => {
+  const { tier_review, ...withoutReview } = SOURCES[0];
+  assert.ok(
+    run({}, { sources: [withoutReview] }).some(
+      (f) => f.rule === 10 && f.message.includes("tier_review 누락"),
+    ),
+  );
 });
