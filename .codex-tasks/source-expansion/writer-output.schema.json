@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WriterEnvelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "modified_file", "claim_map"],
+  "properties": {
+    "slug": { "type": "string" },
+    "modified_file": { "type": "string" },
+    "claim_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "section", "claim", "evidence_locator"],
+        "properties": {
+          "source_id": { "type": "string" },
+          "section": { "type": "string" },
+          "claim": { "type": "string" },
+          "evidence_locator": { "type": "string" }
+        }
+      }
+    }
+  }
+}

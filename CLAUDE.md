@@ -70,6 +70,17 @@
 
 **선언값에 맞추려고 각주를 고치지 마라.** 페이지를 쓸 때는 값을 아무렇게나 두고 `sync:confidence`를 돌린 뒤 나온 값을 받아들인다. 근거가 약하면 `medium`이 맞는 답이다 — `high`를 만들려고 각주를 추가하면 지표가 내용을 움직인다.
 
+## 출처 확장 검증
+
+기준 감사의 142개 id 밖에 추가되는 모든 출처는 `source_review.existence`와
+`source_review.relation`을 각각 기록한다. 두 상태가 모두 `verified`이고 관계가
+`authored_by`·`about`·`criticizes`일 때만 등재한다. `pending_manual`·`rejected`,
+`context_only`, tier C는 확장 할당량에 넣지 않는다.
+
+이 상태는 자동 진실 판정이 아니다. `curator`가 URL과 원문 위치를 대조해 판정하고,
+`npm run verify:source-expansion`은 빈 근거·허용되지 않은 상태·id 불일치·중복·
+동명이인 식별 신호 누락·주장 맵 누락을 검사한다.
+
 ## 답변 3마커
 
 위인 에이전트의 모든 발언은 셋 중 하나를 단다.
@@ -93,6 +104,9 @@ npm run lint          # 작성 중 — 규칙 6·7은 경고
 npm run lint:strict   # 커밋 전·게이트 — 전부 오류
 npm run lint:answers  # answers/ 답변 무결성 — 위조급만 exit 1
 npm run sync:confidence  # confidence를 섹션 최약 근거로 다시 계산 (--dry로 미리보기)
+npm run verify:source-expansion  # 현재까지 추가된 새 행·감사·완료 위인을 검사
+npm run verify:source-expansion -- --pioneer <slug>  # 위인 한 명의 완료 트랜잭션을 검사
+npm run verify:source-expansion -- --complete --review <path>  # 전체 확장과 완료 감사를 검사
 npm test              # 파서·lint 단위 테스트
 ```
 

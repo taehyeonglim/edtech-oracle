@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceExpansionAudit",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "slug",
+    "base_commit",
+    "initial_source_ids",
+    "required_additions",
+    "candidates",
+    "approved_ids",
+    "claim_map",
+    "citation_year_review"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "slug": { "type": "string" },
+    "base_commit": { "type": "string" },
+    "initial_source_ids": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "required_additions": { "type": "integer", "minimum": 1 },
+    "candidates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/candidateAudit" }
+    },
+    "approved_ids": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "claim_map": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/claimMapItem" }
+    },
+    "citation_year_review": { "$ref": "#/$defs/citationYearReview" }
+  },
+  "$defs": {
+    "bibliography": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["authors", "title", "year", "publisher", "url", "identifiers"],
+      "properties": {
+        "authors": { "type": "array", "items": { "type": "string" } },
+        "title": { "type": "string" },
+        "year": { "type": "string" },
+        "publisher": { "type": "string" },
+        "url": { "type": "string" },
+        "identifiers": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["doi", "isbn", "eric", "openlibrary_edition", "oclc"],
+          "properties": {
+            "doi": { "type": ["string", "null"] },
+            "isbn": { "type": ["string", "null"] },
+            "eric": { "type": ["string", "null"] },
+            "openlibrary_edition": { "type": ["string", "null"] },
+            "oclc": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+    "identitySignal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "value", "evidence_url"],
+      "properties": {
+        "kind": { "type": "string" },
+        "value": { "type": "string" },
+        "evidence_url": { "type": "string" }
+      }
+    },
+    "existenceReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "method", "record_id", "evidence", "matched_fields"],
+      "properties": {
+        "status": { "enum": ["verified", "pending_manual", "rejected"] },
+        "method": { "type": ["string", "null"] },
+        "record_id": { "type": ["string", "null"] },
+        "evidence": { "type": ["string", "null"] },
+        "matched_fields": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+      }
+    },
+    "relationReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "pioneer",
+        "kind",
+        "person_role",
+        "evidence_url",
+        "locator",
+        "evidence",
+        "identity_signals"
+      ],
+      "properties": {
+        "status": { "enum": ["verified", "pending_manual", "rejected"] },
+        "pioneer": { "type": "string" },
+        "kind": { "enum": ["authored_by", "about", "criticizes", "context_only"] },
+        "person_role": { "type": ["string", "null"] },
+        "evidence_url": { "type": ["string", "null"] },
+        "locator": { "type": ["string", "null"] },
+        "evidence": { "type": ["string", "null"] },
+        "identity_signals": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/identitySignal" }
+        }
+      }
+    },
+    "sourceReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["existence", "relation"],
+      "properties": {
+        "existence": { "$ref": "#/$defs/existenceReview" },
+        "relation": { "$ref": "#/$defs/relationReview" }
+      }
+    },
+    "tierReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rule", "evidence"],
+      "properties": {
+        "rule": {
+          "enum": [
+            "1-original-work",
+            "2-book-or-chapter-role",
+            "3-other-scholar-or-institution",
+            "4-general-reference"
+          ]
+        },
+        "evidence": { "type": "string" }
+      }
+    },
+    "claimSeed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["section", "claim", "locator", "evidence_url"],
+      "properties": {
+        "section": { "type": "string" },
+        "claim": { "type": "string" },
+        "locator": { "type": "string" },
+        "evidence_url": { "type": "string" }
+      }
+    },
+    "correction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "from", "to", "reason"],
+      "properties": {
+        "field": { "type": "string" },
+        "from": { "type": ["string", "null"] },
+        "to": { "type": ["string", "null"] },
+        "reason": { "type": "string" }
+      }
+    },
+    "candidateAudit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_key", "decision", "reason", "bibliography", "source_review"],
+      "properties": {
+        "candidate_key": { "type": "string" },
+        "decision": { "enum": ["approved", "pending_manual", "rejected"] },
+        "reason": { "type": "string" },
+        "source_id": { "type": ["string", "null"] },
+        "bibliography": { "$ref": "#/$defs/bibliography" },
+        "source_review": { "$ref": "#/$defs/sourceReview" },
+        "tier": { "type": ["string", "null"], "enum": ["A", "B", null] },
+        "tier_review": {
+          "anyOf": [
+            { "$ref": "#/$defs/tierReview" },
+            { "type": "null" }
+          ]
+        },
+        "claim_seed": { "$ref": "#/$defs/claimSeed" },
+        "corrections": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/correction" }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "decision": { "const": "approved" } },
+            "required": ["decision"]
+          },
+          "then": {
+            "required": ["source_id", "tier", "tier_review", "claim_seed"],
+            "properties": {
+              "source_id": { "type": "string" },
+              "tier": { "enum": ["A", "B"] },
+              "tier_review": { "$ref": "#/$defs/tierReview" },
+              "source_review": {
+                "type": "object",
+                "properties": {
+                  "existence": {
+                    "type": "object",
+                    "properties": { "status": { "const": "verified" } }
+                  },
+                  "relation": {
+                    "type": "object",
+                    "properties": {
+                      "status": { "const": "verified" },
+                      "kind": { "enum": ["authored_by", "about", "criticizes"] }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "claimMapItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "section", "claim", "evidence_locator"],
+      "properties": {
+        "source_id": { "type": "string" },
+        "section": { "type": "string" },
+        "claim": { "type": "string" },
+        "evidence_locator": { "type": "string" }
+      }
+    },
+    "citationYearItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "file", "line", "claimYear", "sourceId", "sourceYear", "decision", "reason"],
+      "properties": {
+        "key": { "type": "string" },
+        "file": { "type": "string" },
+        "line": { "type": "integer", "minimum": 1 },
+        "claimYear": { "type": "integer" },
+        "sourceId": { "type": "string" },
+        "sourceYear": { "type": ["integer", "null"] },
+        "decision": {
+          "enum": ["remove-citation", "replace-citation", "valid-context", "metadata-corrected"]
+        },
+        "reason": { "type": "string" }
+      }
+    },
+    "citationYearReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidates", "incomparable"],
+      "properties": {
+        "candidates": { "type": "array", "items": { "$ref": "#/$defs/citationYearItem" } },
+        "incomparable": { "type": "array", "items": { "$ref": "#/$defs/citationYearItem" } }
+      }
+    }
+  }
+}

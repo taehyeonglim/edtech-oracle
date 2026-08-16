@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CandidateEnvelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "candidates"],
+  "properties": {
+    "slug": { "type": "string" },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_key", "bibliography", "relation_proposal", "claim_seed"],
+        "properties": {
+          "candidate_key": { "type": "string" },
+          "bibliography": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["authors", "title", "year", "publisher", "url", "identifiers"],
+            "properties": {
+              "authors": { "type": "array", "items": { "type": "string" } },
+              "title": { "type": "string" },
+              "year": { "type": "string" },
+              "publisher": { "type": "string" },
+              "url": { "type": "string" },
+              "identifiers": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["doi", "isbn", "eric", "openlibrary_edition", "oclc"],
+                "properties": {
+                  "doi": { "type": ["string", "null"] },
+                  "isbn": { "type": ["string", "null"] },
+                  "eric": { "type": ["string", "null"] },
+                  "openlibrary_edition": { "type": ["string", "null"] },
+                  "oclc": { "type": ["string", "null"] }
+                }
+              }
+            }
+          },
+          "relation_proposal": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "person_role", "matched_name", "locator", "evidence_url", "evidence"],
+            "properties": {
+              "kind": { "enum": ["authored_by", "about", "criticizes", "context_only"] },
+              "person_role": { "type": "string" },
+              "matched_name": { "type": "string" },
+              "locator": { "type": "string" },
+              "evidence_url": { "type": "string" },
+              "evidence": { "type": "string" }
+            }
+          },
+          "claim_seed": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["section", "claim", "locator", "evidence_url"],
+            "properties": {
+              "section": { "type": "string" },
+              "claim": { "type": "string" },
+              "locator": { "type": "string" },
+              "evidence_url": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
