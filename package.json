@@ -12,6 +12,7 @@
     "lint": "node scripts/lint-wiki.mjs",
     "lint:strict": "node scripts/lint-wiki.mjs --strict",
     "lint:answers": "node scripts/lint-answers.mjs",
+    "audit:citation-years": "node scripts/audit-citation-years.mjs",
     "check-answer": "node scripts/check-answer.mjs",
     "import": "tsx scripts/import-pantheon.mts",
     "gen-agents": "node scripts/gen-agents.mjs",
