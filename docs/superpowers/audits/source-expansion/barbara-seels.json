@@ -1,0 +1,810 @@
+{
+  "schema_version": 1,
+  "slug": "barbara-seels",
+  "base_commit": "e4fe2c7911df5d28a7005ab83e1989975932bff2",
+  "initial_source_ids": [
+    "bio-seels-archive",
+    "heinich-1984",
+    "seels-richey-1994",
+    "seels-richey-1994-case"
+  ],
+  "required_additions": 6,
+  "candidates": [
+    {
+      "candidate_key": "bs-candidate-01",
+      "decision": "pending_manual",
+      "reason": "ERIC ED075789로 문헌과 University of Pittsburgh의 Barbara Seels 표기는 확인했다. 그러나 표제지 역할이 'Compiled by'여서 승인 계약의 author와 editor 중 어느 역할로 정규화할지 이번 라운드에서 확정하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Barbara Seels",
+          "Edgar Dale"
+        ],
+        "title": "Readability and Reading: An Annotated Bibliography",
+        "year": "1971",
+        "publisher": "International Reading Association",
+        "url": "https://eric.ed.gov/?id=ED075789",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED075789",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED075789",
+          "evidence": "ERIC 원문 표지에서 제목·1971년 판·발행처와 편찬자 Barbara Seels, Edgar Dale을 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "publisher",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED075789.pdf",
+          "locator": "표지의 Compiled by",
+          "evidence": "University of Pittsburgh 소속 동일인은 확인했지만 편찬자 역할을 author/editor 중 하나로 확정하지 않았다",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Barbara Seels · University of Pittsburgh",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/ED075789.pdf"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-02",
+      "decision": "pending_manual",
+      "reason": "WorldCat OCLC 21871980에서 존재와 공동 저자를 확인했다. 다만 고유 주장인 1998년 판과의 판본 관계가 후속판 서지 설명에 의존하므로 1990년 판 자체의 근거 위치를 추가 확인할 때까지 보류한다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Barbara Seels",
+          "Zita Glasgow"
+        ],
+        "title": "Exercises in Instructional Design",
+        "year": "1990",
+        "publisher": "Merrill Publishing Company",
+        "url": "https://search.worldcat.org/title/Exercises-in-instructional-design/oclc/21871980",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0675208270",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": "21871980"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "worldcat-oclc",
+          "record_id": "21871980",
+          "evidence": "WorldCat 레코드가 제목·Barbara Seels와 Zita Glasgow·1990년·Merrill·ISBN을 반환했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "publisher",
+            "isbn",
+            "oclc"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://search.worldcat.org/title/Exercises-in-instructional-design/oclc/21871980",
+          "locator": "WorldCat Authors 필드",
+          "evidence": "Barbara Seels와 Zita Glasgow가 저자로 표시된 수업설계 저서다.",
+          "identity_signals": [
+            {
+              "kind": "coauthor-and-field",
+              "value": "Zita Glasgow와 공동 저술한 instructional design 저서",
+              "evidence_url": "https://search.worldcat.org/title/Exercises-in-instructional-design/oclc/21871980"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-03",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED335026 원문과 레코드에서 제목·저자·1991년·문서 번호를 직접 대조했다.",
+      "source_id": "seels-glasgow-1991",
+      "bibliography": {
+        "authors": [
+          "Barbara Seels",
+          "Zita Glasgow"
+        ],
+        "title": "Survey of Instructional Design Needs and Competencies",
+        "year": "1991",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://eric.ed.gov/?id=ED335026",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED335026",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED335026",
+          "evidence": "ERIC ED335026 원문과 레코드에서 제목·저자·1991년·문서 번호를 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED335026.pdf",
+          "locator": "문서 표지 저자란과 p. 11 회신 주소",
+          "evidence": "표지에 Barbara Seels와 Zita Glasgow가 저자로 나오고 회신 주소가 Dr. Barbara Seels, University of Pittsburgh로 적혀 있다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Dr. Barbara Seels · University of Pittsburgh",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/ED335026.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "실스가 공동 수행한 수업설계 직무·역량 조사의 자료와 결과를 처음 보고한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "학문 분야를 정의하는 작업",
+        "claim": "실스와 글래스고의 현장 조사는 수업설계 업무가 정식 수업설계 교육을 받지 않은 사람에게도 널리 맡겨졌고, 응답자의 약 3분의 1은 과제분석을 핵심 업무로 보지 않았음을 보고했다.",
+        "locator": "ERIC Document Resume 초록, 조사 결과 항목 (6)과 (7)",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED335026.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-04",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED355919 원문과 레코드에서 제목·Barbara Seels·1993년·문서 번호를 직접 대조했다.",
+      "source_id": "seels-1993-evaluation-domain",
+      "bibliography": {
+        "authors": [
+          "Barbara Seels"
+        ],
+        "title": "The Knowledge Base of the Evaluation Domain",
+        "year": "1993",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://eric.ed.gov/?id=ED355919",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED355919",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED355919",
+          "evidence": "ERIC ED355919 원문과 레코드에서 제목·Barbara Seels·1993년·문서 번호를 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_date",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED355919.pdf",
+          "locator": "원문 p. 1 표제와 소속",
+          "evidence": "표제에 Barbara Seels, University of Pittsburgh가 명시되고 AECT 정의·용어위원회 작업임을 설명한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Barbara Seels · University of Pittsburgh",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/ED355919.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "실스가 교육공학의 평가 영역과 하위 영역을 직접 정의한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "교육공학의 다섯 영역을 정의하다",
+        "claim": "실스는 평가 영역을 문제분석, 준거참조 측정, 형성평가, 총괄평가로 세분하고 평가를 교수의 적절성을 판단하는 과정으로 설명했다.",
+        "locator": "ERIC Document Resume 초록, evaluation domain의 하위 영역 설명",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED355919.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-05",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED378948 원문과 레코드에서 제목·Barbara Seels·1995년·문서 번호를 직접 대조했다.",
+      "source_id": "seels-1995-taxonomy",
+      "bibliography": {
+        "authors": [
+          "Barbara Seels"
+        ],
+        "title": "Classification Theory, Taxonomic Issues, and the 1994 Definition of Instructional Technology",
+        "year": "1995",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://eric.ed.gov/?id=ED378948",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED378948",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED378948",
+          "evidence": "ERIC ED378948 원문과 레코드에서 제목·Barbara Seels·1995년·문서 번호를 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_date",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED378948.pdf",
+          "locator": "원문 p. 1-2 표제와 소속",
+          "evidence": "표제와 본문 머리에 Barbara Seels, University of Pittsburgh가 반복 명시된다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Barbara Seels · University of Pittsburgh",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/ED378948.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "실스가 1994년 정의의 분류 구조를 직접 확장·검토한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "합의된 정의도 역사적 산물이다",
+        "claim": "실스는 1994년 영역 구분을 고정된 목록으로 끝내지 않고, 분류 구조가 개념 틀과 이론 체계로 발전하기 위한 토대이므로 영역 간 관계와 분류 문제를 계속 토론하고 연구해야 한다고 주장했다.",
+        "locator": "ERIC 초록의 결론과 권고사항 (1)-(5)",
+        "evidence_url": "https://eric.ed.gov/?id=ED378948"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-06",
+      "decision": "pending_manual",
+      "reason": "Google Books가 ISBN·편집자·목차를 확인해 존재와 editor 관계는 검증했다. 그러나 목차만으로 편집자 실스 자신의 고유 논증을 저자 주장처럼 배정할 수 없어 원문 서문 확인 전에는 승인하지 않는다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Barbara B. Seels"
+        ],
+        "title": "Instructional Design Fundamentals: A Reconsideration",
+        "year": "1995",
+        "publisher": "Educational Technology Publications",
+        "url": "https://books.google.com/books?id=yAQHgANuzAMC",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0877782849",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "google-books-isbn",
+          "record_id": "0877782849",
+          "evidence": "Google Books 서지에서 제목·1995년·Educational Technology Publications·ISBN·편집자 Barbara Seels를 대조했다.",
+          "matched_fields": [
+            "title",
+            "editor",
+            "publication_date",
+            "publisher",
+            "isbn"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "editor",
+          "evidence_url": "https://books.google.com/books?id=yAQHgANuzAMC",
+          "locator": "Bibliographic information의 Editor 필드",
+          "evidence": "Barbara Seels가 편집자로 명시된 수업설계 편집서다.",
+          "identity_signals": [
+            {
+              "kind": "field-and-role",
+              "value": "Barbara Seels · instructional design volume editor",
+              "evidence_url": "https://books.google.com/books?id=yAQHgANuzAMC"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-07",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED397837 원문과 레코드에서 제목·저자·1996년·문서 번호를 직접 대조했다.",
+      "source_id": "seels-et-al-1996-television",
+      "bibliography": {
+        "authors": [
+          "Barbara Seels",
+          "Louis H. Berry",
+          "Karen Fullerton",
+          "Laura Horn"
+        ],
+        "title": "Integrated Research on Learning from Television",
+        "year": "1996",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://eric.ed.gov/?id=ED397837",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED397837",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED397837",
+          "evidence": "ERIC ED397837 원문과 레코드에서 제목·저자·1996년·문서 번호를 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED397837.pdf",
+          "locator": "원문 p. 1 Authors와 소속",
+          "evidence": "Barbara Seels가 첫 저자로 표시되고 네 저자 아래 University of Pittsburgh 소속이 명시된다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Barbara Seels · University of Pittsburgh",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/ED397837.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "실스 연구팀이 텔레비전 학습 문헌의 통합 연구 방법과 결과를 직접 보고한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "시각문해와 메시지 설계의 연구자",
+        "claim": "텔레비전 학습 연구를 통합한 실스의 검토는 프로그램 내용, 시청 환경, 시청 행동을 분리하지 않고 하나의 텔레비전 시청 체계로 분석해야 한다고 강조했다.",
+        "locator": "본문의 종합 논의에서 'television viewing system (programming, viewing environment, and behavior)'를 제시하는 단락",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED397837.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-08",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED397838 원문과 레코드에서 제목·저자·1996년·문서 번호를 직접 대조했다.",
+      "source_id": "seels-et-al-1996-message-design",
+      "bibliography": {
+        "authors": [
+          "Barbara Seels",
+          "Babs Mowery",
+          "Susan O'Rourke",
+          "Cathy J. Proviano",
+          "Mary C. Rothenberger",
+          "Norman Tannehill Jr.",
+          "Katharine Yasin"
+        ],
+        "title": "A Conceptual Framework and Procedure for Message Design",
+        "year": "1996",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://eric.ed.gov/?id=ED397838",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED397838",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED397838",
+          "evidence": "ERIC ED397838 원문과 레코드에서 제목·저자·1996년·문서 번호를 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED397838.pdf",
+          "locator": "원문 p. 1 Authors와 소속",
+          "evidence": "Barbara Seels가 첫 저자로 표시되고 공동 저자 목록 아래 University of Pittsburgh 소속이 명시된다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Barbara Seels · University of Pittsburgh",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/ED397838.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "실스 연구팀이 메시지 설계 개념 틀과 절차의 개발·형성평가를 직접 보고한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "시각문해와 메시지 설계의 연구자",
+        "claim": "실스 연구팀은 메시지 설계가 주의를 끄는 데서 끝나지 않고 지각·이해·파지를 촉진해야 한다는 전제에서 개념 틀과 체계적 설계 절차를 함께 개발했다.",
+        "locator": "ERIC 초록의 첫 문장과 연구 목적 (1)-(3)",
+        "evidence_url": "https://eric.ed.gov/?id=ED397838"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-09",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED409869 레코드에서 제목·Barbara Seels·1997년·문서 번호를 직접 대조했다.",
+      "source_id": "seels-1997-cone",
+      "bibliography": {
+        "authors": [
+          "Barbara Seels"
+        ],
+        "title": "The Relationship of Media and ISD Theory: The Unrealized Promise of Dale's Cone of Experience",
+        "year": "1997",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://eric.ed.gov/?id=ED409869",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED409869",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "ED409869",
+          "evidence": "ERIC ED409869 레코드에서 제목·Barbara Seels·1997년·문서 번호를 직접 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_date",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=ED409869",
+          "locator": "ERIC author 필드와 제목·초록",
+          "evidence": "Barbara Seels가 단독 저자로 표시되고 교육공학·ISD·경험의 원추라는 그의 연구 분야를 직접 다룬다.",
+          "identity_signals": [
+            {
+              "kind": "professional-archive",
+              "value": "Barbara Seels · University of Pittsburgh educational technology researcher",
+              "evidence_url": "https://visualliteracytoday.org/barbara-seels-papers-1968-1999-mss-156/"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "실스가 데일의 경험의 원추와 교수체제설계 이론의 관계를 직접 논증한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "시각문해에서 정의 연구로",
+        "claim": "실스는 데일의 경험의 원추가 매체를 단순 서열화하려는 도표가 아니라 구체적 경험과 추상적 학습을 연결해 매체 결정을 이론화하려는 시도였다고 해석했다.",
+        "locator": "ERIC 초록의 Dale's Cone of Experience 설명 단락",
+        "evidence_url": "https://eric.ed.gov/?id=ED409869"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-10",
+      "decision": "rejected",
+      "reason": "Springer DOI 레코드로 존재와 공동 저자 관계는 확인했다. 그러나 제안 주장은 제목에서 알 수 있는 국제 사례라는 사실만 반복하고 연구의 구체 결과나 명제를 제시하지 않아 고유 실질 주장 요건을 충족하지 못한다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Servet Bayram",
+          "Barbara Seels"
+        ],
+        "title": "The Utilization of Instructional Technology in Turkey",
+        "year": "1997",
+        "publisher": "Springer",
+        "url": "https://link.springer.com/article/10.1007/BF02299617",
+        "identifiers": {
+          "doi": "10.1007/BF02299617",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "publisher-doi",
+          "record_id": "10.1007/BF02299617",
+          "evidence": "Springer 레코드가 DOI·제목·Servet Bayram과 Barbara Seels·1997년·권호·쪽을 확인한다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "publication_date",
+            "volume",
+            "pages"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://link.springer.com/article/10.1007/BF02299617",
+          "locator": "저자 목록과 Author information 3",
+          "evidence": "Barbara Seels가 University of Pittsburgh instructional design and technology 프로그램 소속 공동 저자로 표시된다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Barbara Seels · University of Pittsburgh · Associate Professor",
+              "evidence_url": "https://link.springer.com/article/10.1007/BF02299617"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-11",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary OL667983M로 판본 존재는 확인했다. 그러나 후보의 공저자 Zita Glasgow와 OpenLibrary 표시 저자 Barbara Seels 사이에 서지 불일치가 있어 저자란 원문 확인 전에는 관계를 승인하지 않는다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Barbara Seels",
+          "Zita Glasgow"
+        ],
+        "title": "Making Instructional Design Decisions",
+        "year": "1998",
+        "publisher": "Merrill",
+        "url": "https://openlibrary.org/books/OL667983M/Making_instructional_design_decisions",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0135206022",
+          "eric": null,
+          "openlibrary_edition": "OL667983M",
+          "oclc": "36783733"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL667983M",
+          "evidence": "OpenLibrary edition OL667983M이 제목·1998년·2판·Merrill·ISBN·OCLC를 반환했다.",
+          "matched_fields": [
+            "title",
+            "publication_date",
+            "edition",
+            "publisher",
+            "isbn",
+            "oclc"
+          ]
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": "https://openlibrary.org/books/OL667983M/Making_instructional_design_decisions",
+          "locator": "판본 저자 표시",
+          "evidence": "OpenLibrary 랜딩 페이지는 Barbara Seels만 표시하지만 후보 서지는 Zita Glasgow를 공저자로 제시해 원문 저자란을 더 확인해야 한다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "bs-candidate-12",
+      "decision": "pending_manual",
+      "reason": "ERIC EJ666616으로 존재·저자·직접 관계와 구체 초록을 확인했으나, 정확히 6건인 이번 승인 할당량에는 더 이른 원저작 6건을 우선해 후속 수동 라운드 후보로 남겼다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Barbara Seels",
+          "Shirley Campbell",
+          "Valerie Talsma"
+        ],
+        "title": "Supporting Excellence in Technology through Communities of Learners",
+        "year": "2003",
+        "publisher": "Springer",
+        "url": "https://link.springer.com/article/10.1007/BF02504520",
+        "identifiers": {
+          "doi": "10.1007/BF02504520",
+          "isbn": null,
+          "eric": "EJ666616",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "EJ666616",
+          "evidence": "ERIC 레코드가 제목·세 저자·2003년·ETR&D 51(1)·91-104쪽을 확인한다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "journal",
+            "volume",
+            "issue",
+            "pages"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "barbara-seels",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ666616",
+          "locator": "ERIC author와 abstract 필드",
+          "evidence": "Barbara Seels가 공동 저자이며 University of Pittsburgh PT3 프로젝트를 직접 보고한 논문이다.",
+          "identity_signals": [
+            {
+              "kind": "project-affiliation",
+              "value": "University of Pittsburgh PT3 project author Barbara Seels",
+              "evidence_url": "https://eric.ed.gov/?id=EJ666616"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "seels-1993-evaluation-domain",
+    "seels-1995-taxonomy",
+    "seels-1997-cone",
+    "seels-et-al-1996-message-design",
+    "seels-et-al-1996-television",
+    "seels-glasgow-1991"
+  ],
+  "claim_map": [
+    {
+      "source_id": "seels-glasgow-1991",
+      "section": "학문 분야를 정의하는 작업",
+      "claim": "실스와 글래스고의 현장 조사는 수업설계 업무가 정식 교육을 받지 않은 사람에게도 널리 맡겨졌고, 응답자의 약 3분의 1은 과제분석을 핵심 업무로 보지 않았음을 보고했다.",
+      "evidence_locator": "ERIC Document Resume 초록, 조사 결과 항목 (6)과 (7)"
+    },
+    {
+      "source_id": "seels-1993-evaluation-domain",
+      "section": "교육공학의 다섯 영역을 정의하다",
+      "claim": "실스는 1993년 평가 영역을 문제분석, 준거참조 측정, 형성평가, 총괄평가로 세분하고, 평가를 교수의 적절성을 판단하는 과정으로 설명했다.",
+      "evidence_locator": "ERIC Document Resume 초록, evaluation domain의 하위 영역 설명"
+    },
+    {
+      "source_id": "seels-1995-taxonomy",
+      "section": "합의된 정의도 역사적 산물이다",
+      "claim": "실스는 1994년 영역 구분을 고정 목록으로 끝내지 않고, 영역 간 관계와 분류 문제를 계속 토론하고 연구해야 개념 틀과 이론 체계로 발전할 수 있다고 주장했다.",
+      "evidence_locator": "ERIC 초록의 결론과 권고사항 (1)-(5)"
+    },
+    {
+      "source_id": "seels-et-al-1996-television",
+      "section": "시각문해와 메시지 설계의 연구자",
+      "claim": "텔레비전 학습 문헌을 통합한 실스 연구팀은 프로그램, 시청 환경, 시청 행동을 분리하지 않고 하나의 텔레비전 시청 체계로 분석했다.",
+      "evidence_locator": "본문의 종합 논의에서 'television viewing system (programming, viewing environment, and behavior)'를 제시하는 단락"
+    },
+    {
+      "source_id": "seels-et-al-1996-message-design",
+      "section": "시각문해와 메시지 설계의 연구자",
+      "claim": "실스 연구팀은 메시지 설계를 주의를 끄는 표현에 한정하지 않고, 지각·이해·파지를 촉진하도록 학습유형·동기·지각 변수를 함께 검토하는 절차로 제시했다.",
+      "evidence_locator": "ERIC 초록의 첫 문장과 연구 목적 (1)-(3)"
+    },
+    {
+      "source_id": "seels-1997-cone",
+      "section": "시각문해에서 정의 연구로",
+      "claim": "실스는 데일의 경험의 원추를 구체·추상 연속체와 매체 결정을 연결하려 한 이론적 시도로 해석하고, 당시 매체 목록은 낡았어도 그 연속체는 여전히 유효하다고 보았다.",
+      "evidence_locator": "ERIC 초록의 Dale's Cone of Experience 설명 단락"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/barbara-seels.md:61|heinich-1984|1994|1984",
+        "file": "wiki/pioneers/barbara-seels.md",
+        "line": 61,
+        "claimYear": 1994,
+        "sourceId": "heinich-1984",
+        "sourceYear": 1984,
+        "decision": "valid-context",
+        "reason": "1994는 실스·리치 정의의 연도이고, 1984년 하이니히 논문은 그 정의보다 앞서 제기된 조직·교수 문제 중심의 관점을 설명하는 직접 근거다. 새 주장 삽입으로 기존 baseline key의 행 번호만 49에서 61로 이동했다."
+      }
+    ],
+    "incomparable": []
+  }
+}

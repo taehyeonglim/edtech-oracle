@@ -2043,6 +2043,288 @@
     "url": "https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303"
   },
   {
+    "id": "seels-1993-evaluation-domain",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "실스가 교육공학의 평가 영역과 하위 영역을 직접 정의한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED355919",
+        "matched_fields": [
+          "title",
+          "author",
+          "publication_date",
+          "document_id"
+        ],
+        "evidence": "ERIC ED355919 원문과 레코드에서 제목·Barbara Seels·1993년·문서 번호를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "barbara-seels",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED355919.pdf",
+        "locator": "원문 p. 1 표제와 소속",
+        "evidence": "표제에 Barbara Seels, University of Pittsburgh가 명시되고 AECT 정의·용어위원회 작업임을 설명한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Barbara Seels · University of Pittsburgh",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED355919.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Barbara Seels",
+    "title": "The Knowledge Base of the Evaluation Domain",
+    "year": "1993",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://eric.ed.gov/?id=ED355919",
+    "identifiers": {
+      "eric": "ED355919"
+    }
+  },
+  {
+    "id": "seels-1995-taxonomy",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "실스가 1994년 정의의 분류 구조를 직접 확장·검토한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED378948",
+        "matched_fields": [
+          "title",
+          "author",
+          "publication_date",
+          "document_id"
+        ],
+        "evidence": "ERIC ED378948 원문과 레코드에서 제목·Barbara Seels·1995년·문서 번호를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "barbara-seels",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED378948.pdf",
+        "locator": "원문 p. 1-2 표제와 소속",
+        "evidence": "표제와 본문 머리에 Barbara Seels, University of Pittsburgh가 반복 명시된다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Barbara Seels · University of Pittsburgh",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED378948.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Barbara Seels",
+    "title": "Classification Theory, Taxonomic Issues, and the 1994 Definition of Instructional Technology",
+    "year": "1995",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://eric.ed.gov/?id=ED378948",
+    "identifiers": {
+      "eric": "ED378948"
+    }
+  },
+  {
+    "id": "seels-1997-cone",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "실스가 데일의 경험의 원추와 교수체제설계 이론의 관계를 직접 논증한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED409869",
+        "matched_fields": [
+          "title",
+          "author",
+          "publication_date",
+          "document_id"
+        ],
+        "evidence": "ERIC ED409869 레코드에서 제목·Barbara Seels·1997년·문서 번호를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "barbara-seels",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=ED409869",
+        "locator": "ERIC author 필드와 제목·초록",
+        "evidence": "Barbara Seels가 단독 저자로 표시되고 교육공학·ISD·경험의 원추라는 그의 연구 분야를 직접 다룬다.",
+        "identity_signals": [
+          {
+            "kind": "professional-archive",
+            "value": "Barbara Seels · University of Pittsburgh educational technology researcher",
+            "evidence_url": "https://visualliteracytoday.org/barbara-seels-papers-1968-1999-mss-156/"
+          }
+        ]
+      }
+    },
+    "authors": "Barbara Seels",
+    "title": "The Relationship of Media and ISD Theory: The Unrealized Promise of Dale's Cone of Experience",
+    "year": "1997",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://eric.ed.gov/?id=ED409869",
+    "identifiers": {
+      "eric": "ED409869"
+    }
+  },
+  {
+    "id": "seels-et-al-1996-message-design",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "실스 연구팀이 메시지 설계 개념 틀과 절차의 개발·형성평가를 직접 보고한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED397838",
+        "matched_fields": [
+          "title",
+          "authors",
+          "publication_date",
+          "document_id"
+        ],
+        "evidence": "ERIC ED397838 원문과 레코드에서 제목·저자·1996년·문서 번호를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "barbara-seels",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED397838.pdf",
+        "locator": "원문 p. 1 Authors와 소속",
+        "evidence": "Barbara Seels가 첫 저자로 표시되고 공동 저자 목록 아래 University of Pittsburgh 소속이 명시된다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Barbara Seels · University of Pittsburgh",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED397838.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Barbara Seels; Babs Mowery; Susan O'Rourke; Cathy J. Proviano; Mary C. Rothenberger; Norman Tannehill Jr.; Katharine Yasin",
+    "title": "A Conceptual Framework and Procedure for Message Design",
+    "year": "1996",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://eric.ed.gov/?id=ED397838",
+    "identifiers": {
+      "eric": "ED397838"
+    }
+  },
+  {
+    "id": "seels-et-al-1996-television",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "실스 연구팀이 텔레비전 학습 문헌의 통합 연구 방법과 결과를 직접 보고한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED397837",
+        "matched_fields": [
+          "title",
+          "authors",
+          "publication_date",
+          "document_id"
+        ],
+        "evidence": "ERIC ED397837 원문과 레코드에서 제목·저자·1996년·문서 번호를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "barbara-seels",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED397837.pdf",
+        "locator": "원문 p. 1 Authors와 소속",
+        "evidence": "Barbara Seels가 첫 저자로 표시되고 네 저자 아래 University of Pittsburgh 소속이 명시된다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Barbara Seels · University of Pittsburgh",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED397837.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Barbara Seels; Louis H. Berry; Karen Fullerton; Laura Horn",
+    "title": "Integrated Research on Learning from Television",
+    "year": "1996",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://eric.ed.gov/?id=ED397837",
+    "identifiers": {
+      "eric": "ED397837"
+    }
+  },
+  {
+    "id": "seels-glasgow-1991",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "실스가 공동 수행한 수업설계 직무·역량 조사의 자료와 결과를 처음 보고한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED335026",
+        "matched_fields": [
+          "title",
+          "authors",
+          "publication_date",
+          "document_id"
+        ],
+        "evidence": "ERIC ED335026 원문과 레코드에서 제목·저자·1991년·문서 번호를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "barbara-seels",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED335026.pdf",
+        "locator": "문서 표지 저자란과 p. 11 회신 주소",
+        "evidence": "표지에 Barbara Seels와 Zita Glasgow가 저자로 나오고 회신 주소가 Dr. Barbara Seels, University of Pittsburgh로 적혀 있다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Dr. Barbara Seels · University of Pittsburgh",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED335026.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Barbara Seels; Zita Glasgow",
+    "title": "Survey of Instructional Design Needs and Competencies",
+    "year": "1991",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://eric.ed.gov/?id=ED335026",
+    "identifiers": {
+      "eric": "ED335026"
+    }
+  },
+  {
     "id": "seels-richey-1994",
     "tier": "A",
     "type": "원저서",
