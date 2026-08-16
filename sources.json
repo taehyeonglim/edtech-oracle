@@ -1634,6 +1634,49 @@
     "url": "https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm"
   },
   {
+    "id": "merrienboer-1990-completion",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "판 메리엔보어가 연구 결과와 설계 원리를 직접 제시한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.2190/4NK5-17L7-TWQV-1EHL",
+        "evidence": "Crossref API가 DOI 10.2190/4NK5-17L7-TWQV-1EHL에 대해 제목·저자·발행연도와 출판사를 반환해 후보 서지와 일치했다.",
+        "matched_fields": ["title", "author", "issued", "publisher"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jeroen-van-merrienboer",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://api.crossref.org/works/10.2190%2F4NK5-17L7-TWQV-1EHL",
+        "locator": "Crossref author와 affiliation 필드",
+        "evidence": "저자란은 Jeroen J. G. Van Merriënboer를 단독 저자로, 소속을 University of Twente의 Department of Instructional Technology로 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Jeroen J. G. Van Merriënboer · Department of Instructional Technology, University of Twente",
+            "evidence_url": "https://api.crossref.org/works/10.2190%2F4NK5-17L7-TWQV-1EHL"
+          }
+        ]
+      }
+    },
+    "authors": "Jeroen J. G. van Merriënboer",
+    "title": "Strategies for Programming Instruction in High School: Program Completion vs. Program Generation",
+    "year": "1990",
+    "publisher": "Journal of Educational Computing Research, 6(3), 265–285",
+    "url": "https://doi.org/10.2190/4NK5-17L7-TWQV-1EHL",
+    "doi": "10.2190/4NK5-17L7-TWQV-1EHL",
+    "identifiers": {
+      "doi": "10.2190/4NK5-17L7-TWQV-1EHL"
+    }
+  },
+  {
     "id": "merrienboer-1997",
     "tier": "A",
     "type": "원저서",
@@ -1662,6 +1705,223 @@
     "publisher": "Educational Technology Research and Development, 50(2)",
     "url": "https://doi.org/10.1007/BF02504993",
     "doi": "10.1007/BF02504993"
+  },
+  {
+    "id": "merrienboer-et-al-1992-reflective",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "판 메리엔보어 연구팀이 4C/ID 모형과 그 예측을 직접 제시한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1007/BF02297047",
+        "evidence": "Crossref API가 DOI 10.1007/BF02297047에 대해 제목·저자·발행연도와 출판사를 반환해 후보 서지와 일치했다.",
+        "matched_fields": ["title", "author", "issued", "publisher"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jeroen-van-merrienboer",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://research.utwente.nl/en/publications/training-for-reflective-expertise-a-four-component-instructional-/",
+        "locator": "University of Twente research record의 author·affiliation·abstract",
+        "evidence": "트벤테대학교 연구기록이 Jeroen J. G. van Merrienboer를 제1저자로 표시하고 Instructional Technology 소속과 DOI를 함께 제시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Jeroen J.G. van Merrienboer · Instructional Technology · University of Twente research record",
+            "evidence_url": "https://research.utwente.nl/en/publications/training-for-reflective-expertise-a-four-component-instructional-/"
+          }
+        ]
+      }
+    },
+    "authors": "Jeroen J. G. van Merriënboer; Otto Jelsma; Fred G. W. C. Paas",
+    "title": "Training for Reflective Expertise: A Four-Component Instructional Design Model for Complex Cognitive Skills",
+    "year": "1992",
+    "publisher": "Educational Technology Research and Development, 40(2), 23–43",
+    "url": "https://doi.org/10.1007/BF02297047",
+    "doi": "10.1007/BF02297047",
+    "identifiers": {
+      "doi": "10.1007/BF02297047"
+    }
+  },
+  {
+    "id": "merrienboer-et-al-2006-complex-tasks",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "판 메리엔보어 연구팀이 복합과제의 전이를 위한 인지부하 설계 원리를 직접 제시한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1002/acp.1250",
+        "evidence": "Crossref API가 DOI 10.1002/acp.1250에 대해 제목·저자·발행연도와 출판사를 반환해 후보 서지와 일치했다.",
+        "matched_fields": ["title", "author", "issued", "publisher"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jeroen-van-merrienboer",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://api.crossref.org/works/10.1002%2Facp.1250",
+        "locator": "Crossref author 필드와 Abstract",
+        "evidence": "Crossref는 Jeroen J. G. van Merriënboer를 제1저자로, 4C/ID·인지부하 연구의 반복 공저자인 Liesbeth Kester와 Fred Paas를 공동저자로 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "coauthor-model-link",
+            "value": "Liesbeth Kester·Fred Paas와 복합과제·인지부하 설계 연구 공저",
+            "evidence_url": "https://api.crossref.org/works/10.1002%2Facp.1250"
+          }
+        ]
+      }
+    },
+    "authors": "Jeroen J. G. van Merriënboer; Liesbeth Kester; Fred Paas",
+    "title": "Teaching Complex Rather Than Simple Tasks: Balancing Intrinsic and Germane Load to Enhance Transfer of Learning",
+    "year": "2006",
+    "publisher": "Applied Cognitive Psychology, 20(3), 343–352",
+    "url": "https://doi.org/10.1002/acp.1250",
+    "doi": "10.1002/acp.1250",
+    "identifiers": {
+      "doi": "10.1002/acp.1250"
+    }
+  },
+  {
+    "id": "merrienboer-kester-2014-multimedia",
+    "tier": "A",
+    "type": "원 장",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "판 메리엔보어가 4C/ID의 네 구성요소를 멀티미디어 원리와 직접 연결해 제안한 원 장이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1017/CBO9781139547369.007",
+        "evidence": "Crossref API가 DOI 10.1017/CBO9781139547369.007에 대해 제목·저자·발행연도와 출판사를 반환해 후보 서지와 일치했다.",
+        "matched_fields": ["title", "author", "issued", "publisher"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jeroen-van-merrienboer",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://research-portal.uu.nl/en/publications/the-four-component-instructional-design-model-multimedia-principl/",
+        "locator": "Utrecht University research record의 author·affiliation·abstract",
+        "evidence": "위트레흐트대학교 연구기록은 Jeroen J. G. van Merriënboer를 제1저자로 기록하고 Maastricht University 소속, DOI, 장의 초록을 함께 제시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Jeroen J. G. van Merriënboer · Maastricht University",
+            "evidence_url": "https://research-portal.uu.nl/en/publications/the-four-component-instructional-design-model-multimedia-principl/"
+          }
+        ]
+      }
+    },
+    "authors": "Jeroen J. G. van Merriënboer; Liesbeth Kester",
+    "title": "The Four-Component Instructional Design Model: Multimedia Principles in Environments for Complex Learning",
+    "year": "2014",
+    "publisher": "The Cambridge Handbook of Multimedia Learning, 2nd ed., 104–148",
+    "url": "https://doi.org/10.1017/CBO9781139547369.007",
+    "doi": "10.1017/CBO9781139547369.007",
+    "identifiers": {
+      "doi": "10.1017/CBO9781139547369.007",
+      "isbn": "9781139547369"
+    }
+  },
+  {
+    "id": "merrienboer-sweller-2010-health",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "판 메리엔보어와 스웰러가 보건전문교육을 위한 인지부하 설계 지침을 직접 제시한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1111/j.1365-2923.2009.03498.x",
+        "evidence": "Crossref API에서 DOI의 제목·저자와 온라인 발행일 2009-12-16, 인쇄판 2010년 44권 1호 85–93쪽을 대조했다.",
+        "matched_fields": ["title", "author", "published-print", "volume", "issue", "page"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jeroen-van-merrienboer",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/20078759/",
+        "locator": "PubMed author·affiliation와 Abstract",
+        "evidence": "PubMed는 Jeroen J. G. van Merriënboer를 제1저자로 기록하고 Maastricht University 보건교육 연구 부서 소속과 기관 이메일을 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Jeroen J. G. van Merriënboer · Maastricht University, FHML, Department of Educational Development and Research",
+            "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/20078759/"
+          }
+        ]
+      }
+    },
+    "authors": "Jeroen J. G. van Merriënboer; John Sweller",
+    "title": "Cognitive Load Theory in Health Professional Education: Design Principles and Strategies",
+    "year": "2010",
+    "publisher": "Medical Education, 44(1), 85–93",
+    "url": "https://doi.org/10.1111/j.1365-2923.2009.03498.x",
+    "doi": "10.1111/j.1365-2923.2009.03498.x",
+    "identifiers": {
+      "doi": "10.1111/j.1365-2923.2009.03498.x"
+    }
+  },
+  {
+    "id": "paas-merrienboer-1994-variability",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "파스와 판 메리엔보어가 worked example 변이성과 전이 실험 결과를 직접 보고한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1037/0022-0663.86.1.122",
+        "evidence": "Crossref API가 DOI 10.1037/0022-0663.86.1.122에 대해 제목·저자·발행연도와 출판사를 반환해 ERIC EJ484337 서지와도 일치했다.",
+        "matched_fields": ["title", "author", "issued", "publisher"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jeroen-van-merrienboer",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://api.crossref.org/works/10.1037%2F0022-0663.86.1.122",
+        "locator": "Crossref author 필드와 ERIC EJ484337 author 필드",
+        "evidence": "Crossref와 ERIC이 모두 Jeroen J. G. Van Merriënboer를 Fred G. W. C. Paas와 함께 저자로 기록하며 Crossref 저자 레코드에 ORCID가 연결돼 있다.",
+        "identity_signals": [
+          {
+            "kind": "orcid",
+            "value": "Jeroen J. G. Van Merriënboer · ORCID 0000-0002-5868-7031",
+            "evidence_url": "https://api.crossref.org/works/10.1037%2F0022-0663.86.1.122"
+          }
+        ]
+      }
+    },
+    "authors": "Fred G. W. C. Paas; Jeroen J. G. van Merriënboer",
+    "title": "Variability of Worked Examples and Transfer of Geometrical Problem-Solving Skills: A Cognitive-Load Approach",
+    "year": "1994",
+    "publisher": "Journal of Educational Psychology, 86(1), 122–133",
+    "url": "https://doi.org/10.1037/0022-0663.86.1.122",
+    "doi": "10.1037/0022-0663.86.1.122",
+    "identifiers": {
+      "doi": "10.1037/0022-0663.86.1.122",
+      "eric": "EJ484337"
+    }
   },
   {
     "id": "merrill-2002",
