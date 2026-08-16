@@ -70,6 +70,49 @@
     "url": "https://archive.org/details/selfefficacyexer0000band"
   },
   {
+    "id": "benjamin-1988-teaching-machines",
+    "tier": "B",
+    "type": "역사 연구 논문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "타인이 프레시와 스키너를 포함한 교수기계의 역사적 계보를 직접 분석한 학술 논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1037/0003-066X.43.9.703",
+        "evidence": "Crossref API가 DOI 10.1037/0003-066X.43.9.703에 대해 제목·저자 Ludy T. Benjamin·1988년·저널·권호·쪽을 반환했다.",
+        "matched_fields": ["title", "author", "issued", "container-title", "volume", "issue", "page"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "sidney-pressey",
+        "kind": "about",
+        "person_role": null,
+        "evidence_url": "https://doi.org/10.1037/0003-066X.43.9.703",
+        "locator": "초록과 본문 pp. 703–706의 Sidney Pressey's Teaching Machines 논의",
+        "evidence": "초록이 1920년대 Sidney Pressey의 초기 교수기계를 역사적 계보의 한 단계로 명시하고, 본문은 프레시의 장치와 동시대 전시를 별도로 다룬다.",
+        "identity_signals": [
+          {
+            "kind": "theory-career-link",
+            "value": "Sidney Pressey · 1920년대 초기 교수기계 · B. F. Skinner 이전의 계보",
+            "evidence_url": "https://doi.org/10.1037/0003-066X.43.9.703"
+          }
+        ]
+      }
+    },
+    "authors": "Ludy T. Benjamin Jr.",
+    "title": "A History of Teaching Machines",
+    "year": "1988",
+    "publisher": "American Psychologist, 43(9), 703–712",
+    "url": "https://doi.org/10.1037/0003-066X.43.9.703",
+    "doi": "10.1037/0003-066X.43.9.703",
+    "identifiers": {
+      "doi": "10.1037/0003-066X.43.9.703"
+    }
+  },
+  {
     "id": "bio-brown-berkeley",
     "tier": "B",
     "type": "대학 공식 부고",
@@ -2087,6 +2130,49 @@
     "url": "https://archive.org/details/childrensmachine00seym"
   },
   {
+    "id": "petrina-2004-pressey-automation",
+    "tier": "B",
+    "type": "역사 연구 논문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "타인이 프레시의 Automatic Teacher 개발·생산·상업화를 직접 분석한 학술 논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1353/tech.2004.0085",
+        "evidence": "Crossref API가 DOI 10.1353/tech.2004.0085에 대해 제목·저자 Stephen Petrina·2004년·저널·권호·쪽과 초록을 반환했다.",
+        "matched_fields": ["title", "author", "issued", "container-title", "volume", "issue", "page", "abstract"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "sidney-pressey",
+        "kind": "about",
+        "person_role": null,
+        "evidence_url": "https://api.crossref.org/works/10.1353%2Ftech.2004.0085",
+        "locator": "제목과 Crossref 수록 Abstract",
+        "evidence": "제목과 초록이 1924–1934년 Sidney Pressey의 Automatic Teacher, 교육 자동화, Welch Manufacturing Company의 생산·판매를 직접 분석한다.",
+        "identity_signals": [
+          {
+            "kind": "invention-career-link",
+            "value": "Sidney Pressey · Automatic Teacher · 1924–1934",
+            "evidence_url": "https://api.crossref.org/works/10.1353%2Ftech.2004.0085"
+          }
+        ]
+      }
+    },
+    "authors": "Stephen Petrina",
+    "title": "Sidney Pressey and the Automation of Education, 1924–1934",
+    "year": "2004",
+    "publisher": "Technology and Culture, 45(2), 305–330",
+    "url": "https://doi.org/10.1353/tech.2004.0085",
+    "doi": "10.1353/tech.2004.0085",
+    "identifiers": {
+      "doi": "10.1353/tech.2004.0085"
+    }
+  },
+  {
     "id": "piaget-1952",
     "tier": "A",
     "type": "원저서",
@@ -2141,6 +2227,134 @@
     "year": "1926",
     "publisher": "School and Society, 23",
     "url": "https://cir.nii.ac.jp/crid/1571135649671295104"
+  },
+  {
+    "id": "pressey-1930-intelligence-patent",
+    "tier": "A",
+    "type": "원특허",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "프레시가 발명자 본인으로서 장치의 구조와 작동을 직접 기록한 원특허다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "patent-record",
+        "record_id": "US1749226A",
+        "evidence": "Google Patents의 미국 특허 레코드가 제목·발명자 Sidney L. Pressey·출원일 1928-06-21·공개일 1930-03-04와 특허 명세서를 반환했다.",
+        "matched_fields": ["title", "inventor", "filing_date", "publication_date", "description"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "sidney-pressey",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://patents.google.com/patent/US1749226A/en",
+        "locator": "특허 전면 inventor와 Description 도입부",
+        "evidence": "특허 레코드는 Sidney L. Pressey를 발명자로 명시하며, 공식 오하이오주립대학교 약력의 교수기계 발명 경력과 일치한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Sidney L. Pressey · Ohio State University 교수 · teaching machine 발명가",
+            "evidence_url": "https://research.osu.edu/sidney-l-pressey"
+          }
+        ]
+      }
+    },
+    "authors": "Sidney L. Pressey",
+    "title": "Machine for Intelligence Tests",
+    "year": "1930",
+    "publisher": "United States Patent Office, US1749226A",
+    "url": "https://patents.google.com/patent/US1749226A/en",
+    "identifiers": {
+      "patent": "US1749226A"
+    }
+  },
+  {
+    "id": "pressey-1950-self-scoring",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "프레시가 자기채점 장치의 개발과 실험 결과를 직접 보고한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1080/00223980.1950.9916043",
+        "evidence": "Crossref API가 DOI 10.1080/00223980.1950.9916043에 대해 제목·저자 S. L. Pressey·1950년·Ohio State University 소속·저널·권호·쪽을 반환했다.",
+        "matched_fields": ["title", "author", "affiliation", "issued", "container-title", "volume", "issue", "page"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "sidney-pressey",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://api.crossref.org/works/10.1080%2F00223980.1950.9916043",
+        "locator": "Crossref author와 affiliation 필드 및 1962년 허가 재수록 원문 pp. 111–140",
+        "evidence": "저자란은 S. L. Pressey를 단독 저자로, 소속을 The Ohio State University로 표시하며 재수록 원문도 같은 저자·소속과 원출전을 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "S. L. Pressey · The Ohio State University",
+            "evidence_url": "https://api.crossref.org/works/10.1080%2F00223980.1950.9916043"
+          }
+        ]
+      }
+    },
+    "authors": "S. L. Pressey",
+    "title": "Development and Appraisal of Devices Providing Immediate Automatic Scoring of Objective Tests and Concomitant Self-Instruction",
+    "year": "1950",
+    "publisher": "The Journal of Psychology, 29(2), 417–447",
+    "url": "https://doi.org/10.1080/00223980.1950.9916043",
+    "doi": "10.1080/00223980.1950.9916043",
+    "identifiers": {
+      "doi": "10.1080/00223980.1950.9916043"
+    }
+  },
+  {
+    "id": "pressey-cole-1922-standard-tests",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "프레시와 루엘라 콜 프레시가 표준검사의 학교 현장 사용법을 직접 집필한 원저서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition",
+        "record_id": "OL58579169M",
+        "evidence": "OpenLibrary edition OL58579169M을 200 응답으로 확인해 제목·부제·1922년·George G. Harrap·263쪽·공저자 키와 공개 스캔 식별자 b32779756을 대조했다.",
+        "matched_fields": ["title", "subtitle", "publish_date", "publishers", "authors", "number_of_pages", "ocaid"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "sidney-pressey",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://openlibrary.org/books/OL58579169M.json",
+        "locator": "by_statement와 공개 스캔 표제지·도입부 pp. 1–3",
+        "evidence": "판본 by_statement와 표제지는 Sidney L. Pressey를 Luella Cole Pressey와 함께 저자로 명시하며, 표제지는 두 사람의 Ohio State University 소속을 함께 기록한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Sidney L. Pressey · Assistant Professor of Psychology, Ohio State University",
+            "evidence_url": "https://archive.org/metadata/b32779756"
+          }
+        ]
+      }
+    },
+    "authors": "Sidney L. Pressey; Luella Cole Pressey",
+    "title": "Introduction to the Use of Standard Tests: A Brief Manual in the Use of Tests of Both Ability and Achievement in the School Subjects",
+    "year": "1922",
+    "publisher": "George G. Harrap",
+    "url": "https://openlibrary.org/books/OL58579169M",
+    "identifiers": {
+      "openlibrary_edition": "OL58579169M",
+      "internet_archive": "b32779756"
+    }
   },
   {
     "id": "pressey-smithsonian",
@@ -2670,6 +2884,49 @@
     "year": "1957",
     "publisher": "Appleton-Century-Crofts",
     "url": "https://www.bfskinner.org/product/verbal-behavior/"
+  },
+  {
+    "id": "smithsonian-pressey-machine",
+    "tier": "B",
+    "type": "박물관 소장품 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "스미소니언 국립미국사박물관이 소장품의 제작자·연대·구조·작동 방식을 기술한 기관 공식 기록이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "museum-catalog",
+        "record_id": "nmah_1367149",
+        "evidence": "Smithsonian National Museum of American History 공식 소장품 레코드가 명칭·Record ID nmah_1367149·ID 2009.0204.01·제작연도 1925·기증처·물리 치수를 반환했다.",
+        "matched_fields": ["title", "record_id", "object_id", "date_made", "credit_line", "measurements"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "sidney-pressey",
+        "kind": "about",
+        "person_role": null,
+        "evidence_url": "https://americanhistory.si.edu/collections/object/nmah_1367149",
+        "locator": "Description, Details, Related Names",
+        "evidence": "공식 기록은 Pressey, Sidney를 maker로 명시하고 네 개의 선택 키·드럼·계수기·보상 배출기를 갖춘 교수기계의 teach 모드를 직접 설명한다.",
+        "identity_signals": [
+          {
+            "kind": "museum-authority",
+            "value": "Pressey, Sidney · maker · Ohio State University 기증품",
+            "evidence_url": "https://americanhistory.si.edu/collections/object/nmah_1367149"
+          }
+        ]
+      }
+    },
+    "authors": "National Museum of American History",
+    "title": "Pressey Teaching Machine",
+    "year": "1925",
+    "publisher": "Smithsonian Institution",
+    "url": "https://americanhistory.si.edu/collections/object/nmah_1367149",
+    "identifiers": {
+      "smithsonian_record": "nmah_1367149",
+      "object_id": "2009.0204.01"
+    }
   },
   {
     "id": "sweller-1988",
