@@ -59,7 +59,7 @@ ARCS는 주의, 관련성, 자신감, 만족이라는 동기 조건을 진단하
 
 - **1983** ARCS model — 동기 설계의 네 요소를 교수설계 언어로 정리했다.[^keller-1983]
 - **1987** ARCS publication — ARCS 모델의 개발과 사용 절차를 논문으로 발표했다.[^keller-1987]
-- **2010** Motivational Design — 동기 설계의 진단·전략·평가를 확장했다.[^keller-1987]
+- **2010** Motivational Design — 동기 설계의 진단·전략·평가를 확장했다.[^bio-keller-springer]
 
 ## 대립축
 

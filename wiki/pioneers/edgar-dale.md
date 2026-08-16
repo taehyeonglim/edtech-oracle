@@ -22,7 +22,7 @@ confidence: low
 ## 주요 저작
 
 - **Audio-Visual Methods in Teaching** (1946) — 경험의 원추를 처음 제시하고 다양한 시청각 자료의 교육적 사용을 논의했다.[^dale-1946]
-- **Audio-Visual Methods in Teaching, 3rd ed.** (1969) — 브루너의 표상 논의를 반영해 원추를 수정한 판본.[^dale-1946][^molenda-2003-cone]
+- **Audio-Visual Methods in Teaching, 3rd ed.** (1969) — 브루너의 표상 논의를 반영해 원추를 수정한 판본.[^molenda-2003-cone]
 
 ## 매체를 경험의 거리로 읽기
 

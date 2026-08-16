@@ -59,7 +59,7 @@ M. 데이비드 메릴은 1937년 유타주 오그던에서 태어났다. 브리
 
 - **1994** Instructional Transaction Theory — 교수 상호작용을 구성하는 설계 단위를 탐구했다.[^merrill-twitchell-1994]
 - **2002** First Principles — 문제 중심 교수의 공통 원리를 제안했다.[^merrill-2002]
-- **2013** e3 Learning — 효율적·효과적·매력적인 학습 경험을 통합하려는 논의를 확장했다.[^merrill-2002]
+- **2013** e3 Learning — 효율적·효과적·매력적인 학습 경험을 통합하려는 논의를 확장했다.
 
 ## 대립축
 
