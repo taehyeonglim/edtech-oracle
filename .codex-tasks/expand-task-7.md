@@ -3,23 +3,25 @@
 
 작업 디렉터리는 `/Users/taehyeong/Documents/GitHub/edtech-oracle` 이다.
 
-## 이번 실행 대상 — 남은 29명, 이 순서대로
+## 이번 실행 대상 — 남은 25명, 이 순서대로
 
-`edgar-dale`(파일럿)과 `barbara-seels`는 이미 끝났다. 건드리지 마라.
+**이미 끝난 6명은 건드리지 마라**: `edgar-dale` · `barbara-seels` ·
+`jeroen-van-merrienboer` · `ralph-tyler` · `sidney-pressey` · `ann-brown`
 
 | 부족분 | slug |
 |---|---|
-| +6 | `jeroen-van-merrienboer` · `ralph-tyler` · `sidney-pressey` |
-| +5 | `ann-brown` · `etienne-wenger-trayner` · `rita-richey` · `robert-glaser` · `robert-heinich` |
+| +5 | `etienne-wenger-trayner` · `rita-richey` · `robert-glaser` · `robert-heinich` |
 | +4 | `allan-collins` · `charles-reigeluth` · `jean-piaget` · `john-sweller` · `joseph-novak` · `marlene-scardamalia` · `michael-g-moore` · `robert-mager` · `thomas-gilbert` |
 | +3 | `albert-bandura` · `david-jonassen` · `edward-thorndike` · `john-dewey` · `robert-kozma` |
 | +2 | `jean-lave` · `richard-clark` · `walter-dick` |
 | +1 | `bf-skinner` · `jerome-bruner` · `john-keller` · `lev-vygotsky` |
 
-합계 29명 · 110건. 위 순서대로 한 명씩 처리한다.
+합계 25명 · 75건. 위 순서대로 한 명씩 처리한다.
+시작 전 `npm run verify:source-expansion`이 "새 id 35건, 완료 감사 6건"으로
+통과하는지 확인하라. 다르면 멈추고 보고하라.
 
 **요청 후보 수는 부족분 n에 대해 `max(2n, n+3)`이다.** 부족분 1이면 4건,
-2면 5, 3이면 6, 4면 8, 5면 10, 6이면 12건을 요청한다.
+2면 5, 3이면 6, 4면 8, 5면 10건을 요청한다.
 
 **고위험 동명이인 3명 — `allan-collins` · `richard-clark` · `john-keller`.**
 이들의 `authored_by` 후보는 정규 이름 외에 **독립 식별 신호 2개**가 필요하고
@@ -27,7 +29,7 @@
 소속·공저자·모형 연결로 동일인을 확인하지 못하면 `pending_manual`이다.
 
 **한 위인이 끝날 때마다 진행 상황을 stdout에 한 줄로 남겨라**
-(예: `[3/29] ralph-tyler 승인 6 커밋 abc1234 medium→high`).
+(예: `[3/25] robert-glaser 승인 5 커밋 abc1234 medium→high`).
 
 ## 먼저 읽어라 (반드시)
 
