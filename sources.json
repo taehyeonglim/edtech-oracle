@@ -841,6 +841,48 @@
     "url": "https://eric.ed.gov/?id=ED053419"
   },
   {
+    "id": "brown-1977-metacognition",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "브라운이 메타인지와 기억 발달 연구를 직접 종합하고 문제틀을 제시한 원보고서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED146562",
+        "evidence": "ERIC ED146562 레코드와 원문에서 제목·저자 Ann L. Brown·1977년 6월·Technical Report No. 47·152쪽을 대조했다.",
+        "matched_fields": ["title", "author", "publication_date", "report_number", "pages", "document_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "ann-brown",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED146562.pdf",
+        "locator": "원문 표지와 p. 1 저자·소속란",
+        "evidence": "원문은 Ann L. Brown을 단독 저자로, 소속을 University of Illinois at Urbana-Champaign으로 명시하며 공식 경력 기록의 기억·메타인지 연구와 일치한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Ann L. Brown · University of Illinois at Urbana-Champaign · memory and metacognition",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED146562.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Ann L. Brown",
+    "title": "Knowing When, Where, and How to Remember: A Problem of Metacognition",
+    "year": "1977",
+    "publisher": "Center for the Study of Reading, Technical Report No. 47",
+    "url": "https://eric.ed.gov/?id=ED146562",
+    "identifiers": {
+      "eric": "ED146562"
+    }
+  },
+  {
     "id": "brown-1992",
     "tier": "A",
     "type": "원논문",
@@ -855,6 +897,178 @@
     "publisher": "Journal of the Learning Sciences, 2(2)",
     "url": "https://doi.org/10.1207/s15327809jls0202_2",
     "doi": "10.1207/s15327809jls0202_2"
+  },
+  {
+    "id": "brown-1994-advancement",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "브라운이 AERA 회장 연설에서 교육연구와 학습환경 설계에 관한 자신의 논지를 직접 제시한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.3102/0013189X023008004",
+        "evidence": "Crossref API와 ERIC EJ495748이 제목·저자 Ann L. Brown·1994년·Educational Researcher 23(8)·4–12쪽을 일치하게 반환했다.",
+        "matched_fields": ["title", "author", "issued", "container-title", "volume", "issue", "page", "eric_record"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "ann-brown",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://api.crossref.org/works/10.3102%2F0013189X023008004",
+        "locator": "Crossref author·affiliation 필드와 ERIC abstract",
+        "evidence": "Crossref는 Ann L. Brown을 단독 저자로, 소속을 UC Berkeley와 인지·발달심리 및 혁신적 학습환경 설계로 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Ann L. Brown · University of California at Berkeley · cognitive and developmental psychology · learning environments",
+            "evidence_url": "https://api.crossref.org/works/10.3102%2F0013189X023008004"
+          }
+        ]
+      }
+    },
+    "authors": "Ann L. Brown",
+    "title": "The Advancement of Learning",
+    "year": "1994",
+    "publisher": "Educational Researcher, 23(8), 4–12",
+    "url": "https://doi.org/10.3102/0013189X023008004",
+    "doi": "10.3102/0013189X023008004",
+    "identifiers": {
+      "doi": "10.3102/0013189X023008004",
+      "eric": "EJ495748"
+    }
+  },
+  {
+    "id": "brown-1997-communities",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "브라운이 Fostering Communities of Learners 연구 프로그램의 설계와 결과를 직접 설명한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-pubmed",
+        "record_id": "10.1037/0003-066X.52.4.399",
+        "evidence": "Crossref API와 PubMed PMID 9109348이 제목·저자 Ann L. Brown·1997년·American Psychologist 52(4)·399–413쪽과 DOI를 일치하게 반환했다.",
+        "matched_fields": ["title", "author", "issued", "container-title", "volume", "issue", "page", "doi", "pubmed_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "ann-brown",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/9109348/",
+        "locator": "PubMed Author와 Abstract",
+        "evidence": "PubMed는 A. L. Brown을 단독 저자로 기록하고 초록은 Fostering Communities of Learners를 직접 설명하며, UC Berkeley 공식 기록도 Ann Lesley Brown과 같은 프로그램을 연결한다.",
+        "identity_signals": [
+          {
+            "kind": "theory-career-link",
+            "value": "Ann Lesley Brown · Joseph Campione · Fostering Communities of Learners",
+            "evidence_url": "https://newsarchive.berkeley.edu/news/media/releases/99legacy/6-10-1999.html"
+          }
+        ]
+      }
+    },
+    "authors": "Ann L. Brown",
+    "title": "Transforming Schools into Communities of Thinking and Learning About Serious Matters",
+    "year": "1997",
+    "publisher": "American Psychologist, 52(4), 399–413",
+    "url": "https://doi.org/10.1037/0003-066X.52.4.399",
+    "doi": "10.1037/0003-066X.52.4.399",
+    "identifiers": {
+      "doi": "10.1037/0003-066X.52.4.399",
+      "pubmed": "9109348"
+    }
+  },
+  {
+    "id": "brown-et-al-1982-learning",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "브라운과 공동 저자들이 아동의 학습·기억·이해 연구를 직접 종합해 이론틀과 개입 함의를 제시한 원보고서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED217401",
+        "evidence": "ERIC ED217401 레코드와 원문에서 제목·1982년 6월·Technical Report No. 244·264쪽과 네 저자를 대조했다.",
+        "matched_fields": ["title", "authors", "publication_date", "report_number", "pages", "document_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "ann-brown",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED217401.pdf",
+        "locator": "원문 표지 저자·소속란",
+        "evidence": "원문은 Ann L. Brown을 첫 저자로, 소속을 University of Illinois at Urbana-Champaign으로 명시하고 Bransford·Ferrara·Campione을 공동 저자로 기록한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Ann L. Brown · University of Illinois at Urbana-Champaign · Joseph C. Campione",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED217401.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Ann L. Brown; John D. Bransford; Roberta A. Ferrara; Joseph C. Campione",
+    "title": "Learning, Remembering, and Understanding",
+    "year": "1982",
+    "publisher": "Center for the Study of Reading, Technical Report No. 244",
+    "url": "https://eric.ed.gov/?id=ED217401",
+    "identifiers": {
+      "eric": "ED217401"
+    }
+  },
+  {
+    "id": "brown-palincsar-1982-self-control",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "브라운과 팔린사가 메타인지 구분과 인지기능 훈련 유형을 직접 분석한 원보고서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "ED220820",
+        "evidence": "ERIC ED220820 레코드와 원문에서 제목·저자 Ann L. Brown와 Annemarie Sullivan Palincsar·1982년 9월·Technical Report No. 262·49쪽을 대조했다.",
+        "matched_fields": ["title", "authors", "publication_date", "report_number", "pages", "document_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "ann-brown",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED220820.pdf",
+        "locator": "원문 표지 저자·소속란",
+        "evidence": "원문은 Ann L. Brown과 Annemarie Sullivan Palincsar를 공동 저자로, 두 사람의 소속을 University of Illinois at Urbana-Champaign으로 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Ann L. Brown · Annemarie Sullivan Palincsar · University of Illinois at Urbana-Champaign",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED220820.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Ann L. Brown; Annemarie Sullivan Palincsar",
+    "title": "Inducing Strategic Learning from Texts by Means of Informed, Self-Control Training",
+    "year": "1982",
+    "publisher": "Center for the Study of Reading, Technical Report No. 262",
+    "url": "https://eric.ed.gov/?id=ED220820",
+    "identifiers": {
+      "eric": "ED220820"
+    }
   },
   {
     "id": "brown-palincsar-1984",

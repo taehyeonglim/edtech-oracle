@@ -6,8 +6,8 @@ role: 교육심리학자 · 학습과학 연구자
 life: 1943—1999
 concepts: [메타인지, 상호교수법, 학습자 공동체, 설계실험]
 related: []
-updated: 2026-08-14
-sources: [bio-brown-berkeley, bio-brown-fabbs, brown-1992, brown-palincsar-1984, collins-2004]
+updated: 2026-08-16
+sources: [bio-brown-berkeley, bio-brown-fabbs, brown-1977-metacognition, brown-1992, brown-1994-advancement, brown-1997-communities, brown-et-al-1982-learning, brown-palincsar-1982-self-control, brown-palincsar-1984, collins-2004]
 confidence: medium
 ---
 
@@ -16,6 +16,8 @@ confidence: medium
 학습전략은 설명만으로 유지되지 않으며, 학습자가 사고를 말하고 서로 가르치는 공동체 안에서 점차 책임을 가져가야 한다.[^bio-brown-berkeley][^bio-brown-fabbs][^brown-palincsar-1984][^brown-1992]
 
 브라운은 기억과 메타인지의 실험연구를 실제 교실의 협력적 학습환경으로 확장했다. 상호교수법, Fostering Communities of Learners, 설계실험은 학습 이론과 교실 개입을 반복적으로 함께 개선하는 학습과학의 전형을 만들었다.[^bio-brown-berkeley][^bio-brown-fabbs][^brown-palincsar-1984][^brown-1992]
+
+브라운과 동료들은 학습을 학습자의 활동·특성, 학습자료, 요구 과제의 상호작용으로 보는 사면체 모형으로 조직하고, 발달이론에는 교수 개입의 효과도 포함해야 한다고 제안했다.[^brown-et-al-1982-learning]
 
 > 좋은 교실 연구는 통제된 실험의 복제가 아니라 이론과 실제 환경을 함께 바꾸며 배우는 과정이다.[^brown-1992]
 
@@ -28,9 +30,15 @@ confidence: medium
 
 브라운은 아동이 기억·독해 전략을 배워도 왜 자발적으로 지속하지 않는지 물었다. 이 질문은 자신의 이해 상태를 점검하고 전략을 선택·조절하는 메타인지 연구로 이어졌으며, 학습자의 결함보다 지원 구조를 설계하는 방향을 열었다.[^bio-brown-fabbs][^brown-palincsar-1984]
 
+브라운은 메타인지에 예측·확인·감시·현실 검증과 의도적인 학습·문제해결 시도의 조정·통제를 포함했다.[^brown-1977-metacognition]
+
+브라운과 팔린사는 인지에 관한 지식과 인지의 조절을 구분하고, 인지기능 훈련을 맹목적 훈련·정보 제공 훈련·자기통제 훈련의 세 유형으로 나누었다.[^brown-palincsar-1982-self-control]
+
 ## 교실을 이론의 시험장으로
 
 브라운의 설계실험은 잡음을 제거한 실험실만으로는 복합적인 학습환경을 이해하기 어렵다는 문제의식에서 출발한다. 연구자는 교사·학생과 함께 개입을 만들고, 실행 중 드러나는 실패와 변이를 통해 이론과 설계를 반복적으로 수정한다.[^brown-1992][^bio-brown-berkeley]
+
+브라운은 마음의 기능을 향상시키는 도구와 지원을 설계하는 일을 교육연구의 주요 목표로 두고, 교수자료와 방법을 설계할 적절한 이론이 필요하다고 주장했다.[^brown-1994-advancement]
 
 ## 읽기 어려움을 넘어 발달심리학으로
 
@@ -43,6 +51,8 @@ confidence: medium
 ## 버클리 교실과 설계실험
 
 브라운은 1988년 UC Berkeley 교육대학원으로 옮겨 남편이자 협력자 Joseph Campione과 Fostering Communities of Learners를 발전시켰다. 이론에 근거한 교실 환경을 실제 학교에서 반복적으로 만들고 수정하는 작업은 1992년 설계실험 논문으로 정식화됐다. National Academy of Education 회장 등을 역임한 그는 1999년 6월 4일 갑작스러운 질환으로 56세에 사망했다.[^bio-brown-berkeley][^brown-1992]
+
+Fostering Communities of Learners는 6–12세 도심 학생의 문해 능력과 환경과학·생물학 같은 교과 지식을 함께 향상시키도록 설계되었다.[^brown-1997-communities]
 
 ## 당대의 비판
 
@@ -64,6 +74,11 @@ confidence: medium
 
 [^bio-brown-berkeley]: Patricia McBroom. (1999). Pioneering UC Berkeley educator Ann L. Brown dies at age 56. University of California, Berkeley. <https://newsarchive.berkeley.edu/news/media/releases/99legacy/6-10-1999.html> — tier B · [[sources/bio-brown-berkeley]]
 [^bio-brown-fabbs]: Federation of Associations in Behavioral & Brain Sciences. In Memory Of Ann L. Brown. FABBS. <https://fabbs.org/about/in-honor-of/ann-l-brown-phd/> — tier B · [[sources/bio-brown-fabbs]]
+[^brown-1977-metacognition]: Ann L. Brown. (1977). Knowing When, Where, and How to Remember: A Problem of Metacognition. Center for the Study of Reading, Technical Report No. 47. <https://eric.ed.gov/?id=ED146562> — tier A · [[sources/brown-1977-metacognition]]
 [^brown-1992]: Ann L. Brown. (1992). Design Experiments: Theoretical and Methodological Challenges in Creating Complex Interventions in Classroom Settings. Journal of the Learning Sciences, 2(2). DOI: 10.1207/s15327809jls0202_2. <https://doi.org/10.1207/s15327809jls0202_2> — tier A · [[sources/brown-1992]]
+[^brown-1994-advancement]: Ann L. Brown. (1994). The Advancement of Learning. Educational Researcher, 23(8), 4–12. DOI: 10.3102/0013189X023008004. <https://doi.org/10.3102/0013189X023008004> — tier A · [[sources/brown-1994-advancement]]
+[^brown-1997-communities]: Ann L. Brown. (1997). Transforming Schools into Communities of Thinking and Learning About Serious Matters. American Psychologist, 52(4), 399–413. DOI: 10.1037/0003-066X.52.4.399. <https://doi.org/10.1037/0003-066X.52.4.399> — tier A · [[sources/brown-1997-communities]]
+[^brown-et-al-1982-learning]: Ann L. Brown; John D. Bransford; Roberta A. Ferrara; Joseph C. Campione. (1982). Learning, Remembering, and Understanding. Center for the Study of Reading, Technical Report No. 244. <https://eric.ed.gov/?id=ED217401> — tier A · [[sources/brown-et-al-1982-learning]]
+[^brown-palincsar-1982-self-control]: Ann L. Brown; Annemarie Sullivan Palincsar. (1982). Inducing Strategic Learning from Texts by Means of Informed, Self-Control Training. Center for the Study of Reading, Technical Report No. 262. <https://eric.ed.gov/?id=ED220820> — tier A · [[sources/brown-palincsar-1982-self-control]]
 [^brown-palincsar-1984]: Annemarie Sullivan Palincsar; Ann L. Brown. (1984). Reciprocal Teaching of Comprehension-Fostering and Comprehension-Monitoring Activities. Cognition and Instruction, 1(2). DOI: 10.1207/s1532690xci0102_1. <https://doi.org/10.1207/s1532690xci0102_1> — tier A · [[sources/brown-palincsar-1984]]
 [^collins-2004]: Allan Collins; Diana Joseph; Katerine Bielaczyc. (2004). Design Research: Theoretical and Methodological Issues. Journal of the Learning Sciences, 13(1). DOI: 10.1207/S15327809JLS1301_2. <https://doi.org/10.1207/S15327809JLS1301_2> — tier A · [[sources/collins-2004]]
