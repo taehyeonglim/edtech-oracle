@@ -32,6 +32,10 @@ test("존재와 관계가 모두 verified이고 허용 관계일 때만 verified
     existence: { status: "verified" },
     relation: { status: "verified", kind: "context_only" },
   }), "pending_manual");
+  assert.equal(deriveSourceReviewStatus({
+    existence: { status: "approved" },
+    relation: { status: "verified", kind: "about" },
+  }), "pending_manual");
 });
 
 test("실제 시작 상태를 142/36/31/116/1~6으로 고정한다", () => {
