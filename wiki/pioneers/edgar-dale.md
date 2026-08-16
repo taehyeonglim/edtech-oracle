@@ -6,9 +6,9 @@ role: 교육학자 · 시청각교육 연구자
 life: 1900—1985
 concepts: [경험의 원추, 시청각교육, 구체성과 추상성, 매체 선택]
 related: ["[[debates/dale-mayer]]"]
-updated: 2026-08-14
-sources: [bio-dale-osu, dale-1946, mayer-2005, molenda-2003-cone]
-confidence: low
+updated: 2026-08-16
+sources: [bio-dale-osu, dale-1933, dale-1935, dale-1946, dale-1954, dale-1969, dale-1976, masters-2013, mayer-2005, molenda-2003-cone]
+confidence: medium
 ---
 
 ## 핵심 명제
@@ -22,7 +22,8 @@ confidence: low
 ## 주요 저작
 
 - **Audio-Visual Methods in Teaching** (1946) — 경험의 원추를 처음 제시하고 다양한 시청각 자료의 교육적 사용을 논의했다.[^dale-1946]
-- **Audio-Visual Methods in Teaching, 3rd ed.** (1969) — 브루너의 표상 논의를 반영해 원추를 수정한 판본.[^molenda-2003-cone]
+- **Audio-Visual Methods in Teaching, Revised Edition** (1954) — 초판의 경험의 원추 서술을 이어받아 개정한 판본이다.[^dale-1954]
+- **Audiovisual Methods in Teaching, Third Edition** (1969) — 브루너의 표상 논의를 반영해 경험의 원추를 수정한 판본이다.[^dale-1969]
 
 ## 매체를 경험의 거리로 읽기
 
@@ -32,9 +33,13 @@ confidence: low
 
 ‘읽으면 10%, 직접 하면 90% 기억한다’는 수치는 데일의 세 판본 어디에도 없으며 원추는 기억률을 측정한 실험 결과가 아니다. 자료를 인용할 때 원추와 후대의 오염된 피라미드를 반드시 구분해야 한다.[^molenda-2003-cone]
 
+의학교육 문헌을 대상으로 한 고찰에서도 데일에게 귀속된 학습 피라미드는 원저작에 없는 후대의 결합물로 확인됐다.[^masters-2013]
+
 ## 교사와 영화평론가의 시선
 
 에드거 데일은 1900년 미국 미네소타주 벤슨에서 태어나 교사와 교육행정가로 일한 뒤 시카고대학교에서 박사학위를 받았다. 이스트먼 코닥에서 학교용 영화의 내용과 교육적 가치를 평가했고, 1929년 오하이오주립대학교에 합류해 교육용 미디어와 어휘 연구를 발전시켰다.[^bio-dale-osu][^dale-1946]
+
+데일은 고등학생을 위한 영화 비평 교재를 써서 매체를 읽는 능력 자체를 가르치려 했다.[^dale-1933] 또한 영화의 내용을 체계적으로 분석해 매체 연구를 경험적 조사로 다뤘다.[^dale-1935]
 
 ## 경험의 원추가 말한 것
 
@@ -61,12 +66,19 @@ confidence: low
 - **1929** 오하이오주립대학교 교수 — 시청각 자료·어휘·가독성 연구를 진행하며 1970년까지 재직했다.[^bio-dale-osu]
 - **1946** 경험의 원추 제시 — 『Audio-Visual Methods in Teaching』 초판에서 매체 경험의 구체성 체계를 제안했다.[^dale-1946]
 - **1969** 원추의 세 번째 개정 — 브루너의 행동적·영상적·상징적 표상과의 연결을 덧붙였다.[^molenda-2003-cone]
+- **1976** 어휘 조사 출간 — 조지프 오루크와 함께 대규모 어휘 조사인 『The Living Word Vocabulary』를 냈다.[^dale-1976]
 
 ## 대립축
 
 - [[debates/dale-mayer]] — 경험의 추상성 vs. 인지 처리 (상대: 리처드 메이어)[^dale-1946][^molenda-2003-cone][^mayer-2005]
 
 [^bio-dale-osu]: Enterprise for Research, Innovation and Knowledge. Edgar Dale. The Ohio State University. <https://research.osu.edu/edgar-dale> — tier B · [[sources/bio-dale-osu]]
+[^dale-1933]: Edgar Dale. (1933). How to Appreciate Motion Pictures. The Macmillan Company. <https://openlibrary.org/books/OL6297221M> — tier A · [[sources/dale-1933]]
+[^dale-1935]: Edgar Dale. (1935). The Content of Motion Pictures. The Macmillan Company. <https://openlibrary.org/books/OL7024984M> — tier A · [[sources/dale-1935]]
 [^dale-1946]: Edgar Dale. (1946). Audio-Visual Methods in Teaching. Dryden Press. <https://archive.org/details/audiovisualmetho0000edga> — tier A · [[sources/dale-1946]]
+[^dale-1954]: Edgar Dale. (1954). Audio-Visual Methods in Teaching, Revised Edition. Dryden Press. <https://openlibrary.org/books/OL6156672M> — tier A · [[sources/dale-1954]]
+[^dale-1969]: Edgar Dale. (1969). Audiovisual Methods in Teaching, Third Edition. Holt, Rinehart & Winston. <https://openlibrary.org/books/OL14883195M> — tier A · [[sources/dale-1969]]
+[^dale-1976]: Edgar Dale. (1976). The Living Word Vocabulary: The Words We Know. Field Enterprises Educational Corp. <https://openlibrary.org/books/OL30579676M> — tier A · [[sources/dale-1976]]
+[^masters-2013]: Ken Masters. (2013). Edgar Dale's Pyramid of Learning in Medical Education: A Literature Review. Medical Teacher, 35(11). <https://doi.org/10.3109/0142159X.2013.800636> — tier B · [[sources/masters-2013]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 [^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier C · [[sources/molenda-2003-cone]]

@@ -1,5 +1,657 @@
 [
   {
+    "id": "anderson-krathwohl-2001",
+    "tier": "B",
+    "type": "연구서",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "type-default: 연구서"
+    },
+    "authors": "Lorin W. Anderson; David R. Krathwohl (Eds.)",
+    "title": "A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives",
+    "year": "2001",
+    "publisher": "Longman",
+    "url": "https://openlibrary.org/works/OL16641840W/A_taxonomy_for_learning_teaching_and_assessing"
+  },
+  {
+    "id": "apa-ethics",
+    "tier": "C",
+    "type": "기관 자료",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 기관 자료"
+    },
+    "authors": "American Psychological Association",
+    "title": "APA Style: Citing Sources",
+    "year": "2024",
+    "url": "https://apastyle.apa.org/style-grammar-guidelines/references",
+    "accessed": "2026-08-14"
+  },
+  {
+    "id": "apa-mayer-2018",
+    "tier": "B",
+    "type": "학회 공식 수상 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학회 공식 수상 기록"
+    },
+    "authors": "American Psychological Association",
+    "title": "Richard E. Mayer, PhD, Awarded 2018 Presidential Citation",
+    "year": "2018",
+    "publisher": "American Psychological Association",
+    "url": "https://www.apa.org/about/governance/president/citation/richard-e-mayer"
+  },
+  {
+    "id": "bandura-1977",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Albert Bandura",
+    "title": "Social Learning Theory",
+    "year": "1977",
+    "publisher": "Prentice Hall",
+    "url": "https://archive.org/details/sociallearningth00band"
+  },
+  {
+    "id": "bandura-1997",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Albert Bandura",
+    "title": "Self-Efficacy: The Exercise of Control",
+    "year": "1997",
+    "publisher": "W. H. Freeman",
+    "url": "https://archive.org/details/selfefficacyexer0000band"
+  },
+  {
+    "id": "bio-brown-berkeley",
+    "tier": "B",
+    "type": "대학 공식 부고",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 대학 공식 부고"
+    },
+    "authors": "Patricia McBroom",
+    "title": "Pioneering UC Berkeley educator Ann L. Brown dies at age 56",
+    "year": "1999",
+    "publisher": "University of California, Berkeley",
+    "url": "https://newsarchive.berkeley.edu/news/media/releases/99legacy/6-10-1999.html"
+  },
+  {
+    "id": "bio-brown-fabbs",
+    "tier": "B",
+    "type": "학술연합 기념 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학술연합 기념 기록"
+    },
+    "authors": "Federation of Associations in Behavioral & Brain Sciences",
+    "title": "In Memory Of Ann L. Brown",
+    "publisher": "FABBS",
+    "url": "https://fabbs.org/about/in-honor-of/ann-l-brown-phd/"
+  },
+  {
+    "id": "bio-clark-interview",
+    "tier": "A",
+    "type": "동료평가 인터뷰",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "논문 본문은 Clark가 자신의 생애·연구·매체 논쟁을 'I'로 답하는 직접 인터뷰 기록을 수록한다: https://doi.org/10.1007/s10648-015-9341-3",
+      "changed_from": "B"
+    },
+    "authors": "Daniel H. Robinson; Robert A. Bligh",
+    "title": "An Interview with Richard E. Clark",
+    "year": "2016",
+    "publisher": "Educational Psychology Review, 28",
+    "url": "https://doi.org/10.1007/s10648-015-9341-3",
+    "doi": "10.1007/s10648-015-9341-3"
+  },
+  {
+    "id": "bio-clark-usc",
+    "tier": "B",
+    "type": "대학 공식 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 대학 공식 약력"
+    },
+    "authors": "USC Rossier School of Education",
+    "title": "Richard E. Clark — Emeritus Professor",
+    "publisher": "University of Southern California",
+    "url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
+  },
+  {
+    "id": "bio-collins-authority",
+    "tier": "C",
+    "type": "백과사전·생년 교차확인",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·생년 교차확인"
+    },
+    "authors": "Wikipedia editors",
+    "title": "Allan M. Collins",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Allan_M._Collins",
+    "accessed": "2026-08-14"
+  },
+  {
+    "id": "bio-collins-northwestern",
+    "tier": "B",
+    "type": "대학 공식 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 대학 공식 약력"
+    },
+    "authors": "Northwestern University School of Education and Social Policy",
+    "title": "Allan M. Collins — Professor Emeritus",
+    "publisher": "Northwestern University",
+    "url": "https://sesp.northwestern.edu/people/faculty/allan-m-collins.html"
+  },
+  {
+    "id": "bio-dale-osu",
+    "tier": "B",
+    "type": "기관 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 약력"
+    },
+    "authors": "Enterprise for Research, Innovation and Knowledge",
+    "title": "Edgar Dale",
+    "publisher": "The Ohio State University",
+    "url": "https://research.osu.edu/edgar-dale"
+  },
+  {
+    "id": "bio-dick-authority",
+    "tier": "C",
+    "type": "도서관 전거",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 도서관 전거"
+    },
+    "authors": "Open Library",
+    "title": "Walter Dick — Author Record",
+    "publisher": "Internet Archive",
+    "url": "https://openlibrary.org/authors/OL450418A/Walter_Dick",
+    "accessed": "2026-08-14"
+  },
+  {
+    "id": "bio-dick-fsu",
+    "tier": "B",
+    "type": "기관 프로그램사",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 프로그램사"
+    },
+    "authors": "Instructional Systems and Learning Technologies",
+    "title": "Instructional Systems and Learning Technologies — Program Overview",
+    "publisher": "Florida State University",
+    "url": "https://annescollege.fsu.edu/instructional-systems-and-learning-technologies"
+  },
+  {
+    "id": "bio-gagne-open-text",
+    "tier": "B",
+    "type": "대학 오픈 교재",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "Curry·Johnson·Peacock가 Gagné의 생애와 모형을 학습자에게 설명하는 후대의 역사·이론 개관 장이다: https://socialsci.libretexts.org/Bookshelves/Education_and_Professional_Development/Design_for_Learning_-_Principles_Processes_and_Praxis_%28McDonald_and_West%29/02%3A_Instructional_Design_Knowledge/06%3A_Instructional_Design_Processes/6.02%3A_Robert_Gagne_And_The_Systematic_Design_Of_Instruction"
+    },
+    "authors": "John H. Curry; Sacha Johnson; Rebeca Peacock",
+    "title": "Robert Gagné and the Systematic Design of Instruction",
+    "year": "2021",
+    "publisher": "BYU / LibreTexts",
+    "url": "https://socialsci.libretexts.org/Bookshelves/Education_and_Professional_Development/Design_for_Learning_-_Principles_Processes_and_Praxis_%28McDonald_and_West%29/02%3A_Instructional_Design_Knowledge/06%3A_Instructional_Design_Processes/6.02%3A_Robert_Gagne_And_The_Systematic_Design_Of_Instruction"
+  },
+  {
+    "id": "bio-gilbert-sixboxes",
+    "tier": "B",
+    "type": "전문기관 인물 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 전문기관 인물 기록"
+    },
+    "authors": "Carl Binder; The Performance Thinking Network",
+    "title": "Inspiration — Thomas F. Gilbert",
+    "publisher": "The Performance Thinking Network",
+    "url": "https://www.sixboxes.com/Inspiration.html"
+  },
+  {
+    "id": "bio-glaser-aps",
+    "tier": "B",
+    "type": "학회 추도문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학회 추도문"
+    },
+    "authors": "Lauren B. Resnick; Drew Gitomer; Susanne Lajoie; Sigmund Tobias",
+    "title": "Remembering Robert Glaser",
+    "year": "2013",
+    "publisher": "Association for Psychological Science",
+    "url": "https://www.psychologicalscience.org/observer/remembering-robert-glaser"
+  },
+  {
+    "id": "bio-heinich-iu",
+    "tier": "B",
+    "type": "대학 공식 추모 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 대학 공식 추모 기록"
+    },
+    "authors": "Indiana University School of Education",
+    "title": "Robert Heinich — In Memoriam",
+    "year": "2020",
+    "publisher": "Indiana University",
+    "url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+  },
+  {
+    "id": "bio-jonassen-profile",
+    "tier": "B",
+    "type": "연구자 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 연구자 약력"
+    },
+    "authors": "Educational Technology: An Introduction",
+    "title": "David H. Jonassen",
+    "url": "https://www.educational-technology.info/researchers/david-h-jonassen"
+  },
+  {
+    "id": "bio-keller-springer",
+    "tier": "B",
+    "type": "출판사 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 출판사 약력"
+    },
+    "authors": "Springer Nature",
+    "title": "Motivational Design for Learning and Performance: The ARCS Model Approach",
+    "year": "2010",
+    "publisher": "Springer",
+    "url": "https://link.springer.com/book/10.1007/978-1-4419-1250-3"
+  },
+  {
+    "id": "bio-kozma-event",
+    "tier": "B",
+    "type": "기관 강연 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 강연 기록"
+    },
+    "authors": "Fundació Bofill; Universitat Oberta de Catalunya",
+    "title": "Robert B. Kozma: ICTs and the Transformation of Education in the Knowledge Economy",
+    "year": "2012",
+    "publisher": "Fundació Bofill / UOC",
+    "url": "https://www.equitat.org/en/videos/robert-b-kozma-icts-and-transformation-education-knowledge-economy"
+  },
+  {
+    "id": "bio-kozma-sri",
+    "tier": "B",
+    "type": "기관 연구자 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 연구자 약력"
+    },
+    "authors": "Robert B. Kozma",
+    "title": "Robert Kozma — SRI International, Center for Technology and Learning",
+    "publisher": "SRI International / Academia.edu",
+    "url": "https://sri.academia.edu/RobertKozma"
+  },
+  {
+    "id": "bio-lave-authority",
+    "tier": "C",
+    "type": "도서관 전거 통합 데이터",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 도서관 전거 통합 데이터"
+    },
+    "authors": "Wikidata contributors; BIBSYS Authority File",
+    "title": "Jean Lave (Q1685635)",
+    "publisher": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q1685635",
+    "accessed": "2026-08-14"
+  },
+  {
+    "id": "bio-lave-berkeley",
+    "tier": "B",
+    "type": "기관 약력·강연",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 약력·강연"
+    },
+    "authors": "GSI Teaching & Resource Center",
+    "title": "Jean Lave: Learning as a Socially Situated Activity",
+    "year": "2011",
+    "publisher": "University of California, Berkeley",
+    "url": "https://gsi.berkeley.edu/programs-services/hsl-project/hsl-speakers/lave/"
+  },
+  {
+    "id": "bio-mager-guild",
+    "tier": "B",
+    "type": "전문기관 추도문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 전문기관 추도문"
+    },
+    "authors": "Bill Brandon et al.",
+    "title": "In Memoriam: Robert F. Mager, 1923–2020",
+    "year": "2020",
+    "publisher": "The Learning Guild",
+    "url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+  },
+  {
+    "id": "bio-mayer-ucsb",
+    "tier": "B",
+    "type": "기관 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 약력"
+    },
+    "authors": "Department of Psychological & Brain Sciences",
+    "title": "Richard Mayer",
+    "publisher": "University of California, Santa Barbara",
+    "url": "https://psych.ucsb.edu/people/faculty/richard-mayer"
+  },
+  {
+    "id": "bio-merrienboer-4cid",
+    "tier": "B",
+    "type": "전문기관 추모 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 전문기관 추모 기록"
+    },
+    "authors": "Four-Component Instructional Design",
+    "title": "In Memoriam — Jeroen van Merriënboer",
+    "year": "2023",
+    "publisher": "4C/ID.org",
+    "url": "https://www.4cid.org/in-memoriam/"
+  },
+  {
+    "id": "bio-merrill-author",
+    "tier": "B",
+    "type": "개인 사이트 3인칭 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "본문은 Merrill을 'he'와 'Dr. Merrill'로 서술하고 별도 저자 표기가 없어 개인 WordPress라는 사실만으로 당사자 직접 기록을 확인할 수 없다: https://mdavidmerrill.wordpress.com/my-professional-history/",
+      "changed_from": "A",
+      "previous_type": "당사자 기록"
+    },
+    "authors": "M. David Merrill",
+    "title": "About — professional history",
+    "publisher": "M. David Merrill",
+    "url": "https://mdavidmerrill.wordpress.com/my-professional-history/"
+  },
+  {
+    "id": "bio-merrill-usu",
+    "tier": "B",
+    "type": "기관 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 약력"
+    },
+    "authors": "Utah State University / M. David Merrill",
+    "title": "M. David Merrill — professional history",
+    "publisher": "Utah State University",
+    "url": "https://cehs.usu.edu/itls/people/m-david-merrill"
+  },
+  {
+    "id": "bio-moore-author",
+    "tier": "B",
+    "type": "개인 사이트 3인칭 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "페이지는 Moore를 일관되게 3인칭으로 서술하고 별도 저자 표기가 없어 개인 도메인만으로 당사자 직접 기록을 확인할 수 없다: https://michaelgmoore.com/a/",
+      "changed_from": "A",
+      "previous_type": "당사자 공식 약력"
+    },
+    "authors": "Michael Grahame Moore",
+    "title": "Michael G. Moore — Distinguished Professor Emeritus",
+    "publisher": "The Pennsylvania State University / author site",
+    "url": "https://michaelgmoore.com/a/"
+  },
+  {
+    "id": "bio-moore-hall",
+    "tier": "B",
+    "type": "기관 명예의전당 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 명예의전당 기록"
+    },
+    "authors": "International Adult and Continuing Education Hall of Fame",
+    "title": "Michael Grahame Moore — Inductee Details",
+    "publisher": "University of Oklahoma Outreach",
+    "url": "https://halloffame.outreach.ou.edu/Inductions/Inductee-Details/michael-grahame-moore"
+  },
+  {
+    "id": "bio-novak-cornell",
+    "tier": "B",
+    "type": "대학 공식 부고",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 대학 공식 부고"
+    },
+    "authors": "Krisy Gashler",
+    "title": "Joseph Novak, pioneer of education theory, dies at 92",
+    "year": "2023",
+    "publisher": "Cornell Chronicle",
+    "url": "https://news.cornell.edu/stories/2023/11/joseph-novak-pioneer-education-theory-dies-92"
+  },
+  {
+    "id": "bio-novak-ihmc",
+    "tier": "A",
+    "type": "당사자 자서전·기관 기록",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "IHMC 페이지가 Novak이 자서전과 영상으로 자신의 이야기를 남겼다고 밝히고 'my lifelong search'로 시작하는 그의 직접 진술과 자서전 원문을 제공한다: https://www.ihmc.us/joseph-novak/"
+    },
+    "authors": "Joseph D. Novak; IHMC",
+    "title": "A Search to Create a Science of Education",
+    "year": "2018",
+    "publisher": "Florida Institute for Human & Machine Cognition",
+    "url": "https://www.ihmc.us/joseph-novak/"
+  },
+  {
+    "id": "bio-papert-mit",
+    "tier": "B",
+    "type": "기관 추도문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 추도문"
+    },
+    "authors": "Yasmin Kafai / MIT Press",
+    "title": "A Tribute to Seymour Papert",
+    "year": "2016",
+    "publisher": "MIT Press",
+    "url": "https://mitpress.mit.edu/a-tribute-to-seymour-papert/"
+  },
+  {
+    "id": "bio-piaget-unige",
+    "tier": "B",
+    "type": "기관 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 약력"
+    },
+    "authors": "Centre Jean Piaget",
+    "title": "Jean Piaget — Trajectory",
+    "publisher": "University of Geneva",
+    "url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+  },
+  {
+    "id": "bio-pressey-osu",
+    "tier": "B",
+    "type": "기관 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 약력"
+    },
+    "authors": "Enterprise for Research, Innovation and Knowledge",
+    "title": "Sidney L. Pressey",
+    "publisher": "The Ohio State University",
+    "url": "https://research.osu.edu/sidney-l-pressey"
+  },
+  {
+    "id": "bio-reigeluth-author",
+    "tier": "A",
+    "type": "당사자 약력",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "Reigeluth의 개인 About Me 페이지가 'My research'와 'I have published'로 자신의 연구와 경력을 직접 기록하고 페이지 저작권도 본인에게 둔다: https://www.reigeluth.net/me-c1owg"
+    },
+    "authors": "Charles M. Reigeluth",
+    "title": "About Me",
+    "publisher": "Charles M. Reigeluth",
+    "url": "https://www.reigeluth.net/me-c1owg"
+  },
+  {
+    "id": "bio-richey-wayne",
+    "tier": "B",
+    "type": "기관 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 약력"
+    },
+    "authors": "Academy of Scholars",
+    "title": "Rita C. Richey — Academy Member Profile",
+    "publisher": "Wayne State University",
+    "url": "https://academy.wayne.edu/docs/acadamy-brochure.pdf"
+  },
+  {
+    "id": "bio-scardamalia-ikit",
+    "tier": "B",
+    "type": "연구기관 공식 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 연구기관 공식 약력"
+    },
+    "authors": "Institute for Knowledge Innovation and Technology",
+    "title": "Marlene Scardamalia",
+    "publisher": "OISE / University of Toronto",
+    "url": "https://ikit.org/people/scardamalia.html"
+  },
+  {
+    "id": "bio-scardamalia-nae",
+    "tier": "B",
+    "type": "학술원 공식 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학술원 공식 약력"
+    },
+    "authors": "National Academy of Education",
+    "title": "Marlene Scardamalia",
+    "publisher": "National Academy of Education",
+    "url": "https://naeducation.org/member/marlene-scardamalia/"
+  },
+  {
+    "id": "bio-seels-archive",
+    "tier": "B",
+    "type": "전문 아카이브",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 전문 아카이브"
+    },
+    "authors": "International Visual Literacy Association",
+    "title": "Barbara Seels Papers, 1968–1999",
+    "year": "2020",
+    "publisher": "Visual Literacy Today",
+    "url": "https://visualliteracytoday.org/barbara-seels-papers-1968-1999-mss-156/"
+  },
+  {
+    "id": "bio-sweller-unsw",
+    "tier": "B",
+    "type": "기관 약력",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 약력"
+    },
+    "authors": "School of Education",
+    "title": "Emeritus Professor John Sweller",
+    "publisher": "UNSW Sydney",
+    "url": "https://www.unsw.edu.au/staff/john-sweller"
+  },
+  {
+    "id": "bio-tyler-uchicago",
+    "tier": "B",
+    "type": "기관 아카이브",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 아카이브"
+    },
+    "authors": "University of Chicago Library",
+    "title": "Guide to the Ralph W. Tyler Papers 1931–1988",
+    "publisher": "University of Chicago",
+    "url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.TYLER"
+  },
+  {
+    "id": "bio-vygotsky-msu",
+    "tier": "B",
+    "type": "대학 공식 인물사",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "MSU 심리학부 페이지가 Vygotsky를 일관되게 3인칭으로 서술하며 저자를 기관 밖 당사자로 표시하지 않는다: https://psy-msu.ru/en/about/history/scientist/8578/",
+      "changed_from": "A"
+    },
+    "authors": "Faculty of Psychology, Lomonosov Moscow State University",
+    "title": "Lev Semyonovich Vygotsky (November 5, 1896 – June 11, 1934)",
+    "publisher": "Lomonosov Moscow State University",
+    "url": "https://psy-msu.ru/en/about/history/scientist/8578/"
+  },
+  {
+    "id": "bio-wenger-author",
+    "tier": "A",
+    "type": "당사자 공식 약력",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "Wenger-Trayner가 'I have been working'과 'my personal page'로 연구 여정과 생애를 직접 서술한다: https://www.wenger-trayner.com/etienne/"
+    },
+    "authors": "Etienne Wenger-Trayner",
+    "title": "About Etienne",
+    "publisher": "Wenger-Trayner",
+    "url": "https://www.wenger-trayner.com/etienne/"
+  },
+  {
+    "id": "bio-wiki-bandura",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "Albert Bandura",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Albert_Bandura"
+  },
+  {
+    "id": "bio-wiki-bloom",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "Benjamin Bloom",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Benjamin_Bloom"
+  },
+  {
+    "id": "bio-wiki-bruner",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "Jerome Bruner",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jerome_Bruner"
+  },
+  {
     "id": "bio-wiki-dewey",
     "tier": "C",
     "type": "백과사전·탐색용",
@@ -11,6 +663,84 @@
     "title": "John Dewey",
     "publisher": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/John_Dewey"
+  },
+  {
+    "id": "bio-wiki-gagne",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "Robert M. Gagné",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robert_M._Gagn%C3%A9"
+  },
+  {
+    "id": "bio-wiki-keller",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "John M. Keller",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/John_M._Keller"
+  },
+  {
+    "id": "bio-wiki-mayer",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "Richard E. Mayer",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Richard_E._Mayer"
+  },
+  {
+    "id": "bio-wiki-merrill",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "M. David Merrill",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/M._David_Merrill"
+  },
+  {
+    "id": "bio-wiki-papert",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "Seymour Papert",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Seymour_Papert"
+  },
+  {
+    "id": "bio-wiki-skinner",
+    "tier": "C",
+    "type": "백과사전·탐색용",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "type-default: 백과사전·탐색용"
+    },
+    "authors": "Wikipedia editors",
+    "title": "B. F. Skinner",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/B._F._Skinner"
   },
   {
     "id": "bio-wiki-thorndike",
@@ -37,317 +767,6 @@
     "title": "Lev Vygotsky",
     "publisher": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/Lev_Vygotsky"
-  },
-  {
-    "id": "bio-vygotsky-msu",
-    "tier": "B",
-    "type": "대학 공식 인물사",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "MSU 심리학부 페이지가 Vygotsky를 일관되게 3인칭으로 서술하며 저자를 기관 밖 당사자로 표시하지 않는다: https://psy-msu.ru/en/about/history/scientist/8578/",
-      "changed_from": "A"
-    },
-    "authors": "Faculty of Psychology, Lomonosov Moscow State University",
-    "title": "Lev Semyonovich Vygotsky (November 5, 1896 – June 11, 1934)",
-    "publisher": "Lomonosov Moscow State University",
-    "url": "https://psy-msu.ru/en/about/history/scientist/8578/"
-  },
-  {
-    "id": "bio-wiki-skinner",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "B. F. Skinner",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/B._F._Skinner"
-  },
-  {
-    "id": "bio-wiki-bloom",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "Benjamin Bloom",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Benjamin_Bloom"
-  },
-  {
-    "id": "bio-wiki-gagne",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "Robert M. Gagné",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Robert_M._Gagn%C3%A9"
-  },
-  {
-    "id": "bio-wiki-bruner",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "Jerome Bruner",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Jerome_Bruner"
-  },
-  {
-    "id": "bio-wiki-bandura",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "Albert Bandura",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Albert_Bandura"
-  },
-  {
-    "id": "bio-wiki-merrill",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "M. David Merrill",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/M._David_Merrill"
-  },
-  {
-    "id": "bio-wiki-keller",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "John M. Keller",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/John_M._Keller"
-  },
-  {
-    "id": "bio-wiki-papert",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "Seymour Papert",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Seymour_Papert"
-  },
-  {
-    "id": "bio-wiki-mayer",
-    "tier": "C",
-    "type": "백과사전·탐색용",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·탐색용"
-    },
-    "authors": "Wikipedia editors",
-    "title": "Richard E. Mayer",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Richard_E._Mayer"
-  },
-  {
-    "id": "bio-gagne-open-text",
-    "tier": "B",
-    "type": "대학 오픈 교재",
-    "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "Curry·Johnson·Peacock가 Gagné의 생애와 모형을 학습자에게 설명하는 후대의 역사·이론 개관 장이다: https://socialsci.libretexts.org/Bookshelves/Education_and_Professional_Development/Design_for_Learning_-_Principles_Processes_and_Praxis_%28McDonald_and_West%29/02%3A_Instructional_Design_Knowledge/06%3A_Instructional_Design_Processes/6.02%3A_Robert_Gagne_And_The_Systematic_Design_Of_Instruction"
-    },
-    "authors": "John H. Curry; Sacha Johnson; Rebeca Peacock",
-    "title": "Robert Gagné and the Systematic Design of Instruction",
-    "year": "2021",
-    "publisher": "BYU / LibreTexts",
-    "url": "https://socialsci.libretexts.org/Bookshelves/Education_and_Professional_Development/Design_for_Learning_-_Principles_Processes_and_Praxis_%28McDonald_and_West%29/02%3A_Instructional_Design_Knowledge/06%3A_Instructional_Design_Processes/6.02%3A_Robert_Gagne_And_The_Systematic_Design_Of_Instruction"
-  },
-  {
-    "id": "bio-merrill-usu",
-    "tier": "B",
-    "type": "기관 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 약력"
-    },
-    "authors": "Utah State University / M. David Merrill",
-    "title": "M. David Merrill — professional history",
-    "publisher": "Utah State University",
-    "url": "https://cehs.usu.edu/itls/people/m-david-merrill"
-  },
-  {
-    "id": "bio-merrill-author",
-    "tier": "B",
-    "type": "개인 사이트 3인칭 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "본문은 Merrill을 'he'와 'Dr. Merrill'로 서술하고 별도 저자 표기가 없어 개인 WordPress라는 사실만으로 당사자 직접 기록을 확인할 수 없다: https://mdavidmerrill.wordpress.com/my-professional-history/",
-      "changed_from": "A",
-      "previous_type": "당사자 기록"
-    },
-    "authors": "M. David Merrill",
-    "title": "About — professional history",
-    "publisher": "M. David Merrill",
-    "url": "https://mdavidmerrill.wordpress.com/my-professional-history/"
-  },
-  {
-    "id": "bio-keller-springer",
-    "tier": "B",
-    "type": "출판사 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 출판사 약력"
-    },
-    "authors": "Springer Nature",
-    "title": "Motivational Design for Learning and Performance: The ARCS Model Approach",
-    "year": "2010",
-    "publisher": "Springer",
-    "url": "https://link.springer.com/book/10.1007/978-1-4419-1250-3"
-  },
-  {
-    "id": "bio-papert-mit",
-    "tier": "B",
-    "type": "기관 추도문",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 추도문"
-    },
-    "authors": "Yasmin Kafai / MIT Press",
-    "title": "A Tribute to Seymour Papert",
-    "year": "2016",
-    "publisher": "MIT Press",
-    "url": "https://mitpress.mit.edu/a-tribute-to-seymour-papert/"
-  },
-  {
-    "id": "bio-mayer-ucsb",
-    "tier": "B",
-    "type": "기관 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 약력"
-    },
-    "authors": "Department of Psychological & Brain Sciences",
-    "title": "Richard Mayer",
-    "publisher": "University of California, Santa Barbara",
-    "url": "https://psych.ucsb.edu/people/faculty/richard-mayer"
-  },
-  {
-    "id": "dewey-1916",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "John Dewey",
-    "title": "Democracy and Education",
-    "year": "1916",
-    "publisher": "Macmillan",
-    "url": "https://archive.org/details/democracyandeduc00deweuoft"
-  },
-  {
-    "id": "dewey-1938",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "John Dewey",
-    "title": "Experience and Education",
-    "year": "1938",
-    "publisher": "Macmillan",
-    "url": "https://archive.org/details/experienceeducat00dewe"
-  },
-  {
-    "id": "thorndike-1913",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Edward L. Thorndike",
-    "title": "Educational Psychology: The Original Nature of Man",
-    "year": "1913",
-    "publisher": "Teachers College, Columbia University",
-    "url": "https://archive.org/details/educationalpsych01thor"
-  },
-  {
-    "id": "vygotsky-1978",
-    "tier": "B",
-    "type": "편집 번역서",
-    "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "JSTOR 서지와 목차는 Cole 등 네 편집자가 Vygotsky의 여러 원고·강의를 선별·편집하고 서론과 후기를 더한 1978년 모음임을 확인한다: https://www.jstor.org/stable/j.ctvjf9vz4"
-    },
-    "authors": "L. S. Vygotsky; ed. Michael Cole et al.",
-    "title": "Mind in Society: The Development of Higher Psychological Processes",
-    "year": "1978",
-    "publisher": "Harvard University Press",
-    "url": "https://www.hup.harvard.edu/books/9780674576292"
-  },
-  {
-    "id": "vygotsky-1934",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "L. S. Vygotsky",
-    "title": "Thought and Language",
-    "year": "1934",
-    "url": "https://www.marxists.org/archive/vygotsky/works/words/"
-  },
-  {
-    "id": "skinner-1954",
-    "tier": "B",
-    "type": "서지 기록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 서지 기록"
-    },
-    "authors": "B. F. Skinner",
-    "title": "The Science of Learning and the Art of Teaching",
-    "year": "1954",
-    "publisher": "Harvard Educational Review, 24(2)",
-    "url": "https://cir.nii.ac.jp/crid/1572824500723500288?lang=en"
-  },
-  {
-    "id": "skinner-1957",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "B. F. Skinner",
-    "title": "Verbal Behavior",
-    "year": "1957",
-    "publisher": "Appleton-Century-Crofts",
-    "url": "https://www.bfskinner.org/product/verbal-behavior/"
   },
   {
     "id": "bloom-1956",
@@ -379,32 +798,36 @@
     "url": "https://eric.ed.gov/?id=ED053419"
   },
   {
-    "id": "gagne-1965",
+    "id": "brown-1992",
     "tier": "A",
-    "type": "원저서",
+    "type": "원논문",
     "tier_review": {
       "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
     },
-    "authors": "Robert M. Gagné",
-    "title": "The Conditions of Learning",
-    "year": "1965",
-    "publisher": "Holt, Rinehart and Winston",
-    "url": "https://archive.org/details/conditionsoflear0000gagn"
+    "authors": "Ann L. Brown",
+    "title": "Design Experiments: Theoretical and Methodological Challenges in Creating Complex Interventions in Classroom Settings",
+    "year": "1992",
+    "publisher": "Journal of the Learning Sciences, 2(2)",
+    "url": "https://doi.org/10.1207/s15327809jls0202_2",
+    "doi": "10.1207/s15327809jls0202_2"
   },
   {
-    "id": "gagne-1985",
-    "tier": "B",
-    "type": "연구서",
+    "id": "brown-palincsar-1984",
+    "tier": "A",
+    "type": "원논문",
     "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "type-default: 연구서"
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
     },
-    "authors": "Robert M. Gagné; Leslie J. Briggs; Walter W. Wager",
-    "title": "Principles of Instructional Design",
-    "year": "1985",
-    "publisher": "Holt, Rinehart and Winston",
-    "url": "https://archive.org/details/principlesofinst0000gagn"
+    "authors": "Annemarie Sullivan Palincsar; Ann L. Brown",
+    "title": "Reciprocal Teaching of Comprehension-Fostering and Comprehension-Monitoring Activities",
+    "year": "1984",
+    "publisher": "Cognition and Instruction, 1(2)",
+    "url": "https://doi.org/10.1207/s1532690xci0102_1",
+    "doi": "10.1207/s1532690xci0102_1"
   },
   {
     "id": "bruner-1960",
@@ -435,35 +858,21 @@
     "url": "https://archive.org/details/towardtheoryofin00brun"
   },
   {
-    "id": "bandura-1977",
+    "id": "bruner-1990",
     "tier": "A",
     "type": "원저서",
     "tier_review": {
       "rule": "1-original-work",
       "evidence": "type-default: 원저서"
     },
-    "authors": "Albert Bandura",
-    "title": "Social Learning Theory",
-    "year": "1977",
-    "publisher": "Prentice Hall",
-    "url": "https://archive.org/details/sociallearningth00band"
+    "authors": "Jerome Bruner",
+    "title": "Acts of Meaning",
+    "year": "1990",
+    "publisher": "Harvard University Press",
+    "url": "https://www.hup.harvard.edu/books/9780674003613"
   },
   {
-    "id": "bandura-1997",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Albert Bandura",
-    "title": "Self-Efficacy: The Exercise of Control",
-    "year": "1997",
-    "publisher": "W. H. Freeman",
-    "url": "https://archive.org/details/selfefficacyexer0000band"
-  },
-  {
-    "id": "merrill-2002",
+    "id": "clark-1983",
     "tier": "A",
     "type": "원논문",
     "tier_review": {
@@ -471,945 +880,28 @@
       "evidence": "type-default: 원논문",
       "changed_from": "B"
     },
-    "authors": "M. David Merrill",
-    "title": "First Principles of Instruction",
-    "year": "2002",
-    "publisher": "Educational Technology Research and Development, 50(3)",
-    "url": "https://doi.org/10.1007/BF02505024",
-    "doi": "10.1007/BF02505024"
-  },
-  {
-    "id": "keller-1987",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "John M. Keller",
-    "title": "Development and Use of the ARCS Model of Motivational Design",
-    "year": "1987",
-    "publisher": "Journal of Instructional Development, 10(3)",
-    "url": "https://doi.org/10.1007/BF02905780",
-    "doi": "10.1007/BF02905780"
-  },
-  {
-    "id": "papert-1980",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Seymour Papert",
-    "title": "Mindstorms: Children, Computers, and Powerful Ideas",
-    "year": "1980",
-    "publisher": "Basic Books",
-    "url": "https://archive.org/details/mindstormschildr0000pape"
-  },
-  {
-    "id": "mayer-1997",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Richard E. Mayer; Roxana Moreno",
-    "title": "A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory",
-    "year": "1998",
-    "publisher": "Journal of Educational Psychology, 90(2)",
-    "url": "https://doi.org/10.1037/0022-0663.90.2.312",
-    "doi": "10.1037/0022-0663.90.2.312"
-  },
-  {
-    "id": "mayer-2005",
-    "tier": "B",
-    "type": "연구서",
-    "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "type-default: 연구서"
-    },
-    "authors": "Richard E. Mayer (ed.)",
-    "title": "The Cambridge Handbook of Multimedia Learning",
-    "year": "2005",
-    "publisher": "Cambridge University Press",
-    "url": "https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm"
-  },
-  {
-    "id": "schunk-2012",
-    "tier": "B",
-    "type": "연구서",
-    "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "type-default: 연구서"
-    },
-    "authors": "Dale H. Schunk",
-    "title": "Learning Theories: An Educational Perspective",
-    "year": "2012",
-    "publisher": "Pearson",
-    "url": "https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303"
-  },
-  {
-    "id": "reiser-2017",
-    "tier": "B",
-    "type": "편집서",
-    "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "Pearson 목차가 역사·기초 이론·모형·현안에 관한 여러 저자의 장을 묶은 분야 종합 교재임을 보여 준다: https://www.pearson.com/en-us/subject-catalog/p/Reiser-Reiser-Trend-Issue-Instr-Desig-Te-4-4th-Edition/P200000001731/9780137411917"
-    },
-    "authors": "Robert A. Reiser; John V. Dempsey (eds.)",
-    "title": "Trends and Issues in Instructional Design and Technology",
-    "year": "2017",
-    "publisher": "Pearson",
-    "url": "https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222"
-  },
-  {
-    "id": "bio-piaget-unige",
-    "tier": "B",
-    "type": "기관 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 약력"
-    },
-    "authors": "Centre Jean Piaget",
-    "title": "Jean Piaget — Trajectory",
-    "publisher": "University of Geneva",
-    "url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
-  },
-  {
-    "id": "piaget-1952",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Jean Piaget",
-    "title": "The Origins of Intelligence in Children",
-    "year": "1952",
-    "publisher": "International Universities Press",
-    "url": "https://archive.org/details/originsofintelli0000piag"
-  },
-  {
-    "id": "piaget-1970",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Jean Piaget",
-    "title": "Genetic Epistemology",
-    "year": "1970",
-    "publisher": "Columbia University Press",
-    "url": "https://cup.columbia.edu/book/genetic-epistemology/9780231059923"
-  },
-  {
-    "id": "bio-pressey-osu",
-    "tier": "B",
-    "type": "기관 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 약력"
-    },
-    "authors": "Enterprise for Research, Innovation and Knowledge",
-    "title": "Sidney L. Pressey",
-    "publisher": "The Ohio State University",
-    "url": "https://research.osu.edu/sidney-l-pressey"
-  },
-  {
-    "id": "pressey-1926",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문"
-    },
-    "authors": "Sidney L. Pressey",
-    "title": "A Simple Apparatus Which Gives Tests and Scores—and Teaches",
-    "year": "1926",
-    "publisher": "School and Society, 23",
-    "url": "https://cir.nii.ac.jp/crid/1571135649671295104"
-  },
-  {
-    "id": "pressey-smithsonian",
-    "tier": "B",
-    "type": "박물관 해설",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 박물관 해설"
-    },
-    "authors": "National Museum of American History",
-    "title": "Teaching Machines and Mechanical Learning",
-    "publisher": "Smithsonian Institution",
-    "url": "https://www.si.edu/spotlight/teaching-machines"
-  },
-  {
-    "id": "bio-dale-osu",
-    "tier": "B",
-    "type": "기관 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 약력"
-    },
-    "authors": "Enterprise for Research, Innovation and Knowledge",
-    "title": "Edgar Dale",
-    "publisher": "The Ohio State University",
-    "url": "https://research.osu.edu/edgar-dale"
-  },
-  {
-    "id": "dale-1946",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Edgar Dale",
-    "title": "Audio-Visual Methods in Teaching",
-    "year": "1946",
-    "publisher": "Dryden Press",
-    "url": "https://archive.org/details/audiovisualmetho0000edga"
-  },
-  {
-    "id": "molenda-2003-cone",
-    "tier": "C",
-    "type": "전문 백과사전 항목",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "원문 머리말이 Dale의 원추를 설명하기 위해 Educational Technology: An Encyclopedia에 제출된 항목이라고 명시한다: https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf",
-      "changed_from": "B",
-      "previous_type": "연구 해설"
-    },
-    "authors": "Michael Molenda",
-    "title": "Cone of Experience",
-    "year": "2003",
-    "publisher": "Educational Technology: An Encyclopedia",
-    "url": "https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf"
-  },
-  {
-    "id": "bio-tyler-uchicago",
-    "tier": "B",
-    "type": "기관 아카이브",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 아카이브"
-    },
-    "authors": "University of Chicago Library",
-    "title": "Guide to the Ralph W. Tyler Papers 1931–1988",
-    "publisher": "University of Chicago",
-    "url": "https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.TYLER"
-  },
-  {
-    "id": "tyler-1949",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Ralph W. Tyler",
-    "title": "Basic Principles of Curriculum and Instruction",
-    "year": "1949",
-    "publisher": "University of Chicago Press",
-    "url": "https://press.uchicago.edu/ucp/books/book/chicago/B/bo17239506.html"
-  },
-  {
-    "id": "tyler-eight-year",
-    "tier": "B",
-    "type": "기관 아카이브",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 아카이브"
-    },
-    "authors": "University of Chicago Library",
-    "title": "Ralph W. Tyler Papers — Eight-Year Study records",
-    "year": "1931–1942",
-    "publisher": "University of Chicago",
-    "url": "https://www.lib.uchicago.edu/ead/rlg/ICU.SPCL.TYLER.pdf"
-  },
-  {
-    "id": "bio-mager-guild",
-    "tier": "B",
-    "type": "전문기관 추도문",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 전문기관 추도문"
-    },
-    "authors": "Bill Brandon et al.",
-    "title": "In Memoriam: Robert F. Mager, 1923–2020",
-    "year": "2020",
-    "publisher": "The Learning Guild",
-    "url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
-  },
-  {
-    "id": "mager-1962",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Robert F. Mager",
-    "title": "Preparing Objectives for Programmed Instruction",
-    "year": "1962",
-    "publisher": "Fearon Publishers",
-    "url": "https://eric.ed.gov/?id=ED018143"
-  },
-  {
-    "id": "mager-pipe-1970",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Robert F. Mager; Peter Pipe",
-    "title": "Analyzing Performance Problems",
-    "year": "1970",
-    "publisher": "Fearon Publishers",
-    "url": "https://archive.org/details/analyzingperform0000mage"
-  },
-  {
-    "id": "bio-dick-fsu",
-    "tier": "B",
-    "type": "기관 프로그램사",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 프로그램사"
-    },
-    "authors": "Instructional Systems and Learning Technologies",
-    "title": "Instructional Systems and Learning Technologies — Program Overview",
-    "publisher": "Florida State University",
-    "url": "https://annescollege.fsu.edu/instructional-systems-and-learning-technologies"
-  },
-  {
-    "id": "dick-carey-1978",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Walter Dick; Lou Carey",
-    "title": "The Systematic Design of Instruction",
-    "year": "1978",
-    "publisher": "Scott, Foresman",
-    "url": "https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146"
-  },
-  {
-    "id": "dick-1996",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Walter Dick",
-    "title": "The Dick and Carey Model: Will It Survive the Decade?",
-    "year": "1996",
-    "publisher": "Educational Technology Research and Development, 44",
-    "url": "https://doi.org/10.1007/BF02300425",
-    "doi": "10.1007/BF02300425"
-  },
-  {
-    "id": "bio-reigeluth-author",
-    "tier": "A",
-    "type": "당사자 약력",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "Reigeluth의 개인 About Me 페이지가 'My research'와 'I have published'로 자신의 연구와 경력을 직접 기록하고 페이지 저작권도 본인에게 둔다: https://www.reigeluth.net/me-c1owg"
-    },
-    "authors": "Charles M. Reigeluth",
-    "title": "About Me",
-    "publisher": "Charles M. Reigeluth",
-    "url": "https://www.reigeluth.net/me-c1owg"
-  },
-  {
-    "id": "reigeluth-1983",
-    "tier": "B",
-    "type": "편집서",
-    "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "출판사 설명은 여덟 교수이론을 각 원 이론가의 장으로 모아 현재 상태를 개관한 책이라고 밝히므로 Reigeluth의 편집자 지위만으로 그의 원저작이 되지 않는다: https://www.routledge.com/Instructional-Design-Theories-and-Models-An-Overview-of-Their-Current/Reigeluth/p/book/9780429237867",
-      "changed_from": "A",
-      "previous_type": "편집 원저서"
-    },
-    "authors": "Charles M. Reigeluth (ed.)",
-    "title": "Instructional-Design Theories and Models, Volume I",
+    "authors": "Richard E. Clark",
+    "title": "Reconsidering Research on Learning from Media",
     "year": "1983",
-    "publisher": "Lawrence Erlbaum Associates",
-    "url": "https://www.routledge.com/Instructional-Design-Theories-and-Models-An-Overview-of-their-Current-Status/Reigeluth/p/book/9780898592757"
+    "publisher": "Review of Educational Research, 53(4)",
+    "url": "https://doi.org/10.3102/00346543053004445",
+    "doi": "10.3102/00346543053004445"
   },
   {
-    "id": "reigeluth-frick-1999",
+    "id": "clark-1994",
     "tier": "A",
-    "type": "원 장",
+    "type": "논쟁 원논문",
     "tier_review": {
       "rule": "1-original-work",
-      "evidence": "type-default: 원 장",
+      "evidence": "type-default: 논쟁 원논문",
       "changed_from": "B"
     },
-    "authors": "Charles M. Reigeluth; Theodore W. Frick",
-    "title": "Formative Research: A Methodology for Creating and Improving Design Theories",
-    "year": "1999",
-    "publisher": "Instructional-Design Theories and Models, Volume II",
-    "url": "https://www.reigeluth.net/research-methods"
-  },
-  {
-    "id": "bio-seels-archive",
-    "tier": "B",
-    "type": "전문 아카이브",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 전문 아카이브"
-    },
-    "authors": "International Visual Literacy Association",
-    "title": "Barbara Seels Papers, 1968–1999",
-    "year": "2020",
-    "publisher": "Visual Literacy Today",
-    "url": "https://visualliteracytoday.org/barbara-seels-papers-1968-1999-mss-156/"
-  },
-  {
-    "id": "seels-richey-1994",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Barbara B. Seels; Rita C. Richey",
-    "title": "Instructional Technology: The Definition and Domains of the Field",
+    "authors": "Richard E. Clark",
+    "title": "Media Will Never Influence Learning",
     "year": "1994",
-    "publisher": "Association for Educational Communications and Technology",
-    "url": "https://openlibrary.org/books/OL1127250M/Instructional_technology"
-  },
-  {
-    "id": "seels-richey-1994-case",
-    "tier": "A",
-    "type": "원논문·서지",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문·서지",
-      "changed_from": "B"
-    },
-    "authors": "Rita C. Richey; Barbara Seels",
-    "title": "Defining a Field: A Case Study of the Development of the 1994 Definition",
-    "year": "1994",
-    "publisher": "Educational Media and Technology Yearbook",
-    "url": "https://eric.ed.gov/?id=EJ491599"
-  },
-  {
-    "id": "bio-richey-wayne",
-    "tier": "B",
-    "type": "기관 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 약력"
-    },
-    "authors": "Academy of Scholars",
-    "title": "Rita C. Richey — Academy Member Profile",
-    "publisher": "Wayne State University",
-    "url": "https://academy.wayne.edu/docs/acadamy-brochure.pdf"
-  },
-  {
-    "id": "richey-1986",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Rita C. Richey",
-    "title": "The Theoretical and Conceptual Bases of Instructional Design",
-    "year": "1986",
-    "publisher": "Kogan Page",
-    "url": "https://openlibrary.org/works/OL3913317W/The_theoretical_and_conceptual_bases_of_instructional_design"
-  },
-  {
-    "id": "richey-klein-2007",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Rita C. Richey; James D. Klein",
-    "title": "Design and Development Research",
-    "year": "2007",
-    "publisher": "Lawrence Erlbaum Associates",
-    "url": "https://www.routledge.com/Design-and-Development-Research-Methods-Strategies-and-Issues/Richey-Klein/p/book/9780805857320"
-  },
-  {
-    "id": "bio-jonassen-profile",
-    "tier": "B",
-    "type": "연구자 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 연구자 약력"
-    },
-    "authors": "Educational Technology: An Introduction",
-    "title": "David H. Jonassen",
-    "url": "https://www.educational-technology.info/researchers/david-h-jonassen"
-  },
-  {
-    "id": "jonassen-1991",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "David H. Jonassen",
-    "title": "Objectivism versus Constructivism: Do We Need a New Philosophical Paradigm?",
-    "year": "1991",
-    "publisher": "Educational Technology Research and Development, 39",
-    "url": "https://doi.org/10.1007/BF02296434",
-    "doi": "10.1007/BF02296434"
-  },
-  {
-    "id": "jonassen-2000",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "David H. Jonassen",
-    "title": "Toward a Design Theory of Problem Solving",
-    "year": "2000",
-    "publisher": "Educational Technology Research and Development, 48",
-    "url": "https://doi.org/10.1007/BF02300500",
-    "doi": "10.1007/BF02300500"
-  },
-  {
-    "id": "bio-sweller-unsw",
-    "tier": "B",
-    "type": "기관 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 약력"
-    },
-    "authors": "School of Education",
-    "title": "Emeritus Professor John Sweller",
-    "publisher": "UNSW Sydney",
-    "url": "https://www.unsw.edu.au/staff/john-sweller"
-  },
-  {
-    "id": "sweller-1988",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "John Sweller",
-    "title": "Cognitive Load During Problem Solving: Effects on Learning",
-    "year": "1988",
-    "publisher": "Cognitive Science, 12(2)",
-    "url": "https://doi.org/10.1207/s15516709cog1202_4",
-    "doi": "10.1207/s15516709cog1202_4"
-  },
-  {
-    "id": "sweller-2011",
-    "tier": "B",
-    "type": "연구서",
-    "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "type-default: 연구서",
-      "changed_from": "A"
-    },
-    "authors": "John Sweller; Paul Ayres; Slava Kalyuga",
-    "title": "Cognitive Load Theory",
-    "year": "2011",
-    "publisher": "Springer",
-    "url": "https://doi.org/10.1007/978-1-4419-8126-4",
-    "doi": "10.1007/978-1-4419-8126-4"
-  },
-  {
-    "id": "bio-lave-berkeley",
-    "tier": "B",
-    "type": "기관 약력·강연",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 약력·강연"
-    },
-    "authors": "GSI Teaching & Resource Center",
-    "title": "Jean Lave: Learning as a Socially Situated Activity",
-    "year": "2011",
-    "publisher": "University of California, Berkeley",
-    "url": "https://gsi.berkeley.edu/programs-services/hsl-project/hsl-speakers/lave/"
-  },
-  {
-    "id": "lave-1988",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Jean Lave",
-    "title": "Cognition in Practice",
-    "year": "1988",
-    "publisher": "Cambridge University Press",
-    "url": "https://doi.org/10.1017/CBO9780511609268",
-    "doi": "10.1017/CBO9780511609268"
-  },
-  {
-    "id": "lave-wenger-1991",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Jean Lave; Etienne Wenger",
-    "title": "Situated Learning: Legitimate Peripheral Participation",
-    "year": "1991",
-    "publisher": "Cambridge University Press",
-    "url": "https://www.ischool.berkeley.edu/research/publications/1991/situated-learning-legitimate-peripheral-participation"
-  },
-  {
-    "id": "bio-dick-authority",
-    "tier": "C",
-    "type": "도서관 전거",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 도서관 전거"
-    },
-    "authors": "Open Library",
-    "title": "Walter Dick — Author Record",
-    "publisher": "Internet Archive",
-    "url": "https://openlibrary.org/authors/OL450418A/Walter_Dick",
-    "accessed": "2026-08-14"
-  },
-  {
-    "id": "sweller-2016-story",
-    "tier": "A",
-    "type": "당사자 회고 논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "Education Review는 Sweller를 단독 저자로 표시하고 초록부터 자신이 반세기 연구에서 배운 바를 'I have learned'로 직접 회고한다: https://edrev.asu.edu/index.php/ER/article/view/2025"
-    },
-    "authors": "John Sweller",
-    "title": "Story of a Research Program",
-    "year": "2016",
-    "publisher": "Education Review, 23",
-    "url": "https://doi.org/10.14507/er.v23.2025",
-    "doi": "10.14507/er.v23.2025"
-  },
-  {
-    "id": "bio-lave-authority",
-    "tier": "C",
-    "type": "도서관 전거 통합 데이터",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 도서관 전거 통합 데이터"
-    },
-    "authors": "Wikidata contributors; BIBSYS Authority File",
-    "title": "Jean Lave (Q1685635)",
-    "publisher": "Wikidata",
-    "url": "https://www.wikidata.org/wiki/Q1685635",
-    "accessed": "2026-08-14"
-  },
-  {
-    "id": "apa-ethics",
-    "tier": "C",
-    "type": "기관 자료",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 기관 자료"
-    },
-    "authors": "American Psychological Association",
-    "title": "APA Style: Citing Sources",
-    "year": "2024",
-    "url": "https://apastyle.apa.org/style-grammar-guidelines/references",
-    "accessed": "2026-08-14"
-  },
-  {
-    "id": "bio-heinich-iu",
-    "tier": "B",
-    "type": "대학 공식 추모 기록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 대학 공식 추모 기록"
-    },
-    "authors": "Indiana University School of Education",
-    "title": "Robert Heinich — In Memoriam",
-    "year": "2020",
-    "publisher": "Indiana University",
-    "url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
-  },
-  {
-    "id": "heinich-1984",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Robert Heinich",
-    "title": "The Proper Study of Instructional Technology",
-    "year": "1984",
-    "publisher": "Educational Communication and Technology Journal, 32(2)",
-    "url": "https://doi.org/10.1007/BF02766667",
-    "doi": "10.1007/BF02766667"
-  },
-  {
-    "id": "heinich-media-1982",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Robert Heinich; Michael Molenda; James D. Russell",
-    "title": "Instructional Media and the New Technologies of Instruction",
-    "year": "1982",
-    "publisher": "John Wiley & Sons",
-    "url": "https://search.worldcat.org/title/7476704"
-  },
-  {
-    "id": "bio-glaser-aps",
-    "tier": "B",
-    "type": "학회 추도문",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학회 추도문"
-    },
-    "authors": "Lauren B. Resnick; Drew Gitomer; Susanne Lajoie; Sigmund Tobias",
-    "title": "Remembering Robert Glaser",
-    "year": "2013",
-    "publisher": "Association for Psychological Science",
-    "url": "https://www.psychologicalscience.org/observer/remembering-robert-glaser"
-  },
-  {
-    "id": "glaser-1963",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Robert Glaser",
-    "title": "Instructional Technology and the Measurement of Learning Outcomes: Some Questions",
-    "year": "1963",
-    "publisher": "American Psychologist, 18(8)",
-    "url": "https://doi.org/10.1037/h0049294",
-    "doi": "10.1037/h0049294"
-  },
-  {
-    "id": "glaser-1984",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Robert Glaser",
-    "title": "Education and Thinking: The Role of Knowledge",
-    "year": "1984",
-    "publisher": "American Psychologist, 39(2)",
-    "url": "https://doi.org/10.1037/0003-066X.39.2.93",
-    "doi": "10.1037/0003-066X.39.2.93"
-  },
-  {
-    "id": "bio-novak-cornell",
-    "tier": "B",
-    "type": "대학 공식 부고",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 대학 공식 부고"
-    },
-    "authors": "Krisy Gashler",
-    "title": "Joseph Novak, pioneer of education theory, dies at 92",
-    "year": "2023",
-    "publisher": "Cornell Chronicle",
-    "url": "https://news.cornell.edu/stories/2023/11/joseph-novak-pioneer-education-theory-dies-92"
-  },
-  {
-    "id": "bio-novak-ihmc",
-    "tier": "A",
-    "type": "당사자 자서전·기관 기록",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "IHMC 페이지가 Novak이 자서전과 영상으로 자신의 이야기를 남겼다고 밝히고 'my lifelong search'로 시작하는 그의 직접 진술과 자서전 원문을 제공한다: https://www.ihmc.us/joseph-novak/"
-    },
-    "authors": "Joseph D. Novak; IHMC",
-    "title": "A Search to Create a Science of Education",
-    "year": "2018",
-    "publisher": "Florida Institute for Human & Machine Cognition",
-    "url": "https://www.ihmc.us/joseph-novak/"
-  },
-  {
-    "id": "novak-1984",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Joseph D. Novak; D. Bob Gowin",
-    "title": "Learning How to Learn",
-    "year": "1984",
-    "publisher": "Cambridge University Press",
-    "url": "https://doi.org/10.1017/CBO9781139173469",
-    "doi": "10.1017/CBO9781139173469"
-  },
-  {
-    "id": "novak-2002",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Joseph D. Novak",
-    "title": "Meaningful Learning: The Essential Factor for Conceptual Change",
-    "year": "2002",
-    "publisher": "Science Education, 86(4)",
-    "url": "https://doi.org/10.1002/sce.10032",
-    "doi": "10.1002/sce.10032"
-  },
-  {
-    "id": "bio-gilbert-sixboxes",
-    "tier": "B",
-    "type": "전문기관 인물 기록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 전문기관 인물 기록"
-    },
-    "authors": "Carl Binder; The Performance Thinking Network",
-    "title": "Inspiration — Thomas F. Gilbert",
-    "publisher": "The Performance Thinking Network",
-    "url": "https://www.sixboxes.com/Inspiration.html"
-  },
-  {
-    "id": "gilbert-1978",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Thomas F. Gilbert",
-    "title": "Human Competence: Engineering Worthy Performance",
-    "year": "1978",
-    "publisher": "McGraw-Hill",
-    "url": "https://agris.fao.org/search/en/providers/122535/records/65ddd7cd0f3e94b9e5c5db55"
-  },
-  {
-    "id": "gilbert-2019",
-    "tier": "B",
-    "type": "역사적 재검토 사설",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "DOI 원문은 Houmanfar 등 후대 연구자들이 Thomas Gilbert의 1978년 저작과 40년 영향을 재검토한 사설로 표시한다: https://doi.org/10.1080/01608061.2019.1599165",
-      "previous_type": "역사적 재검토 논문"
-    },
-    "authors": "Marilyn Gilbert et al.",
-    "title": "Human Competence Revisited: 40 Years of Impact",
-    "year": "2019",
-    "publisher": "Performance Improvement Quarterly",
-    "url": "https://doi.org/10.1080/01608061.2019.1599165",
-    "doi": "10.1080/01608061.2019.1599165"
-  },
-  {
-    "id": "bio-brown-berkeley",
-    "tier": "B",
-    "type": "대학 공식 부고",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 대학 공식 부고"
-    },
-    "authors": "Patricia McBroom",
-    "title": "Pioneering UC Berkeley educator Ann L. Brown dies at age 56",
-    "year": "1999",
-    "publisher": "University of California, Berkeley",
-    "url": "https://newsarchive.berkeley.edu/news/media/releases/99legacy/6-10-1999.html"
-  },
-  {
-    "id": "bio-brown-fabbs",
-    "tier": "B",
-    "type": "학술연합 기념 기록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학술연합 기념 기록"
-    },
-    "authors": "Federation of Associations in Behavioral & Brain Sciences",
-    "title": "In Memory Of Ann L. Brown",
-    "publisher": "FABBS",
-    "url": "https://fabbs.org/about/in-honor-of/ann-l-brown-phd/"
-  },
-  {
-    "id": "brown-palincsar-1984",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Annemarie Sullivan Palincsar; Ann L. Brown",
-    "title": "Reciprocal Teaching of Comprehension-Fostering and Comprehension-Monitoring Activities",
-    "year": "1984",
-    "publisher": "Cognition and Instruction, 1(2)",
-    "url": "https://doi.org/10.1207/s1532690xci0102_1",
-    "doi": "10.1207/s1532690xci0102_1"
-  },
-  {
-    "id": "brown-1992",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Ann L. Brown",
-    "title": "Design Experiments: Theoretical and Methodological Challenges in Creating Complex Interventions in Classroom Settings",
-    "year": "1992",
-    "publisher": "Journal of the Learning Sciences, 2(2)",
-    "url": "https://doi.org/10.1207/s15327809jls0202_2",
-    "doi": "10.1207/s15327809jls0202_2"
-  },
-  {
-    "id": "bio-collins-northwestern",
-    "tier": "B",
-    "type": "대학 공식 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 대학 공식 약력"
-    },
-    "authors": "Northwestern University School of Education and Social Policy",
-    "title": "Allan M. Collins — Professor Emeritus",
-    "publisher": "Northwestern University",
-    "url": "https://sesp.northwestern.edu/people/faculty/allan-m-collins.html"
-  },
-  {
-    "id": "bio-collins-authority",
-    "tier": "C",
-    "type": "백과사전·생년 교차확인",
-    "tier_review": {
-      "rule": "4-general-reference",
-      "evidence": "type-default: 백과사전·생년 교차확인"
-    },
-    "authors": "Wikipedia editors",
-    "title": "Allan M. Collins",
-    "publisher": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/Allan_M._Collins",
-    "accessed": "2026-08-14"
+    "publisher": "Educational Technology Research and Development, 42(2)",
+    "url": "https://doi.org/10.1007/BF02299088",
+    "doi": "10.1007/BF02299088"
   },
   {
     "id": "collins-1989",
@@ -1456,36 +948,286 @@
     "doi": "10.1207/S15327809JLS1301_2"
   },
   {
-    "id": "bio-clark-usc",
-    "tier": "B",
-    "type": "대학 공식 약력",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 대학 공식 약력"
-    },
-    "authors": "USC Rossier School of Education",
-    "title": "Richard E. Clark — Emeritus Professor",
-    "publisher": "University of Southern California",
-    "url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
-  },
-  {
-    "id": "bio-clark-interview",
+    "id": "dale-1933",
     "tier": "A",
-    "type": "동료평가 인터뷰",
+    "type": "원저서",
     "tier_review": {
       "rule": "1-original-work",
-      "evidence": "논문 본문은 Clark가 자신의 생애·연구·매체 논쟁을 'I'로 답하는 직접 인터뷰 기록을 수록한다: https://doi.org/10.1007/s10648-015-9341-3",
-      "changed_from": "B"
+      "evidence": "type-default: 원저서"
     },
-    "authors": "Daniel H. Robinson; Robert A. Bligh",
-    "title": "An Interview with Richard E. Clark",
-    "year": "2016",
-    "publisher": "Educational Psychology Review, 28",
-    "url": "https://doi.org/10.1007/s10648-015-9341-3",
-    "doi": "10.1007/s10648-015-9341-3"
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition",
+        "record_id": "OL6297221M",
+        "matched_fields": [
+          "title",
+          "publish_date"
+        ],
+        "evidence": "OpenLibrary edition OL6297221M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edgar-dale",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://openlibrary.org/books/OL6297221M.json",
+        "locator": "표제지",
+        "evidence": "Payne Fund Studies 총서로 데일이 단독 저술한 영화 비평 교재다. 레코드 저자 키가 데일이다.",
+        "identity_signals": [
+          {
+            "kind": "library-authority",
+            "value": "OpenLibrary edition OL6297221M · author key OL140932A (Edgar Dale)",
+            "evidence_url": "https://openlibrary.org/books/OL6297221M.json"
+          }
+        ]
+      }
+    },
+    "authors": "Edgar Dale",
+    "title": "How to Appreciate Motion Pictures",
+    "year": "1933",
+    "publisher": "The Macmillan Company",
+    "url": "https://openlibrary.org/books/OL6297221M",
+    "identifiers": {
+      "openlibrary_edition": "OL6297221M",
+      "oclc": "592997"
+    }
   },
   {
-    "id": "clark-1983",
+    "id": "dale-1935",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition",
+        "record_id": "OL7024984M",
+        "matched_fields": [
+          "title",
+          "publish_date"
+        ],
+        "evidence": "OpenLibrary edition OL7024984M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edgar-dale",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://openlibrary.org/books/OL7024984M.json",
+        "locator": "표제지",
+        "evidence": "데일이 단독 저술한 영화 내용 분석 연구다. 레코드 저자 키가 데일이다.",
+        "identity_signals": [
+          {
+            "kind": "library-authority",
+            "value": "OpenLibrary edition OL7024984M · author key OL140932A (Edgar Dale)",
+            "evidence_url": "https://openlibrary.org/books/OL7024984M.json"
+          }
+        ]
+      }
+    },
+    "authors": "Edgar Dale",
+    "title": "The Content of Motion Pictures",
+    "year": "1935",
+    "publisher": "The Macmillan Company",
+    "url": "https://openlibrary.org/books/OL7024984M",
+    "identifiers": {
+      "openlibrary_edition": "OL7024984M",
+      "oclc": "2165967"
+    }
+  },
+  {
+    "id": "dale-1946",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Edgar Dale",
+    "title": "Audio-Visual Methods in Teaching",
+    "year": "1946",
+    "publisher": "Dryden Press",
+    "url": "https://archive.org/details/audiovisualmetho0000edga"
+  },
+  {
+    "id": "dale-1954",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition",
+        "record_id": "OL6156672M",
+        "matched_fields": [
+          "title",
+          "publish_date",
+          "publishers",
+          "edition_name"
+        ],
+        "evidence": "OpenLibrary edition OL6156672M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edgar-dale",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://openlibrary.org/books/OL6156672M.json",
+        "locator": "판권지",
+        "evidence": "1946년 초판의 개정판이며 레코드의 edition_name이 'Rev. ed.'로 판본을 확정한다.",
+        "identity_signals": [
+          {
+            "kind": "library-authority",
+            "value": "OpenLibrary edition OL6156672M · author key OL140932A (Edgar Dale)",
+            "evidence_url": "https://openlibrary.org/books/OL6156672M.json"
+          }
+        ]
+      }
+    },
+    "authors": "Edgar Dale",
+    "title": "Audio-Visual Methods in Teaching, Revised Edition",
+    "year": "1954",
+    "publisher": "Dryden Press",
+    "url": "https://openlibrary.org/books/OL6156672M",
+    "identifiers": {
+      "openlibrary_edition": "OL6156672M",
+      "oclc": "250718",
+      "lccn": "54010722"
+    }
+  },
+  {
+    "id": "dale-1969",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition",
+        "record_id": "OL14883195M",
+        "matched_fields": [
+          "title",
+          "publish_date",
+          "isbn_10"
+        ],
+        "evidence": "OpenLibrary edition OL14883195M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edgar-dale",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://openlibrary.org/books/OL14883195M.json",
+        "locator": "판권지",
+        "evidence": "1946년 초판의 3판이다. ERIC ED043234와 ISBN 0039100545가 같은 판본을 가리킨다.",
+        "identity_signals": [
+          {
+            "kind": "library-authority",
+            "value": "OpenLibrary edition OL14883195M · author key OL140932A (Edgar Dale)",
+            "evidence_url": "https://openlibrary.org/books/OL14883195M.json"
+          }
+        ]
+      }
+    },
+    "authors": "Edgar Dale",
+    "title": "Audiovisual Methods in Teaching, Third Edition",
+    "year": "1969",
+    "publisher": "Holt, Rinehart & Winston",
+    "url": "https://openlibrary.org/books/OL14883195M",
+    "identifiers": {
+      "openlibrary_edition": "OL14883195M",
+      "oclc": "49546",
+      "isbn": "0039100545",
+      "eric": "ED043234"
+    }
+  },
+  {
+    "id": "dale-1976",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition",
+        "record_id": "OL30579676M",
+        "matched_fields": [
+          "title",
+          "publish_date"
+        ],
+        "evidence": "OpenLibrary edition OL30579676M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edgar-dale",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://openlibrary.org/books/OL30579676M.json",
+        "locator": "표제지",
+        "evidence": "데일과 조지프 오루크의 공저 어휘 조사다. 데일이 제1저자다.",
+        "identity_signals": [
+          {
+            "kind": "library-authority",
+            "value": "OpenLibrary edition OL30579676M · author key OL140932A (Edgar Dale)",
+            "evidence_url": "https://openlibrary.org/books/OL30579676M.json"
+          }
+        ]
+      }
+    },
+    "authors": "Edgar Dale",
+    "title": "The Living Word Vocabulary: The Words We Know",
+    "year": "1976",
+    "publisher": "Field Enterprises Educational Corp.",
+    "url": "https://openlibrary.org/books/OL30579676M",
+    "identifiers": {
+      "openlibrary_edition": "OL30579676M",
+      "oclc": "2665401",
+      "isbn": "0716631016"
+    }
+  },
+  {
+    "id": "dewey-1916",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "John Dewey",
+    "title": "Democracy and Education",
+    "year": "1916",
+    "publisher": "Macmillan",
+    "url": "https://archive.org/details/democracyandeduc00deweuoft"
+  },
+  {
+    "id": "dewey-1938",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "John Dewey",
+    "title": "Experience and Education",
+    "year": "1938",
+    "publisher": "Macmillan",
+    "url": "https://archive.org/details/experienceeducat00dewe"
+  },
+  {
+    "id": "dick-1996",
     "tier": "A",
     "type": "원논문",
     "tier_review": {
@@ -1493,55 +1235,237 @@
       "evidence": "type-default: 원논문",
       "changed_from": "B"
     },
-    "authors": "Richard E. Clark",
-    "title": "Reconsidering Research on Learning from Media",
-    "year": "1983",
-    "publisher": "Review of Educational Research, 53(4)",
-    "url": "https://doi.org/10.3102/00346543053004445",
-    "doi": "10.3102/00346543053004445"
+    "authors": "Walter Dick",
+    "title": "The Dick and Carey Model: Will It Survive the Decade?",
+    "year": "1996",
+    "publisher": "Educational Technology Research and Development, 44",
+    "url": "https://doi.org/10.1007/BF02300425",
+    "doi": "10.1007/BF02300425"
   },
   {
-    "id": "clark-1994",
+    "id": "dick-carey-1978",
     "tier": "A",
-    "type": "논쟁 원논문",
+    "type": "원저서",
     "tier_review": {
       "rule": "1-original-work",
-      "evidence": "type-default: 논쟁 원논문",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Walter Dick; Lou Carey",
+    "title": "The Systematic Design of Instruction",
+    "year": "1978",
+    "publisher": "Scott, Foresman",
+    "url": "https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146"
+  },
+  {
+    "id": "gagne-1965",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Robert M. Gagné",
+    "title": "The Conditions of Learning",
+    "year": "1965",
+    "publisher": "Holt, Rinehart and Winston",
+    "url": "https://archive.org/details/conditionsoflear0000gagn"
+  },
+  {
+    "id": "gagne-1974",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Robert M. Gagné",
+    "title": "Essentials of Learning for Instruction",
+    "year": "1974",
+    "publisher": "Dryden Press",
+    "url": "https://archive.org/details/essentialsoflear0000gagn_y0y6"
+  },
+  {
+    "id": "gagne-1985",
+    "tier": "B",
+    "type": "연구서",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "type-default: 연구서"
+    },
+    "authors": "Robert M. Gagné; Leslie J. Briggs; Walter W. Wager",
+    "title": "Principles of Instructional Design",
+    "year": "1985",
+    "publisher": "Holt, Rinehart and Winston",
+    "url": "https://archive.org/details/principlesofinst0000gagn"
+  },
+  {
+    "id": "gardner-bruner-2017",
+    "tier": "B",
+    "type": "학회 전기 회고록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학회 전기 회고록"
+    },
+    "authors": "Howard Gardner",
+    "title": "Jerome Seymour Bruner (Biographical Memoir)",
+    "year": "2017",
+    "publisher": "Proceedings of the American Philosophical Society, Vol. 161, No. 4",
+    "url": "https://www.amphilsoc.org/sites/default/files/2018-03/attachments/Bruner.pdf"
+  },
+  {
+    "id": "gilbert-1978",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Thomas F. Gilbert",
+    "title": "Human Competence: Engineering Worthy Performance",
+    "year": "1978",
+    "publisher": "McGraw-Hill",
+    "url": "https://agris.fao.org/search/en/providers/122535/records/65ddd7cd0f3e94b9e5c5db55"
+  },
+  {
+    "id": "gilbert-2019",
+    "tier": "B",
+    "type": "역사적 재검토 사설",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "DOI 원문은 Houmanfar 등 후대 연구자들이 Thomas Gilbert의 1978년 저작과 40년 영향을 재검토한 사설로 표시한다: https://doi.org/10.1080/01608061.2019.1599165",
+      "previous_type": "역사적 재검토 논문"
+    },
+    "authors": "Marilyn Gilbert et al.",
+    "title": "Human Competence Revisited: 40 Years of Impact",
+    "year": "2019",
+    "publisher": "Performance Improvement Quarterly",
+    "url": "https://doi.org/10.1080/01608061.2019.1599165",
+    "doi": "10.1080/01608061.2019.1599165"
+  },
+  {
+    "id": "glaser-1963",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
       "changed_from": "B"
     },
-    "authors": "Richard E. Clark",
-    "title": "Media Will Never Influence Learning",
-    "year": "1994",
-    "publisher": "Educational Technology Research and Development, 42(2)",
-    "url": "https://doi.org/10.1007/BF02299088",
-    "doi": "10.1007/BF02299088"
+    "authors": "Robert Glaser",
+    "title": "Instructional Technology and the Measurement of Learning Outcomes: Some Questions",
+    "year": "1963",
+    "publisher": "American Psychologist, 18(8)",
+    "url": "https://doi.org/10.1037/h0049294",
+    "doi": "10.1037/h0049294"
   },
   {
-    "id": "bio-kozma-sri",
-    "tier": "B",
-    "type": "기관 연구자 약력",
+    "id": "glaser-1984",
+    "tier": "A",
+    "type": "원논문",
     "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 연구자 약력"
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
     },
-    "authors": "Robert B. Kozma",
-    "title": "Robert Kozma — SRI International, Center for Technology and Learning",
-    "publisher": "SRI International / Academia.edu",
-    "url": "https://sri.academia.edu/RobertKozma"
+    "authors": "Robert Glaser",
+    "title": "Education and Thinking: The Role of Knowledge",
+    "year": "1984",
+    "publisher": "American Psychologist, 39(2)",
+    "url": "https://doi.org/10.1037/0003-066X.39.2.93",
+    "doi": "10.1037/0003-066X.39.2.93"
   },
   {
-    "id": "bio-kozma-event",
-    "tier": "B",
-    "type": "기관 강연 기록",
+    "id": "heinich-1984",
+    "tier": "A",
+    "type": "원논문",
     "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 강연 기록"
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
     },
-    "authors": "Fundació Bofill; Universitat Oberta de Catalunya",
-    "title": "Robert B. Kozma: ICTs and the Transformation of Education in the Knowledge Economy",
-    "year": "2012",
-    "publisher": "Fundació Bofill / UOC",
-    "url": "https://www.equitat.org/en/videos/robert-b-kozma-icts-and-transformation-education-knowledge-economy"
+    "authors": "Robert Heinich",
+    "title": "The Proper Study of Instructional Technology",
+    "year": "1984",
+    "publisher": "Educational Communication and Technology Journal, 32(2)",
+    "url": "https://doi.org/10.1007/BF02766667",
+    "doi": "10.1007/BF02766667"
+  },
+  {
+    "id": "heinich-media-1982",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Robert Heinich; Michael Molenda; James D. Russell",
+    "title": "Instructional Media and the New Technologies of Instruction",
+    "year": "1982",
+    "publisher": "John Wiley & Sons",
+    "url": "https://search.worldcat.org/title/7476704"
+  },
+  {
+    "id": "jonassen-1991",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
+    },
+    "authors": "David H. Jonassen",
+    "title": "Objectivism versus Constructivism: Do We Need a New Philosophical Paradigm?",
+    "year": "1991",
+    "publisher": "Educational Technology Research and Development, 39",
+    "url": "https://doi.org/10.1007/BF02296434",
+    "doi": "10.1007/BF02296434"
+  },
+  {
+    "id": "jonassen-2000",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
+    },
+    "authors": "David H. Jonassen",
+    "title": "Toward a Design Theory of Problem Solving",
+    "year": "2000",
+    "publisher": "Educational Technology Research and Development, 48",
+    "url": "https://doi.org/10.1007/BF02300500",
+    "doi": "10.1007/BF02300500"
+  },
+  {
+    "id": "keller-1983",
+    "tier": "A",
+    "type": "원저서 수록 장",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "Keller의 후대 회고는 동기 이론을 네 군집으로 합성한 모형이 Keller 1983에서 나왔고 이후 ARCS로 명명됐다고 확인한다: https://onlinelibrary.wiley.com/doi/10.1002/tl.20265",
+      "changed_from": "B"
+    },
+    "authors": "John M. Keller",
+    "title": "Motivational Design of Instruction",
+    "year": "1983",
+    "publisher": "Instructional-Design Theories and Models: An Overview of Their Current Status (C. M. Reigeluth, Ed.), Lawrence Erlbaum Associates, pp. 383-434",
+    "url": "https://archive.org/details/instructionaldes0000unse_j6c8"
+  },
+  {
+    "id": "keller-1987",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
+    },
+    "authors": "John M. Keller",
+    "title": "Development and Use of the ARCS Model of Motivational Design",
+    "year": "1987",
+    "publisher": "Journal of Instructional Development, 10(3)",
+    "url": "https://doi.org/10.1007/BF02905780",
+    "doi": "10.1007/BF02905780"
   },
   {
     "id": "kozma-1991",
@@ -1576,32 +1500,227 @@
     "doi": "10.1007/BF02299087"
   },
   {
-    "id": "bio-moore-author",
-    "tier": "B",
-    "type": "개인 사이트 3인칭 약력",
+    "id": "lave-1988",
+    "tier": "A",
+    "type": "원저서",
     "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "페이지는 Moore를 일관되게 3인칭으로 서술하고 별도 저자 표기가 없어 개인 도메인만으로 당사자 직접 기록을 확인할 수 없다: https://michaelgmoore.com/a/",
-      "changed_from": "A",
-      "previous_type": "당사자 공식 약력"
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
     },
-    "authors": "Michael Grahame Moore",
-    "title": "Michael G. Moore — Distinguished Professor Emeritus",
-    "publisher": "The Pennsylvania State University / author site",
-    "url": "https://michaelgmoore.com/a/"
+    "authors": "Jean Lave",
+    "title": "Cognition in Practice",
+    "year": "1988",
+    "publisher": "Cambridge University Press",
+    "url": "https://doi.org/10.1017/CBO9780511609268",
+    "doi": "10.1017/CBO9780511609268"
   },
   {
-    "id": "bio-moore-hall",
+    "id": "lave-wenger-1991",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Jean Lave; Etienne Wenger",
+    "title": "Situated Learning: Legitimate Peripheral Participation",
+    "year": "1991",
+    "publisher": "Cambridge University Press",
+    "url": "https://www.ischool.berkeley.edu/research/publications/1991/situated-learning-legitimate-peripheral-participation"
+  },
+  {
+    "id": "mager-1962",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Robert F. Mager",
+    "title": "Preparing Objectives for Programmed Instruction",
+    "year": "1962",
+    "publisher": "Fearon Publishers",
+    "url": "https://eric.ed.gov/?id=ED018143"
+  },
+  {
+    "id": "mager-pipe-1970",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Robert F. Mager; Peter Pipe",
+    "title": "Analyzing Performance Problems",
+    "year": "1970",
+    "publisher": "Fearon Publishers",
+    "url": "https://archive.org/details/analyzingperform0000mage"
+  },
+  {
+    "id": "masters-2013",
     "tier": "B",
-    "type": "기관 명예의전당 기록",
+    "type": "문헌 고찰 논문",
     "tier_review": {
       "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 기관 명예의전당 기록"
+      "evidence": "타인이 쓴 피어리뷰 문헌 고찰 논문이다. 데일 본인의 저작이 아니다."
     },
-    "authors": "International Adult and Continuing Education Hall of Fame",
-    "title": "Michael Grahame Moore — Inductee Details",
-    "publisher": "University of Oklahoma Outreach",
-    "url": "https://halloffame.outreach.ou.edu/Inductions/Inductee-Details/michael-grahame-moore"
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.3109/0142159X.2013.800636",
+        "matched_fields": [
+          "title",
+          "author",
+          "issued"
+        ],
+        "evidence": "Crossref API가 제목·저자(Ken Masters)·발행연도 2013을 반환했다."
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edgar-dale",
+        "kind": "criticizes",
+        "evidence_url": "https://api.crossref.org/works/10.3109/0142159X.2013.800636",
+        "locator": "제목과 초록",
+        "evidence": "제목이 'Edgar Dale's Pyramid of Learning in Medical Education'으로 데일에게 잘못 귀속된 학습 피라미드를 직접 대상으로 삼는 문헌 고찰이다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Crossref 레코드가 저자를 Ken Masters로 확정한다. 대상 인물 Edgar Dale은 제목에 명시된다.",
+            "evidence_url": "https://api.crossref.org/works/10.3109/0142159X.2013.800636"
+          }
+        ]
+      }
+    },
+    "authors": "Ken Masters",
+    "title": "Edgar Dale's Pyramid of Learning in Medical Education: A Literature Review",
+    "year": "2013",
+    "publisher": "Medical Teacher, 35(11)",
+    "url": "https://doi.org/10.3109/0142159X.2013.800636",
+    "doi": "10.3109/0142159X.2013.800636",
+    "identifiers": {
+      "doi": "10.3109/0142159X.2013.800636"
+    }
+  },
+  {
+    "id": "mayer-1997",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
+    },
+    "authors": "Richard E. Mayer; Roxana Moreno",
+    "title": "A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory",
+    "year": "1998",
+    "publisher": "Journal of Educational Psychology, 90(2)",
+    "url": "https://doi.org/10.1037/0022-0663.90.2.312",
+    "doi": "10.1037/0022-0663.90.2.312"
+  },
+  {
+    "id": "mayer-2005",
+    "tier": "B",
+    "type": "연구서",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "type-default: 연구서"
+    },
+    "authors": "Richard E. Mayer (ed.)",
+    "title": "The Cambridge Handbook of Multimedia Learning",
+    "year": "2005",
+    "publisher": "Cambridge University Press",
+    "url": "https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm"
+  },
+  {
+    "id": "merrienboer-1997",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Jeroen J. G. van Merriënboer",
+    "title": "Training Complex Cognitive Skills: A Four-Component Instructional Design Model for Technical Training",
+    "year": "1997",
+    "publisher": "Educational Technology Publications",
+    "url": "https://research.utwente.nl/en/publications/training-complex-cognitive-skills-a-four-component-instructional-/"
+  },
+  {
+    "id": "merrienboer-2002",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
+    },
+    "authors": "Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock",
+    "title": "Blueprints for Complex Learning: The 4C/ID-model",
+    "year": "2002",
+    "publisher": "Educational Technology Research and Development, 50(2)",
+    "url": "https://doi.org/10.1007/BF02504993",
+    "doi": "10.1007/BF02504993"
+  },
+  {
+    "id": "merrill-2002",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
+    },
+    "authors": "M. David Merrill",
+    "title": "First Principles of Instruction",
+    "year": "2002",
+    "publisher": "Educational Technology Research and Development, 50(3)",
+    "url": "https://doi.org/10.1007/BF02505024",
+    "doi": "10.1007/BF02505024"
+  },
+  {
+    "id": "merrill-twitchell-1994",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "M. David Merrill; David G. Twitchell (Ed.)",
+    "title": "Instructional Design Theory",
+    "year": "1994",
+    "publisher": "Educational Technology Publications",
+    "url": "https://openlibrary.org/books/OL1433631M"
+  },
+  {
+    "id": "mitnews-papert-2016",
+    "tier": "B",
+    "type": "대학 공식 부고",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 대학 공식 부고"
+    },
+    "authors": "MIT News Office",
+    "title": "Seymour Papert, pioneer of constructionist learning, dies at 88",
+    "year": "2016",
+    "publisher": "MIT News",
+    "url": "https://news.mit.edu/2016/seymour-papert-pioneer-of-constructionist-learning-dies-0801"
+  },
+  {
+    "id": "molenda-2003-cone",
+    "tier": "C",
+    "type": "전문 백과사전 항목",
+    "tier_review": {
+      "rule": "4-general-reference",
+      "evidence": "원문 머리말이 Dale의 원추를 설명하기 위해 Educational Technology: An Encyclopedia에 제출된 항목이라고 명시한다: https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf",
+      "changed_from": "B",
+      "previous_type": "연구 해설"
+    },
+    "authors": "Michael Molenda",
+    "title": "Cone of Experience",
+    "year": "2003",
+    "publisher": "Educational Technology: An Encyclopedia",
+    "url": "https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf"
   },
   {
     "id": "moore-1973",
@@ -1634,58 +1753,247 @@
     "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore"
   },
   {
-    "id": "bio-wenger-author",
-    "tier": "A",
-    "type": "당사자 공식 약력",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "Wenger-Trayner가 'I have been working'과 'my personal page'로 연구 여정과 생애를 직접 서술한다: https://www.wenger-trayner.com/etienne/"
-    },
-    "authors": "Etienne Wenger-Trayner",
-    "title": "About Etienne",
-    "publisher": "Wenger-Trayner",
-    "url": "https://www.wenger-trayner.com/etienne/"
-  },
-  {
-    "id": "wenger-1998",
+    "id": "novak-1984",
     "tier": "A",
     "type": "원저서",
     "tier_review": {
       "rule": "1-original-work",
       "evidence": "type-default: 원저서"
     },
-    "authors": "Etienne Wenger",
-    "title": "Communities of Practice: Learning, Meaning, and Identity",
-    "year": "1998",
+    "authors": "Joseph D. Novak; D. Bob Gowin",
+    "title": "Learning How to Learn",
+    "year": "1984",
     "publisher": "Cambridge University Press",
-    "url": "https://doi.org/10.1017/CBO9780511803932",
-    "doi": "10.1017/CBO9780511803932"
+    "url": "https://doi.org/10.1017/CBO9781139173469",
+    "doi": "10.1017/CBO9781139173469"
   },
   {
-    "id": "bio-scardamalia-nae",
-    "tier": "B",
-    "type": "학술원 공식 약력",
+    "id": "novak-2002",
+    "tier": "A",
+    "type": "원논문",
     "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학술원 공식 약력"
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
     },
-    "authors": "National Academy of Education",
-    "title": "Marlene Scardamalia",
-    "publisher": "National Academy of Education",
-    "url": "https://naeducation.org/member/marlene-scardamalia/"
+    "authors": "Joseph D. Novak",
+    "title": "Meaningful Learning: The Essential Factor for Conceptual Change",
+    "year": "2002",
+    "publisher": "Science Education, 86(4)",
+    "url": "https://doi.org/10.1002/sce.10032",
+    "doi": "10.1002/sce.10032"
   },
   {
-    "id": "bio-scardamalia-ikit",
+    "id": "ozer-bandura-2022",
     "tier": "B",
-    "type": "연구기관 공식 약력",
+    "type": "학회지 부고",
     "tier_review": {
       "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 연구기관 공식 약력"
+      "evidence": "type-default: 학회지 부고"
     },
-    "authors": "Institute for Knowledge Innovation and Technology",
-    "title": "Marlene Scardamalia",
-    "publisher": "OISE / University of Toronto",
-    "url": "https://ikit.org/people/scardamalia.html"
+    "authors": "Elizabeth M. Ozer",
+    "title": "Albert Bandura (1925–2021)",
+    "year": "2022",
+    "publisher": "American Psychologist",
+    "url": "https://escholarship.org/uc/item/8pw310xd"
+  },
+  {
+    "id": "papert-1980",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Seymour Papert",
+    "title": "Mindstorms: Children, Computers, and Powerful Ideas",
+    "year": "1980",
+    "publisher": "Basic Books",
+    "url": "https://archive.org/details/mindstormschildr0000pape"
+  },
+  {
+    "id": "papert-1993",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Seymour Papert",
+    "title": "The Children's Machine: Rethinking School in the Age of the Computer",
+    "year": "1993",
+    "publisher": "Basic Books",
+    "url": "https://archive.org/details/childrensmachine00seym"
+  },
+  {
+    "id": "piaget-1952",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Jean Piaget",
+    "title": "The Origins of Intelligence in Children",
+    "year": "1952",
+    "publisher": "International Universities Press",
+    "url": "https://archive.org/details/originsofintelli0000piag"
+  },
+  {
+    "id": "piaget-1970",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Jean Piaget",
+    "title": "Genetic Epistemology",
+    "year": "1970",
+    "publisher": "Columbia University Press",
+    "url": "https://cup.columbia.edu/book/genetic-epistemology/9780231059923"
+  },
+  {
+    "id": "pillsbury-dewey-1957",
+    "tier": "B",
+    "type": "학회 전기 회고록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학회 전기 회고록"
+    },
+    "authors": "Walter B. Pillsbury",
+    "title": "John Dewey 1859–1952: A Biographical Memoir",
+    "year": "1957",
+    "publisher": "National Academy of Sciences",
+    "url": "https://www.nasonline.org/wp-content/uploads/2024/06/dewey-john.pdf"
+  },
+  {
+    "id": "pressey-1926",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문"
+    },
+    "authors": "Sidney L. Pressey",
+    "title": "A Simple Apparatus Which Gives Tests and Scores—and Teaches",
+    "year": "1926",
+    "publisher": "School and Society, 23",
+    "url": "https://cir.nii.ac.jp/crid/1571135649671295104"
+  },
+  {
+    "id": "pressey-smithsonian",
+    "tier": "B",
+    "type": "박물관 해설",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 박물관 해설"
+    },
+    "authors": "National Museum of American History",
+    "title": "Teaching Machines and Mechanical Learning",
+    "publisher": "Smithsonian Institution",
+    "url": "https://www.si.edu/spotlight/teaching-machines"
+  },
+  {
+    "id": "rachlin-skinner-1995",
+    "tier": "B",
+    "type": "학회 전기 회고록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학회 전기 회고록"
+    },
+    "authors": "Howard Rachlin",
+    "title": "B. F. Skinner (Biographical Memoirs, Vol. 67)",
+    "year": "1995",
+    "publisher": "National Academy of Sciences",
+    "url": "https://www.nationalacademies.org/read/4894/chapter/19"
+  },
+  {
+    "id": "reigeluth-1983",
+    "tier": "B",
+    "type": "편집서",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "출판사 설명은 여덟 교수이론을 각 원 이론가의 장으로 모아 현재 상태를 개관한 책이라고 밝히므로 Reigeluth의 편집자 지위만으로 그의 원저작이 되지 않는다: https://www.routledge.com/Instructional-Design-Theories-and-Models-An-Overview-of-Their-Current/Reigeluth/p/book/9780429237867",
+      "changed_from": "A",
+      "previous_type": "편집 원저서"
+    },
+    "authors": "Charles M. Reigeluth (ed.)",
+    "title": "Instructional-Design Theories and Models, Volume I",
+    "year": "1983",
+    "publisher": "Lawrence Erlbaum Associates",
+    "url": "https://www.routledge.com/Instructional-Design-Theories-and-Models-An-Overview-of-their-Current-Status/Reigeluth/p/book/9780898592757"
+  },
+  {
+    "id": "reigeluth-frick-1999",
+    "tier": "A",
+    "type": "원 장",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원 장",
+      "changed_from": "B"
+    },
+    "authors": "Charles M. Reigeluth; Theodore W. Frick",
+    "title": "Formative Research: A Methodology for Creating and Improving Design Theories",
+    "year": "1999",
+    "publisher": "Instructional-Design Theories and Models, Volume II",
+    "url": "https://www.reigeluth.net/research-methods"
+  },
+  {
+    "id": "reiser-2017",
+    "tier": "B",
+    "type": "편집서",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "Pearson 목차가 역사·기초 이론·모형·현안에 관한 여러 저자의 장을 묶은 분야 종합 교재임을 보여 준다: https://www.pearson.com/en-us/subject-catalog/p/Reiser-Reiser-Trend-Issue-Instr-Desig-Te-4-4th-Edition/P200000001731/9780137411917"
+    },
+    "authors": "Robert A. Reiser; John V. Dempsey (eds.)",
+    "title": "Trends and Issues in Instructional Design and Technology",
+    "year": "2017",
+    "publisher": "Pearson",
+    "url": "https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222"
+  },
+  {
+    "id": "richey-1986",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Rita C. Richey",
+    "title": "The Theoretical and Conceptual Bases of Instructional Design",
+    "year": "1986",
+    "publisher": "Kogan Page",
+    "url": "https://openlibrary.org/works/OL3913317W/The_theoretical_and_conceptual_bases_of_instructional_design"
+  },
+  {
+    "id": "richey-klein-2007",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Rita C. Richey; James D. Klein",
+    "title": "Design and Development Research",
+    "year": "2007",
+    "publisher": "Lawrence Erlbaum Associates",
+    "url": "https://www.routledge.com/Design-and-Development-Research-Methods-Strategies-and-Issues/Richey-Klein/p/book/9780805857320"
+  },
+  {
+    "id": "rothkopf-gagne-2002",
+    "tier": "B",
+    "type": "학회 추모문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학회 추모문"
+    },
+    "authors": "Ernst Z. Rothkopf",
+    "title": "In Appreciation: Robert Mills Gagné (1916–2002)",
+    "year": "2002",
+    "publisher": "Observer, Association for Psychological Science",
+    "url": "https://www.psychologicalscience.org/observer/in-appreciation-robert-mills-gagne-1916-2002"
   },
   {
     "id": "scardamalia-1989",
@@ -1720,260 +2028,47 @@
     "doi": "10.1207/s15327809jls0303_3"
   },
   {
-    "id": "bio-merrienboer-4cid",
-    "tier": "B",
-    "type": "전문기관 추모 기록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 전문기관 추모 기록"
-    },
-    "authors": "Four-Component Instructional Design",
-    "title": "In Memoriam — Jeroen van Merriënboer",
-    "year": "2023",
-    "publisher": "4C/ID.org",
-    "url": "https://www.4cid.org/in-memoriam/"
-  },
-  {
-    "id": "merrienboer-1997",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Jeroen J. G. van Merriënboer",
-    "title": "Training Complex Cognitive Skills: A Four-Component Instructional Design Model for Technical Training",
-    "year": "1997",
-    "publisher": "Educational Technology Publications",
-    "url": "https://research.utwente.nl/en/publications/training-complex-cognitive-skills-a-four-component-instructional-/"
-  },
-  {
-    "id": "merrienboer-2002",
-    "tier": "A",
-    "type": "원논문",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원논문",
-      "changed_from": "B"
-    },
-    "authors": "Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock",
-    "title": "Blueprints for Complex Learning: The 4C/ID-model",
-    "year": "2002",
-    "publisher": "Educational Technology Research and Development, 50(2)",
-    "url": "https://doi.org/10.1007/BF02504993",
-    "doi": "10.1007/BF02504993"
-  },
-  {
-    "id": "gagne-1974",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Robert M. Gagné",
-    "title": "Essentials of Learning for Instruction",
-    "year": "1974",
-    "publisher": "Dryden Press",
-    "url": "https://archive.org/details/essentialsoflear0000gagn_y0y6"
-  },
-  {
-    "id": "bruner-1990",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Jerome Bruner",
-    "title": "Acts of Meaning",
-    "year": "1990",
-    "publisher": "Harvard University Press",
-    "url": "https://www.hup.harvard.edu/books/9780674003613"
-  },
-  {
-    "id": "merrill-twitchell-1994",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "M. David Merrill; David G. Twitchell (Ed.)",
-    "title": "Instructional Design Theory",
-    "year": "1994",
-    "publisher": "Educational Technology Publications",
-    "url": "https://openlibrary.org/books/OL1433631M"
-  },
-  {
-    "id": "keller-1983",
-    "tier": "A",
-    "type": "원저서 수록 장",
-    "tier_review": {
-      "rule": "2-book-or-chapter-role",
-      "evidence": "Keller의 후대 회고는 동기 이론을 네 군집으로 합성한 모형이 Keller 1983에서 나왔고 이후 ARCS로 명명됐다고 확인한다: https://onlinelibrary.wiley.com/doi/10.1002/tl.20265",
-      "changed_from": "B"
-    },
-    "authors": "John M. Keller",
-    "title": "Motivational Design of Instruction",
-    "year": "1983",
-    "publisher": "Instructional-Design Theories and Models: An Overview of Their Current Status (C. M. Reigeluth, Ed.), Lawrence Erlbaum Associates, pp. 383-434",
-    "url": "https://archive.org/details/instructionaldes0000unse_j6c8"
-  },
-  {
-    "id": "papert-1993",
-    "tier": "A",
-    "type": "원저서",
-    "tier_review": {
-      "rule": "1-original-work",
-      "evidence": "type-default: 원저서"
-    },
-    "authors": "Seymour Papert",
-    "title": "The Children's Machine: Rethinking School in the Age of the Computer",
-    "year": "1993",
-    "publisher": "Basic Books",
-    "url": "https://archive.org/details/childrensmachine00seym"
-  },
-  {
-    "id": "anderson-krathwohl-2001",
+    "id": "schunk-2012",
     "tier": "B",
     "type": "연구서",
     "tier_review": {
       "rule": "2-book-or-chapter-role",
       "evidence": "type-default: 연구서"
     },
-    "authors": "Lorin W. Anderson; David R. Krathwohl (Eds.)",
-    "title": "A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives",
-    "year": "2001",
-    "publisher": "Longman",
-    "url": "https://openlibrary.org/works/OL16641840W/A_taxonomy_for_learning_teaching_and_assessing"
+    "authors": "Dale H. Schunk",
+    "title": "Learning Theories: An Educational Perspective",
+    "year": "2012",
+    "publisher": "Pearson",
+    "url": "https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303"
   },
   {
-    "id": "pillsbury-dewey-1957",
-    "tier": "B",
-    "type": "학회 전기 회고록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학회 전기 회고록"
-    },
-    "authors": "Walter B. Pillsbury",
-    "title": "John Dewey 1859–1952: A Biographical Memoir",
-    "year": "1957",
-    "publisher": "National Academy of Sciences",
-    "url": "https://www.nasonline.org/wp-content/uploads/2024/06/dewey-john.pdf"
-  },
-  {
-    "id": "woodworth-thorndike-1952",
-    "tier": "B",
-    "type": "학회 전기 회고록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학회 전기 회고록"
-    },
-    "authors": "Robert S. Woodworth",
-    "title": "Edward Lee Thorndike: A Biographical Memoir",
-    "year": "1952",
-    "publisher": "National Academy of Sciences",
-    "url": "https://www.nasonline.org/wp-content/uploads/2024/06/thorndike-edward-1.pdf"
-  },
-  {
-    "id": "vandeveer-valsiner-1991",
-    "tier": "B",
-    "type": "학술 전기서",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "Blackwell 서지는 van der Veer와 Valsiner가 Vygotsky의 사상과 생애를 러시아 심리학·정치 맥락에서 탐구한 후대 저작임을 확인한다: https://archive.org/details/understandingvyg0000veer"
-    },
-    "authors": "René van der Veer; Jaan Valsiner",
-    "title": "Understanding Vygotsky: A Quest for Synthesis",
-    "year": "1991",
-    "publisher": "Blackwell",
-    "url": "https://archive.org/details/understandingvyg0000veer"
-  },
-  {
-    "id": "rachlin-skinner-1995",
-    "tier": "B",
-    "type": "학회 전기 회고록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학회 전기 회고록"
-    },
-    "authors": "Howard Rachlin",
-    "title": "B. F. Skinner (Biographical Memoirs, Vol. 67)",
-    "year": "1995",
-    "publisher": "National Academy of Sciences",
-    "url": "https://www.nationalacademies.org/read/4894/chapter/19"
-  },
-  {
-    "id": "uchicago-bloom-1999",
-    "tier": "B",
-    "type": "대학 공식 부고",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 대학 공식 부고"
-    },
-    "authors": "University of Chicago News Office",
-    "title": "Bloom, influential education researcher",
-    "year": "1999",
-    "publisher": "The University of Chicago Chronicle, Vol. 19, No. 1",
-    "url": "https://chronicle.uchicago.edu/990923/bloom.shtml"
-  },
-  {
-    "id": "rothkopf-gagne-2002",
-    "tier": "B",
-    "type": "학회 추모문",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학회 추모문"
-    },
-    "authors": "Ernst Z. Rothkopf",
-    "title": "In Appreciation: Robert Mills Gagné (1916–2002)",
-    "year": "2002",
-    "publisher": "Observer, Association for Psychological Science",
-    "url": "https://www.psychologicalscience.org/observer/in-appreciation-robert-mills-gagne-1916-2002"
-  },
-  {
-    "id": "gardner-bruner-2017",
-    "tier": "B",
-    "type": "학회 전기 회고록",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학회 전기 회고록"
-    },
-    "authors": "Howard Gardner",
-    "title": "Jerome Seymour Bruner (Biographical Memoir)",
-    "year": "2017",
-    "publisher": "Proceedings of the American Philosophical Society, Vol. 161, No. 4",
-    "url": "https://www.amphilsoc.org/sites/default/files/2018-03/attachments/Bruner.pdf"
-  },
-  {
-    "id": "ozer-bandura-2022",
-    "tier": "B",
-    "type": "학회지 부고",
-    "tier_review": {
-      "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학회지 부고"
-    },
-    "authors": "Elizabeth M. Ozer",
-    "title": "Albert Bandura (1925–2021)",
-    "year": "2022",
-    "publisher": "American Psychologist",
-    "url": "https://escholarship.org/uc/item/8pw310xd"
-  },
-  {
-    "id": "simsek-merrill-2010",
+    "id": "seels-richey-1994",
     "tier": "A",
-    "type": "피어리뷰 인터뷰 논문",
+    "type": "원저서",
     "tier_review": {
       "rule": "1-original-work",
-      "evidence": "원문은 Şimşek가 질문을 보내면 Merrill이 직접 답하고 추가 설명한 뒤 두 사람이 게재문을 함께 읽고 합의했다고 밝힌 1인칭 회고 기록이다: https://files.eric.ed.gov/fulltext/ED542979.pdf",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Barbara B. Seels; Rita C. Richey",
+    "title": "Instructional Technology: The Definition and Domains of the Field",
+    "year": "1994",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://openlibrary.org/books/OL1127250M/Instructional_technology"
+  },
+  {
+    "id": "seels-richey-1994-case",
+    "tier": "A",
+    "type": "원논문·서지",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문·서지",
       "changed_from": "B"
     },
-    "authors": "Ali Şimşek; M. David Merrill",
-    "title": "Interview with M. David Merrill: Half a Century of Experience in the Field of Educational Technology and Instructional Design",
-    "year": "2010",
-    "publisher": "Contemporary Educational Technology, Vol. 1, No. 2",
-    "url": "https://files.eric.ed.gov/fulltext/ED542979.pdf"
+    "authors": "Rita C. Richey; Barbara Seels",
+    "title": "Defining a Field: A Case Study of the Development of the 1994 Definition",
+    "year": "1994",
+    "publisher": "Educational Media and Technology Yearbook",
+    "url": "https://eric.ed.gov/?id=EJ491599"
   },
   {
     "id": "simsek-keller-2014",
@@ -1991,31 +2086,219 @@
     "url": "https://files.eric.ed.gov/fulltext/EJ1105558.pdf"
   },
   {
-    "id": "mitnews-papert-2016",
+    "id": "simsek-merrill-2010",
+    "tier": "A",
+    "type": "피어리뷰 인터뷰 논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "원문은 Şimşek가 질문을 보내면 Merrill이 직접 답하고 추가 설명한 뒤 두 사람이 게재문을 함께 읽고 합의했다고 밝힌 1인칭 회고 기록이다: https://files.eric.ed.gov/fulltext/ED542979.pdf",
+      "changed_from": "B"
+    },
+    "authors": "Ali Şimşek; M. David Merrill",
+    "title": "Interview with M. David Merrill: Half a Century of Experience in the Field of Educational Technology and Instructional Design",
+    "year": "2010",
+    "publisher": "Contemporary Educational Technology, Vol. 1, No. 2",
+    "url": "https://files.eric.ed.gov/fulltext/ED542979.pdf"
+  },
+  {
+    "id": "skinner-1954",
+    "tier": "B",
+    "type": "서지 기록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 서지 기록"
+    },
+    "authors": "B. F. Skinner",
+    "title": "The Science of Learning and the Art of Teaching",
+    "year": "1954",
+    "publisher": "Harvard Educational Review, 24(2)",
+    "url": "https://cir.nii.ac.jp/crid/1572824500723500288?lang=en"
+  },
+  {
+    "id": "skinner-1957",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "B. F. Skinner",
+    "title": "Verbal Behavior",
+    "year": "1957",
+    "publisher": "Appleton-Century-Crofts",
+    "url": "https://www.bfskinner.org/product/verbal-behavior/"
+  },
+  {
+    "id": "sweller-1988",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원논문",
+      "changed_from": "B"
+    },
+    "authors": "John Sweller",
+    "title": "Cognitive Load During Problem Solving: Effects on Learning",
+    "year": "1988",
+    "publisher": "Cognitive Science, 12(2)",
+    "url": "https://doi.org/10.1207/s15516709cog1202_4",
+    "doi": "10.1207/s15516709cog1202_4"
+  },
+  {
+    "id": "sweller-2011",
+    "tier": "B",
+    "type": "연구서",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "type-default: 연구서",
+      "changed_from": "A"
+    },
+    "authors": "John Sweller; Paul Ayres; Slava Kalyuga",
+    "title": "Cognitive Load Theory",
+    "year": "2011",
+    "publisher": "Springer",
+    "url": "https://doi.org/10.1007/978-1-4419-8126-4",
+    "doi": "10.1007/978-1-4419-8126-4"
+  },
+  {
+    "id": "sweller-2016-story",
+    "tier": "A",
+    "type": "당사자 회고 논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "Education Review는 Sweller를 단독 저자로 표시하고 초록부터 자신이 반세기 연구에서 배운 바를 'I have learned'로 직접 회고한다: https://edrev.asu.edu/index.php/ER/article/view/2025"
+    },
+    "authors": "John Sweller",
+    "title": "Story of a Research Program",
+    "year": "2016",
+    "publisher": "Education Review, 23",
+    "url": "https://doi.org/10.14507/er.v23.2025",
+    "doi": "10.14507/er.v23.2025"
+  },
+  {
+    "id": "thorndike-1913",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Edward L. Thorndike",
+    "title": "Educational Psychology: The Original Nature of Man",
+    "year": "1913",
+    "publisher": "Teachers College, Columbia University",
+    "url": "https://archive.org/details/educationalpsych01thor"
+  },
+  {
+    "id": "tyler-1949",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Ralph W. Tyler",
+    "title": "Basic Principles of Curriculum and Instruction",
+    "year": "1949",
+    "publisher": "University of Chicago Press",
+    "url": "https://press.uchicago.edu/ucp/books/book/chicago/B/bo17239506.html"
+  },
+  {
+    "id": "tyler-eight-year",
+    "tier": "B",
+    "type": "기관 아카이브",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 기관 아카이브"
+    },
+    "authors": "University of Chicago Library",
+    "title": "Ralph W. Tyler Papers — Eight-Year Study records",
+    "year": "1931–1942",
+    "publisher": "University of Chicago",
+    "url": "https://www.lib.uchicago.edu/ead/rlg/ICU.SPCL.TYLER.pdf"
+  },
+  {
+    "id": "uchicago-bloom-1999",
     "tier": "B",
     "type": "대학 공식 부고",
     "tier_review": {
       "rule": "3-other-scholar-or-institution",
       "evidence": "type-default: 대학 공식 부고"
     },
-    "authors": "MIT News Office",
-    "title": "Seymour Papert, pioneer of constructionist learning, dies at 88",
-    "year": "2016",
-    "publisher": "MIT News",
-    "url": "https://news.mit.edu/2016/seymour-papert-pioneer-of-constructionist-learning-dies-0801"
+    "authors": "University of Chicago News Office",
+    "title": "Bloom, influential education researcher",
+    "year": "1999",
+    "publisher": "The University of Chicago Chronicle, Vol. 19, No. 1",
+    "url": "https://chronicle.uchicago.edu/990923/bloom.shtml"
   },
   {
-    "id": "apa-mayer-2018",
+    "id": "vandeveer-valsiner-1991",
     "tier": "B",
-    "type": "학회 공식 수상 기록",
+    "type": "학술 전기서",
     "tier_review": {
       "rule": "3-other-scholar-or-institution",
-      "evidence": "type-default: 학회 공식 수상 기록"
+      "evidence": "Blackwell 서지는 van der Veer와 Valsiner가 Vygotsky의 사상과 생애를 러시아 심리학·정치 맥락에서 탐구한 후대 저작임을 확인한다: https://archive.org/details/understandingvyg0000veer"
     },
-    "authors": "American Psychological Association",
-    "title": "Richard E. Mayer, PhD, Awarded 2018 Presidential Citation",
-    "year": "2018",
-    "publisher": "American Psychological Association",
-    "url": "https://www.apa.org/about/governance/president/citation/richard-e-mayer"
+    "authors": "René van der Veer; Jaan Valsiner",
+    "title": "Understanding Vygotsky: A Quest for Synthesis",
+    "year": "1991",
+    "publisher": "Blackwell",
+    "url": "https://archive.org/details/understandingvyg0000veer"
+  },
+  {
+    "id": "vygotsky-1934",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "L. S. Vygotsky",
+    "title": "Thought and Language",
+    "year": "1934",
+    "url": "https://www.marxists.org/archive/vygotsky/works/words/"
+  },
+  {
+    "id": "vygotsky-1978",
+    "tier": "B",
+    "type": "편집 번역서",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "JSTOR 서지와 목차는 Cole 등 네 편집자가 Vygotsky의 여러 원고·강의를 선별·편집하고 서론과 후기를 더한 1978년 모음임을 확인한다: https://www.jstor.org/stable/j.ctvjf9vz4"
+    },
+    "authors": "L. S. Vygotsky; ed. Michael Cole et al.",
+    "title": "Mind in Society: The Development of Higher Psychological Processes",
+    "year": "1978",
+    "publisher": "Harvard University Press",
+    "url": "https://www.hup.harvard.edu/books/9780674576292"
+  },
+  {
+    "id": "wenger-1998",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "type-default: 원저서"
+    },
+    "authors": "Etienne Wenger",
+    "title": "Communities of Practice: Learning, Meaning, and Identity",
+    "year": "1998",
+    "publisher": "Cambridge University Press",
+    "url": "https://doi.org/10.1017/CBO9780511803932",
+    "doi": "10.1017/CBO9780511803932"
+  },
+  {
+    "id": "woodworth-thorndike-1952",
+    "tier": "B",
+    "type": "학회 전기 회고록",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "type-default: 학회 전기 회고록"
+    },
+    "authors": "Robert S. Woodworth",
+    "title": "Edward Lee Thorndike: A Biographical Memoir",
+    "year": "1952",
+    "publisher": "National Academy of Sciences",
+    "url": "https://www.nasonline.org/wp-content/uploads/2024/06/thorndike-edward-1.pdf"
   }
 ]

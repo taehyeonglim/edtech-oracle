@@ -1,0 +1,751 @@
+{
+  "schema_version": 1,
+  "slug": "edgar-dale",
+  "base_commit": "daf94fc43655857a0c49d13903aa9246f006637c",
+  "initial_source_ids": [
+    "bio-dale-osu",
+    "dale-1946",
+    "mayer-2005",
+    "molenda-2003-cone"
+  ],
+  "required_additions": 6,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary edition OL6297221M 레코드에서 제목·발행연도·발행처를 직접 대조했다.",
+      "source_id": "dale-1933",
+      "bibliography": {
+        "authors": [
+          "Edgar Dale"
+        ],
+        "title": "How to Appreciate Motion Pictures: A Manual of Motion-Picture Criticism Prepared for High-School Students",
+        "year": "1933",
+        "publisher": "The Macmillan Company",
+        "url": "https://openlibrary.org/books/OL6297221M/How_to_appreciate_motion_pictures",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6297221M",
+          "oclc": "592997"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL6297221M",
+          "matched_fields": [
+            "title",
+            "publish_date"
+          ],
+          "evidence": "OpenLibrary edition OL6297221M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL6297221M.json",
+          "locator": "표제지",
+          "evidence": "Payne Fund Studies 총서로 데일이 단독 저술한 영화 비평 교재다. 레코드 저자 키가 데일이다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary edition OL6297221M · author key OL140932A (Edgar Dale)",
+              "evidence_url": "https://openlibrary.org/books/OL6297221M.json"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "type-default: 원저서"
+      },
+      "claim_seed": {
+        "section": "교사와 영화평론가의 시선",
+        "claim": "데일은 고등학생을 위한 영화 비평 교재를 써서 매체를 읽는 능력 자체를 가르치려 했다.",
+        "locator": "표제지",
+        "evidence_url": "https://openlibrary.org/books/OL6297221M"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary edition OL7024984M 레코드에서 제목·발행연도·발행처를 직접 대조했다.",
+      "source_id": "dale-1935",
+      "bibliography": {
+        "authors": [
+          "Edgar Dale"
+        ],
+        "title": "The Content of Motion Pictures",
+        "year": "1935",
+        "publisher": "The Macmillan Company",
+        "url": "https://openlibrary.org/books/OL7024984M/The_content_of_motion_pictures",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL7024984M",
+          "oclc": "2165967"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL7024984M",
+          "matched_fields": [
+            "title",
+            "publish_date"
+          ],
+          "evidence": "OpenLibrary edition OL7024984M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL7024984M.json",
+          "locator": "표제지",
+          "evidence": "데일이 단독 저술한 영화 내용 분석 연구다. 레코드 저자 키가 데일이다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary edition OL7024984M · author key OL140932A (Edgar Dale)",
+              "evidence_url": "https://openlibrary.org/books/OL7024984M.json"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "type-default: 원저서"
+      },
+      "claim_seed": {
+        "section": "교사와 영화평론가의 시선",
+        "claim": "또한 영화의 내용을 체계적으로 분석해 매체 연구를 경험적 조사로 다뤘다.",
+        "locator": "표제지",
+        "evidence_url": "https://openlibrary.org/books/OL7024984M"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "pending_manual",
+      "reason": "영구 식별자가 없고 Google Books 링크만 있어 판본 정체를 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edgar Dale",
+          "Lloyd Louis Ramseyer"
+        ],
+        "title": "Teaching with Motion Pictures: A Handbook of Administrative Practice",
+        "year": "1937",
+        "publisher": "American Council on Education",
+        "url": "https://books.google.com.fj/books?id=XD47AAAAIAAJ",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 레코드는 확인했으나 이번 승인 6건에 들지 않아 다음 라운드로 남긴다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edgar Dale"
+        ],
+        "title": "How to Read a Newspaper",
+        "year": "1941",
+        "publisher": "Scott, Foresman and Company",
+        "url": "https://openlibrary.org/books/OL6429757M/How_to_read_a_newspaper",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6429757M",
+          "oclc": "332787"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-05",
+      "decision": "pending_manual",
+      "reason": "JSTOR가 봇 차단 페이지만 반환하고 Crossref에도 없어 존재를 확인하지 못했다. 없다는 뜻이 아니라 이 경로로는 확인 못 했다는 뜻이다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edgar Dale",
+          "Jeanne S. Chall"
+        ],
+        "title": "A Formula for Predicting Readability",
+        "year": "1948",
+        "publisher": "Educational Research Bulletin, 27(1)",
+        "url": "https://www.jstor.org/stable/1473169",
+        "identifiers": {
+          "doi": "10.2307/1473169",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-06",
+      "decision": "pending_manual",
+      "reason": "5번과 같은 문헌의 2부이며 같은 이유로 존재를 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edgar Dale",
+          "Jeanne S. Chall"
+        ],
+        "title": "A Formula for Predicting Readability: Instructions",
+        "year": "1948",
+        "publisher": "Educational Research Bulletin, 27(2)",
+        "url": "https://www.jstor.org/stable/1473669",
+        "identifiers": {
+          "doi": "10.2307/1473669",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-07",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary와 ISBN을 확인했으나 이번 승인 6건에 들지 않아 다음 라운드로 남긴다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edgar Dale",
+          "Joseph O'Rourke",
+          "Henry A. Bamman"
+        ],
+        "title": "Techniques of Teaching Vocabulary",
+        "year": "1971",
+        "publisher": "Field Educational Publications",
+        "url": "https://books.google.com/books/about/Techniques_of_Teaching_Vocabulary.html?id=9lGbkQEACAAJ",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0514011017",
+          "eric": null,
+          "openlibrary_edition": "OL4895405M",
+          "oclc": "196454"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-08",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary edition OL30579676M 레코드에서 제목·발행연도·발행처를 직접 대조했다.",
+      "source_id": "dale-1976",
+      "bibliography": {
+        "authors": [
+          "Edgar Dale",
+          "Joseph O'Rourke"
+        ],
+        "title": "The Living Word Vocabulary: The Words We Know: A National Vocabulary Inventory",
+        "year": "1976",
+        "publisher": "Field Enterprises Educational Corp.; distributed by Dome Press",
+        "url": "https://search.worldcat.org/es/title/living-word-vocabulary-the-words-we-know-a-national-vocabulary-inventory/oclc/2665401",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0716631016",
+          "eric": null,
+          "openlibrary_edition": "OL30579676M",
+          "oclc": "2665401"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL30579676M",
+          "matched_fields": [
+            "title",
+            "publish_date"
+          ],
+          "evidence": "OpenLibrary edition OL30579676M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL30579676M.json",
+          "locator": "표제지",
+          "evidence": "데일과 조지프 오루크의 공저 어휘 조사다. 데일이 제1저자다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary edition OL30579676M · author key OL140932A (Edgar Dale)",
+              "evidence_url": "https://openlibrary.org/books/OL30579676M.json"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "type-default: 원저서"
+      },
+      "claim_seed": {
+        "section": "연표",
+        "claim": "**1976** 어휘 조사 출간 — 조지프 오루크와 함께 대규모 어휘 조사인 『The Living Word Vocabulary』를 냈다.",
+        "locator": "표제지",
+        "evidence_url": "https://openlibrary.org/books/OL30579676M"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-09",
+      "decision": "pending_manual",
+      "reason": "영구 식별자가 없고 philpapers 링크만 있어 판본 정체를 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edgar Dale"
+        ],
+        "title": "Building a Learning Environment",
+        "year": "1972",
+        "publisher": "Phi Delta Kappa Educational Foundation",
+        "url": "https://philpapers.org/rec/DALBAL",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-10",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary edition OL6156672M 레코드에서 제목·발행연도·발행처를 직접 대조했다.",
+      "source_id": "dale-1954",
+      "bibliography": {
+        "authors": [
+          "Edgar Dale"
+        ],
+        "title": "Audio-Visual Methods in Teaching, Revised Edition",
+        "year": "1954",
+        "publisher": "Dryden Press",
+        "url": "https://openlibrary.org/books/OL6156672M/Audio-visual_methods_in_teaching.",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6156672M",
+          "oclc": "250718"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL6156672M",
+          "matched_fields": [
+            "title",
+            "publish_date",
+            "publishers",
+            "edition_name"
+          ],
+          "evidence": "OpenLibrary edition OL6156672M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL6156672M.json",
+          "locator": "판권지",
+          "evidence": "1946년 초판의 개정판이며 레코드의 edition_name이 'Rev. ed.'로 판본을 확정한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary edition OL6156672M · author key OL140932A (Edgar Dale)",
+              "evidence_url": "https://openlibrary.org/books/OL6156672M.json"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "type-default: 원저서"
+      },
+      "claim_seed": {
+        "section": "주요 저작",
+        "claim": "**Audio-Visual Methods in Teaching, Revised Edition** (1954) — 초판의 경험의 원추 서술을 이어받아 개정한 판본이다.",
+        "locator": "판권지 edition_name 'Rev. ed.'",
+        "evidence_url": "https://openlibrary.org/books/OL6156672M"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-11",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary edition OL14883195M 레코드에서 제목·발행연도·발행처를 직접 대조했다.",
+      "source_id": "dale-1969",
+      "bibliography": {
+        "authors": [
+          "Edgar Dale"
+        ],
+        "title": "Audiovisual Methods in Teaching, Third Edition",
+        "year": "1969",
+        "publisher": "Holt, Rinehart & Winston",
+        "url": "https://eric.ed.gov/?id=ED043234",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0039100545",
+          "eric": "ED043234",
+          "openlibrary_edition": "OL14883195M",
+          "oclc": "49546"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL14883195M",
+          "matched_fields": [
+            "title",
+            "publish_date",
+            "isbn_10"
+          ],
+          "evidence": "OpenLibrary edition OL14883195M 레코드에서 제목·발행연도·발행처를 직접 대조했다."
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edgar-dale",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL14883195M.json",
+          "locator": "판권지",
+          "evidence": "1946년 초판의 3판이다. ERIC ED043234와 ISBN 0039100545가 같은 판본을 가리킨다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary edition OL14883195M · author key OL140932A (Edgar Dale)",
+              "evidence_url": "https://openlibrary.org/books/OL14883195M.json"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "type-default: 원저서"
+      },
+      "claim_seed": {
+        "section": "주요 저작",
+        "claim": "**Audiovisual Methods in Teaching, Third Edition** (1969) — 브루너의 표상 논의를 반영해 경험의 원추를 수정한 판본이다.",
+        "locator": "판권지와 ERIC 서지",
+        "evidence_url": "https://openlibrary.org/books/OL14883195M"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-12",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref API가 제목·저자(Ken Masters)·발행연도 2013을 반환했다.",
+      "source_id": "masters-2013",
+      "bibliography": {
+        "authors": [
+          "Ken Masters"
+        ],
+        "title": "Edgar Dale's Pyramid of Learning in Medical Education: A Literature Review",
+        "year": "2013",
+        "publisher": "Medical Teacher, Taylor & Francis",
+        "url": "https://squ.elsevierpure.com/en/publications/edgar-dales-pyramid-of-learning-in-medical-education-a-literature/",
+        "identifiers": {
+          "doi": "10.3109/0142159X.2013.800636",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.3109/0142159X.2013.800636",
+          "matched_fields": [
+            "title",
+            "author",
+            "issued"
+          ],
+          "evidence": "Crossref API가 제목·저자(Ken Masters)·발행연도 2013을 반환했다."
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edgar-dale",
+          "kind": "criticizes",
+          "evidence_url": "https://api.crossref.org/works/10.3109/0142159X.2013.800636",
+          "locator": "제목과 초록",
+          "evidence": "제목이 'Edgar Dale's Pyramid of Learning in Medical Education'으로 데일에게 잘못 귀속된 학습 피라미드를 직접 대상으로 삼는 문헌 고찰이다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Crossref 레코드가 저자를 Ken Masters로 확정한다. 대상 인물 Edgar Dale은 제목에 명시된다.",
+              "evidence_url": "https://api.crossref.org/works/10.3109/0142159X.2013.800636"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "3-other-scholar-or-institution",
+        "evidence": "타인이 쓴 피어리뷰 문헌 고찰 논문이다. 데일 본인의 저작이 아니다."
+      },
+      "claim_seed": {
+        "section": "기억률 피라미드는 데일의 것이 아니다",
+        "claim": "의학교육 문헌을 대상으로 한 고찰에서도 데일에게 귀속된 학습 피라미드는 원저작에 없는 후대의 결합물로 확인됐다.",
+        "locator": "제목과 초록",
+        "evidence_url": "https://doi.org/10.3109/0142159X.2013.800636"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "dale-1933",
+    "dale-1935",
+    "dale-1954",
+    "dale-1969",
+    "dale-1976",
+    "masters-2013"
+  ],
+  "claim_map": [
+    {
+      "source_id": "dale-1933",
+      "section": "교사와 영화평론가의 시선",
+      "claim": "데일은 고등학생을 위한 영화 비평 교재를 써서 매체를 읽는 능력 자체를 가르치려 했다.",
+      "evidence_locator": "표제지"
+    },
+    {
+      "source_id": "dale-1935",
+      "section": "교사와 영화평론가의 시선",
+      "claim": "또한 영화의 내용을 체계적으로 분석해 매체 연구를 경험적 조사로 다뤘다.",
+      "evidence_locator": "표제지"
+    },
+    {
+      "source_id": "dale-1976",
+      "section": "연표",
+      "claim": "**1976** 어휘 조사 출간 — 조지프 오루크와 함께 대규모 어휘 조사인 『The Living Word Vocabulary』를 냈다.",
+      "evidence_locator": "표제지"
+    },
+    {
+      "source_id": "dale-1954",
+      "section": "주요 저작",
+      "claim": "**Audio-Visual Methods in Teaching, Revised Edition** (1954) — 초판의 경험의 원추 서술을 이어받아 개정한 판본이다.",
+      "evidence_locator": "판권지 edition_name 'Rev. ed.'"
+    },
+    {
+      "source_id": "dale-1969",
+      "section": "주요 저작",
+      "claim": "**Audiovisual Methods in Teaching, Third Edition** (1969) — 브루너의 표상 논의를 반영해 경험의 원추를 수정한 판본이다.",
+      "evidence_locator": "판권지와 ERIC 서지"
+    },
+    {
+      "source_id": "masters-2013",
+      "section": "기억률 피라미드는 데일의 것이 아니다",
+      "claim": "의학교육 문헌을 대상으로 한 고찰에서도 데일에게 귀속된 학습 피라미드는 원저작에 없는 후대의 결합물로 확인됐다.",
+      "evidence_locator": "제목과 초록"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/edgar-dale.md:50|dale-1946|1985|1946",
+        "file": "wiki/pioneers/edgar-dale.md",
+        "line": 50,
+        "claimYear": 1985,
+        "sourceId": "dale-1946",
+        "sourceYear": 1946,
+        "decision": "valid-context",
+        "reason": "1985는 데일의 사망 연도이고 같은 문단의 1946년 저작이 그 사실을 받치는 것이 아니다. 한 문단에 생애 사건과 저작 인용이 함께 있는 정상 혼합 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/edgar-dale.md:40|bio-dale-osu|1929|none",
+        "file": "wiki/pioneers/edgar-dale.md",
+        "line": 40,
+        "claimYear": 1929,
+        "sourceId": "bio-dale-osu",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-dale-osu는 발행연도가 없는 기관 약력이고, 1929년 사건은 그 약력이 서술하는 경력 사실이다. 오래된 저작이 뒤의 사건을 받치는 구조가 아니다."
+      },
+      {
+        "key": "wiki/pioneers/edgar-dale.md:50|bio-dale-osu|1985|none",
+        "file": "wiki/pioneers/edgar-dale.md",
+        "line": 50,
+        "claimYear": 1985,
+        "sourceId": "bio-dale-osu",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-dale-osu는 발행연도가 없는 기관 약력이고, 1985년 사건은 그 약력이 서술하는 경력 사실이다. 오래된 저작이 뒤의 사건을 받치는 구조가 아니다."
+      },
+      {
+        "key": "wiki/pioneers/edgar-dale.md:66|bio-dale-osu|1970|none",
+        "file": "wiki/pioneers/edgar-dale.md",
+        "line": 66,
+        "claimYear": 1970,
+        "sourceId": "bio-dale-osu",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-dale-osu는 발행연도가 없는 기관 약력이고, 1970년 사건은 그 약력이 서술하는 경력 사실이다. 오래된 저작이 뒤의 사건을 받치는 구조가 아니다."
+      }
+    ]
+  }
+}
