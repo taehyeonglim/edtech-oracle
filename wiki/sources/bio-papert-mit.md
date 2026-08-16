@@ -11,6 +11,5 @@ Yasmin Kafai / MIT Press. A Tribute to Seymour Papert. MIT Press. <https://mitpr
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-papert-mit]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-papert-mit]
 [^bio-papert-mit]: Yasmin Kafai / MIT Press. A Tribute to Seymour Papert. MIT Press. <https://mitpress.mit.edu/a-tribute-to-seymour-papert/> — tier B · [[sources/bio-papert-mit]]

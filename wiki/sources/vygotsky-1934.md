@@ -11,6 +11,5 @@ L. S. Vygotsky. (1934). Thought and Language. <https://www.marxists.org/archive/
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^vygotsky-1934]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^vygotsky-1934]
 [^vygotsky-1934]: L. S. Vygotsky. (1934). Thought and Language. <https://www.marxists.org/archive/vygotsky/works/words/> — tier A · [[sources/vygotsky-1934]]

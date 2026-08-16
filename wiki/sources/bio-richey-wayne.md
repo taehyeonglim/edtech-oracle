@@ -11,6 +11,5 @@ Academy of Scholars. Rita C. Richey — Academy Member Profile. Wayne State Univ
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-richey-wayne]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-richey-wayne]
 [^bio-richey-wayne]: Academy of Scholars. Rita C. Richey — Academy Member Profile. Wayne State University. <https://academy.wayne.edu/docs/acadamy-brochure.pdf> — tier B · [[sources/bio-richey-wayne]]

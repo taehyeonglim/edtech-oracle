@@ -21,5 +21,5 @@ confidence: high
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 교수설계 모형 대비이다[^merrill-2002][^merrienboer-1997][^merrienboer-2002].
 
 [^merrienboer-1997]: Jeroen J. G. van Merriënboer. (1997). Training Complex Cognitive Skills: A Four-Component Instructional Design Model for Technical Training. Educational Technology Publications. <https://research.utwente.nl/en/publications/training-complex-cognitive-skills-a-four-component-instructional-/> — tier A · [[sources/merrienboer-1997]]
-[^merrienboer-2002]: Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock. (2002). Blueprints for Complex Learning: The 4C/ID-model. Educational Technology Research and Development, 50(2). DOI: 10.1007/BF02504993. <https://doi.org/10.1007/BF02504993> — tier B · [[sources/merrienboer-2002]]
-[^merrill-2002]: M. David Merrill. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3). DOI: 10.1007/BF02505024. <https://doi.org/10.1007/BF02505024> — tier B · [[sources/merrill-2002]]
+[^merrienboer-2002]: Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock. (2002). Blueprints for Complex Learning: The 4C/ID-model. Educational Technology Research and Development, 50(2). DOI: 10.1007/BF02504993. <https://doi.org/10.1007/BF02504993> — tier A · [[sources/merrienboer-2002]]
+[^merrill-2002]: M. David Merrill. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3). DOI: 10.1007/BF02505024. <https://doi.org/10.1007/BF02505024> — tier A · [[sources/merrill-2002]]

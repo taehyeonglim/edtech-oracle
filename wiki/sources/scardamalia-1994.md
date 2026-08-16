@@ -11,6 +11,5 @@ Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Build
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^scardamalia-1994]
-
-[^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier B · [[sources/scardamalia-1994]]
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^scardamalia-1994]
+[^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier A · [[sources/scardamalia-1994]]

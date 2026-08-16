@@ -20,6 +20,6 @@ confidence: high
 
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 수행 향상 연결이다[^gilbert-1978][^bio-clark-usc][^bio-clark-interview].
 
-[^bio-clark-interview]: Daniel H. Robinson; Robert A. Bligh. (2016). An Interview with Richard E. Clark. Educational Psychology Review, 28. DOI: 10.1007/s10648-015-9341-3. <https://doi.org/10.1007/s10648-015-9341-3> — tier B · [[sources/bio-clark-interview]]
+[^bio-clark-interview]: Daniel H. Robinson; Robert A. Bligh. (2016). An Interview with Richard E. Clark. Educational Psychology Review, 28. DOI: 10.1007/s10648-015-9341-3. <https://doi.org/10.1007/s10648-015-9341-3> — tier A · [[sources/bio-clark-interview]]
 [^bio-clark-usc]: USC Rossier School of Education. Richard E. Clark — Emeritus Professor. University of Southern California. <https://rossier.usc.edu/faculty-research/directory/richard-clark> — tier B · [[sources/bio-clark-usc]]
 [^gilbert-1978]: Thomas F. Gilbert. (1978). Human Competence: Engineering Worthy Performance. McGraw-Hill. <https://agris.fao.org/search/en/providers/122535/records/65ddd7cd0f3e94b9e5c5db55> — tier A · [[sources/gilbert-1978]]

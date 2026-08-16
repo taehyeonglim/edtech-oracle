@@ -18,6 +18,6 @@ confidence: high
 
 정본 정의는 아직 작성되지 않았다. 현재는 이 개념을 공유하는 위인들의 입장만 모아 둔다.[^collins-1992][^brown-1992]
 
-[^brown-1992]: Ann L. Brown. (1992). Design Experiments: Theoretical and Methodological Challenges in Creating Complex Interventions in Classroom Settings. Journal of the Learning Sciences, 2(2). DOI: 10.1207/s15327809jls0202_2. <https://doi.org/10.1207/s15327809jls0202_2> — tier B · [[sources/brown-1992]]
+[^brown-1992]: Ann L. Brown. (1992). Design Experiments: Theoretical and Methodological Challenges in Creating Complex Interventions in Classroom Settings. Journal of the Learning Sciences, 2(2). DOI: 10.1207/s15327809jls0202_2. <https://doi.org/10.1207/s15327809jls0202_2> — tier A · [[sources/brown-1992]]
 [^collins-1992]: Allan Collins. (1992). Toward a Design Science of Education. Springer. <https://allancollins.northwestern.edu/pubs-more.html> — tier A · [[sources/collins-1992]]
-[^collins-2004]: Allan Collins; Diana Joseph; Katerine Bielaczyc. (2004). Design Research: Theoretical and Methodological Issues. Journal of the Learning Sciences, 13(1). DOI: 10.1207/S15327809JLS1301_2. <https://doi.org/10.1207/S15327809JLS1301_2> — tier B · [[sources/collins-2004]]
+[^collins-2004]: Allan Collins; Diana Joseph; Katerine Bielaczyc. (2004). Design Research: Theoretical and Methodological Issues. Journal of the Learning Sciences, 13(1). DOI: 10.1207/S15327809JLS1301_2. <https://doi.org/10.1207/S15327809JLS1301_2> — tier A · [[sources/collins-2004]]

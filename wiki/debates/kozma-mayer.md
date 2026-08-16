@@ -20,6 +20,6 @@ confidence: medium
 
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 표상 연구 연결이다[^kozma-1991][^kozma-1994][^mayer-2005].
 
-[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier B · [[sources/kozma-1991]]
-[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier B · [[sources/kozma-1994]]
+[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier A · [[sources/kozma-1991]]
+[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier A · [[sources/kozma-1994]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]

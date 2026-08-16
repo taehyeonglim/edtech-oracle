@@ -63,6 +63,6 @@ confidence: medium
 - **1994** 정의와 영역 출간 — 리타 리치와 교육공학의 다섯 영역을 체계적으로 발표했다.[^seels-richey-1994]
 
 [^bio-seels-archive]: International Visual Literacy Association. (2020). Barbara Seels Papers, 1968–1999. Visual Literacy Today. <https://visualliteracytoday.org/barbara-seels-papers-1968-1999-mss-156/> — tier B · [[sources/bio-seels-archive]]
-[^heinich-1984]: Robert Heinich. (1984). The Proper Study of Instructional Technology. Educational Communication and Technology Journal, 32(2). DOI: 10.1007/BF02766667. <https://doi.org/10.1007/BF02766667> — tier B · [[sources/heinich-1984]]
+[^heinich-1984]: Robert Heinich. (1984). The Proper Study of Instructional Technology. Educational Communication and Technology Journal, 32(2). DOI: 10.1007/BF02766667. <https://doi.org/10.1007/BF02766667> — tier A · [[sources/heinich-1984]]
 [^seels-richey-1994]: Barbara B. Seels; Rita C. Richey. (1994). Instructional Technology: The Definition and Domains of the Field. Association for Educational Communications and Technology. <https://openlibrary.org/books/OL1127250M/Instructional_technology> — tier A · [[sources/seels-richey-1994]]
-[^seels-richey-1994-case]: Rita C. Richey; Barbara Seels. (1994). Defining a Field: A Case Study of the Development of the 1994 Definition. Educational Media and Technology Yearbook. <https://eric.ed.gov/?id=EJ491599> — tier B · [[sources/seels-richey-1994-case]]
+[^seels-richey-1994-case]: Rita C. Richey; Barbara Seels. (1994). Defining a Field: A Case Study of the Development of the 1994 Definition. Educational Media and Technology Yearbook. <https://eric.ed.gov/?id=EJ491599> — tier A · [[sources/seels-richey-1994-case]]

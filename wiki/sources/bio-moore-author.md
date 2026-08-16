@@ -11,6 +11,5 @@ Michael Grahame Moore. Michael G. Moore — Distinguished Professor Emeritus. Th
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^bio-moore-author]
-
-[^bio-moore-author]: Michael Grahame Moore. Michael G. Moore — Distinguished Professor Emeritus. The Pennsylvania State University / author site. <https://michaelgmoore.com/a/> — tier A · [[sources/bio-moore-author]]
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-moore-author]
+[^bio-moore-author]: Michael Grahame Moore. Michael G. Moore — Distinguished Professor Emeritus. The Pennsylvania State University / author site. <https://michaelgmoore.com/a/> — tier B · [[sources/bio-moore-author]]

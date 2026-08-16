@@ -11,6 +11,5 @@ Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. C
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^mayer-2005]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^mayer-2005]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]

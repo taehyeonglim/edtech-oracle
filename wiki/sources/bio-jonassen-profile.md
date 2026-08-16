@@ -11,6 +11,5 @@ Educational Technology: An Introduction. David H. Jonassen. <https://www.educati
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-jonassen-profile]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-jonassen-profile]
 [^bio-jonassen-profile]: Educational Technology: An Introduction. David H. Jonassen. <https://www.educational-technology.info/researchers/david-h-jonassen> — tier B · [[sources/bio-jonassen-profile]]

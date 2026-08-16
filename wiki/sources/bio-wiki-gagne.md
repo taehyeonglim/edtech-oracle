@@ -11,6 +11,5 @@ Wikipedia editors. Robert M. Gagné. Wikipedia. <https://en.wikipedia.org/wiki/R
 
 ## 티어
 
-**C** — 백과·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-wiki-gagne]
-
+**C** — 백과사전·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-wiki-gagne]
 [^bio-wiki-gagne]: Wikipedia editors. Robert M. Gagné. Wikipedia. <https://en.wikipedia.org/wiki/Robert_M._Gagn%C3%A9> — tier C · [[sources/bio-wiki-gagne]]

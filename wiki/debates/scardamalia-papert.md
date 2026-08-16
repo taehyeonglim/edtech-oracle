@@ -21,5 +21,5 @@ confidence: high
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 지식 창조 연결이다[^papert-1980][^scardamalia-1989][^scardamalia-1994].
 
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]
-[^scardamalia-1989]: Marlene Scardamalia; Carl Bereiter; Robert S. McLean et al.. (1989). Computer-Supported Intentional Learning Environments. Journal of Educational Computing Research, 5(1). DOI: 10.2190/CYXD-6XG4-UFN5-YFB0. <https://doi.org/10.2190/CYXD-6XG4-UFN5-YFB0> — tier B · [[sources/scardamalia-1989]]
-[^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier B · [[sources/scardamalia-1994]]
+[^scardamalia-1989]: Marlene Scardamalia; Carl Bereiter; Robert S. McLean et al.. (1989). Computer-Supported Intentional Learning Environments. Journal of Educational Computing Research, 5(1). DOI: 10.2190/CYXD-6XG4-UFN5-YFB0. <https://doi.org/10.2190/CYXD-6XG4-UFN5-YFB0> — tier A · [[sources/scardamalia-1989]]
+[^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier A · [[sources/scardamalia-1994]]

@@ -21,4 +21,4 @@ Bandura의 자기효능감과 Keller의 ARCS 중 Confidence는 학습자가 과�
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 개념적 연결이다[^bandura-1997][^keller-1987].
 
 [^bandura-1997]: Albert Bandura. (1997). Self-Efficacy: The Exercise of Control. W. H. Freeman. <https://archive.org/details/selfefficacyexer0000band> — tier A · [[sources/bandura-1997]]
-[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier B · [[sources/keller-1987]]
+[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier A · [[sources/keller-1987]]

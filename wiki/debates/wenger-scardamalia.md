@@ -20,5 +20,5 @@ confidence: high
 
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 공동체 학습 대비이다[^wenger-1998][^scardamalia-1994].
 
-[^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier B · [[sources/scardamalia-1994]]
+[^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier A · [[sources/scardamalia-1994]]
 [^wenger-1998]: Etienne Wenger. (1998). Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press. DOI: 10.1017/CBO9780511803932. <https://doi.org/10.1017/CBO9780511803932> — tier A · [[sources/wenger-1998]]

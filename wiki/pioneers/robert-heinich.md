@@ -63,7 +63,7 @@ confidence: medium
 - **1984** The Proper Study — 교육기술 연구의 분석 단위를 조직과 제도까지 확장했다.[^heinich-1984]
 
 [^bio-heinich-iu]: Indiana University School of Education. (2020). Robert Heinich — In Memoriam. Indiana University. <https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf> — tier B · [[sources/bio-heinich-iu]]
-[^heinich-1984]: Robert Heinich. (1984). The Proper Study of Instructional Technology. Educational Communication and Technology Journal, 32(2). DOI: 10.1007/BF02766667. <https://doi.org/10.1007/BF02766667> — tier B · [[sources/heinich-1984]]
+[^heinich-1984]: Robert Heinich. (1984). The Proper Study of Instructional Technology. Educational Communication and Technology Journal, 32(2). DOI: 10.1007/BF02766667. <https://doi.org/10.1007/BF02766667> — tier A · [[sources/heinich-1984]]
 [^heinich-media-1982]: Robert Heinich; Michael Molenda; James D. Russell. (1982). Instructional Media and the New Technologies of Instruction. John Wiley & Sons. <https://search.worldcat.org/title/7476704> — tier A · [[sources/heinich-media-1982]]
 [^seels-richey-1994]: Barbara B. Seels; Rita C. Richey. (1994). Instructional Technology: The Definition and Domains of the Field. Association for Educational Communications and Technology. <https://openlibrary.org/books/OL1127250M/Instructional_technology> — tier A · [[sources/seels-richey-1994]]
-[^seels-richey-1994-case]: Rita C. Richey; Barbara Seels. (1994). Defining a Field: A Case Study of the Development of the 1994 Definition. Educational Media and Technology Yearbook. <https://eric.ed.gov/?id=EJ491599> — tier B · [[sources/seels-richey-1994-case]]
+[^seels-richey-1994-case]: Rita C. Richey; Barbara Seels. (1994). Defining a Field: A Case Study of the Development of the 1994 Definition. Educational Media and Technology Yearbook. <https://eric.ed.gov/?id=EJ491599> — tier A · [[sources/seels-richey-1994-case]]

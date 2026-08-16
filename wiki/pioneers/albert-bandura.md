@@ -71,6 +71,6 @@ confidence: high
 [^bandura-1997]: Albert Bandura. (1997). Self-Efficacy: The Exercise of Control. W. H. Freeman. <https://archive.org/details/selfefficacyexer0000band> — tier A · [[sources/bandura-1997]]
 [^bio-wiki-bandura]: Wikipedia editors. Albert Bandura. Wikipedia. <https://en.wikipedia.org/wiki/Albert_Bandura> — tier C · [[sources/bio-wiki-bandura]]
 [^ozer-bandura-2022]: Elizabeth M. Ozer. (2022). Albert Bandura (1925–2021). American Psychologist. <https://escholarship.org/uc/item/8pw310xd> — tier B · [[sources/ozer-bandura-2022]]
-[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier B · [[sources/keller-1987]]
+[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier A · [[sources/keller-1987]]
 [^schunk-2012]: Dale H. Schunk. (2012). Learning Theories: An Educational Perspective. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303> — tier B · [[sources/schunk-2012]]
 [^vygotsky-1978]: L. S. Vygotsky; ed. Michael Cole et al.. (1978). Mind in Society: The Development of Higher Psychological Processes. Harvard University Press. <https://www.hup.harvard.edu/books/9780674576292> — tier B · [[sources/vygotsky-1978]]

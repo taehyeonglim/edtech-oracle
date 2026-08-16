@@ -21,4 +21,4 @@ confidence: high
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 평가 관점 연결이다[^bloom-1956][^glaser-1963].
 
 [^bloom-1956]: Benjamin S. Bloom (ed.). (1956). Taxonomy of Educational Objectives: The Classification of Educational Goals. Longmans, Green. <https://archive.org/details/taxonomyofeducat0000bloo_o9o7> — tier A · [[sources/bloom-1956]]
-[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier B · [[sources/glaser-1963]]
+[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier A · [[sources/glaser-1963]]

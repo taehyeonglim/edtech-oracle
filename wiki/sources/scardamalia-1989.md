@@ -11,6 +11,5 @@ Marlene Scardamalia; Carl Bereiter; Robert S. McLean et al.. (1989). Computer-Su
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^scardamalia-1989]
-
-[^scardamalia-1989]: Marlene Scardamalia; Carl Bereiter; Robert S. McLean et al.. (1989). Computer-Supported Intentional Learning Environments. Journal of Educational Computing Research, 5(1). DOI: 10.2190/CYXD-6XG4-UFN5-YFB0. <https://doi.org/10.2190/CYXD-6XG4-UFN5-YFB0> — tier B · [[sources/scardamalia-1989]]
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^scardamalia-1989]
+[^scardamalia-1989]: Marlene Scardamalia; Carl Bereiter; Robert S. McLean et al.. (1989). Computer-Supported Intentional Learning Environments. Journal of Educational Computing Research, 5(1). DOI: 10.2190/CYXD-6XG4-UFN5-YFB0. <https://doi.org/10.2190/CYXD-6XG4-UFN5-YFB0> — tier A · [[sources/scardamalia-1989]]

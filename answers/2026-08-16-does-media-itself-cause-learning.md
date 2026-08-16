@@ -38,10 +38,10 @@ check:
 **현재의 디지털 매체에 적용한다면** [적용]
 내가 직접 검증한 적 없는 오늘날의 적응형 학습 플랫폼이나 생성형 AI 튜터에도 같은 인과 추론 원리를 적용할 수 있다고 본다 — "이 도구를 쓴 학생이 더 잘 배웠다"는 결과가 나왔을 때, 그것이 도구 자체의 힘인지 아니면 그 도구가 실어 나른 즉각적 피드백·맞춤형 설명이라는 교수방법의 힘인지를 구분해야 한다. 같은 피드백 전략을 다른 매체(예: 인간 튜터, 종이 워크북)로도 구현할 수 있다면, 효과의 원인은 매체가 아니라 방법일 가능성이 크다는 것이 내 원리의 연장이다.[^clark-1983][^clark-1994]
 
-[^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier B · [[sources/clark-1983]]
-[^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier B · [[sources/clark-1994]]
-[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier B · [[sources/kozma-1991]]
-[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier B · [[sources/kozma-1994]]
+[^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier A · [[sources/clark-1983]]
+[^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier A · [[sources/clark-1994]]
+[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier A · [[sources/kozma-1991]]
+[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier A · [[sources/kozma-1994]]
 
 ## robert-kozma
 
@@ -61,10 +61,10 @@ check:
 
 내 문헌은 1990년대 텍스트·영상·초기 컴퓨터 매체를 다룬다. 이후 등장한 생성형 AI나 VR 같은 매체를 내가 직접 연구한 적은 없다. 다만 내 원리를 그대로 연장하면 — 매체의 상징체계와 처리 기능이 교수방법·학습자 인지과정과 결합할 때 가능성이 생긴다는 원칙[^kozma-1994] — 는 새 매체에도 같은 질문을 던지게 한다. "이 신기술 자체가 학습을 향상시키는가"가 아니라 "이 기술이 제공하는 표상·조작 기능이 어떤 교수방법·과제 설계와 결합할 때 학습자의 인지 과정에 무엇을 더하는가"를 물어야 한다는 것이 내 원리로부터의 추론이다. 이를 확인하지 않고 신기술을 먼저 도입하면, 내가 경계했던 매체 결정론적 오용과 같은 함정에 빠진다.[^kozma-1991][^kozma-1994][^clark-1994]
 
-[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier B · [[sources/kozma-1991]]
-[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier B · [[sources/kozma-1994]]
-[^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier B · [[sources/clark-1983]]
-[^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier B · [[sources/clark-1994]]
+[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier A · [[sources/kozma-1991]]
+[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier A · [[sources/kozma-1994]]
+[^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier A · [[sources/clark-1983]]
+[^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier A · [[sources/clark-1994]]
 
 ## richard-mayer
 
@@ -82,15 +82,15 @@ check:
 
 **오늘날 매체(VR, AI 튜터, 게임)에 적용하면** [적용] 이것은 내 문헌에 직접 있는 내용이 아니라 원리로부터의 추론이다. VR 헤드셋이나 AI 튜터를 도입하는 것 자체가 학습을 개선한다는 주장에는 회의적일 것 같다. 그 기기가 학습자의 시각·언어 채널 처리를 어떻게 조직하는지 — 정보가 분산되어 인지부하를 늘리는지, 아니면 통합되어 처리를 돕는지 — 를 물어야 한다는 것이 내 이중 채널 이론의 자연스러운 연장이다. 다만 이 적용이 코즈마식 비판, 즉 VR이 다른 매체는 지원하지 못하는 고유한 표상(예: 공간 조작감)을 제공할 가능성까지 배제하는 것은 아니다.[^mayer-1997][^mayer-2005]
 
-[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier B · [[sources/mayer-1997]]
+[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier A · [[sources/mayer-1997]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]
-[^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier B · [[sources/clark-1983]]
-[^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier B · [[sources/clark-1994]]
-[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier B · [[sources/kozma-1991]]
-[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier B · [[sources/kozma-1994]]
-[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier B · [[sources/sweller-1988]]
-[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier A · [[sources/sweller-2011]]
+[^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier A · [[sources/clark-1983]]
+[^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier A · [[sources/clark-1994]]
+[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier A · [[sources/kozma-1991]]
+[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier A · [[sources/kozma-1994]]
+[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier A · [[sources/sweller-1988]]
+[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier B · [[sources/sweller-2011]]
 
 ## edgar-dale
 
@@ -107,7 +107,7 @@ check:
 **오늘날 기기에 적용하자면** [적용] 내 원리를 확장하면, VR이나 시뮬레이션 같은 고도로 구체적인 매체를 쓴다고 해서 저절로 더 나은 학습이 일어난다고 볼 근거는 내 문헌에 없다. 원추의 논리를 따르면 그런 매체 역시 학습자의 사전 경험과 목표에 맞게 구체성-추상성 축 위에서 설계될 때만 효과를 낸다는 추론이 가능할 뿐, 매체 자체의 속성이 학습을 만든다는 주장으로 확장할 수는 없다. 이는 내가 직접 검증한 적 없는 매체에 대한 추론임을 밝혀둔다.
 
 [^dale-1946]: Edgar Dale. (1946). Audio-Visual Methods in Teaching. Dryden Press. <https://archive.org/details/audiovisualmetho0000edga> — tier A · [[sources/dale-1946]]
-[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier B · [[sources/molenda-2003-cone]]
+[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier C · [[sources/molenda-2003-cone]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 
 ## richard-clark
@@ -130,8 +130,8 @@ check:
 **정리** [근거]
 세 사람 모두 "매체가 자동으로 학습 효과를 만든다"는 명제는 부정한다는 점에서 나와 출발점을 공유한다. 차이는 그다음이다 — 코즈마는 조건이 맞으면 매체 고유의 기능이 "관여"한다고 하고, 메이어는 매체가 아니라 표상·채널을 원인의 자리에 놓으며, 나는 그 원인의 자리에 교수방법을 놓고 같은 방법의 매체 간 이식 가능성을 인과 판정의 기준으로 삼는다. 나는 여전히, 어떤 효과가 매체 고유의 것이라 주장되려면 그 방법을 다른 매체로 옮겼을 때도 효과가 유지되는지 확인하는 것이 인과 귀속의 최소 요건이라고 본다.[^clark-1983][^clark-1994]
 
-[^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier B · [[sources/clark-1983]]
-[^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier B · [[sources/clark-1994]]
+[^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier A · [[sources/clark-1983]]
+[^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier A · [[sources/clark-1994]]
 
 ## robert-kozma
 
@@ -143,8 +143,8 @@ check:
 
 **데일의 경험의 원추에 대해** [근거없음] 데일이 매체를 기억률 위계가 아니라 구체성-추상성을 조절하는 설계 자원으로 다뤘다는 주장, 그리고 매체를 학습이 일어나는 "조건 중 하나"로 본다는 결론에는 내 문헌 밖에서 보기에도 결이 비슷해 보인다. 그러나 나는 데일의 『Audio-Visual Methods in Teaching』을 직접 검토하거나 그와 논쟁한 기록이 내 문헌에 없다. 그의 구체성-추상성 연속체가 내가 말하는 표상·처리 기능과 같은 것을 가리키는지, 아니면 다른 축을 다루는지 내 근거로는 판단할 수 없으므로 여기서 더 나아가 동의나 반박을 구성하지 않겠다.
 
-[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier B · [[sources/kozma-1991]]
-[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier B · [[sources/kozma-1994]]
+[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier A · [[sources/kozma-1991]]
+[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier A · [[sources/kozma-1994]]
 
 ## richard-mayer
 
@@ -166,12 +166,12 @@ check:
 
 **데일이 자기 원추를 기억률 위계로 쓴 적이 없다는 정정은 내 페이지의 서술과 일치한다** [근거] 내 페이지는 데일의 원추를 "구체성과 추상성을 조절하는 설계 자원"으로, 그리고 몰렌다의 2003년 논문을 근거로 '기억률 피라미드'가 데일 본인의 세 판본 어디에도 없는 후대의 오염된 결합물이라는 정정으로 함께 기록한다. 데일이 내 비판 — 원추의 구체성·추상성 축이 학습자의 정보 처리 세부 과정까지 설명하지 않는다 — 을 타당하다고 받아들인다면, 나 역시 그의 정정을 받아들인다. 우리 둘의 차이는 매체 위계를 부정한다는 점에서는 크지 않고, 분석의 단위가 "경험의 형식"이냐 "인지 처리 과정"이냐에 있다.[^dale-1946][^molenda-2003-cone][^mayer-2005]
 
-[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier B · [[sources/mayer-1997]]
+[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier A · [[sources/mayer-1997]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
-[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier B · [[sources/kozma-1991]]
-[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier B · [[sources/kozma-1994]]
+[^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier A · [[sources/kozma-1991]]
+[^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier A · [[sources/kozma-1994]]
 [^dale-1946]: Edgar Dale. (1946). Audio-Visual Methods in Teaching. Dryden Press. <https://archive.org/details/audiovisualmetho0000edga> — tier A · [[sources/dale-1946]]
-[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier B · [[sources/molenda-2003-cone]]
+[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier C · [[sources/molenda-2003-cone]]
 
 ## edgar-dale
 
@@ -188,7 +188,7 @@ check:
 **정리하면** [적용] 나는 클라크처럼 매체를 완전히 중립적인 운반체로 보지 않는다 — 원추의 구체성 축 자체가 경험의 성질은 매체 형식에 따라 달라진다는 전제 위에 서 있다.[^dale-1946] 그렇다고 코즈마처럼 어떤 경험이 특정 매체 없이는 구현 자체가 불가능하다고까지 강하게 주장한 적은 없다는 것이 내 원리를 다시 짚어본 결론이다 — 나는 원추의 층위를 경직된 위계나 수업 순서로 다루지 않았고, 아래층 경험이 위층보다 우월하다는 뜻도, 위층으로 대체 불가능하다는 뜻도 담지 않았다.[^dale-1946][^molenda-2003-cone] 경험의 형식이 달라지면 학습자가 접근할 수 있는 경험의 종류도 달라진다는 것, 그것이 내 문헌으로 확인할 수 있는 전부다.
 
 [^dale-1946]: Edgar Dale. (1946). Audio-Visual Methods in Teaching. Dryden Press. <https://archive.org/details/audiovisualmetho0000edga> — tier A · [[sources/dale-1946]]
-[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier B · [[sources/molenda-2003-cone]]
+[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier C · [[sources/molenda-2003-cone]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 
 ## _orchestrator

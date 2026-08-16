@@ -11,6 +11,5 @@ Allan Collins. (1992). Toward a Design Science of Education. Springer. <https://
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^collins-1992]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^collins-1992]
 [^collins-1992]: Allan Collins. (1992). Toward a Design Science of Education. Springer. <https://allancollins.northwestern.edu/pubs-more.html> — tier A · [[sources/collins-1992]]

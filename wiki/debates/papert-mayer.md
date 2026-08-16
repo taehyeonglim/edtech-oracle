@@ -20,6 +20,6 @@ Papert는 학습자의 제작과 외부화를, Mayer는 작업기억과 표상 �
 
 pantheon은 이 관계를 `contested` 수준으로 기록한다. 유형은 개념적 대비이다[^papert-1980][^mayer-1997][^mayer-2005].
 
-[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier B · [[sources/mayer-1997]]
+[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier A · [[sources/mayer-1997]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]

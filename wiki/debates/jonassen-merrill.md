@@ -20,5 +20,5 @@ confidence: medium
 
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 개념적 대비이다[^jonassen-2000][^merrill-2002].
 
-[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier B · [[sources/jonassen-2000]]
-[^merrill-2002]: M. David Merrill. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3). DOI: 10.1007/BF02505024. <https://doi.org/10.1007/BF02505024> — tier B · [[sources/merrill-2002]]
+[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier A · [[sources/jonassen-2000]]
+[^merrill-2002]: M. David Merrill. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3). DOI: 10.1007/BF02505024. <https://doi.org/10.1007/BF02505024> — tier A · [[sources/merrill-2002]]

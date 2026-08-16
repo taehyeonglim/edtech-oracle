@@ -11,6 +11,5 @@ Wikipedia editors. Jerome Bruner. Wikipedia. <https://en.wikipedia.org/wiki/Jero
 
 ## 티어
 
-**C** — 백과·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-wiki-bruner]
-
+**C** — 백과사전·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-wiki-bruner]
 [^bio-wiki-bruner]: Wikipedia editors. Jerome Bruner. Wikipedia. <https://en.wikipedia.org/wiki/Jerome_Bruner> — tier C · [[sources/bio-wiki-bruner]]

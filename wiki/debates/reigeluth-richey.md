@@ -20,5 +20,5 @@ confidence: high
 
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 개념적 연결이다[^reigeluth-frick-1999][^richey-klein-2007].
 
-[^reigeluth-frick-1999]: Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodology for Creating and Improving Design Theories. Instructional-Design Theories and Models, Volume II. <https://www.reigeluth.net/research-methods> — tier B · [[sources/reigeluth-frick-1999]]
+[^reigeluth-frick-1999]: Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodology for Creating and Improving Design Theories. Instructional-Design Theories and Models, Volume II. <https://www.reigeluth.net/research-methods> — tier A · [[sources/reigeluth-frick-1999]]
 [^richey-klein-2007]: Rita C. Richey; James D. Klein. (2007). Design and Development Research. Lawrence Erlbaum Associates. <https://www.routledge.com/Design-and-Development-Research-Methods-Strategies-and-Issues/Richey-Klein/p/book/9780805857320> — tier A · [[sources/richey-klein-2007]]

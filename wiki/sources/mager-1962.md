@@ -11,6 +11,5 @@ Robert F. Mager. (1962). Preparing Objectives for Programmed Instruction. Fearon
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^mager-1962]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^mager-1962]
 [^mager-1962]: Robert F. Mager. (1962). Preparing Objectives for Programmed Instruction. Fearon Publishers. <https://eric.ed.gov/?id=ED018143> — tier A · [[sources/mager-1962]]

@@ -11,6 +11,5 @@ Jean Piaget. (1952). The Origins of Intelligence in Children. International Univ
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^piaget-1952]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^piaget-1952]
 [^piaget-1952]: Jean Piaget. (1952). The Origins of Intelligence in Children. International Universities Press. <https://archive.org/details/originsofintelli0000piag> — tier A · [[sources/piaget-1952]]

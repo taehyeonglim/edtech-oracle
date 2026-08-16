@@ -69,6 +69,6 @@ Institute for Research on Learning에서 진 레이브와 수행한 작업은 19
 
 [^bio-wenger-author]: Etienne Wenger-Trayner. About Etienne. Wenger-Trayner. <https://www.wenger-trayner.com/etienne/> — tier A · [[sources/bio-wenger-author]]
 [^lave-wenger-1991]: Jean Lave; Etienne Wenger. (1991). Situated Learning: Legitimate Peripheral Participation. Cambridge University Press. <https://www.ischool.berkeley.edu/research/publications/1991/situated-learning-legitimate-peripheral-participation> — tier A · [[sources/lave-wenger-1991]]
-[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier A · [[sources/moore-1993]]
-[^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier B · [[sources/scardamalia-1994]]
+[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier B · [[sources/moore-1993]]
+[^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier A · [[sources/scardamalia-1994]]
 [^wenger-1998]: Etienne Wenger. (1998). Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press. DOI: 10.1017/CBO9780511803932. <https://doi.org/10.1017/CBO9780511803932> — tier A · [[sources/wenger-1998]]

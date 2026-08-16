@@ -11,6 +11,5 @@ John Sweller. (2016). Story of a Research Program. Education Review, 23. <https:
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^sweller-2016-story]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^sweller-2016-story]
 [^sweller-2016-story]: John Sweller. (2016). Story of a Research Program. Education Review, 23. DOI: 10.14507/er.v23.2025. <https://doi.org/10.14507/er.v23.2025> — tier A · [[sources/sweller-2016-story]]

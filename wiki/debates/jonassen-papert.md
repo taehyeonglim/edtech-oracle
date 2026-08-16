@@ -20,5 +20,5 @@ confidence: high
 
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 개념적 연결이다[^papert-1980][^jonassen-2000].
 
-[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier B · [[sources/jonassen-2000]]
+[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier A · [[sources/jonassen-2000]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]

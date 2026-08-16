@@ -11,6 +11,5 @@ Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <h
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^bruner-1960]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^bruner-1960]
 [^bruner-1960]: Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <https://archive.org/details/processofeducati00brun> — tier A · [[sources/bruner-1960]]

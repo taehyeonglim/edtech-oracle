@@ -11,6 +11,5 @@ John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^sweller-1988]
-
-[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier B · [[sources/sweller-1988]]
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^sweller-1988]
+[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier A · [[sources/sweller-1988]]

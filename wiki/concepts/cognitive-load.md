@@ -19,8 +19,8 @@ confidence: high
 두 위인의 관계는 대등하지 않다 — 메이어의 멀티미디어 설계 원리는 작업기억 용량이 제한적이라는 인지부하 이론의 전제 위에 서 있는 따름정리다.[^sweller-1988][^sweller-2011]
 
 [^bio-sweller-unsw]: School of Education. Emeritus Professor John Sweller. UNSW Sydney. <https://www.unsw.edu.au/staff/john-sweller> — tier B · [[sources/bio-sweller-unsw]]
-[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier B · [[sources/mayer-1997]]
+[^mayer-1997]: Richard E. Mayer; Roxana Moreno. (1998). A Split-Attention Effect in Multimedia Learning: Evidence for Dual Processing Systems in Working Memory. Journal of Educational Psychology, 90(2). DOI: 10.1037/0022-0663.90.2.312. <https://doi.org/10.1037/0022-0663.90.2.312> — tier A · [[sources/mayer-1997]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
-[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier B · [[sources/sweller-1988]]
-[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier A · [[sources/sweller-2011]]
+[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier A · [[sources/sweller-1988]]
+[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier B · [[sources/sweller-2011]]
 [^sweller-2016-story]: John Sweller. (2016). Story of a Research Program. Education Review, 23. DOI: 10.14507/er.v23.2025. <https://doi.org/10.14507/er.v23.2025> — tier A · [[sources/sweller-2016-story]]

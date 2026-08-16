@@ -11,6 +11,5 @@ Wikipedia editors. Edward Thorndike. Wikipedia. <https://en.wikipedia.org/wiki/E
 
 ## 티어
 
-**C** — 백과·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-wiki-thorndike]
-
+**C** — 백과사전·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-wiki-thorndike]
 [^bio-wiki-thorndike]: Wikipedia editors. Edward Thorndike. Wikipedia. <https://en.wikipedia.org/wiki/Edward_Thorndike> — tier C · [[sources/bio-wiki-thorndike]]

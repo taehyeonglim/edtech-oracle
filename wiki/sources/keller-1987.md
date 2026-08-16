@@ -11,6 +11,5 @@ John M. Keller. (1987). Development and Use of the ARCS Model of Motivational De
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^keller-1987]
-
-[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier B · [[sources/keller-1987]]
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^keller-1987]
+[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier A · [[sources/keller-1987]]

@@ -11,6 +11,5 @@ Ali Şimşek; John M. Keller. (2014). Interview with John M. Keller on Motivatio
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^simsek-keller-2014]
-
-[^simsek-keller-2014]: Ali Şimşek; John M. Keller. (2014). Interview with John M. Keller on Motivational Design of Instruction. Contemporary Educational Technology, Vol. 5, No. 1. <https://files.eric.ed.gov/fulltext/EJ1105558.pdf> — tier B · [[sources/simsek-keller-2014]]
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^simsek-keller-2014]
+[^simsek-keller-2014]: Ali Şimşek; John M. Keller. (2014). Interview with John M. Keller on Motivational Design of Instruction. Contemporary Educational Technology, Vol. 5, No. 1. <https://files.eric.ed.gov/fulltext/EJ1105558.pdf> — tier A · [[sources/simsek-keller-2014]]

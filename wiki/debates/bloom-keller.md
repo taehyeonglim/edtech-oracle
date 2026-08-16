@@ -21,4 +21,4 @@ confidence: medium
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 개념적 연결이다[^bloom-1968][^keller-1987].
 
 [^bloom-1968]: Benjamin S. Bloom. (1968). Learning for Mastery. UCLA Evaluation Comment. Evaluation Comment, 1(2). <https://eric.ed.gov/?id=ED053419> — tier B · [[sources/bloom-1968]]
-[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier B · [[sources/keller-1987]]
+[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier A · [[sources/keller-1987]]

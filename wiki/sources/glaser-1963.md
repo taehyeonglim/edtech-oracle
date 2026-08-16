@@ -11,6 +11,5 @@ Robert Glaser. (1963). Instructional Technology and the Measurement of Learning 
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^glaser-1963]
-
-[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier B · [[sources/glaser-1963]]
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^glaser-1963]
+[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier A · [[sources/glaser-1963]]

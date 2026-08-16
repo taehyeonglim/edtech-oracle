@@ -11,6 +11,5 @@ John Dewey. (1916). Democracy and Education. Macmillan. <https://archive.org/det
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^dewey-1916]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^dewey-1916]
 [^dewey-1916]: John Dewey. (1916). Democracy and Education. Macmillan. <https://archive.org/details/democracyandeduc00deweuoft> — tier A · [[sources/dewey-1916]]

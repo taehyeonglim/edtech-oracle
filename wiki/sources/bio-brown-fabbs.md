@@ -11,6 +11,5 @@ Federation of Associations in Behavioral & Brain Sciences. In Memory Of Ann L. B
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-brown-fabbs]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-brown-fabbs]
 [^bio-brown-fabbs]: Federation of Associations in Behavioral & Brain Sciences. In Memory Of Ann L. Brown. FABBS. <https://fabbs.org/about/in-honor-of/ann-l-brown-phd/> — tier B · [[sources/bio-brown-fabbs]]

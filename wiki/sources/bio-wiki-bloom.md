@@ -11,6 +11,5 @@ Wikipedia editors. Benjamin Bloom. Wikipedia. <https://en.wikipedia.org/wiki/Ben
 
 ## 티어
 
-**C** — 백과·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-wiki-bloom]
-
+**C** — 백과사전·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-wiki-bloom]
 [^bio-wiki-bloom]: Wikipedia editors. Benjamin Bloom. Wikipedia. <https://en.wikipedia.org/wiki/Benjamin_Bloom> — tier C · [[sources/bio-wiki-bloom]]

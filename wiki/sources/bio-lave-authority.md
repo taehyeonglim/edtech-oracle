@@ -11,6 +11,5 @@ Wikidata contributors; BIBSYS Authority File. Jean Lave (Q1685635). Wikidata. <h
 
 ## 티어
 
-**C** — 백과·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-lave-authority]
-
+**C** — 백과사전·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-lave-authority]
 [^bio-lave-authority]: Wikidata contributors; BIBSYS Authority File. Jean Lave (Q1685635). Wikidata. <https://www.wikidata.org/wiki/Q1685635> — tier C · [[sources/bio-lave-authority]]

@@ -56,8 +56,8 @@ check:
 [^bloom-1968]: Benjamin S. Bloom. (1968). Learning for Mastery. UCLA Evaluation Comment. Evaluation Comment, 1(2). <https://eric.ed.gov/?id=ED053419> — tier B · [[sources/bloom-1968]]
 [^bio-wiki-bloom]: Wikipedia editors. Benjamin Bloom. Wikipedia. <https://en.wikipedia.org/wiki/Benjamin_Bloom> — tier C · [[sources/bio-wiki-bloom]]
 [^bloom-1956]: Benjamin S. Bloom (ed.). (1956). Taxonomy of Educational Objectives: The Classification of Educational Goals. Longmans, Green. <https://archive.org/details/taxonomyofeducat0000bloo_o9o7> — tier A · [[sources/bloom-1956]]
-[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier B · [[sources/glaser-1963]]
-[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier B · [[sources/keller-1987]]
+[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier A · [[sources/glaser-1963]]
+[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier A · [[sources/keller-1987]]
 
 ## lev-vygotsky
 

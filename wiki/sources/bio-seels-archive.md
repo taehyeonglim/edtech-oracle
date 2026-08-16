@@ -11,6 +11,5 @@ International Visual Literacy Association. (2020). Barbara Seels Papers, 1968–
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-seels-archive]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-seels-archive]
 [^bio-seels-archive]: International Visual Literacy Association. (2020). Barbara Seels Papers, 1968–1999. Visual Literacy Today. <https://visualliteracytoday.org/barbara-seels-papers-1968-1999-mss-156/> — tier B · [[sources/bio-seels-archive]]

@@ -11,6 +11,5 @@ Instructional Systems and Learning Technologies. Instructional Systems and Learn
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-dick-fsu]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-dick-fsu]
 [^bio-dick-fsu]: Instructional Systems and Learning Technologies. Instructional Systems and Learning Technologies — Program Overview. Florida State University. <https://annescollege.fsu.edu/instructional-systems-and-learning-technologies> — tier B · [[sources/bio-dick-fsu]]

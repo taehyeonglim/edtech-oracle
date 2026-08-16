@@ -11,6 +11,5 @@ Etienne Wenger. (1998). Communities of Practice: Learning, Meaning, and Identity
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^wenger-1998]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^wenger-1998]
 [^wenger-1998]: Etienne Wenger. (1998). Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press. DOI: 10.1017/CBO9780511803932. <https://doi.org/10.1017/CBO9780511803932> — tier A · [[sources/wenger-1998]]

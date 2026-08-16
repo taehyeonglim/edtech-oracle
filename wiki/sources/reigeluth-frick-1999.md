@@ -11,6 +11,5 @@ Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodolo
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^reigeluth-frick-1999]
-
-[^reigeluth-frick-1999]: Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodology for Creating and Improving Design Theories. Instructional-Design Theories and Models, Volume II. <https://www.reigeluth.net/research-methods> — tier B · [[sources/reigeluth-frick-1999]]
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^reigeluth-frick-1999]
+[^reigeluth-frick-1999]: Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodology for Creating and Improving Design Theories. Instructional-Design Theories and Models, Volume II. <https://www.reigeluth.net/research-methods> — tier A · [[sources/reigeluth-frick-1999]]

@@ -11,6 +11,5 @@ University of Chicago Library. (1931–1942). Ralph W. Tyler Papers — Eight-Ye
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^tyler-eight-year]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^tyler-eight-year]
 [^tyler-eight-year]: University of Chicago Library. (1931–1942). Ralph W. Tyler Papers — Eight-Year Study records. University of Chicago. <https://www.lib.uchicago.edu/ead/rlg/ICU.SPCL.TYLER.pdf> — tier B · [[sources/tyler-eight-year]]

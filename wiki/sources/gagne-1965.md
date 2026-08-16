@@ -11,6 +11,5 @@ Robert M. Gagné. (1965). The Conditions of Learning. Holt, Rinehart and Winston
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^gagne-1965]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^gagne-1965]
 [^gagne-1965]: Robert M. Gagné. (1965). The Conditions of Learning. Holt, Rinehart and Winston. <https://archive.org/details/conditionsoflear0000gagn> — tier A · [[sources/gagne-1965]]

@@ -69,9 +69,9 @@ confidence: medium
 - [[debates/lave-jonassen]] — 상황적 인지와 실제적 문제 (상대: 진 레이브)[^lave-1988][^lave-wenger-1991][^jonassen-1991][^jonassen-2000]
 
 [^bio-jonassen-profile]: Educational Technology: An Introduction. David H. Jonassen. <https://www.educational-technology.info/researchers/david-h-jonassen> — tier B · [[sources/bio-jonassen-profile]]
-[^jonassen-1991]: David H. Jonassen. (1991). Objectivism versus Constructivism: Do We Need a New Philosophical Paradigm?. Educational Technology Research and Development, 39. DOI: 10.1007/BF02296434. <https://doi.org/10.1007/BF02296434> — tier B · [[sources/jonassen-1991]]
-[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier B · [[sources/jonassen-2000]]
+[^jonassen-1991]: David H. Jonassen. (1991). Objectivism versus Constructivism: Do We Need a New Philosophical Paradigm?. Educational Technology Research and Development, 39. DOI: 10.1007/BF02296434. <https://doi.org/10.1007/BF02296434> — tier A · [[sources/jonassen-1991]]
+[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier A · [[sources/jonassen-2000]]
 [^lave-1988]: Jean Lave. (1988). Cognition in Practice. Cambridge University Press. DOI: 10.1017/CBO9780511609268. <https://doi.org/10.1017/CBO9780511609268> — tier A · [[sources/lave-1988]]
 [^lave-wenger-1991]: Jean Lave; Etienne Wenger. (1991). Situated Learning: Legitimate Peripheral Participation. Cambridge University Press. <https://www.ischool.berkeley.edu/research/publications/1991/situated-learning-legitimate-peripheral-participation> — tier A · [[sources/lave-wenger-1991]]
-[^merrill-2002]: M. David Merrill. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3). DOI: 10.1007/BF02505024. <https://doi.org/10.1007/BF02505024> — tier B · [[sources/merrill-2002]]
+[^merrill-2002]: M. David Merrill. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3). DOI: 10.1007/BF02505024. <https://doi.org/10.1007/BF02505024> — tier A · [[sources/merrill-2002]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]

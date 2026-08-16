@@ -22,4 +22,4 @@ pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유�
 
 [^dale-1946]: Edgar Dale. (1946). Audio-Visual Methods in Teaching. Dryden Press. <https://archive.org/details/audiovisualmetho0000edga> — tier A · [[sources/dale-1946]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
-[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier B · [[sources/molenda-2003-cone]]
+[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier C · [[sources/molenda-2003-cone]]

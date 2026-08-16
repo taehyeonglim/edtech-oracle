@@ -11,6 +11,5 @@ Jerome S. Bruner. (1966). Toward a Theory of Instruction. Harvard University Pre
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^bruner-1966]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^bruner-1966]
 [^bruner-1966]: Jerome S. Bruner. (1966). Toward a Theory of Instruction. Harvard University Press. <https://archive.org/details/towardtheoryofin00brun> — tier A · [[sources/bruner-1966]]

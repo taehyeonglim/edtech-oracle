@@ -11,6 +11,5 @@ Robert F. Mager; Peter Pipe. (1970). Analyzing Performance Problems. Fearon Publ
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^mager-pipe-1970]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^mager-pipe-1970]
 [^mager-pipe-1970]: Robert F. Mager; Peter Pipe. (1970). Analyzing Performance Problems. Fearon Publishers. <https://archive.org/details/analyzingperform0000mage> — tier A · [[sources/mager-pipe-1970]]

@@ -11,6 +11,5 @@ International Adult and Continuing Education Hall of Fame. Michael Grahame Moore
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-moore-hall]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-moore-hall]
 [^bio-moore-hall]: International Adult and Continuing Education Hall of Fame. Michael Grahame Moore — Inductee Details. University of Oklahoma Outreach. <https://halloffame.outreach.ou.edu/Inductions/Inductee-Details/michael-grahame-moore> — tier B · [[sources/bio-moore-hall]]

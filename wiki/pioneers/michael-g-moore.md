@@ -67,9 +67,9 @@ confidence: high
 - [[debates/moore-dick]] — 교수체제와 거래적 거리 (상대: 월터 딕)[^dick-carey-1978][^moore-1973][^moore-1993]
 - [[debates/moore-wenger]] — 거리의 대화와 공동체 참여 (상대: 에티엔 웽거-트레이너)[^moore-1993][^wenger-1998]
 
-[^bio-moore-author]: Michael Grahame Moore. Michael G. Moore — Distinguished Professor Emeritus. The Pennsylvania State University / author site. <https://michaelgmoore.com/a/> — tier A · [[sources/bio-moore-author]]
+[^bio-moore-author]: Michael Grahame Moore. Michael G. Moore — Distinguished Professor Emeritus. The Pennsylvania State University / author site. <https://michaelgmoore.com/a/> — tier B · [[sources/bio-moore-author]]
 [^bio-moore-hall]: International Adult and Continuing Education Hall of Fame. Michael Grahame Moore — Inductee Details. University of Oklahoma Outreach. <https://halloffame.outreach.ou.edu/Inductions/Inductee-Details/michael-grahame-moore> — tier B · [[sources/bio-moore-hall]]
 [^dick-carey-1978]: Walter Dick; Lou Carey. (1978). The Systematic Design of Instruction. Scott, Foresman. <https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146> — tier A · [[sources/dick-carey-1978]]
 [^moore-1973]: Michael G. Moore. (1973). Toward a Theory of Independent Learning and Teaching. Journal of Higher Education, 44. <https://eric.ed.gov/?id=ED285573> — tier A · [[sources/moore-1973]]
-[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier A · [[sources/moore-1993]]
+[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier B · [[sources/moore-1993]]
 [^wenger-1998]: Etienne Wenger. (1998). Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press. DOI: 10.1017/CBO9780511803932. <https://doi.org/10.1017/CBO9780511803932> — tier A · [[sources/wenger-1998]]

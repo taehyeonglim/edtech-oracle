@@ -11,6 +11,5 @@ Jean Piaget. (1970). Genetic Epistemology. Columbia University Press. <https://c
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^piaget-1970]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^piaget-1970]
 [^piaget-1970]: Jean Piaget. (1970). Genetic Epistemology. Columbia University Press. <https://cup.columbia.edu/book/genetic-epistemology/9780231059923> — tier A · [[sources/piaget-1970]]

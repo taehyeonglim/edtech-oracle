@@ -11,6 +11,5 @@ GSI Teaching & Resource Center. Jean Lave: Learning as a Socially Situated Activ
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-lave-berkeley]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-lave-berkeley]
 [^bio-lave-berkeley]: GSI Teaching & Resource Center. Jean Lave: Learning as a Socially Situated Activity. University of California, Berkeley. <https://gsi.berkeley.edu/programs-services/hsl-project/hsl-speakers/lave/> — tier B · [[sources/bio-lave-berkeley]]

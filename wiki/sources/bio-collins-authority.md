@@ -11,6 +11,5 @@ Wikipedia editors. Allan M. Collins. Wikipedia. <https://en.wikipedia.org/wiki/A
 
 ## 티어
 
-**C** — 백과·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-collins-authority]
-
+**C** — 백과사전·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-collins-authority]
 [^bio-collins-authority]: Wikipedia editors. Allan M. Collins. Wikipedia. <https://en.wikipedia.org/wiki/Allan_M._Collins> — tier C · [[sources/bio-collins-authority]]

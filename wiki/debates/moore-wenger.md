@@ -20,5 +20,5 @@ confidence: high
 
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 온라인 학습 대비이다[^moore-1993][^wenger-1998].
 
-[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier A · [[sources/moore-1993]]
+[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier B · [[sources/moore-1993]]
 [^wenger-1998]: Etienne Wenger. (1998). Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press. DOI: 10.1017/CBO9780511803932. <https://doi.org/10.1017/CBO9780511803932> — tier A · [[sources/wenger-1998]]

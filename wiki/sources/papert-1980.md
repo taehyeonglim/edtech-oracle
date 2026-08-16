@@ -11,6 +11,5 @@ Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Bas
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^papert-1980]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^papert-1980]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]

@@ -11,6 +11,5 @@ Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^moore-1993]
-
-[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier A · [[sources/moore-1993]]
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^moore-1993]
+[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier B · [[sources/moore-1993]]

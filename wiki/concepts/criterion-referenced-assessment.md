@@ -16,7 +16,7 @@ confidence: high
 
 정본 정의는 아직 작성되지 않았다. 현재는 이 개념을 공유하는 위인들의 입장만 모아 둔다[^glaser-1963][^mager-1962].
 
-[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier B · [[sources/glaser-1963]]
-[^glaser-1984]: Robert Glaser. (1984). Education and Thinking: The Role of Knowledge. American Psychologist, 39(2). DOI: 10.1037/0003-066X.39.2.93. <https://doi.org/10.1037/0003-066X.39.2.93> — tier B · [[sources/glaser-1984]]
+[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier A · [[sources/glaser-1963]]
+[^glaser-1984]: Robert Glaser. (1984). Education and Thinking: The Role of Knowledge. American Psychologist, 39(2). DOI: 10.1037/0003-066X.39.2.93. <https://doi.org/10.1037/0003-066X.39.2.93> — tier A · [[sources/glaser-1984]]
 [^mager-1962]: Robert F. Mager. (1962). Preparing Objectives for Programmed Instruction. Fearon Publishers. <https://eric.ed.gov/?id=ED018143> — tier A · [[sources/mager-1962]]
 [^mager-pipe-1970]: Robert F. Mager; Peter Pipe. (1970). Analyzing Performance Problems. Fearon Publishers. <https://archive.org/details/analyzingperform0000mage> — tier A · [[sources/mager-pipe-1970]]

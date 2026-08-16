@@ -20,5 +20,5 @@ confidence: medium
 
 pantheon은 이 관계를 `contested` 수준으로 기록한다. 유형은 현대적 응용 연결이다[^merrill-2002][^keller-1987].
 
-[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier B · [[sources/keller-1987]]
-[^merrill-2002]: M. David Merrill. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3). DOI: 10.1007/BF02505024. <https://doi.org/10.1007/BF02505024> — tier B · [[sources/merrill-2002]]
+[^keller-1987]: John M. Keller. (1987). Development and Use of the ARCS Model of Motivational Design. Journal of Instructional Development, 10(3). DOI: 10.1007/BF02905780. <https://doi.org/10.1007/BF02905780> — tier A · [[sources/keller-1987]]
+[^merrill-2002]: M. David Merrill. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3). DOI: 10.1007/BF02505024. <https://doi.org/10.1007/BF02505024> — tier A · [[sources/merrill-2002]]

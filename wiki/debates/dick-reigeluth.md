@@ -21,4 +21,4 @@ Dick–Carey는 설계 프로젝트의 분석·개발·평가 과정을 안내�
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 개념적 대비이다[^dick-carey-1978][^reigeluth-1983].
 
 [^dick-carey-1978]: Walter Dick; Lou Carey. (1978). The Systematic Design of Instruction. Scott, Foresman. <https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146> — tier A · [[sources/dick-carey-1978]]
-[^reigeluth-1983]: Charles M. Reigeluth (ed.). (1983). Instructional-Design Theories and Models, Volume I. Lawrence Erlbaum Associates. <https://www.routledge.com/Instructional-Design-Theories-and-Models-An-Overview-of-their-Current-Status/Reigeluth/p/book/9780898592757> — tier A · [[sources/reigeluth-1983]]
+[^reigeluth-1983]: Charles M. Reigeluth (ed.). (1983). Instructional-Design Theories and Models, Volume I. Lawrence Erlbaum Associates. <https://www.routledge.com/Instructional-Design-Theories-and-Models-An-Overview-of-their-Current-Status/Reigeluth/p/book/9780898592757> — tier B · [[sources/reigeluth-1983]]

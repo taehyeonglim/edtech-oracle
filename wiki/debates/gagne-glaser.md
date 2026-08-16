@@ -21,5 +21,5 @@ confidence: medium
 pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유형은 동시대 체제화이다[^gagne-1985][^glaser-1963][^glaser-1984].
 
 [^gagne-1985]: Robert M. Gagné; Leslie J. Briggs; Walter W. Wager. (1985). Principles of Instructional Design. Holt, Rinehart and Winston. <https://archive.org/details/principlesofinst0000gagn> — tier B · [[sources/gagne-1985]]
-[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier B · [[sources/glaser-1963]]
-[^glaser-1984]: Robert Glaser. (1984). Education and Thinking: The Role of Knowledge. American Psychologist, 39(2). DOI: 10.1037/0003-066X.39.2.93. <https://doi.org/10.1037/0003-066X.39.2.93> — tier B · [[sources/glaser-1984]]
+[^glaser-1963]: Robert Glaser. (1963). Instructional Technology and the Measurement of Learning Outcomes: Some Questions. American Psychologist, 18(8). DOI: 10.1037/h0049294. <https://doi.org/10.1037/h0049294> — tier A · [[sources/glaser-1963]]
+[^glaser-1984]: Robert Glaser. (1984). Education and Thinking: The Role of Knowledge. American Psychologist, 39(2). DOI: 10.1037/0003-066X.39.2.93. <https://doi.org/10.1037/0003-066X.39.2.93> — tier A · [[sources/glaser-1984]]

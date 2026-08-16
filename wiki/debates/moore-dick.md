@@ -22,4 +22,4 @@ pantheon은 이 관계를 `scholarly-consensus` 수준으로 기록한다. 유�
 
 [^dick-carey-1978]: Walter Dick; Lou Carey. (1978). The Systematic Design of Instruction. Scott, Foresman. <https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146> — tier A · [[sources/dick-carey-1978]]
 [^moore-1973]: Michael G. Moore. (1973). Toward a Theory of Independent Learning and Teaching. Journal of Higher Education, 44. <https://eric.ed.gov/?id=ED285573> — tier A · [[sources/moore-1973]]
-[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier A · [[sources/moore-1993]]
+[^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier B · [[sources/moore-1993]]

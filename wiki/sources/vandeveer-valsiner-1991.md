@@ -11,6 +11,5 @@ René van der Veer; Jaan Valsiner. (1991). Understanding Vygotsky: A Quest for S
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^vandeveer-valsiner-1991]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^vandeveer-valsiner-1991]
 [^vandeveer-valsiner-1991]: René van der Veer; Jaan Valsiner. (1991). Understanding Vygotsky: A Quest for Synthesis. Blackwell. <https://archive.org/details/understandingvyg0000veer> — tier B · [[sources/vandeveer-valsiner-1991]]

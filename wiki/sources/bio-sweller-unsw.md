@@ -11,6 +11,5 @@ School of Education. Emeritus Professor John Sweller. UNSW Sydney. <https://www.
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^bio-sweller-unsw]
-
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^bio-sweller-unsw]
 [^bio-sweller-unsw]: School of Education. Emeritus Professor John Sweller. UNSW Sydney. <https://www.unsw.edu.au/staff/john-sweller> — tier B · [[sources/bio-sweller-unsw]]

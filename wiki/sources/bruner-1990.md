@@ -11,6 +11,5 @@ Jerome Bruner. (1990). Acts of Meaning. Harvard University Press. <https://www.h
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^bruner-1990]
-
+**A** — 위인 본인의 원저작 — 형식 불문 · 당사자 기록 · 원문 아카이브[^bruner-1990]
 [^bruner-1990]: Jerome Bruner. (1990). Acts of Meaning. Harvard University Press. <https://www.hup.harvard.edu/books/9780674003613> — tier A · [[sources/bruner-1990]]

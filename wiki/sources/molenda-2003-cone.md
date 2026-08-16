@@ -11,6 +11,5 @@ Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclop
 
 ## 티어
 
-**B** — 피어리뷰 논문·학술서·학회·대학 공식 기록[^molenda-2003-cone]
-
-[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier B · [[sources/molenda-2003-cone]]
+**C** — 백과사전·일반 참고 자료 — 단독 근거로 쓰지 않는다[^molenda-2003-cone]
+[^molenda-2003-cone]: Michael Molenda. (2003). Cone of Experience. Educational Technology: An Encyclopedia. <https://citeseerx.ist.psu.edu/document?doi=fc5cd445f0abd0d01addddba3da8275c25252c95&repid=rep1&type=pdf> — tier C · [[sources/molenda-2003-cone]]

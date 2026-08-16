@@ -63,8 +63,8 @@ confidence: high
 - **2011** Cognitive Load Theory — 30여 년의 연구와 교수설계 효과를 연구서로 종합했다.[^sweller-2011]
 
 [^bio-sweller-unsw]: School of Education. Emeritus Professor John Sweller. UNSW Sydney. <https://www.unsw.edu.au/staff/john-sweller> — tier B · [[sources/bio-sweller-unsw]]
-[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier B · [[sources/jonassen-2000]]
-[^merrienboer-2002]: Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock. (2002). Blueprints for Complex Learning: The 4C/ID-model. Educational Technology Research and Development, 50(2). DOI: 10.1007/BF02504993. <https://doi.org/10.1007/BF02504993> — tier B · [[sources/merrienboer-2002]]
-[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier B · [[sources/sweller-1988]]
-[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier A · [[sources/sweller-2011]]
+[^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier A · [[sources/jonassen-2000]]
+[^merrienboer-2002]: Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock. (2002). Blueprints for Complex Learning: The 4C/ID-model. Educational Technology Research and Development, 50(2). DOI: 10.1007/BF02504993. <https://doi.org/10.1007/BF02504993> — tier A · [[sources/merrienboer-2002]]
+[^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier A · [[sources/sweller-1988]]
+[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier B · [[sources/sweller-2011]]
 [^sweller-2016-story]: John Sweller. (2016). Story of a Research Program. Education Review, 23. DOI: 10.14507/er.v23.2025. <https://doi.org/10.14507/er.v23.2025> — tier A · [[sources/sweller-2016-story]]

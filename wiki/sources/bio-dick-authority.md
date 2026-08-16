@@ -11,6 +11,5 @@ Open Library. Walter Dick — Author Record. Internet Archive. <https://openlibr
 
 ## 티어
 
-**C** — 백과·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-dick-authority]
-
+**C** — 백과사전·일반 참고 자료 — 단독 근거로 쓰지 않는다[^bio-dick-authority]
 [^bio-dick-authority]: Open Library. Walter Dick — Author Record. Internet Archive. <https://openlibrary.org/authors/OL450418A/Walter_Dick> — tier C · [[sources/bio-dick-authority]]

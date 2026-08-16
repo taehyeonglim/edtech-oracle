@@ -11,6 +11,5 @@ John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer
 
 ## 티어
 
-**A** — 원저작·당사자 기록·원문 아카이브[^sweller-2011]
-
-[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier A · [[sources/sweller-2011]]
+**B** — 후대의 종합·편집·교재·번역 · 타인의 학술 문헌 · 기관 공식 기록[^sweller-2011]
+[^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier B · [[sources/sweller-2011]]

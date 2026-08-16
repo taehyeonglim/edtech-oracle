@@ -72,4 +72,4 @@ confidence: high
 [^bruner-1960]: Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <https://archive.org/details/processofeducati00brun> — tier A · [[sources/bruner-1960]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 [^novak-1984]: Joseph D. Novak; D. Bob Gowin. (1984). Learning How to Learn. Cambridge University Press. DOI: 10.1017/CBO9781139173469. <https://doi.org/10.1017/CBO9781139173469> — tier A · [[sources/novak-1984]]
-[^novak-2002]: Joseph D. Novak. (2002). Meaningful Learning: The Essential Factor for Conceptual Change. Science Education, 86(4). DOI: 10.1002/sce.10032. <https://doi.org/10.1002/sce.10032> — tier B · [[sources/novak-2002]]
+[^novak-2002]: Joseph D. Novak. (2002). Meaningful Learning: The Essential Factor for Conceptual Change. Science Education, 86(4). DOI: 10.1002/sce.10032. <https://doi.org/10.1002/sce.10032> — tier A · [[sources/novak-2002]]

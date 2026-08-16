@@ -67,7 +67,7 @@ confidence: medium
 - [[debates/reigeluth-richey]] — 처방 이론과 설계 연구 (상대: 찰스 라이겔루스)[^reigeluth-frick-1999][^richey-klein-2007]
 
 [^bio-richey-wayne]: Academy of Scholars. Rita C. Richey — Academy Member Profile. Wayne State University. <https://academy.wayne.edu/docs/acadamy-brochure.pdf> — tier B · [[sources/bio-richey-wayne]]
-[^reigeluth-frick-1999]: Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodology for Creating and Improving Design Theories. Instructional-Design Theories and Models, Volume II. <https://www.reigeluth.net/research-methods> — tier B · [[sources/reigeluth-frick-1999]]
+[^reigeluth-frick-1999]: Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodology for Creating and Improving Design Theories. Instructional-Design Theories and Models, Volume II. <https://www.reigeluth.net/research-methods> — tier A · [[sources/reigeluth-frick-1999]]
 [^richey-1986]: Rita C. Richey. (1986). The Theoretical and Conceptual Bases of Instructional Design. Kogan Page. <https://openlibrary.org/works/OL3913317W/The_theoretical_and_conceptual_bases_of_instructional_design> — tier A · [[sources/richey-1986]]
 [^richey-klein-2007]: Rita C. Richey; James D. Klein. (2007). Design and Development Research. Lawrence Erlbaum Associates. <https://www.routledge.com/Design-and-Development-Research-Methods-Strategies-and-Issues/Richey-Klein/p/book/9780805857320> — tier A · [[sources/richey-klein-2007]]
 [^seels-richey-1994]: Barbara B. Seels; Rita C. Richey. (1994). Instructional Technology: The Definition and Domains of the Field. Association for Educational Communications and Technology. <https://openlibrary.org/books/OL1127250M/Instructional_technology> — tier A · [[sources/seels-richey-1994]]
