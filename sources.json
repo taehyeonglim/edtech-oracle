@@ -7645,5 +7645,66 @@
     "identifiers": {
       "openlibrary_edition": "OL21231224M"
     }
+  },
+  {
+    "id": "keller-2008-e3-learning",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "켈러가 기술지원 학습을 위한 동기·의지의 다섯 첫 원리를 직접 제안하고 효과성·효율성·참여의 e³-learning 틀을 논증한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric",
+        "record_id": "10.1080/01587910802154970; ERIC EJ801002",
+        "evidence": "Crossref와 ERIC에서 DOI·제목·저자 John M. Keller·2008년·Distance Education 29(2), 175–185쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "eric",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "john-keller",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/EJ1105558.pdf",
+        "locator": "Crossref 저자 소속과 2014년 인터뷰 pp. 90, 92의 경력·정확한 자가 인용",
+        "evidence": "Crossref는 이 DOI의 John M. Keller 소속을 Florida State University로 기록한다. 2014년 인터뷰에서 켈러는 FSU Instructional Systems 합류 경력을 직접 설명하고, 이 2008년 논문을 자신의 ARCS 동기설계 원리를 설명한 저작으로 제목·저널·권호·쪽까지 정확히 인용한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "John M. Keller · Florida State University · DOI 10.1080/01587910802154970 author affiliation",
+            "evidence_url": "https://api.crossref.org/works/10.1080/01587910802154970"
+          },
+          {
+            "kind": "self-identification-and-exact-work-citation",
+            "value": "John M. Keller · FSU Instructional Systems · exact 2008 Distance Education citation · ARCS theory",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/EJ1105558.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "John M. Keller",
+    "title": "First Principles of Motivation to Learn and e³-Learning",
+    "year": "2008",
+    "publisher": "Distance Education, 29(2), 175–185",
+    "url": "https://doi.org/10.1080/01587910802154970",
+    "doi": "10.1080/01587910802154970",
+    "eric": "EJ801002",
+    "identifiers": {
+      "doi": "10.1080/01587910802154970",
+      "eric": "EJ801002"
+    }
   }
 ]

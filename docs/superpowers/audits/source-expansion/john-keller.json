@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "slug": "john-keller",
+  "base_commit": "80f7dc06acc984d9d49b9aeb4a4452310df1f204",
+  "initial_source_ids": [
+    "bandura-1997",
+    "bio-keller-springer",
+    "bio-wiki-keller",
+    "bloom-1968",
+    "keller-1983",
+    "keller-1987",
+    "merrill-2002",
+    "reiser-2017",
+    "simsek-keller-2014"
+  ],
+  "required_additions": 1,
+  "candidates": [
+    {
+      "candidate_key": "motivation-instructional-design-1979",
+      "decision": "pending_manual",
+      "reason": "Crossref·ERIC로 문헌 존재는 확인했지만 고위험 동명이인 기준의 두 독립 식별 신호와 강한 신호를 이 레코드에 대해 모두 확보하지 못해 관계 승인을 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "John M. Keller"
+        ],
+        "title": "Motivation and Instructional Design: A Theoretical Perspective",
+        "year": "1979",
+        "publisher": "Springer, Journal of Instructional Development",
+        "url": "https://link.springer.com/article/10.1007/BF02904345",
+        "identifiers": {
+          "doi": "10.1007/BF02904345",
+          "isbn": null,
+          "eric": "EJ222085",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric",
+          "record_id": "10.1007/BF02904345; ERIC EJ222085",
+          "evidence": "Crossref와 ERIC에서 DOI·제목·저자 John M. Keller·1979년·저널 서지를 대조했다.",
+          "matched_fields": [
+            "doi",
+            "eric",
+            "title",
+            "author",
+            "year",
+            "container-title"
+          ]
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "john-keller",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": "https://eric.ed.gov/?id=EJ222085",
+          "locator": "ERIC 저자란과 제목·초록의 동기설계 주제",
+          "evidence": "John M. Keller 저자명과 Motivation and Instructional Design의 동기설계 주제는 일치하지만, 이 레코드 자체에서 FSU 공식 소속/CV 또는 영구 인명 전거를 포함한 두 독립 신호를 확보하지 못했다.",
+          "identity_signals": [
+            {
+              "kind": "model-topic-continuity",
+              "value": "John M. Keller · motivational design/ARCS topic · ERIC EJ222085",
+              "evidence_url": "https://eric.ed.gov/?id=EJ222085"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "systematic-motivational-design-1987",
+      "decision": "pending_manual",
+      "reason": "Crossref·ERIC로 문헌 존재와 ARCS 주제를 확인했지만 이 레코드 자체의 FSU 공식 소속/CV 또는 영구 인명 전거가 없어 고위험 동명이인 관계 승인을 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "John M. Keller"
+        ],
+        "title": "The Systematic Process of Motivational Design",
+        "year": "1987",
+        "publisher": "Wiley, Performance & Instruction",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pfi.4160260902",
+        "identifiers": {
+          "doi": "10.1002/pfi.4160260902",
+          "isbn": null,
+          "eric": "EJ363840",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric",
+          "record_id": "10.1002/pfi.4160260902; ERIC EJ363840",
+          "evidence": "Crossref와 ERIC에서 DOI·제목·저자 John M. Keller·1987년·저널 서지를 대조했다.",
+          "matched_fields": [
+            "doi",
+            "eric",
+            "title",
+            "author",
+            "year",
+            "container-title"
+          ]
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "john-keller",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": "https://eric.ed.gov/?id=EJ363840",
+          "locator": "ERIC 저자란과 제목·초록의 동기설계 주제",
+          "evidence": "John M. Keller 저자명과 The Systematic Process of Motivational Design의 동기설계 주제는 일치하지만, 이 레코드 자체에서 FSU 공식 소속/CV 또는 영구 인명 전거를 포함한 두 독립 신호를 확보하지 못했다.",
+          "identity_signals": [
+            {
+              "kind": "model-topic-continuity",
+              "value": "John M. Keller · motivational design/ARCS topic · ERIC EJ363840",
+              "evidence_url": "https://eric.ed.gov/?id=EJ363840"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "arcs-computer-distance-1999",
+      "decision": "pending_manual",
+      "reason": "Crossref·ERIC로 문헌 존재와 ARCS·원격교육 주제를 확인했지만 이 레코드에 대해 두 독립 식별 신호 중 강한 공식 소속/CV·영구 전거를 확보하지 못해 관계 승인을 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "John M. Keller"
+        ],
+        "title": "Using the ARCS Motivational Process in Computer-Based Instruction and Distance Education",
+        "year": "1999",
+        "publisher": "Jossey-Bass/Wiley, New Directions for Teaching and Learning",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/tl.7804",
+        "identifiers": {
+          "doi": "10.1002/tl.7804",
+          "isbn": null,
+          "eric": "EJ588117",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric",
+          "record_id": "10.1002/tl.7804; ERIC EJ588117",
+          "evidence": "Crossref와 ERIC에서 DOI·제목·저자 John M. Keller·1999년·저널 서지를 대조했다.",
+          "matched_fields": [
+            "doi",
+            "eric",
+            "title",
+            "author",
+            "year",
+            "container-title"
+          ]
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "john-keller",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": "https://eric.ed.gov/?id=EJ588117",
+          "locator": "ERIC 저자란과 제목·초록의 동기설계 주제",
+          "evidence": "John M. Keller 저자명과 Using the ARCS Motivational Process in Computer-Based Instruction and Distance Education의 동기설계 주제는 일치하지만, 이 레코드 자체에서 FSU 공식 소속/CV 또는 영구 인명 전거를 포함한 두 독립 신호를 확보하지 못했다.",
+          "identity_signals": [
+            {
+              "kind": "model-topic-continuity",
+              "value": "John M. Keller · motivational design/ARCS topic · ERIC EJ588117",
+              "evidence_url": "https://eric.ed.gov/?id=EJ588117"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "first-principles-e3-learning-2008",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 ERIC에서 DOI·제목·저자 John M. Keller·2008년·Distance Education 29(2), 175–185쪽을 대조했다.",
+      "source_id": "keller-2008-e3-learning",
+      "bibliography": {
+        "authors": [
+          "John M. Keller"
+        ],
+        "title": "First Principles of Motivation to Learn and e³-Learning",
+        "year": "2008",
+        "publisher": "Routledge/Taylor & Francis, Distance Education",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/01587910802154970",
+        "identifiers": {
+          "doi": "10.1080/01587910802154970",
+          "isbn": null,
+          "eric": "EJ801002",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric",
+          "record_id": "10.1080/01587910802154970; ERIC EJ801002",
+          "evidence": "Crossref와 ERIC에서 DOI·제목·저자 John M. Keller·2008년·Distance Education 29(2), 175–185쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "eric",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-keller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/EJ1105558.pdf",
+          "locator": "Crossref 저자 소속과 2014년 인터뷰 pp. 90, 92의 경력·정확한 자가 인용",
+          "evidence": "Crossref는 이 DOI의 John M. Keller 소속을 Florida State University로 기록한다. 2014년 인터뷰에서 켈러는 FSU Instructional Systems 합류 경력을 직접 설명하고, 이 2008년 논문을 자신의 ARCS 동기설계 원리를 설명한 저작으로 제목·저널·권호·쪽까지 정확히 인용한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "John M. Keller · Florida State University · DOI 10.1080/01587910802154970 author affiliation",
+              "evidence_url": "https://api.crossref.org/works/10.1080/01587910802154970"
+            },
+            {
+              "kind": "self-identification-and-exact-work-citation",
+              "value": "John M. Keller · FSU Instructional Systems · exact 2008 Distance Education citation · ARCS theory",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/EJ1105558.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "켈러가 기술지원 학습을 위한 동기·의지의 다섯 첫 원리를 직접 제안하고 효과성·효율성·참여의 e³-learning 틀을 논증한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "명예교수와 계속되는 적용",
+        "claim": "켈러는 e³-learning을 효과성·효율성·참여를 함께 강조하는 기술지원 학습의 포괄 용어로 사용하고, 동기와 의지를 다루는 다섯 가지 첫 원리를 제시했다.",
+        "locator": "ERIC EJ801002 abstract",
+        "evidence_url": "https://eric.ed.gov/?id=EJ801002"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "keller-2008-e3-learning"
+  ],
+  "claim_map": [
+    {
+      "source_id": "keller-2008-e3-learning",
+      "section": "명예교수와 계속되는 적용",
+      "claim": "켈러는 e³-learning을 효과성·효율성·참여를 함께 강조하는 기술지원 학습의 포괄 용어로 사용하고, 동기와 의지를 다루는 다섯 가지 첫 원리를 제시했다.",
+      "evidence_locator": "ERIC EJ801002 abstract"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [],
+    "incomparable": []
+  }
+}
+
