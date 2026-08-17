@@ -7532,5 +7532,63 @@
     "identifiers": {
       "eric": "EJ347091"
     }
+  },
+  {
+    "id": "skinner-1958-teaching-machines",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "스키너가 조작적 조건형성 연구를 바탕으로 교수기계의 반응 구성·소단계 계열·즉시 확인 원리를 직접 제안한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-official-foundation-scan",
+        "record_id": "10.1126/science.128.3330.969",
+        "evidence": "Crossref와 B. F. Skinner Foundation의 원문 스캔에서 DOI·제목·저자 B. F. Skinner·1958년·Science 128(3330), 969–977쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "original-scan"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "bf-skinner",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.bfskinner.org/wp-content/uploads/2014/02/teaching-machines-1958.pdf",
+        "locator": "원문 첫 쪽 저자명과 Crossref 저자 소속",
+        "evidence": "B. F. Skinner Foundation 원문 첫 쪽은 B. F. Skinner를 저자로 표시하고, Crossref는 같은 DOI의 저자 소속을 Harvard University의 Edgar Pierce professor of psychology로 기록한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "B. F. Skinner · Edgar Pierce professor of psychology · Harvard University",
+            "evidence_url": "https://api.crossref.org/works/10.1126/science.128.3330.969"
+          },
+          {
+            "kind": "author-foundation-archive",
+            "value": "B. F. Skinner Foundation · original Science article scan",
+            "evidence_url": "https://www.bfskinner.org/wp-content/uploads/2014/02/teaching-machines-1958.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "B. F. Skinner",
+    "title": "Teaching Machines",
+    "year": "1958",
+    "publisher": "Science, 128(3330), 969–977",
+    "url": "https://www.bfskinner.org/wp-content/uploads/2014/02/teaching-machines-1958.pdf",
+    "doi": "10.1126/science.128.3330.969",
+    "identifiers": {
+      "doi": "10.1126/science.128.3330.969"
+    }
   }
 ]

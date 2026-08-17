@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "slug": "bf-skinner",
+  "base_commit": "0dcd404a243772cc53238ef461b5b8d77bb70e17",
+  "initial_source_ids": [
+    "bio-wiki-skinner",
+    "bruner-1960",
+    "gagne-1965",
+    "gagne-1985",
+    "rachlin-skinner-1995",
+    "reiser-2017",
+    "schunk-2012",
+    "skinner-1954",
+    "skinner-1957"
+  ],
+  "required_additions": 1,
+  "candidates": [
+    {
+      "candidate_key": "cand-01-behavior-organisms",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 판본과 B. F. Skinner 인명 전거로 존재·관계를 확인했으나, 정확한 부족분 1건은 교육공학 페이지의 교수기계 설계를 직접 보강하는 1958년 원논문에 우선 배정해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "B. F. Skinner"
+        ],
+        "title": "The Behavior of Organisms: An Experimental Analysis",
+        "year": "1938",
+        "publisher": "D. Appleton-Century Company, Inc.",
+        "url": "https://www.bfskinner.org/wp-content/uploads/2016/02/BoO.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6377198M",
+          "oclc": "553295"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL6377198M",
+          "evidence": "OpenLibrary OL6377198M에서 제목·1938년·D. Appleton-Century 판본과 저자 키 OL198302A를 확인했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "bf-skinner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/authors/OL198302A.json",
+          "locator": "OpenLibrary 판본 저자 키와 인명 전거",
+          "evidence": "판본은 저자를 OL198302A로 연결하고 인명 전거는 B. F. Skinner(1904–1990)와 VIAF 92601840을 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary OL198302A · B. F. Skinner · 1904–1990 · VIAF 92601840",
+              "evidence_url": "https://openlibrary.org/authors/OL198302A.json"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-02-science-human-behavior",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 판본과 B. F. Skinner 인명 전거로 존재·관계를 확인했으나, 정확한 부족분 1건은 교수기계의 구체 설계 원리를 직접 제시한 1958년 원논문에 우선 배정해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "B. F. Skinner"
+        ],
+        "title": "Science and Human Behavior",
+        "year": "1953",
+        "publisher": "The Macmillan Company",
+        "url": "https://www.bfskinner.org/wp-content/uploads/2014/02/ScienceHumanBehavior.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6134098M",
+          "oclc": "191686"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL6134098M",
+          "evidence": "OpenLibrary OL6134098M에서 제목·1953년·Macmillan 판본과 저자 키 OL198302A를 확인했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "bf-skinner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/authors/OL198302A.json",
+          "locator": "OpenLibrary 판본 저자 키와 인명 전거",
+          "evidence": "판본은 저자를 OL198302A로 연결하고 인명 전거는 B. F. Skinner(1904–1990)와 VIAF 92601840을 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary OL198302A · B. F. Skinner · 1904–1990 · VIAF 92601840",
+              "evidence_url": "https://openlibrary.org/authors/OL198302A.json"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-03-teaching-machines",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 B. F. Skinner Foundation의 원문 스캔에서 DOI·제목·저자 B. F. Skinner·1958년·Science 128(3330), 969–977쪽을 대조했다.",
+      "source_id": "skinner-1958-teaching-machines",
+      "bibliography": {
+        "authors": [
+          "B. F. Skinner"
+        ],
+        "title": "Teaching Machines: From the Experimental Study of Learning Come Devices Which Arrange Optimal Conditions for Self-Instruction",
+        "year": "1958",
+        "publisher": "American Association for the Advancement of Science",
+        "url": "https://www.bfskinner.org/wp-content/uploads/2014/02/teaching-machines-1958.pdf",
+        "identifiers": {
+          "doi": "10.1126/science.128.3330.969",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-official-foundation-scan",
+          "record_id": "10.1126/science.128.3330.969",
+          "evidence": "Crossref와 B. F. Skinner Foundation의 원문 스캔에서 DOI·제목·저자 B. F. Skinner·1958년·Science 128(3330), 969–977쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "original-scan"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "bf-skinner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.bfskinner.org/wp-content/uploads/2014/02/teaching-machines-1958.pdf",
+          "locator": "원문 첫 쪽 저자명과 Crossref 저자 소속",
+          "evidence": "B. F. Skinner Foundation 원문 첫 쪽은 B. F. Skinner를 저자로 표시하고, Crossref는 같은 DOI의 저자 소속을 Harvard University의 Edgar Pierce professor of psychology로 기록한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "B. F. Skinner · Edgar Pierce professor of psychology · Harvard University",
+              "evidence_url": "https://api.crossref.org/works/10.1126/science.128.3330.969"
+            },
+            {
+              "kind": "author-foundation-archive",
+              "value": "B. F. Skinner Foundation · original Science article scan",
+              "evidence_url": "https://www.bfskinner.org/wp-content/uploads/2014/02/teaching-machines-1958.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "스키너가 조작적 조건형성 연구를 바탕으로 교수기계의 반응 구성·소단계 계열·즉시 확인 원리를 직접 제안한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "강화의 설계 언어",
+        "claim": "스키너의 교수기계는 학습자가 선택지에서 답을 고르는 대신 반응을 직접 구성하고, 정해진 소단계를 순서대로 밟으며, 정답을 즉시 확인하도록 설계되었다.",
+        "locator": "Science pp. 970–971, “Another Kind of Machine”",
+        "evidence_url": "https://www.bfskinner.org/wp-content/uploads/2014/02/teaching-machines-1958.pdf"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.title",
+          "from": "Teaching Machines: From the Experimental Study of Learning Come Devices Which Arrange Optimal Conditions for Self-Instruction",
+          "to": "Teaching Machines",
+          "reason": "Crossref의 정규 제목과 Science 원문 머리 제목을 레지스트리 표제로 사용하고 후보의 긴 문구는 부제로 보았다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "cand-04-technology-teaching",
+      "decision": "pending_manual",
+      "reason": "ERIC ED018996과 OpenLibrary OL21329490M에서 존재·저자·초록을 확인했으나, 1958년 원논문이 반응 구성·소단계·즉시 확인을 원문에서 더 직접적으로 뒷받침해 이번 1건에는 미선정했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "B. F. Skinner"
+        ],
+        "title": "The Technology of Teaching",
+        "year": "1968",
+        "publisher": "Appleton-Century-Crofts",
+        "url": "https://eric.ed.gov/?id=ED018996",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED018996",
+          "openlibrary_edition": "OL21329490M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-and-openlibrary-edition",
+          "record_id": "ED018996; OL21329490M",
+          "evidence": "ERIC와 OpenLibrary에서 제목·저자 B. F. Skinner·1968년·Appleton-Century-Crofts 판본을 대조했다.",
+          "matched_fields": [
+            "eric",
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "bf-skinner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/authors/OL198302A.json",
+          "locator": "ERIC 저자란과 OpenLibrary 인명 전거",
+          "evidence": "ERIC는 SKINNER, B.F.를 저자로 표시하고 OpenLibrary 판본은 B. F. Skinner(1904–1990) 전거 OL198302A로 연결한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary OL198302A · B. F. Skinner · 1904–1990 · VIAF 92601840",
+              "evidence_url": "https://openlibrary.org/authors/OL198302A.json"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "skinner-1958-teaching-machines"
+  ],
+  "claim_map": [
+    {
+      "source_id": "skinner-1958-teaching-machines",
+      "section": "강화의 설계 언어",
+      "claim": "1958년 스키너의 교수기계는 학습자가 선택지에서 답을 고르는 대신 반응을 직접 구성하고, 정해진 소단계를 순서대로 밟으며, 정답을 즉시 확인하도록 설계되었다.",
+      "evidence_locator": "Science pp. 970–971, “Another Kind of Machine”"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/bf-skinner.md:47|skinner-1954|1990|1954",
+        "file": "wiki/pioneers/bf-skinner.md",
+        "line": 47,
+        "claimYear": 1990,
+        "sourceId": "skinner-1954",
+        "sourceYear": 1954,
+        "decision": "valid-context",
+        "reason": "1990년은 바로 앞의 rachlin-skinner-1995 각주가 받치는 사망 연도이고, 문단 끝의 skinner-1954는 교수기계·즉시 피드백이라는 별도 유산을 받치는 정상적인 혼합 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/bf-skinner.md:47|skinner-1957|1990|1957",
+        "file": "wiki/pioneers/bf-skinner.md",
+        "line": 47,
+        "claimYear": 1990,
+        "sourceId": "skinner-1957",
+        "sourceYear": 1957,
+        "decision": "valid-context",
+        "reason": "1990년 사망 사실은 rachlin-skinner-1995가 바로 받치고, skinner-1957은 같은 문단의 언어·사회행동 분석과 이론적 유산을 받치는 정상적인 혼합 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/bf-skinner.md:39|bio-wiki-skinner|1948|none",
+        "file": "wiki/pioneers/bf-skinner.md",
+        "line": 39,
+        "claimYear": 1948,
+        "sourceId": "bio-wiki-skinner",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-skinner는 발행연도가 없는 인물 약력이며, 1948년 하버드 복귀를 포함한 생애 경력 문맥에 붙은 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/bf-skinner.md:43|bio-wiki-skinner|1954|none",
+        "file": "wiki/pioneers/bf-skinner.md",
+        "line": 43,
+        "claimYear": 1954,
+        "sourceId": "bio-wiki-skinner",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-skinner는 발행연도가 없는 인물 약력이고, 1954년 교수기계 논문을 포함한 전쟁·연구 경력 문맥에 붙은 정상적인 보조 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/bf-skinner.md:47|bio-wiki-skinner|1990|none",
+        "file": "wiki/pioneers/bf-skinner.md",
+        "line": 47,
+        "claimYear": 1990,
+        "sourceId": "bio-wiki-skinner",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-skinner는 발행연도가 없는 인물 약력이며, 1990년 사망과 이후 유산을 설명하는 생애 문맥에 붙은 정상적인 인용이다."
+      }
+    ]
+  }
+}

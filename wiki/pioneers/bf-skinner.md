@@ -6,8 +6,8 @@ role: 심리학자 · 행동분석가
 life: 1904—1990
 concepts: [조작적 조건형성, 강화, 프로그램 학습, 교수기계]
 related: ["[[debates/skinner-gagne]]"]
-updated: 2026-08-14
-sources: [bio-wiki-skinner, rachlin-skinner-1995, bruner-1960, gagne-1965, gagne-1985, reiser-2017, schunk-2012, skinner-1954, skinner-1957]
+updated: 2026-08-18
+sources: [bio-wiki-skinner, bruner-1960, gagne-1965, gagne-1985, rachlin-skinner-1995, reiser-2017, schunk-2012, skinner-1954, skinner-1957, skinner-1958-teaching-machines]
 confidence: medium
 ---
 
@@ -27,6 +27,8 @@ confidence: medium
 ## 강화의 설계 언어
 
 스키너의 교수 설계는 복잡한 과제를 작은 수행 단위로 나누고, 학습자가 자신의 반응에 대해 빠른 피드백을 받도록 하는 데 주목한다. 이 아이디어는 컴퓨터 기반 학습의 초기 설계 원리와 연결되었지만, 학습자를 반응의 집합으로 환원할 위험도 함께 제기되었다.[^skinner-1954]
+
+1958년 스키너의 교수기계는 학습자가 선택지에서 답을 고르는 대신 반응을 직접 구성하고, 정해진 소단계를 순서대로 밟으며, 정답을 즉시 확인하도록 설계되었다.[^skinner-1958-teaching-machines]
 
 ## 행동주의의 경계
 
@@ -67,11 +69,12 @@ confidence: medium
 - [[debates/skinner-gagne]] — 행동 단위와 학습 조건 (상대: 로버트 가녜)[^skinner-1954][^gagne-1965][^gagne-1985]
 
 [^bio-wiki-skinner]: Wikipedia editors. B. F. Skinner. Wikipedia. <https://en.wikipedia.org/wiki/B._F._Skinner> — tier C · [[sources/bio-wiki-skinner]]
-[^rachlin-skinner-1995]: Howard Rachlin. (1995). B. F. Skinner (Biographical Memoirs, Vol. 67). National Academy of Sciences. <https://www.nationalacademies.org/read/4894/chapter/19> — tier B · [[sources/rachlin-skinner-1995]]
 [^bruner-1960]: Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <https://archive.org/details/processofeducati00brun> — tier A · [[sources/bruner-1960]]
 [^gagne-1965]: Robert M. Gagné. (1965). The Conditions of Learning. Holt, Rinehart and Winston. <https://archive.org/details/conditionsoflear0000gagn> — tier A · [[sources/gagne-1965]]
 [^gagne-1985]: Robert M. Gagné; Leslie J. Briggs; Walter W. Wager. (1985). Principles of Instructional Design. Holt, Rinehart and Winston. <https://archive.org/details/principlesofinst0000gagn> — tier B · [[sources/gagne-1985]]
+[^rachlin-skinner-1995]: Howard Rachlin. (1995). B. F. Skinner (Biographical Memoirs, Vol. 67). National Academy of Sciences. <https://www.nationalacademies.org/read/4894/chapter/19> — tier B · [[sources/rachlin-skinner-1995]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]
 [^schunk-2012]: Dale H. Schunk. (2012). Learning Theories: An Educational Perspective. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303> — tier B · [[sources/schunk-2012]]
 [^skinner-1954]: B. F. Skinner. (1954). The Science of Learning and the Art of Teaching. Harvard Educational Review, 24(2). <https://cir.nii.ac.jp/crid/1572824500723500288?lang=en> — tier B · [[sources/skinner-1954]]
 [^skinner-1957]: B. F. Skinner. (1957). Verbal Behavior. Appleton-Century-Crofts. <https://www.bfskinner.org/product/verbal-behavior/> — tier A · [[sources/skinner-1957]]
+[^skinner-1958-teaching-machines]: B. F. Skinner. (1958). Teaching Machines. Science, 128(3330), 969–977. DOI: 10.1126/science.128.3330.969. <https://www.bfskinner.org/wp-content/uploads/2014/02/teaching-machines-1958.pdf> — tier A · [[sources/skinner-1958-teaching-machines]]
