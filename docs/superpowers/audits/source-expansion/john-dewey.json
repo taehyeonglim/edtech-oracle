@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "slug": "john-dewey",
+  "base_commit": "d096aad0a62de3e8ad4c0e70655dfd39bb30f1d5",
+  "initial_source_ids": [
+    "bio-wiki-dewey",
+    "dewey-1916",
+    "dewey-1938",
+    "pillsbury-dewey-1957",
+    "reiser-2017",
+    "schunk-2012",
+    "thorndike-1913"
+  ],
+  "required_additions": 3,
+  "candidates": [
+    {
+      "candidate_key": "cand-01-school-society-revised",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary OL6579342M의 edition_name 'Rev. ed.'와 Project Gutenberg 원문 표제·판권면에서 제목·저자 John Dewey·1915년 2판·University of Chicago Press를 대조했다.",
+      "source_id": "dewey-1915-school-society",
+      "bibliography": {
+        "authors": [
+          "John Dewey"
+        ],
+        "title": "The School and Society, Revised Edition",
+        "year": "1915",
+        "publisher": "The University of Chicago Press",
+        "url": "https://www.gutenberg.org/cache/epub/74376/pg74376-images.html",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6579342M",
+          "oclc": "2004539"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-original-text",
+          "record_id": "OL6579342M; Project Gutenberg 74376",
+          "evidence": "OpenLibrary OL6579342M의 edition_name 'Rev. ed.'와 Project Gutenberg 원문 표제·판권면에서 제목·저자 John Dewey·1915년 2판·University of Chicago Press를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "edition_name",
+            "openlibrary_edition",
+            "oclc",
+            "original_title_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-dewey",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.gutenberg.org/cache/epub/74376/pg74376-images.html",
+          "locator": "표제·판권면과 OpenLibrary 인명 전거",
+          "evidence": "1915년 개정판 표제면은 John Dewey를 저자로 표시하고, OpenLibrary 인명 전거의 1859–1952년·VIAF·LC 식별자가 페이지의 교육철학자와 동일인임을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "original-title-page",
+              "value": "John Dewey · The School and Society · Revised Edition",
+              "evidence_url": "https://www.gutenberg.org/cache/epub/74376/pg74376-images.html"
+            },
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "John Dewey · 1859–1952 · VIAF 76314623 · LC n79060532",
+              "evidence_url": "https://openlibrary.org/authors/OL18969A"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "듀이가 시카고 실험학교의 경험을 바탕으로 학교를 협력적 공동생활의 장으로 직접 제시한 본인 원저작의 1915년 개정판이다."
+      },
+      "claim_seed": {
+        "section": "버몬트에서 시카고 실험학교까지",
+        "claim": "듀이는 학교의 활동을 공동의 목적을 가진 협력적 생활로 조직할 때 학교가 수업만 떼어 배우는 장소가 아니라 작은 공동체가 된다고 설명했다.",
+        "locator": "Chapter I, The School and Social Progress, pp. 11–16",
+        "evidence_url": "https://www.gutenberg.org/cache/epub/74376/pg74376-images.html"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-02-child-curriculum",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary OL23292144M과 Project Gutenberg 원문 표제·판권면에서 제목·저자 John Dewey·1902년·University of Chicago Press를 대조했다.",
+      "source_id": "dewey-1902-child-curriculum",
+      "bibliography": {
+        "authors": [
+          "John Dewey"
+        ],
+        "title": "The Child and the Curriculum",
+        "year": "1902",
+        "publisher": "The University of Chicago Press",
+        "url": "https://www.gutenberg.org/files/29259/29259-h/29259-h.htm",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL23292144M",
+          "oclc": "2138650"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-original-text",
+          "record_id": "OL23292144M; Project Gutenberg 29259",
+          "evidence": "OpenLibrary OL23292144M과 Project Gutenberg 원문 표제·판권면에서 제목·저자 John Dewey·1902년·University of Chicago Press를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "oclc",
+            "original_title_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-dewey",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.gutenberg.org/files/29259/29259-h/29259-h.htm",
+          "locator": "표제·판권면과 OpenLibrary 인명 전거",
+          "evidence": "원문 표제면은 John Dewey를 단독 저자로 표시하고, OpenLibrary 인명 전거의 1859–1952년·VIAF·LC 식별자가 페이지의 교육철학자와 동일인임을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "original-title-page",
+              "value": "John Dewey · The Child and the Curriculum · University of Chicago Press",
+              "evidence_url": "https://www.gutenberg.org/files/29259/29259-h/29259-h.htm"
+            },
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "John Dewey · 1859–1952 · VIAF 76314623 · LC n79060532",
+              "evidence_url": "https://openlibrary.org/authors/OL18969A"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "듀이가 아동의 현재 경험과 조직된 교과의 관계를 하나의 연속적 발달 과정으로 직접 논증한 본인 원저작이다."
+      },
+      "claim_seed": {
+        "section": "경험을 설계한다는 것",
+        "claim": "듀이는 아동의 현재 경험과 조직된 교과를 대립항으로 보지 않고 하나의 발달 과정에 놓인 두 지점으로 보았으며, 수업을 현재 경험에서 체계화된 지식으로 나아가는 연속적 재구성으로 규정했다.",
+        "locator": "“The Child and the Curriculum,” pp. 11–12",
+        "evidence_url": "https://www.gutenberg.org/files/29259/29259-h/29259-h.htm"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-03-how-we-think",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary OL7017577M과 Project Gutenberg 원문 표제·판권면에서 제목·저자 John Dewey·1910년·D. C. Heath & Co.를 대조했다.",
+      "source_id": "dewey-1910-how-we-think",
+      "bibliography": {
+        "authors": [
+          "John Dewey"
+        ],
+        "title": "How We Think",
+        "year": "1910",
+        "publisher": "D. C. Heath & Co.",
+        "url": "https://www.gutenberg.org/cache/epub/37423/pg37423-images.html",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL7017577M",
+          "oclc": "194219"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-original-text",
+          "record_id": "OL7017577M; Project Gutenberg 37423",
+          "evidence": "OpenLibrary OL7017577M과 Project Gutenberg 원문 표제·판권면에서 제목·저자 John Dewey·1910년·D. C. Heath & Co.를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "oclc",
+            "original_title_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-dewey",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.gutenberg.org/cache/epub/37423/pg37423-images.html",
+          "locator": "표제·판권면의 저자·컬럼비아대학교 소속과 OpenLibrary 인명 전거",
+          "evidence": "원문 표제면은 John Dewey를 저자이자 Columbia University 철학 교수로 표시하고, OpenLibrary 인명 전거의 1859–1952년·VIAF·LC 식별자가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "original-work-affiliation",
+              "value": "John Dewey · Professor of Philosophy in Columbia University",
+              "evidence_url": "https://www.gutenberg.org/cache/epub/37423/pg37423-images.html"
+            },
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "John Dewey · 1859–1952 · VIAF 76314623 · LC n79060532",
+              "evidence_url": "https://openlibrary.org/authors/OL18969A"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "듀이가 반성적 사고를 의문에서 출발해 증거를 탐색·검증하는 탐구 과정으로 직접 체계화한 본인 원저작이다."
+      },
+      "claim_seed": {
+        "section": "교육공학에 남긴 질문",
+        "claim": "반성적 사고는 막연한 생각의 흐름이 아니라 의문이나 곤란에서 출발해 추가 사실을 탐색하고 최초의 제안을 뒷받침하거나 반박하는 탐구이며, 해결해야 할 문제가 사고의 방향을 통제한다.",
+        "locator": "Chapter I, §§1–3, especially pp. 6 and 9–14",
+        "evidence_url": "https://www.gutenberg.org/cache/epub/37423/pg37423-images.html"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-04-schools-tomorrow",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 판본과 원문 표제면에서 존재·공저 관계는 확인했다. 다만 정확한 부족분 3건을 교육론의 직접 정초 저작 세 건으로 채워, 이 공저서는 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "John Dewey",
+          "Evelyn Dewey"
+        ],
+        "title": "Schools of To-Morrow",
+        "year": "1915",
+        "publisher": "E. P. Dutton & Company",
+        "url": "https://www.gutenberg.org/files/48906/48906-h/48906-h.htm",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6577408M",
+          "oclc": "962918"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-original-text",
+          "record_id": "OL6577408M; Project Gutenberg 48906",
+          "evidence": "OpenLibrary OL6577408M과 Project Gutenberg 원문 표제·판권면에서 제목·John Dewey와 Evelyn Dewey의 공저·1915년·E. P. Dutton & Company를 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "oclc",
+            "original_title_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-dewey",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.gutenberg.org/files/48906/48906-h/48906-h.htm",
+          "locator": "표제면과 OpenLibrary 인명 전거",
+          "evidence": "원문 표제면은 John Dewey와 Evelyn Dewey를 공저자로 표시하고, John Dewey의 OpenLibrary 인명 전거가 1859–1952년·VIAF·LC 식별자로 동일인을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "original-title-page",
+              "value": "John Dewey and Evelyn Dewey · Schools of To-Morrow",
+              "evidence_url": "https://www.gutenberg.org/files/48906/48906-h/48906-h.htm"
+            },
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "John Dewey · 1859–1952 · VIAF 76314623 · LC n79060532",
+              "evidence_url": "https://openlibrary.org/authors/OL18969A"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-05-public-problems",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 판본과 원문에서 존재·저자 관계 및 민주주의의 사회적 의미를 확인했다. 그러나 이번 정확한 부족분은 교육과 사고를 직접 다룬 원저작 세 건에 우선 배정해 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "John Dewey"
+        ],
+        "title": "The Public and Its Problems",
+        "year": "1927",
+        "publisher": "Henry Holt and Company",
+        "url": "https://www.gutenberg.org/cache/epub/71000/pg71000-images.html",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL6704043M",
+          "oclc": "952588"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-original-text",
+          "record_id": "OL6704043M; Project Gutenberg 71000",
+          "evidence": "OpenLibrary OL6704043M과 Project Gutenberg 원문 표제·판권면에서 제목·저자 John Dewey·1927년·Henry Holt and Company를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "oclc",
+            "original_title_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-dewey",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.gutenberg.org/cache/epub/71000/pg71000-images.html",
+          "locator": "표제·판권면과 OpenLibrary 인명 전거",
+          "evidence": "원문은 John Dewey를 저자로 표시하고, OpenLibrary 인명 전거의 1859–1952년·VIAF·LC 식별자가 페이지의 교육철학자와 동일인임을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "original-title-page",
+              "value": "John Dewey · The Public and Its Problems · Henry Holt and Company",
+              "evidence_url": "https://www.gutenberg.org/cache/epub/71000/pg71000-images.html"
+            },
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "John Dewey · 1859–1952 · VIAF 76314623 · LC n79060532",
+              "evidence_url": "https://openlibrary.org/authors/OL18969A"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-06-britton-logic-review",
+      "decision": "pending_manual",
+      "reason": "Crossref와 Nature 원문 메타데이터에서 존재와 듀이의 『Logic』에 대한 직접 비평 관계를 확인했다. 직접 원저작 세 건이 부족분을 충족해 이 후대 비평은 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Karl Britton"
+        ],
+        "title": "Logic",
+        "year": "1939",
+        "publisher": "Nature",
+        "url": "https://doi.org/10.1038/144880a0",
+        "identifiers": {
+          "doi": "10.1038/144880a0",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-article",
+          "record_id": "10.1038/144880a0",
+          "evidence": "Crossref와 Nature 기사 페이지에서 DOI·제목 Logic·저자 Karl Britton·1939년·Nature 144(3656), 880–881쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-dewey",
+          "kind": "criticizes",
+          "person_role": null,
+          "evidence_url": "https://www.nature.com/articles/144880a0",
+          "locator": "기사 초록과 서평 대상 서지",
+          "evidence": "Nature 초록은 서평 대상을 John Dewey의 Logic: The Theory of Inquiry로 명시하고, 논의가 산만하고 논쟁적이며 초심자에게 어려운 문체라고 직접 평가한다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "dewey-1902-child-curriculum",
+    "dewey-1910-how-we-think",
+    "dewey-1915-school-society"
+  ],
+  "claim_map": [
+    {
+      "source_id": "dewey-1915-school-society",
+      "section": "버몬트에서 시카고 실험학교까지",
+      "claim": "듀이는 학교의 활동을 공동의 목적을 가진 협력적 생활로 조직할 때 학교가 수업만 떼어 배우는 장소가 아니라 작은 공동체가 된다고 설명했다.",
+      "evidence_locator": "Chapter I, The School and Social Progress, pp. 11–16"
+    },
+    {
+      "source_id": "dewey-1902-child-curriculum",
+      "section": "경험을 설계한다는 것",
+      "claim": "따라서 수업은 현재 경험에서 체계화된 지식으로 나아가는 연속적 재구성으로 설계되어야 한다.",
+      "evidence_locator": "“The Child and the Curriculum,” pp. 11–12"
+    },
+    {
+      "source_id": "dewey-1910-how-we-think",
+      "section": "교육공학에 남긴 질문",
+      "claim": "듀이에게 반성적 사고는 의문이나 곤란에서 출발해 최초의 제안을 뒷받침하거나 반박할 사실을 찾는 탐구이며, 해결할 문제가 사고의 방향을 통제한다.",
+      "evidence_locator": "Chapter I, §§1–3, especially pp. 6 and 9–14"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/john-dewey.md:47|dewey-1916|1930|1916",
+        "file": "wiki/pioneers/john-dewey.md",
+        "line": 47,
+        "claimYear": 1930,
+        "sourceId": "dewey-1916",
+        "sourceYear": 1916,
+        "decision": "valid-context",
+        "reason": "1930년대는 듀이가 경험과 성장 문제를 다시 다듬은 시기를 가리키고, 같은 문단의 1916년 저작은 그보다 앞선 교육철학을 함께 설명하는 정상적인 혼합 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/john-dewey.md:51|dewey-1938|1952|1938",
+        "file": "wiki/pioneers/john-dewey.md",
+        "line": 51,
+        "claimYear": 1952,
+        "sourceId": "dewey-1938",
+        "sourceYear": 1938,
+        "decision": "valid-context",
+        "reason": "1952년은 듀이의 사망 연도이고, 같은 문단의 1938년 원저작은 그의 경험교육 유산을 받치는 별도 근거이므로 오래된 저작으로 사망을 입증하는 구조가 아니다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/john-dewey.md:41|bio-wiki-dewey|1896|none",
+        "file": "wiki/pioneers/john-dewey.md",
+        "line": 41,
+        "claimYear": 1896,
+        "sourceId": "bio-wiki-dewey",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-dewey는 발행연도가 없는 인물 항목이며, 1896년 실험학교 설립이라는 생애 사건을 설명하는 문맥과 일치한다."
+      },
+      {
+        "key": "wiki/pioneers/john-dewey.md:47|bio-wiki-dewey|1930|none",
+        "file": "wiki/pioneers/john-dewey.md",
+        "line": 47,
+        "claimYear": 1930,
+        "sourceId": "bio-wiki-dewey",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-dewey는 발행연도가 없는 인물 항목이며, 1930년대 컬럼비아대학교 활동 시기를 설명하는 생애 문맥과 일치한다."
+      },
+      {
+        "key": "wiki/pioneers/john-dewey.md:51|bio-wiki-dewey|1952|none",
+        "file": "wiki/pioneers/john-dewey.md",
+        "line": 51,
+        "claimYear": 1952,
+        "sourceId": "bio-wiki-dewey",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-dewey는 발행연도가 없는 인물 항목이며, 1952년 사망이라는 생애 사건을 설명하는 문맥과 일치한다."
+      }
+    ]
+  }
+}

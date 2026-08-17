@@ -6,8 +6,8 @@ role: 철학자 · 교육사상가
 life: 1859—1952
 concepts: [경험의 재구성, 민주주의와 교육, 탐구, 학습자 중심성]
 related: ["[[debates/dewey-thorndike]]"]
-updated: 2026-08-14
-sources: [bio-wiki-dewey, pillsbury-dewey-1957, dewey-1916, dewey-1938, reiser-2017, schunk-2012, thorndike-1913]
+updated: 2026-08-16
+sources: [bio-wiki-dewey, dewey-1902-child-curriculum, dewey-1910-how-we-think, dewey-1915-school-society, dewey-1916, dewey-1938, pillsbury-dewey-1957, reiser-2017, schunk-2012, thorndike-1913]
 confidence: high
 ---
 
@@ -28,13 +28,19 @@ confidence: high
 
 듀이에게 경험은 단순히 무언가를 겪는 일이 아니다. 현재의 경험이 다음 경험의 가능성을 넓히는지, 학습자가 상황의 관계를 탐구할 수 있게 하는지가 교육적 경험의 기준이 된다. 이 관점은 수업을 활동의 나열이 아니라 연속적인 탐구 환경으로 보게 한다.[^dewey-1938]
 
+듀이는 아동의 현재 경험과 조직된 교과를 서로 대립시키지 않고 한 발달 과정의 두 지점으로 보았다. 따라서 수업은 현재 경험에서 체계화된 지식으로 나아가는 연속적 재구성으로 설계되어야 한다.[^dewey-1902-child-curriculum]
+
 ## 교육공학에 남긴 질문
 
 듀이의 유산은 특정한 매체 처방보다 설계의 출발점을 바꾼 데 있다. 기술을 도입하기 전에 학습자가 무엇을 실제로 해보고, 누구와 협력하며, 그 경험을 어떻게 다시 해석할지를 묻는다. 프로젝트 기반 학습과 스튜디오형 수업은 이 질문을 현대적으로 번역한 사례다.[^dewey-1916][^dewey-1938]
 
+듀이에게 반성적 사고는 의문이나 곤란에서 출발해 최초의 제안을 뒷받침하거나 반박할 사실을 찾는 탐구이며, 해결할 문제가 사고의 방향을 통제한다.[^dewey-1910-how-we-think]
+
 ## 버몬트에서 시카고 실험학교까지
 
 존 듀이는 1859년 버몬트주 벌링턴에서 태어나 버몬트대학교를 졸업한 뒤 존스홉킨스대학교에서 철학 박사학위를 받았다. 미시간대학교와 미네소타대학교에서 가르친 뒤 시카고대학교로 옮겼고, 1896년에는 아내 앨리스와 함께 Laboratory School을 열었다. 이 학교는 경험·탐구·협동을 실제 교육과정에서 시험한 장소였다.[^bio-wiki-dewey][^pillsbury-dewey-1957][^dewey-1916]
+
+듀이는 학교의 활동을 공동의 목적을 가진 협력적 생활로 조직할 때 학교가 수업만 떼어 배우는 장소가 아니라 작은 공동체가 된다고 설명했다.[^dewey-1915-school-society]
 
 ## 프래그머티즘의 공적 교육
 
@@ -67,9 +73,12 @@ confidence: high
 - [[debates/dewey-thorndike]] — 경험 vs. 측정 (상대: 에드워드 손다이크)[^dewey-1916][^thorndike-1913][^schunk-2012]
 
 [^bio-wiki-dewey]: Wikipedia editors. John Dewey. Wikipedia. <https://en.wikipedia.org/wiki/John_Dewey> — tier C · [[sources/bio-wiki-dewey]]
-[^pillsbury-dewey-1957]: Walter B. Pillsbury. (1957). John Dewey 1859–1952: A Biographical Memoir. National Academy of Sciences. <https://www.nasonline.org/wp-content/uploads/2024/06/dewey-john.pdf> — tier B · [[sources/pillsbury-dewey-1957]]
+[^dewey-1902-child-curriculum]: John Dewey. (1902). The Child and the Curriculum. The University of Chicago Press. <https://www.gutenberg.org/files/29259/29259-h/29259-h.htm> — tier A · [[sources/dewey-1902-child-curriculum]]
+[^dewey-1910-how-we-think]: John Dewey. (1910). How We Think. D. C. Heath & Co. <https://www.gutenberg.org/cache/epub/37423/pg37423-images.html> — tier A · [[sources/dewey-1910-how-we-think]]
+[^dewey-1915-school-society]: John Dewey. (1915). The School and Society, Revised Edition. The University of Chicago Press. <https://www.gutenberg.org/cache/epub/74376/pg74376-images.html> — tier A · [[sources/dewey-1915-school-society]]
 [^dewey-1916]: John Dewey. (1916). Democracy and Education. Macmillan. <https://archive.org/details/democracyandeduc00deweuoft> — tier A · [[sources/dewey-1916]]
 [^dewey-1938]: John Dewey. (1938). Experience and Education. Macmillan. <https://archive.org/details/experienceeducat00dewe> — tier A · [[sources/dewey-1938]]
+[^pillsbury-dewey-1957]: Walter B. Pillsbury. (1957). John Dewey 1859–1952: A Biographical Memoir. National Academy of Sciences. <https://www.nasonline.org/wp-content/uploads/2024/06/dewey-john.pdf> — tier B · [[sources/pillsbury-dewey-1957]]
 [^reiser-2017]: Robert A. Reiser; John V. Dempsey (eds.). (2017). Trends and Issues in Instructional Design and Technology. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222> — tier B · [[sources/reiser-2017]]
 [^schunk-2012]: Dale H. Schunk. (2012). Learning Theories: An Educational Perspective. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303> — tier B · [[sources/schunk-2012]]
 [^thorndike-1913]: Edward L. Thorndike. (1913). Educational Psychology: The Original Nature of Man. Teachers College, Columbia University. <https://archive.org/details/educationalpsych01thor> — tier A · [[sources/thorndike-1913]]
