@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "slug": "charles-reigeluth",
+  "base_commit": "993f071dfc32f38d2adf199d03e7aef64f21b103",
+  "initial_source_ids": [
+    "bio-reigeluth-author",
+    "dick-1996",
+    "dick-carey-1978",
+    "reigeluth-1983",
+    "reigeluth-frick-1999",
+    "richey-klein-2007"
+  ],
+  "required_additions": 4,
+  "candidates": [
+    {
+      "candidate_key": "cand-charles-reigeluth-01",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref·ERIC·Springer와 공식 경력 약력에서 DOI·서지·단독 저자·Syracuse 교수설계 소속을 대조했다.",
+      "source_id": "reigeluth-1979-elaboration-theory",
+      "bibliography": {
+        "authors": [
+          "Charles M. Reigeluth"
+        ],
+        "title": "In Search of a Better Way to Organize Instruction: The Elaboration Theory",
+        "year": "1979",
+        "publisher": "Journal of Instructional Development, 2(3), 8–15",
+        "url": "https://link.springer.com/article/10.1007/BF02984374",
+        "identifiers": {
+          "doi": "10.1007/BF02984374",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric-record",
+          "record_id": "10.1007/BF02984374",
+          "evidence": "Crossref와 ERIC ED172788에서 DOI·제목·저자 Charles M. Reigeluth·1979년·Journal of Instructional Development 2(3)·8–15쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "eric_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "charles-reigeluth",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://link.springer.com/article/10.1007/BF02984374",
+          "locator": "Springer 저자·소속란과 ERIC 저자란",
+          "evidence": "Springer는 Charles M. Reigeluth를 단독 저자이자 Syracuse University 교수설계 소속으로 표시하고, 공식 저자 약력이 같은 경력과 교수이론 연구를 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-profile-and-field",
+              "value": "Charles M. Reigeluth · Syracuse University Instructional Design · instructional methods and theories",
+              "evidence_url": "https://www.reigeluth.net/me-c1owg"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "라이겔루스가 정교화이론의 epitome과 층별 정교화 순서를 직접 제시한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "내용을 정교화하는 순서",
+        "claim": "정교화이론은 요약문이 아니라 학습 내용의 대표적 전체상인 epitome으로 시작하고, 전체 범위에 세부나 복잡성을 층별로 더하도록 제안한다.",
+        "locator": "ERIC ED172788 초록",
+        "evidence_url": "https://eric.ed.gov/?id=ED172788"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-charles-reigeluth-02",
+      "decision": "pending_manual",
+      "reason": "Crossref·ERIC·Springer와 공식 약력에서 실재·단독 저자·직접 후속 논평임을 확인했지만, 정확한 4건 묶음에서는 메이어의 직접 비판과 1979년 원 정식화가 비판과 핵심 이론을 더 독립적인 주장으로 보강하므로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Charles M. Reigeluth"
+        ],
+        "title": "Elaborating the Elaboration Theory",
+        "year": "1992",
+        "publisher": "Educational Technology Research and Development, 40(3), 80–86",
+        "url": "https://link.springer.com/article/10.1007/BF02296844",
+        "identifiers": {
+          "doi": "10.1007/BF02296844",
+          "isbn": null,
+          "eric": "EJ462855",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric-record",
+          "record_id": "10.1007/BF02296844",
+          "evidence": "Crossref와 ERIC EJ462855에서 DOI·제목·저자 Charles M. Reigeluth·1992년·ETR&D 40(3)·80–86쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "eric_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "charles-reigeluth",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://link.springer.com/article/10.1007/BF02296844",
+          "locator": "Springer 저자란·초록과 공식 저자 약력",
+          "evidence": "Springer는 Charles M. Reigeluth를 단독 저자로 표시하고 글을 정교화이론 비판에 대한 논평으로 설명하며, 공식 약력의 Indiana University·교수이론 경력과 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-profile-and-field",
+              "value": "Charles M. Reigeluth · Indiana University · elaboration theory and instructional theory",
+              "evidence_url": "https://www.reigeluth.net/me-c1owg"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-charles-reigeluth-03",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref·ERIC·Springer의 공저자와 공식 약력의 Indiana University·교수이론 연구 경력을 대조했다.",
+      "source_id": "english-reigeluth-1996-formative-sequencing",
+      "bibliography": {
+        "authors": [
+          "Robert E. English",
+          "Charles M. Reigeluth"
+        ],
+        "title": "Formative Research on Sequencing Instruction with the Elaboration Theory",
+        "year": "1996",
+        "publisher": "Educational Technology Research and Development, 44(1), 23–42",
+        "url": "https://link.springer.com/article/10.1007/BF02300324",
+        "identifiers": {
+          "doi": "10.1007/BF02300324",
+          "isbn": null,
+          "eric": "EJ520275",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric-record",
+          "record_id": "10.1007/BF02300324",
+          "evidence": "Crossref와 ERIC EJ520275에서 DOI·제목·저자 Robert E. English와 Charles M. Reigeluth·1996년·ETR&D 44(1)·23–42쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "eric_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "charles-reigeluth",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://link.springer.com/article/10.1007/BF02300324",
+          "locator": "Springer·ERIC 공저자란과 공식 저자 약력",
+          "evidence": "Springer와 ERIC은 Charles M. Reigeluth를 Robert E. English의 공저자로 표시하고 정교화이론 형성연구를 명시하며, 공식 약력의 Indiana University·교수이론 연구와 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-profile-and-field",
+              "value": "Charles M. Reigeluth · Robert E. English · Indiana University · elaboration theory formative research",
+              "evidence_url": "https://www.reigeluth.net/me-c1owg"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "English와 라이겔루스가 전기회로 교재에 정교화이론을 적용해 약점과 개선안을 직접 도출한 형성연구 원논문이다."
+      },
+      "claim_seed": {
+        "section": "이론을 현장에서 개선하기",
+        "claim": "전기회로 분석 교재 네 장을 정교화이론에 맞게 고친 형성연구는 두 단계의 자료수집과 질적 분석으로 이론의 약점을 찾고, 새 방법의 추가와 기존 방법의 수정·강화를 제안했다.",
+        "locator": "Springer 초록",
+        "evidence_url": "https://link.springer.com/article/10.1007/BF02300324"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-charles-reigeluth-04",
+      "decision": "pending_manual",
+      "reason": "Crossref DOI와 공식 저자 시리즈 페이지에서 전자판과 1999년 초판·편집 관계를 확인했지만, 이미 Volume I과 Volume II의 형성연구 장이 등재되어 있어 이번에는 고유 주장이 더 뚜렷한 Volume III를 우선했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Charles M. Reigeluth (editor)"
+        ],
+        "title": "Instructional-Design Theories and Models, Volume II: A New Paradigm of Instructional Theory",
+        "year": "1999",
+        "publisher": "Lawrence Erlbaum Associates",
+        "url": "https://www.routledge.com/Instructional-design-Theories-and-Models-A-New-Paradigm-of-Instructional-Theory-Volume-II/Reigeluth/p/book/9780805828597",
+        "identifiers": {
+          "doi": "10.4324/9781410603784",
+          "isbn": "9780805828597",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-official-author-series-page",
+          "record_id": "10.4324/9781410603784",
+          "evidence": "Crossref는 DOI·제목·Charles M. Reigeluth·Routledge 전자판을, 공식 저자 시리즈 페이지는 Volume II 부제와 1999년 초판을 확인한다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "publisher",
+            "ebook_isbn",
+            "official_volume_title",
+            "original_publication_year"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "charles-reigeluth",
+          "kind": "authored_by",
+          "person_role": "editor",
+          "evidence_url": "https://www.reigeluth.net/4books",
+          "locator": "공식 시리즈 페이지 표제와 Volume II 설명",
+          "evidence": "공식 저자 페이지는 Charles M. Reigeluth를 네 권 시리즈의 편집자로 밝히고 Volume II의 1999년·부제를 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-profile-and-field",
+              "value": "Charles M. Reigeluth · editor of Instructional-Design Theories and Models Volumes I–IV",
+              "evidence_url": "https://www.reigeluth.net/4books"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-charles-reigeluth-05",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref DOI와 공식 Volume III 페이지가 제목·2009년·Routledge·두 공동편집자를 일치하게 제시한다.",
+      "source_id": "reigeluth-carr-chellman-2009-volume-iii",
+      "bibliography": {
+        "authors": [
+          "Charles M. Reigeluth (editor)",
+          "Alison A. Carr-Chellman (editor)"
+        ],
+        "title": "Instructional-Design Theories and Models, Volume III: Building a Common Knowledge Base",
+        "year": "2009",
+        "publisher": "Routledge",
+        "url": "https://www.routledge.com/Instructional-Design-Theories-and-Models-Volume-III-Building-a-Common-Knowledge-Base/Reigeluth-Carr-Chellman/p/book/9780805864564",
+        "identifiers": {
+          "doi": "10.4324/9780203872130",
+          "isbn": "9780805864564",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-official-author-volume-page",
+          "record_id": "10.4324/9780203872130",
+          "evidence": "Crossref와 공식 저자 Volume III 페이지에서 DOI·제목·공동편집자 Charles M. Reigeluth와 Alison A. Carr-Chellman·2009년·Routledge를 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "editors",
+            "issued",
+            "publisher",
+            "official_volume_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "charles-reigeluth",
+          "kind": "authored_by",
+          "person_role": "editor",
+          "evidence_url": "https://www.reigeluth.net/volume-iii",
+          "locator": "공식 Volume III 표제·공동편집자란",
+          "evidence": "공식 저자 페이지는 Charles M. Reigeluth와 Alison A. Carr-Chellman을 Volume III 공동편집자로 명시한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-profile-and-field",
+              "value": "Charles M. Reigeluth · Alison A. Carr-Chellman · Volume III co-editors",
+              "evidence_url": "https://www.reigeluth.net/volume-iii"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "2-book-or-chapter-role",
+        "evidence": "라이겔루스와 Carr-Chellman이 공동 편집한 다수 저자 종합서로, 편집·종합 역할 때문에 B다."
+      },
+      "claim_seed": {
+        "section": "정교화 이론과 교수설계 이론의 지도",
+        "claim": "Volume III는 교수이론가들이 서로 고립된 채 기존 지식과 용어를 충분히 공유하지 않는 문제에서 출발해, 공통 용어를 쓰는 교수의 공동 지식기반 구축을 목표로 삼았다.",
+        "locator": "공식 Volume III “About this Book” 두 번째·세 번째 문단",
+        "evidence_url": "https://www.reigeluth.net/volume-iii"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-charles-reigeluth-06",
+      "decision": "pending_manual",
+      "reason": "출판사 URL은 403, OpenLibrary ISBN 경로는 7초 간격 최대 5회 모두 연결 타임아웃, Google Books는 429를 반환해 현재 경로에서 판본 존재와 저자란을 확정하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Charles M. Reigeluth",
+          "Jennifer R. Karnopp"
+        ],
+        "title": "Reinventing Schools: It’s Time to Break the Mold",
+        "year": "2013",
+        "publisher": "R&L Education",
+        "url": "https://www.bloomsbury.com/us/reinventing-schools-9781475802405/",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9781475802405",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "Bloomsbury 출판사 URL은 403을 반환했고 OpenLibrary ISBN 경로는 7초 간격 5회 모두 연결 타임아웃, Google Books API는 429였다. 현재 경로에서 판본 정체를 확정하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "charles-reigeluth",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "판본 존재와 저자란을 현재 접근 경로에서 확정하지 못해 관계 승인을 보류했다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-charles-reigeluth-07",
+      "decision": "pending_manual",
+      "reason": "Crossref와 공식 Volume IV 페이지에서 실재·세 공동편집자·전자판 2016/인쇄판 2017을 확인했지만, 정확한 4건 묶음에서는 Volume III가 교수이론 지도의 공동 지식기반 문제를 더 독립적인 주장으로 보강하므로 보류했다. OpenLibrary 판본은 5회 타임아웃이었다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Charles M. Reigeluth (editor)",
+          "Brian J. Beatty (editor)",
+          "Rodney D. Myers (editor)"
+        ],
+        "title": "Instructional-Design Theories and Models, Volume IV: The Learner-Centered Paradigm of Education",
+        "year": "2017",
+        "publisher": "Routledge",
+        "url": "https://www.routledge.com/Instructional-Design-Theories-and-Models-Volume-IV-The-Learner-Centered-Paradigm-of-Education/Reigeluth-Beatty-Myers/p/book/9781138012936",
+        "identifiers": {
+          "doi": "10.4324/9781315795478",
+          "isbn": "9781138012936",
+          "eric": null,
+          "openlibrary_edition": "OL28816152M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-official-author-volume-page",
+          "record_id": "10.4324/9781315795478",
+          "evidence": "Crossref와 공식 저자 Volume IV 페이지에서 DOI·제목·세 공동편집자·Routledge 전자판 2016년과 인쇄판 2017년을 대조했다. OpenLibrary OL28816152M은 7초 간격 5회 연결 타임아웃이었으나 두 독립 공식 경로가 서지를 확인했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "editors",
+            "publisher",
+            "ebook_year",
+            "print_year",
+            "official_volume_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "charles-reigeluth",
+          "kind": "authored_by",
+          "person_role": "editor",
+          "evidence_url": "https://www.reigeluth.net/volume-iv",
+          "locator": "공식 Volume IV 표제·공동편집자란",
+          "evidence": "공식 저자 페이지는 Charles M. Reigeluth, Brian J. Beatty, Rodney D. Myers를 Volume IV 공동편집자로 명시한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-profile-and-field",
+              "value": "Charles M. Reigeluth · Brian J. Beatty · Rodney D. Myers · Volume IV co-editors",
+              "evidence_url": "https://www.reigeluth.net/volume-iv"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-charles-reigeluth-08",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref·Springer 서지를 대조했고 초록이 Merrill–Reigeluth 정교화모형의 구체적 장점과 세 비판점을 직접 다룬다.",
+      "source_id": "mayer-1981-elaboration-evaluation",
+      "bibliography": {
+        "authors": [
+          "Richard E. Mayer"
+        ],
+        "title": "An Evaluation of the Elaboration Model of Instruction: From the Perspective of Assimilation Theory",
+        "year": "1981",
+        "publisher": "Journal of Instructional Development, 5, 23–26",
+        "url": "https://link.springer.com/article/10.1007/BF02905294",
+        "identifiers": {
+          "doi": "10.1007/BF02905294",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-abstract",
+          "record_id": "10.1007/BF02905294",
+          "evidence": "Crossref와 Springer에서 DOI·제목·저자 Richard E. Mayer·1981년·Journal of Instructional Development 5(1)·23–26쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "charles-reigeluth",
+          "kind": "criticizes",
+          "person_role": null,
+          "evidence_url": "https://link.springer.com/article/10.1007/BF02905294",
+          "locator": "Springer 초록 전체, 특히 첫째·셋째 문장",
+          "evidence": "초록은 이 글을 Merrill과 Reigeluth의 정교화 교수모형에 대한 비판적 분석으로 규정하고 명료성·경험적 근거·기저 기제의 문제를 직접 열거한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-profile-and-field",
+              "value": "Charles M. Reigeluth · Merrill-Reigeluth elaboration model · critique target",
+              "evidence_url": "https://www.reigeluth.net/me-c1owg"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "3-other-scholar-or-institution",
+        "evidence": "타 학자 Richard E. Mayer가 라이겔루스의 정교화모형을 직접 평가·비판한 피어리뷰 학술 논문이다."
+      },
+      "claim_seed": {
+        "section": "당대의 비판",
+        "claim": "메이어는 정교화모형이 새 자료와 기존 지식의 연결을 강조한 점은 긍정적으로 평가했지만, 모형의 명료성, 경험적 근거의 부족, 기저 이론기제 설명의 부재를 비판했다.",
+        "locator": "Springer 초록 두 번째·세 번째 문장",
+        "evidence_url": "https://link.springer.com/article/10.1007/BF02905294"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "english-reigeluth-1996-formative-sequencing",
+    "mayer-1981-elaboration-evaluation",
+    "reigeluth-1979-elaboration-theory",
+    "reigeluth-carr-chellman-2009-volume-iii"
+  ],
+  "claim_map": [
+    {
+      "source_id": "reigeluth-1979-elaboration-theory",
+      "section": "내용을 정교화하는 순서",
+      "claim": "이때 출발점은 단순한 요약문이 아니라 학습 내용의 대표적 전체상인 epitome이며, 이후 전체 범위에 세부나 복잡성을 층별로 더한다.",
+      "evidence_locator": "ERIC ED172788 초록"
+    },
+    {
+      "source_id": "english-reigeluth-1996-formative-sequencing",
+      "section": "이론을 현장에서 개선하기",
+      "claim": "전기회로 분석 교재 네 장을 정교화이론에 맞게 고친 형성연구에서는 두 단계로 자료를 수집하고 질적으로 분석해 이론의 약점을 찾았으며, 새 방법을 추가하고 기존 방법을 수정·강화할 것을 제안했다.",
+      "evidence_locator": "Springer 초록"
+    },
+    {
+      "source_id": "reigeluth-carr-chellman-2009-volume-iii",
+      "section": "정교화 이론과 교수설계 이론의 지도",
+      "claim": "2009년의 Volume III는 교수이론가들이 서로 고립된 채 기존 지식과 용어를 충분히 공유하지 않는 문제에서 출발해, 공통 용어를 사용하는 교수의 공동 지식기반 구축을 목표로 삼았다.",
+      "evidence_locator": "공식 Volume III “About this Book” 두 번째·세 번째 문단"
+    },
+    {
+      "source_id": "mayer-1981-elaboration-evaluation",
+      "section": "당대의 비판",
+      "claim": "메이어는 정교화모형이 새 자료와 기존 지식의 연결을 강조한 점은 긍정적으로 평가했지만, 모형의 명료성, 경험적 근거의 부족, 기저 이론기제 설명의 부재를 비판했다.",
+      "evidence_locator": "Springer 초록 두 번째·세 번째 문장"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/charles-reigeluth.md:41|bio-reigeluth-author|1946|none",
+        "file": "wiki/pioneers/charles-reigeluth.md",
+        "line": 41,
+        "claimYear": 1946,
+        "sourceId": "bio-reigeluth-author",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 당사자 공식 약력이 1946년 출생과 경력 사실을 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/charles-reigeluth.md:45|bio-reigeluth-author|1983|none",
+        "file": "wiki/pioneers/charles-reigeluth.md",
+        "line": 45,
+        "claimYear": 1983,
+        "sourceId": "bio-reigeluth-author",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 당사자 공식 약력이 1983년부터 이어진 저작 시리즈와 경력을 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/charles-reigeluth.md:69|bio-reigeluth-author|1969|none",
+        "file": "wiki/pioneers/charles-reigeluth.md",
+        "line": 69,
+        "claimYear": 1969,
+        "sourceId": "bio-reigeluth-author",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 당사자 공식 약력이 1969년 Harvard 학위 사실을 직접 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/charles-reigeluth.md:70|bio-reigeluth-author|1977|none",
+        "file": "wiki/pioneers/charles-reigeluth.md",
+        "line": 70,
+        "claimYear": 1977,
+        "sourceId": "bio-reigeluth-author",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 당사자 공식 약력이 1977년 BYU 박사학위 사실을 직접 설명하는 정상 인용이다."
+      }
+    ]
+  }
+}

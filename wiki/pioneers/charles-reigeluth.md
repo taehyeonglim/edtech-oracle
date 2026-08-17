@@ -6,9 +6,9 @@ role: 교수이론 연구자 · 교육체제 개혁가
 life: 1946—
 concepts: [정교화이론, 교수이론, 형성연구, 학습자 중심 체제]
 related: ["[[debates/dick-reigeluth]]", "[[debates/reigeluth-richey]]"]
-updated: 2026-08-14
-sources: [bio-reigeluth-author, dick-carey-1978, dick-1996, reigeluth-1983, reigeluth-frick-1999, richey-klein-2007]
-confidence: medium
+updated: 2026-08-16
+sources: [bio-reigeluth-author, dick-1996, dick-carey-1978, english-reigeluth-1996-formative-sequencing, mayer-1981-elaboration-evaluation, reigeluth-1979-elaboration-theory, reigeluth-1983, reigeluth-carr-chellman-2009-volume-iii, reigeluth-frick-1999, richey-klein-2007]
+confidence: high
 ---
 
 ## 핵심 명제
@@ -28,9 +28,13 @@ confidence: medium
 
 정교화이론은 전체 과제의 단순한 판을 먼저 제시하고, 점차 복잡성과 세부를 더하며, 요약과 종합으로 연결을 강화한다. 단순한 쉬운 것부터 어려운 것의 배열이 아니라 전체와 부분의 의미 관계를 보존하는 순서화다.[^reigeluth-1983]
 
+이때 출발점은 단순한 요약문이 아니라 학습 내용의 대표적 전체상인 epitome이며, 이후 전체 범위에 세부나 복잡성을 층별로 더한다.[^reigeluth-1979-elaboration-theory]
+
 ## 이론을 현장에서 개선하기
 
 형성연구는 완성된 이론을 검증하는 데 그치지 않고 실제 적용 사례를 통해 어떤 방법이 어떤 조건에서 작동하거나 실패하는지를 찾아 이론 자체를 개선한다.[^reigeluth-frick-1999][^bio-reigeluth-author]
+
+전기회로 분석 교재 네 장을 정교화이론에 맞게 고친 형성연구에서는 두 단계로 자료를 수집하고 질적으로 분석해 이론의 약점을 찾았으며, 새 방법을 추가하고 기존 방법을 수정·강화할 것을 제안했다.[^english-reigeluth-1996-formative-sequencing]
 
 ## 하버드 경제학도에서 교수설계 연구자로
 
@@ -39,6 +43,8 @@ confidence: medium
 ## 정교화 이론과 교수설계 이론의 지도
 
 라이겔루스의 정교화 이론은 학습 내용을 단순하고 대표적인 전체상에서 시작해 점차 세부와 복잡성을 더하는 방식으로 조직한다. 1983년부터 편집한 『Instructional-Design Theories and Models』 시리즈는 서로 다른 설계 이론의 목표·방법·조건을 비교 가능한 언어로 모았다.[^reigeluth-1983][^bio-reigeluth-author]
+
+2009년의 Volume III는 교수이론가들이 서로 고립된 채 기존 지식과 용어를 충분히 공유하지 않는 문제에서 출발해, 공통 용어를 사용하는 교수의 공동 지식기반 구축을 목표로 삼았다.[^reigeluth-carr-chellman-2009-volume-iii]
 
 ## 산업시대 학교에서 학습자 중심 체제로
 
@@ -49,6 +55,8 @@ confidence: medium
 딕은 체계적 교수설계 모형에서 요구분석·목표·평가·전략·개발과 수정을 연결하는 설계 절차를 명시했다.[^dick-carey-1978][^dick-1996] 목표·조건·방법의 관계를 처방적 이론으로 설명하는 라이겔루스의 접근[^reigeluth-1983]에 대해서는, 맥락에 따른 선택만으로는 실제 설계 과정과 산출물을 충분히 안내하기 어렵다는 반론이 제기된다.[^dick-1996]
 
 리치와 클라인은 설계·개발 연구를 별도의 연구 방법으로 정리하며, 설계 산출물과 이론은 체계적인 개발·평가·반복의 근거를 제시해야 한다고 했다.[^richey-klein-2007] 따라서 형성연구에서 얻은 맥락적 개선 사례[^reigeluth-frick-1999]를 곧바로 일반적 교수이론의 증거로 확대할 수 없다는 방법론적 비판이 가능하다.[^richey-klein-2007]
+
+메이어는 정교화모형이 새 자료와 기존 지식의 연결을 강조한 점은 긍정적으로 평가했지만, 모형의 명료성, 경험적 근거의 부족, 기저 이론기제 설명의 부재를 비판했다.[^mayer-1981-elaboration-evaluation]
 
 ## 한계
 
@@ -68,8 +76,12 @@ confidence: medium
 - [[debates/reigeluth-richey]] — 처방 이론과 설계 연구 (상대: 리타 리치)[^reigeluth-frick-1999][^richey-klein-2007]
 
 [^bio-reigeluth-author]: Charles M. Reigeluth. About Me. Charles M. Reigeluth. <https://www.reigeluth.net/me-c1owg> — tier A · [[sources/bio-reigeluth-author]]
-[^dick-carey-1978]: Walter Dick; Lou Carey. (1978). The Systematic Design of Instruction. Scott, Foresman. <https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146> — tier A · [[sources/dick-carey-1978]]
 [^dick-1996]: Walter Dick. (1996). The Dick and Carey Model: Will It Survive the Decade?. Educational Technology Research and Development, 44. DOI: 10.1007/BF02300425. <https://doi.org/10.1007/BF02300425> — tier A · [[sources/dick-1996]]
+[^dick-carey-1978]: Walter Dick; Lou Carey. (1978). The Systematic Design of Instruction. Scott, Foresman. <https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146> — tier A · [[sources/dick-carey-1978]]
+[^english-reigeluth-1996-formative-sequencing]: Robert E. English; Charles M. Reigeluth. (1996). Formative Research on Sequencing Instruction with the Elaboration Theory. Educational Technology Research and Development, 44(1), 23–42. DOI: 10.1007/BF02300324. <https://doi.org/10.1007/BF02300324> — tier A · [[sources/english-reigeluth-1996-formative-sequencing]]
+[^mayer-1981-elaboration-evaluation]: Richard E. Mayer. (1981). An Evaluation of the Elaboration Model of Instruction: From the Perspective of Assimilation Theory. Journal of Instructional Development, 5(1), 23–26. DOI: 10.1007/BF02905294. <https://doi.org/10.1007/BF02905294> — tier B · [[sources/mayer-1981-elaboration-evaluation]]
+[^reigeluth-1979-elaboration-theory]: Charles M. Reigeluth. (1979). In Search of a Better Way to Organize Instruction: The Elaboration Theory. Journal of Instructional Development, 2(3), 8–15. DOI: 10.1007/BF02984374. <https://doi.org/10.1007/BF02984374> — tier A · [[sources/reigeluth-1979-elaboration-theory]]
 [^reigeluth-1983]: Charles M. Reigeluth (ed.). (1983). Instructional-Design Theories and Models, Volume I. Lawrence Erlbaum Associates. <https://www.routledge.com/Instructional-Design-Theories-and-Models-An-Overview-of-their-Current-Status/Reigeluth/p/book/9780898592757> — tier B · [[sources/reigeluth-1983]]
+[^reigeluth-carr-chellman-2009-volume-iii]: Charles M. Reigeluth (ed.); Alison A. Carr-Chellman (ed.). (2009). Instructional-Design Theories and Models, Volume III: Building a Common Knowledge Base. Routledge. DOI: 10.4324/9780203872130. <https://doi.org/10.4324/9780203872130> — tier B · [[sources/reigeluth-carr-chellman-2009-volume-iii]]
 [^reigeluth-frick-1999]: Charles M. Reigeluth; Theodore W. Frick. (1999). Formative Research: A Methodology for Creating and Improving Design Theories. Instructional-Design Theories and Models, Volume II. <https://www.reigeluth.net/research-methods> — tier A · [[sources/reigeluth-frick-1999]]
 [^richey-klein-2007]: Rita C. Richey; James D. Klein. (2007). Design and Development Research. Lawrence Erlbaum Associates. <https://www.routledge.com/Design-and-Development-Research-Methods-Strategies-and-Issues/Richey-Klein/p/book/9780805857320> — tier A · [[sources/richey-klein-2007]]
