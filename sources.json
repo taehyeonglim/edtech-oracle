@@ -6693,5 +6693,173 @@
       "doi": "10.7771/1541-5015.1256",
       "eric": "EJ1058723"
     }
+  },
+  {
+    "id": "thorndike-1898-animal-intelligence",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "손다이크가 문제상자 실험과 동물의 연합 형성 과정을 직접 보고한 본인 원연구 모노그래프다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-openlibrary-and-original-scan",
+        "record_id": "10.5962/bhl.title.25848; OL7159348M; animalintelligen00thoruoft",
+        "evidence": "Crossref, OpenLibrary OL7159348M, Internet Archive 원문에서 제목·저자 Edward L. Thorndike·1898년·Macmillan 판본과 원문 표제면을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "publisher",
+          "openlibrary_edition",
+          "original_title_page"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edward-thorndike",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://archive.org/details/animalintelligen00thoruoft",
+        "locator": "원문 표제면의 저자·컬럼비아대학교 소속과 OpenLibrary 인명 전거",
+        "evidence": "원문 표제면은 Edward L. Thorndike를 저자이자 Columbia University 심리학 연구원으로 표시하고, OpenLibrary 인명 전거의 1874–1949년·VIAF·LC 식별자가 페이지의 심리학자와 동일인임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "original-work-affiliation",
+            "value": "Edward L. Thorndike · University Fellow in Psychology, Columbia University",
+            "evidence_url": "https://archive.org/details/animalintelligen00thoruoft"
+          },
+          {
+            "kind": "library-authority-and-life-dates",
+            "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+            "evidence_url": "https://openlibrary.org/authors/OL120471A"
+          }
+        ]
+      }
+    },
+    "authors": "Edward L. Thorndike",
+    "title": "Animal Intelligence: An Experimental Study of the Associative Processes in Animals",
+    "year": "1898",
+    "publisher": "The Macmillan Company",
+    "url": "https://doi.org/10.5962/bhl.title.25848",
+    "doi": "10.5962/bhl.title.25848",
+    "identifiers": {
+      "doi": "10.5962/bhl.title.25848",
+      "openlibrary_edition": "OL7159348M"
+    }
+  },
+  {
+    "id": "thorndike-woodworth-1901-transfer",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "손다이크와 우드워스가 한 정신 기능의 연습이 다른 기능으로 전이되는 범위를 직접 실험한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-original-article-text",
+        "record_id": "10.1037/h0074898",
+        "evidence": "Crossref와 York University의 원논문 전사본에서 제목·공저자 E. L. Thorndike와 R. S. Woodworth·1901년·Psychological Review 8(3), 247–261쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "original_article_heading"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edward-thorndike",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://psychclassics.yorku.ca/Thorndike/Transfer/transfer1.htm",
+        "locator": "원논문 표제·저자란과 OpenLibrary 인명 전거",
+        "evidence": "원논문 표제는 E. L. Thorndike를 R. S. Woodworth와 함께 저자로 표시하고, OpenLibrary 인명 전거의 본명·1874–1949년·VIAF·LC 식별자가 페이지의 심리학자와 동일인임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "library-authority-and-life-dates",
+            "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+            "evidence_url": "https://openlibrary.org/authors/OL120471A"
+          }
+        ]
+      }
+    },
+    "authors": "Edward L. Thorndike; Robert S. Woodworth",
+    "title": "The Influence of Improvement in One Mental Function upon the Efficiency of Other Functions (I)",
+    "year": "1901",
+    "publisher": "Psychological Review, 8(3), 247–261",
+    "url": "https://doi.org/10.1037/h0074898",
+    "doi": "10.1037/h0074898",
+    "identifiers": {
+      "doi": "10.1037/h0074898"
+    }
+  },
+  {
+    "id": "thorndike-1927-law-of-effect",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "손다이크가 효과의 법칙을 다시 제시하고 결과가 연결 강도에 미치는 영향을 직접 시험한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-original-journal-scan",
+        "record_id": "10.2307/1415413",
+        "evidence": "Crossref와 University of Houston 소장 원저널 스캔에서 제목·저자 Edward L. Thorndike·1927년·The American Journal of Psychology 39(1/4), 212–222쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "original_article_byline"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "edward-thorndike",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://grants.hhp.uh.edu/clayne/HistoryofMC/Thorndike1927.pdf",
+        "locator": "p. 212 표제·저자·소속과 OpenLibrary 인명 전거",
+        "evidence": "원저널 첫 쪽은 Edward L. Thorndike를 저자로, Teachers College, Columbia University를 소속으로 표시하고, OpenLibrary 인명 전거의 1874–1949년·VIAF·LC 식별자가 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "original-article-affiliation",
+            "value": "Edward L. Thorndike · Teachers College, Columbia University",
+            "evidence_url": "https://grants.hhp.uh.edu/clayne/HistoryofMC/Thorndike1927.pdf"
+          },
+          {
+            "kind": "library-authority-and-life-dates",
+            "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+            "evidence_url": "https://openlibrary.org/authors/OL120471A"
+          }
+        ]
+      }
+    },
+    "authors": "Edward L. Thorndike",
+    "title": "The Law of Effect",
+    "year": "1927",
+    "publisher": "The American Journal of Psychology, 39(1/4), 212–222",
+    "url": "https://doi.org/10.2307/1415413",
+    "doi": "10.2307/1415413",
+    "identifiers": {
+      "doi": "10.2307/1415413"
+    }
   }
 ]

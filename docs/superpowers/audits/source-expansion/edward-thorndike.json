@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "slug": "edward-thorndike",
+  "base_commit": "6aae9d9d3468ab367764de5316c92bfa9523a6da",
+  "initial_source_ids": [
+    "bio-wiki-thorndike",
+    "dewey-1916",
+    "reiser-2017",
+    "schunk-2012",
+    "skinner-1954",
+    "thorndike-1913",
+    "woodworth-thorndike-1952"
+  ],
+  "required_additions": 3,
+  "candidates": [
+    {
+      "candidate_key": "discovery-candidate-01",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref, OpenLibrary OL7159348M, Internet Archive 원문에서 제목·저자 Edward L. Thorndike·1898년·Macmillan 판본과 원문 표제면을 대조했다.",
+      "source_id": "thorndike-1898-animal-intelligence",
+      "bibliography": {
+        "authors": [
+          "Edward L. Thorndike"
+        ],
+        "title": "Animal Intelligence: An Experimental Study of the Associative Processes in Animals",
+        "year": "1898",
+        "publisher": "Macmillan Company",
+        "url": "https://www.biodiversitylibrary.org/bibliography/25848",
+        "identifiers": {
+          "doi": "10.5962/bhl.title.25848",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL7159348M",
+          "oclc": "122331462"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-openlibrary-and-original-scan",
+          "record_id": "10.5962/bhl.title.25848; OL7159348M; animalintelligen00thoruoft",
+          "evidence": "Crossref, OpenLibrary OL7159348M, Internet Archive 원문에서 제목·저자 Edward L. Thorndike·1898년·Macmillan 판본과 원문 표제면을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "original_title_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edward-thorndike",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://archive.org/details/animalintelligen00thoruoft",
+          "locator": "원문 표제면의 저자·컬럼비아대학교 소속과 OpenLibrary 인명 전거",
+          "evidence": "원문 표제면은 Edward L. Thorndike를 저자이자 Columbia University 심리학 연구원으로 표시하고, OpenLibrary 인명 전거의 1874–1949년·VIAF·LC 식별자가 페이지의 심리학자와 동일인임을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "original-work-affiliation",
+              "value": "Edward L. Thorndike · University Fellow in Psychology, Columbia University",
+              "evidence_url": "https://archive.org/details/animalintelligen00thoruoft"
+            },
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+              "evidence_url": "https://openlibrary.org/authors/OL120471A"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "손다이크가 문제상자 실험과 동물의 연합 형성 과정을 직접 보고한 본인 원연구 모노그래프다."
+      },
+      "claim_seed": {
+        "section": "하버드의 문제상자와 동물지능 연구",
+        "claim": "문제상자에 반복해서 들어간 고양이는 처음의 여러 탈출 행동 가운데 성공한 행동을 점차 선택했으며, 손다이크는 시행별 탈출 시간을 시간곡선으로 기록했다.",
+        "locator": "pp. 13–18, Experiments with Cats와 Figure 2 설명",
+        "evidence_url": "https://archive.org/details/animalintelligen00thoruoft"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.url",
+          "from": "https://www.biodiversitylibrary.org/bibliography/25848",
+          "to": "https://doi.org/10.5962/bhl.title.25848",
+          "reason": "레지스트리 행에는 Crossref에서 확인한 BHL 영구 DOI를 정규 URL로 사용했다."
+        },
+        {
+          "field": "bibliography.publisher",
+          "from": "Macmillan Company",
+          "to": "The Macmillan Company",
+          "reason": "원문 표제면의 발행사 표기를 따랐다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-candidate-02",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 York University의 원논문 전사본에서 제목·공저자 E. L. Thorndike와 R. S. Woodworth·1901년·Psychological Review 8(3), 247–261쪽을 대조했다.",
+      "source_id": "thorndike-woodworth-1901-transfer",
+      "bibliography": {
+        "authors": [
+          "Edward L. Thorndike",
+          "Robert S. Woodworth"
+        ],
+        "title": "The Influence of Improvement in One Mental Function upon the Efficiency of Other Functions (I)",
+        "year": "1901",
+        "publisher": "Psychological Review, 8(3), 247–261",
+        "url": "https://doi.org/10.1037/h0074898",
+        "identifiers": {
+          "doi": "10.1037/h0074898",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-and-original-article-text",
+          "record_id": "10.1037/h0074898",
+          "evidence": "Crossref와 York University의 원논문 전사본에서 제목·공저자 E. L. Thorndike와 R. S. Woodworth·1901년·Psychological Review 8(3), 247–261쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "original_article_heading"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edward-thorndike",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://psychclassics.yorku.ca/Thorndike/Transfer/transfer1.htm",
+          "locator": "원논문 표제·저자란과 OpenLibrary 인명 전거",
+          "evidence": "원논문 표제는 E. L. Thorndike를 R. S. Woodworth와 함께 저자로 표시하고, OpenLibrary 인명 전거의 본명·1874–1949년·VIAF·LC 식별자가 페이지의 심리학자와 동일인임을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+              "evidence_url": "https://openlibrary.org/authors/OL120471A"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "손다이크와 우드워스가 한 정신 기능의 연습이 다른 기능으로 전이되는 범위를 직접 실험한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "한계",
+        "claim": "특수 기능의 연습이 다른 기능으로 퍼지는 정도는 제한적이며, 연습 효과의 전이는 두 기능이 동일한 요소를 공유하는 경우에 일어난다는 결론을 제안했다.",
+        "locator": "pp. 249–250, 실험 결론",
+        "evidence_url": "https://psychclassics.yorku.ca/Thorndike/Transfer/transfer1.htm"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "discovery-candidate-03",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 검색과 Internet Archive 원문에서 1903년 Educational Psychology의 실재·저자·측정 주장을 확인했다. 다만 현재 페이지가 이미 1903년 저작과 교육 측정의 제도화를 직접 서술하고 있어, 이번 3건은 그보다 빈 구간을 채우는 1898년 문제상자 원연구·1901년 전이 실험·1927년 효과의 법칙 재검토에 배정했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edward L. Thorndike"
+        ],
+        "title": "Educational Psychology",
+        "year": "1903",
+        "publisher": "Lemcke and Buechner",
+        "url": "https://www.loc.gov/item/04002597/",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": "1118944"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-search-and-original-scan",
+          "record_id": "OL1193061W; cu31924031760097",
+          "evidence": "OpenLibrary는 제목·저자 Edward L. Thorndike·초판 1903년을, Internet Archive 원문은 표제면·발행 연도와 p. 3의 측정 논의를 확인한다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "original_title_page",
+            "claim_text"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edward-thorndike",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://archive.org/details/cu31924031760097",
+          "locator": "원문 표제면과 OpenLibrary 인명 전거",
+          "evidence": "원문과 도서관 레코드는 Edward L. Thorndike를 저자로 표시하고, OpenLibrary 인명 전거의 1874–1949년·VIAF·LC 식별자가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+              "evidence_url": "https://openlibrary.org/authors/OL120471A"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "discovery-candidate-04",
+      "decision": "pending_manual",
+      "reason": "Crossref DOI 10.5962/bhl.title.55072, OpenLibrary OL7172495M, Project Gutenberg 원문으로 1911년 판본과 저자 관계를 확인했다. 그러나 1898년 후보 판본 OL7159348M과 이 판본 OL7172495M이 같은 OpenLibrary work OL1193057W에 묶이는 증보·재수록 계열이고, 효과·연습 법칙도 현재 페이지 및 선정된 1898·1927년 자료와 겹쳐 고유 주장 할당량에는 넣지 않았다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edward L. Thorndike"
+        ],
+        "title": "Animal Intelligence: Experimental Studies",
+        "year": "1911",
+        "publisher": "The Macmillan Company",
+        "url": "https://www.gutenberg.org/ebooks/69904",
+        "identifiers": {
+          "doi": "10.5962/bhl.title.55072",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL7172495M",
+          "oclc": "844297"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-openlibrary-and-gutenberg-original",
+          "record_id": "10.5962/bhl.title.55072; OL7172495M; Project Gutenberg 69904",
+          "evidence": "Crossref, OpenLibrary, Project Gutenberg 원문에서 제목·저자 Edward L. Thorndike·1911년·The Macmillan Company 판본을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "original_title_page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edward-thorndike",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.gutenberg.org/files/69904/69904-h/69904-h.htm",
+          "locator": "원문 표제면과 OpenLibrary 인명 전거",
+          "evidence": "원문 표제면은 Edward L. Thorndike를 저자로 표시하고, OpenLibrary 인명 전거의 1874–1949년·VIAF·LC 식별자가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+              "evidence_url": "https://openlibrary.org/authors/OL120471A"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "discovery-candidate-05",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary OL26258431M과 연결된 Internet Archive 원문에서 1913년 The Psychology of Learning 판본·저자·연습곡선 분석을 확인했다. 다만 이미 등재된 thorndike-1913과 같은 Educational Psychology 총서의 인접 권이고, 이번 할당량에서는 저작 계열 중복이 없는 1898·1901·1927년 원자료를 우선했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Edward L. Thorndike"
+        ],
+        "title": "The Psychology of Learning",
+        "year": "1913",
+        "publisher": "Teachers College, Columbia University",
+        "url": "https://openlibrary.org/books/OL26258431M/The_psychology_of_learning",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL26258431M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-original-scan",
+          "record_id": "OL26258431M; b2152421x",
+          "evidence": "OpenLibrary와 Internet Archive 원문에서 제목·저자 Edward L. Thorndike·1913년·Teachers College, Columbia University 판본 및 p. 255의 음의 가속 절을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "original_text"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edward-thorndike",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://archive.org/details/b2152421x",
+          "locator": "OpenLibrary 판본 저자 키·원문 표제면과 인명 전거",
+          "evidence": "OpenLibrary 판본은 Edward L. Thorndike의 인명 전거로 연결되고, 원문 표제면과 1874–1949년·VIAF·LC 식별자가 페이지의 심리학자와 동일인임을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+              "evidence_url": "https://openlibrary.org/authors/OL120471A"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "discovery-candidate-06",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 University of Houston 소장 원저널 스캔에서 제목·저자 Edward L. Thorndike·1927년·The American Journal of Psychology 39(1/4), 212–222쪽을 대조했다.",
+      "source_id": "thorndike-1927-law-of-effect",
+      "bibliography": {
+        "authors": [
+          "Edward L. Thorndike"
+        ],
+        "title": "The Law of Effect",
+        "year": "1927",
+        "publisher": "University of Illinois Press, The American Journal of Psychology 39(1/4), 212–222",
+        "url": "https://www.jstor.org/stable/1415413",
+        "identifiers": {
+          "doi": "10.2307/1415413",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-and-original-journal-scan",
+          "record_id": "10.2307/1415413",
+          "evidence": "Crossref와 University of Houston 소장 원저널 스캔에서 제목·저자 Edward L. Thorndike·1927년·The American Journal of Psychology 39(1/4), 212–222쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "original_article_byline"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "edward-thorndike",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://grants.hhp.uh.edu/clayne/HistoryofMC/Thorndike1927.pdf",
+          "locator": "p. 212 표제·저자·소속과 OpenLibrary 인명 전거",
+          "evidence": "원저널 첫 쪽은 Edward L. Thorndike를 저자로, Teachers College, Columbia University를 소속으로 표시하고, OpenLibrary 인명 전거의 1874–1949년·VIAF·LC 식별자가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "original-article-affiliation",
+              "value": "Edward L. Thorndike · Teachers College, Columbia University",
+              "evidence_url": "https://grants.hhp.uh.edu/clayne/HistoryofMC/Thorndike1927.pdf"
+            },
+            {
+              "kind": "library-authority-and-life-dates",
+              "value": "Edward L. Thorndike · 1874–1949 · VIAF 9937274 · LC n80126309",
+              "evidence_url": "https://openlibrary.org/authors/OL120471A"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "손다이크가 효과의 법칙을 다시 제시하고 결과가 연결 강도에 미치는 영향을 직접 시험한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "효과의 법칙 이후",
+        "claim": "1927년 논문은 빈도만으로는 반응의 강화와 약화를 설명할 수 없다고 지적하고, 연결 뒤에 오는 결과가 그 강도를 바꾸는지를 직접 시험하는 연구로 효과의 법칙을 다시 제시했다.",
+        "locator": "p. 212, 첫 두 문단과 실험 목적 진술",
+        "evidence_url": "https://grants.hhp.uh.edu/clayne/HistoryofMC/Thorndike1927.pdf"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.publisher",
+          "from": "University of Illinois Press, The American Journal of Psychology 39(1/4), 212–222",
+          "to": "The American Journal of Psychology, 39(1/4), 212–222",
+          "reason": "레지스트리 행에는 Crossref와 원저널 스캔에서 확인한 저널·권호·쪽만 직렬화했다."
+        },
+        {
+          "field": "bibliography.url",
+          "from": "https://www.jstor.org/stable/1415413",
+          "to": "https://doi.org/10.2307/1415413",
+          "reason": "JSTOR 안정 URL과 같은 식별자를 가진 Crossref DOI를 정규 URL로 사용했다."
+        }
+      ]
+    }
+  ],
+  "approved_ids": [
+    "thorndike-1898-animal-intelligence",
+    "thorndike-1927-law-of-effect",
+    "thorndike-woodworth-1901-transfer"
+  ],
+  "claim_map": [
+    {
+      "source_id": "thorndike-1898-animal-intelligence",
+      "section": "하버드의 문제상자와 동물지능 연구",
+      "claim": "문제상자에 반복해서 들어간 고양이는 처음의 여러 탈출 행동 가운데 성공한 행동을 점차 선택했으며, 손다이크는 시행별 탈출 시간을 시간곡선으로 기록했다.",
+      "evidence_locator": "pp. 13–18, Experiments with Cats와 Figure 2 설명"
+    },
+    {
+      "source_id": "thorndike-woodworth-1901-transfer",
+      "section": "한계",
+      "claim": "특수 기능의 연습이 다른 기능으로 퍼지는 정도는 제한적이며, 연습 효과의 전이는 두 기능이 동일한 요소를 공유하는 경우에 일어난다는 결론을 제안했다.",
+      "evidence_locator": "pp. 249–250, 실험 결론"
+    },
+    {
+      "source_id": "thorndike-1927-law-of-effect",
+      "section": "효과의 법칙 이후",
+      "claim": "1927년 논문은 빈도만으로는 반응의 강화와 약화를 설명할 수 없다고 지적하고, 연결 뒤에 오는 결과가 그 강도를 바꾸는지를 직접 시험하는 연구로 효과의 법칙을 다시 제시했다.",
+      "evidence_locator": "p. 212, 첫 두 문단과 실험 목적 진술"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/edward-thorndike.md:46|thorndike-1913|1949|1913",
+        "file": "wiki/pioneers/edward-thorndike.md",
+        "line": 46,
+        "claimYear": 1949,
+        "sourceId": "thorndike-1913",
+        "sourceYear": 1913,
+        "decision": "valid-context",
+        "reason": "같은 문단에서 1913년 원저작은 효과의 법칙 설명을, 별도의 전기 자료는 1949년 사망과 역사적 유산을 각각 받치므로 정상적인 혼합 문맥 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/edward-thorndike.md:42|bio-wiki-thorndike|1913|none",
+        "file": "wiki/pioneers/edward-thorndike.md",
+        "line": 42,
+        "claimYear": 1913,
+        "sourceId": "bio-wiki-thorndike",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 필드가 없는 인물 자료가 Teachers College 경력과 1913년 저작의 제도적 맥락을 설명하는 정상적인 전기 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/edward-thorndike.md:46|bio-wiki-thorndike|1949|none",
+        "file": "wiki/pioneers/edward-thorndike.md",
+        "line": 46,
+        "claimYear": 1949,
+        "sourceId": "bio-wiki-thorndike",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 필드가 없는 인물 자료가 1949년 사망과 생애 맥락을 설명하는 정상적인 전기 인용이다."
+      }
+    ]
+  }
+}
