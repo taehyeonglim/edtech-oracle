@@ -7193,5 +7193,111 @@
     "identifiers": {
       "doi": "10.17011/ht/urn.2005355"
     }
+  },
+  {
+    "id": "lave-1993-practice-learning",
+    "tier": "A",
+    "type": "원 장",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "레이브가 사회적으로 상황 지어진 활동의 맥락 문제를 직접 정의하고 일상 장보기 연구로 분석 범위를 제시한 본인 원 장이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-publisher-chapter-record",
+        "record_id": "10.1017/CBO9780511625510.002",
+        "evidence": "Crossref와 Cambridge University Press 장 페이지에서 DOI·제목·저자 Jean Lave·1993년·Understanding Practice 3–32쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "containing-title",
+          "page",
+          "publisher-chapter-record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jean-lave",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.cambridge.org/core/books/abs/understanding-practice/practice-of-learning/B39E7F7A933165121C4EBBABCFBEBCCA",
+        "locator": "장 제목 아래 By Jean Lave와 저자 소속",
+        "evidence": "Cambridge University Press 장 페이지는 Jean Lave를 장 저자로 표시하고 University of California, Berkeley 소속을 제시해 페이지의 사회인류학자와 동일인임을 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "publisher-author-affiliation",
+            "value": "Jean Lave · University of California, Berkeley · The practice of learning",
+            "evidence_url": "https://www.cambridge.org/core/books/abs/understanding-practice/practice-of-learning/B39E7F7A933165121C4EBBABCFBEBCCA"
+          }
+        ]
+      }
+    },
+    "authors": "Jean Lave",
+    "title": "The Practice of Learning",
+    "year": "1993",
+    "publisher": "Understanding Practice: Perspectives on Activity and Context, Cambridge University Press, 3–32",
+    "url": "https://doi.org/10.1017/CBO9780511625510.002",
+    "doi": "10.1017/CBO9780511625510.002",
+    "identifiers": {
+      "doi": "10.1017/CBO9780511625510.002"
+    }
+  },
+  {
+    "id": "lave-1977-apprenticeship-cognition",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "레이브가 라이베리아 재봉사 도제의 산술 능력과 학교교육의 일반 문제해결 원리를 직접 조사·논의한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric-record",
+        "record_id": "10.1525/aeq.1977.8.3.05x1512d; EJ168930",
+        "evidence": "Crossref와 ERIC EJ168930에서 DOI·제목·저자 Jean Lave·1977년·Anthropology & Education Quarterly 8(3), 177–180쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "eric",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jean-lave",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ168930",
+        "locator": "ERIC 저자란과 라이베리아 재봉사 도제 연구 초록",
+        "evidence": "ERIC은 Jean Lave를 저자로 표시하고 라이베리아 재봉사 도제의 산술 능력을 연구 대상으로 명시한다. University of Chicago Press의 저자 도서 페이지도 Jean Lave의 Vai·Gola 재봉사 현지연구 경력을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-publisher-fieldsite-and-research-career",
+            "value": "Jean Lave · Vai and Gola tailors of Liberia · late-1970s apprenticeship research",
+            "evidence_url": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo8661187.html"
+          }
+        ]
+      }
+    },
+    "authors": "Jean Lave",
+    "title": "Cognitive Consequences of Traditional Apprenticeship Training in West Africa",
+    "year": "1977",
+    "publisher": "Anthropology & Education Quarterly, 8(3), 177–180",
+    "url": "https://doi.org/10.1525/aeq.1977.8.3.05x1512d",
+    "doi": "10.1525/aeq.1977.8.3.05x1512d",
+    "eric": "EJ168930",
+    "identifiers": {
+      "doi": "10.1525/aeq.1977.8.3.05x1512d",
+      "eric": "EJ168930"
+    }
   }
 ]

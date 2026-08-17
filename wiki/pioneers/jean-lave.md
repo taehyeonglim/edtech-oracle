@@ -6,8 +6,8 @@ role: 사회인류학자 · 학습이론가
 life: 1939—
 concepts: [상황학습, 정당한 주변적 참여, 실천공동체, 일상 인지]
 related: ["[[debates/lave-vygotsky]]", "[[debates/lave-jonassen]]", "[[debates/lave-collins]]"]
-updated: 2026-08-14
-sources: [bio-lave-authority, bio-lave-berkeley, collins-1989, jonassen-1991, jonassen-2000, lave-1988, lave-wenger-1991, vygotsky-1978]
+updated: 2026-08-16
+sources: [bio-lave-authority, bio-lave-berkeley, collins-1989, jonassen-1991, jonassen-2000, lave-1977-apprenticeship-cognition, lave-1988, lave-1993-practice-learning, lave-wenger-1991, vygotsky-1978]
 confidence: high
 ---
 
@@ -28,6 +28,8 @@ confidence: high
 
 사람들이 시장과 부엌에서 수행하는 계산은 학교의 동일한 수치 문제와 다르게 조직된다. 레이브의 연구는 지식을 한 상황에서 다른 상황으로 운반하는 독립된 소유물로 가정하지 말고 활동·도구·관계 안에서 조사하게 한다.[^lave-1988]
 
+레이브는 ‘맥락 문제’를 사회적으로 상황 지어진 활동이 놓이는 세계를 당연한 배경으로 처리해 온 문제로 제기하고, 장보기 활동을 물질적이며 역사적으로 구성된 시공간 관계와 함께 분석해야 한다고 설명했다.[^lave-1993-practice-learning]
+
 ## 주변에서 구성원이 되기까지
 
 정당한 주변적 참여는 초보자를 주변에 방치한다는 뜻이 아니다. 실제 공동체의 가치 있는 활동에 낮은 위험으로 참여하고, 숙련자·동료·도구와 관계를 넓히며 참여의 책임과 정체성이 변하는 과정을 말한다.[^lave-wenger-1991][^bio-lave-berkeley]
@@ -35,6 +37,8 @@ confidence: high
 ## 서아프리카 도제 연구에서 시작된 질문
 
 진 레이브는 1939년생 미국 사회인류학자이자 학습 연구자다. 하버드대학교에서 사회인류학 박사학위를 받은 뒤 라이베리아 재봉사 도제의 일과 학습을 현지조사했다. 이 연구는 학습을 개인 머릿속의 지식 획득으로만 설명하지 않고, 사람이 공동 활동에 참여하는 방식의 변화로 보게 했다.[^bio-lave-berkeley][^bio-lave-authority][^lave-1988]
+
+1977년 연구에서 레이브는 라이베리아 재봉사 도제의 산술 능력을 검토하고, 도제의 귀납적 교수·학습 방식이 학교에서 연역적으로 가르친 일반 문제해결 원리의 형성을 막지 않는다고 보고했다.[^lave-1977-apprenticeship-cognition]
 
 ## 일상 인지는 학교 문제의 복사본이 아니다
 
@@ -73,6 +77,8 @@ confidence: high
 [^collins-1989]: Allan Collins; John Seely Brown; Susan E. Newman. (1989). Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics. Lawrence Erlbaum Associates. <https://eric.ed.gov/?id=ED284181> — tier A · [[sources/collins-1989]]
 [^jonassen-1991]: David H. Jonassen. (1991). Objectivism versus Constructivism: Do We Need a New Philosophical Paradigm?. Educational Technology Research and Development, 39. DOI: 10.1007/BF02296434. <https://doi.org/10.1007/BF02296434> — tier A · [[sources/jonassen-1991]]
 [^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier A · [[sources/jonassen-2000]]
+[^lave-1977-apprenticeship-cognition]: Jean Lave. (1977). Cognitive Consequences of Traditional Apprenticeship Training in West Africa. Anthropology & Education Quarterly, 8(3), 177–180. DOI: 10.1525/aeq.1977.8.3.05x1512d. <https://doi.org/10.1525/aeq.1977.8.3.05x1512d> — tier A · [[sources/lave-1977-apprenticeship-cognition]]
 [^lave-1988]: Jean Lave. (1988). Cognition in Practice. Cambridge University Press. DOI: 10.1017/CBO9780511609268. <https://doi.org/10.1017/CBO9780511609268> — tier A · [[sources/lave-1988]]
+[^lave-1993-practice-learning]: Jean Lave. (1993). The Practice of Learning. Understanding Practice: Perspectives on Activity and Context, Cambridge University Press, 3–32. DOI: 10.1017/CBO9780511625510.002. <https://doi.org/10.1017/CBO9780511625510.002> — tier A · [[sources/lave-1993-practice-learning]]
 [^lave-wenger-1991]: Jean Lave; Etienne Wenger. (1991). Situated Learning: Legitimate Peripheral Participation. Cambridge University Press. <https://www.ischool.berkeley.edu/research/publications/1991/situated-learning-legitimate-peripheral-participation> — tier A · [[sources/lave-wenger-1991]]
 [^vygotsky-1978]: L. S. Vygotsky; ed. Michael Cole et al.. (1978). Mind in Society: The Development of Higher Psychological Processes. Harvard University Press. <https://www.hup.harvard.edu/books/9780674576292> — tier B · [[sources/vygotsky-1978]]

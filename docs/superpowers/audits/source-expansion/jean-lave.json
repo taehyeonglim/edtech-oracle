@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "slug": "jean-lave",
+  "base_commit": "a81d0ed0790af03b9f683b927f0929606f8f0812",
+  "initial_source_ids": [
+    "bio-lave-authority",
+    "bio-lave-berkeley",
+    "collins-1989",
+    "jonassen-1991",
+    "jonassen-2000",
+    "lave-1988",
+    "lave-wenger-1991",
+    "vygotsky-1978"
+  ],
+  "required_additions": 2,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "pending_manual",
+      "reason": "Crossref·OpenLibrary·Cambridge University Press에서 도서의 존재와 Jean Lave의 저자 관계를 확인했다. 정확한 부족분 2건은 1977년 도제 실증연구와 1993년 맥락 이론 장에 우선 배정해 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jean Lave"
+        ],
+        "title": "Learning and Everyday Life: Access, Participation, and Changing Practice",
+        "year": "2019",
+        "publisher": "Cambridge University Press",
+        "url": "https://doi.org/10.1017/9781108616416",
+        "identifiers": {
+          "doi": "10.1017/9781108616416",
+          "isbn": "9781108480468",
+          "eric": null,
+          "openlibrary_edition": "OL28710081M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-openlibrary-edition-and-publisher-record",
+          "record_id": "10.1017/9781108616416; OL28710081M; ISBN 9781108480468",
+          "evidence": "Crossref, OpenLibrary OL28710081M, Cambridge University Press에서 제목·2019년·출판사·DOI·ISBN을 대조했다. 출판사는 Jean Lave를 저자로, Ana Maria R. Gomes를 후기 저자로 구분한다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "year",
+            "publisher",
+            "isbn",
+            "openlibrary_edition",
+            "publisher-role-labels"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-lave",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.cambridge.org/core/books/learning-and-everyday-life/177B9793971F1C2E2F26564757690373",
+          "locator": "공식 도서 페이지 저자·소속·저자 소개",
+          "evidence": "Cambridge University Press는 Jean Lave를 저자로, University of California, Berkeley 소속 사회인류학자로 표시하고 Ana Maria R. Gomes의 역할을 후기로 별도 표기한다.",
+          "identity_signals": [
+            {
+              "kind": "publisher-author-affiliation-and-biography",
+              "value": "Jean Lave · University of California, Berkeley · social anthropologist · Situated Learning",
+              "evidence_url": "https://www.cambridge.org/core/books/learning-and-everyday-life/177B9793971F1C2E2F26564757690373"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 판본과 University of Chicago Press 도서 페이지에서 존재·저자 관계 및 라이베리아 도제 연구 내용을 확인했다. 승인 2건이 정확한 부족분을 채워 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jean Lave"
+        ],
+        "title": "Apprenticeship in Critical Ethnographic Practice",
+        "year": "2011",
+        "publisher": "University of Chicago Press",
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo8661187.html",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780226470726",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": "647976869"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-isbn-edition-and-publisher-record",
+          "record_id": "OL25008110M; ISBN 9780226470726; OCLC 647976869",
+          "evidence": "OpenLibrary ISBN 조회가 OL25008110M으로 연결되어 제목·Jean Lave·2011년·University of Chicago Press·ISBN·OCLC를 확인했고, 공식 출판사 페이지와 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "isbn",
+            "oclc",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-lave",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo8661187.html",
+          "locator": "공식 도서 페이지 제목 아래 저자와 저자 연구 설명",
+          "evidence": "University of Chicago Press는 Jean Lave를 저자로, Thomas P. Gibson을 서문 저자로 구분하고 Vai·Gola 재봉사 도제 현지연구 경력을 설명한다.",
+          "identity_signals": [
+            {
+              "kind": "official-publisher-fieldsite-and-research-career",
+              "value": "Jean Lave · Vai and Gola tailors of Liberia · late-1970s apprenticeship research",
+              "evidence_url": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo8661187.html"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 Cambridge University Press 장 페이지에서 DOI·제목·저자 Jean Lave·1993년·Understanding Practice 3–32쪽을 대조했다.",
+      "source_id": "lave-1993-practice-learning",
+      "bibliography": {
+        "authors": [
+          "Jean Lave"
+        ],
+        "title": "The Practice of Learning",
+        "year": "1993",
+        "publisher": "Cambridge University Press, in Understanding Practice: Perspectives on Activity and Context, pp. 3–32",
+        "url": "https://doi.org/10.1017/CBO9780511625510.002",
+        "identifiers": {
+          "doi": "10.1017/cbo9780511625510.002",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-chapter-record",
+          "record_id": "10.1017/CBO9780511625510.002",
+          "evidence": "Crossref와 Cambridge University Press 장 페이지에서 DOI·제목·저자 Jean Lave·1993년·Understanding Practice 3–32쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "containing-title",
+            "page",
+            "publisher-chapter-record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-lave",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.cambridge.org/core/books/abs/understanding-practice/practice-of-learning/B39E7F7A933165121C4EBBABCFBEBCCA",
+          "locator": "장 제목 아래 By Jean Lave와 저자 소속",
+          "evidence": "Cambridge University Press 장 페이지는 Jean Lave를 장 저자로 표시하고 University of California, Berkeley 소속을 제시해 페이지의 사회인류학자와 동일인임을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "publisher-author-affiliation",
+              "value": "Jean Lave · University of California, Berkeley · The practice of learning",
+              "evidence_url": "https://www.cambridge.org/core/books/abs/understanding-practice/practice-of-learning/B39E7F7A933165121C4EBBABCFBEBCCA"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "레이브가 사회적으로 상황 지어진 활동의 맥락 문제를 직접 정의하고 일상 장보기 연구로 분석 범위를 제시한 본인 원 장이다."
+      },
+      "claim_seed": {
+        "section": "맥락은 배경이 아니라 학습의 일부",
+        "claim": "레이브는 ‘맥락 문제’를 사회적으로 상황 지어진 활동이 놓이는 세계를 당연한 배경으로 처리해 온 문제로 제기하고, 장보기 활동을 물질적이며 역사적으로 구성된 시공간 관계와 함께 분석해야 한다고 설명한다.",
+        "locator": "Chapter 1, pp. 3–4, ‘The problem with context’",
+        "evidence_url": "https://doi.org/10.1017/CBO9780511625510.002"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "pending_manual",
+      "reason": "Crossref와 Cambridge University Press의 공식 재수록 장 페이지에서 논문의 존재·Jean Lave 저자 관계·학습의 집합적 성격을 확인했다. 정확한 부족분은 더 이른 두 원저작에 우선 배정해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jean Lave"
+        ],
+        "title": "Teaching, as Learning, in Practice",
+        "year": "1996",
+        "publisher": "Mind, Culture, and Activity, 3(3), 149–164",
+        "url": "https://doi.org/10.1207/s15327884mca0303_2",
+        "identifiers": {
+          "doi": "10.1207/s15327884mca0303_2",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-official-publisher-reprint-record",
+          "record_id": "10.1207/s15327884mca0303_2; Cambridge chapter 10.1017/9781108616416.005",
+          "evidence": "Crossref에서 DOI·제목·Jean Lave·1996년·Mind, Culture, and Activity 3(3), 149–164쪽을 확인하고 Cambridge University Press의 공식 재수록 장 기록과 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "official-reprint"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-lave",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.cambridge.org/core/books/learning-and-everyday-life/teaching-as-learning-in-practice/65F61A960ED17D065B9484D3BDCB6F48",
+          "locator": "공식 재수록 장 저자·소속과 원논문 Crossref 저자란",
+          "evidence": "Cambridge University Press 재수록 장은 Jean Lave와 University of California, Berkeley 소속을 표시하고, Crossref 원논문 레코드도 Jean Lave를 단독 저자로 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "official-reprint-author-affiliation",
+              "value": "Jean Lave · University of California, Berkeley · Teaching as Learning, in Practice",
+              "evidence_url": "https://www.cambridge.org/core/books/learning-and-everyday-life/teaching-as-learning-in-practice/65F61A960ED17D065B9484D3BDCB6F48"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-05",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 ERIC EJ168930에서 DOI·제목·저자 Jean Lave·1977년·Anthropology & Education Quarterly 8(3), 177–180쪽을 대조했다.",
+      "source_id": "lave-1977-apprenticeship-cognition",
+      "bibliography": {
+        "authors": [
+          "Jean Lave"
+        ],
+        "title": "Cognitive Consequences of Traditional Apprenticeship Training in West Africa",
+        "year": "1977",
+        "publisher": "Anthropology & Education Quarterly, 8(3), 177–180",
+        "url": "https://doi.org/10.1525/aeq.1977.8.3.05x1512d",
+        "identifiers": {
+          "doi": "10.1525/aeq.1977.8.3.05x1512d",
+          "isbn": null,
+          "eric": "EJ168930",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric-record",
+          "record_id": "10.1525/aeq.1977.8.3.05x1512d; EJ168930",
+          "evidence": "Crossref와 ERIC EJ168930에서 DOI·제목·저자 Jean Lave·1977년·Anthropology & Education Quarterly 8(3), 177–180쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "eric",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-lave",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ168930",
+          "locator": "ERIC 저자란과 라이베리아 재봉사 도제 연구 초록",
+          "evidence": "ERIC은 Jean Lave를 저자로 표시하고 라이베리아 재봉사 도제의 산술 능력을 연구 대상으로 명시한다. University of Chicago Press의 저자 도서 페이지도 Jean Lave의 Vai·Gola 재봉사 현지연구 경력을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-publisher-fieldsite-and-research-career",
+              "value": "Jean Lave · Vai and Gola tailors of Liberia · late-1970s apprenticeship research",
+              "evidence_url": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo8661187.html"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "레이브가 라이베리아 재봉사 도제의 산술 능력과 학교교육의 일반 문제해결 원리를 직접 조사·논의한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "서아프리카 도제 연구에서 시작된 질문",
+        "claim": "1977년 연구에서 레이브는 라이베리아 재봉사 도제의 산술 능력을 검토하고, 도제의 귀납적 교수·학습 방식이 학교에서 연역적으로 가르친 일반 문제해결 원리의 형성을 막지 않는다고 보고했다.",
+        "locator": "ERIC abstract; Anthropology & Education Quarterly 8(3), pp. 177–180",
+        "evidence_url": "https://eric.ed.gov/?id=EJ168930"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "lave-1977-apprenticeship-cognition",
+    "lave-1993-practice-learning"
+  ],
+  "claim_map": [
+    {
+      "source_id": "lave-1993-practice-learning",
+      "section": "맥락은 배경이 아니라 학습의 일부",
+      "claim": "레이브는 ‘맥락 문제’를 사회적으로 상황 지어진 활동이 놓이는 세계를 당연한 배경으로 처리해 온 문제로 제기하고, 장보기 활동을 물질적이며 역사적으로 구성된 시공간 관계와 함께 분석해야 한다고 설명했다.",
+      "evidence_locator": "Chapter 1, pp. 3–4, ‘The problem with context’"
+    },
+    {
+      "source_id": "lave-1977-apprenticeship-cognition",
+      "section": "서아프리카 도제 연구에서 시작된 질문",
+      "claim": "1977년 연구에서 레이브는 라이베리아 재봉사 도제의 산술 능력을 검토하고, 도제의 귀납적 교수·학습 방식이 학교에서 연역적으로 가르친 일반 문제해결 원리의 형성을 막지 않는다고 보고했다.",
+      "evidence_locator": "ERIC abstract; Anthropology & Education Quarterly 8(3), pp. 177–180"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/jean-lave.md:39|bio-lave-authority|1939|none",
+        "file": "wiki/pioneers/jean-lave.md",
+        "line": 39,
+        "claimYear": 1939,
+        "sourceId": "bio-lave-authority",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-lave-authority는 발행연도가 없는 인명 전거 통합 자료이며, 1939년 출생과 인물 식별을 설명하는 생애 문맥에 붙은 정상적인 인용이다."
+      }
+    ]
+  }
+}
