@@ -1129,6 +1129,46 @@
     "url": "https://www.hup.harvard.edu/books/9780674003613"
   },
   {
+    "id": "chi-feltovich-glaser-1981",
+    "tier": "A",
+    "type": "원논문",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi",
+        "record_id": "10.1207/s15516709cog0502_2",
+        "evidence": "Crossref 원레코드에서 DOI, 제목, Michelene T. H. Chi·Paul J. Feltovich·Robert Glaser의 저자 목록, 1981년, Cognitive Science 5(2), 121–152쪽을 대조했다.",
+        "matched_fields": ["doi", "title", "authors", "issued", "container-title", "volume", "issue", "page"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-glaser",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://api.crossref.org/works/10.1207/s15516709cog0502_2",
+        "locator": "Crossref author 배열과 APS 공식 회고의 1981년 Chi 공동연구 대목",
+        "evidence": "Crossref는 Robert Glaser를 세 번째 저자로 기록하며, APS 공식 회고는 피츠버그대 LRDC의 Glaser가 Micki Chi와 1981년에 초보자·전문가의 물리 문제 표상을 연구했다고 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation-and-coauthor-topic-link",
+            "value": "Robert Glaser · University of Pittsburgh LRDC · Micki Chi · 1981 novice/expert physics representations",
+            "evidence_url": "https://www.psychologicalscience.org/observer/remembering-robert-glaser"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "글레이저와 공저자들이 전문가와 초보자의 물리 문제 범주화·표상을 네 실험으로 직접 비교한 원논문이다."
+    },
+    "authors": "Michelene T. H. Chi; Paul J. Feltovich; Robert Glaser",
+    "title": "Categorization and Representation of Physics Problems by Experts and Novices",
+    "year": "1981",
+    "publisher": "Cognitive Science, 5(2), 121–152",
+    "url": "https://doi.org/10.1207/s15516709cog0502_2",
+    "doi": "10.1207/s15516709cog0502_2"
+  },
+  {
     "id": "clark-1983",
     "tier": "A",
     "type": "원논문",
@@ -1668,6 +1708,88 @@
     "doi": "10.1037/h0049294"
   },
   {
+    "id": "glaser-1973-educational-psychology",
+    "tier": "A",
+    "type": "원논문",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric",
+        "record_id": "10.1037/h0034976",
+        "evidence": "Crossref와 ERIC EJ081944에서 DOI, 제목, 저자 Robert Glaser, 1973년, American Psychologist 28(7), 557–566쪽을 대조했다.",
+        "matched_fields": ["doi", "title", "author", "issued", "container-title", "volume", "issue", "page", "eric_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-glaser",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ081944",
+        "locator": "ERIC 저자란·초록과 APS 공식 소속 전거",
+        "evidence": "ERIC과 Crossref는 Robert Glaser를 단독 저자로 기록하고, APS 공식 회고의 피츠버그대 심리·교육학 교수이자 LRDC 설립자라는 독립 신호가 분야와 인물을 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Robert Glaser · Distinguished Professor of Psychology and Education · University of Pittsburgh · LRDC founding director",
+            "evidence_url": "https://www.psychologicalscience.org/observer/remembering-robert-glaser"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "글레이저가 교육심리학과 학교 개선의 관계를 직접 논증한 원논문이다."
+    },
+    "authors": "Robert Glaser",
+    "title": "Educational Psychology and Education",
+    "year": "1973",
+    "publisher": "American Psychologist, 28(7), 557–566",
+    "url": "https://doi.org/10.1037/h0034976",
+    "doi": "10.1037/h0034976",
+    "eric": "EJ081944"
+  },
+  {
+    "id": "glaser-1976-science-of-design",
+    "tier": "A",
+    "type": "원논문",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric",
+        "record_id": "10.3102/00346543046001001",
+        "evidence": "Crossref와 ERIC EJ138789에서 DOI, 제목, 저자 Robert Glaser, 1976년, Review of Educational Research 46(1), 1–24쪽을 대조했다.",
+        "matched_fields": ["doi", "title", "author", "issued", "container-title", "volume", "issue", "page", "eric_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-glaser",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ138789",
+        "locator": "ERIC 저자란·초록과 APS 공식 연구 분야 전거",
+        "evidence": "ERIC과 Crossref는 Robert Glaser를 단독 저자로 기록하며, APS 공식 회고는 같은 인물이 학습과 교수의 과학을 연결해 교수심리학을 정의했다고 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation-and-topic-link",
+            "value": "Robert Glaser · University of Pittsburgh LRDC · instructional psychology and science of instructional design",
+            "evidence_url": "https://www.psychologicalscience.org/observer/remembering-robert-glaser"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "글레이저가 교수심리학을 설계과학으로 구성하는 개요를 직접 제시한 원논문이다."
+    },
+    "authors": "Robert Glaser",
+    "title": "Components of a Psychology of Instruction: Toward a Science of Design",
+    "year": "1976",
+    "publisher": "Review of Educational Research, 46(1), 1–24",
+    "url": "https://doi.org/10.3102/00346543046001001",
+    "doi": "10.3102/00346543046001001",
+    "eric": "EJ138789"
+  },
+  {
     "id": "glaser-1984",
     "tier": "A",
     "type": "원논문",
@@ -1682,6 +1804,87 @@
     "publisher": "American Psychologist, 39(2)",
     "url": "https://doi.org/10.1037/0003-066X.39.2.93",
     "doi": "10.1037/0003-066X.39.2.93"
+  },
+  {
+    "id": "glaser-1994-criterion-origins",
+    "tier": "A",
+    "type": "원논문",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric",
+        "record_id": "10.1111/j.1745-3992.1994.tb00562.x",
+        "evidence": "Crossref와 ERIC EJ502383에서 DOI, 제목, 저자 Robert Glaser, 1994년, Educational Measurement: Issues and Practice 13(4), 9–11쪽을 대조했다.",
+        "matched_fields": ["doi", "title", "author", "issued", "container-title", "volume", "issue", "page", "eric_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-glaser",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ502383",
+        "locator": "ERIC 저자란·초록과 APS 공식 준거참조 연구 전거",
+        "evidence": "ERIC과 Crossref는 Robert Glaser를 단독 저자로 기록하고, ERIC 초록은 이를 저자의 1963년 AERA 발표에 대한 회고로 연결한다. APS 공식 회고도 같은 인물의 준거참조검사 연구를 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation-and-topic-link",
+            "value": "Robert Glaser · University of Pittsburgh · seminal work on criterion-referenced testing",
+            "evidence_url": "https://www.psychologicalscience.org/observer/remembering-robert-glaser"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "글레이저가 자신의 1963년 준거참조측정 논의의 기원과 남은 문제를 직접 회고한 원논문이다."
+    },
+    "authors": "Robert Glaser",
+    "title": "Criterion-Referenced Tests: Part I. Origins",
+    "year": "1994",
+    "publisher": "Educational Measurement: Issues and Practice, 13(4), 9–11",
+    "url": "https://doi.org/10.1111/j.1745-3992.1994.tb00562.x",
+    "doi": "10.1111/j.1745-3992.1994.tb00562.x",
+    "eric": "EJ502383"
+  },
+  {
+    "id": "glaser-nitko-1970-measurement",
+    "tier": "A",
+    "type": "원보고서",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record-and-full-text",
+        "record_id": "ED038873",
+        "evidence": "ERIC ED038873 레코드와 원문에서 제목, Robert Glaser·Anthony J. Nitko의 저자 목록, 1970년 3월, 129쪽, 피츠버그대 LRDC 저작기관을 대조했다.",
+        "matched_fields": ["title", "authors", "publication_date", "pages", "authoring_institution", "document_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-glaser",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=ED038873",
+        "locator": "ERIC 저자란·저작기관란과 APS 공식 소속 전거",
+        "evidence": "ERIC은 Robert Glaser를 첫 저자로, 피츠버그대 Learning Research and Development Center를 저작기관으로 기록한다. APS 공식 회고는 같은 Glaser가 LRDC 설립 책임자였음을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Robert Glaser · founding director · University of Pittsburgh Learning Research and Development Center",
+            "evidence_url": "https://www.psychologicalscience.org/observer/remembering-robert-glaser"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "글레이저와 니트코가 교수설계에서 측정이 맡는 의사결정 기능을 직접 제시한 원보고서다."
+    },
+    "authors": "Robert Glaser; Anthony J. Nitko",
+    "title": "Measurement in Learning and Instruction",
+    "year": "1970",
+    "publisher": "University of Pittsburgh, Learning Research and Development Center",
+    "url": "https://eric.ed.gov/?id=ED038873",
+    "eric": "ED038873"
   },
   {
     "id": "heinich-1984",
