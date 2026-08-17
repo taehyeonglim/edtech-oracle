@@ -6,14 +6,16 @@ role: 학습과학자 · CSCL 연구자
 life: 생년 미확인—현재
 concepts: [Knowledge Building, CSILE, Knowledge Forum, 집단 인지]
 related: ["[[debates/wenger-scardamalia]]", "[[debates/scardamalia-papert]]"]
-updated: 2026-08-14
-sources: [bio-scardamalia-ikit, bio-scardamalia-nae, papert-1980, scardamalia-1989, scardamalia-1994, wenger-1998]
-confidence: medium
+updated: 2026-08-16
+sources: [bereiter-scardamalia-1987-written-composition, bio-scardamalia-ikit, bio-scardamalia-nae, papert-1980, scardamalia-1989, scardamalia-1994, scardamalia-2002-collective-cognitive-responsibility, scardamalia-2003-knowledge-building, scardamalia-bereiter-2006-knowledge-building, wenger-1998]
+confidence: high
 ---
 
 ## 핵심 명제
 
 학교의 집단 담화는 정답 공유를 넘어 공동체의 아이디어를 지속적으로 개선하는 지식구축 활동이 될 수 있다.[^bio-scardamalia-nae][^bio-scardamalia-ikit][^scardamalia-1989][^scardamalia-1994]
+
+지식구축은 아이디어를 창조하고 개선하는 사회적 작업이며, 그 결과로 형성된 공적 지식도 다시 탐구하고 더 개선할 대상으로 삼는다.[^scardamalia-2003-knowledge-building]
 
 스카다말리아는 칼 베라이터와 함께 지식구축 이론을 발전시키고, 초기 네트워크형 협력학습 환경 CSILE과 후속 Knowledge Forum을 설계했다. 기술의 역할을 메시지 전달이 아니라 공동 아이디어의 축적·연결·개선에 두었다.[^bio-scardamalia-nae][^bio-scardamalia-ikit][^scardamalia-1989][^scardamalia-1994]
 
@@ -28,6 +30,8 @@ confidence: medium
 
 지식구축은 여러 사람이 각자 배운 것을 합치는 것과 다르다. 공동체가 문제와 이론을 공적 대상으로 다루고, 설명의 결함을 찾고, 더 나은 아이디어로 계속 수정하는 집단적 인지 책임을 강조한다.[^scardamalia-1994]
 
+이때 집단적 인지 책임은 과업 수행을 나누는 데 그치지 않는다. 공동체는 무엇을 알아야 하는지 파악하고 다른 구성원도 그것을 알도록 보장할 책임을 함께 진다.[^scardamalia-2002-collective-cognitive-responsibility]
+
 ## 담화를 바꾸는 기술
 
 CSILE은 텍스트·그림·그래프를 공유 데이터베이스에 남기고 서로 연결·논평하게 한 초기 CSCL 환경이었다. 기술은 대면 토론을 단순 복제하는 것이 아니라, 아이디어의 역사와 연결을 공동체가 지속적으로 다룰 수 있게 해야 한다.[^scardamalia-1989][^bio-scardamalia-ikit]
@@ -36,6 +40,8 @@ CSILE은 텍스트·그림·그래프를 공유 데이터베이스에 남기고 
 
 말린 스카다말리아는 캐나다 교육연구자이며 OISE/University of Toronto에서 인지발달, 글쓰기, 전문성과 의도적 학습을 연구했다. 정확한 생년은 공식 공개 약력에서 확인되지 않아 이 아카이브는 생년을 미확인으로 표시한다. 그녀의 초기 질문은 학습자가 과제를 끝내는 데서 멈추지 않고 자신의 지식 상태와 학습 목표를 어떻게 능동적으로 다루는가였다.[^bio-scardamalia-nae][^bio-scardamalia-ikit]
 
+베라이터와 스카다말리아는 미숙한 필자의 ‘지식-말하기’와 성숙한 필자의 ‘지식-변형’을 구분했다. 또한 성숙한 쓰기 전략의 발달에는 자기조절과 평가·진단·수정·성찰 과정이 필요하다고 정리했다.[^bereiter-scardamalia-1987-written-composition]
+
 ## CSILE: 인터넷 이전의 협력 지식 매체
 
 스카다말리아가 이끈 팀은 1980년대에 Computer-Supported Intentional Learning Environments를 개발했다. 학생은 네트워크 데이터베이스에 글·그림·그래프를 남기고 서로의 아이디어를 연결·논평·수정할 수 있었다. 1989년 논문은 이 기능을 단순 정보공유가 아니라 의도적 학습과 성숙한 지식처리를 지원하는 설계로 설명했다.[^scardamalia-1989][^bio-scardamalia-ikit]
@@ -43,6 +49,8 @@ CSILE은 텍스트·그림·그래프를 공유 데이터베이스에 남기고 
 ## Knowledge Building과 세계적 네트워크
 
 칼 베라이터와 함께 발전시킨 지식구축 이론은 학교의 목표를 개인별 성취에만 두지 않고 공동체가 공적 아이디어를 개선하는 데 둔다. CSILE의 후속 시스템 Knowledge Forum은 이 담화를 기술적으로 지원했다. 스카다말리아는 Institute for Knowledge Innovation and Technology를 이끌며 학교·대학·조직을 연결했고 1995년 National Academy of Education 회원으로 선출됐다.[^scardamalia-1994][^bio-scardamalia-nae][^bio-scardamalia-ikit]
+
+이 접근에서 지식의 진전은 개인이 아니라 공동체의 성취이며, 학생의 역할은 학습자나 탐구자에서 지식구축 공동체의 구성원으로 전환된다.[^scardamalia-bereiter-2006-knowledge-building]
 
 ## 당대의 비판
 
@@ -67,9 +75,13 @@ CSILE은 텍스트·그림·그래프를 공유 데이터베이스에 남기고 
 - [[debates/wenger-scardamalia]] — 참여와 지식구축 (상대: 에티엔 웽거-트레이너)[^wenger-1998][^scardamalia-1994]
 - [[debates/scardamalia-papert]] — 구성물 제작과 아이디어 개선 (상대: 시모어 파퍼트)[^papert-1980][^scardamalia-1989][^scardamalia-1994]
 
+[^bereiter-scardamalia-1987-written-composition]: Carl Bereiter; Marlene Scardamalia. (1987). The Psychology of Written Composition. Lawrence Erlbaum Associates. <https://eric.ed.gov/?id=ED279025> — tier A · [[sources/bereiter-scardamalia-1987-written-composition]]
 [^bio-scardamalia-ikit]: Institute for Knowledge Innovation and Technology. Marlene Scardamalia. OISE / University of Toronto. <https://ikit.org/people/scardamalia.html> — tier B · [[sources/bio-scardamalia-ikit]]
 [^bio-scardamalia-nae]: National Academy of Education. Marlene Scardamalia. National Academy of Education. <https://naeducation.org/member/marlene-scardamalia/> — tier B · [[sources/bio-scardamalia-nae]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]
 [^scardamalia-1989]: Marlene Scardamalia; Carl Bereiter; Robert S. McLean et al.. (1989). Computer-Supported Intentional Learning Environments. Journal of Educational Computing Research, 5(1). DOI: 10.2190/CYXD-6XG4-UFN5-YFB0. <https://doi.org/10.2190/CYXD-6XG4-UFN5-YFB0> — tier A · [[sources/scardamalia-1989]]
 [^scardamalia-1994]: Marlene Scardamalia; Carl Bereiter. (1994). Computer Support for Knowledge-Building Communities. Journal of the Learning Sciences, 3(3). DOI: 10.1207/s15327809jls0303_3. <https://doi.org/10.1207/s15327809jls0303_3> — tier A · [[sources/scardamalia-1994]]
+[^scardamalia-2002-collective-cognitive-responsibility]: Marlene Scardamalia. (2002). Collective Cognitive Responsibility for the Advancement of Knowledge. Liberal Education in a Knowledge Society. Open Court. <https://ikit.org/fulltext/inpressCollectiveCog.pdf> — tier A · [[sources/scardamalia-2002-collective-cognitive-responsibility]]
+[^scardamalia-2003-knowledge-building]: Marlene Scardamalia. (2003). Knowledge Building. Journal of Distance Education, 17(Suppl. 3), 10–14. <https://ikit.org/fulltext/Knowledge_Building.pdf> — tier A · [[sources/scardamalia-2003-knowledge-building]]
+[^scardamalia-bereiter-2006-knowledge-building]: Marlene Scardamalia; Carl Bereiter. (2006). Knowledge Building: Theory, Pedagogy, and Technology. The Cambridge Handbook of the Learning Sciences, 97–118. Cambridge University Press. DOI: 10.1017/CBO9780511816833.008. <https://doi.org/10.1017/CBO9780511816833.008> — tier B · [[sources/scardamalia-bereiter-2006-knowledge-building]]
 [^wenger-1998]: Etienne Wenger. (1998). Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press. DOI: 10.1017/CBO9780511803932. <https://doi.org/10.1017/CBO9780511803932> — tier A · [[sources/wenger-1998]]

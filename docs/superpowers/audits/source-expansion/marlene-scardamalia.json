@@ -1,0 +1,636 @@
+{
+  "schema_version": 1,
+  "slug": "marlene-scardamalia",
+  "base_commit": "9a00b1fac54282fb45be9106f62f3c4936319d2f",
+  "initial_source_ids": [
+    "bio-scardamalia-ikit",
+    "bio-scardamalia-nae",
+    "papert-1980",
+    "scardamalia-1989",
+    "scardamalia-1994",
+    "wenger-1998"
+  ],
+  "required_additions": 4,
+  "candidates": [
+    {
+      "candidate_key": "ms-cand-01",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED279025와 OpenLibrary edition OL20327396M에서 제목·저자 Carl Bereiter와 Marlene Scardamalia·1987년·출판사·ISBN을 대조했다.",
+      "source_id": "bereiter-scardamalia-1987-written-composition",
+      "bibliography": {
+        "authors": [
+          "Carl Bereiter",
+          "Marlene Scardamalia"
+        ],
+        "title": "The Psychology of Written Composition",
+        "year": "1987",
+        "publisher": "Lawrence Erlbaum Associates",
+        "url": "https://eric.ed.gov/?id=ED279025",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780805800388",
+          "eric": "ED279025",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-and-openlibrary-edition",
+          "record_id": "ED279025; OL20327396M",
+          "evidence": "ERIC ED279025와 OpenLibrary edition OL20327396M에서 제목·저자 Carl Bereiter와 Marlene Scardamalia·1987년·출판사·ISBN을 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "year",
+            "publisher",
+            "isbn",
+            "eric_record",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "marlene-scardamalia",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=ED279025",
+          "locator": "ERIC 저자란과 National Academy of Education 공식 프로필",
+          "evidence": "ERIC은 Marlene Scardamalia를 공저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 지식혁신·기술 연구 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-academy-profile-and-affiliation",
+              "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+              "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "베라이터와 스카다말리아가 쓰기 과정의 지식-말하기·지식-변형 모형을 직접 제시한 본인 공저 원저서다."
+      },
+      "claim_seed": {
+        "section": "쓰기와 전문성에서 시작된 인지 연구",
+        "claim": "베라이터와 스카다말리아는 미숙한 필자의 지식-말하기와 성숙한 필자의 지식-변형을 구분하고, 성숙한 쓰기 전략의 발달에 자기조절·평가·진단·수정·성찰 과정이 필요하다고 정리했다.",
+        "locator": "ERIC ED279025 초록의 제3·4부와 결론 요약",
+        "evidence_url": "https://eric.ed.gov/?id=ED279025"
+      },
+      "corrections": [
+        {
+          "field": "claim_seed.claim",
+          "from": "이 책은 미숙한 필자의 지식-말하기와 성숙한 필자의 지식-변형을 구분하고, 쓰기 전략의 차이가 서로 다른 사고와 자기조절 과정을 요구한다고 설명한다.",
+          "to": "베라이터와 스카다말리아는 미숙한 필자의 지식-말하기와 성숙한 필자의 지식-변형을 구분하고, 성숙한 쓰기 전략의 발달에 자기조절·평가·진단·수정·성찰 과정이 필요하다고 정리했다.",
+          "reason": "접근 가능한 공식 레코드·원문이 직접 지지하는 문장으로 주장 범위를 확정했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "ms-cand-02",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 실재와 공저 관계는 확인했지만 Taylor & Francis 원문·초록 경로가 내용을 반환하지 않아 아동의 생산적 질문과 주도권에 관한 후보 주장의 위치를 독립 검증하지 못했고 정확한 4건 밖으로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Marlene Scardamalia",
+          "Carl Bereiter"
+        ],
+        "title": "Higher Levels of Agency for Children in Knowledge Building: A Challenge for the Design of New Knowledge Media",
+        "year": "1991",
+        "publisher": "Lawrence Erlbaum Associates",
+        "url": "https://doi.org/10.1207/s15327809jls0101_3",
+        "identifiers": {
+          "doi": "10.1207/s15327809jls0101_3",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-record",
+          "record_id": "10.1207/s15327809jls0101_3",
+          "evidence": "Crossref에서 DOI·제목·저자 Marlene Scardamalia와 Carl Bereiter·1991년·Journal of the Learning Sciences 1(1), 37–68쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "marlene-scardamalia",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.1207%2Fs15327809jls0101_3",
+          "locator": "Crossref 저자 메타데이터와 National Academy of Education 공식 프로필",
+          "evidence": "Crossref는 Marlene Scardamalia를 제1저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 지식구축·기술 연구 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-academy-profile-and-affiliation",
+              "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+              "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "ms-cand-03",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary edition OL8019080M에서 수록서 Liberal Education in a Knowledge Society·2002년·Open Court·ISBN을 확인하고, IKIT 공식 원문 표제에서 장 제목과 저자 Marlene Scardamalia를 대조했다.",
+      "source_id": "scardamalia-2002-collective-cognitive-responsibility",
+      "bibliography": {
+        "authors": [
+          "Marlene Scardamalia"
+        ],
+        "title": "Collective Cognitive Responsibility for the Advancement of Knowledge",
+        "year": "2002",
+        "publisher": "Open Court",
+        "url": "https://ikit.org/fulltext/inpressCollectiveCog.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780812695083",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-official-author-manuscript",
+          "record_id": "OL8019080M",
+          "evidence": "OpenLibrary edition OL8019080M에서 수록서 Liberal Education in a Knowledge Society·2002년·Open Court·ISBN을 확인하고, IKIT 공식 원문 표제에서 장 제목과 저자 Marlene Scardamalia를 대조했다.",
+          "matched_fields": [
+            "book_title",
+            "chapter_title",
+            "chapter_author",
+            "year",
+            "publisher",
+            "isbn",
+            "openlibrary_edition",
+            "official_manuscript"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "marlene-scardamalia",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://ikit.org/fulltext/inpressCollectiveCog.pdf",
+          "locator": "IKIT 공식 원문 표제와 National Academy of Education 공식 프로필",
+          "evidence": "IKIT 원문 표제는 Marlene Scardamalia를 단독 저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 IKIT 지식구축 연구 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-academy-profile-and-affiliation",
+              "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+              "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "스카다말리아가 집단적 인지 책임이라는 중심 개념을 정의하고 교육에 적용한 본인 원 장이다."
+      },
+      "claim_seed": {
+        "section": "개인 학습에서 공동 아이디어로",
+        "claim": "집단적 인지 책임은 과업 수행 책임을 분산하는 데 그치지 않고, 무엇을 알아야 하는지 파악하고 다른 구성원도 그것을 알도록 보장하는 공동 책임을 뜻한다.",
+        "locator": "IKIT 공식 원문 pp. 4–5, Collective Cognitive Responsibility in the Workplace",
+        "evidence_url": "https://ikit.org/fulltext/inpressCollectiveCog.pdf"
+      },
+      "corrections": [
+        {
+          "field": "claim_seed.claim",
+          "from": "집단적 인지 책임은 집단 성공의 책임을 구성원 전체에 분산하는 데서 더 나아가, 무엇을 알아야 하는지 파악하고 진행 상황을 이해하며 다른 구성원도 필요한 지식을 갖추도록 함께 책임지는 상태를 뜻한다.",
+          "to": "집단적 인지 책임은 과업 수행 책임을 분산하는 데 그치지 않고, 무엇을 알아야 하는지 파악하고 다른 구성원도 그것을 알도록 보장하는 공동 책임을 뜻한다.",
+          "reason": "접근 가능한 공식 레코드·원문이 직접 지지하는 문장으로 주장 범위를 확정했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "ms-cand-04",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. IKIT 공식 원문에 표시된 서지에서 제목·저자 Marlene Scardamalia·2003년·Journal of Distance Education 17(Suppl. 3), 10–14쪽을 대조했다.",
+      "source_id": "scardamalia-2003-knowledge-building",
+      "bibliography": {
+        "authors": [
+          "Marlene Scardamalia"
+        ],
+        "title": "Knowledge Building",
+        "year": "2003",
+        "publisher": "Canadian Association for Distance Education",
+        "url": "https://ikit.org/fulltext/Knowledge_Building.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-institution-author-manuscript",
+          "record_id": "Journal of Distance Education 17(Suppl. 3), 10–14",
+          "evidence": "IKIT 공식 원문에 표시된 서지에서 제목·저자 Marlene Scardamalia·2003년·Journal of Distance Education 17(Suppl. 3), 10–14쪽을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "official_manuscript"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "marlene-scardamalia",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://ikit.org/fulltext/Knowledge_Building.pdf",
+          "locator": "IKIT 공식 원문 서지·표제와 National Academy of Education 공식 프로필",
+          "evidence": "IKIT 원문 서지와 표제는 Marlene Scardamalia를 단독 저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 지식구축 연구 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-academy-profile-and-affiliation",
+              "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+              "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "스카다말리아가 지식구축을 공적 아이디어의 창조·개선 역학으로 직접 규정하고 지표를 제시한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "핵심 명제",
+        "claim": "지식구축은 아이디어의 창조·개선을 수행하는 사회적 작업이며, 이렇게 만들어진 공적 지식은 다시 탐구와 후속 개선의 대상이 된다.",
+        "locator": "IKIT 공식 원문 Dynamics of Knowledge Building 절",
+        "evidence_url": "https://ikit.org/fulltext/Knowledge_Building.pdf"
+      },
+      "corrections": [
+        {
+          "field": "claim_seed.claim",
+          "from": "지식구축은 아이디어를 만들고 개선하는 사회적 작업이며, 그 결과인 공적 지식은 다시 탐구와 후속 개선의 대상이 되어 지속적인 지식 진보를 가능하게 한다.",
+          "to": "지식구축은 아이디어의 창조·개선을 수행하는 사회적 작업이며, 이렇게 만들어진 공적 지식은 다시 탐구와 후속 개선의 대상이 된다.",
+          "reason": "접근 가능한 공식 레코드·원문이 직접 지지하는 문장으로 주장 범위를 확정했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "ms-cand-05",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary에서 수록서 Education and Technology(OL8746842M, 2003)는 확인했지만 후보의 2004년과 불일치했고, IKIT 장 원문은 HTTP 522를 반환해 정확한 장 제목·저자·쪽과 연표 주장을 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Marlene Scardamalia"
+        ],
+        "title": "CSILE/Knowledge Forum",
+        "year": "2004",
+        "publisher": "ABC-CLIO",
+        "url": "https://ikit.org/fulltext/CSILE_KF.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9781576073513",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": "openlibrary-volume-record-plus-ikit-522",
+          "record_id": "OL8746842M",
+          "evidence": "OpenLibrary는 ISBN 9781576073513의 수록서를 2003년 Education and Technology로 반환했으나 정확한 장 레코드는 아니며, https://ikit.org/fulltext/CSILE_KF.pdf 는 HTTP 522를 반환했다.",
+          "matched_fields": [
+            "book_title",
+            "publisher",
+            "isbn",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "marlene-scardamalia",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "정확한 장 원문과 저자란을 확인하지 못해 관계를 승인하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": [
+        {
+          "field": "bibliography.year",
+          "from": "2004",
+          "to": "2003",
+          "reason": "OpenLibrary edition OL8746842M은 수록서 발행일을 2003년으로 표시한다. 다만 장 자체는 미확인이라 보류했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "ms-cand-06",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 IKIT 공식 원문 서지에서 DOI·장 제목·저자 Marlene Scardamalia와 Carl Bereiter·수록서·97–118쪽·2006년 인쇄판을 대조했다. Crossref의 온라인 발행일은 2005년이다.",
+      "source_id": "scardamalia-bereiter-2006-knowledge-building",
+      "bibliography": {
+        "authors": [
+          "Marlene Scardamalia",
+          "Carl Bereiter"
+        ],
+        "title": "Knowledge Building: Theory, Pedagogy, and Technology",
+        "year": "2006",
+        "publisher": "Cambridge University Press",
+        "url": "https://doi.org/10.1017/CBO9780511816833.008",
+        "identifiers": {
+          "doi": "10.1017/CBO9780511816833.008",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-official-author-manuscript",
+          "record_id": "10.1017/CBO9780511816833.008",
+          "evidence": "Crossref와 IKIT 공식 원문 서지에서 DOI·장 제목·저자 Marlene Scardamalia와 Carl Bereiter·수록서·97–118쪽·2006년 인쇄판을 대조했다. Crossref의 온라인 발행일은 2005년이다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "container-title",
+            "page",
+            "publisher",
+            "official_manuscript",
+            "print_year"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "marlene-scardamalia",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://ikit.org/fulltext/2006_KBTheory.pdf",
+          "locator": "IKIT 공식 원문 서지·표제와 National Academy of Education 공식 프로필",
+          "evidence": "IKIT 원문 서지와 표제는 Marlene Scardamalia를 공동 저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 지식구축 연구 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-academy-profile-and-affiliation",
+              "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+              "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "2-book-or-chapter-role",
+        "evidence": "본인들이 공저했지만 기존 지식구축 이론·교수법·기술을 후대 학습과학 핸드북에서 종합·재서술한 장이므로 B다."
+      },
+      "claim_seed": {
+        "section": "Knowledge Building과 세계적 네트워크",
+        "claim": "지식구축 접근은 지식의 진전을 개인이 아니라 공동체의 성취로 보고, 학생을 학습자·탐구자에서 지식구축 공동체의 구성원으로 전환한다.",
+        "locator": "IKIT 공식 원문 도입부와 Community Knowledge Advancement 절",
+        "evidence_url": "https://ikit.org/fulltext/2006_KBTheory.pdf"
+      },
+      "corrections": [
+        {
+          "field": "claim_seed.claim",
+          "from": "지식구축 교수법은 학교에서도 성숙한 학자의 작업을 단순 모방하는 데 그치지 않고 교실 공동체의 지식 상태를 실질적으로 진전시키는 창의적 지식 작업이 가능하다는 전제에 기초한다.",
+          "to": "지식구축 접근은 지식의 진전을 개인이 아니라 공동체의 성취로 보고, 학생을 학습자·탐구자에서 지식구축 공동체의 구성원으로 전환한다.",
+          "reason": "접근 가능한 공식 레코드·원문이 직접 지지하는 문장으로 주장 범위를 확정했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "ms-cand-07",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 실재·공저 관계는 확인했지만 이번에는 쓰기 모형·집단 인지 책임·공적 지식 역학·공동체 지식 진전의 네 축을 우선해 정확한 할당량 밖 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Marlene Scardamalia",
+          "Carl Bereiter"
+        ],
+        "title": "A Brief History of Knowledge Building",
+        "year": "2010",
+        "publisher": "Canadian Network for Innovation in Education",
+        "url": "https://doi.org/10.21432/T2859M",
+        "identifiers": {
+          "doi": "10.21432/T2859M",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-record",
+          "record_id": "10.21432/T2859M",
+          "evidence": "Crossref에서 DOI·제목·저자 Marlene Scardamalia와 Carl Bereiter·2010년·Canadian Journal of Learning and Technology를 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "marlene-scardamalia",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.21432%2FT2859M",
+          "locator": "Crossref 저자 메타데이터와 National Academy of Education 공식 프로필",
+          "evidence": "Crossref는 Marlene Scardamalia를 제1저자로 표시하며, NAE 공식 프로필의 소속과 지식구축 연구 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-academy-profile-and-affiliation",
+              "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+              "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "ms-cand-08",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 실재·공저 관계는 확인했지만 지식창조와 설계적 태도 주제는 선정한 2003·2006 문헌의 공적 아이디어·공동체 진전 주장과 범위가 겹쳐 정확한 할당량 밖 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Carl Bereiter",
+          "Marlene Scardamalia"
+        ],
+        "title": "Knowledge Building and Knowledge Creation: One Concept, Two Hills to Climb",
+        "year": "2014",
+        "publisher": "Springer Singapore",
+        "url": "https://doi.org/10.1007/978-981-287-047-6_3",
+        "identifiers": {
+          "doi": "10.1007/978-981-287-047-6_3",
+          "isbn": "9789812870476",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-record",
+          "record_id": "10.1007/978-981-287-047-6_3",
+          "evidence": "Crossref에서 DOI·장 제목·저자 Carl Bereiter와 Marlene Scardamalia·2014년·Education Innovation Series를 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "publisher"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "marlene-scardamalia",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.1007%2F978-981-287-047-6_3",
+          "locator": "Crossref 저자 메타데이터와 National Academy of Education 공식 프로필",
+          "evidence": "Crossref는 Marlene Scardamalia를 공저자로 표시하며, NAE 공식 프로필의 소속과 지식구축 연구 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-academy-profile-and-affiliation",
+              "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+              "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "bereiter-scardamalia-1987-written-composition",
+    "scardamalia-2002-collective-cognitive-responsibility",
+    "scardamalia-2003-knowledge-building",
+    "scardamalia-bereiter-2006-knowledge-building"
+  ],
+  "claim_map": [
+    {
+      "source_id": "bereiter-scardamalia-1987-written-composition",
+      "section": "쓰기와 전문성에서 시작된 인지 연구",
+      "claim": "또한 성숙한 쓰기 전략의 발달에는 자기조절과 평가·진단·수정·성찰 과정이 필요하다고 정리했다.",
+      "evidence_locator": "ERIC ED279025 초록의 제3·4부와 결론 요약"
+    },
+    {
+      "source_id": "scardamalia-2002-collective-cognitive-responsibility",
+      "section": "개인 학습에서 공동 아이디어로",
+      "claim": "공동체는 무엇을 알아야 하는지 파악하고 다른 구성원도 그것을 알도록 보장할 책임을 함께 진다.",
+      "evidence_locator": "IKIT 공식 원문 pp. 4–5, Collective Cognitive Responsibility in the Workplace"
+    },
+    {
+      "source_id": "scardamalia-2003-knowledge-building",
+      "section": "핵심 명제",
+      "claim": "지식구축은 아이디어를 창조하고 개선하는 사회적 작업이며, 그 결과로 형성된 공적 지식도 다시 탐구하고 더 개선할 대상으로 삼는다.",
+      "evidence_locator": "IKIT 공식 원문 Dynamics of Knowledge Building 절"
+    },
+    {
+      "source_id": "scardamalia-bereiter-2006-knowledge-building",
+      "section": "Knowledge Building과 세계적 네트워크",
+      "claim": "이 접근에서 지식의 진전은 개인이 아니라 공동체의 성취이며, 학생의 역할은 학습자나 탐구자에서 지식구축 공동체의 구성원으로 전환된다.",
+      "evidence_locator": "IKIT 공식 원문 도입부와 Community Knowledge Advancement 절"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/marlene-scardamalia.md:51|scardamalia-1994|1995|1994",
+        "file": "wiki/pioneers/marlene-scardamalia.md",
+        "line": 51,
+        "claimYear": 1995,
+        "sourceId": "scardamalia-1994",
+        "sourceYear": 1994,
+        "decision": "valid-context",
+        "reason": "1995는 NAE 회원 선출 연도이고 같은 문단의 bio-scardamalia-nae가 그 사실을 받친다. scardamalia-1994는 앞선 지식구축 이론 서술을 받치는 정상 혼합 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/marlene-scardamalia.md:47|bio-scardamalia-ikit|1989|none",
+        "file": "wiki/pioneers/marlene-scardamalia.md",
+        "line": 47,
+        "claimYear": 1989,
+        "sourceId": "bio-scardamalia-ikit",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 IKIT 공식 약력이 CSILE 연구 이력과 1989년 논문 맥락을 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/marlene-scardamalia.md:51|bio-scardamalia-ikit|1995|none",
+        "file": "wiki/pioneers/marlene-scardamalia.md",
+        "line": 51,
+        "claimYear": 1995,
+        "sourceId": "bio-scardamalia-ikit",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 IKIT 공식 약력이 연구소 지도와 지식구축 활동을 설명하며, 같은 문단의 1995년 회원 선출은 NAE 공식 약력이 받친다."
+      },
+      {
+        "key": "wiki/pioneers/marlene-scardamalia.md:51|bio-scardamalia-nae|1995|none",
+        "file": "wiki/pioneers/marlene-scardamalia.md",
+        "line": 51,
+        "claimYear": 1995,
+        "sourceId": "bio-scardamalia-nae",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 NAE 공식 프로필이 1995년 회원 선출 사실을 직접 표시하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/marlene-scardamalia.md:71|bio-scardamalia-nae|1995|none",
+        "file": "wiki/pioneers/marlene-scardamalia.md",
+        "line": 71,
+        "claimYear": 1995,
+        "sourceId": "bio-scardamalia-nae",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 NAE 공식 프로필이 연표의 1995년 회원 선출 사실을 직접 표시하는 정상 인용이다."
+      }
+    ]
+  }
+}

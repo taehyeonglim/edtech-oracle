@@ -5511,5 +5511,209 @@
       "doi": "10.1002/(SICI)1098-2736(199608)33:6<569::AID-TEA1>3.0.CO;2-M",
       "eric": "EJ528405"
     }
+  },
+  {
+    "id": "bereiter-scardamalia-1987-written-composition",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "베라이터와 스카다말리아가 쓰기 과정의 지식-말하기·지식-변형 모형을 직접 제시한 본인 공저 원저서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-and-openlibrary-edition",
+        "record_id": "ED279025; OL20327396M",
+        "evidence": "ERIC ED279025와 OpenLibrary edition OL20327396M에서 제목·저자 Carl Bereiter와 Marlene Scardamalia·1987년·출판사·ISBN을 대조했다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "year",
+          "publisher",
+          "isbn",
+          "eric_record",
+          "openlibrary_edition"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "marlene-scardamalia",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=ED279025",
+        "locator": "ERIC 저자란과 National Academy of Education 공식 프로필",
+        "evidence": "ERIC은 Marlene Scardamalia를 공저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 지식혁신·기술 연구 경력이 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-academy-profile-and-affiliation",
+            "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+            "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+          }
+        ]
+      }
+    },
+    "authors": "Carl Bereiter; Marlene Scardamalia",
+    "title": "The Psychology of Written Composition",
+    "year": "1987",
+    "publisher": "Lawrence Erlbaum Associates",
+    "url": "https://eric.ed.gov/?id=ED279025",
+    "identifiers": {
+      "isbn": "9780805800388",
+      "eric": "ED279025",
+      "openlibrary_edition": "OL20327396M"
+    }
+  },
+  {
+    "id": "scardamalia-2002-collective-cognitive-responsibility",
+    "tier": "A",
+    "type": "원 장",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "스카다말리아가 집단적 인지 책임이라는 중심 개념을 정의하고 교육에 적용한 본인 원 장이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition-and-official-author-manuscript",
+        "record_id": "OL8019080M",
+        "evidence": "OpenLibrary edition OL8019080M에서 수록서 Liberal Education in a Knowledge Society·2002년·Open Court·ISBN을 확인하고, IKIT 공식 원문 표제에서 장 제목과 저자 Marlene Scardamalia를 대조했다.",
+        "matched_fields": [
+          "book_title",
+          "chapter_title",
+          "chapter_author",
+          "year",
+          "publisher",
+          "isbn",
+          "openlibrary_edition",
+          "official_manuscript"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "marlene-scardamalia",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://ikit.org/fulltext/inpressCollectiveCog.pdf",
+        "locator": "IKIT 공식 원문 표제와 National Academy of Education 공식 프로필",
+        "evidence": "IKIT 원문 표제는 Marlene Scardamalia를 단독 저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 IKIT 지식구축 연구 경력이 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-academy-profile-and-affiliation",
+            "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+            "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+          }
+        ]
+      }
+    },
+    "authors": "Marlene Scardamalia",
+    "title": "Collective Cognitive Responsibility for the Advancement of Knowledge",
+    "year": "2002",
+    "publisher": "Liberal Education in a Knowledge Society. Open Court",
+    "url": "https://ikit.org/fulltext/inpressCollectiveCog.pdf",
+    "identifiers": {
+      "isbn": "9780812695083",
+      "openlibrary_edition": "OL8019080M"
+    }
+  },
+  {
+    "id": "scardamalia-2003-knowledge-building",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "스카다말리아가 지식구축을 공적 아이디어의 창조·개선 역학으로 직접 규정하고 지표를 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "official-institution-author-manuscript",
+        "record_id": "Journal of Distance Education 17(Suppl. 3), 10–14",
+        "evidence": "IKIT 공식 원문에 표시된 서지에서 제목·저자 Marlene Scardamalia·2003년·Journal of Distance Education 17(Suppl. 3), 10–14쪽을 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "official_manuscript"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "marlene-scardamalia",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://ikit.org/fulltext/Knowledge_Building.pdf",
+        "locator": "IKIT 공식 원문 서지·표제와 National Academy of Education 공식 프로필",
+        "evidence": "IKIT 원문 서지와 표제는 Marlene Scardamalia를 단독 저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 지식구축 연구 경력이 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-academy-profile-and-affiliation",
+            "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+            "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+          }
+        ]
+      }
+    },
+    "authors": "Marlene Scardamalia",
+    "title": "Knowledge Building",
+    "year": "2003",
+    "publisher": "Journal of Distance Education, 17(Suppl. 3), 10–14",
+    "url": "https://ikit.org/fulltext/Knowledge_Building.pdf"
+  },
+  {
+    "id": "scardamalia-bereiter-2006-knowledge-building",
+    "tier": "B",
+    "type": "후대 이론 재서술 장",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "본인들이 공저했지만 기존 지식구축 이론·교수법·기술을 후대 학습과학 핸드북에서 종합·재서술한 장이므로 B다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-official-author-manuscript",
+        "record_id": "10.1017/CBO9780511816833.008",
+        "evidence": "Crossref와 IKIT 공식 원문 서지에서 DOI·장 제목·저자 Marlene Scardamalia와 Carl Bereiter·수록서·97–118쪽·2006년 인쇄판을 대조했다. Crossref의 온라인 발행일은 2005년이다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "container-title",
+          "page",
+          "publisher",
+          "official_manuscript",
+          "print_year"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "marlene-scardamalia",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://ikit.org/fulltext/2006_KBTheory.pdf",
+        "locator": "IKIT 공식 원문 서지·표제와 National Academy of Education 공식 프로필",
+        "evidence": "IKIT 원문 서지와 표제는 Marlene Scardamalia를 공동 저자로 표시하며, NAE 공식 프로필의 OISE/University of Toronto 소속과 지식구축 연구 경력이 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-academy-profile-and-affiliation",
+            "value": "Marlene Scardamalia · OISE/University of Toronto · University Distinguished Professor of Knowledge Innovation & Technology · IKIT director",
+            "evidence_url": "https://naeducation.org/member/marlene-scardamalia/"
+          }
+        ]
+      }
+    },
+    "authors": "Marlene Scardamalia; Carl Bereiter",
+    "title": "Knowledge Building: Theory, Pedagogy, and Technology",
+    "year": "2006",
+    "publisher": "The Cambridge Handbook of the Learning Sciences, 97–118. Cambridge University Press",
+    "url": "https://doi.org/10.1017/CBO9780511816833.008",
+    "doi": "10.1017/CBO9780511816833.008",
+    "identifiers": {
+      "doi": "10.1017/CBO9780511816833.008"
+    }
   }
 ]
