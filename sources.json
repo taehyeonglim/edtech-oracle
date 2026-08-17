@@ -2695,6 +2695,54 @@
     "url": "https://www.pearson.com/en-us/subject-catalog/p/trends-and-issues-in-instructional-design-and-technology/P200000006222"
   },
   {
+    "id": "richey-1977-pact",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "리치가 Project PACT의 역량 기반 수업자료 설계·실행·수정 과정과 초기 결과를 직접 보고한 원연구다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record-and-full-text",
+        "record_id": "ED141595",
+        "evidence": "ERIC ED141595 레코드와 원문에서 제목·저자 Rita C. Richey·1977년 AERA 발표·문서 번호를 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "publication_date",
+          "conference",
+          "document_id"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "rita-richey",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED141595.pdf",
+        "locator": "원문 표제지",
+        "evidence": "표제지는 Rita C. Richey를 단독 저자로, Wayne State University를 소속으로 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Rita C. Richey · Wayne State University · competency-based instructional materials",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED141595.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Rita C. Richey",
+    "title": "The Design, Implementation, and Revision of Instructional Materials in a Competency-Based Business Education Program",
+    "year": "1977",
+    "publisher": "American Educational Research Association annual meeting",
+    "url": "https://eric.ed.gov/?id=ED141595",
+    "identifiers": {
+      "eric": "ED141595"
+    }
+  },
+  {
     "id": "richey-1986",
     "tier": "A",
     "type": "원저서",
@@ -2707,6 +2755,207 @@
     "year": "1986",
     "publisher": "Kogan Page",
     "url": "https://openlibrary.org/works/OL3913317W/The_theoretical_and_conceptual_bases_of_instructional_design"
+  },
+  {
+    "id": "richey-1988-competency-success",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "리치가 교수공학 교육과정·역량 도달·직업 성공의 관계를 자료로 직접 분석한 원연구 보고서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record-and-full-text",
+        "record_id": "ED295658",
+        "evidence": "ERIC ED295658 레코드와 원문에서 제목·저자 Rita C. Richey·1988년 AECT 발표·문서 번호를 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "publication_date",
+          "conference",
+          "document_id"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "rita-richey",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED295658.pdf",
+        "locator": "원문 표제지 저자·소속란",
+        "evidence": "표제지는 Rita C. Richey를 단독 저자로, Wayne State University College of Education을 소속으로 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Rita C. Richey · Wayne State University College of Education · instructional technology",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED295658.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Rita C. Richey",
+    "title": "Instructional Technology Academic Preparation, Competency, and On-the-Job Success",
+    "year": "1988",
+    "publisher": "Association for Educational Communications and Technology annual meeting",
+    "url": "https://eric.ed.gov/?id=ED295658",
+    "identifiers": {
+      "eric": "ED295658"
+    }
+  },
+  {
+    "id": "richey-1994-developmental-research",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "리치가 개발연구의 정의·범위와 수행과 연구의 구분을 직접 제시한 원보고서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record-and-full-text",
+        "record_id": "ED373753",
+        "evidence": "ERIC ED373753 레코드와 원문에서 제목·저자 Rita C. Richey·1994년·문서 번호를 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "publication_date",
+          "document_id"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "rita-richey",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED373753.pdf",
+        "locator": "원문 표제지 저자·소속란과 pp. 1–2",
+        "evidence": "표제지는 Rita C. Richey를 단독 저자로, Wayne State University를 소속으로 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Rita C. Richey · Wayne State University · developmental research",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED373753.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Rita C. Richey",
+    "title": "Developmental Research: The Definition and Scope",
+    "year": "1994",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://eric.ed.gov/?id=ED373753",
+    "identifiers": {
+      "eric": "ED373753"
+    }
+  },
+  {
+    "id": "richey-1998-useable-knowledge",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "리치가 교육공학 연구의 관련성과 사용 가능한 지식의 조건을 직접 논증한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric",
+        "record_id": "10.1007/BF02299670",
+        "evidence": "Crossref와 ERIC EJ582174에서 DOI·제목·저자 Rita C. Richey·1998년·ETR&D 46(4)·7–22쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_id"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "rita-richey",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ582174",
+        "locator": "ERIC 저자란·초록과 Wayne State 공식 Academy 전거",
+        "evidence": "ERIC과 Crossref는 Rita C. Richey를 단독 저자로 기록하며, Wayne State 공식 전거의 교육 분야 Rita C. Richey와 연구 분야가 일치한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Rita C. Richey · Wayne State University Academy of Scholars · Education",
+            "evidence_url": "https://academy.wayne.edu/docs/acadamy-brochure.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Rita C. Richey",
+    "title": "The Pursuit of Useable Knowledge in Instructional Technology",
+    "year": "1998",
+    "publisher": "Educational Technology Research and Development, 46(4), 7–22",
+    "url": "https://doi.org/10.1007/BF02299670",
+    "doi": "10.1007/BF02299670",
+    "identifiers": {
+      "doi": "10.1007/BF02299670",
+      "eric": "EJ582174"
+    }
+  },
+  {
+    "id": "richey-klein-2005-developmental-methods",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "리치와 클라인이 개발연구의 두 범주와 연구 절차의 조정 방법을 직접 제시한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-publisher-record",
+        "record_id": "10.1007/BF02961473",
+        "evidence": "Crossref와 Springer 공식 페이지에서 DOI·제목·두 저자·2005년·Journal of Computing in Higher Education 16(2)·23–38쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "rita-richey",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://link.springer.com/article/10.1007/BF02961473",
+        "locator": "Springer 공식 byline과 초록",
+        "evidence": "Springer와 Crossref는 Rita C. Richey와 James D. Klein을 공저자로 기록하며, 두 사람의 개발연구 공저 이력이 동일인을 뒷받침한다.",
+        "identity_signals": [
+          {
+            "kind": "coauthor-topic-link",
+            "value": "Rita C. Richey · James D. Klein · developmental research · later 2007 coauthored book",
+            "evidence_url": "https://link.springer.com/article/10.1007/BF02961473"
+          }
+        ]
+      }
+    },
+    "authors": "Rita C. Richey; James D. Klein",
+    "title": "Developmental Research Methods: Creating Knowledge from Instructional Design and Development Practice",
+    "year": "2005",
+    "publisher": "Journal of Computing in Higher Education, 16(2), 23–38",
+    "url": "https://doi.org/10.1007/BF02961473",
+    "doi": "10.1007/BF02961473",
+    "identifiers": {
+      "doi": "10.1007/BF02961473"
+    }
   },
   {
     "id": "richey-klein-2007",
