@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "slug": "etienne-wenger-trayner",
+  "base_commit": "723fa81ad95ba8cfc6f4fd907b9071a8118efa72",
+  "initial_source_ids": [
+    "bio-wenger-author",
+    "lave-wenger-1991",
+    "moore-1993",
+    "scardamalia-1994",
+    "wenger-1998"
+  ],
+  "required_additions": 5,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Elsevier/Morgan Kaufmann 공식 도서 레코드에서 제목·저자·1987년 12월 25일·초판·ISBN 9780934613262를 대조했다. OpenLibrary는 7초 간격 5회 재시도했으나 모두 타임아웃이었다.",
+      "source_id": "wenger-1987-ai-tutoring",
+      "bibliography": {
+        "authors": [
+          "Etienne Wenger"
+        ],
+        "title": "Artificial Intelligence and Tutoring Systems: Computational and Cognitive Approaches to the Communication of Knowledge",
+        "year": "1987",
+        "publisher": "Morgan Kaufmann",
+        "url": "https://shop.elsevier.com/books/artificial-intelligence-and-tutoring-systems/wenger/978-0-934613-26-2",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780934613262",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "publisher-record",
+          "record_id": "ISBN 9780934613262",
+          "evidence": "Elsevier/Morgan Kaufmann 공식 도서 레코드에서 제목·저자·1987년 12월 25일·초판·ISBN 9780934613262를 대조했다. OpenLibrary는 7초 간격 5회 재시도했으나 모두 타임아웃이었다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_date",
+            "edition",
+            "isbn",
+            "publisher"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://shop.elsevier.com/books/artificial-intelligence-and-tutoring-systems/wenger/978-0-934613-26-2",
+          "locator": "공식 도서 레코드의 Authors·Publication Date·ISBN 필드",
+          "evidence": "공식 출판사 레코드는 Etienne Wenger를 단독 저자로 표시하고, 그의 공식 저자 페이지도 같은 1987년 Morgan Kaufmann 저서를 초기 AI 연구로 열거한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-site",
+              "value": "Etienne Wenger · Artificial Intelligence and Tutoring Systems · 1987 · Morgan Kaufmann",
+              "evidence_url": "https://www.wenger-trayner.com/etienne/"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "웽거가 지능형 튜터링 시스템의 계산적·인지적 틀을 직접 제시한 단독 원저서다."
+      },
+      "claim_seed": {
+        "section": "스위스에서 언어교사와 AI 연구자로",
+        "claim": "이 저서는 지능형 튜터링을 지식 전달의 문제로 구성하고, 영역 지식·학습자 모델·교수 지식·인터페이스를 핵심 구성요소로 나누어 검토했다.",
+        "locator": "공식 출판사 Description과 목차 Part I, Chapter 2 ‘Basic Issues’",
+        "evidence_url": "https://shop.elsevier.com/books/artificial-intelligence-and-tutoring-systems/wenger/978-0-934613-26-2"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "pending_manual",
+      "reason": "ERIC EJ598576과 공식 저자 페이지에서 실재·두 공저자·초록의 조직적 활용 논지를 확인했지만, 정확히 5건인 승인 묶음은 학술 원저작의 이론 확장과 직접 비판을 더 넓게 보강하는 후보들로 우선 구성했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Etienne C. Wenger",
+          "William M. Snyder"
+        ],
+        "title": "Communities of Practice: The Organizational Frontier",
+        "year": "2000",
+        "publisher": "Harvard Business Review",
+        "url": "https://hbr.org/2000/01/communities-of-practice-the-organizational-frontier",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "EJ598576",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "EJ598576",
+          "evidence": "ERIC 레코드에서 제목·두 저자·Harvard Business Review 78(1)·2000년·139–145쪽을 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "journal",
+            "volume",
+            "issue",
+            "pages",
+            "eric_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.wenger-trayner.com/etienne/",
+          "locator": "공식 저자 페이지의 2000년 HBR 항목과 ERIC 저자란",
+          "evidence": "공식 저자 페이지와 ERIC이 Etienne Wenger와 William M. Snyder를 같은 논문의 공저자로 연결한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-site",
+              "value": "Etienne Wenger · William Snyder · Communities of Practice: The Organizational Frontier · 2000",
+              "evidence_url": "https://www.wenger-trayner.com/etienne/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref API에서 DOI·제목·저자 Etienne Wenger·2000년·Organization 7(2)·225–246쪽을 대조했다.",
+      "source_id": "wenger-2000-social-learning-systems",
+      "bibliography": {
+        "authors": [
+          "Etienne Wenger"
+        ],
+        "title": "Communities of Practice and Social Learning Systems",
+        "year": "2000",
+        "publisher": "SAGE Publications",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/135050840072002",
+        "identifiers": {
+          "doi": "10.1177/135050840072002",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1177/135050840072002",
+          "evidence": "Crossref API에서 DOI·제목·저자 Etienne Wenger·2000년·Organization 7(2)·225–246쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.wenger-trayner.com/etienne/",
+          "locator": "공식 저자 페이지의 2000년 Organization 논문 항목과 Crossref author·affiliation 필드",
+          "evidence": "공식 저자 페이지는 이 논문을 Etienne Wenger의 2000년 Organization 논문으로 열거하고, Crossref도 그를 단독 저자이자 독립 컨설턴트·연구자·저자로 기록한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-site",
+              "value": "Etienne Wenger · Communities of Practice and Social Learning Systems · Organization · 2000",
+              "evidence_url": "https://www.wenger-trayner.com/etienne/"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "웽거가 조직을 사회학습체계로 분석하는 자신의 이론을 직접 제시한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "실천공동체에서 사회학습 체계로",
+        "claim": "2000년 그는 조직을 하나의 공동체가 아니라 여러 실천공동체, 그 사이의 경계 과정, 참여로 형성되는 정체성이 맞물린 사회학습체계로 분석했다.",
+        "locator": "Crossref 초록 마지막 두 문장",
+        "evidence_url": "https://api.crossref.org/works/10.1177/135050840072002"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "pending_manual",
+      "reason": "HBR 공식 도서 레코드와 공식 저자 페이지에서 실재·세 공저자·2002년·ISBN·주장을 확인했지만, 승인 상한 5건에서는 이론의 학술적 확장과 직접 비판을 우선했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Etienne Wenger",
+          "Richard McDermott",
+          "William M. Snyder"
+        ],
+        "title": "Cultivating Communities of Practice: A Guide to Managing Knowledge",
+        "year": "2002",
+        "publisher": "Harvard Business School Press",
+        "url": "https://store.hbr.org/product/cultivating-communities-of-practice-a-guide-to-managing-knowledge/3308",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9781578513307",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "publisher-record",
+          "record_id": "ISBN 9781578513307",
+          "evidence": "HBR 공식 도서 레코드에서 제목·세 저자·2002년 3월 6일·ISBN 9781578513307을 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "isbn",
+            "publisher"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.wenger-trayner.com/etienne/",
+          "locator": "공식 저자 페이지의 저서 목록과 HBR 공식 저자란",
+          "evidence": "공식 저자 페이지와 HBR은 Etienne Wenger, Richard McDermott, William M. Snyder를 공저자로 연결한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-site",
+              "value": "Etienne Wenger-Trayner · Cultivating Communities of Practice · organizational practice",
+              "evidence_url": "https://www.wenger-trayner.com/etienne/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-05",
+      "decision": "pending_manual",
+      "reason": "공식 배포 PDF에서 실재·세 공저자·2009년 초판·기술 스튜어드십 논지를 확인했지만, 승인 상한 5건에서는 기존 페이지의 이론사·권력 비판을 직접 보강하는 후보들을 우선했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Etienne Wenger",
+          "Nancy White",
+          "John D. Smith"
+        ],
+        "title": "Digital Habitats: Stewarding Technology for Communities",
+        "year": "2009",
+        "publisher": "CPsquare Publications",
+        "url": "https://technologyforcommunities.com/",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780982503607",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": "602796157"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "author-hosted-title-page",
+          "record_id": "ISBN 9780982503607",
+          "evidence": "공식 배포 PDF 표제면·저작권면에서 제목·세 저자·2009년 초판·ISBN을 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "copyright_year",
+            "edition",
+            "isbn"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://technologyforcommunities.com/wp-content/uploads/2016/12/digitalhabitatsactionnotebook.pdf",
+          "locator": "PDF 표제면과 저작권면",
+          "evidence": "표제면은 Etienne Wenger, Nancy White, John D. Smith를 공저자로 명시하고 공식 저자 페이지도 Digital Habitats를 웽거의 저서로 열거한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-site",
+              "value": "Etienne Wenger-Trayner · Digital Habitats · technology for communities",
+              "evidence_url": "https://www.wenger-trayner.com/etienne/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-06",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref API에서 DOI·제목·저자 Etienne Wenger·2010년·수록서·179–198쪽을 대조했다.",
+      "source_id": "wenger-2010-career-concept",
+      "bibliography": {
+        "authors": [
+          "Etienne Wenger"
+        ],
+        "title": "Communities of Practice and Social Learning Systems: The Career of a Concept",
+        "year": "2010",
+        "publisher": "Springer London",
+        "url": "https://link.springer.com/chapter/10.1007/978-1-84996-133-2_11",
+        "identifiers": {
+          "doi": "10.1007/978-1-84996-133-2_11",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1007/978-1-84996-133-2_11",
+          "evidence": "Crossref API에서 DOI·제목·저자 Etienne Wenger·2010년·수록서·179–198쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "issued",
+            "container-title",
+            "page",
+            "publisher"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.wenger-trayner.com/wp-content/uploads/2022/09/09-10-27-CoPs-and-systems-v2.0.pdf",
+          "locator": "원문 첫 페이지 저자란과 pp. 2, 8의 공동체 역기능·권력 절",
+          "evidence": "공식 저자 사이트에 보존된 원문 첫 페이지는 Etienne Wenger를 장 저자로 표시하며, Crossref의 저자·수록서·쪽 정보와 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-site",
+              "value": "Etienne Wenger · social learning theorist · communities of practice",
+              "evidence_url": "https://www.wenger-trayner.com/etienne/"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "2-book-or-chapter-role",
+        "evidence": "웽거가 실천공동체와 사회학습체계 개념의 발전·한계·권력 문제를 직접 재검토하고 확장한 원 장이다."
+      },
+      "claim_seed": {
+        "section": "공동체를 낭만화하지 않기",
+        "claim": "웽거 자신도 실천공동체가 역기능적·비생산적·유해할 수 있으며, 공동체라는 형식 자체가 평등이나 조화를 보장하지 않는다고 명시했다.",
+        "locator": "원문 인쇄본 pp. 2, 8의 공동체 역기능과 ‘A powerless concept: what about power?’ 절",
+        "evidence_url": "https://www.wenger-trayner.com/wp-content/uploads/2022/09/09-10-27-CoPs-and-systems-v2.0.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-07",
+      "decision": "pending_manual",
+      "reason": "공식 저자 사이트의 원문·서지·다섯 가치창출 순환을 확인했지만, 승인 상한 5건에서는 2020년 후속 원저서가 가치창출 틀과 행위주체성의 발전을 더 직접 보강하므로 이를 우선했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Etienne Wenger",
+          "Beverly Trayner",
+          "Maarten de Laat"
+        ],
+        "title": "Promoting and Assessing Value Creation in Communities and Networks: A Conceptual Framework",
+        "year": "2011",
+        "publisher": "Open Universiteit, Ruud de Moor Centrum",
+        "url": "https://www.wenger-trayner.com/evaluation-framework/",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9789035818088",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "author-hosted-report-record",
+          "record_id": "Rapport 18 · ISBN 9789035818088",
+          "evidence": "공식 저자 사이트에서 제목·세 저자·2011년·Rapport 18·Open University of the Netherlands 서지를 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "year",
+            "report_number",
+            "publisher",
+            "isbn"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.wenger-trayner.com/evaluation-framework/",
+          "locator": "Citation 절과 Evaluation framework의 Cycle 1–5 목록",
+          "evidence": "공식 저자 사이트의 Citation 절이 Etienne Wenger, Beverly Trayner, Maarten de Laat를 공동 저자로 명시한다.",
+          "identity_signals": [
+            {
+              "kind": "official-author-site",
+              "value": "Etienne Wenger · Beverly Trayner · Maarten de Laat · value creation framework",
+              "evidence_url": "https://www.wenger-trayner.com/evaluation-framework/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-08",
+      "decision": "pending_manual",
+      "reason": "Routledge 공식 페이지에서 실재·공동 편집자·2015년 판본·ISBN을 확인했지만 Crossref는 저자 없이 2014년으로 기록해 연도·편집 역할의 메타데이터가 엇갈리며, 승인 상한에서는 웽거-트레이너가 직접 공저한 2020년 원저서를 우선했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Etienne Wenger-Trayner",
+          "Mark Fenton-O'Creevy",
+          "Steven Hutchinson",
+          "Chris Kubiak",
+          "Beverly Wenger-Trayner"
+        ],
+        "title": "Learning in Landscapes of Practice: Boundaries, Identity, and Knowledgeability in Practice-Based Learning",
+        "year": "2015",
+        "publisher": "Routledge",
+        "url": "https://www.routledge.com/Learning-in-Landscapes-of-Practice-Boundaries-identity-and-knowledgeability/Wenger-Trayner-Fenton-OCreevy-Hutchinson-Kubiak-Wenger-Trayner/p/book/9781138022195",
+        "identifiers": {
+          "doi": "10.4324/9781315777122",
+          "isbn": "9781138022195",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "publisher-record-and-crossref-doi",
+          "record_id": "10.4324/9781315777122",
+          "evidence": "Routledge 공식 페이지에서 제목·ISBN·Copyright 2015를 확인했고 Crossref에서 같은 DOI와 제목을 대조했다. Crossref 발행연도 2014와 인쇄판 2015의 차이는 남아 있다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "isbn",
+            "publisher"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "editor",
+          "evidence_url": "https://www.routledge.com/Learning-in-Landscapes-of-Practice-Boundaries-identity-and-knowledgeability-in-practice-based-learning/Wenger-Trayner-Fenton-OCreevy-Hutchinson-Kubiak-Wenger-Trayner/p/book/9781138022195",
+          "locator": "Routledge Edited By 목록과 편집자 약력",
+          "evidence": "Routledge는 Etienne Wenger-Trayner를 다섯 공동 편집자 중 첫 번째로 명시하고 사회학습 이론가 약력을 함께 제공한다.",
+          "identity_signals": [
+            {
+              "kind": "publisher-author-bio",
+              "value": "Etienne Wenger-Trayner · independent social learning theorist · first listed editor",
+              "evidence_url": "https://www.routledge.com/Learning-in-Landscapes-of-Practice-Boundaries-identity-and-knowledgeability-in-practice-based-learning/Wenger-Trayner-Fenton-OCreevy-Hutchinson-Kubiak-Wenger-Trayner/p/book/9781138022195"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-09",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 Cambridge University Press 공식 레코드에서 DOI·제목·두 저자·2020년·ISBN을 대조했다.",
+      "source_id": "wenger-trayner-2020-value-creation",
+      "bibliography": {
+        "authors": [
+          "Etienne Wenger-Trayner",
+          "Beverly Wenger-Trayner"
+        ],
+        "title": "Learning to Make a Difference: Value Creation in Social Learning Spaces",
+        "year": "2020",
+        "publisher": "Cambridge University Press",
+        "url": "https://www.cambridge.org/core/books/learning-to-make-a-difference/9FBDE618CBE19FC8488AA6BBA34D0E59",
+        "identifiers": {
+          "doi": "10.1017/9781108677431",
+          "isbn": "9781108497169",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-record",
+          "record_id": "10.1017/9781108677431",
+          "evidence": "Crossref와 Cambridge University Press 공식 레코드에서 DOI·제목·두 저자·2020년·ISBN을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "publisher",
+            "isbn"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.cambridge.org/core/books/learning-to-make-a-difference/9FBDE618CBE19FC8488AA6BBA34D0E59",
+          "locator": "Cambridge Core citation_author·bookAuthors·authorBookAffiliation·Book description 필드",
+          "evidence": "Cambridge Core는 Etienne Wenger-Trayner를 제1저자이자 University of Brighton 소속의 실천공동체 사회학습 이론가로 명시하고 Beverly Wenger-Trayner를 공저자로 기록한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Etienne Wenger-Trayner · University of Brighton · communities of practice social learning theorist",
+              "evidence_url": "https://www.cambridge.org/core/books/learning-to-make-a-difference/9FBDE618CBE19FC8488AA6BBA34D0E59"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "두 저자가 사회학습공간과 가치창출의 새 이론·실천 틀을 직접 제시한 원저서다."
+      },
+      "claim_seed": {
+        "section": "실천공동체에서 사회학습 체계로",
+        "claim": "2020년 웽거-트레이너 부부는 사회학습공간이 새로운 역량과 변화를 만들 행위주체성을 함께 발달시키며, 그 가치를 생성·관찰·성찰하는 반복 과정으로 다뤄야 한다고 제안했다.",
+        "locator": "Cambridge Core Book description 첫 문단",
+        "evidence_url": "https://www.cambridge.org/core/books/learning-to-make-a-difference/9FBDE618CBE19FC8488AA6BBA34D0E59"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-10",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref API에서 DOI·제목·두 저자·2003년·Organization Science 14(3)·283–296쪽을 대조했다.",
+      "source_id": "contu-willmott-2003",
+      "bibliography": {
+        "authors": [
+          "Alessia Contu",
+          "Hugh Willmott"
+        ],
+        "title": "Re-Embedding Situatedness: The Importance of Power Relations in Learning Theory",
+        "year": "2003",
+        "publisher": "INFORMS",
+        "url": "https://pubsonline.informs.org/doi/abs/10.1287/orsc.14.3.283.15167",
+        "identifiers": {
+          "doi": "10.1287/orsc.14.3.283.15167",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1287/orsc.14.3.283.15167",
+          "evidence": "Crossref API에서 DOI·제목·두 저자·2003년·Organization Science 14(3)·283–296쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "etienne-wenger-trayner",
+          "kind": "criticizes",
+          "person_role": null,
+          "evidence_url": "https://api.crossref.org/works/10.1287/orsc.14.3.283.15167",
+          "locator": "Crossref 초록 전체, 특히 첫 문장과 권력관계·관리주의를 대조한 셋째·넷째 문장",
+          "evidence": "초록은 Lave와 Wenger의 1991년 상황학습 이론을 직접 대상으로 지목하고, 권력관계에 대한 초기 문제의식이 기업 목표를 위한 실천공동체 관리 관심으로 대체됐다고 비판한다.",
+          "identity_signals": [
+            {
+              "kind": "canonical-work-link",
+              "value": "Lave and Wenger (1991) · situated learning theory · communities of practice",
+              "evidence_url": "https://api.crossref.org/works/10.1287/orsc.14.3.283.15167"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "3-other-scholar-or-institution",
+        "evidence": "Contu와 Willmott가 Lave와 Wenger의 상황학습 이론을 권력관계 관점에서 직접 비판한 타인의 피어리뷰 학술 논문이다."
+      },
+      "claim_seed": {
+        "section": "당대의 비판",
+        "claim": "콘투와 윌모트는 상황학습 이론이 조직학습에 수용되는 과정에서 권력관계에 대한 초기 문제의식이 약화되고, 실천공동체를 기업 목표에 동원하려는 관리주의적 관심이 그 자리를 차지했다고 비판했다.",
+        "locator": "Crossref 초록의 권력관계 배제와 관리주의적 수용을 설명하는 셋째·넷째 문장",
+        "evidence_url": "https://api.crossref.org/works/10.1287/orsc.14.3.283.15167"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "contu-willmott-2003",
+    "wenger-1987-ai-tutoring",
+    "wenger-2000-social-learning-systems",
+    "wenger-2010-career-concept",
+    "wenger-trayner-2020-value-creation"
+  ],
+  "claim_map": [
+    {
+      "source_id": "wenger-1987-ai-tutoring",
+      "section": "스위스에서 언어교사와 AI 연구자로",
+      "claim": "이 저서는 지능형 튜터링을 지식 전달의 문제로 구성하고, 영역 지식·학습자 모델·교수 지식·인터페이스를 핵심 구성요소로 나누어 검토했다.",
+      "evidence_locator": "공식 출판사 Description과 목차 Part I, Chapter 2 ‘Basic Issues’"
+    },
+    {
+      "source_id": "wenger-2000-social-learning-systems",
+      "section": "실천공동체에서 사회학습 체계로",
+      "claim": "2000년 그는 조직을 하나의 공동체가 아니라 여러 실천공동체, 그 사이의 경계 과정, 참여로 형성되는 정체성이 맞물린 사회학습체계로 분석했다.",
+      "evidence_locator": "Crossref 초록 마지막 두 문장"
+    },
+    {
+      "source_id": "wenger-2010-career-concept",
+      "section": "공동체를 낭만화하지 않기",
+      "claim": "웽거 자신도 실천공동체가 역기능적·비생산적·유해할 수 있으며, 공동체라는 형식 자체가 평등이나 조화를 보장하지 않는다고 명시했다.",
+      "evidence_locator": "원문 인쇄본 pp. 2, 8의 공동체 역기능과 ‘A powerless concept: what about power?’ 절"
+    },
+    {
+      "source_id": "wenger-trayner-2020-value-creation",
+      "section": "실천공동체에서 사회학습 체계로",
+      "claim": "2020년 웽거-트레이너 부부는 사회학습공간이 새로운 역량과 변화를 만들 행위주체성을 함께 발달시키며, 그 가치를 생성·관찰·성찰하는 반복 과정으로 다뤄야 한다고 제안했다.",
+      "evidence_locator": "Cambridge Core Book description 첫 문단"
+    },
+    {
+      "source_id": "contu-willmott-2003",
+      "section": "당대의 비판",
+      "claim": "콘투와 윌모트는 상황학습 이론이 조직학습에 수용되는 과정에서 권력관계에 대한 초기 문제의식이 약화되고, 실천공동체를 기업 목표에 동원하려는 관리주의적 관심이 그 자리를 차지했다고 비판했다.",
+      "evidence_locator": "Crossref 초록의 권력관계 배제와 관리주의적 수용을 설명하는 셋째·넷째 문장"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/etienne-wenger-trayner.md:39|bio-wenger-author|1987|none",
+        "file": "wiki/pioneers/etienne-wenger-trayner.md",
+        "line": 39,
+        "claimYear": 1987,
+        "sourceId": "bio-wenger-author",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 당사자 공식 약력이 웽거의 1987년 첫 AI 저서와 당시 연구 경로를 직접 서술한다."
+      },
+      {
+        "key": "wiki/pioneers/etienne-wenger-trayner.md:45|bio-wenger-author|1991|none",
+        "file": "wiki/pioneers/etienne-wenger-trayner.md",
+        "line": 45,
+        "claimYear": 1991,
+        "sourceId": "bio-wenger-author",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 당사자 공식 약력이 진 레이브와의 작업 및 1991년 Situated Learning 출간 경로를 직접 다룬다."
+      },
+      {
+        "key": "wiki/pioneers/etienne-wenger-trayner.md:49|bio-wenger-author|1998|none",
+        "file": "wiki/pioneers/etienne-wenger-trayner.md",
+        "line": 49,
+        "claimYear": 1998,
+        "sourceId": "bio-wenger-author",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "발행연도 없는 당사자 공식 약력이 1998년 Communities of Practice와 이후 사회학습 연구 여정을 직접 설명한다."
+      },
+      {
+        "key": "wiki/pioneers/etienne-wenger-trayner.md:71|bio-wenger-author|1987|none",
+        "file": "wiki/pioneers/etienne-wenger-trayner.md",
+        "line": 71,
+        "claimYear": 1987,
+        "sourceId": "bio-wenger-author",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연표의 1987년 AI·튜터링 저서 출간은 발행연도 없는 당사자 공식 약력이 직접 서술하는 경력 사건이다."
+      }
+    ]
+  }
+}
