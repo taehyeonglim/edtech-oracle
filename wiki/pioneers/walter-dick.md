@@ -6,14 +6,16 @@ role: 교수설계 연구자 · 평가 전문가
 life: 1937—
 concepts: [체제접근, 교수분석, 형성평가, 설계 수정]
 related: ["[[debates/dick-reigeluth]]", "[[debates/moore-dick]]"]
-updated: 2026-08-14
-sources: [bio-dick-authority, bio-dick-fsu, dick-1996, dick-carey-1978, gagne-1985, moore-1973, moore-1993, reigeluth-1983]
+updated: 2026-08-18
+sources: [bio-dick-authority, bio-dick-fsu, dick-1978-educational-psychologist, dick-1987-curriculum-development, dick-1996, dick-carey-1978, gagne-1985, moore-1973, moore-1993, reigeluth-1983]
 confidence: high
 ---
 
 ## 핵심 명제
 
 수업은 목표·학습자·맥락·평가·전략·자료가 상호작용하는 하나의 체제로 설계되어야 한다.[^bio-dick-fsu][^bio-dick-authority][^dick-carey-1978][^dick-1996]
+
+딕은 체제접근을 교육심리학의 문제 해결 모형으로 제시하면서, 전문 서비스 제공·연구 및 평가 문제 생성·대학원 훈련을 하나의 통합 틀에 연결했다.[^dick-1978-educational-psychologist]
 
 월터 딕과 루 캐리는 교수설계를 연결된 체제로 보고 분석, 수행목표, 평가, 전략, 형성평가, 수정의 순환을 정리했다. 모형은 실제 설계가 언제나 선형이라는 주장이 아니라 초보 설계자가 관계를 놓치지 않게 하는 지도다.[^bio-dick-fsu][^bio-dick-authority][^dick-carey-1978][^dick-1996]
 
@@ -44,6 +46,8 @@ Dick–Carey 모형의 중요한 특징은 형성평가가 설계 전반으로 �
 
 여러 판을 거치며 모형은 학교·군·기업·온라인 학습의 설계 교육에 널리 사용되었다. 장점은 산출물 사이의 정렬과 수정 근거를 추적하기 쉽다는 점이다. 반면 모든 프로젝트에서 전체 절차를 같은 규모로 수행하면 과도한 문서화가 될 수 있으므로, 문제의 위험과 자원에 맞게 분석의 깊이를 조정해야 한다.[^bio-dick-fsu][^dick-carey-1978][^dick-1996]
 
+딕은 교수설계자가 교재만 만드는 사람이 아니라 교사·학습자·교수자료·학습환경을 함께 고려하는 전체 교수체제를 설계한다고 설명했다.[^dick-1987-curriculum-development]
+
 ## 당대의 비판
 
 라이겔루스는 설계이론을 목표와 조건에 따라 달라지는 처방으로 정리했다.[^reigeluth-1983] 이 관점은 Dick–Carey 절차를 모든 교수문제에 적용하는 표준 경로로 읽을 경우, 상황별로 다른 방법을 선택해야 한다는 설계이론의 요구를 충분히 반영하지 못한다고 비판한다.[^dick-1996]
@@ -69,6 +73,8 @@ Dick–Carey 모형의 중요한 특징은 형성평가가 설계 전반으로 �
 
 [^bio-dick-authority]: Open Library. Walter Dick — Author Record. Internet Archive. <https://openlibrary.org/authors/OL450418A/Walter_Dick> — tier C · [[sources/bio-dick-authority]]
 [^bio-dick-fsu]: Instructional Systems and Learning Technologies. Instructional Systems and Learning Technologies — Program Overview. Florida State University. <https://annescollege.fsu.edu/instructional-systems-and-learning-technologies> — tier B · [[sources/bio-dick-fsu]]
+[^dick-1978-educational-psychologist]: Walter Dick. (1978). The Educational Psychologist as Instructional Designer. Contemporary Educational Psychology, 3(3), 265–271. DOI: 10.1016/0361-476X(78)90032-2. <https://eric.ed.gov/?id=EJ184242> — tier A · [[sources/dick-1978-educational-psychologist]]
+[^dick-1987-curriculum-development]: Walter Dick. (1987). Instructional Design and the Curriculum Development Process. Educational Leadership, 44(4), 54–56. <https://files.ascd.org/staticfiles/ascd/pdf/journals/ed_lead/el_198612_dick.pdf> — tier A · [[sources/dick-1987-curriculum-development]]
 [^dick-1996]: Walter Dick. (1996). The Dick and Carey Model: Will It Survive the Decade?. Educational Technology Research and Development, 44. DOI: 10.1007/BF02300425. <https://doi.org/10.1007/BF02300425> — tier A · [[sources/dick-1996]]
 [^dick-carey-1978]: Walter Dick; Lou Carey. (1978). The Systematic Design of Instruction. Scott, Foresman. <https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146> — tier A · [[sources/dick-carey-1978]]
 [^gagne-1985]: Robert M. Gagné; Leslie J. Briggs; Walter W. Wager. (1985). Principles of Instructional Design. Holt, Rinehart and Winston. <https://archive.org/details/principlesofinst0000gagn> — tier B · [[sources/gagne-1985]]

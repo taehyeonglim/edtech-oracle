@@ -7424,5 +7424,113 @@
       "openlibrary_edition": "OL3024541M",
       "oclc": "11785494"
     }
+  },
+  {
+    "id": "dick-1978-educational-psychologist",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "딕이 체제적 교수설계를 교육심리학의 문제 해결 모형으로 직접 제안하고 그 전문 서비스·연구·훈련 기능을 논증한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric",
+        "record_id": "10.1016/0361-476X(78)90032-2; ERIC EJ184242",
+        "evidence": "Crossref와 ERIC에서 DOI·제목·저자 Walter Dick·1978년·Contemporary Educational Psychology 3(3), 265–271쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "walter-dick",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://api.openalex.org/works/https://doi.org/10.1016/0361-476X(78)90032-2",
+        "locator": "ERIC 저자란·초록과 OpenAlex 원 소속 문자열",
+        "evidence": "ERIC는 저자를 Dick, Walter로 표시하며 초록은 교수설계와 교육심리학을 직접 다룬다. DOI 연계 OpenAlex 레코드는 원 소속 문자열을 Florida State University로, 저자 엔터티를 A5010989093으로 제시해 대상 인물의 소속·분야와 일치한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Walter Dick · Florida State University · OpenAlex author A5010989093",
+            "evidence_url": "https://api.openalex.org/works/https://doi.org/10.1016/0361-476X(78)90032-2"
+          }
+        ]
+      }
+    },
+    "authors": "Walter Dick",
+    "title": "The Educational Psychologist as Instructional Designer",
+    "year": "1978",
+    "publisher": "Contemporary Educational Psychology, 3(3), 265–271",
+    "url": "https://eric.ed.gov/?id=EJ184242",
+    "doi": "10.1016/0361-476X(78)90032-2",
+    "eric": "EJ184242",
+    "identifiers": {
+      "doi": "10.1016/0361-476X(78)90032-2",
+      "eric": "EJ184242"
+    }
+  },
+  {
+    "id": "dick-1987-curriculum-development",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "딕이 교수설계의 체제접근을 교육과정 개발에 적용하고 설계자의 역할·구성요소·형성평가를 직접 설명한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-and-official-journal-pdf",
+        "record_id": "EJ347091",
+        "evidence": "ERIC EJ347091과 ASCD 공식 권호 PDF에서 제목·저자 Walter Dick·Educational Leadership 44(4)·54–56쪽·Dec–Jan 1986–87을 대조했다.",
+        "matched_fields": [
+          "eric",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "official-pdf"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "walter-dick",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.ascd.org/staticfiles/ascd/pdf/journals/ed_lead/el_198612_dick.pdf",
+        "locator": "공식 PDF p. 54 저자명과 p. 56 저자 약력",
+        "evidence": "ASCD 공식 PDF는 Walter Dick을 저자로 표시하고 저자 약력에서 Florida State University College of Education의 Professor of Instructional Systems로 식별한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Walter Dick · Professor of Instructional Systems · Florida State University",
+            "evidence_url": "https://files.ascd.org/staticfiles/ascd/pdf/journals/ed_lead/el_198612_dick.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Walter Dick",
+    "title": "Instructional Design and the Curriculum Development Process",
+    "year": "1987",
+    "publisher": "Educational Leadership, 44(4), 54–56",
+    "url": "https://files.ascd.org/staticfiles/ascd/pdf/journals/ed_lead/el_198612_dick.pdf",
+    "eric": "EJ347091",
+    "identifiers": {
+      "eric": "EJ347091"
+    }
   }
 ]
