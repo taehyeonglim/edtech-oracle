@@ -1,0 +1,613 @@
+{
+  "schema_version": 1,
+  "slug": "thomas-gilbert",
+  "base_commit": "cc5e030a0ccb6edc31694a6b304376ef4320ec52",
+  "initial_source_ids": [
+    "bio-clark-interview",
+    "bio-clark-usc",
+    "bio-gilbert-sixboxes",
+    "gilbert-1978",
+    "gilbert-2019",
+    "mager-1962"
+  ],
+  "required_additions": 4,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 실재와 길버트의 저자 관계는 확인했지만, 현재 접근 가능한 레코드에는 초록이 없고 후보가 든 ResearchGate 링크만으로 조작행동의 일곱 차원 주장을 원문 대조하지 못했다. 더 직접적이고 원문 위치가 확인된 수행공학 후보를 승인했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Thomas F. Gilbert"
+        ],
+        "title": "Fundamental Dimensional Properties of the Operant",
+        "year": "1958",
+        "publisher": "American Psychological Association (Psychological Review)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13591455/",
+        "identifiers": {
+          "doi": "10.1037/h0044071",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-record",
+          "record_id": "10.1037/h0044071",
+          "evidence": "Crossref에서 제목·저자 Thomas F. Gilbert·1958년·Psychological Review 65(5), 272–282쪽과 DOI를 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "thomas-gilbert",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.1037/h0044071",
+          "locator": "Crossref 저자란과 Performance Thinking Network 인물 소개",
+          "evidence": "Crossref는 Thomas F. Gilbert를 단독 저자로 표시하고, 전문기관의 인물 소개가 행동분석에서 수행공학으로 이어진 동일 인물임을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "professional-biography-and-field",
+              "value": "Thomas F. Gilbert · Skinner 행동과학에서 출발한 human performance 연구자",
+              "evidence_url": "https://www.sixboxes.com/Inspiration.html"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "pending_manual",
+      "reason": "Journal of Mathetics 원문 스캔의 제목·저자란과 본문은 확인했지만 안정적인 도서관·저널 레지스트리 식별자를 찾지 못했다. 이번 할당량에는 더 강한 영구 레코드와 서로 다른 수행공학 주장을 가진 후보를 우선했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Thomas F. Gilbert"
+        ],
+        "title": "Mathetics: The Technology of Education",
+        "year": "1962",
+        "publisher": "Mathetics Foundation (The Journal of Mathetics)",
+        "url": "https://hpttreasures.wordpress.com/wp-content/uploads/2024/06/gilbert-t.-1962a.-journal-of-mathematics-vol-1-no-1.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "original-journal-scan-title-page",
+          "record_id": "The Journal of Mathetics, vol. 1 no. 1, journal p. 7",
+          "evidence": "원문 스캔의 journal p. 7에서 Mathetics: The Technology of Education 제목, Thomas F. Gilbert 저자명, TOR Laboratories 소속을 확인했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "original_scan"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "thomas-gilbert",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://hpttreasures.wordpress.com/wp-content/uploads/2024/06/gilbert-t.-1962a.-journal-of-mathematics-vol-1-no-1.pdf",
+          "locator": "journal p. 7 저자란과 HPT Treasures 길버트 자료 목록",
+          "evidence": "스캔은 Thomas F. Gilbert를 저자로, TOR Laboratories를 소속으로 표시하고 전문 자료 목록이 1927–1995년의 수행공학자 길버트 저작으로 독립 분류한다.",
+          "identity_signals": [
+            {
+              "kind": "life-dates-and-professional-bibliography",
+              "value": "Thomas F. Gilbert · 1927–1995 · 수행공학 저작 목록",
+              "evidence_url": "https://hpttreasures.wordpress.com/from-others/thomas-f-gilbert-resources/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "pending_manual",
+      "reason": "1967년 원문 스캔에서 실재·저자·네 가지 훈련목표 제한 규칙을 확인했으나 안정적인 영구 식별자가 없고, 교육훈련과 비훈련 처방의 구분은 승인한 PROBE·PIP 출처와 현재 페이지에서 주장 범위가 겹친다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Thomas F. Gilbert"
+        ],
+        "title": "Praxeonomy: A Systematic Approach to Identifying Training Needs",
+        "year": "1967",
+        "publisher": "Bureau of Industrial Relations, Graduate School of Business Administration, University of Michigan (Management of Personnel Quarterly)",
+        "url": "https://hpttreasures.wordpress.com/wp-content/uploads/2018/12/1967-Gilbert-Praxonomy-Sci-Approach-to-ID-Trng-Needs.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "original-journal-reprint-title-page",
+          "record_id": "Management of Personnel Quarterly 6(3), 20–33",
+          "evidence": "원문 재수록본의 표제와 첫 쪽에서 제목·저자 Thomas F. Gilbert·Management of Personnel Quarterly 6(3), 20–33쪽 및 1967년을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "original_scan"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "thomas-gilbert",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://hpttreasures.wordpress.com/wp-content/uploads/2018/12/1967-Gilbert-Praxonomy-Sci-Approach-to-ID-Trng-Needs.pdf",
+          "locator": "표제·첫 쪽 저자란과 HPT Treasures 길버트 자료 목록",
+          "evidence": "재수록본은 Thomas F. Gilbert를 저자로 표시하고 전문 자료 목록이 1927–1995년의 수행공학자 길버트 저작으로 독립 분류한다.",
+          "identity_signals": [
+            {
+              "kind": "life-dates-and-professional-bibliography",
+              "value": "Thomas F. Gilbert · 1927–1995 · Praxeonomy 포함 수행공학 저작 목록",
+              "evidence_url": "https://hpttreasures.wordpress.com/from-others/thomas-f-gilbert-resources/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary edition OL5743266M에서 1969년 Longmac 판본의 존재와 저자 관계를 확인했지만, 후보의 주장은 138쪽 단행본으로 나왔다는 서지 사실에 그쳐 실질 주장 할당량을 충족하지 못한다. 1962년 연속 논문과 같은 저작 계열의 판본 차이도 별도 고유 주장 없이는 승인하지 않았다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Thomas F. Gilbert"
+        ],
+        "title": "Mathetics: An Explicit Theory for the Design of Teaching Programmes",
+        "year": "1969",
+        "publisher": "Longmac",
+        "url": "https://openlibrary.org/books/OL5743266M/Mathetics_an_explicit_theory_for_the_design_of_teaching_programmes",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0901135011",
+          "eric": null,
+          "openlibrary_edition": "OL5743266M",
+          "oclc": "235288"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL5743266M",
+          "evidence": "OpenLibrary edition API에서 제목·저자 표기 Thomas F. Gilbert·1969년·Longmac·ISBN 0901135011·OCLC 235288을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "isbn",
+            "openlibrary_edition",
+            "oclc"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "thomas-gilbert",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/books/OL5743266M",
+          "locator": "OpenLibrary by_statement와 저자 전거·HPT Treasures 인물 자료 목록",
+          "evidence": "판본 레코드는 Thomas F. Gilbert를 저자로 표시하고, 전문 자료 목록의 생몰연도와 mathetics 저작망이 페이지의 수행공학자와 동일인임을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "life-dates-and-professional-bibliography",
+              "value": "Thomas F. Gilbert · 1927–1995 · Mathetics 저작망",
+              "evidence_url": "https://hpttreasures.wordpress.com/from-others/thomas-f-gilbert-resources/"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-05",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. 미국 National Agricultural Library 제공 AGRIS 레코드에서 제목·저자 Thomas F. Gilbert·1978년·Training 15(12), 25–28쪽과 초록을 대조했다.",
+      "source_id": "gilbert-1978-performance-improvement",
+      "bibliography": {
+        "authors": [
+          "Thomas F. Gilbert"
+        ],
+        "title": "Measuring the Potential for Performance Improvement",
+        "year": "1978",
+        "publisher": "Training, vol. 15, no. 12",
+        "url": "https://agris.fao.org/search/en/providers/122535/records/65df695463b8185d9caccaca",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "national-agricultural-library-agris-record",
+          "record_id": "65df695463b8185d9caccaca",
+          "evidence": "미국 National Agricultural Library 제공 AGRIS 레코드에서 제목·저자 Thomas F. Gilbert·1978년·Training 15(12), 25–28쪽과 초록을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "thomas-gilbert",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://agris.fao.org/search/en/providers/122535/records/65df695463b8185d9caccaca",
+          "locator": "AGRIS 저자란과 Performance Thinking Network 인물 소개",
+          "evidence": "AGRIS는 Thomas F. Gilbert를 단독 저자로 표시하고, 수행개선 분야 전문기관의 인물 소개가 Skinner의 행동과학을 일의 세계로 옮기고 Human Competence를 쓴 동일 인물임을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "professional-biography-and-field",
+              "value": "Thomas F. Gilbert · Skinner의 행동과학을 human performance improvement에 적용 · Human Competence 저자",
+              "evidence_url": "https://www.sixboxes.com/Inspiration.html"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "길버트가 수행개선 잠재력(PIP)의 산식과 수행공학 적용을 직접 제시한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "행동보다 성과의 가치",
+        "claim": "길버트는 모범 수행의 가치와 전형적 수행의 가치의 비율을 수행개선 잠재력(PIP)으로 정의해, 현재 역량과 개선 기회를 함께 측정했다.",
+        "locator": "1988 재수록본 pp. 49–50, Measuring Human Competence와 Second Leisurely Theorem",
+        "evidence_url": "https://hpttreasures.wordpress.com/wp-content/uploads/2018/12/Gilbert-Measuring-the-Potential-for-Performance-Improvement.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-06",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC EJ267904에서 제목·저자 Thomas F. Gilbert·1982년·Training and Development Journal 36(9), 20–22·24–30쪽과 초록을 대조했다.",
+      "source_id": "gilbert-1982-probe",
+      "bibliography": {
+        "authors": [
+          "Thomas F. Gilbert"
+        ],
+        "title": "A Question of Performance. Part 1: The PROBE Model",
+        "year": "1982",
+        "publisher": "American Society for Training and Development (Training and Development Journal)",
+        "url": "https://eric.ed.gov/?id=EJ267904",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "EJ267904",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "EJ267904",
+          "evidence": "ERIC EJ267904에서 제목·저자 Thomas F. Gilbert·1982년·Training and Development Journal 36(9), 20–22·24–30쪽과 초록을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "eric_record",
+            "abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "thomas-gilbert",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ267904",
+          "locator": "ERIC 저자란과 Performance Thinking Network 인물 소개",
+          "evidence": "ERIC은 Thomas F. Gilbert를 단독 저자로 표시하고, 수행개선 분야 전문기관의 인물 소개가 Skinner의 행동과학을 일의 세계로 옮기고 Human Competence를 쓴 동일 인물임을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "professional-biography-and-field",
+              "value": "Thomas F. Gilbert · Skinner의 행동과학을 human performance improvement에 적용 · Human Competence 저자",
+              "evidence_url": "https://www.sixboxes.com/Inspiration.html"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "길버트가 작업자 수행을 진단하는 PROBE 모형의 범주와 여섯 측면을 직접 제시한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "사람을 고치기 전에 환경을 본다",
+        "claim": "PROBE 모형은 작업자 행동을 프로파일링해 극복할 수행 문제를 드러내고, 행동의 여섯 측면과 두 범주가 함께 작동하는 방식을 진단한다.",
+        "locator": "ERIC EJ267904 초록",
+        "evidence_url": "https://eric.ed.gov/?id=EJ267904"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-07",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref DOI 10.1901/jaba.1992.25-43과 ERIC EJ448615에서 제목·공저자 Thomas F. Gilbert와 Marilyn B. Gilbert·1992년·Journal of Applied Behavior Analysis 25(1), 43–49쪽을 대조했다.",
+      "source_id": "gilbert-gilbert-1992-performance-science",
+      "bibliography": {
+        "authors": [
+          "Thomas F. Gilbert",
+          "Marilyn B. Gilbert"
+        ],
+        "title": "Potential Contributions of Performance Science to Education",
+        "year": "1992",
+        "publisher": "Society for the Experimental Analysis of Behavior (Journal of Applied Behavior Analysis)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1279648/",
+        "identifiers": {
+          "doi": "10.1901/jaba.1992.25-43",
+          "isbn": null,
+          "eric": "EJ448615",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-and-eric-records",
+          "record_id": "10.1901/jaba.1992.25-43; EJ448615",
+          "evidence": "Crossref DOI 10.1901/jaba.1992.25-43과 ERIC EJ448615에서 제목·공저자 Thomas F. Gilbert와 Marilyn B. Gilbert·1992년·Journal of Applied Behavior Analysis 25(1), 43–49쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "eric_record",
+            "abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "thomas-gilbert",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ448615",
+          "locator": "Crossref·ERIC 공저자란과 Performance Thinking Network 인물 소개",
+          "evidence": "Crossref와 ERIC은 Thomas F. Gilbert를 Marilyn B. Gilbert와 함께 공저자로 표시하고, 수행개선 분야 전문기관의 인물 소개가 수행과학·Human Competence의 Thomas F. Gilbert와 동일인임을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "professional-biography-and-field",
+              "value": "Thomas F. Gilbert · human performance improvement 연구자 · Human Competence 저자",
+              "evidence_url": "https://www.sixboxes.com/Inspiration.html"
+            },
+            {
+              "kind": "coauthor-and-bibliography-network",
+              "value": "Marilyn B. Gilbert 공저 · Gilbert 수행공학 자료 목록",
+              "evidence_url": "https://hpttreasures.wordpress.com/from-others/thomas-f-gilbert-resources/"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "길버트와 공저자가 수행과학을 교육과정·교수제시·훈련설계에 적용하는 절차를 직접 제시한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "훈련을 넘어선 인간수행기술",
+        "claim": "길버트와 길버트는 수행과 행동을 구분한 뒤 교수 제시와 훈련 설계의 전술뿐 아니라, 어떤 성취를 교육과정에 넣을 만큼 가치 있다고 판단할 절차까지 교육에 적용했다.",
+        "locator": "ERIC EJ448615 초록",
+        "evidence_url": "https://eric.ed.gov/?id=EJ448615"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.url",
+          "from": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1279648/",
+          "to": "https://doi.org/10.1901/jaba.1992.25-43",
+          "reason": "레지스트리 행의 기본 URL은 Crossref에서 확인한 DOI 영구 링크로 정규화하고, ERIC EJ448615를 identifiers에 보존했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "candidate-08",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref DOI 10.1007/BF03392388과 PMC2742053에서 제목·저자 Jon E. Krapfl·1982년·The Behavior Analyst 5(2), 199–204쪽을 대조했다.",
+      "source_id": "krapfl-1982-gilbert-review",
+      "bibliography": {
+        "authors": [
+          "Jon E. Krapfl"
+        ],
+        "title": "A Review of Gilbert's Human Competence: Engineering Worthy Performance",
+        "year": "1982",
+        "publisher": "Association for Behavior Analysis (The Behavior Analyst)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/",
+        "identifiers": {
+          "doi": "10.1007/BF03392388",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-and-pmc-full-text-records",
+          "record_id": "10.1007/BF03392388; PMC2742053",
+          "evidence": "Crossref DOI 10.1007/BF03392388과 PMC2742053에서 제목·저자 Jon E. Krapfl·1982년·The Behavior Analyst 5(2), 199–204쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "pmcid",
+            "full_text"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "thomas-gilbert",
+          "kind": "criticizes",
+          "person_role": null,
+          "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/",
+          "locator": "제목·서평 대상 주석과 본문 p. 199",
+          "evidence": "제목과 주석이 길버트의 1978년 Human Competence를 서평 대상으로 직접 지정하며, 199쪽에서 크래플은 그 이론이 유의미한 진전이지만 포괄이론보다는 귀납적 일반화가 이어진 concatenated theory라고 비판한다.",
+          "identity_signals": [
+            {
+              "kind": "work-title-and-field",
+              "value": "Thomas F. Gilbert의 Human Competence: Engineering Worthy Performance(1978) 서평",
+              "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "3-other-scholar-or-institution",
+        "evidence": "크래플이 길버트의 Human Competence를 직접 검토·비판한 타인의 학술 서평이다."
+      },
+      "claim_seed": {
+        "section": "당대의 비판",
+        "claim": "크래플은 『Human Competence』가 행동분석에 중요한 진전이라고 평가하면서도, 길버트의 이론은 포괄이론이라기보다 귀납적 일반화를 이어 붙인 이론으로 보는 편이 정확하다고 비판했다.",
+        "locator": "p. 199, 첫 열의 종합 평가",
+        "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.url",
+          "from": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/",
+          "to": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/",
+          "reason": "PMC 원문이 관계와 비판 명제를 직접 보여 주므로 DOI 대신 원문 URL을 기본 링크로 유지했다."
+        }
+      ]
+    }
+  ],
+  "approved_ids": [
+    "gilbert-1978-performance-improvement",
+    "gilbert-1982-probe",
+    "gilbert-gilbert-1992-performance-science",
+    "krapfl-1982-gilbert-review"
+  ],
+  "claim_map": [
+    {
+      "source_id": "gilbert-1978-performance-improvement",
+      "section": "행동보다 성과의 가치",
+      "claim": "길버트는 모범 수행의 가치와 전형적 수행의 가치의 비율을 수행개선 잠재력(PIP)으로 정의해, 현재 역량과 개선 기회를 함께 측정했다.",
+      "evidence_locator": "1988 재수록본 pp. 49–50, Measuring Human Competence와 Second Leisurely Theorem"
+    },
+    {
+      "source_id": "gilbert-1982-probe",
+      "section": "사람을 고치기 전에 환경을 본다",
+      "claim": "PROBE 모형은 작업자 행동을 프로파일링해 극복할 수행 문제를 드러내고, 행동의 여섯 측면과 두 범주가 함께 작동하는 방식을 진단한다.",
+      "evidence_locator": "ERIC EJ267904 초록"
+    },
+    {
+      "source_id": "gilbert-gilbert-1992-performance-science",
+      "section": "훈련을 넘어선 인간수행기술",
+      "claim": "길버트와 마릴린 길버트는 수행과 행동을 구분한 뒤 교수 제시와 훈련 설계의 전술뿐 아니라, 어떤 성취를 교육과정에 넣을 만큼 가치 있다고 판단할 절차까지 교육에 적용했다.",
+      "evidence_locator": "ERIC EJ448615 초록"
+    },
+    {
+      "source_id": "krapfl-1982-gilbert-review",
+      "section": "당대의 비판",
+      "claim": "크래플은 『Human Competence』가 행동분석에 중요한 진전이라고 평가하면서도, 길버트의 이론은 포괄이론이라기보다 귀납적 일반화를 이어 붙인 이론으로 보는 편이 정확하다고 비판했다.",
+      "evidence_locator": "p. 199, 첫 열의 종합 평가"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/thomas-gilbert.md:49|gilbert-1978|2019|1978",
+        "file": "wiki/pioneers/thomas-gilbert.md",
+        "line": 49,
+        "claimYear": 2019,
+        "sourceId": "gilbert-1978",
+        "sourceYear": 1978,
+        "decision": "valid-context",
+        "reason": "같은 문단에서 1978년 원저서는 길버트 수행공학의 핵심 진단 순서를, 2019년 후속 논문은 말년 원고의 재검토를 각각 받치므로 서로 다른 시점의 정상적인 혼합 문맥 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/thomas-gilbert.md:41|bio-gilbert-sixboxes|1927|none",
+        "file": "wiki/pioneers/thomas-gilbert.md",
+        "line": 41,
+        "claimYear": 1927,
+        "sourceId": "bio-gilbert-sixboxes",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 필드가 없는 수행개선 전문기관의 길버트 인물 소개가 1927년 출생과 행동분석 경력을 설명하는 정상적인 생애 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/thomas-gilbert.md:69|bio-gilbert-sixboxes|1957|none",
+        "file": "wiki/pioneers/thomas-gilbert.md",
+        "line": 69,
+        "claimYear": 1957,
+        "sourceId": "bio-gilbert-sixboxes",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 필드가 없는 수행개선 전문기관의 길버트 인물 소개가 1957년 무렵의 행동분석 연구 경력과 수행공학의 토대를 설명하는 정상 인용이다."
+      }
+    ]
+  }
+}

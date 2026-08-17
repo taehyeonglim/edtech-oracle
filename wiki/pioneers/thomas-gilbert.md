@@ -6,8 +6,8 @@ role: 수행공학자 · 행동분석가
 life: 1927—1995
 concepts: [가치 있는 수행, Behavior Engineering Model, 수행 격차, Human Performance Technology]
 related: ["[[debates/mager-gilbert]]", "[[debates/gilbert-clark]]"]
-updated: 2026-08-14
-sources: [bio-clark-interview, bio-clark-usc, bio-gilbert-sixboxes, gilbert-1978, gilbert-2019, mager-1962]
+updated: 2026-08-16
+sources: [bio-clark-interview, bio-clark-usc, bio-gilbert-sixboxes, gilbert-1978, gilbert-1978-performance-improvement, gilbert-1982-probe, gilbert-2019, gilbert-gilbert-1992-performance-science, krapfl-1982-gilbert-review, mager-1962]
 confidence: medium
 ---
 
@@ -28,9 +28,13 @@ confidence: medium
 
 길버트는 바쁘게 행동하는 것과 가치 있는 결과를 내는 것을 구분했다. 수행을 산출물의 가치와 그 산출물을 만드는 데 드는 비용의 관계로 보면서, 교육 여부보다 먼저 원하는 성과와 현재 성과 사이의 차이를 명료하게 정의하도록 했다.[^gilbert-1978]
 
+길버트는 모범 수행의 가치와 전형적 수행의 가치의 비율을 수행개선 잠재력(PIP)으로 정의해, 현재 역량과 개선 기회를 함께 측정했다.[^gilbert-1978-performance-improvement]
+
 ## 사람을 고치기 전에 환경을 본다
 
 행동공학 모형은 환경 측면의 정보·자원·인센티브와 개인 측면의 지식·능력·동기를 교차시킨다. 이는 모든 수행 문제에 강의를 배치하는 훈련 편향을 줄이고, 더 직접적인 환경 개선을 먼저 검토하게 한다.[^gilbert-1978][^gilbert-2019]
+
+PROBE 모형은 작업자 행동을 프로파일링해 극복할 수행 문제를 드러내고, 행동의 여섯 측면과 두 범주가 함께 작동하는 방식을 진단한다.[^gilbert-1982-probe]
 
 ## 행동분석에서 수행공학으로
 
@@ -44,7 +48,11 @@ confidence: medium
 
 길버트의 작업은 Human Performance Technology가 수업설계와 조직 성과를 잇는 독자적 영역으로 자리 잡는 데 기초가 됐다. 그는 1995년 사망하기 전까지 초기 이론을 계속 수정했으며, 말년 원고와 동료들의 회고는 2019년 『Human Competence』 40주년 재검토에 반영됐다. 오늘날 그의 핵심 유산은 사람을 재훈련하기 전에 성과 기준과 환경 장벽부터 확인하라는 진단 순서다.[^gilbert-2019][^gilbert-1978]
 
+길버트와 마릴린 길버트는 수행과 행동을 구분한 뒤 교수 제시와 훈련 설계의 전술뿐 아니라, 어떤 성취를 교육과정에 넣을 만큼 가치 있다고 판단할 절차까지 교육에 적용했다.[^gilbert-gilbert-1992-performance-science]
+
 ## 당대의 비판
+
+크래플은 『Human Competence』가 행동분석에 중요한 진전이라고 평가하면서도, 길버트의 이론은 포괄이론이라기보다 귀납적 일반화를 이어 붙인 이론으로 보는 편이 정확하다고 비판했다.[^krapfl-1982-gilbert-review]
 
 로버트 메이거는 교수목표를 학습자의 관찰 가능한 행동으로 명시하고, 원하는 종결 행동과 성공 기준을 함께 진술해야 한다고 주장했다. 이 기준에서 보면 길버트의 ‘가치 있는 수행’과 성과 격차 분석은 중요한 출발점이지만, 그것만으로는 무엇을 학습시킬지와 어떤 수행을 성공으로 판정할지를 충분히 구체화하지 못한다.[^mager-1962]
 
@@ -71,5 +79,9 @@ confidence: medium
 [^bio-clark-usc]: USC Rossier School of Education. Richard E. Clark — Emeritus Professor. University of Southern California. <https://rossier.usc.edu/faculty-research/directory/richard-clark> — tier B · [[sources/bio-clark-usc]]
 [^bio-gilbert-sixboxes]: Carl Binder; The Performance Thinking Network. Inspiration — Thomas F. Gilbert. The Performance Thinking Network. <https://www.sixboxes.com/Inspiration.html> — tier B · [[sources/bio-gilbert-sixboxes]]
 [^gilbert-1978]: Thomas F. Gilbert. (1978). Human Competence: Engineering Worthy Performance. McGraw-Hill. <https://agris.fao.org/search/en/providers/122535/records/65ddd7cd0f3e94b9e5c5db55> — tier A · [[sources/gilbert-1978]]
+[^gilbert-1978-performance-improvement]: Thomas F. Gilbert. (1978). Measuring the Potential for Performance Improvement. Training, 15(12), 25–28. <https://agris.fao.org/search/en/providers/122535/records/65df695463b8185d9caccaca> — tier A · [[sources/gilbert-1978-performance-improvement]]
+[^gilbert-1982-probe]: Thomas F. Gilbert. (1982). A Question of Performance. Part 1: The PROBE Model. Training and Development Journal, 36(9), 20–22, 24–30. <https://eric.ed.gov/?id=EJ267904> — tier A · [[sources/gilbert-1982-probe]]
 [^gilbert-2019]: Marilyn Gilbert et al.. (2019). Human Competence Revisited: 40 Years of Impact. Performance Improvement Quarterly. DOI: 10.1080/01608061.2019.1599165. <https://doi.org/10.1080/01608061.2019.1599165> — tier B · [[sources/gilbert-2019]]
+[^gilbert-gilbert-1992-performance-science]: Thomas F. Gilbert; Marilyn B. Gilbert. (1992). Potential Contributions of Performance Science to Education. Journal of Applied Behavior Analysis, 25(1), 43–49. DOI: 10.1901/jaba.1992.25-43. <https://doi.org/10.1901/jaba.1992.25-43> — tier A · [[sources/gilbert-gilbert-1992-performance-science]]
+[^krapfl-1982-gilbert-review]: Jon E. Krapfl. (1982). A Review of Gilbert's Human Competence: Engineering Worthy Performance. The Behavior Analyst, 5(2), 199–204. DOI: 10.1007/BF03392388. <https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/> — tier B · [[sources/krapfl-1982-gilbert-review]]
 [^mager-1962]: Robert F. Mager. (1962). Preparing Objectives for Programmed Instruction. Fearon Publishers. <https://eric.ed.gov/?id=ED018143> — tier A · [[sources/mager-1962]]

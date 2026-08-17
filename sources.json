@@ -6133,5 +6133,219 @@
     "identifiers": {
       "eric": "EJ254266"
     }
+  },
+  {
+    "id": "gilbert-1978-performance-improvement",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "길버트가 수행개선 잠재력(PIP)의 산식과 수행공학 적용을 직접 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "national-agricultural-library-agris-record",
+        "record_id": "65df695463b8185d9caccaca",
+        "evidence": "미국 National Agricultural Library 제공 AGRIS 레코드에서 제목·저자 Thomas F. Gilbert·1978년·Training 15(12), 25–28쪽과 초록을 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "thomas-gilbert",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://agris.fao.org/search/en/providers/122535/records/65df695463b8185d9caccaca",
+        "locator": "AGRIS 저자란과 Performance Thinking Network 인물 소개",
+        "evidence": "AGRIS는 Thomas F. Gilbert를 단독 저자로 표시하고, 수행개선 분야 전문기관의 인물 소개가 Skinner의 행동과학을 일의 세계로 옮기고 Human Competence를 쓴 동일 인물임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "professional-biography-and-field",
+            "value": "Thomas F. Gilbert · Skinner의 행동과학을 human performance improvement에 적용 · Human Competence 저자",
+            "evidence_url": "https://www.sixboxes.com/Inspiration.html"
+          }
+        ]
+      }
+    },
+    "authors": "Thomas F. Gilbert",
+    "title": "Measuring the Potential for Performance Improvement",
+    "year": "1978",
+    "publisher": "Training, 15(12), 25–28",
+    "url": "https://agris.fao.org/search/en/providers/122535/records/65df695463b8185d9caccaca"
+  },
+  {
+    "id": "gilbert-1982-probe",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "길버트가 작업자 수행을 진단하는 PROBE 모형의 범주와 여섯 측면을 직접 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "EJ267904",
+        "evidence": "ERIC EJ267904에서 제목·저자 Thomas F. Gilbert·1982년·Training and Development Journal 36(9), 20–22·24–30쪽과 초록을 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record",
+          "abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "thomas-gilbert",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ267904",
+        "locator": "ERIC 저자란과 Performance Thinking Network 인물 소개",
+        "evidence": "ERIC은 Thomas F. Gilbert를 단독 저자로 표시하고, 수행개선 분야 전문기관의 인물 소개가 Skinner의 행동과학을 일의 세계로 옮기고 Human Competence를 쓴 동일 인물임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "professional-biography-and-field",
+            "value": "Thomas F. Gilbert · Skinner의 행동과학을 human performance improvement에 적용 · Human Competence 저자",
+            "evidence_url": "https://www.sixboxes.com/Inspiration.html"
+          }
+        ]
+      }
+    },
+    "authors": "Thomas F. Gilbert",
+    "title": "A Question of Performance. Part 1: The PROBE Model",
+    "year": "1982",
+    "publisher": "Training and Development Journal, 36(9), 20–22, 24–30",
+    "url": "https://eric.ed.gov/?id=EJ267904",
+    "identifiers": {
+      "eric": "EJ267904"
+    }
+  },
+  {
+    "id": "gilbert-gilbert-1992-performance-science",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "길버트와 공저자가 수행과학을 교육과정·교수제시·훈련설계에 적용하는 절차를 직접 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-eric-records",
+        "record_id": "10.1901/jaba.1992.25-43; EJ448615",
+        "evidence": "Crossref DOI 10.1901/jaba.1992.25-43과 ERIC EJ448615에서 제목·공저자 Thomas F. Gilbert와 Marilyn B. Gilbert·1992년·Journal of Applied Behavior Analysis 25(1), 43–49쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record",
+          "abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "thomas-gilbert",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ448615",
+        "locator": "Crossref·ERIC 공저자란과 Performance Thinking Network 인물 소개",
+        "evidence": "Crossref와 ERIC은 Thomas F. Gilbert를 Marilyn B. Gilbert와 함께 공저자로 표시하고, 수행개선 분야 전문기관의 인물 소개가 수행과학·Human Competence의 Thomas F. Gilbert와 동일인임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "professional-biography-and-field",
+            "value": "Thomas F. Gilbert · human performance improvement 연구자 · Human Competence 저자",
+            "evidence_url": "https://www.sixboxes.com/Inspiration.html"
+          },
+          {
+            "kind": "coauthor-and-bibliography-network",
+            "value": "Marilyn B. Gilbert 공저 · Gilbert 수행공학 자료 목록",
+            "evidence_url": "https://hpttreasures.wordpress.com/from-others/thomas-f-gilbert-resources/"
+          }
+        ]
+      }
+    },
+    "authors": "Thomas F. Gilbert; Marilyn B. Gilbert",
+    "title": "Potential Contributions of Performance Science to Education",
+    "year": "1992",
+    "publisher": "Journal of Applied Behavior Analysis, 25(1), 43–49",
+    "url": "https://doi.org/10.1901/jaba.1992.25-43",
+    "doi": "10.1901/jaba.1992.25-43",
+    "identifiers": {
+      "doi": "10.1901/jaba.1992.25-43",
+      "eric": "EJ448615"
+    }
+  },
+  {
+    "id": "krapfl-1982-gilbert-review",
+    "tier": "B",
+    "type": "학술 논문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "크래플이 길버트의 Human Competence를 직접 검토·비판한 타인의 학술 서평이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-pmc-full-text-records",
+        "record_id": "10.1007/BF03392388; PMC2742053",
+        "evidence": "Crossref DOI 10.1007/BF03392388과 PMC2742053에서 제목·저자 Jon E. Krapfl·1982년·The Behavior Analyst 5(2), 199–204쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "pmcid",
+          "full_text"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "thomas-gilbert",
+        "kind": "criticizes",
+        "person_role": null,
+        "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/",
+        "locator": "제목·서평 대상 주석과 본문 p. 199",
+        "evidence": "제목과 주석이 길버트의 1978년 Human Competence를 서평 대상으로 직접 지정하며, 199쪽에서 크래플은 그 이론이 유의미한 진전이지만 포괄이론보다는 귀납적 일반화가 이어진 concatenated theory라고 비판한다.",
+        "identity_signals": [
+          {
+            "kind": "work-title-and-field",
+            "value": "Thomas F. Gilbert의 Human Competence: Engineering Worthy Performance(1978) 서평",
+            "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/"
+          }
+        ]
+      }
+    },
+    "authors": "Jon E. Krapfl",
+    "title": "A Review of Gilbert's Human Competence: Engineering Worthy Performance",
+    "year": "1982",
+    "publisher": "The Behavior Analyst, 5(2), 199–204",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2742053/",
+    "doi": "10.1007/BF03392388",
+    "identifiers": {
+      "doi": "10.1007/BF03392388"
+    }
   }
 ]
