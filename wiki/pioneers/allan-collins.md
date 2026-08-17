@@ -6,9 +6,9 @@ role: 인지과학자 · 학습과학 연구자
 life: 1937—현재
 concepts: [인지도제, 모델링, 코칭과 페이딩, 설계연구]
 related: ["[[debates/lave-collins]]"]
-updated: 2026-08-14
-sources: [bio-collins-authority, bio-collins-northwestern, collins-1989, collins-1992, collins-2004, lave-wenger-1991]
-confidence: medium
+updated: 2026-08-16
+sources: [bio-collins-authority, bio-collins-northwestern, collins-1986-inquiry-goals, collins-1989, collins-1992, collins-2004, collins-brown-holum-1991-thinking-visible, collins-grignetti-1975-intelligent-cai, collins-loftus-1975-spreading-activation, lave-wenger-1991]
+confidence: high
 ---
 
 ## 핵심 명제
@@ -28,6 +28,8 @@ confidence: medium
 
 전통 도제에서는 초보자가 숙련자의 행동을 볼 수 있지만 읽기나 문제해결 같은 인지 과정은 겉으로 잘 드러나지 않는다. 인지도제는 모델링, 코칭, 스캐폴딩, 명료화, 성찰, 탐색을 통해 그 사고 과정을 외현화한다.[^collins-1989]
 
+인지도제를 교실로 옮길 때에는 사고 과정을 보이게 하고, 추상적 과제를 의미 있는 맥락에 두며, 서로 다른 상황의 공통 요소를 드러내 전이를 돕는 세 원리가 필요하다.[^collins-brown-holum-1991-thinking-visible]
+
 ## 설계를 연구 방법으로
 
 콜린스는 교육을 자연현상의 관찰에만 맡길 수 없으며, 작동 가능한 학습환경을 만들어 이론을 시험해야 한다고 보았다. 설계연구는 반복 수정, 다중 자료, 맥락 의존성을 다루지만 무엇이 왜 작동했는지 투명하게 기록해야 한다.[^collins-1992][^collins-2004]
@@ -36,13 +38,19 @@ confidence: medium
 
 앨런 M. 콜린스는 1937년 9월 24일 태어났다. 미시간대학교에서 1961년 커뮤니케이션과학 석사, 1970년 인지심리학 박사학위를 받았고, 의미기억·질문응답·추론을 계산적으로 설명하는 연구를 수행했다. Cognitive Science 창간 편집자와 Cognitive Science Society 초대 의장을 맡아 인지과학의 학제적 형성에도 참여했다.[^bio-collins-authority][^bio-collins-northwestern]
 
+콜린스와 로프터스는 의미망에서 활성화가 퍼지는 모형을 확장해 의미적 관련성과 전형성 등 여러 실험 결과를 설명했다.[^collins-loftus-1975-spreading-activation]
+
 ## 튜터링 시스템에서 인지도제로
 
 콜린스는 인공지능과 지능형 튜터링 시스템 연구를 교육 문제로 확장했다. John Seely Brown, Susan Newman과 함께 정리한 인지도제는 전문가가 과제를 수행할 때 사용하는 전략과 자기점검을 모델링하고, 코칭·스캐폴딩·성찰을 통해 학습자가 책임을 넘겨받게 한다. 실제 맥락과 실천 문화는 부가적 장식이 아니라 지식 사용을 구성하는 조건이다.[^collins-1989][^bio-collins-northwestern]
 
+콜린스와 그리네티의 최종 보고서는 Tutor-SCHOLAR·Map-SCHOLAR·NLS-SCHOLAR·SOPHIE를 통해 자연어 대화로 시각적·절차적·진단적 지식을 지도하는 지능형 CAI의 범위를 제시했다.[^collins-grignetti-1975-intelligent-cai]
+
 ## 학습과학과 설계연구의 제도화
 
 Northwestern University 학습과학 명예교수인 콜린스는 상황학습, 탐구교수, 학습공동체와 기술 기반 학교개혁을 폭넓게 연구했다. 1992년 교육의 설계과학을 제안했고, 2004년에는 설계연구의 목표·반복 절차·일반화와 신뢰성 문제를 동료들과 체계화했다. 그의 경로는 인지모형을 실제 학습환경의 설계와 검증으로 연결한 학습과학의 역사를 보여준다.[^collins-1992][^collins-2004][^bio-collins-northwestern]
+
+콜린스는 탐구교수의 목표를 주어진 이론 구성, 새로운 이론 구성, 학습자가 스스로 질문하는 자기점검 능력의 학습이라는 세 유형으로 구분했다.[^collins-1986-inquiry-goals]
 
 ## 당대의 비판
 
@@ -68,7 +76,11 @@ Northwestern University 학습과학 명예교수인 콜린스는 상황학습, 
 
 [^bio-collins-authority]: Wikipedia editors. Allan M. Collins. Wikipedia. <https://en.wikipedia.org/wiki/Allan_M._Collins> — tier C · [[sources/bio-collins-authority]]
 [^bio-collins-northwestern]: Northwestern University School of Education and Social Policy. Allan M. Collins — Professor Emeritus. Northwestern University. <https://sesp.northwestern.edu/people/faculty/allan-m-collins.html> — tier B · [[sources/bio-collins-northwestern]]
+[^collins-1986-inquiry-goals]: Allan Collins. (1986). Different Goals of Inquiry Teaching. BBN Laboratories, Technical Report No. 6458. <https://files.eric.ed.gov/fulltext/ED282825.pdf> — tier A · [[sources/collins-1986-inquiry-goals]]
 [^collins-1989]: Allan Collins; John Seely Brown; Susan E. Newman. (1989). Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics. Lawrence Erlbaum Associates. <https://eric.ed.gov/?id=ED284181> — tier A · [[sources/collins-1989]]
 [^collins-1992]: Allan Collins. (1992). Toward a Design Science of Education. Springer. <https://allancollins.northwestern.edu/pubs-more.html> — tier A · [[sources/collins-1992]]
 [^collins-2004]: Allan Collins; Diana Joseph; Katerine Bielaczyc. (2004). Design Research: Theoretical and Methodological Issues. Journal of the Learning Sciences, 13(1). DOI: 10.1207/S15327809JLS1301_2. <https://doi.org/10.1207/S15327809JLS1301_2> — tier A · [[sources/collins-2004]]
+[^collins-brown-holum-1991-thinking-visible]: Allan Collins; John Seely Brown; Ann Holum. (1991). Cognitive Apprenticeship: Making Thinking Visible. American Educator, 15(3), 6–11, 38–46. <https://www.aft.org/ae/winter1991/collins_brown_holum> — tier A · [[sources/collins-brown-holum-1991-thinking-visible]]
+[^collins-grignetti-1975-intelligent-cai]: Allan Collins; Mario C. Grignetti. (1975). Intelligent CAI: Final Report (1 March 1971–31 August 1975). Bolt, Beranek and Newman, Inc. <https://files.eric.ed.gov/fulltext/ED114089.pdf> — tier A · [[sources/collins-grignetti-1975-intelligent-cai]]
+[^collins-loftus-1975-spreading-activation]: Allan M. Collins; Elizabeth F. Loftus. (1975). A Spreading-Activation Theory of Semantic Processing. Psychological Review, 82(6), 407–428. DOI: 10.1037/0033-295X.82.6.407. <https://doi.org/10.1037/0033-295X.82.6.407> — tier A · [[sources/collins-loftus-1975-spreading-activation]]
 [^lave-wenger-1991]: Jean Lave; Etienne Wenger. (1991). Situated Learning: Legitimate Peripheral Participation. Cambridge University Press. <https://www.ischool.berkeley.edu/research/publications/1991/situated-learning-legitimate-peripheral-participation> — tier A · [[sources/lave-wenger-1991]]

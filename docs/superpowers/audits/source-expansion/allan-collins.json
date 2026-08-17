@@ -1,0 +1,664 @@
+{
+  "schema_version": 1,
+  "slug": "allan-collins",
+  "base_commit": "51e469f7d794e6e412a18803f3494ab31bcd9e39",
+  "initial_source_ids": [
+    "bio-collins-authority",
+    "bio-collins-northwestern",
+    "collins-1989",
+    "collins-1992",
+    "collins-2004",
+    "lave-wenger-1991"
+  ],
+  "required_additions": 4,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "pending_manual",
+      "reason": "Crossref와 공식 CV에서 실재·저자·동일인을 확인했지만, 정확한 4건 승인 묶음에서는 1975년 확산 활성화 논문이 1969년 위계적 검색 모형의 확장과 여러 실험 적용을 한 주장으로 더 직접 보강하므로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Allan M. Collins",
+          "M. Ross Quillian"
+        ],
+        "title": "Retrieval Time from Semantic Memory",
+        "year": "1969",
+        "publisher": "Elsevier",
+        "url": "https://doi.org/10.1016/S0022-5371(69)80069-1",
+        "identifiers": {
+          "doi": "10.1016/S0022-5371(69)80069-1",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1016/S0022-5371(69)80069-1",
+          "evidence": "Crossref API에서 DOI·제목·저자 Allan M. Collins와 M. Ross Quillian·1969년·저널·권호·240–247쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "allan-collins",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf",
+          "locator": "Northwestern 공식 CV p. 3의 1969년 출판목록과 Crossref 저자란",
+          "evidence": "Northwestern 공식 CV가 Collins와 Quillian의 정확한 논문을 열거하고 의미기억·BBN 연구 경력을 밝히며, Crossref의 공저자·서지가 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-cv",
+              "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+              "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+            },
+            {
+              "kind": "publication-coauthor-affiliation-match",
+              "value": "Allan M. Collins · M. Ross Quillian · semantic memory · BBN",
+              "evidence_url": "https://api.crossref.org/works/10.1016%2FS0022-5371(69)80069-1"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 원문에서 DOI·제목·저자·1975년·권호·쪽을 대조하고 공식 CV의 정확한 출판목록으로 고위험 동일인을 확인했다.",
+      "source_id": "collins-loftus-1975-spreading-activation",
+      "bibliography": {
+        "authors": [
+          "Elizabeth F. Loftus",
+          "Allan M. Collins"
+        ],
+        "title": "A Spreading-Activation Theory of Semantic Processing",
+        "year": "1975",
+        "publisher": "American Psychological Association",
+        "url": "https://doi.org/10.1037/0033-295X.82.6.407",
+        "identifiers": {
+          "doi": "10.1037/0033-295X.82.6.407",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-primary-pdf",
+          "record_id": "10.1037/0033-295X.82.6.407",
+          "evidence": "Crossref API와 Psychological Review 원문 첫 페이지에서 DOI·제목·저자 Allan M. Collins와 Elizabeth F. Loftus·1975년·82(6)·407–428쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "allan-collins",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf",
+          "locator": "Northwestern 공식 CV p. 4의 1975년 출판목록과 원문 p. 407 저자·소속란",
+          "evidence": "Northwestern 공식 CV가 Collins와 Loftus의 정확한 논문을 열거하며, 원문은 Allan M. Collins의 BBN 소속과 Elizabeth F. Loftus와의 공저를 표시한다.",
+          "identity_signals": [
+            {
+              "kind": "official-cv",
+              "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+              "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+            },
+            {
+              "kind": "publication-coauthor-affiliation-match",
+              "value": "Allan M. Collins · Elizabeth F. Loftus · Bolt Beranek and Newman · semantic processing",
+              "evidence_url": "https://api.crossref.org/works/10.1037%2F0033-295X.82.6.407"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "콜린스와 로프터스가 의미 처리의 확산 활성화 모형을 직접 확장하고 실험 결과에 적용한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "인지심리학과 인공지능의 접점",
+        "claim": "콜린스와 로프터스는 의미망에서 활성화가 퍼지는 모형을 확장해 의미적 관련성과 전형성 등 여러 실험 결과를 설명했다.",
+        "locator": "Psychological Review 원문 p. 407 초록",
+        "evidence_url": "https://doi.org/10.1037/0033-295X.82.6.407"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.authors",
+          "from": "Elizabeth F. Loftus; Allan M. Collins",
+          "to": "Allan M. Collins; Elizabeth F. Loftus",
+          "reason": "Crossref와 원문 p. 407의 표시 순서로 바로잡았다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC 레코드·원문과 Northwestern 공식 CV의 BBN·SCHOLAR 경력을 결합해 서지와 고위험 동일인을 확인했다.",
+      "source_id": "collins-grignetti-1975-intelligent-cai",
+      "bibliography": {
+        "authors": [
+          "Allan Collins",
+          "Mario C. Grignetti"
+        ],
+        "title": "Intelligent CAI: Final Report (1 March 1971–31 August 1975)",
+        "year": "1975",
+        "publisher": "Bolt, Beranek and Newman, Inc.",
+        "url": "https://eric.ed.gov/?id=ED114089",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED114089",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record-and-full-text",
+          "record_id": "ED114089",
+          "evidence": "ERIC ED114089 레코드와 원문에서 제목·저자 Allan Collins와 Mario C. Grignetti·1975년·Bolt Beranek and Newman·보고기간·문서번호를 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "authoring_institution",
+            "report_period",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "allan-collins",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED114089.pdf",
+          "locator": "ERIC 원문 표지·보고서 서지란과 Northwestern 공식 CV pp. 1–2",
+          "evidence": "원문은 Allan Collins와 Mario C. Grignetti를 공저자로 적고 BBN 보고서임을 표시한다. Northwestern 공식 CV는 동일 Allan Collins의 BBN 재직과 1970–1975년 SCHOLAR 프로젝트 지휘를 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-cv",
+              "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+              "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+            },
+            {
+              "kind": "publication-coauthor-affiliation-match",
+              "value": "Allan Collins · Mario C. Grignetti · BBN · SCHOLAR intelligent tutoring project 1970–1975",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/ED114089.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "콜린스와 그리네티가 SCHOLAR 계열 지능형 CAI의 구현·튜터링 전략·지식 유형을 직접 보고한 최종 원보고서다."
+      },
+      "claim_seed": {
+        "section": "튜터링 시스템에서 인지도제로",
+        "claim": "콜린스와 그리네티의 최종 보고서는 Tutor-SCHOLAR·Map-SCHOLAR·NLS-SCHOLAR·SOPHIE를 통해 자연어 대화로 시각적·절차적·진단적 지식을 지도하는 지능형 CAI의 범위를 제시했다.",
+        "locator": "ERIC ED114089 원문 초록과 pp. 1–2",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED114089.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC 레코드·원문 저자/소속과 공식 CV의 BBN·inquiry teaching 경력을 결합해 고위험 동일인을 확인했다.",
+      "source_id": "collins-1986-inquiry-goals",
+      "bibliography": {
+        "authors": [
+          "Allan Collins"
+        ],
+        "title": "Different Goals of Inquiry Teaching: Technical Report No. 6458",
+        "year": "1986",
+        "publisher": "BBN Laboratories, Inc.",
+        "url": "https://eric.ed.gov/?id=ED282825",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED282825",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record-and-full-text",
+          "record_id": "ED282825",
+          "evidence": "ERIC ED282825 레코드와 원문에서 제목·저자 Allan Collins·1986년 9월·BBN Technical Report No. 6458·문서번호를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_date",
+            "authoring_institution",
+            "report_number",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "allan-collins",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED282825.pdf",
+          "locator": "원문 표지·p. 1 저자·소속란과 Northwestern 공식 CV pp. 1–2, 출판목록",
+          "evidence": "원문은 Allan Collins를 단독 저자로, 소속을 Bolt Beranek & Newman으로 표시한다. 공식 CV는 그의 BBN 재직, WHY 탐구튜터링 프로젝트, inquiry teaching 연구 및 후속 동명 논문을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-cv",
+              "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+              "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+            },
+            {
+              "kind": "publication-coauthor-affiliation-match",
+              "value": "Allan Collins · Bolt Beranek & Newman · WHY inquiry tutoring · inquiry teaching",
+              "evidence_url": "https://files.eric.ed.gov/fulltext/ED282825.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "콜린스가 탐구교수의 세 목표와 각 교수 전략을 직접 구분하고 사례로 논증한 원보고서다."
+      },
+      "claim_seed": {
+        "section": "학습과학과 설계연구의 제도화",
+        "claim": "콜린스는 탐구교수의 목표를 주어진 이론 구성, 새로운 이론 구성, 학습자가 스스로 질문하는 자기점검 능력의 학습이라는 세 유형으로 구분했다.",
+        "locator": "ERIC ED282825 원문 초록과 p. 1",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED282825.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-05",
+      "decision": "pending_manual",
+      "reason": "Crossref와 공식 CV에서 실재·공저자·plausible reasoning 연구 정체를 확인했지만, 이번 네 출처는 의미기억·지능형 CAI·탐구교수·인지도제라는 페이지의 핵심 경로를 더 고르게 보강하므로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Allan Collins",
+          "Ryszard S. Michalski"
+        ],
+        "title": "The Logic of Plausible Reasoning: A Core Theory",
+        "year": "1989",
+        "publisher": "Cognitive Science Society / Wiley",
+        "url": "https://doi.org/10.1207/s15516709cog1301_1",
+        "identifiers": {
+          "doi": "10.1207/s15516709cog1301_1",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1207/s15516709cog1301_1",
+          "evidence": "Crossref API에서 DOI·제목·저자 Allan Collins와 Ryszard Michalski·1989년·Cognitive Science 13(1)·1–49쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "allan-collins",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf",
+          "locator": "Northwestern 공식 CV p. 6의 1989년 출판목록과 Crossref 저자란",
+          "evidence": "공식 CV가 Collins와 Michalski의 정확한 논문을 열거하고 plausible reasoning을 대표 연구로 밝히며, Crossref 공저자·서지가 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-cv",
+              "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+              "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+            },
+            {
+              "kind": "publication-coauthor-affiliation-match",
+              "value": "Allan Collins · Ryszard S. Michalski · plausible reasoning · Cognitive Science",
+              "evidence_url": "https://api.crossref.org/works/10.1207%2Fs15516709cog1301_1"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-06",
+      "decision": "pending_manual",
+      "reason": "Crossref와 공식 CV에서 실재·공저자·상황인지 관계를 확인했지만 기존 collins-1989와 상황적 맥락 주장의 중복이 커, 새 고유 주장 네 개에서는 다른 원저작을 우선했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "John Seely Brown",
+          "Allan Collins",
+          "Paul Duguid"
+        ],
+        "title": "Situated Cognition and the Culture of Learning",
+        "year": "1989",
+        "publisher": "American Educational Research Association / SAGE",
+        "url": "https://doi.org/10.3102/0013189X018001032",
+        "identifiers": {
+          "doi": "10.3102/0013189X018001032",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.3102/0013189X018001032",
+          "evidence": "Crossref API에서 DOI·제목·저자 John Seely Brown, Allan Collins, Paul Duguid·1989년·Educational Researcher 18(1)·32–42쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "allan-collins",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf",
+          "locator": "Northwestern 공식 CV p. 6의 1989년 출판목록과 Crossref 저자란",
+          "evidence": "공식 CV가 Brown·Collins·Duguid의 정확한 논문을 열거하고 situated learning을 대표 연구로 밝히며, Crossref 공저자·서지가 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-cv",
+              "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+              "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+            },
+            {
+              "kind": "publication-coauthor-affiliation-match",
+              "value": "John Seely Brown · Allan Collins · Paul Duguid · situated cognition",
+              "evidence_url": "https://api.crossref.org/works/10.3102%2F0013189X018001032"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-07",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. AFT 공식 전문·ERIC·공식 CV가 제목·세 저자·권호·쪽과 Allan Collins의 BBN/Northwestern 소속을 교차 확인했다.",
+      "source_id": "collins-brown-holum-1991-thinking-visible",
+      "bibliography": {
+        "authors": [
+          "Allan Collins",
+          "John Seely Brown",
+          "Ann Holum"
+        ],
+        "title": "Cognitive Apprenticeship: Making Thinking Visible",
+        "year": "1991",
+        "publisher": "American Federation of Teachers",
+        "url": "https://www.aft.org/ae/winter1991/collins_brown_holum",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "EJ440511",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-journal-full-text-and-eric-record",
+          "record_id": "EJ440511",
+          "evidence": "American Federation of Teachers 공식 전문과 ERIC EJ440511에서 제목·저자 Allan Collins, John Seely Brown, Ann Holum·1991년·American Educator 15(3)·6–11, 38–46쪽을 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "journal",
+            "volume",
+            "issue",
+            "pages",
+            "eric_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "allan-collins",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.aft.org/ae/winter1991/collins_brown_holum",
+          "locator": "AFT 공식 전문 저자란·말미 약력과 Northwestern 공식 CV p. 7",
+          "evidence": "AFT 전문은 Allan Collins를 BBN principal scientist이자 Northwestern 교수로, Brown과 Holum을 공저자로 표시한다. Northwestern 공식 CV도 정확한 제목·공저자·권호·쪽을 열거한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Allan Collins · BBN principal scientist · Northwestern University professor",
+              "evidence_url": "https://www.aft.org/ae/winter1991/collins_brown_holum"
+            },
+            {
+              "kind": "official-cv",
+              "value": "Allan Collins · John Seely Brown · Ann Holum · American Educator 15(3), 6–11, 38–46",
+              "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "콜린스·브라운·홀럼이 인지도제의 교실 전환 원리와 학습환경 설계 틀을 직접 설명한 당사자 원논문이다."
+      },
+      "claim_seed": {
+        "section": "보이지 않는 사고를 보이게",
+        "claim": "인지도제를 교실로 옮길 때에는 사고 과정을 보이게 하고, 추상적 과제를 의미 있는 맥락에 두며, 서로 다른 상황의 공통 요소를 드러내 전이를 돕는 세 원리가 필요하다.",
+        "locator": "AFT 공식 전문 “From Traditional to Cognitive Apprenticeship” 절",
+        "evidence_url": "https://www.aft.org/ae/winter1991/collins_brown_holum"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-08",
+      "decision": "pending_manual",
+      "reason": "Crossref와 공식 CV에서 실재·공저자·epistemic forms 연구 정체를 확인했지만, 정확한 승인 묶음에서는 1986년 탐구교수 원보고서가 기존 절의 교수 목표를 더 직접적이고 구체적인 주장으로 보강하므로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Allan Collins",
+          "William Ferguson"
+        ],
+        "title": "Epistemic Forms and Epistemic Games: Structures and Strategies to Guide Inquiry",
+        "year": "1993",
+        "publisher": "Taylor & Francis",
+        "url": "https://doi.org/10.1207/s15326985ep2801_3",
+        "identifiers": {
+          "doi": "10.1207/s15326985ep2801_3",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1207/s15326985ep2801_3",
+          "evidence": "Crossref API에서 DOI·제목·저자 Allan Collins와 William Ferguson·1993년·Educational Psychologist 28(1)·25–42쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "allan-collins",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf",
+          "locator": "Northwestern 공식 CV p. 7의 1993년 출판목록과 Crossref 저자란",
+          "evidence": "공식 CV가 Collins와 Ferguson의 정확한 논문을 열거하고 epistemic forms를 대표 연구로 밝히며, Crossref 공저자·서지가 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-cv",
+              "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+              "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+            },
+            {
+              "kind": "publication-coauthor-affiliation-match",
+              "value": "Allan Collins · William Ferguson · epistemic forms and games",
+              "evidence_url": "https://api.crossref.org/works/10.1207%2Fs15326985ep2801_3"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "collins-1986-inquiry-goals",
+    "collins-brown-holum-1991-thinking-visible",
+    "collins-grignetti-1975-intelligent-cai",
+    "collins-loftus-1975-spreading-activation"
+  ],
+  "claim_map": [
+    {
+      "source_id": "collins-loftus-1975-spreading-activation",
+      "section": "인지심리학과 인공지능의 접점",
+      "claim": "콜린스와 로프터스는 의미망에서 활성화가 퍼지는 모형을 확장해 의미적 관련성과 전형성 등 여러 실험 결과를 설명했다.",
+      "evidence_locator": "Psychological Review 원문 p. 407 초록"
+    },
+    {
+      "source_id": "collins-grignetti-1975-intelligent-cai",
+      "section": "튜터링 시스템에서 인지도제로",
+      "claim": "콜린스와 그리네티의 최종 보고서는 Tutor-SCHOLAR·Map-SCHOLAR·NLS-SCHOLAR·SOPHIE를 통해 자연어 대화로 시각적·절차적·진단적 지식을 지도하는 지능형 CAI의 범위를 제시했다.",
+      "evidence_locator": "ERIC ED114089 원문 초록과 pp. 1–2"
+    },
+    {
+      "source_id": "collins-1986-inquiry-goals",
+      "section": "학습과학과 설계연구의 제도화",
+      "claim": "콜린스는 탐구교수의 목표를 주어진 이론 구성, 새로운 이론 구성, 학습자가 스스로 질문하는 자기점검 능력의 학습이라는 세 유형으로 구분했다.",
+      "evidence_locator": "ERIC ED282825 원문 초록과 p. 1"
+    },
+    {
+      "source_id": "collins-brown-holum-1991-thinking-visible",
+      "section": "보이지 않는 사고를 보이게",
+      "claim": "인지도제를 교실로 옮길 때에는 사고 과정을 보이게 하고, 추상적 과제를 의미 있는 맥락에 두며, 서로 다른 상황의 공통 요소를 드러내 전이를 돕는 세 원리가 필요하다.",
+      "evidence_locator": "AFT 공식 전문 “From Traditional to Cognitive Apprenticeship” 절"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/allan-collins.md:51|collins-1992|2004|1992",
+        "file": "wiki/pioneers/allan-collins.md",
+        "line": 51,
+        "claimYear": 2004,
+        "sourceId": "collins-1992",
+        "sourceYear": 1992,
+        "decision": "valid-context",
+        "reason": "2004는 같은 문장의 후속 공동논문 발행연도이고 collins-1992는 그보다 앞선 설계과학 제안을 받친다. 두 저작의 연속성을 서술하는 정상 혼합 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/allan-collins.md:39|bio-collins-authority|1970|none",
+        "file": "wiki/pioneers/allan-collins.md",
+        "line": 39,
+        "claimYear": 1970,
+        "sourceId": "bio-collins-authority",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 인명 전거가 1970년 박사학위와 경력을 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/allan-collins.md:39|bio-collins-northwestern|1970|none",
+        "file": "wiki/pioneers/allan-collins.md",
+        "line": 39,
+        "claimYear": 1970,
+        "sourceId": "bio-collins-northwestern",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 Northwestern 공식 약력이 1970년 박사학위와 경력을 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/allan-collins.md:51|bio-collins-northwestern|2004|none",
+        "file": "wiki/pioneers/allan-collins.md",
+        "line": 51,
+        "claimYear": 2004,
+        "sourceId": "bio-collins-northwestern",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 Northwestern 공식 약력이 콜린스의 경력과 2004년 연구 맥락을 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/allan-collins.md:69|bio-collins-northwestern|1977|none",
+        "file": "wiki/pioneers/allan-collins.md",
+        "line": 69,
+        "claimYear": 1977,
+        "sourceId": "bio-collins-northwestern",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 Northwestern 공식 약력이 1977년 Cognitive Science 창간 역할을 설명하는 정상 인용이다."
+      }
+    ]
+  }
+}

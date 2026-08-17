@@ -4480,5 +4480,226 @@
     "year": "1952",
     "publisher": "National Academy of Sciences",
     "url": "https://www.nasonline.org/wp-content/uploads/2024/06/thorndike-edward-1.pdf"
+  },
+  {
+    "id": "collins-loftus-1975-spreading-activation",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "콜린스와 로프터스가 의미 처리의 확산 활성화 모형을 직접 확장하고 실험 결과에 적용한 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-primary-pdf",
+        "record_id": "10.1037/0033-295X.82.6.407",
+        "evidence": "Crossref API와 Psychological Review 원문 첫 페이지에서 DOI·제목·저자 Allan M. Collins와 Elizabeth F. Loftus·1975년·82(6)·407–428쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "allan-collins",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf",
+        "locator": "Northwestern 공식 CV p. 4의 1975년 출판목록과 원문 p. 407 저자·소속란",
+        "evidence": "Northwestern 공식 CV가 Collins와 Loftus의 정확한 논문을 열거하며, 원문은 Allan M. Collins의 BBN 소속과 Elizabeth F. Loftus와의 공저를 표시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-cv",
+            "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+            "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+          },
+          {
+            "kind": "publication-coauthor-affiliation-match",
+            "value": "Allan M. Collins · Elizabeth F. Loftus · Bolt Beranek and Newman · semantic processing",
+            "evidence_url": "https://api.crossref.org/works/10.1037%2F0033-295X.82.6.407"
+          }
+        ]
+      }
+    },
+    "authors": "Allan M. Collins; Elizabeth F. Loftus",
+    "title": "A Spreading-Activation Theory of Semantic Processing",
+    "year": "1975",
+    "publisher": "Psychological Review, 82(6), 407–428",
+    "url": "https://doi.org/10.1037/0033-295X.82.6.407",
+    "doi": "10.1037/0033-295X.82.6.407",
+    "identifiers": {
+      "doi": "10.1037/0033-295X.82.6.407"
+    }
+  },
+  {
+    "id": "collins-grignetti-1975-intelligent-cai",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "콜린스와 그리네티가 SCHOLAR 계열 지능형 CAI의 구현·튜터링 전략·지식 유형을 직접 보고한 최종 원보고서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record-and-full-text",
+        "record_id": "ED114089",
+        "evidence": "ERIC ED114089 레코드와 원문에서 제목·저자 Allan Collins와 Mario C. Grignetti·1975년·Bolt Beranek and Newman·보고기간·문서번호를 대조했다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "publication_date",
+          "authoring_institution",
+          "report_period",
+          "document_id"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "allan-collins",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED114089.pdf",
+        "locator": "ERIC 원문 표지·보고서 서지란과 Northwestern 공식 CV pp. 1–2",
+        "evidence": "원문은 Allan Collins와 Mario C. Grignetti를 공저자로 적고 BBN 보고서임을 표시한다. Northwestern 공식 CV는 동일 Allan Collins의 BBN 재직과 1970–1975년 SCHOLAR 프로젝트 지휘를 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-cv",
+            "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+            "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+          },
+          {
+            "kind": "publication-coauthor-affiliation-match",
+            "value": "Allan Collins · Mario C. Grignetti · BBN · SCHOLAR intelligent tutoring project 1970–1975",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED114089.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Allan Collins; Mario C. Grignetti",
+    "title": "Intelligent CAI: Final Report (1 March 1971–31 August 1975)",
+    "year": "1975",
+    "publisher": "Bolt, Beranek and Newman, Inc.",
+    "url": "https://files.eric.ed.gov/fulltext/ED114089.pdf",
+    "identifiers": {
+      "eric": "ED114089"
+    }
+  },
+  {
+    "id": "collins-1986-inquiry-goals",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "콜린스가 탐구교수의 세 목표와 각 교수 전략을 직접 구분하고 사례로 논증한 원보고서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record-and-full-text",
+        "record_id": "ED282825",
+        "evidence": "ERIC ED282825 레코드와 원문에서 제목·저자 Allan Collins·1986년 9월·BBN Technical Report No. 6458·문서번호를 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "publication_date",
+          "authoring_institution",
+          "report_number",
+          "document_id"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "allan-collins",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED282825.pdf",
+        "locator": "원문 표지·p. 1 저자·소속란과 Northwestern 공식 CV pp. 1–2, 출판목록",
+        "evidence": "원문은 Allan Collins를 단독 저자로, 소속을 Bolt Beranek & Newman으로 표시한다. 공식 CV는 그의 BBN 재직, WHY 탐구튜터링 프로젝트, inquiry teaching 연구 및 후속 동명 논문을 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-cv",
+            "value": "Allan Collins · Northwestern University Professor Emeritus · BBN senior/principal scientist · 해당 연구영역과 출판목록",
+            "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+          },
+          {
+            "kind": "publication-coauthor-affiliation-match",
+            "value": "Allan Collins · Bolt Beranek & Newman · WHY inquiry tutoring · inquiry teaching",
+            "evidence_url": "https://files.eric.ed.gov/fulltext/ED282825.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Allan Collins",
+    "title": "Different Goals of Inquiry Teaching",
+    "year": "1986",
+    "publisher": "BBN Laboratories, Technical Report No. 6458",
+    "url": "https://files.eric.ed.gov/fulltext/ED282825.pdf",
+    "identifiers": {
+      "eric": "ED282825"
+    }
+  },
+  {
+    "id": "collins-brown-holum-1991-thinking-visible",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "콜린스·브라운·홀럼이 인지도제의 교실 전환 원리와 학습환경 설계 틀을 직접 설명한 당사자 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "official-journal-full-text-and-eric-record",
+        "record_id": "EJ440511",
+        "evidence": "American Federation of Teachers 공식 전문과 ERIC EJ440511에서 제목·저자 Allan Collins, John Seely Brown, Ann Holum·1991년·American Educator 15(3)·6–11, 38–46쪽을 대조했다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "publication_year",
+          "journal",
+          "volume",
+          "issue",
+          "pages",
+          "eric_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "allan-collins",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.aft.org/ae/winter1991/collins_brown_holum",
+        "locator": "AFT 공식 전문 저자란·말미 약력과 Northwestern 공식 CV p. 7",
+        "evidence": "AFT 전문은 Allan Collins를 BBN principal scientist이자 Northwestern 교수로, Brown과 Holum을 공저자로 표시한다. Northwestern 공식 CV도 정확한 제목·공저자·권호·쪽을 열거한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Allan Collins · BBN principal scientist · Northwestern University professor",
+            "evidence_url": "https://www.aft.org/ae/winter1991/collins_brown_holum"
+          },
+          {
+            "kind": "official-cv",
+            "value": "Allan Collins · John Seely Brown · Ann Holum · American Educator 15(3), 6–11, 38–46",
+            "evidence_url": "https://allancollins.northwestern.edu/files/images/Collins-Resume-1-17.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Allan Collins; John Seely Brown; Ann Holum",
+    "title": "Cognitive Apprenticeship: Making Thinking Visible",
+    "year": "1991",
+    "publisher": "American Educator, 15(3), 6–11, 38–46",
+    "url": "https://www.aft.org/ae/winter1991/collins_brown_holum",
+    "identifiers": {
+      "eric": "EJ440511"
+    }
   }
 ]
