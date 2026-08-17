@@ -3,37 +3,34 @@
 
 작업 디렉터리는 `/Users/taehyeong/Documents/GitHub/edtech-oracle` 이다.
 
-## 이번 실행 대상 — 남은 21명, 이 순서대로
+## 이번 실행 대상 — 남은 17명, 이 순서대로
 
-**이미 끝난 10명은 건드리지 마라**: `edgar-dale` · `barbara-seels` ·
-`jeroen-van-merrienboer` · `ralph-tyler` · `sidney-pressey` · `ann-brown` ·
-`etienne-wenger-trayner` · `rita-richey` · `robert-glaser` · `robert-heinich`
+**이미 끝난 14명은 건드리지 마라.** `docs/superpowers/audits/source-expansion/`에
+감사 기록이 있는 위인이 그들이다.
 
 | 부족분 | slug |
 |---|---|
-| +4 | `allan-collins` · `charles-reigeluth` · `jean-piaget` · `john-sweller` · `joseph-novak` · `marlene-scardamalia` · `michael-g-moore` · `robert-mager` · `thomas-gilbert` |
+| +4 | `joseph-novak` · `marlene-scardamalia` · `michael-g-moore` · `robert-mager` · `thomas-gilbert` |
 | +3 | `albert-bandura` · `david-jonassen` · `edward-thorndike` · `john-dewey` · `robert-kozma` |
 | +2 | `jean-lave` · `richard-clark` · `walter-dick` |
 | +1 | `bf-skinner` · `jerome-bruner` · `john-keller` · `lev-vygotsky` |
 
-합계 21명 · 55건. 위 순서대로 한 명씩 처리한다.
-시작 전 `npm run verify:source-expansion`이 "새 id 55건, 완료 감사 10건"으로
+합계 17명 · 45건. 부족분이 큰 순서대로 한 명씩 처리한다.
+시작 전 `npm run verify:source-expansion`이 "새 id 71건, 완료 감사 14건"으로
 통과하는지 확인하라. 다르면 멈추고 보고하라.
 
 **요청 후보 수는 부족분 n에 대해 `max(2n, n+3)`이다.** 부족분 1이면 4건,
 2면 5, 3이면 6, 4면 8건을 요청한다.
 
-**고위험 동명이인 3명 — `allan-collins` · `richard-clark` · `john-keller`.**
-셋 다 이번 대상에 있고 `allan-collins`가 첫 순서다. 이들의 `authored_by`
-후보는 정규 이름 외에 **독립 식별 신호 2개**가 필요하고 그중 하나는 공식
-소속/CV 또는 ORCID·VIAF·도서관 인명 전거여야 한다. 소속·공저자·모형 연결로
-동일인을 확인하지 못하면 `pending_manual`이다.
+**고위험 동명이인 — `richard-clark` · `john-keller`가 이번 대상에 남아 있다.**
+이들의 `authored_by` 후보는 정규 이름 외에 **독립 식별 신호 2개**가 필요하고
+그중 하나는 공식 소속/CV 또는 ORCID·VIAF·도서관 인명 전거여야 한다.
+`allan-collins`에서는 BBN 소속과 공저자망으로 확인해 통과했다. 같은 수준을 요구한다.
 
 부족분이 1~2인 위인은 문헌이 넘치지만 **이미 등재된 것과 중복되지 않는 것**을
 찾아야 한다. 중복 색인을 반드시 확인하라.
 
-**한 위인이 끝날 때마다 진행 상황을 stdout에 한 줄로 남겨라**
-(예: `[3/21] jean-piaget 승인 4 커밋 abc1234 high→high`).
+**한 위인이 끝날 때마다 진행 상황을 stdout에 한 줄로 남겨라.**
 
 ## 먼저 읽어라 (반드시)
 
