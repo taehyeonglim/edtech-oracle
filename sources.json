@@ -7030,5 +7030,168 @@
       "openlibrary_edition": "OL6579342M",
       "oclc": "2004539"
     }
+  },
+  {
+    "id": "kozma-2003-multiple-representations",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "코즈마가 과학자의 다중 표상 사용에 관한 실험·자연주의 연구를 종합하고 기술 기반 학습환경 설계 원리를 직접 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-original-manuscript",
+        "record_id": "10.1016/S0959-4752(02)00021-X",
+        "evidence": "Crossref와 저자 원고에서 DOI·제목·저자 Robert B. Kozma·2003년·Learning and Instruction 13(2), 205–226쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "original_article_heading"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-kozma",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.compassproject.net/Sadhana/teaching/readings/kozma_learning_instruction.pdf",
+        "locator": "원고 첫 쪽 저자·소속과 SRI 기관 연구 기록",
+        "evidence": "원고 첫 쪽은 Robert Kozma를 저자로, Center for Technology in Learning, SRI International을 소속으로 표시하며 SRI의 교육 연구 기록도 같은 이름의 화학 표상 연구자를 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "original-article-affiliation",
+            "value": "Robert Kozma · Center for Technology in Learning · SRI International",
+            "evidence_url": "https://www.compassproject.net/Sadhana/teaching/readings/kozma_learning_instruction.pdf"
+          },
+          {
+            "kind": "official-affiliation-research-record",
+            "value": "SRI Research in Education · Robert Kozma · chemistry representations",
+            "evidence_url": "https://www.sri.com/wp-content/uploads/2022/08/A-heritage-of-innovation-Research-in-Education.pdf"
+          }
+        ]
+      }
+    },
+    "authors": "Robert B. Kozma",
+    "title": "The Material Features of Multiple Representations and Their Cognitive and Social Affordances for Science Understanding",
+    "year": "2003",
+    "publisher": "Learning and Instruction, 13(2), 205–226",
+    "url": "https://doi.org/10.1016/S0959-4752(02)00021-X",
+    "doi": "10.1016/S0959-4752(02)00021-X",
+    "identifiers": {
+      "doi": "10.1016/S0959-4752(02)00021-X"
+    }
+  },
+  {
+    "id": "kozma-2003-classroom-practices",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "코즈마가 28개국의 기술 기반 혁신 수업 174건을 분석해 교사·학생 실천과 보고된 성과의 패턴을 직접 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-publisher-record",
+        "record_id": "10.1080/15391523.2003.10782399",
+        "evidence": "Crossref와 Taylor & Francis 저널 페이지에서 DOI·제목·저자 Robert B. Kozma·2003년·Journal of Research on Technology in Education 36(1), 1–14쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-kozma",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.tandfonline.com/doi/abs/10.1080/15391523.2003.10782399",
+        "locator": "기사 저자·소속 표시와 초록",
+        "evidence": "출판사 페이지는 Robert B. Kozma를 단독 저자로, Center for Technology in Learning, SRI International을 소속으로 표시해 페이지의 교육공학자와 동일인임을 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "publisher-affiliation",
+            "value": "Robert B. Kozma · Center for Technology in Learning · SRI International",
+            "evidence_url": "https://www.tandfonline.com/doi/abs/10.1080/15391523.2003.10782399"
+          }
+        ]
+      }
+    },
+    "authors": "Robert B. Kozma",
+    "title": "Technology and Classroom Practices: An International Study",
+    "year": "2003",
+    "publisher": "Journal of Research on Technology in Education, 36(1), 1–14",
+    "url": "https://doi.org/10.1080/15391523.2003.10782399",
+    "doi": "10.1080/15391523.2003.10782399",
+    "identifiers": {
+      "doi": "10.1080/15391523.2003.10782399"
+    }
+  },
+  {
+    "id": "kozma-2005-national-policies",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "코즈마가 싱가포르·핀란드·이집트 사례를 직접 비교해 ICT 교육개혁과 국가 발전정책을 연결하는 체계적 정책 틀을 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-institutional-repository",
+        "record_id": "10.17011/ht/urn.2005355; URN:NBN:fi:jyu-2005355",
+        "evidence": "Crossref와 University of Jyväskylä JYX 원논문에서 DOI·제목·저자 Robert B. Kozma·2005년·Human Technology 1(2), 117–156쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "institutional_repository_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-kozma",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://jyx.jyu.fi/bitstreams/6367d323-9df5-45ad-964b-2d25616a559e/download",
+        "locator": "p. 117 저자·소속과 초록",
+        "evidence": "JYX 원논문 첫 쪽은 Robert B. Kozma를 저자로, Center for Technology in Learning, SRI International을 소속으로 표시해 페이지의 ICT 정책 연구자와 동일인임을 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "institutional-repository-affiliation",
+            "value": "Robert B. Kozma · Center for Technology in Learning · SRI International, USA",
+            "evidence_url": "https://jyx.jyu.fi/bitstreams/6367d323-9df5-45ad-964b-2d25616a559e/download"
+          }
+        ]
+      }
+    },
+    "authors": "Robert B. Kozma",
+    "title": "National Policies That Connect ICT-Based Education Reform to Economic and Social Development",
+    "year": "2005",
+    "publisher": "Human Technology, 1(2), 117–156",
+    "url": "https://doi.org/10.17011/ht/urn.2005355",
+    "doi": "10.17011/ht/urn.2005355",
+    "identifiers": {
+      "doi": "10.17011/ht/urn.2005355"
+    }
   }
 ]

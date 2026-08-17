@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "slug": "robert-kozma",
+  "base_commit": "67103d7433039d041574b6ccc4a9c70d77ff94a0",
+  "initial_source_ids": [
+    "bio-kozma-event",
+    "bio-kozma-sri",
+    "clark-1983",
+    "clark-1994",
+    "kozma-1991",
+    "kozma-1994",
+    "mayer-2005"
+  ],
+  "required_additions": 3,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 존재와 Robert B. Kozma·Joel Russell의 공저 관계를 확인했다. 정확한 부족분 3건은 표상 설계·국제 수업 사례·국가 ICT 정책을 고르게 보강하는 후속 원논문에 우선 배정해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert B. Kozma",
+          "Joel Russell"
+        ],
+        "title": "Multimedia and Understanding: Expert and Novice Responses to Different Representations of Chemical Phenomena",
+        "year": "1997",
+        "publisher": "Journal of Research in Science Teaching (John Wiley & Sons)",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-2736%28199711%2934%3A9%3C949%3A%3AAID-TEA7%3E3.0.CO%3B2-U",
+        "identifiers": {
+          "doi": "10.1002/(SICI)1098-2736(199711)34:9<949::AID-TEA7>3.0.CO;2-U",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi",
+          "record_id": "10.1002/(SICI)1098-2736(199711)34:9<949::AID-TEA7>3.0.CO;2-U",
+          "evidence": "Crossref 레코드에서 DOI·제목·Robert B. Kozma와 Joel Russell의 공저·1997년·Journal of Research in Science Teaching 34(9), 949–968쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-kozma",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-2736%28199711%2934%3A9%3C949%3A%3AAID-TEA7%3E3.0.CO%3B2-U",
+          "locator": "출판사 서지의 저자 목록과 반복 공저자망",
+          "evidence": "출판사 서지는 Robert B. Kozma를 저자로 표시하며, 교육공학자 코즈마의 화학 표상 연구에서 반복되는 공저자 Joel Russell과 주제가 함께 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "publisher-author-and-coauthor-network",
+              "value": "Robert B. Kozma · Joel Russell · chemical representations",
+              "evidence_url": "https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-2736%28199711%2934%3A9%3C949%3A%3AAID-TEA7%3E3.0.CO%3B2-U"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "pending_manual",
+      "reason": "Crossref와 출판사 레코드에서 존재·저자 관계와 화학 표상의 물질적·사회적 매개 주제를 확인했다. 승인 3건이 정확한 부족분을 채워 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert Kozma",
+          "Elaine Chin",
+          "Joel Russell",
+          "Nancy Marx"
+        ],
+        "title": "The Roles of Representations and Tools in the Chemistry Laboratory and Their Implications for Chemistry Learning",
+        "year": "2000",
+        "publisher": "The Journal of the Learning Sciences (Lawrence Erlbaum Associates)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/S15327809JLS0902_1",
+        "identifiers": {
+          "doi": "10.1207/S15327809JLS0902_1",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-record",
+          "record_id": "10.1207/S15327809JLS0902_1",
+          "evidence": "Crossref와 Taylor & Francis 레코드에서 DOI·제목·Robert Kozma 외 3인의 공저·2000년·The Journal of the Learning Sciences 9(2), 105–143쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-kozma",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.tandfonline.com/doi/abs/10.1207/S15327809JLS0902_1",
+          "locator": "기사 저자 목록과 반복 공저자망",
+          "evidence": "출판사 레코드는 Robert Kozma를 첫 저자로 표시하고, Joel Russell을 비롯한 화학 표상 연구 공저자망과 연구 주제가 페이지의 교육공학자와 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "publisher-author-and-coauthor-network",
+              "value": "Robert Kozma · Elaine Chin · Joel Russell · Nancy Marx · chemistry representations",
+              "evidence_url": "https://www.tandfonline.com/doi/abs/10.1207/S15327809JLS0902_1"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 저자 원고에서 DOI·제목·저자 Robert B. Kozma·2003년·Learning and Instruction 13(2), 205–226쪽을 대조했다.",
+      "source_id": "kozma-2003-multiple-representations",
+      "bibliography": {
+        "authors": [
+          "Robert B. Kozma"
+        ],
+        "title": "The Material Features of Multiple Representations and Their Cognitive and Social Affordances for Science Understanding",
+        "year": "2003",
+        "publisher": "Learning and Instruction (Elsevier)",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S095947520200021X",
+        "identifiers": {
+          "doi": "10.1016/S0959-4752(02)00021-X",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-original-manuscript",
+          "record_id": "10.1016/S0959-4752(02)00021-X",
+          "evidence": "Crossref와 저자 원고에서 DOI·제목·저자 Robert B. Kozma·2003년·Learning and Instruction 13(2), 205–226쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "original_article_heading"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-kozma",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.compassproject.net/Sadhana/teaching/readings/kozma_learning_instruction.pdf",
+          "locator": "원고 첫 쪽 저자·소속과 SRI 기관 연구 기록",
+          "evidence": "원고 첫 쪽은 Robert Kozma를 저자로, Center for Technology in Learning, SRI International을 소속으로 표시하며 SRI의 교육 연구 기록도 같은 이름의 화학 표상 연구자를 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "original-article-affiliation",
+              "value": "Robert Kozma · Center for Technology in Learning · SRI International",
+              "evidence_url": "https://www.compassproject.net/Sadhana/teaching/readings/kozma_learning_instruction.pdf"
+            },
+            {
+              "kind": "official-affiliation-research-record",
+              "value": "SRI Research in Education · Robert Kozma · chemistry representations",
+              "evidence_url": "https://www.sri.com/wp-content/uploads/2022/08/A-heritage-of-innovation-Research-in-Education.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "코즈마가 과학자의 다중 표상 사용에 관한 실험·자연주의 연구를 종합하고 기술 기반 학습환경 설계 원리를 직접 제시한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "매체의 기능을 설계한다",
+        "claim": "전문 과학자는 여러 표상의 특징을 가로질러 추론하고 공유된 이해를 협상하지만 학생은 표상 간 연결에 어려움을 겪으므로, 코즈마는 연결된 다중 표상과 협력 활동을 함께 제공하는 기술 기반 환경을 설계 대상으로 제시했다.",
+        "locator": "Abstract and Conclusions, pp. 205–206, 224–225",
+        "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S095947520200021X"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 Taylor & Francis 저널 페이지에서 DOI·제목·저자 Robert B. Kozma·2003년·Journal of Research on Technology in Education 36(1), 1–14쪽을 대조했다.",
+      "source_id": "kozma-2003-classroom-practices",
+      "bibliography": {
+        "authors": [
+          "Robert B. Kozma"
+        ],
+        "title": "Technology and Classroom Practices: An International Study",
+        "year": "2003",
+        "publisher": "Journal of Research on Technology in Education (International Society for Technology in Education)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/15391523.2003.10782399",
+        "identifiers": {
+          "doi": "10.1080/15391523.2003.10782399",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-record",
+          "record_id": "10.1080/15391523.2003.10782399",
+          "evidence": "Crossref와 Taylor & Francis 저널 페이지에서 DOI·제목·저자 Robert B. Kozma·2003년·Journal of Research on Technology in Education 36(1), 1–14쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-kozma",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.tandfonline.com/doi/abs/10.1080/15391523.2003.10782399",
+          "locator": "기사 저자·소속 표시와 초록",
+          "evidence": "출판사 페이지는 Robert B. Kozma를 단독 저자로, Center for Technology in Learning, SRI International을 소속으로 표시해 페이지의 교육공학자와 동일인임을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "publisher-affiliation",
+              "value": "Robert B. Kozma · Center for Technology in Learning · SRI International",
+              "evidence_url": "https://www.tandfonline.com/doi/abs/10.1080/15391523.2003.10782399"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "코즈마가 28개국의 기술 기반 혁신 수업 174건을 분석해 교사·학생 실천과 보고된 성과의 패턴을 직접 제시한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "효과 논쟁에서 정책으로",
+        "claim": "28개국의 혁신적 기술 활용 사례 174건을 분석한 연구에서는 학생의 정보 탐색·산출물 설계·결과 발표와 교사의 구조화·조언·진행 점검이 공통적으로 나타났고, 일부 수업 실천 유형은 바람직한 학생 성과 보고와 더 자주 연관됐다.",
+        "locator": "Abstract, p. 1",
+        "evidence_url": "https://www.tandfonline.com/doi/abs/10.1080/15391523.2003.10782399"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-05",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 University of Jyväskylä JYX 원논문에서 DOI·제목·저자 Robert B. Kozma·2005년·Human Technology 1(2), 117–156쪽을 대조했다.",
+      "source_id": "kozma-2005-national-policies",
+      "bibliography": {
+        "authors": [
+          "Robert B. Kozma"
+        ],
+        "title": "National Policies That Connect ICT-Based Education Reform to Economic and Social Development",
+        "year": "2005",
+        "publisher": "Human Technology / Agora Center, University of Jyväskylä",
+        "url": "https://doi.org/10.17011/ht/urn.2005355",
+        "identifiers": {
+          "doi": "10.17011/ht/urn.2005355",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-institutional-repository",
+          "record_id": "10.17011/ht/urn.2005355; URN:NBN:fi:jyu-2005355",
+          "evidence": "Crossref와 University of Jyväskylä JYX 원논문에서 DOI·제목·저자 Robert B. Kozma·2005년·Human Technology 1(2), 117–156쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "institutional_repository_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-kozma",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://jyx.jyu.fi/bitstreams/6367d323-9df5-45ad-964b-2d25616a559e/download",
+          "locator": "p. 117 저자·소속과 초록",
+          "evidence": "JYX 원논문 첫 쪽은 Robert B. Kozma를 저자로, Center for Technology in Learning, SRI International을 소속으로 표시해 페이지의 ICT 정책 연구자와 동일인임을 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "institutional-repository-affiliation",
+              "value": "Robert B. Kozma · Center for Technology in Learning · SRI International, USA",
+              "evidence_url": "https://jyx.jyu.fi/bitstreams/6367d323-9df5-45ad-964b-2d25616a559e/download"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "코즈마가 싱가포르·핀란드·이집트 사례를 직접 비교해 ICT 교육개혁과 국가 발전정책을 연결하는 체계적 정책 틀을 제시한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "SRI와 국가 ICT 정책",
+        "claim": "싱가포르·핀란드·이집트 사례를 비교한 코즈마는 국가 발전 목표와 ICT 기반 교육개혁의 연결이 흔히 수사적 수준에 머문다고 지적하고, 교육정책을 경제·사회 발전정책 및 여러 부처의 사업과 조정하는 체계적 틀을 제안했다.",
+        "locator": "Abstract, p. 117; policy coordination discussion, pp. 149–153",
+        "evidence_url": "https://doi.org/10.17011/ht/urn.2005355"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-06",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary ISBN 조회로 2011년 UNESCO 편집서 자체는 확인했지만, UNESCO 원문 페이지가 403을 반환해 제안된 장 제목·장 저자·본문 위치를 독립적으로 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert B. Kozma"
+        ],
+        "title": "A Framework for ICT Policies to Transform Education",
+        "year": "2011",
+        "publisher": "UNESCO",
+        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000211842",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9789231042126",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": "openlibrary-isbn-containing-volume; unesco-page-blocked",
+          "record_id": "OL30718244M; ISBN 9789231042126",
+          "evidence": "OpenLibrary는 Transforming Education의 제목·2011년·UNESCO·ISBN·Robert B. Kozma와 Shafika Isaacs의 편집서 정보를 확인했다. 그러나 접근 가능한 레코드만으로는 제안된 개별 장 제목을 확인할 수 없고 UNESCO 원문 페이지는 403이었다.",
+          "matched_fields": [
+            "containing-volume-title",
+            "year",
+            "publisher",
+            "isbn",
+            "volume-editors",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "robert-kozma",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://unesdoc.unesco.org/ark:/48223/pf0000211842",
+          "locator": "제안된 제2장 표제와 목차—원문 접근 필요",
+          "evidence": "편집서의 Robert B. Kozma 편집자 관계는 확인했지만, 제안된 개별 장의 저자란과 Knowledge Ladder 본문을 접근 가능한 원문에서 확인하지 못했다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "kozma-2003-classroom-practices",
+    "kozma-2003-multiple-representations",
+    "kozma-2005-national-policies"
+  ],
+  "claim_map": [
+    {
+      "source_id": "kozma-2003-multiple-representations",
+      "section": "매체의 기능을 설계한다",
+      "claim": "전문 과학자는 여러 표상의 특징을 가로질러 추론하고 공유된 이해를 협상하지만 학생은 표상 간 연결에 어려움을 겪으므로, 코즈마는 연결된 다중 표상과 협력 활동을 함께 제공하는 기술 기반 환경을 설계 대상으로 제시했다.",
+      "evidence_locator": "Abstract and Conclusions, pp. 205–206, 224–225"
+    },
+    {
+      "source_id": "kozma-2003-classroom-practices",
+      "section": "효과 논쟁에서 정책으로",
+      "claim": "28개국의 혁신적 기술 활용 사례 174건을 분석한 연구에서는 학생의 정보 탐색·산출물 설계·결과 발표와 교사의 구조화·조언·진행 점검이 공통적으로 나타났고, 일부 수업 실천 유형은 바람직한 학생 성과 보고와 더 자주 연관됐다.",
+      "evidence_locator": "Abstract, p. 1"
+    },
+    {
+      "source_id": "kozma-2005-national-policies",
+      "section": "SRI와 국가 ICT 정책",
+      "claim": "싱가포르·핀란드·이집트 사례를 비교한 코즈마는 국가 발전 목표와 ICT 기반 교육개혁의 연결이 흔히 수사적 수준에 머문다고 지적하고, 교육정책을 경제·사회 발전정책 및 여러 부처의 사업과 조정하는 체계적 틀을 제안했다.",
+      "evidence_locator": "Abstract, p. 117; policy coordination discussion, pp. 149–153"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/robert-kozma.md:45|kozma-1991|1994|1991",
+        "file": "wiki/pioneers/robert-kozma.md",
+        "line": 45,
+        "claimYear": 1994,
+        "sourceId": "kozma-1991",
+        "sourceYear": 1991,
+        "decision": "valid-context",
+        "reason": "1994년은 클라크–코즈마 논쟁의 후속 반론 시점을 가리키고, 1991년 원논문은 논쟁의 초기 문제 제기를 함께 설명하는 정상적인 혼합 인용이다."
+      }
+    ],
+    "incomparable": []
+  }
+}

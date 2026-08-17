@@ -6,9 +6,9 @@ role: 교육공학자 · 미디어·ICT 정책 연구자
 life: 생년 미확인—현재
 concepts: [매체 어포던스, 표상, Clark–Kozma 논쟁, ICT 교육정책]
 related: ["[[debates/clark-kozma]]", "[[debates/kozma-mayer]]"]
-updated: 2026-08-14
-sources: [bio-kozma-event, bio-kozma-sri, clark-1983, clark-1994, kozma-1991, kozma-1994, mayer-2005]
-confidence: medium
+updated: 2026-08-16
+sources: [bio-kozma-event, bio-kozma-sri, clark-1983, clark-1994, kozma-1991, kozma-1994, kozma-2003-classroom-practices, kozma-2003-multiple-representations, kozma-2005-national-policies, mayer-2005]
+confidence: high
 ---
 
 ## 핵심 명제
@@ -28,9 +28,13 @@ confidence: medium
 
 코즈마에게 매체는 학습을 자동으로 향상시키는 독립 원인이 아니다. 다만 서로 다른 표상과 연산을 제공하는 매체의 기능을 교수방법과 정교하게 결합하면, 학습자가 현상을 보고 조작하고 추론하는 방식에 관여할 수 있다.[^kozma-1991][^kozma-1994]
 
+전문 과학자는 여러 표상의 특징을 가로질러 추론하고 공유된 이해를 협상하지만 학생은 표상 간 연결에 어려움을 겪으므로, 코즈마는 연결된 다중 표상과 협력 활동을 함께 제공하는 기술 기반 환경을 설계 대상으로 제시했다.[^kozma-2003-multiple-representations]
+
 ## 효과 논쟁에서 정책으로
 
 미시간대학교와 SRI International에서 그는 교육 소프트웨어와 멀티미디어 연구를 수행한 뒤, ICT 정책·교육개혁·경제사회 발전의 연결을 여러 국가와 국제기구에서 다뤘다. 이는 교실의 매체 선택을 제도와 국가 역량의 문제로 확장한 경로다.[^bio-kozma-sri][^bio-kozma-event]
+
+28개국의 혁신적 기술 활용 사례 174건을 분석한 연구에서는 학생의 정보 탐색·산출물 설계·결과 발표와 교사의 구조화·조언·진행 점검이 공통적으로 나타났고, 일부 수업 실천 유형은 바람직한 학생 성과 보고와 더 자주 연관됐다.[^kozma-2003-classroom-practices]
 
 ## 교실과 교육 소프트웨어에서 출발한 연구
 
@@ -43,6 +47,8 @@ confidence: medium
 ## SRI와 국가 ICT 정책
 
 SRI International의 Center for Technology in Learning에서 코즈마는 교수혁신과 첨단기술 연구를 이어가며 센터를 이끌었다. 이후에는 ICT 기반 교육개혁을 경제·사회 발전과 연결하는 국가 정책 연구와 자문을 여러 나라 및 UNESCO·OECD·World Bank 등과 수행했다. 이 경로는 개별 매체의 기능을 교실 설계에서 제도·정책 생태계까지 확장한다.[^bio-kozma-sri][^bio-kozma-event]
+
+싱가포르·핀란드·이집트 사례를 비교한 코즈마는 국가 발전 목표와 ICT 기반 교육개혁의 연결이 흔히 수사적 수준에 머문다고 지적하고, 교육정책을 경제·사회 발전정책 및 여러 부처의 사업과 조정하는 체계적 틀을 제안했다.[^kozma-2005-national-policies]
 
 ## 당대의 비판
 
@@ -73,4 +79,7 @@ SRI International의 Center for Technology in Learning에서 코즈마는 교수
 [^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier A · [[sources/clark-1994]]
 [^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier A · [[sources/kozma-1991]]
 [^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier A · [[sources/kozma-1994]]
+[^kozma-2003-classroom-practices]: Robert B. Kozma. (2003). Technology and Classroom Practices: An International Study. Journal of Research on Technology in Education, 36(1), 1–14. DOI: 10.1080/15391523.2003.10782399. <https://doi.org/10.1080/15391523.2003.10782399> — tier A · [[sources/kozma-2003-classroom-practices]]
+[^kozma-2003-multiple-representations]: Robert B. Kozma. (2003). The Material Features of Multiple Representations and Their Cognitive and Social Affordances for Science Understanding. Learning and Instruction, 13(2), 205–226. DOI: 10.1016/S0959-4752(02)00021-X. <https://doi.org/10.1016/S0959-4752(02)00021-X> — tier A · [[sources/kozma-2003-multiple-representations]]
+[^kozma-2005-national-policies]: Robert B. Kozma. (2005). National Policies That Connect ICT-Based Education Reform to Economic and Social Development. Human Technology, 1(2), 117–156. DOI: 10.17011/ht/urn.2005355. <https://doi.org/10.17011/ht/urn.2005355> — tier A · [[sources/kozma-2005-national-policies]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
