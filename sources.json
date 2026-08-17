@@ -7299,5 +7299,130 @@
       "doi": "10.1525/aeq.1977.8.3.05x1512d",
       "eric": "EJ168930"
     }
+  },
+  {
+    "id": "clark-1985-confounding-computing",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "클라크가 컴퓨터 기반 수업 연구에서 교수방법·내용·신규성의 혼입을 직접 분석하고 연구 해석의 한계를 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-publisher-article-record",
+        "record_id": "10.2190/HC3L-G6YD-BAK9-EQB5",
+        "evidence": "Crossref와 SAGE 논문 페이지에서 DOI·제목·저자 Richard E. Clark·1985년·Journal of Educational Computing Research 1(2), 137–148쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "publisher-abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "richard-clark",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://journals.sagepub.com/doi/10.2190/HC3L-G6YD-BAK9-EQB5",
+        "locator": "출판사 저자·소속 표시와 USC 공식 프로필",
+        "evidence": "SAGE는 Richard E. Clark를 저자로, University of Southern California를 소속으로 표시한다. USC Rossier 공식 프로필은 같은 전명·소속과 교육용 컴퓨터 비판·Learning from Media 전문 분야를 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Richard E. Clark · University of Southern California · SAGE article affiliation",
+            "evidence_url": "https://journals.sagepub.com/doi/10.2190/HC3L-G6YD-BAK9-EQB5"
+          },
+          {
+            "kind": "official-profile-expertise",
+            "value": "Richard E. Clark · USC Rossier · Learning from Media · criticism of computer use in education",
+            "evidence_url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
+          }
+        ]
+      }
+    },
+    "authors": "Richard E. Clark",
+    "title": "Confounding in Educational Computing Research",
+    "year": "1985",
+    "publisher": "Journal of Educational Computing Research, 1(2), 137–148",
+    "url": "https://doi.org/10.2190/HC3L-G6YD-BAK9-EQB5",
+    "doi": "10.2190/HC3L-G6YD-BAK9-EQB5",
+    "identifiers": {
+      "doi": "10.2190/HC3L-G6YD-BAK9-EQB5"
+    }
+  },
+  {
+    "id": "clark-salomon-1986-media-teaching",
+    "tier": "A",
+    "type": "원 장",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "클라크와 살로몬이 매체를 이용한 연구와 매체 자체의 변인을 연구하는 경우를 구분하고 비교연구의 해석 문제를 직접 종합한 공저 원 장이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition-and-original-chapter-manuscript",
+        "record_id": "OL3024541M; ISBN 9780029003107; OCLC 11785494",
+        "evidence": "OpenLibrary OL3024541M에서 1986년 Handbook of Research on Teaching 제3판·Macmillan·ISBN·OCLC를 확인하고, 장 원문 표제면의 제목·Richard E. Clark와 Gavriel Salomon 공저 및 본문을 대조했다.",
+        "matched_fields": [
+          "containing-volume-title",
+          "edition",
+          "year",
+          "publisher",
+          "isbn",
+          "openlibrary_edition",
+          "oclc",
+          "chapter-title",
+          "chapter-authors"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "richard-clark",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf",
+        "locator": "장 첫 쪽 저자·소속과 USC 공식 프로필",
+        "evidence": "장 첫 쪽은 Richard E. Clark를 저자로, University of Southern California를 소속으로 표시하고 Gavriel Salomon을 공저자로 구분한다. USC Rossier 공식 프로필의 전명·소속·Learning from Media 전문 분야가 이를 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Richard E. Clark · University of Southern California · original chapter title page",
+            "evidence_url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf"
+          },
+          {
+            "kind": "original-chapter-coauthor-network",
+            "value": "Richard E. Clark · Gavriel Salomon · Media in Teaching",
+            "evidence_url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf"
+          },
+          {
+            "kind": "official-profile-expertise",
+            "value": "Richard E. Clark · USC Rossier · Learning from Media · educational technology",
+            "evidence_url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
+          }
+        ]
+      }
+    },
+    "authors": "Richard E. Clark; Gavriel Salomon",
+    "title": "Media in Teaching",
+    "year": "1986",
+    "publisher": "Handbook of Research on Teaching, 3rd ed., Macmillan, 464–478",
+    "url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf",
+    "isbn": "9780029003107",
+    "openlibrary_edition": "OL3024541M",
+    "oclc": "11785494",
+    "identifiers": {
+      "isbn": "9780029003107",
+      "openlibrary_edition": "OL3024541M",
+      "oclc": "11785494"
+    }
   }
 ]

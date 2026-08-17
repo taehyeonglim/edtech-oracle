@@ -6,8 +6,8 @@ role: 교육심리학자 · 미디어 연구자
 life: 1940—현재
 concepts: [매체 효과, 방법-매체 구분, 증거기반설계, 인과 추론]
 related: ["[[debates/gilbert-clark]]", "[[debates/clark-kozma]]", "[[debates/clark-mayer]]"]
-updated: 2026-08-14
-sources: [bio-clark-interview, bio-clark-usc, clark-1983, clark-1994, gilbert-1978, kozma-1991, kozma-1994, mayer-2005]
+updated: 2026-08-16
+sources: [bio-clark-interview, bio-clark-usc, clark-1983, clark-1985-confounding-computing, clark-1994, clark-salomon-1986-media-teaching, gilbert-1978, kozma-1991, kozma-1994, mayer-2005]
 confidence: high
 ---
 
@@ -28,9 +28,13 @@ confidence: high
 
 클라크의 주장은 기술이 아무 가치도 없다는 뜻이 아니다. 같은 교수방법을 여러 매체로 구현할 수 있다면 학습성과의 원인은 매체가 아니라 방법이라는 인과적 구분이며, 매체 선택은 비용·접근성·속도에 큰 영향을 줄 수 있다.[^clark-1983][^clark-1994]
 
+클라크와 살로몬은 매체를 교수처치의 전달 수단으로 사용하는 연구와 매체에 고유한 변인을 조사하는 연구를 구분하고, 전자의 처치 효과를 매체 효과로 해석하는 오류를 지적했다.[^clark-salomon-1986-media-teaching]
+
 ## 논쟁이 남긴 연구 설계
 
 매체를 사용한 집단과 사용하지 않은 집단을 비교하는 것만으로는 매체의 효과를 말하기 어렵다. 내용, 교수전략, 학습시간과 교사의 지원이 함께 변했는지 검토해야 한다. 코즈마와의 논쟁은 가능성에 대한 설계 질문과 인과효과에 대한 검증 질문을 분리하게 했다.[^clark-1994][^kozma-1994]
+
+클라크는 컴퓨터 기반 수업에서 나타난 학습·수행 변화가 통제되지 않은 교수방법·내용·신규성의 차이로도 설명될 수 있으므로, 이를 컴퓨터라는 매체의 효과로 곧바로 귀속할 수 없다고 지적했다.[^clark-1985-confounding-computing]
 
 ## 방송 실무에서 교육공학 연구로
 
@@ -71,7 +75,9 @@ confidence: high
 [^bio-clark-interview]: Daniel H. Robinson; Robert A. Bligh. (2016). An Interview with Richard E. Clark. Educational Psychology Review, 28. DOI: 10.1007/s10648-015-9341-3. <https://doi.org/10.1007/s10648-015-9341-3> — tier A · [[sources/bio-clark-interview]]
 [^bio-clark-usc]: USC Rossier School of Education. Richard E. Clark — Emeritus Professor. University of Southern California. <https://rossier.usc.edu/faculty-research/directory/richard-clark> — tier B · [[sources/bio-clark-usc]]
 [^clark-1983]: Richard E. Clark. (1983). Reconsidering Research on Learning from Media. Review of Educational Research, 53(4). DOI: 10.3102/00346543053004445. <https://doi.org/10.3102/00346543053004445> — tier A · [[sources/clark-1983]]
+[^clark-1985-confounding-computing]: Richard E. Clark. (1985). Confounding in Educational Computing Research. Journal of Educational Computing Research, 1(2), 137–148. DOI: 10.2190/HC3L-G6YD-BAK9-EQB5. <https://doi.org/10.2190/HC3L-G6YD-BAK9-EQB5> — tier A · [[sources/clark-1985-confounding-computing]]
 [^clark-1994]: Richard E. Clark. (1994). Media Will Never Influence Learning. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299088. <https://doi.org/10.1007/BF02299088> — tier A · [[sources/clark-1994]]
+[^clark-salomon-1986-media-teaching]: Richard E. Clark; Gavriel Salomon. (1986). Media in Teaching. Handbook of Research on Teaching, 3rd ed., Macmillan, 464–478. <https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf> — tier A · [[sources/clark-salomon-1986-media-teaching]]
 [^gilbert-1978]: Thomas F. Gilbert. (1978). Human Competence: Engineering Worthy Performance. McGraw-Hill. <https://agris.fao.org/search/en/providers/122535/records/65ddd7cd0f3e94b9e5c5db55> — tier A · [[sources/gilbert-1978]]
 [^kozma-1991]: Robert B. Kozma. (1991). Learning with Media. Review of Educational Research, 61(2). DOI: 10.3102/00346543061002179. <https://doi.org/10.3102/00346543061002179> — tier A · [[sources/kozma-1991]]
 [^kozma-1994]: Robert B. Kozma. (1994). Will Media Influence Learning? Reframing the Debate. Educational Technology Research and Development, 42(2). DOI: 10.1007/BF02299087. <https://doi.org/10.1007/BF02299087> — tier A · [[sources/kozma-1994]]

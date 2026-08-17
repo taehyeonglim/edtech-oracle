@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "slug": "richard-clark",
+  "base_commit": "8ef4651c986d15ece81ee3b8c0adeb3a542a0d6b",
+  "initial_source_ids": [
+    "bio-clark-interview",
+    "bio-clark-usc",
+    "clark-1983",
+    "clark-1994",
+    "gilbert-1978",
+    "kozma-1991",
+    "kozma-1994",
+    "mayer-2005"
+  ],
+  "required_additions": 2,
+  "candidates": [
+    {
+      "candidate_key": "rc-candidate-a",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 SAGE 논문 페이지에서 DOI·제목·저자 Richard E. Clark·1985년·Journal of Educational Computing Research 1(2), 137–148쪽을 대조했다.",
+      "source_id": "clark-1985-confounding-computing",
+      "bibliography": {
+        "authors": [
+          "Richard E. Clark"
+        ],
+        "title": "Confounding in Educational Computing Research",
+        "year": "1985",
+        "publisher": "SAGE Publications, Journal of Educational Computing Research",
+        "url": "https://journals.sagepub.com/doi/10.2190/HC3L-G6YD-BAK9-EQB5",
+        "identifiers": {
+          "doi": "10.2190/HC3L-G6YD-BAK9-EQB5",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-article-record",
+          "record_id": "10.2190/HC3L-G6YD-BAK9-EQB5",
+          "evidence": "Crossref와 SAGE 논문 페이지에서 DOI·제목·저자 Richard E. Clark·1985년·Journal of Educational Computing Research 1(2), 137–148쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "publisher-abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "richard-clark",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://journals.sagepub.com/doi/10.2190/HC3L-G6YD-BAK9-EQB5",
+          "locator": "출판사 저자·소속 표시와 USC 공식 프로필",
+          "evidence": "SAGE는 Richard E. Clark를 저자로, University of Southern California를 소속으로 표시한다. USC Rossier 공식 프로필은 같은 전명·소속과 교육용 컴퓨터 비판·Learning from Media 전문 분야를 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Richard E. Clark · University of Southern California · SAGE article affiliation",
+              "evidence_url": "https://journals.sagepub.com/doi/10.2190/HC3L-G6YD-BAK9-EQB5"
+            },
+            {
+              "kind": "official-profile-expertise",
+              "value": "Richard E. Clark · USC Rossier · Learning from Media · criticism of computer use in education",
+              "evidence_url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "클라크가 컴퓨터 기반 수업 연구에서 교수방법·내용·신규성의 혼입을 직접 분석하고 연구 해석의 한계를 제시한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "논쟁이 남긴 연구 설계",
+        "claim": "클라크는 컴퓨터 기반 수업에서 나타난 학습·수행 변화가 통제되지 않은 교수방법·내용·신규성의 차이로도 설명될 수 있으므로, 이를 컴퓨터라는 매체의 효과로 곧바로 귀속할 수 없다고 지적했다.",
+        "locator": "Abstract",
+        "evidence_url": "https://journals.sagepub.com/doi/10.2190/HC3L-G6YD-BAK9-EQB5"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "rc-candidate-b",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary OL3024541M에서 1986년 Handbook of Research on Teaching 제3판·Macmillan·ISBN·OCLC를 확인하고, 장 원문 표제면의 제목·Richard E. Clark와 Gavriel Salomon 공저 및 본문을 대조했다.",
+      "source_id": "clark-salomon-1986-media-teaching",
+      "bibliography": {
+        "authors": [
+          "Richard E. Clark",
+          "Gavriel Salomon"
+        ],
+        "title": "Media in Teaching",
+        "year": "1986",
+        "publisher": "Macmillan, in Handbook of Research on Teaching, 3rd ed.",
+        "url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780029003107",
+          "eric": null,
+          "openlibrary_edition": "OL3024541M",
+          "oclc": "11785494"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-original-chapter-manuscript",
+          "record_id": "OL3024541M; ISBN 9780029003107; OCLC 11785494",
+          "evidence": "OpenLibrary OL3024541M에서 1986년 Handbook of Research on Teaching 제3판·Macmillan·ISBN·OCLC를 확인하고, 장 원문 표제면의 제목·Richard E. Clark와 Gavriel Salomon 공저 및 본문을 대조했다.",
+          "matched_fields": [
+            "containing-volume-title",
+            "edition",
+            "year",
+            "publisher",
+            "isbn",
+            "openlibrary_edition",
+            "oclc",
+            "chapter-title",
+            "chapter-authors"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "richard-clark",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf",
+          "locator": "장 첫 쪽 저자·소속과 USC 공식 프로필",
+          "evidence": "장 첫 쪽은 Richard E. Clark를 저자로, University of Southern California를 소속으로 표시하고 Gavriel Salomon을 공저자로 구분한다. USC Rossier 공식 프로필의 전명·소속·Learning from Media 전문 분야가 이를 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Richard E. Clark · University of Southern California · original chapter title page",
+              "evidence_url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf"
+            },
+            {
+              "kind": "original-chapter-coauthor-network",
+              "value": "Richard E. Clark · Gavriel Salomon · Media in Teaching",
+              "evidence_url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf"
+            },
+            {
+              "kind": "official-profile-expertise",
+              "value": "Richard E. Clark · USC Rossier · Learning from Media · educational technology",
+              "evidence_url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "클라크와 살로몬이 매체를 이용한 연구와 매체 자체의 변인을 연구하는 경우를 구분하고 비교연구의 해석 문제를 직접 종합한 공저 원 장이다."
+      },
+      "claim_seed": {
+        "section": "배달 수단과 교수방법",
+        "claim": "클라크와 살로몬은 매체를 교수처치의 전달 수단으로 사용하는 연구와 매체에 고유한 변인을 조사하는 연구를 구분하고, 전자의 처치 효과를 매체 효과로 해석하는 오류를 지적했다.",
+        "locator": "PDF pp. 2–3, ‘Media Comparison Studies’",
+        "evidence_url": "https://eppicinc.files.wordpress.com/2012/11/media-in-teaching.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "rc-candidate-c",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 DOI·공저자·서지를, 원문 초록에서 네 가지 매체 논쟁 축과 결론을 확인하고 USC 공식 프로필·공저자망으로 동일인도 교차 식별했다. 정확한 부족분 2건을 더 직접적인 원문 접근성이 있는 1985·1986년 저작에 우선 배정해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Richard E. Clark",
+          "Brenda M. Sugrue"
+        ],
+        "title": "North American Disputes About Research on Learning from Media",
+        "year": "1990",
+        "publisher": "Elsevier, International Journal of Educational Research",
+        "url": "https://www.sciencedirect.com/science/article/pii/088303559090021Y",
+        "identifiers": {
+          "doi": "10.1016/0883-0355(90)90021-Y",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-record",
+          "record_id": "10.1016/0883-0355(90)90021-Y",
+          "evidence": "Crossref에서 DOI·제목·Richard E. Clark와 Brenda M. Sugrue의 공저·1990년·International Journal of Educational Research 14(6), 507–520쪽을 확인하고 Elsevier PII 레코드와 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "pii"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "richard-clark",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.1016%2F0883-0355(90)90021-Y",
+          "locator": "Crossref 저자·공저자와 USC 공식 프로필",
+          "evidence": "Crossref는 Richard E. Clark와 Brenda M. Sugrue를 공저자로 표시한다. USC Rossier 공식 프로필의 전명·소속·Learning from Media 전문 분야와 저자 공개 원고의 USC 소속이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Richard E. Clark · USC Rossier · Learning from Media · educational technology",
+              "evidence_url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
+            },
+            {
+              "kind": "publisher-author-coauthor-network",
+              "value": "Richard E. Clark · Brenda M. Sugrue · North American media disputes",
+              "evidence_url": "https://api.crossref.org/works/10.1016%2F0883-0355(90)90021-Y"
+            },
+            {
+              "kind": "author-manuscript-affiliation",
+              "value": "Richard Edward Clark · University of Southern California · author-uploaded article",
+              "evidence_url": "https://www.researchgate.net/publication/271997630_North_American_disputes_about_research_on_learning_from_media"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "rc-candidate-d",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary 판본과 Google Books 서지·목차에서 2001년 선집의 존재와 Richard E. Clark의 편집자 관계를 확인하고 USC 공식 프로필의 동명 도서 기록으로 교차 식별했다. 승인 2건이 정확한 부족분을 채워 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Richard E. Clark (editor)"
+        ],
+        "title": "Learning from Media: Arguments, Analysis, and Evidence",
+        "year": "2001",
+        "publisher": "Information Age Publishing",
+        "url": "https://openlibrary.org/books/OL8799978M/Learning_From_Media",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9781930608764",
+          "eric": null,
+          "openlibrary_edition": "OL8799978M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-google-books-record",
+          "record_id": "OL8799978M; ISBN 9781930608764",
+          "evidence": "OpenLibrary OL8799978M에서 제목·2001년·Information Age Publishing·ISBN을 확인하고 Google Books의 2001년 판 서지·373쪽·목차와 대조했다.",
+          "matched_fields": [
+            "title",
+            "year",
+            "publisher",
+            "isbn",
+            "openlibrary_edition",
+            "editor",
+            "table-of-contents"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "richard-clark",
+          "kind": "authored_by",
+          "person_role": "editor",
+          "evidence_url": "https://books.google.com/books?id=KfwnDwAAQBAJ",
+          "locator": "Google Books 편집자 필드·목차와 USC 공식 도서 목록",
+          "evidence": "Google Books는 Richard E. Clark를 2001년 판 편집자로 명시하고, USC Rossier 공식 프로필은 같은 전명의 교수에게 Learning from Media 저작과 매체 연구 전문성을 귀속한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Richard E. Clark · USC Rossier · Learning from Media listed book",
+              "evidence_url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
+            },
+            {
+              "kind": "book-editor-and-title-record",
+              "value": "Richard E. Clark · editor · Learning from Media · IAP 2001",
+              "evidence_url": "https://books.google.com/books?id=KfwnDwAAQBAJ"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "rc-candidate-e",
+      "decision": "pending_manual",
+      "reason": "Crossref·Taylor & Francis에서 서평의 존재를 확인하고 저자 원고가 Richard E. Clark 편집서와 매체 비교연구 결론을 직접 비판함을 확인했다. 정확한 부족분은 클라크 본인의 원저작 2건에 우선 배정해 후대 비평을 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Adrian Kirkwood"
+        ],
+        "title": "Learning from Media: Arguments, Analysis, and Evidence",
+        "year": "2013",
+        "publisher": "Taylor & Francis, Open Learning: The Journal of Open, Distance and e-Learning",
+        "url": "https://doi.org/10.1080/02680513.2013.832188",
+        "identifiers": {
+          "doi": "10.1080/02680513.2013.832188",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-publisher-record-and-author-manuscript",
+          "record_id": "10.1080/02680513.2013.832188",
+          "evidence": "Crossref와 Taylor & Francis에서 DOI·제목·저자 Adrian Kirkwood·2013년·Open Learning 28(2), 153–156쪽을 확인하고 저자 공개 원고와 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "author-manuscript"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "richard-clark",
+          "kind": "criticizes",
+          "person_role": null,
+          "evidence_url": "https://www.researchgate.net/publication/263191910_Learning_from_media_arguments_analysis_and_evidence",
+          "locator": "저자 원고 pp. 1–3, 제목·서론·The Core Problem",
+          "evidence": "원고는 Richard E. Clark 편집의 Learning from Media 제2판을 서평 대상으로 명시하고, 비교연구의 제한된 증거에서 포괄적 매체 결론을 이끌어낸 점을 직접 비판한다. USC 공식 프로필의 동명 도서·전문 분야가 비평 대상을 교차 식별한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Richard E. Clark · USC Rossier · Learning from Media listed book",
+              "evidence_url": "https://rossier.usc.edu/faculty-research/directory/richard-clark"
+            },
+            {
+              "kind": "reviewed-volume-editor-and-title",
+              "value": "Richard E. Clark (ed.) · Learning from Media, 2nd ed. · ISBN 9781617358104",
+              "evidence_url": "https://www.researchgate.net/publication/263191910_Learning_from_media_arguments_analysis_and_evidence"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "clark-1985-confounding-computing",
+    "clark-salomon-1986-media-teaching"
+  ],
+  "claim_map": [
+    {
+      "source_id": "clark-1985-confounding-computing",
+      "section": "논쟁이 남긴 연구 설계",
+      "claim": "클라크는 컴퓨터 기반 수업에서 나타난 학습·수행 변화가 통제되지 않은 교수방법·내용·신규성의 차이로도 설명될 수 있으므로, 이를 컴퓨터라는 매체의 효과로 곧바로 귀속할 수 없다고 지적했다.",
+      "evidence_locator": "Abstract"
+    },
+    {
+      "source_id": "clark-salomon-1986-media-teaching",
+      "section": "배달 수단과 교수방법",
+      "claim": "클라크와 살로몬은 매체를 교수처치의 전달 수단으로 사용하는 연구와 매체에 고유한 변인을 조사하는 연구를 구분하고, 전자의 처치 효과를 매체 효과로 해석하는 오류를 지적했다.",
+      "evidence_locator": "PDF pp. 2–3, ‘Media Comparison Studies’"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/richard-clark.md:49|clark-1983|1994|1983",
+        "file": "wiki/pioneers/richard-clark.md",
+        "line": 49,
+        "claimYear": 1994,
+        "sourceId": "clark-1983",
+        "sourceYear": 1983,
+        "decision": "valid-context",
+        "reason": "문장은 1983년 연구 종합과 1994년 논쟁 논문을 함께 설명하며, clark-1983은 앞선 연구 종합을 받치는 정상적인 혼합 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/richard-clark.md:45|bio-clark-usc|1978|none",
+        "file": "wiki/pioneers/richard-clark.md",
+        "line": 45,
+        "claimYear": 1978,
+        "sourceId": "bio-clark-usc",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-clark-usc는 발행연도가 없는 USC 공식 교수 약력이며, 1978년 USC 합류와 이후 연구 경력을 설명하는 생애 문맥에 붙은 정상적인 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/richard-clark.md:49|bio-clark-usc|1994|none",
+        "file": "wiki/pioneers/richard-clark.md",
+        "line": 49,
+        "claimYear": 1994,
+        "sourceId": "bio-clark-usc",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-clark-usc는 발행연도가 없는 공식 약력으로, 1994년 논쟁 이후 전문성·동기·수행 연구로 이어진 경력을 설명하는 문맥과 일치한다."
+      }
+    ]
+  }
+}
