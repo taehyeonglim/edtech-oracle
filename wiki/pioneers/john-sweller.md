@@ -6,9 +6,9 @@ role: 교육심리학자 · 인지부하이론 창시자
 life: 1946—
 concepts: [인지부하, 해결 예제, 주의분할, 전문성 역전]
 related: []
-updated: 2026-08-14
-sources: [bio-sweller-unsw, jonassen-2000, merrienboer-2002, sweller-1988, sweller-2011, sweller-2016-story]
-confidence: medium
+updated: 2026-08-16
+sources: [bio-sweller-unsw, chandler-sweller-1991-instruction-format, jonassen-2000, merrienboer-2002, sweller-1988, sweller-2011, sweller-2016-story, sweller-cooper-1985-worked-examples, sweller-merrienboer-paas-1998-cognitive-architecture, sweller-merrienboer-paas-2019-cognitive-architecture]
+confidence: high
 ---
 
 ## 핵심 명제
@@ -28,9 +28,13 @@ confidence: medium
 
 낯선 영역에서 목표와 현재 상태의 차이를 반복 탐색하면 작업기억이 소진될 수 있다. 완성된 예제와 단계별 설명은 해결 구조에 주의를 배분하게 해 도식 형성을 돕지만, 충분한 전문성이 생긴 뒤에는 같은 안내가 중복이 될 수 있다.[^sweller-1988][^sweller-2011]
 
+스웰러와 쿠퍼는 대수 학습을 다룬 다섯 실험에서 전통적 문제해결 탐색이 도식 습득을 지연시킨다는 가정 아래, 실험 2~5에서 해결 예제를 효과적인 문제해결 지식의 습득 수단으로 시험했다.[^sweller-cooper-1985-worked-examples]
+
 ## 부하를 줄인다는 말의 주의점
 
 인지부하이론은 모든 난이도나 도전을 제거하라는 주장이 아니다. 학습목표 자체의 복잡성은 관리하되, 흩어진 정보·중복 설명·불필요한 탐색처럼 학습에 기여하지 않는 요구를 줄이는 것이 핵심이다.[^bio-sweller-unsw][^sweller-2011]
+
+챈들러와 스웰러의 여섯 실험에서는 서로 참조하는 글과 도표의 통합이 이해에 필수일 때 통합 형식이 유리했지만, 각 정보원을 따로 이해할 수 있을 때는 그 이점이 사라졌고 불필요한 설명의 추가는 오히려 해로울 수 있었다.[^chandler-sweller-1991-instruction-format]
 
 ## 문제해결 연구에서 인지부하 이론으로
 
@@ -40,9 +44,13 @@ confidence: medium
 
 1988년 논문은 새로운 정보를 처리하는 작업기억의 한계와 장기기억의 도식 형성을 연결해 인지부하 이론을 제시했다. 학습과 직접 관련된 복잡성, 자료 표현이 불필요하게 만드는 부담, 도식 구성에 쓰이는 정신적 노력을 구분하려는 후속 논의는 예제·분할주의·중복 효과 연구로 확장되었다.[^sweller-1988][^sweller-2011]
 
+스웰러·반 메리엔보어·파스는 작업기억을 청각·언어 정보와 시각·공간 정보를 다루는 부분적으로 독립된 제한 용량 체계로, 장기기억을 자동화 정도가 다른 도식을 보유하는 사실상 무제한 체계로 정리했다.[^sweller-merrienboer-paas-1998-cognitive-architecture]
+
 ## 전문성에 따라 달라지는 설계 원리
 
 인지부하 이론은 화면을 무조건 단순하게 만들라는 미학적 규칙이 아니다. 과제의 요소 상호작용, 학습자의 사전지식, 정보의 시간적·공간적 배치를 함께 분석해야 한다. 초보자에게 도움이 되는 완성 예제가 전문가에게는 불필요할 수 있다는 전문성 역전 효과는 설계 원리가 학습자 상태에 따라 달라진다는 점을 보여준다.[^bio-sweller-unsw][^sweller-2011]
+
+20년 후의 재검토는 모든 새 정보가 용량과 지속시간이 제한된 작업기억에서 먼저 처리되지만, 장기기억에 저장된 뒤에는 그 한계가 사라져 수행 능력을 바꾼다고 정리했다.[^sweller-merrienboer-paas-2019-cognitive-architecture]
 
 ## 당대의 비판
 
@@ -63,8 +71,12 @@ confidence: medium
 - **2011** Cognitive Load Theory — 30여 년의 연구와 교수설계 효과를 연구서로 종합했다.[^sweller-2011]
 
 [^bio-sweller-unsw]: School of Education. Emeritus Professor John Sweller. UNSW Sydney. <https://www.unsw.edu.au/staff/john-sweller> — tier B · [[sources/bio-sweller-unsw]]
+[^chandler-sweller-1991-instruction-format]: Paul Chandler; John Sweller. (1991). Cognitive Load Theory and the Format of Instruction. Cognition and Instruction, 8(4), 293–332. DOI: 10.1207/s1532690xci0804_2. <https://doi.org/10.1207/s1532690xci0804_2> — tier A · [[sources/chandler-sweller-1991-instruction-format]]
 [^jonassen-2000]: David H. Jonassen. (2000). Toward a Design Theory of Problem Solving. Educational Technology Research and Development, 48. DOI: 10.1007/BF02300500. <https://doi.org/10.1007/BF02300500> — tier A · [[sources/jonassen-2000]]
 [^merrienboer-2002]: Jeroen J. G. van Merriënboer; Richard E. Clark; Marcel B. M. de Croock. (2002). Blueprints for Complex Learning: The 4C/ID-model. Educational Technology Research and Development, 50(2). DOI: 10.1007/BF02504993. <https://doi.org/10.1007/BF02504993> — tier A · [[sources/merrienboer-2002]]
 [^sweller-1988]: John Sweller. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2). DOI: 10.1207/s15516709cog1202_4. <https://doi.org/10.1207/s15516709cog1202_4> — tier A · [[sources/sweller-1988]]
 [^sweller-2011]: John Sweller; Paul Ayres; Slava Kalyuga. (2011). Cognitive Load Theory. Springer. DOI: 10.1007/978-1-4419-8126-4. <https://doi.org/10.1007/978-1-4419-8126-4> — tier B · [[sources/sweller-2011]]
 [^sweller-2016-story]: John Sweller. (2016). Story of a Research Program. Education Review, 23. DOI: 10.14507/er.v23.2025. <https://doi.org/10.14507/er.v23.2025> — tier A · [[sources/sweller-2016-story]]
+[^sweller-cooper-1985-worked-examples]: John Sweller; Graham A. Cooper. (1985). The Use of Worked Examples as a Substitute for Problem Solving in Learning Algebra. Cognition and Instruction, 2(1), 59–89. DOI: 10.1207/s1532690xci0201_3. <https://doi.org/10.1207/s1532690xci0201_3> — tier A · [[sources/sweller-cooper-1985-worked-examples]]
+[^sweller-merrienboer-paas-1998-cognitive-architecture]: John Sweller; Jeroen J. G. van Merrienboer; Fred G. W. C. Paas. (1998). Cognitive Architecture and Instructional Design. Educational Psychology Review, 10(3), 251–296. DOI: 10.1023/A:1022193728205. <https://doi.org/10.1023/A:1022193728205> — tier A · [[sources/sweller-merrienboer-paas-1998-cognitive-architecture]]
+[^sweller-merrienboer-paas-2019-cognitive-architecture]: John Sweller; Jeroen J. G. van Merriënboer; Fred Paas. (2019). Cognitive Architecture and Instructional Design: 20 Years Later. Educational Psychology Review, 31(2), 261–292. DOI: 10.1007/s10648-019-09465-5. <https://doi.org/10.1007/s10648-019-09465-5> — tier A · [[sources/sweller-merrienboer-paas-2019-cognitive-architecture]]

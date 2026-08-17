@@ -1,0 +1,601 @@
+{
+  "schema_version": 1,
+  "slug": "john-sweller",
+  "base_commit": "11ea3ebae4c192d71ed56dc6d01d9365999ce935",
+  "initial_source_ids": [
+    "bio-sweller-unsw",
+    "jonassen-2000",
+    "merrienboer-2002",
+    "sweller-1988",
+    "sweller-2011",
+    "sweller-2016-story"
+  ],
+  "required_additions": 4,
+  "candidates": [
+    {
+      "candidate_key": "cand-worked-examples-algebra-1985",
+      "decision": "approved",
+      "reason": "Crossref와 OpenAIRE에서 실재·서지를 확인하고 저자란을 UNSW 공식 프로필과 대조했으며, 대수 학습 다섯 실험의 연구 가정을 초록에서 직접 확인했다.",
+      "source_id": "sweller-cooper-1985-worked-examples",
+      "bibliography": {
+        "authors": [
+          "John Sweller",
+          "Graham A. Cooper"
+        ],
+        "title": "The Use of Worked Examples as a Substitute for Problem Solving in Learning Algebra",
+        "year": "1985",
+        "publisher": "Cognition and Instruction (Lawrence Erlbaum Associates)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/s1532690xci0201_3",
+        "identifiers": {
+          "doi": "10.1207/s1532690xci0201_3",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-openaire-record",
+          "record_id": "10.1207/s1532690xci0201_3",
+          "evidence": "Crossref와 OpenAIRE에서 DOI·제목·저자 John Sweller와 Graham A. Cooper·1985년·Cognition and Instruction 2(1), 59–89쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "openaire_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-sweller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1207%2Fs1532690xci0201_3",
+          "locator": "저자 메타데이터와 UNSW 공식 프로필",
+          "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-profile-and-field",
+              "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+              "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "스웰러와 쿠퍼가 해결 예제와 대수 문제해결의 학습 효과를 직접 실험한 본인 공저 원논문이다."
+      },
+      "claim_seed": {
+        "section": "초보자에게 해결 예제가 필요한 이유",
+        "claim": "스웰러와 쿠퍼는 대수 학습을 다룬 다섯 실험에서 전통적 문제해결 탐색이 도식 습득을 지연시킨다는 가정을 세우고, 실험 2~5에서 해결 예제를 효과적인 문제해결 지식의 습득 수단으로 시험했다.",
+        "locator": "OpenAIRE 초록 첫째–넷째 문장",
+        "evidence_url": "https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1207%2Fs1532690xci0201_3"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-schema-automation-transfer-1987",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 실재와 공저 관계를 확인했지만 APA 원문 페이지가 403을 반환했고, 이번 4건에서는 1985년 해결 예제 실험이 같은 기존 섹션을 더 직접적으로 보강하므로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Graham Cooper",
+          "John Sweller"
+        ],
+        "title": "Effects of Schema Acquisition and Rule Automation on Mathematical Problem-Solving Transfer",
+        "year": "1987",
+        "publisher": "Journal of Educational Psychology (American Psychological Association)",
+        "url": "https://doi.org/10.1037/0022-0663.79.4.347",
+        "identifiers": {
+          "doi": "10.1037/0022-0663.79.4.347",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-record",
+          "record_id": "10.1037/0022-0663.79.4.347",
+          "evidence": "Crossref에서 DOI·제목·저자 Graham Cooper와 John Sweller·1987년·Journal of Educational Psychology 79(4), 347–362을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-sweller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.1037%2F0022-0663.79.4.347",
+          "locator": "저자 메타데이터와 UNSW 공식 프로필",
+          "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-profile-and-field",
+              "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+              "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-instruction-format-1991",
+      "decision": "approved",
+      "reason": "Crossref와 University of Wollongong 기관 저장소에서 실재·서지·공저 관계를 확인하고, 여섯 실험의 조건별 결과를 저장소 초록에서 직접 확인했다.",
+      "source_id": "chandler-sweller-1991-instruction-format",
+      "bibliography": {
+        "authors": [
+          "Paul Chandler",
+          "John Sweller"
+        ],
+        "title": "Cognitive Load Theory and the Format of Instruction",
+        "year": "1991",
+        "publisher": "Cognition and Instruction (Lawrence Erlbaum Associates)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/s1532690xci0804_2",
+        "identifiers": {
+          "doi": "10.1207/s1532690xci0804_2",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-university-repository",
+          "record_id": "10.1207/s1532690xci0804_2",
+          "evidence": "Crossref와 University of Wollongong 기관 저장소에서 DOI·제목·저자 Paul Chandler와 John Sweller·1991년·Cognition and Instruction 8(4), 293–332쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "university_repository"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-sweller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://ro.uow.edu.au/articles/journal_contribution/Cognitive_Load_Theory_and_the_Format_of_Instruction/27778410",
+          "locator": "저자 메타데이터와 UNSW 공식 프로필",
+          "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-profile-and-field",
+              "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+              "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "챈들러와 스웰러가 정보 통합·주의분할·불필요한 설명의 효과를 여섯 실험으로 직접 검증한 본인 공저 원논문이다."
+      },
+      "claim_seed": {
+        "section": "부하를 줄인다는 말의 주의점",
+        "claim": "챈들러와 스웰러의 여섯 실험에서는 서로 참조하는 글과 도표의 통합이 이해에 필수일 때 통합 형식이 유리했지만, 각 정보원을 따로 이해할 수 있을 때는 그 이점이 사라졌고 불필요한 설명의 추가는 오히려 해로울 수 있었다.",
+        "locator": "University of Wollongong 저장소 초록의 Experiments 1–6 결과",
+        "evidence_url": "https://ro.uow.edu.au/articles/journal_contribution/Cognitive_Load_Theory_and_the_Format_of_Instruction/27778410"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-material-difficulty-1994",
+      "decision": "pending_manual",
+      "reason": "Crossref와 ERIC에서 실재·공저 관계를 확인했지만, 요소 상호작용 주장은 선정한 1998년 인지구조 종합과 범위가 겹쳐 정확한 할당량 밖 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "John Sweller",
+          "Paul Chandler"
+        ],
+        "title": "Why Some Material Is Difficult to Learn",
+        "year": "1994",
+        "publisher": "Cognition and Instruction (Lawrence Erlbaum Associates)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/s1532690xci1203_1",
+        "identifiers": {
+          "doi": "10.1207/s1532690xci1203_1",
+          "isbn": null,
+          "eric": "EJ488480",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric-record",
+          "record_id": "10.1207/s1532690xci1203_1",
+          "evidence": "Crossref와 ERIC에서 DOI·제목·저자 John Sweller와 Paul Chandler·1994년·Cognition and Instruction 12(3), 185–233을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "eric_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-sweller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ488480",
+          "locator": "저자 메타데이터와 UNSW 공식 프로필",
+          "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-profile-and-field",
+              "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+              "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-cognitive-architecture-1998",
+      "decision": "approved",
+      "reason": "Crossref와 Springer 출판사 레코드에서 실재·서지·세 저자를 확인하고, 작업기억·장기기억 구조의 요약을 출판사 초록에서 직접 확인했다.",
+      "source_id": "sweller-merrienboer-paas-1998-cognitive-architecture",
+      "bibliography": {
+        "authors": [
+          "John Sweller",
+          "Jeroen J. G. van Merriënboer",
+          "Fred G. W. C. Paas"
+        ],
+        "title": "Cognitive Architecture and Instructional Design",
+        "year": "1998",
+        "publisher": "Educational Psychology Review (Plenum Publishing Corporation)",
+        "url": "https://link.springer.com/article/10.1023/A:1022193728205",
+        "identifiers": {
+          "doi": "10.1023/A:1022193728205",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-abstract",
+          "record_id": "10.1023/A:1022193728205",
+          "evidence": "Crossref와 Springer에서 DOI·제목·저자 John Sweller, Jeroen J. G. van Merrienboer, Fred G. W. C. Paas·1998년·Educational Psychology Review 10(3), 251–296쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "publisher_abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-sweller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://link.springer.com/article/10.1023/A:1022193728205",
+          "locator": "저자 메타데이터와 UNSW 공식 프로필",
+          "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-profile-and-field",
+              "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+              "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "스웰러와 공동저자들이 인지부하이론의 인지구조와 그로부터 도출된 교수설계를 직접 종합한 본인 공저 원논문이다."
+      },
+      "claim_seed": {
+        "section": "제한된 작업기억을 설계 조건으로",
+        "claim": "스웰러·반 메리엔보어·파스는 작업기억을 청각·언어 정보와 시각·공간 정보를 다루는 부분적으로 독립된 제한 용량 체계로, 장기기억을 자동화 정도가 다른 도식을 보유하는 사실상 무제한 체계로 정리했다.",
+        "locator": "Springer 초록 둘째 문장",
+        "evidence_url": "https://link.springer.com/article/10.1023/A:1022193728205"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-expertise-reversal-2003",
+      "decision": "pending_manual",
+      "reason": "Crossref에서 실재·공저 관계를 확인했으나 출판사 페이지가 403을 반환했고, 페이지에 이미 전문성 역전 효과가 등재 출처로 서술되어 있어 새 DOI 4건의 중복 없는 주장 묶음에서는 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Slava Kalyuga",
+          "Paul Ayres",
+          "Paul Chandler",
+          "John Sweller"
+        ],
+        "title": "The Expertise Reversal Effect",
+        "year": "2003",
+        "publisher": "Educational Psychologist (Lawrence Erlbaum Associates)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/S15326985EP3801_4",
+        "identifiers": {
+          "doi": "10.1207/S15326985EP3801_4",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-record",
+          "record_id": "10.1207/S15326985EP3801_4",
+          "evidence": "Crossref에서 DOI·제목·저자 Slava Kalyuga, Paul Ayres, Paul Chandler, John Sweller·2003년·Educational Psychologist 38(1), 23–31을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-sweller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://api.crossref.org/works/10.1207%2FS15326985EP3801_4",
+          "locator": "저자 메타데이터와 UNSW 공식 프로필",
+          "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-profile-and-field",
+              "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+              "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-minimal-guidance-2006",
+      "decision": "pending_manual",
+      "reason": "Crossref와 ERIC에서 실재·공저 관계 및 최소 안내를 직접 다루는 초록을 확인했지만, 이번에는 해결 예제·제시 형식·인지구조·20년 변화의 네 축을 우선해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Paul A. Kirschner",
+          "John Sweller",
+          "Richard E. Clark"
+        ],
+        "title": "Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching",
+        "year": "2006",
+        "publisher": "Educational Psychologist (Lawrence Erlbaum Associates)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1",
+        "identifiers": {
+          "doi": "10.1207/s15326985ep4102_1",
+          "isbn": null,
+          "eric": "EJ736299",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-eric-record",
+          "record_id": "10.1207/s15326985ep4102_1",
+          "evidence": "Crossref와 ERIC에서 DOI·제목·저자 Paul A. Kirschner, John Sweller, Richard E. Clark·2006년·Educational Psychologist 41(2), 75–86을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "eric_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-sweller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ736299",
+          "locator": "저자 메타데이터와 UNSW 공식 프로필",
+          "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-profile-and-field",
+              "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+              "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-cognitive-architecture-20-years-2019",
+      "decision": "approved",
+      "reason": "Crossref·Springer·Erasmus University 연구정보에서 실재·서지·세 저자를 확인하고, 새 정보가 작업기억에서 장기기억으로 저장될 때의 변화를 출판사 초록에서 직접 확인했다.",
+      "source_id": "sweller-merrienboer-paas-2019-cognitive-architecture",
+      "bibliography": {
+        "authors": [
+          "John Sweller",
+          "Jeroen J. G. van Merriënboer",
+          "Fred Paas"
+        ],
+        "title": "Cognitive Architecture and Instructional Design: 20 Years Later",
+        "year": "2019",
+        "publisher": "Educational Psychology Review (Springer Nature)",
+        "url": "https://link.springer.com/article/10.1007/s10648-019-09465-5",
+        "identifiers": {
+          "doi": "10.1007/s10648-019-09465-5",
+          "isbn": null,
+          "eric": "EJ1217401",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-publisher-and-university-record",
+          "record_id": "10.1007/s10648-019-09465-5",
+          "evidence": "Crossref·출판사·대학 연구정보 레코드에서 DOI·제목·저자 John Sweller, Jeroen J. G. van Merriënboer, Fred Paas·2019년·Educational Psychology Review 31(2), 261–292쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "authors",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "publisher_abstract",
+            "university_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "john-sweller",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://link.springer.com/article/10.1007/s10648-019-09465-5",
+          "locator": "저자 메타데이터와 UNSW 공식 프로필",
+          "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-profile-and-field",
+              "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+              "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "스웰러와 공동저자들이 20년간의 인지부하이론 변화와 인지구조를 직접 재검토한 본인 공저 원논문이다."
+      },
+      "claim_seed": {
+        "section": "전문성에 따라 달라지는 설계 원리",
+        "claim": "20년 후의 재검토는 모든 새 정보가 용량과 지속시간이 제한된 작업기억에서 먼저 처리되지만, 장기기억에 저장된 뒤에는 그 한계가 사라져 수행 능력을 바꾼다고 정리했다.",
+        "locator": "Springer 초록 넷째–다섯째 문장",
+        "evidence_url": "https://link.springer.com/article/10.1007/s10648-019-09465-5"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "chandler-sweller-1991-instruction-format",
+    "sweller-cooper-1985-worked-examples",
+    "sweller-merrienboer-paas-1998-cognitive-architecture",
+    "sweller-merrienboer-paas-2019-cognitive-architecture"
+  ],
+  "claim_map": [
+    {
+      "source_id": "sweller-cooper-1985-worked-examples",
+      "section": "초보자에게 해결 예제가 필요한 이유",
+      "claim": "스웰러와 쿠퍼는 대수 학습을 다룬 다섯 실험에서 전통적 문제해결 탐색이 도식 습득을 지연시킨다는 가정 아래, 실험 2~5에서 해결 예제를 효과적인 문제해결 지식의 습득 수단으로 시험했다.",
+      "evidence_locator": "OpenAIRE 초록 첫째–넷째 문장"
+    },
+    {
+      "source_id": "chandler-sweller-1991-instruction-format",
+      "section": "부하를 줄인다는 말의 주의점",
+      "claim": "챈들러와 스웰러의 여섯 실험에서는 서로 참조하는 글과 도표의 통합이 이해에 필수일 때 통합 형식이 유리했지만, 각 정보원을 따로 이해할 수 있을 때는 그 이점이 사라졌고 불필요한 설명의 추가는 오히려 해로울 수 있었다.",
+      "evidence_locator": "University of Wollongong 저장소 초록의 Experiments 1–6 결과"
+    },
+    {
+      "source_id": "sweller-merrienboer-paas-1998-cognitive-architecture",
+      "section": "제한된 작업기억을 설계 조건으로",
+      "claim": "스웰러·반 메리엔보어·파스는 작업기억을 청각·언어 정보와 시각·공간 정보를 다루는 부분적으로 독립된 제한 용량 체계로, 장기기억을 자동화 정도가 다른 도식을 보유하는 사실상 무제한 체계로 정리했다.",
+      "evidence_locator": "Springer 초록 둘째 문장"
+    },
+    {
+      "source_id": "sweller-merrienboer-paas-2019-cognitive-architecture",
+      "section": "전문성에 따라 달라지는 설계 원리",
+      "claim": "20년 후의 재검토는 모든 새 정보가 용량과 지속시간이 제한된 작업기억에서 먼저 처리되지만, 장기기억에 저장된 뒤에는 그 한계가 사라져 수행 능력을 바꾼다고 정리했다.",
+      "evidence_locator": "Springer 초록 넷째–다섯째 문장"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/john-sweller.md:41|bio-sweller-unsw|1972|none",
+        "file": "wiki/pioneers/john-sweller.md",
+        "line": 41,
+        "claimYear": 1972,
+        "sourceId": "bio-sweller-unsw",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 UNSW 공식 프로필이 1972년 박사학위와 학문 경력을 직접 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/john-sweller.md:69|bio-sweller-unsw|1972|none",
+        "file": "wiki/pioneers/john-sweller.md",
+        "line": 69,
+        "claimYear": 1972,
+        "sourceId": "bio-sweller-unsw",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 UNSW 공식 프로필이 1972년 박사학위 연표 항목을 직접 설명하는 정상 인용이다."
+      }
+    ]
+  }
+}

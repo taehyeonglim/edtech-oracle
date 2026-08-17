@@ -5096,5 +5096,219 @@
     "year": "1969",
     "publisher": "Denoël",
     "url": "https://www.unige.ch/piaget/piaget1969PPE"
+  },
+  {
+    "id": "sweller-cooper-1985-worked-examples",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "스웰러와 쿠퍼가 해결 예제와 대수 문제해결의 학습 효과를 직접 실험한 본인 공저 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-openaire-record",
+        "record_id": "10.1207/s1532690xci0201_3",
+        "evidence": "Crossref와 OpenAIRE에서 DOI·제목·저자 John Sweller와 Graham A. Cooper·1985년·Cognition and Instruction 2(1), 59–89쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "openaire_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "john-sweller",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1207%2Fs1532690xci0201_3",
+        "locator": "저자 메타데이터와 UNSW 공식 프로필",
+        "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-profile-and-field",
+            "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+            "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+          }
+        ]
+      }
+    },
+    "authors": "John Sweller; Graham A. Cooper",
+    "title": "The Use of Worked Examples as a Substitute for Problem Solving in Learning Algebra",
+    "year": "1985",
+    "publisher": "Cognition and Instruction, 2(1), 59–89",
+    "url": "https://doi.org/10.1207/s1532690xci0201_3",
+    "doi": "10.1207/s1532690xci0201_3",
+    "identifiers": {
+      "doi": "10.1207/s1532690xci0201_3"
+    }
+  },
+  {
+    "id": "chandler-sweller-1991-instruction-format",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "챈들러와 스웰러가 정보 통합·주의분할·불필요한 설명의 효과를 여섯 실험으로 직접 검증한 본인 공저 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-university-repository",
+        "record_id": "10.1207/s1532690xci0804_2",
+        "evidence": "Crossref와 University of Wollongong 기관 저장소에서 DOI·제목·저자 Paul Chandler와 John Sweller·1991년·Cognition and Instruction 8(4), 293–332쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "university_repository"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "john-sweller",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://ro.uow.edu.au/articles/journal_contribution/Cognitive_Load_Theory_and_the_Format_of_Instruction/27778410",
+        "locator": "저자 메타데이터와 UNSW 공식 프로필",
+        "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-profile-and-field",
+            "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+            "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+          }
+        ]
+      }
+    },
+    "authors": "Paul Chandler; John Sweller",
+    "title": "Cognitive Load Theory and the Format of Instruction",
+    "year": "1991",
+    "publisher": "Cognition and Instruction, 8(4), 293–332",
+    "url": "https://doi.org/10.1207/s1532690xci0804_2",
+    "doi": "10.1207/s1532690xci0804_2",
+    "identifiers": {
+      "doi": "10.1207/s1532690xci0804_2"
+    }
+  },
+  {
+    "id": "sweller-merrienboer-paas-1998-cognitive-architecture",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "스웰러와 공동저자들이 인지부하이론의 인지구조와 그로부터 도출된 교수설계를 직접 종합한 본인 공저 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-publisher-abstract",
+        "record_id": "10.1023/A:1022193728205",
+        "evidence": "Crossref와 Springer에서 DOI·제목·저자 John Sweller, Jeroen J. G. van Merrienboer, Fred G. W. C. Paas·1998년·Educational Psychology Review 10(3), 251–296쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "publisher_abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "john-sweller",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://link.springer.com/article/10.1023/A:1022193728205",
+        "locator": "저자 메타데이터와 UNSW 공식 프로필",
+        "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-profile-and-field",
+            "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+            "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+          }
+        ]
+      }
+    },
+    "authors": "John Sweller; Jeroen J. G. van Merrienboer; Fred G. W. C. Paas",
+    "title": "Cognitive Architecture and Instructional Design",
+    "year": "1998",
+    "publisher": "Educational Psychology Review, 10(3), 251–296",
+    "url": "https://doi.org/10.1023/A:1022193728205",
+    "doi": "10.1023/A:1022193728205",
+    "identifiers": {
+      "doi": "10.1023/A:1022193728205"
+    }
+  },
+  {
+    "id": "sweller-merrienboer-paas-2019-cognitive-architecture",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "스웰러와 공동저자들이 20년간의 인지부하이론 변화와 인지구조를 직접 재검토한 본인 공저 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-publisher-and-university-record",
+        "record_id": "10.1007/s10648-019-09465-5",
+        "evidence": "Crossref·출판사·대학 연구정보 레코드에서 DOI·제목·저자 John Sweller, Jeroen J. G. van Merriënboer, Fred Paas·2019년·Educational Psychology Review 31(2), 261–292쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "publisher_abstract",
+          "university_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "john-sweller",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://link.springer.com/article/10.1007/s10648-019-09465-5",
+        "locator": "저자 메타데이터와 UNSW 공식 프로필",
+        "evidence": "서지 레코드는 John Sweller를 이 논문의 저자로 표시하며, UNSW 공식 프로필의 School of Education 소속과 학습·문제해결·교수설계 연구 분야가 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-profile-and-field",
+            "value": "John Sweller · UNSW School of Education emeritus professor · cognitive science, psychology of learning and problem solving, instructional design",
+            "evidence_url": "https://www.unsw.edu.au/staff/john-sweller"
+          }
+        ]
+      }
+    },
+    "authors": "John Sweller; Jeroen J. G. van Merriënboer; Fred Paas",
+    "title": "Cognitive Architecture and Instructional Design: 20 Years Later",
+    "year": "2019",
+    "publisher": "Educational Psychology Review, 31(2), 261–292",
+    "url": "https://doi.org/10.1007/s10648-019-09465-5",
+    "doi": "10.1007/s10648-019-09465-5",
+    "identifiers": {
+      "doi": "10.1007/s10648-019-09465-5",
+      "eric": "EJ1217401"
+    }
   }
 ]
