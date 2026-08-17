@@ -6522,5 +6522,176 @@
     "identifiers": {
       "doi": "10.1146/annurev.psych.52.1.1"
     }
+  },
+  {
+    "id": "jonassen-carr-yueh-1998-mindtools",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "조나센과 공저자들이 컴퓨터 응용을 비판적 사고를 촉진하는 마인드툴로 직접 분류·논증한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-eric-records",
+        "record_id": "10.1007/BF02818172; EJ562938",
+        "evidence": "Crossref DOI 10.1007/BF02818172와 ERIC EJ562938에서 제목·공저자 David H. Jonassen, Chad Carr, Hsiu-Ping Yueh·1998년·TechTrends 43(2), 24–32쪽과 초록을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record",
+          "abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "david-jonassen",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ562938",
+        "locator": "Crossref·ERIC 공저자란과 OpenLibrary 인명 전거",
+        "evidence": "두 레지스트리는 David H. Jonassen을 첫 공저자로 표시하고, OpenLibrary 인명 전거의 1947년생·VIAF·LC 식별자가 페이지의 교육공학자와 동일인임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "library-authority-and-birth-year",
+            "value": "David H. Jonassen · born 1947 · VIAF 20878246 · LC n81106277",
+            "evidence_url": "https://openlibrary.org/authors/OL26829A"
+          }
+        ]
+      }
+    },
+    "authors": "David H. Jonassen; Chad Carr; Hsiu-Ping Yueh",
+    "title": "Computers as Mindtools for Engaging Learners in Critical Thinking",
+    "year": "1998",
+    "publisher": "TechTrends, 43(2), 24–32",
+    "url": "https://doi.org/10.1007/BF02818172",
+    "doi": "10.1007/BF02818172",
+    "identifiers": {
+      "doi": "10.1007/BF02818172",
+      "eric": "EJ562938"
+    }
+  },
+  {
+    "id": "jonassen-rohrer-murphy-1999-activity-theory",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "조나센과 로러머피가 활동이론을 구성주의 학습환경 분석·설계 틀로 직접 제안한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-eric-records",
+        "record_id": "10.1007/BF02299477; EJ586229",
+        "evidence": "Crossref DOI 10.1007/BF02299477과 ERIC EJ586229에서 제목·공저자 David H. Jonassen, Lucia Rohrer-Murphy·1999년·Educational Technology Research and Development 47(1), 61–79쪽과 초록을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record",
+          "abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "david-jonassen",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ586229",
+        "locator": "Crossref·ERIC 공저자란과 OpenLibrary 인명 전거",
+        "evidence": "두 레지스트리는 David H. Jonassen을 Lucia Rohrer-Murphy와 함께 첫 저자로 표시하고, OpenLibrary 인명 전거의 1947년생·VIAF·LC 식별자가 페이지의 교육공학자와 동일인임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "library-authority-and-birth-year",
+            "value": "David H. Jonassen · born 1947 · VIAF 20878246 · LC n81106277",
+            "evidence_url": "https://openlibrary.org/authors/OL26829A"
+          }
+        ]
+      }
+    },
+    "authors": "David H. Jonassen; Lucia Rohrer-Murphy",
+    "title": "Activity Theory as a Framework for Designing Constructivist Learning Environments",
+    "year": "1999",
+    "publisher": "Educational Technology Research and Development, 47(1), 61–79",
+    "url": "https://doi.org/10.1007/BF02299477",
+    "doi": "10.1007/BF02299477",
+    "identifiers": {
+      "doi": "10.1007/BF02299477",
+      "eric": "EJ586229"
+    }
+  },
+  {
+    "id": "jonassen-2011-supporting-pbl",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "조나센이 문제중심학습 환경의 구성요소와 문제해결 인지 비계를 직접 체계화한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-eric-and-official-journal-records",
+        "record_id": "10.7771/1541-5015.1256; EJ1058723",
+        "evidence": "Crossref, ERIC EJ1058723, Purdue 공식 저널 페이지에서 제목·저자 David Jonassen·2011년·Interdisciplinary Journal of Problem-Based Learning 5(2), 95–119쪽과 초록을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record",
+          "official_journal_record",
+          "abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "david-jonassen",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://docs.lib.purdue.edu/ijpbl/vol5/iss2/8/",
+        "locator": "공식 저널 저자·소속 메타데이터와 OpenLibrary 인명 전거",
+        "evidence": "Purdue 공식 저널 페이지는 David Jonassen을 단독 저자로, University of Missouri를 소속으로 표시하고, OpenLibrary 인명 전거의 1947년생·VIAF·LC 식별자가 페이지의 교육공학자와 동일인임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-institutional-affiliation",
+            "value": "David Jonassen · University of Missouri",
+            "evidence_url": "https://docs.lib.purdue.edu/ijpbl/vol5/iss2/8/"
+          },
+          {
+            "kind": "library-authority-and-birth-year",
+            "value": "David H. Jonassen · born 1947 · VIAF 20878246 · LC n81106277",
+            "evidence_url": "https://openlibrary.org/authors/OL26829A"
+          }
+        ]
+      }
+    },
+    "authors": "David Jonassen",
+    "title": "Supporting Problem Solving in PBL",
+    "year": "2011",
+    "publisher": "Interdisciplinary Journal of Problem-Based Learning, 5(2), 95–119",
+    "url": "https://doi.org/10.7771/1541-5015.1256",
+    "doi": "10.7771/1541-5015.1256",
+    "identifiers": {
+      "doi": "10.7771/1541-5015.1256",
+      "eric": "EJ1058723"
+    }
   }
 ]
