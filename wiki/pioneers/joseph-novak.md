@@ -6,8 +6,8 @@ role: 과학교육학자 · 개념지도 연구자
 life: 1930—2023
 concepts: [개념지도, 유의미학습, 인지구조, V 다이어그램]
 related: ["[[debates/bruner-novak]]", "[[debates/novak-mayer]]"]
-updated: 2026-08-14
-sources: [bio-novak-cornell, bio-novak-ihmc, bruner-1960, mayer-2005, novak-1984, novak-2002]
+updated: 2026-08-16
+sources: [bio-novak-cornell, bio-novak-ihmc, bruner-1960, mayer-2005, novak-1984, novak-1990-concept-mapping, novak-2002, novak-2005-longitudinal-study, novak-canas-2008-concept-maps, ruiz-primo-shavelson-1996-concept-map-assessment]
 confidence: high
 ---
 
@@ -28,9 +28,15 @@ confidence: high
 
 노백의 연구팀은 1970년대 코넬대학교에서 아동의 과학 개념이 장기간 어떻게 변하는지 추적했다. 복잡한 면담 자료를 비교하려면 개념과 명제의 관계를 간결하게 표시할 필요가 있었고, 이 문제에서 개념지도가 발전했다.[^bio-novak-cornell][^bio-novak-ihmc]
 
+노백은 1990년 논문에서 개념지도가 과학교육 도구로 생겨나 발전한 경로를 정리하고, 당시 지식표상 연구의 상태와 후속 연구 과제를 제시했다.[^novak-1990-concept-mapping]
+
+12년 종단연구에서는 초기 과학 수업 집단이 비수업 비교집단을 크게 앞섰고, 그 차이가 중·고등학교를 거치며 더 커졌다.[^novak-2005-longitudinal-study]
+
 ## 시각화가 곧 학습은 아니다
 
 개념지도의 교육적 가치는 상자를 많이 그리는 데 있지 않다. 학습자가 새 개념을 기존 지식과 비자의적으로 연결하고, 연결어를 통해 명제를 검토하며, 제한되거나 부적절한 개념 위계를 수정하는 과정이 핵심이다.[^novak-1984][^novak-2002]
+
+개념지도에서 연결어는 두 개념의 관계를 명시하며, 두 개 이상의 개념이 연결어로 결합할 때 의미 있는 명제가 된다.[^novak-canas-2008-concept-maps]
 
 ## 미네소타의 과학교사에서 코넬 연구자로
 
@@ -56,6 +62,8 @@ confidence: high
 
 노백 자신도 개념 변화의 핵심 조건을 새 지식과 기존 인지구조의 유의미한 연결에 두었다. 그러므로 개념지도는 관계를 드러내고 수정하게 할 수는 있지만, 관련된 사전지식과 학습 동기, 개념을 재조직하는 활동을 대신하지 않는다. 지도의 모양이나 연결 수만으로 학습을 점수화하는 것은 이 도구의 적용 범위를 넘어선다.[^novak-1984][^novak-2002]
 
+루이스-프리모와 샤벨슨은 개념지도가 학생의 지식 구조를 측정한다는 주장의 타당성을 검토하고, 여러 개념지도 기법의 신뢰도·타당도에 관한 실증 근거를 비교했다.[^ruiz-primo-shavelson-1996-concept-map-assessment]
+
 ## 연표
 
 - **1967** 코넬대학교 합류 — 과학교육과 인간 학습에 관한 장기 연구 프로그램을 전개했다.[^bio-novak-cornell]
@@ -72,4 +80,8 @@ confidence: high
 [^bruner-1960]: Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <https://archive.org/details/processofeducati00brun> — tier A · [[sources/bruner-1960]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 [^novak-1984]: Joseph D. Novak; D. Bob Gowin. (1984). Learning How to Learn. Cambridge University Press. DOI: 10.1017/CBO9781139173469. <https://doi.org/10.1017/CBO9781139173469> — tier A · [[sources/novak-1984]]
+[^novak-1990-concept-mapping]: Joseph D. Novak. (1990). Concept Mapping: A Useful Tool for Science Education. Journal of Research in Science Teaching, 27(10), 937–949. DOI: 10.1002/tea.3660271003. <https://doi.org/10.1002/tea.3660271003> — tier A · [[sources/novak-1990-concept-mapping]]
 [^novak-2002]: Joseph D. Novak. (2002). Meaningful Learning: The Essential Factor for Conceptual Change. Science Education, 86(4). DOI: 10.1002/sce.10032. <https://doi.org/10.1002/sce.10032> — tier A · [[sources/novak-2002]]
+[^novak-2005-longitudinal-study]: Joseph D. Novak. (2005). Results and Implications of a 12-Year Longitudinal Study of Science Concept Learning. Research in Science Education, 35(1), 23–40. DOI: 10.1007/s11165-004-3431-4. <https://doi.org/10.1007/s11165-004-3431-4> — tier A · [[sources/novak-2005-longitudinal-study]]
+[^novak-canas-2008-concept-maps]: Joseph D. Novak; Alberto J. Cañas. (2008). The Theory Underlying Concept Maps and How to Construct and Use Them. Institute for Human and Machine Cognition, Technical Report IHMC CmapTools 2006-01 Rev 2008-01. <https://cmap.ihmc.us/docs/theory-of-concept-maps.php> — tier A · [[sources/novak-canas-2008-concept-maps]]
+[^ruiz-primo-shavelson-1996-concept-map-assessment]: Maria Araceli Ruiz-Primo; Richard J. Shavelson. (1996). Problems and Issues in the Use of Concept Maps in Science Assessment. Journal of Research in Science Teaching, 33(6), 569–600. DOI: 10.1002/(SICI)1098-2736(199608)33:6<569::AID-TEA1>3.0.CO;2-M. <https://doi.org/10.1002/(SICI)1098-2736(199608)33:6%3C569::AID-TEA1%3E3.0.CO;2-M> — tier B · [[sources/ruiz-primo-shavelson-1996-concept-map-assessment]]

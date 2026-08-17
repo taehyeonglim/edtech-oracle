@@ -5310,5 +5310,206 @@
       "doi": "10.1007/s10648-019-09465-5",
       "eric": "EJ1217401"
     }
+  },
+  {
+    "id": "novak-1990-concept-mapping",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "노백이 개념지도의 기원·발전과 과학교육 적용을 직접 정리한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric-record",
+        "record_id": "10.1002/tea.3660271003",
+        "evidence": "Crossref와 ERIC EJ463170에서 DOI·제목·저자 Joseph D. Novak·1990년·Journal of Research in Science Teaching 27(10), 937–949쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "joseph-novak",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ463170",
+        "locator": "ERIC 저자란과 Cornell 공식 부고",
+        "evidence": "ERIC은 Joseph D. Novak을 논문 저자로 표시하며, Cornell 공식 부고의 교수 소속·개념지도 개발·과학 개념 학습 연구 분야가 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-profile-and-field",
+            "value": "Joseph Novak · Cornell professor emeritus of education and biological sciences · inventor of concept maps · science concept learning researcher",
+            "evidence_url": "https://news.cornell.edu/stories/2023/11/joseph-novak-pioneer-education-theory-dies-92"
+          }
+        ]
+      }
+    },
+    "authors": "Joseph D. Novak",
+    "title": "Concept Mapping: A Useful Tool for Science Education",
+    "year": "1990",
+    "publisher": "Journal of Research in Science Teaching, 27(10), 937–949",
+    "url": "https://doi.org/10.1002/tea.3660271003",
+    "doi": "10.1002/tea.3660271003",
+    "identifiers": {
+      "doi": "10.1002/tea.3660271003",
+      "eric": "EJ463170"
+    }
+  },
+  {
+    "id": "novak-canas-2008-concept-maps",
+    "tier": "A",
+    "type": "원보고서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "노백과 카냐스가 개념지도의 이론·구성·사용법을 직접 설명한 IHMC 기술 보고서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "official-institution-technical-report",
+        "record_id": "IHMC CmapTools 2006-01 Rev 2008-01",
+        "evidence": "IHMC 공식 문서에서 제목·저자 Joseph D. Novak과 Alberto J. Cañas·기관·기술보고서 번호·2008년 개정판을 대조했다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "institution",
+          "report_number",
+          "revision_year"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "joseph-novak",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://cmap.ihmc.us/docs/theory-of-concept-maps.php",
+        "locator": "문서 머리말 저자·기관 표기와 Cornell 공식 부고",
+        "evidence": "IHMC 문서는 Joseph D. Novak을 공동 저자로 표시하며, Cornell 공식 부고의 개념지도 개발자·Cornell 교수 경력이 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-profile-and-field",
+            "value": "Joseph Novak · Cornell professor emeritus of education and biological sciences · inventor of concept maps · science concept learning researcher",
+            "evidence_url": "https://news.cornell.edu/stories/2023/11/joseph-novak-pioneer-education-theory-dies-92"
+          }
+        ]
+      }
+    },
+    "authors": "Joseph D. Novak; Alberto J. Cañas",
+    "title": "The Theory Underlying Concept Maps and How to Construct and Use Them",
+    "year": "2008",
+    "publisher": "Institute for Human and Machine Cognition, Technical Report IHMC CmapTools 2006-01 Rev 2008-01",
+    "url": "https://cmap.ihmc.us/docs/theory-of-concept-maps.php"
+  },
+  {
+    "id": "novak-2005-longitudinal-study",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "노백이 12년 종단연구의 방법·결과·교육적 함의를 직접 보고한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric-record",
+        "record_id": "10.1007/s11165-004-3431-4",
+        "evidence": "Crossref와 ERIC EJ734310에서 DOI·제목·저자 Joseph D. Novak·2005년·Research in Science Education 35(1), 23–40쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "joseph-novak",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ734310",
+        "locator": "ERIC 저자란과 Cornell 공식 부고",
+        "evidence": "ERIC은 Joseph D. Novak을 논문 저자로 표시하며, Cornell 공식 부고의 교수 소속·과학 개념 학습 연구·개념지도 개발 경력이 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-profile-and-field",
+            "value": "Joseph Novak · Cornell professor emeritus of education and biological sciences · inventor of concept maps · science concept learning researcher",
+            "evidence_url": "https://news.cornell.edu/stories/2023/11/joseph-novak-pioneer-education-theory-dies-92"
+          }
+        ]
+      }
+    },
+    "authors": "Joseph D. Novak",
+    "title": "Results and Implications of a 12-Year Longitudinal Study of Science Concept Learning",
+    "year": "2005",
+    "publisher": "Research in Science Education, 35(1), 23–40",
+    "url": "https://doi.org/10.1007/s11165-004-3431-4",
+    "doi": "10.1007/s11165-004-3431-4",
+    "identifiers": {
+      "doi": "10.1007/s11165-004-3431-4",
+      "eric": "EJ734310"
+    }
+  },
+  {
+    "id": "ruiz-primo-shavelson-1996-concept-map-assessment",
+    "tier": "B",
+    "type": "비판 원논문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "루이스-프리모와 샤벨슨이 개념지도 평가의 신뢰도·타당도 문제를 검토한 타인의 학술 논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric-record",
+        "record_id": "10.1002/(SICI)1098-2736(199608)33:6<569::AID-TEA1>3.0.CO;2-M",
+        "evidence": "Crossref와 ERIC EJ528405에서 DOI·제목·저자 Maria Araceli Ruiz-Primo와 Richard J. Shavelson·1996년·Journal of Research in Science Teaching 33(6), 569–600쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "joseph-novak",
+        "kind": "criticizes",
+        "person_role": null,
+        "evidence_url": "https://eric.ed.gov/?id=EJ528405",
+        "locator": "ERIC 제목·초록",
+        "evidence": "제목과 초록이 개념지도를 과학 평가에 사용하는 주장의 타당성, 여러 기법의 신뢰도·타당도 증거, 후속 연구 필요성을 직접 검토한다. 노백의 핵심 도구인 개념지도의 평가적 사용 범위를 비판적으로 다루는 직접 관계다.",
+        "identity_signals": []
+      }
+    },
+    "authors": "Maria Araceli Ruiz-Primo; Richard J. Shavelson",
+    "title": "Problems and Issues in the Use of Concept Maps in Science Assessment",
+    "year": "1996",
+    "publisher": "Journal of Research in Science Teaching, 33(6), 569–600",
+    "url": "https://doi.org/10.1002/(SICI)1098-2736(199608)33:6%3C569::AID-TEA1%3E3.0.CO;2-M",
+    "doi": "10.1002/(SICI)1098-2736(199608)33:6<569::AID-TEA1>3.0.CO;2-M",
+    "identifiers": {
+      "doi": "10.1002/(SICI)1098-2736(199608)33:6<569::AID-TEA1>3.0.CO;2-M",
+      "eric": "EJ528405"
+    }
   }
 ]
