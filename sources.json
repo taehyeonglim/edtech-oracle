@@ -6347,5 +6347,180 @@
     "identifiers": {
       "doi": "10.1007/BF03392388"
     }
+  },
+  {
+    "id": "bandura-ross-ross-1961-aggression",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "반두라와 공저자들이 공격적 모델 관찰 뒤의 모방을 직접 실험·보고한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-pubmed-records",
+        "record_id": "10.1037/h0045925; PMID 13864605",
+        "evidence": "Crossref DOI 10.1037/h0045925와 PubMed PMID 13864605에서 제목·공저자 Albert Bandura, Dorothea Ross, Sheila A. Ross·1961년·Journal of Abnormal and Social Psychology 63(3), 575–582쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "pubmed_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "albert-bandura",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/13864605/",
+        "locator": "Crossref·PubMed 공저자란과 원문 첫 쪽의 Stanford University 소속",
+        "evidence": "두 레지스트리는 Albert Bandura를 첫 저자로 표시하고, 원문은 세 공저자 뒤에 Stanford University 소속을 명시한다. OpenLibrary 인명 전거의 생몰연도와 VIAF·LC 식별자가 교육심리학자 반두라와의 동일성을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "institutional-affiliation",
+            "value": "Albert Bandura · Stanford University",
+            "evidence_url": "https://acervo.ler.app.br/livros/psicologia/5999.pdf"
+          },
+          {
+            "kind": "library-authority-and-life-dates",
+            "value": "Albert Bandura · 1925-12-04–2021-07-26 · VIAF 108322427 · LC n50036523",
+            "evidence_url": "https://openlibrary.org/authors/OL545348A"
+          }
+        ]
+      }
+    },
+    "authors": "Albert Bandura; Dorothea Ross; Sheila A. Ross",
+    "title": "Transmission of Aggression Through Imitation of Aggressive Models",
+    "year": "1961",
+    "publisher": "Journal of Abnormal and Social Psychology, 63(3), 575–582",
+    "url": "https://doi.org/10.1037/h0045925",
+    "doi": "10.1037/h0045925",
+    "identifiers": {
+      "doi": "10.1037/h0045925"
+    }
+  },
+  {
+    "id": "bandura-1977-self-efficacy-theory",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "반두라가 자기효능감을 행동 변화의 통합 이론으로 직접 제시하고 효능 기대와 결과 기대를 구분한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-original-article-record",
+        "record_id": "10.1037/0033-295X.84.2.191",
+        "evidence": "Crossref와 원문 첫 쪽에서 제목·저자 Albert Bandura·1977년·Psychological Review 84(2), 191–215쪽과 DOI를 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "original_article"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "albert-bandura",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://doi.org/10.1037/0033-295X.84.2.191",
+        "locator": "원문 p. 191 저자·소속과 p. 193 효능 기대/결과 기대 구분",
+        "evidence": "원문은 Albert Bandura를 단독 저자로, Stanford University를 소속으로 표시한다. OpenLibrary 인명 전거의 생몰연도와 VIAF·LC 식별자가 페이지의 반두라와 동일인임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "institutional-affiliation",
+            "value": "Albert Bandura · Department of Psychology, Stanford University",
+            "evidence_url": "https://dradamvolungis.com/wp-content/uploads/2011/06/self-efficacy-unifying-theory-of-behavioral-change-bandura-1977.pdf"
+          },
+          {
+            "kind": "library-authority-and-life-dates",
+            "value": "Albert Bandura · 1925-12-04–2021-07-26 · VIAF 108322427 · LC n50036523",
+            "evidence_url": "https://openlibrary.org/authors/OL545348A"
+          }
+        ]
+      }
+    },
+    "authors": "Albert Bandura",
+    "title": "Self-Efficacy: Toward a Unifying Theory of Behavioral Change",
+    "year": "1977",
+    "publisher": "Psychological Review, 84(2), 191–215",
+    "url": "https://doi.org/10.1037/0033-295X.84.2.191",
+    "doi": "10.1037/0033-295X.84.2.191",
+    "identifiers": {
+      "doi": "10.1037/0033-295X.84.2.191"
+    }
+  },
+  {
+    "id": "bandura-2001-agentic-perspective",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "반두라가 사회인지이론을 행위주체적 관점으로 종합해 행위주체성의 특징과 세 양식을 직접 제시한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-and-publisher-abstract-record",
+        "record_id": "10.1146/annurev.psych.52.1.1",
+        "evidence": "Crossref와 Annual Reviews 레코드에서 제목·저자 Albert Bandura·2001년·Annual Review of Psychology 52(1), 1–26쪽·Stanford 소속·초록과 DOI를 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "affiliation",
+          "abstract"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "albert-bandura",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.annualreviews.org/content/journals/10.1146/annurev.psych.52.1.1",
+        "locator": "출판사 저자·소속란과 초록",
+        "evidence": "출판사와 Crossref는 Albert Bandura를 단독 저자로, Stanford University 심리학과를 소속으로 표시한다. OpenLibrary 인명 전거의 생몰연도와 VIAF·LC 식별자가 페이지의 반두라와 동일인임을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "publisher-institutional-affiliation",
+            "value": "Albert Bandura · Department of Psychology, Stanford University",
+            "evidence_url": "https://www.annualreviews.org/content/journals/10.1146/annurev.psych.52.1.1"
+          },
+          {
+            "kind": "library-authority-and-life-dates",
+            "value": "Albert Bandura · 1925-12-04–2021-07-26 · VIAF 108322427 · LC n50036523",
+            "evidence_url": "https://openlibrary.org/authors/OL545348A"
+          }
+        ]
+      }
+    },
+    "authors": "Albert Bandura",
+    "title": "Social Cognitive Theory: An Agentic Perspective",
+    "year": "2001",
+    "publisher": "Annual Review of Psychology, 52(1), 1–26",
+    "url": "https://doi.org/10.1146/annurev.psych.52.1.1",
+    "doi": "10.1146/annurev.psych.52.1.1",
+    "identifiers": {
+      "doi": "10.1146/annurev.psych.52.1.1"
+    }
   }
 ]
