@@ -6,8 +6,8 @@ role: 발달심리학자 · 인식론자
 life: 1896—1980
 concepts: [동화와 조절, 평형화, 인지발달, 발생적 인식론]
 related: ["[[debates/piaget-bruner]]"]
-updated: 2026-08-14
-sources: [bio-piaget-unige, bruner-1960, bruner-1966, papert-1980, piaget-1952, piaget-1970]
+updated: 2026-08-16
+sources: [bio-piaget-unige, bruner-1960, bruner-1966, inhelder-piaget-1955-formal-operations, papert-1980, piaget-1937-construction-reality, piaget-1945-symbol-formation, piaget-1952, piaget-1969-psychology-pedagogy, piaget-1970]
 confidence: high
 ---
 
@@ -21,12 +21,15 @@ confidence: high
 
 ## 주요 저작
 
+- **La formation du symbole chez l’enfant: imitation, jeu et rêve, image et représentation** (1945) — 피아제는 지연 모방에서 모델이 사라진 뒤에도 행동을 재현할 수 있다는 점을 들어, 모방이 즉각적 행동에서 벗어나 표상의 수준에 이르렀다고 설명했다.[^piaget-1945-symbol-formation]
 - **The Origins of Intelligence in Children** (1952) — 감각운동기 지능이 행동 도식과 환경의 상호작용 속에서 형성되는 과정을 다룬 영어판 대표 저작.[^piaget-1952]
 - **Genetic Epistemology** (1970) — 지식의 기원과 발달을 심리학·논리학·과학사 사이에서 설명한 압축적 저작.[^piaget-1970]
 
 ## 단계표보다 중요한 작동 원리
 
 피아제의 핵심은 연령별 단계표를 수업 처방으로 옮기는 데 있지 않다. 학습자가 새 경험을 기존 도식에 동화하고, 맞지 않을 때 도식을 조절하며, 더 안정적인 설명을 찾아가는 과정을 설계 관점에서 읽는 데 있다.[^piaget-1952][^piaget-1970]
+
+피아제는 대상 영속성의 형성을 여섯 단계로 나누어, 사라진 대상에 특별한 행동을 보이지 않는 초기 수준에서 보이지 않는 이동을 표상하는 수준까지의 변화를 추적했다.[^piaget-1937-construction-reality]
 
 ## 교육공학에서의 영향과 한계
 
@@ -44,6 +47,8 @@ confidence: high
 
 피아제는 1980년 제네바에서 사망했다. 그의 연구는 발견학습과 구성주의, 특히 함께 연구한 시모어 파퍼트의 구성주의적 컴퓨팅에 중요한 배경이 되었다. 다만 발달 단계를 고정된 연령표나 수업 처방으로 사용하는 것은 원래 연구를 지나치게 단순화한다. 과제 경험과 사회문화적 지원에 따른 수행 차이도 함께 살펴야 한다.[^bio-piaget-unige][^piaget-1970][^papert-1980]
 
+인헬더와 피아제는 청소년의 형식적 사고가 명제논리를 구체적 유목·관계 논리에 겹쳐 놓으며, 가설연역적 추론과 한 요인씩 통제하는 실험적 증명을 가능하게 한다고 설명했다.[^inhelder-piaget-1955-formal-operations]
+
 ## 당대의 비판
 
 제롬 브루너는 인지적 준비도를 고정된 발달 단계의 문턱으로 취급하는 데 반대했다. 그는 어떤 교과도 그 구조를 훼손하지 않는 방식으로 학습자에게 제시할 수 있으며, 표상 양식을 바꾸어 핵심 구조를 반복적으로 다루는 나선형 교육과정이 가능하다고 주장했다. 이 관점은 피아제의 단계 순서를 수업 가능성의 한계로 읽는 해석을 비판한다.[^bruner-1960][^bruner-1966]
@@ -55,6 +60,8 @@ confidence: high
 피아제의 발생적 인식론은 지식 구조가 활동과 조절 속에서 어떻게 변하는지를 설명하는 이론이지, 교사가 어떤 순서로 무엇을 제시하고 어떤 피드백과 평가를 사용할지까지 정하는 완결된 수업 모형은 아니다. 이 이론만으로는 발달 설명과 교수 처방 사이의 간극이 남는다.[^piaget-1970]
 
 피아제의 단계 구분만으로는 교사가 제공하는 표상·언어·도구가 같은 과제의 수행을 어떻게 바꾸는지 충분히 설명하기 어렵다. 브루너가 표상 양식과 교과 구조를, 파퍼트가 계산 가능한 대상을 다루는 환경을 강조한 것은 단계표를 고정된 연령 규칙으로 사용할 때 놓치기 쉬운 적용 범위를 보여준다.[^piaget-1952][^bruner-1966][^papert-1980]
+
+피아제는 교육학이 아동심리학을 연역적으로 단순 적용하는 분야가 아니며, 교육심리와 실험교수법을 포함한 고유한 지식체계를 구성해야 한다고 지적했다.[^piaget-1969-psychology-pedagogy]
 
 ## 연표
 
@@ -69,6 +76,10 @@ confidence: high
 [^bio-piaget-unige]: Centre Jean Piaget. Jean Piaget — Trajectory. University of Geneva. <https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory> — tier B · [[sources/bio-piaget-unige]]
 [^bruner-1960]: Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <https://archive.org/details/processofeducati00brun> — tier A · [[sources/bruner-1960]]
 [^bruner-1966]: Jerome S. Bruner. (1966). Toward a Theory of Instruction. Harvard University Press. <https://archive.org/details/towardtheoryofin00brun> — tier A · [[sources/bruner-1966]]
+[^inhelder-piaget-1955-formal-operations]: Bärbel Inhelder; Jean Piaget. (1955). De la logique de l’enfant à la logique de l’adolescent: essai sur la construction des structures opératoires formelles. Presses Universitaires de France. <https://www.unige.ch/piaget/piaget1955LEL> — tier A · [[sources/inhelder-piaget-1955-formal-operations]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]
+[^piaget-1937-construction-reality]: Jean Piaget. (1937). La construction du réel chez l’enfant. Delachaux et Niestlé. <https://www.unige.ch/piaget/piaget1937CRE> — tier A · [[sources/piaget-1937-construction-reality]]
+[^piaget-1945-symbol-formation]: Jean Piaget. (1945). La formation du symbole chez l’enfant: imitation, jeu et rêve, image et représentation. Delachaux et Niestlé. <https://www.unige.ch/piaget/piaget1945FSE> — tier A · [[sources/piaget-1945-symbol-formation]]
 [^piaget-1952]: Jean Piaget. (1952). The Origins of Intelligence in Children. International Universities Press. <https://archive.org/details/originsofintelli0000piag> — tier A · [[sources/piaget-1952]]
+[^piaget-1969-psychology-pedagogy]: Jean Piaget. (1969). Psychologie et pédagogie. Denoël. <https://www.unige.ch/piaget/piaget1969PPE> — tier A · [[sources/piaget-1969-psychology-pedagogy]]
 [^piaget-1970]: Jean Piaget. (1970). Genetic Epistemology. Columbia University Press. <https://cup.columbia.edu/book/genetic-epistemology/9780231059923> — tier A · [[sources/piaget-1970]]

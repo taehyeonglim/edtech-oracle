@@ -4912,5 +4912,189 @@
     "identifiers": {
       "doi": "10.1007/BF02905294"
     }
+  },
+  {
+    "id": "piaget-1937-construction-reality",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "피아제가 대상 영속성과 현실 구성의 발달을 직접 제시한 본인 원저작이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "official-university-primary-work-archive",
+        "record_id": "piaget1937CRE",
+        "evidence": "제네바대학교 Centre Jean Piaget 전집에서 La construction du réel chez l’enfant의 저자 Jean Piaget·1937년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "original_publication_year",
+          "publisher",
+          "first_edition",
+          "official_archive_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jean-piaget",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.unige.ch/piaget/piaget1937CRE",
+        "locator": "공식 작품 표제·1937년 초판 표시와 대학 공식 약력",
+        "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 감각운동 발달 연구 경력과 일치한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-archive-and-biography",
+            "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+            "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+          }
+        ]
+      }
+    },
+    "authors": "Jean Piaget",
+    "title": "La construction du réel chez l’enfant",
+    "year": "1937",
+    "publisher": "Delachaux et Niestlé",
+    "url": "https://www.unige.ch/piaget/piaget1937CRE"
+  },
+  {
+    "id": "piaget-1945-symbol-formation",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "피아제가 모방·놀이·상징 기능과 표상의 형성을 직접 제시한 본인 원저작이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "official-university-primary-work-archive",
+        "record_id": "piaget1945FSE",
+        "evidence": "제네바대학교 Centre Jean Piaget 전집에서 La formation du symbole chez l’enfant의 저자 Jean Piaget·1945년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "original_publication_year",
+          "publisher",
+          "first_edition",
+          "official_archive_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jean-piaget",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.unige.ch/piaget/piaget1945FSE",
+        "locator": "공식 작품 표제·1945년 초판 표시와 대학 공식 약력",
+        "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 표상·발달 연구 경력과 일치한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-archive-and-biography",
+            "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+            "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+          }
+        ]
+      }
+    },
+    "authors": "Jean Piaget",
+    "title": "La formation du symbole chez l’enfant: imitation, jeu et rêve, image et représentation",
+    "year": "1945",
+    "publisher": "Delachaux et Niestlé",
+    "url": "https://www.unige.ch/piaget/piaget1945FSE"
+  },
+  {
+    "id": "inhelder-piaget-1955-formal-operations",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "Bärbel Inhelder와 피아제가 형식적 조작의 구성을 직접 보고한 공저 원저작이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "official-university-primary-work-archive",
+        "record_id": "piaget1955LEL",
+        "evidence": "제네바대학교 Centre Jean Piaget 전집에서 De la logique de l’enfant à la logique de l’adolescent의 저자 Bärbel Inhelder와 Jean Piaget·1955년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "original_publication_year",
+          "publisher",
+          "first_edition",
+          "official_archive_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jean-piaget",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.unige.ch/piaget/piaget1955LEL",
+        "locator": "공식 작품 표제·공동저자·1955년 초판 표시와 대학 공식 약력",
+        "evidence": "공식 전집은 Bärbel Inhelder와 Jean Piaget를 공동 저자로 표시하고, 대학 공식 약력의 두 연구자 협업과 형식적 사고 연구를 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-archive-and-biography",
+            "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+            "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+          }
+        ]
+      }
+    },
+    "authors": "Bärbel Inhelder; Jean Piaget",
+    "title": "De la logique de l’enfant à la logique de l’adolescent: essai sur la construction des structures opératoires formelles",
+    "year": "1955",
+    "publisher": "Presses Universitaires de France",
+    "url": "https://www.unige.ch/piaget/piaget1955LEL"
+  },
+  {
+    "id": "piaget-1969-psychology-pedagogy",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "피아제가 심리학과 교육학의 관계 및 실험교수법을 직접 논한 본인 원저작이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "official-university-primary-work-archive",
+        "record_id": "piaget1969PPE",
+        "evidence": "제네바대학교 Centre Jean Piaget 전집에서 Psychologie et pédagogie의 저자 Jean Piaget·1969년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "original_publication_year",
+          "publisher",
+          "first_edition",
+          "official_archive_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jean-piaget",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://www.unige.ch/piaget/piaget1969PPE",
+        "locator": "공식 작품 표제·1969년 초판 표시와 대학 공식 약력",
+        "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 교육·발달심리 연구 경력과 일치한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-archive-and-biography",
+            "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+            "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+          }
+        ]
+      }
+    },
+    "authors": "Jean Piaget",
+    "title": "Psychologie et pédagogie",
+    "year": "1969",
+    "publisher": "Denoël",
+    "url": "https://www.unige.ch/piaget/piaget1969PPE"
   }
 ]

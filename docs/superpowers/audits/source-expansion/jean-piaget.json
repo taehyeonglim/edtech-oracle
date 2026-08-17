@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "slug": "jean-piaget",
+  "base_commit": "3d488fb44ba9aada41463d1fcc75f1eaede6f959",
+  "initial_source_ids": [
+    "bio-piaget-unige",
+    "bruner-1960",
+    "bruner-1966",
+    "papert-1980",
+    "piaget-1952",
+    "piaget-1970"
+  ],
+  "required_additions": 4,
+  "candidates": [
+    {
+      "candidate_key": "jp-cand-a1",
+      "decision": "pending_manual",
+      "reason": "공식 원전에서 실재·저자·언어 표본의 수치를 확인했지만, 이번 4건은 대상 영속성·표상·형식적 사고·교육학의 한계를 서로 다른 기존 섹션에 직접 보강하므로 이 후보는 후속 선정을 위해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jean Piaget"
+        ],
+        "title": "Le langage et la pensée chez l’enfant",
+        "year": "1923",
+        "publisher": "Delachaux et Niestlé",
+        "url": "https://www.unige.ch/piaget/piaget1923LPE",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-university-primary-work-archive",
+          "record_id": "piaget1923LPE",
+          "evidence": "제네바대학교 Centre Jean Piaget 전집에서 Le langage et la pensée chez l’enfant의 저자 Jean Piaget·1923년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "original_publication_year",
+            "publisher",
+            "first_edition",
+            "official_archive_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-piaget",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.unige.ch/piaget/piaget1923LPE",
+          "locator": "공식 작품 표제·1923년 초판 표시와 대학 공식 약력",
+          "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 언어·아동 사고 연구 경력과 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-archive-and-biography",
+              "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+              "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "jp-cand-a2",
+      "decision": "pending_manual",
+      "reason": "공식 원전에서 실재·저자와 방법론 목차를 확인했지만 접근 가능한 페이지가 서론 구조 중심이어서, 본문 주장을 직접 대조할 수 있는 네 원저작을 우선하고 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jean Piaget"
+        ],
+        "title": "La représentation du monde chez l’enfant",
+        "year": "1926",
+        "publisher": "Félix Alcan",
+        "url": "https://www.unige.ch/piaget/piaget1926RME",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-university-primary-work-archive",
+          "record_id": "piaget1926RME",
+          "evidence": "제네바대학교 Centre Jean Piaget 전집에서 La représentation du monde chez l’enfant의 저자 Jean Piaget·1926년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "original_publication_year",
+            "publisher",
+            "first_edition",
+            "official_archive_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-piaget",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.unige.ch/piaget/piaget1926RME",
+          "locator": "공식 작품 표제·1926년 초판 표시와 대학 공식 약력",
+          "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 임상면담·아동 사고 연구 경력과 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-archive-and-biography",
+              "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+              "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "jp-cand-a3",
+      "decision": "pending_manual",
+      "reason": "공식 원전에서 실재·저자와 도덕 판단 주제를 확인했지만, 정확히 4건인 이번 묶음에서는 발달 기제·표상·형식적 사고·교육학의 한계를 고르게 보강하는 후보를 우선해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jean Piaget"
+        ],
+        "title": "Le jugement moral chez l’enfant",
+        "year": "1932",
+        "publisher": "Félix Alcan",
+        "url": "https://www.unige.ch/piaget/piaget1932JME",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-university-primary-work-archive",
+          "record_id": "piaget1932JME",
+          "evidence": "제네바대학교 Centre Jean Piaget 전집에서 Le jugement moral chez l’enfant의 저자 Jean Piaget·1932년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "original_publication_year",
+            "publisher",
+            "first_edition",
+            "official_archive_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-piaget",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.unige.ch/piaget/piaget1932JME",
+          "locator": "공식 작품 표제·1932년 초판 표시와 대학 공식 약력",
+          "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 아동 판단 연구 경력과 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-archive-and-biography",
+              "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+              "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "jp-cand-a4",
+      "decision": "approved",
+      "reason": "제네바대학교 공식 원전 아카이브에서 실재와 Jean Piaget의 저자 관계를 각각 확인했고, 대상 영속성의 여섯 단계를 본문에서 직접 대조했다.",
+      "source_id": "piaget-1937-construction-reality",
+      "bibliography": {
+        "authors": [
+          "Jean Piaget"
+        ],
+        "title": "La construction du réel chez l’enfant",
+        "year": "1937",
+        "publisher": "Delachaux et Niestlé",
+        "url": "https://www.unige.ch/piaget/piaget1937CRE",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-university-primary-work-archive",
+          "record_id": "piaget1937CRE",
+          "evidence": "제네바대학교 Centre Jean Piaget 전집에서 La construction du réel chez l’enfant의 저자 Jean Piaget·1937년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "original_publication_year",
+            "publisher",
+            "first_edition",
+            "official_archive_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-piaget",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.unige.ch/piaget/piaget1937CRE",
+          "locator": "공식 작품 표제·1937년 초판 표시와 대학 공식 약력",
+          "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 감각운동 발달 연구 경력과 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-archive-and-biography",
+              "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+              "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "피아제가 대상 영속성과 현실 구성의 발달을 직접 제시한 본인 원저작이다."
+      },
+      "claim_seed": {
+        "section": "단계표보다 중요한 작동 원리",
+        "claim": "피아제는 대상 영속성의 형성을 여섯 단계로 나누어, 사라진 대상에 특별한 행동을 보이지 않는 초기 수준에서 보이지 않는 이동을 표상하는 수준까지의 변화를 추적했다.",
+        "locator": "Chapitre premier, §§1–6",
+        "evidence_url": "https://www.unige.ch/piaget/piaget1937CRE_02"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "jp-cand-a5",
+      "decision": "approved",
+      "reason": "제네바대학교 공식 원전 아카이브에서 실재와 Jean Piaget의 저자 관계를 각각 확인했고, 지연 모방이 표상에 이르는 설명을 원문에서 확인했다.",
+      "source_id": "piaget-1945-symbol-formation",
+      "bibliography": {
+        "authors": [
+          "Jean Piaget"
+        ],
+        "title": "La formation du symbole chez l’enfant: imitation, jeu et rêve, image et représentation",
+        "year": "1945",
+        "publisher": "Delachaux et Niestlé",
+        "url": "https://www.unige.ch/piaget/piaget1945FSE",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-university-primary-work-archive",
+          "record_id": "piaget1945FSE",
+          "evidence": "제네바대학교 Centre Jean Piaget 전집에서 La formation du symbole chez l’enfant의 저자 Jean Piaget·1945년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "original_publication_year",
+            "publisher",
+            "first_edition",
+            "official_archive_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-piaget",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.unige.ch/piaget/piaget1945FSE",
+          "locator": "공식 작품 표제·1945년 초판 표시와 대학 공식 약력",
+          "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 표상·발달 연구 경력과 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-archive-and-biography",
+              "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+              "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "피아제가 모방·놀이·상징 기능과 표상의 형성을 직접 제시한 본인 원저작이다."
+      },
+      "claim_seed": {
+        "section": "주요 저작",
+        "claim": "피아제는 지연 모방에서 모델이 사라진 뒤에도 행동을 재현할 수 있다는 점을 들어, 모방이 즉각적 행동에서 벗어나 표상의 수준에 이르렀다고 설명했다.",
+        "locator": "Chapitre III, §1 «Le sixième stade: l’imitation différée»",
+        "evidence_url": "https://www.unige.ch/piaget/piaget1945FSE_05"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "jp-cand-a6",
+      "decision": "pending_manual",
+      "reason": "Google Books 안정 권호와 제네바대학교 공식 약력으로 실재와 공저 관계를 확인했지만, 이번에는 제네바대학교 공식 원문에서 주장 위치까지 직접 대조 가능한 네 저작을 우선해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jean Piaget",
+          "Alina Szeminska"
+        ],
+        "title": "La genèse du nombre chez l’enfant",
+        "year": "1941",
+        "publisher": "Delachaux et Niestlé",
+        "url": "https://books.google.com/books?id=buovAAAAYAAJ",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "google-books-stable-volume-record",
+          "record_id": "buovAAAAYAAJ",
+          "evidence": "Google Books의 안정적 권호 레코드에서 제목·공저자 Jean Piaget와 Alina Szeminska·Delachaux et Niestlé·1941년·308쪽을 확인했다.",
+          "matched_fields": [
+            "stable_volume_id",
+            "title",
+            "authors",
+            "publisher",
+            "published_date",
+            "page_count"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-piaget",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://books.google.com/books?id=buovAAAAYAAJ",
+          "locator": "Google Books Authors 항목과 제네바대학교 공식 약력",
+          "evidence": "Google Books는 Jean Piaget와 Alina Szeminska를 공저자로 표시하고, 제네바대학교 공식 약력은 같은 이름의 발생적 인식론 연구자와 경력을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-archive-and-biography",
+              "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+              "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "jp-cand-a7",
+      "decision": "approved",
+      "reason": "제네바대학교 공식 원전 아카이브에서 실재와 Bärbel Inhelder·Jean Piaget의 공저 관계를 각각 확인했고, 형식적 사고의 작동 설명을 원문에서 확인했다.",
+      "source_id": "inhelder-piaget-1955-formal-operations",
+      "bibliography": {
+        "authors": [
+          "Bärbel Inhelder",
+          "Jean Piaget"
+        ],
+        "title": "De la logique de l’enfant à la logique de l’adolescent: essai sur la construction des structures opératoires formelles",
+        "year": "1955",
+        "publisher": "Presses Universitaires de France",
+        "url": "https://www.unige.ch/piaget/piaget1955LEL",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-university-primary-work-archive",
+          "record_id": "piaget1955LEL",
+          "evidence": "제네바대학교 Centre Jean Piaget 전집에서 De la logique de l’enfant à la logique de l’adolescent의 저자 Bärbel Inhelder와 Jean Piaget·1955년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "original_publication_year",
+            "publisher",
+            "first_edition",
+            "official_archive_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-piaget",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.unige.ch/piaget/piaget1955LEL",
+          "locator": "공식 작품 표제·공동저자·1955년 초판 표시와 대학 공식 약력",
+          "evidence": "공식 전집은 Bärbel Inhelder와 Jean Piaget를 공동 저자로 표시하고, 대학 공식 약력의 두 연구자 협업과 형식적 사고 연구를 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-archive-and-biography",
+              "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+              "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "Bärbel Inhelder와 피아제가 형식적 조작의 구성을 직접 보고한 공저 원저작이다."
+      },
+      "claim_seed": {
+        "section": "단계론을 넘어 남은 유산",
+        "claim": "인헬더와 피아제는 청소년의 형식적 사고가 명제논리를 구체적 유목·관계 논리에 겹쳐 놓으며, 가설연역적 추론과 한 요인씩 통제하는 실험적 증명을 가능하게 한다고 설명했다.",
+        "locator": "Chapitre XVIII 도입부",
+        "evidence_url": "https://www.unige.ch/piaget/piaget1955LEL_07"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "jp-cand-a8",
+      "decision": "approved",
+      "reason": "제네바대학교 공식 원전 아카이브에서 실재와 Jean Piaget의 저자 관계를 각각 확인했고, 교육학의 고유 지식체계에 관한 문장을 원문에서 확인했다.",
+      "source_id": "piaget-1969-psychology-pedagogy",
+      "bibliography": {
+        "authors": [
+          "Jean Piaget"
+        ],
+        "title": "Psychologie et pédagogie",
+        "year": "1969",
+        "publisher": "Denoël",
+        "url": "https://www.unige.ch/piaget/piaget1969PPE",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "official-university-primary-work-archive",
+          "record_id": "piaget1969PPE",
+          "evidence": "제네바대학교 Centre Jean Piaget 전집에서 Psychologie et pédagogie의 저자 Jean Piaget·1969년 초판·출판사와 원문 또는 공식 목차를 확인했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "original_publication_year",
+            "publisher",
+            "first_edition",
+            "official_archive_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jean-piaget",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://www.unige.ch/piaget/piaget1969PPE",
+          "locator": "공식 작품 표제·1969년 초판 표시와 대학 공식 약력",
+          "evidence": "공식 전집은 Jean Piaget를 단독 저자로 표시하고, 대학 공식 약력의 교육·발달심리 연구 경력과 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-university-archive-and-biography",
+              "value": "Jean Piaget · University of Geneva Centre Jean Piaget · developmental psychology and genetic epistemology",
+              "evidence_url": "https://www.unige.ch/centre-piaget/en/jean-piaget/biography/trajectory"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "피아제가 심리학과 교육학의 관계 및 실험교수법을 직접 논한 본인 원저작이다."
+      },
+      "claim_seed": {
+        "section": "한계",
+        "claim": "피아제는 교육학이 아동심리학을 연역적으로 단순 적용하는 분야가 아니며, 교육심리와 실험교수법을 포함한 고유한 지식체계를 구성해야 한다고 지적했다.",
+        "locator": "Première partie, chapitre 1, pp. 24–25",
+        "evidence_url": "https://www.unige.ch/piaget/piaget1969PPE_02"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "inhelder-piaget-1955-formal-operations",
+    "piaget-1937-construction-reality",
+    "piaget-1945-symbol-formation",
+    "piaget-1969-psychology-pedagogy"
+  ],
+  "claim_map": [
+    {
+      "source_id": "piaget-1937-construction-reality",
+      "section": "단계표보다 중요한 작동 원리",
+      "claim": "피아제는 대상 영속성의 형성을 여섯 단계로 나누어, 사라진 대상에 특별한 행동을 보이지 않는 초기 수준에서 보이지 않는 이동을 표상하는 수준까지의 변화를 추적했다.",
+      "evidence_locator": "Chapitre premier, §§1–6"
+    },
+    {
+      "source_id": "piaget-1945-symbol-formation",
+      "section": "주요 저작",
+      "claim": "**La formation du symbole chez l’enfant: imitation, jeu et rêve, image et représentation** (1945) — 피아제는 지연 모방에서 모델이 사라진 뒤에도 행동을 재현할 수 있다는 점을 들어, 모방이 즉각적 행동에서 벗어나 표상의 수준에 이르렀다고 설명했다.",
+      "evidence_locator": "Chapitre III, §1 «Le sixième stade: l’imitation différée»"
+    },
+    {
+      "source_id": "inhelder-piaget-1955-formal-operations",
+      "section": "단계론을 넘어 남은 유산",
+      "claim": "인헬더와 피아제는 청소년의 형식적 사고가 명제논리를 구체적 유목·관계 논리에 겹쳐 놓으며, 가설연역적 추론과 한 요인씩 통제하는 실험적 증명을 가능하게 한다고 설명했다.",
+      "evidence_locator": "Chapitre XVIII 도입부"
+    },
+    {
+      "source_id": "piaget-1969-psychology-pedagogy",
+      "section": "한계",
+      "claim": "피아제는 교육학이 아동심리학을 연역적으로 단순 적용하는 분야가 아니며, 교육심리와 실험교수법을 포함한 고유한 지식체계를 구성해야 한다고 지적했다.",
+      "evidence_locator": "Première partie, chapitre 1, pp. 24–25"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/jean-piaget.md:44|piaget-1952|1955|1952",
+        "file": "wiki/pioneers/jean-piaget.md",
+        "line": 44,
+        "claimYear": 1955,
+        "sourceId": "piaget-1952",
+        "sourceYear": 1952,
+        "decision": "valid-context",
+        "reason": "1952년 원저는 같은 문단의 감각운동 지능·지식 구성 설명을 받치며, 1955년 센터 설립 사실은 별도의 공식 약력 각주가 직접 뒷받침하므로 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/jean-piaget.md:48|piaget-1970|1980|1970",
+        "file": "wiki/pioneers/jean-piaget.md",
+        "line": 48,
+        "claimYear": 1980,
+        "sourceId": "piaget-1970",
+        "sourceYear": 1970,
+        "decision": "valid-context",
+        "reason": "1970년 원저는 같은 문단의 이론적 유산과 단계 해석을 받치며, 1980년 사망 사실은 별도의 공식 약력 각주가 직접 뒷받침하므로 정상 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/jean-piaget.md:40|bio-piaget-unige|1896|none",
+        "file": "wiki/pioneers/jean-piaget.md",
+        "line": 40,
+        "claimYear": 1896,
+        "sourceId": "bio-piaget-unige",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 제네바대학교 공식 약력이 1896년 출생과 초기 경력을 직접 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/jean-piaget.md:44|bio-piaget-unige|1955|none",
+        "file": "wiki/pioneers/jean-piaget.md",
+        "line": 44,
+        "claimYear": 1955,
+        "sourceId": "bio-piaget-unige",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 제네바대학교 공식 약력이 1955년 발생적 인식론 국제센터 설립을 직접 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/jean-piaget.md:48|bio-piaget-unige|1980|none",
+        "file": "wiki/pioneers/jean-piaget.md",
+        "line": 48,
+        "claimYear": 1980,
+        "sourceId": "bio-piaget-unige",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 제네바대학교 공식 약력이 1980년 사망과 생애 맥락을 직접 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/jean-piaget.md:68|bio-piaget-unige|1921|none",
+        "file": "wiki/pioneers/jean-piaget.md",
+        "line": 68,
+        "claimYear": 1921,
+        "sourceId": "bio-piaget-unige",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 제네바대학교 공식 약력이 1921년 루소연구소 합류를 직접 설명하는 정상 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/jean-piaget.md:69|bio-piaget-unige|1955|none",
+        "file": "wiki/pioneers/jean-piaget.md",
+        "line": 69,
+        "claimYear": 1955,
+        "sourceId": "bio-piaget-unige",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "연도 없는 제네바대학교 공식 약력이 1955년 국제센터 설립 연표 항목을 직접 설명하는 정상 인용이다."
+      }
+    ]
+  }
+}
