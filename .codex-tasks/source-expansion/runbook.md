@@ -132,3 +132,28 @@ git diff --check
 | `base_commit` 재시도 | 도구 커밋이 사이에 들어가 두 번 어긋났고 두 번 수동 갱신; 이후에는 위인 커밋 직전 생성기가 현재 `HEAD`를 기록 |
 
 파일럿의 감사 JSON은 즉석 파이썬으로 조립됐고, 줄 단위 주장 추출 때문에 같은 문단 문자열이 두 출처에 배정됐다. 이제 `source-expansion-audit.mjs`가 후보를 하나도 버리지 않고 판정 원장과 결합하며, `extractFootnoteClaims`가 각주 마커별 문장 경계를 고정한다. Dale–Chall처럼 접근 실패로 확인하지 못한 후보는 재시도와 다른 레지스트리 조회 기록을 남긴 `pending_manual`이어야 하며, 단 한 번의 503·봇 차단·검색 미발견을 `rejected`의 근거로 삼지 않는다.
+
+## 실행 중 실제로 막힌 것들 (2026-08-18)
+
+31명 전원을 돌리며 겪은 것이다. 같은 데서 다시 막히지 않도록 남긴다.
+
+**`--search`를 쓸 때 프롬프트를 인자로 주면 조용히 멈춘다.**
+`codex --search exec ... "$(cat prompt.md)"`는 `Reading additional input from stdin...`을
+찍고 무한 대기한다. 백그라운드 실행이면 아무 신호 없이 몇 시간이 흐른다.
+**반드시 `- < prompt.md` 형태로 stdin에 넣어라.** 실제로 3시간을 잃었다.
+
+**codex 샌드박스는 `.git` 쓰기를 막는다.**
+`-s workspace-write`로는 커밋할 수 없고 `.git/index.lock: Operation not permitted`가 난다.
+위인마다 커밋하게 하려면 `-s danger-full-access`가 필요하다. 그 경우 프롬프트에
+`git push`·`reset --hard`·`rebase`·기존 커밋 수정 금지를 반드시 명시하라.
+
+**한 실행에 위인 4명쯤 처리된다.** 그 뒤 codex가 턴을 마치고 보고한다.
+31명이면 여덟 번쯤 돌려야 하고, 매 실행 사이에 대상 목록을 **살아 있는 프론트매터에서
+다시 계산**해 갱신하는 편이 안전하다. 손으로 옮긴 숫자는 어긋난다.
+
+**완료 리뷰 파일을 `docs/superpowers/audits/source-expansion/`에 두지 마라.**
+그 디렉터리의 `*.json`은 전부 위인 감사로 읽혀 `slug: undefined`로 실패한다.
+`docs/superpowers/audits/source-expansion-completion.json`에 둔다.
+
+**위인마다 브랜치를 만들어 fast-forward 병합하는 방식이 실제로 통했다.**
+`git worktree`/`branch`로 격리하면 실패한 위인을 버리기 쉽고 main은 항상 green이다.
