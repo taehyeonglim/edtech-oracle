@@ -6,8 +6,8 @@ role: 심리학자 · 문화역사학자
 life: 1896—1934
 concepts: [근접발달영역, 사회적 매개, 언어와 사고, 내면화]
 related: ["[[debates/vygotsky-bandura]]", "[[debates/vygotsky-papert]]", "[[debates/lave-vygotsky]]"]
-updated: 2026-08-14
-sources: [bandura-1977, bio-wiki-vygotsky, vandeveer-valsiner-1991, lave-1988, lave-wenger-1991, papert-1980, schunk-2012, vygotsky-1934, vygotsky-1978]
+updated: 2026-08-18
+sources: [bandura-1977, bio-wiki-vygotsky, lave-1988, lave-wenger-1991, moll-1990-vygotsky-zpd, papert-1980, schunk-2012, vandeveer-valsiner-1991, vygotsky-1934, vygotsky-1978]
 confidence: medium
 ---
 
@@ -31,6 +31,8 @@ confidence: medium
 ## 번역과 수용의 주의점
 
 비고츠키의 개념은 여러 번역과 후대 연구를 거치며 교육 설계 언어로 널리 사용되었다. 따라서 원저작의 문맥과 후대의 교수전략 용례를 구분해 읽어야 하며, 모든 협동학습을 자동으로 비고츠키식이라고 부르는 것은 신중해야 한다.[^vygotsky-1934][^vygotsky-1978][^schunk-2012]
+
+몰은 근접발달영역을 성인에게서 아동으로 기능을 이전하는 방식으로 좁히면 이론적으로 오도될 수 있다고 비판하고, 매개 수단의 전유와 새로운 협력 활동 참여, 상호 연결된 집단적 영역까지 분석해야 한다고 주장했다.[^moll-1990-vygotsky-zpd]
 
 ## 모스크바의 법학도에서 심리학자로
 
@@ -70,10 +72,11 @@ confidence: medium
 
 [^bandura-1977]: Albert Bandura. (1977). Social Learning Theory. Prentice Hall. <https://archive.org/details/sociallearningth00band> — tier A · [[sources/bandura-1977]]
 [^bio-wiki-vygotsky]: Wikipedia editors. Lev Vygotsky. Wikipedia. <https://en.wikipedia.org/wiki/Lev_Vygotsky> — tier C · [[sources/bio-wiki-vygotsky]]
-[^vandeveer-valsiner-1991]: René van der Veer; Jaan Valsiner. (1991). Understanding Vygotsky: A Quest for Synthesis. Blackwell. <https://archive.org/details/understandingvyg0000veer> — tier B · [[sources/vandeveer-valsiner-1991]]
 [^lave-1988]: Jean Lave. (1988). Cognition in Practice. Cambridge University Press. DOI: 10.1017/CBO9780511609268. <https://doi.org/10.1017/CBO9780511609268> — tier A · [[sources/lave-1988]]
 [^lave-wenger-1991]: Jean Lave; Etienne Wenger. (1991). Situated Learning: Legitimate Peripheral Participation. Cambridge University Press. <https://www.ischool.berkeley.edu/research/publications/1991/situated-learning-legitimate-peripheral-participation> — tier A · [[sources/lave-wenger-1991]]
+[^moll-1990-vygotsky-zpd]: Luis C. Moll. (1990). Vygotsky's Zone of Proximal Development: Rethinking Its Instructional Implications. Infancia y Aprendizaje, 13(51–52), 157–168. DOI: 10.1080/02103702.1990.10822276. <https://journals.sagepub.com/doi/10.1080/02103702.1990.10822276> — tier B · [[sources/moll-1990-vygotsky-zpd]]
 [^papert-1980]: Seymour Papert. (1980). Mindstorms: Children, Computers, and Powerful Ideas. Basic Books. <https://archive.org/details/mindstormschildr0000pape> — tier A · [[sources/papert-1980]]
 [^schunk-2012]: Dale H. Schunk. (2012). Learning Theories: An Educational Perspective. Pearson. <https://www.pearson.com/en-us/subject-catalog/p/learning-theories-an-educational-perspective/P200000003303> — tier B · [[sources/schunk-2012]]
+[^vandeveer-valsiner-1991]: René van der Veer; Jaan Valsiner. (1991). Understanding Vygotsky: A Quest for Synthesis. Blackwell. <https://archive.org/details/understandingvyg0000veer> — tier B · [[sources/vandeveer-valsiner-1991]]
 [^vygotsky-1934]: L. S. Vygotsky. (1934). Thought and Language. <https://www.marxists.org/archive/vygotsky/works/words/> — tier A · [[sources/vygotsky-1934]]
 [^vygotsky-1978]: L. S. Vygotsky; ed. Michael Cole et al.. (1978). Mind in Society: The Development of Higher Psychological Processes. Harvard University Press. <https://www.hup.harvard.edu/books/9780674576292> — tier B · [[sources/vygotsky-1978]]

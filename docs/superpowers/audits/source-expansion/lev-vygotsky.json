@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "slug": "lev-vygotsky",
+  "base_commit": "b5df1d88640bdc4edc984467676d0b15c70e6058",
+  "initial_source_ids": [
+    "bandura-1977",
+    "bio-wiki-vygotsky",
+    "lave-1988",
+    "lave-wenger-1991",
+    "papert-1980",
+    "schunk-2012",
+    "vandeveer-valsiner-1991",
+    "vygotsky-1934",
+    "vygotsky-1978"
+  ],
+  "required_additions": 1,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "pending_manual",
+      "reason": "MIT Press URL은 이 실행에서 403 봇 차단을 반환했고 Crossref·OpenLibrary edition 같은 별도 레지스트리 레코드를 확보하지 못해 1971년 판본과 ISBN을 현재 경로로 확인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Lev S. Vygotsky"
+        ],
+        "title": "The Psychology of Art",
+        "year": "1971",
+        "publisher": "The MIT Press",
+        "url": "https://mitpress.mit.edu/9780262720052/the-psychology-of-art/",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780262220132",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "lev-vygotsky",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "pending_manual",
+      "reason": "Ramapo College 도서관 URL이 Cloudflare 확인 페이지만 반환해 1997년 영어 번역 판본·번역자 역할·ISBN을 독립적으로 확인하지 못했다. 번역본이므로 원저작 A로 자동 판정할 수도 없다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "L. S. Vygotsky"
+        ],
+        "title": "Educational Psychology",
+        "year": "1997",
+        "publisher": "St. Lucie Press",
+        "url": "https://opac.ramapo.edu/cgi-bin/koha/opac-detail.pl?biblionumber=105113",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9781878205155",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "lev-vygotsky",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "pending_manual",
+      "reason": "막스플랑크 도서관 URL이 요청 검증 페이지만 반환했고, 주장 근거 URL은 1997년 Plenum 편집 번역판과 동일한 판본임을 확인해 주지 않아 존재·판본·주장 연결을 승인하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Lev S. Vygotsky"
+        ],
+        "title": "The History of the Development of Higher Mental Functions: The Collected Works of L. S. Vygotsky, Volume 4",
+        "year": "1997",
+        "publisher": "Plenum Press",
+        "url": "https://mpipsyl.disco.mpg.de/Record/MPIPL_cat.PL000107339",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780306456091",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "pending_manual",
+          "method": null,
+          "record_id": null,
+          "evidence": "이 라운드에서 존재를 확인하지 못했다.",
+          "matched_fields": []
+        },
+        "relation": {
+          "status": "pending_manual",
+          "pioneer": "lev-vygotsky",
+          "kind": "authored_by",
+          "person_role": null,
+          "evidence_url": null,
+          "locator": null,
+          "evidence": "존재가 확정되지 않아 관계를 판정하지 않았다.",
+          "identity_signals": []
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 SAGE 공식 논문 페이지에서 DOI·제목·저자 Luis C. Moll·1990년·Infancia y Aprendizaje 13(51–52), 157–168쪽을 대조했다.",
+      "source_id": "moll-1990-vygotsky-zpd",
+      "bibliography": {
+        "authors": [
+          "Luis C. Moll"
+        ],
+        "title": "Vygotsky's Zone of Proximal Development: Rethinking Its Instructional Implications",
+        "year": "1990",
+        "publisher": "Journal for the Study of Education and Development, 13(51–52), 157–168; Taylor & Francis Group",
+        "url": "https://journals.sagepub.com/doi/10.1080/02103702.1990.10822276",
+        "identifiers": {
+          "doi": "10.1080/02103702.1990.10822276",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-abstract",
+          "record_id": "10.1080/02103702.1990.10822276",
+          "evidence": "Crossref와 SAGE 공식 논문 페이지에서 DOI·제목·저자 Luis C. Moll·1990년·Infancia y Aprendizaje 13(51–52), 157–168쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "publisher-abstract"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "lev-vygotsky",
+          "kind": "criticizes",
+          "person_role": null,
+          "evidence_url": "https://journals.sagepub.com/doi/10.1080/02103702.1990.10822276",
+          "locator": "제목·Abstract·Keywords",
+          "evidence": "제목과 초록은 Vygotsky의 zone of proximal development를 직접 대상으로 삼고, 성인에서 아동으로 기능을 이전하는 해석을 지나치게 좁고 이론적으로 오도되며 교수적으로 제한적이라고 비판한 뒤 매개 수단의 전유·새로운 협력 활동·집단적 영역을 대안으로 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "named-theory-and-person-attribution",
+              "value": "Vygotsky · zone of proximal development · direct title, abstract, and keywords",
+              "evidence_url": "https://journals.sagepub.com/doi/10.1080/02103702.1990.10822276"
+            }
+          ]
+        }
+      },
+      "tier": "B",
+      "tier_review": {
+        "rule": "3-other-scholar-or-institution",
+        "evidence": "Luis C. Moll이 비고츠키의 근접발달영역에 대한 좁은 교수 해석을 직접 비판하고 대안적 집단·매개 모형을 제안한 타인의 학술 논문이다."
+      },
+      "claim_seed": {
+        "section": "번역과 수용의 주의점",
+        "claim": "Moll은 근접발달영역을 성인에게서 아동으로 기능을 이전하는 방식으로 좁히면 이론적으로 오도될 수 있다고 비판하고, 매개 수단의 전유와 새로운 협력 활동 참여, 상호 연결된 집단적 영역까지 분석해야 한다고 주장했다.",
+        "locator": "SAGE publisher abstract",
+        "evidence_url": "https://journals.sagepub.com/doi/10.1080/02103702.1990.10822276"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.publisher",
+          "from": "Journal for the Study of Education and Development, 13(51–52), 157–168; Taylor & Francis Group",
+          "to": "Infancia y Aprendizaje, 13(51–52), 157–168",
+          "reason": "Crossref의 원문 컨테이너 제목과 권·호·쪽을 레지스트리 표제로 정규화하고 현재 플랫폼 사업자명은 제외했다."
+        }
+      ]
+    }
+  ],
+  "approved_ids": [
+    "moll-1990-vygotsky-zpd"
+  ],
+  "claim_map": [
+    {
+      "source_id": "moll-1990-vygotsky-zpd",
+      "section": "번역과 수용의 주의점",
+      "claim": "몰은 근접발달영역을 성인에게서 아동으로 기능을 이전하는 방식으로 좁히면 이론적으로 오도될 수 있다고 비판하고, 매개 수단의 전유와 새로운 협력 활동 참여, 상호 연결된 집단적 영역까지 분석해야 한다고 주장했다.",
+      "evidence_locator": "SAGE publisher abstract"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/lev-vygotsky.md:47|vygotsky-1934|1978|1934",
+        "file": "wiki/pioneers/lev-vygotsky.md",
+        "line": 47,
+        "claimYear": 1978,
+        "sourceId": "vygotsky-1934",
+        "sourceYear": 1934,
+        "decision": "valid-context",
+        "reason": "문장은 1934년 Thought and Language와 1978년 Mind in Society를 함께 대조하며, vygotsky-1934는 같은 문장 앞부분의 1934년 원저작을 받치는 정상적인 혼합 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/lev-vygotsky.md:39|bio-wiki-vygotsky|1924|none",
+        "file": "wiki/pioneers/lev-vygotsky.md",
+        "line": 39,
+        "claimYear": 1924,
+        "sourceId": "bio-wiki-vygotsky",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-vygotsky는 발행연도가 없는 인물 약력이며, 1924년 레닌그라드 발표와 모스크바 합류를 포함한 생애 문맥에 붙은 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/lev-vygotsky.md:43|bio-wiki-vygotsky|1931|none",
+        "file": "wiki/pioneers/lev-vygotsky.md",
+        "line": 43,
+        "claimYear": 1931,
+        "sourceId": "bio-wiki-vygotsky",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-vygotsky는 발행연도가 없는 인물 약력이고, 1931년 이후의 연구 경로와 사후 출판 맥락을 설명하는 정상적인 생애 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/lev-vygotsky.md:47|bio-wiki-vygotsky|1978|none",
+        "file": "wiki/pioneers/lev-vygotsky.md",
+        "line": 47,
+        "claimYear": 1978,
+        "sourceId": "bio-wiki-vygotsky",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-vygotsky는 발행연도가 없는 인물 약력이며, 사망·사후 출판·영어권 수용을 함께 설명하는 문단에서 1978년 맥락을 보조하는 인용이다."
+      }
+    ]
+  }
+}
