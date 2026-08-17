@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "slug": "robert-mager",
+  "base_commit": "9e433e3866f97392c52102424bf9ca8be39fb942",
+  "initial_source_ids": [
+    "bio-mager-guild",
+    "gagne-1965",
+    "gagne-1985",
+    "gilbert-1978",
+    "mager-1962",
+    "mager-pipe-1970"
+  ],
+  "required_additions": 4,
+  "candidates": [
+    {
+      "candidate_key": "cand-goal-analysis-1972",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED065456에서 제목·저자 Robert F. Mager·1972년·Fearon Publishers와 초록을 확인했다. OpenLibrary OL3189752M은 같은 저작의 1984년 Pitman 판본을 별도로 확인해 주며, 이 판본의 ISBN 0822443392는 1972년 원판에 귀속하지 않았다.",
+      "source_id": "mager-1972-goal-analysis",
+      "bibliography": {
+        "authors": [
+          "Robert F. Mager"
+        ],
+        "title": "Goal Analysis",
+        "year": "1972",
+        "publisher": "Fearon Publishers",
+        "url": "https://eric.ed.gov/?id=ED065456",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780822434764",
+          "eric": "ED065456",
+          "openlibrary_edition": "OL3189752M",
+          "oclc": "416465"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-and-openlibrary-edition-records",
+          "record_id": "ED065456; OL3189752M (1984 edition)",
+          "evidence": "ERIC ED065456에서 제목·저자 Robert F. Mager·1972년·Fearon Publishers와 초록을 확인했다. OpenLibrary OL3189752M은 같은 저작의 1984년 Pitman 판본을 별도로 확인해 주며, 이 판본의 ISBN 0822443392는 1972년 원판에 귀속하지 않았다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "eric_record",
+            "later_openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-mager",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=ED065456",
+          "locator": "ERIC 저자란과 OpenLibrary 저자 전거·Learning Guild 추도문",
+          "evidence": "ERIC은 Robert F. Mager를 단독 저자로 표시하고, OpenLibrary 전거의 Robert Frank Mager·1923년생 및 Learning Guild의 교수설계 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-birth-year",
+              "value": "Robert Frank Mager · born 1923 · OpenLibrary author OL37479A",
+              "evidence_url": "https://openlibrary.org/authors/OL37479A/Robert_Frank_Mager"
+            },
+            {
+              "kind": "professional-memorial-and-field",
+              "value": "Robert F. Mager · 1923–2020 · instructional design theorist and writer",
+              "evidence_url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "메이거가 추상적 목표의 의미를 수행 증거로 구체화하는 목표분석 절차를 직접 제시한 본인 원저서다."
+      },
+      "claim_seed": {
+        "section": "행동동사보다 중요한 세 요소",
+        "claim": "메이거의 목표분석은 태도·감상·이해 같은 추상적 목표를 직접 관찰 사실로 보지 않고 정황 증거에서 추론하며, 수행·과제 분석과 표적집단 기술을 포함한 더 큰 분석 체계 속에서 그 의미를 구체화한다.",
+        "locator": "ERIC ED065456 초록의 Part 1 설명",
+        "evidence_url": "https://eric.ed.gov/?id=ED065456"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.identifiers.isbn",
+          "from": "9780822434764",
+          "to": null,
+          "reason": "OpenLibrary OL3189752M은 같은 저작의 1984년 Pitman 판본이며 ISBN 0822443392를 표시하므로, 1972년 ERIC 원판 레코드에 후보 ISBN을 귀속하지 않았다."
+        },
+        {
+          "field": "claim_seed.section",
+          "from": "모호한 목표를 분석하기",
+          "to": "행동동사보다 중요한 세 요소",
+          "reason": "새 섹션을 만들지 않고 기존 섹션에 배정했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "cand-developing-attitude-1968",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED036494와 OpenLibrary OL5628786M에서 제목·저자 Robert F. Mager·1968년·Fearon Publishers를 대조했다.",
+      "source_id": "mager-1968-developing-attitude",
+      "bibliography": {
+        "authors": [
+          "Robert F. Mager"
+        ],
+        "title": "Developing Attitude Toward Learning",
+        "year": "1968",
+        "publisher": "Fearon Publishers",
+        "url": "https://eric.ed.gov/?id=ED036494",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780822420002",
+          "eric": "ED036494",
+          "openlibrary_edition": "OL5628786M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-and-openlibrary-edition-records",
+          "record_id": "ED036494; OL5628786M",
+          "evidence": "ERIC ED036494와 OpenLibrary OL5628786M에서 제목·저자 Robert F. Mager·1968년·Fearon Publishers를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "eric_record",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-mager",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=ED036494",
+          "locator": "ERIC 저자란과 OpenLibrary 저자 전거·Learning Guild 추도문",
+          "evidence": "ERIC은 Robert F. Mager를 단독 저자로 표시하고, OpenLibrary 전거의 Robert Frank Mager·1923년생 및 Learning Guild의 교수설계 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-birth-year",
+              "value": "Robert Frank Mager · born 1923 · OpenLibrary author OL37479A",
+              "evidence_url": "https://openlibrary.org/authors/OL37479A/Robert_Frank_Mager"
+            },
+            {
+              "kind": "professional-memorial-and-field",
+              "value": "Robert F. Mager · 1923–2020 · instructional design theorist and writer",
+              "evidence_url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "메이거가 학습에 대한 접근·회피와 태도의 교수·평가 방법을 직접 제시한 본인 원저서다."
+      },
+      "claim_seed": {
+        "section": "한계",
+        "claim": "메이거는 학습에 대한 긍정적 태도를 이후 배운 것을 사용하고 더 학습하려는 접근 경향과 연결하고, 활동 조건·활동 결과·교사의 본보기가 학습활동에 대한 접근과 회피를 좌우한다고 설명했다.",
+        "locator": "ERIC ED036494 초록",
+        "evidence_url": "https://eric.ed.gov/?id=ED036494"
+      },
+      "corrections": [
+        {
+          "field": "bibliography.identifiers.isbn",
+          "from": "9780822420002",
+          "to": null,
+          "reason": "ERIC과 OpenLibrary의 1968년 판본은 후보 ISBN을 표시하지 않아 확인된 ERIC·OpenLibrary 식별자만 사용했다."
+        },
+        {
+          "field": "claim_seed.section",
+          "from": "학습에 접근하게 만드는 조건",
+          "to": "한계",
+          "reason": "새 섹션을 만들지 않고 기존 섹션에 배정했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "cand-developing-vocational-instruction-1967",
+      "decision": "pending_manual",
+      "reason": "ERIC과 OpenLibrary에서 실재·공저 관계·초록의 체계적 직업교육 과정개발 주장을 확인했지만, 선정한 1981년 논문의 분석·설계·개발·실행 주장과 범위가 겹쳐 정확한 4건 할당량 밖으로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert F. Mager",
+          "Kenneth M. Beach, Jr."
+        ],
+        "title": "Developing Vocational Instruction",
+        "year": "1967",
+        "publisher": "Fearon Publishers",
+        "url": "https://eric.ed.gov/?id=ED069876",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED069876",
+          "openlibrary_edition": "OL5548073M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-and-openlibrary-edition-records",
+          "record_id": "ED069876; OL5548073M",
+          "evidence": "ERIC ED069876과 OpenLibrary OL5548073M에서 제목·저자 Robert F. Mager와 Kenneth M. Beach Jr.·1967년·Fearon Publishers를 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "year",
+            "publisher",
+            "eric_record",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-mager",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=ED069876",
+          "locator": "ERIC 저자란과 OpenLibrary 저자 전거·Learning Guild 추도문",
+          "evidence": "ERIC은 Robert F. Mager를 공저자로 표시하고, OpenLibrary 전거의 Robert Frank Mager·1923년생 및 Learning Guild의 교수설계 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-birth-year",
+              "value": "Robert Frank Mager · born 1923 · OpenLibrary author OL37479A",
+              "evidence_url": "https://openlibrary.org/authors/OL37479A/Robert_Frank_Mager"
+            },
+            {
+              "kind": "professional-memorial-and-field",
+              "value": "Robert F. Mager · 1923–2020 · instructional design theorist and writer",
+              "evidence_url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-measuring-instructional-intent-1973",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary OL22122256M과 CiNii Books BA28254483에서 제목·저자 Robert F. Mager·1973년·Fearon Publishers·ISBN 0822444623을 대조했다.",
+      "source_id": "mager-1973-measuring-instructional-intent",
+      "bibliography": {
+        "authors": [
+          "Robert F. Mager"
+        ],
+        "title": "Measuring Instructional Intent; Or, Got a Match?",
+        "year": "1973",
+        "publisher": "Fearon Publishers",
+        "url": "https://ci.nii.ac.jp/ncid/BA28254483",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0822444623",
+          "eric": null,
+          "openlibrary_edition": "OL22122256M",
+          "oclc": "701052"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-and-cinii-books-records",
+          "record_id": "OL22122256M; BA28254483",
+          "evidence": "OpenLibrary OL22122256M과 CiNii Books BA28254483에서 제목·저자 Robert F. Mager·1973년·Fearon Publishers·ISBN 0822444623을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "isbn",
+            "openlibrary_edition",
+            "library_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-mager",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://ci.nii.ac.jp/ncid/BA28254483",
+          "locator": "CiNii Books 저자란과 OpenLibrary 저자 전거·Learning Guild 추도문",
+          "evidence": "CiNii Books는 Robert F. Mager를 단독 저자로 표시하고, OpenLibrary 전거의 Robert Frank Mager·1923년생 및 Learning Guild의 교수설계 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-birth-year",
+              "value": "Robert Frank Mager · born 1923 · OpenLibrary author OL37479A",
+              "evidence_url": "https://openlibrary.org/authors/OL37479A/Robert_Frank_Mager"
+            },
+            {
+              "kind": "professional-memorial-and-field",
+              "value": "Robert F. Mager · 1923–2020 · instructional design theorist and writer",
+              "evidence_url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "메이거가 교수목표와 평가문항의 일치를 점검하는 방법을 직접 제시한 본인 원저서다."
+      },
+      "claim_seed": {
+        "section": "목표를 수행·조건·기준으로 쓰기",
+        "claim": "메이거의 1973년 저서는 목표-문항 체크리스트와 목표-문항 매칭 흐름도를 별도 자료로 제공해, 목표의 명료성을 평가문항과의 일치 검토까지 연결했다.",
+        "locator": "CiNii Books BA28254483 주기(Note)의 삽입 자료 설명",
+        "evidence_url": "https://ci.nii.ac.jp/ncid/BA28254483"
+      },
+      "corrections": [
+        {
+          "field": "claim_seed.section",
+          "from": "목표와 평가문항의 일치",
+          "to": "목표를 수행·조건·기준으로 쓰기",
+          "reason": "새 섹션을 만들지 않고 기존 섹션에 배정했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "cand-making-instruction-work-1997",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary와 Google Books에서 실재·단독 저자·목차를 확인했지만 필요 분석에서 결과 도출과 교수개발로 이어지는 흐름이 기존 수행문제 진단 및 선정한 1981년 개발 절차와 겹쳐 할당량 밖으로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert F. Mager"
+        ],
+        "title": "Making Instruction Work, Or, Skillbloomers: A Step-by-Step Guide to Designing and Developing Instruction That Works",
+        "year": "1997",
+        "publisher": "Center for Effective Performance",
+        "url": "https://books.google.com/books/about/Making_Instruction_Work_Or_Skillbloomers.html?id=kAVKAAAAYAAJ",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9781879618022",
+          "eric": null,
+          "openlibrary_edition": "OL1017929M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-and-google-books-records",
+          "record_id": "OL1017929M; kAVKAAAAYAAJ",
+          "evidence": "OpenLibrary OL1017929M과 Google Books에서 제목·저자 Robert Frank Mager·1997년·Center for Effective Performance·ISBN 1879618028을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "isbn",
+            "openlibrary_edition",
+            "table_of_contents"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-mager",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://books.google.com/books/about/Making_Instruction_Work_Or_Skillbloomers.html?id=kAVKAAAAYAAJ",
+          "locator": "Google Books 저자란과 OpenLibrary 저자 전거·Learning Guild 추도문",
+          "evidence": "Google Books는 Robert Frank Mager를 단독 저자로 표시하고, OpenLibrary 전거의 전체 이름·1923년생 및 Learning Guild의 교수설계 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-birth-year",
+              "value": "Robert Frank Mager · born 1923 · OpenLibrary author OL37479A",
+              "evidence_url": "https://openlibrary.org/authors/OL37479A/Robert_Frank_Mager"
+            },
+            {
+              "kind": "professional-memorial-and-field",
+              "value": "Robert F. Mager · 1923–2020 · instructional design theorist and writer",
+              "evidence_url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-manager-training-1999",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary와 Google Books에서 실재·단독 저자와 훈련·수행개선 자원의 비용효과적 사용이라는 설명을 확인했지만, 기존 『Analyzing Performance Problems』의 교육 개입 전 진단 주장과 직접 겹쳐 할당량 밖으로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert F. Mager"
+        ],
+        "title": "What Every Manager Should Know About Training: An Insider's Guide to Getting Your Money's Worth from Training",
+        "year": "1999",
+        "publisher": "Center for Effective Performance",
+        "url": "https://books.google.com/books/about/What_Every_Manager_Should_Know_about_Tra.html?id=gfMFAAAACAAJ",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9781879618190",
+          "eric": null,
+          "openlibrary_edition": "OL56820M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-and-google-books-records",
+          "record_id": "OL56820M; gfMFAAAACAAJ",
+          "evidence": "OpenLibrary OL56820M과 Google Books에서 제목·저자 Robert Frank Mager·1999년·Center for Effective Performance·ISBN 1879618192를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "isbn",
+            "openlibrary_edition"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-mager",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://books.google.com/books/about/What_Every_Manager_Should_Know_about_Tra.html?id=gfMFAAAACAAJ",
+          "locator": "Google Books 저자란과 OpenLibrary 저자 전거·Learning Guild 추도문",
+          "evidence": "Google Books는 Robert Frank Mager를 단독 저자로 표시하고, OpenLibrary 전거의 전체 이름·1923년생 및 Learning Guild의 교수설계 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-birth-year",
+              "value": "Robert Frank Mager · born 1923 · OpenLibrary author OL37479A",
+              "evidence_url": "https://openlibrary.org/authors/OL37479A/Robert_Frank_Mager"
+            },
+            {
+              "kind": "professional-memorial-and-field",
+              "value": "Robert F. Mager · 1923–2020 · instructional design theorist and writer",
+              "evidence_url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "cand-industry-training-academe-1981",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC EJ254266에서 제목·저자 Robert F. Mager·1981년·Engineering Education 72(2), 148–153쪽과 초록을 대조했다.",
+      "source_id": "mager-1981-industry-training-academe",
+      "bibliography": {
+        "authors": [
+          "Robert F. Mager"
+        ],
+        "title": "Industry's Training Methods: Do They Have a Place in Academe?",
+        "year": "1981",
+        "publisher": "Engineering Education",
+        "url": "https://eric.ed.gov/?id=EJ254266",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "EJ254266",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "EJ254266",
+          "evidence": "ERIC EJ254266에서 제목·저자 Robert F. Mager·1981년·Engineering Education 72(2), 148–153쪽과 초록을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "container-title",
+            "volume",
+            "issue",
+            "page",
+            "eric_record"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-mager",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ254266",
+          "locator": "ERIC 저자란과 OpenLibrary 저자 전거·Learning Guild 추도문",
+          "evidence": "ERIC은 Robert F. Mager를 단독 저자로 표시하고, OpenLibrary 전거의 Robert Frank Mager·1923년생 및 Learning Guild의 교수설계 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-birth-year",
+              "value": "Robert Frank Mager · born 1923 · OpenLibrary author OL37479A",
+              "evidence_url": "https://openlibrary.org/authors/OL37479A/Robert_Frank_Mager"
+            },
+            {
+              "kind": "professional-memorial-and-field",
+              "value": "Robert F. Mager · 1923–2020 · instructional design theorist and writer",
+              "evidence_url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "메이거가 산업의 준거참조 교수개발 절차를 대학에 적용하는 방안을 직접 논한 본인 원논문이다."
+      },
+      "claim_seed": {
+        "section": "주요 저작",
+        "claim": "메이거는 산업과 대학의 차이를 구분하면서도, 분석·설계·개발·실행으로 이어지는 준거참조 교수개발 절차를 대학 교육에 적용할 수 있다고 제안했다.",
+        "locator": "ERIC EJ254266 초록",
+        "evidence_url": "https://eric.ed.gov/?id=EJ254266"
+      },
+      "corrections": [
+        {
+          "field": "claim_seed.section",
+          "from": "산업훈련 방법을 대학에 적용하기",
+          "to": "주요 저작",
+          "reason": "새 섹션을 만들지 않고 기존 섹션에 배정했다."
+        }
+      ]
+    },
+    {
+      "candidate_key": "cand-life-pinball-machine-2003",
+      "decision": "pending_manual",
+      "reason": "WorldCat에서 2003년 회고록의 실재와 Robert F. Mager 저자 관계는 확인했지만 후보가 제시한 워크숍 카탈로그 PDF가 404를 반환해 개인 경험이 CRI 방법론과 전문 저작으로 이어졌다는 세부 주장을 독립 검증하지 못했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert F. Mager"
+        ],
+        "title": "Life in the Pinball Machine: Careening from There to Here: Observations from an Accidental Life in Learning and Human Performance",
+        "year": "2003",
+        "publisher": "CEP Press",
+        "url": "https://search.worldcat.org/it/title/51505431?tab=details",
+        "identifiers": {
+          "doi": null,
+          "isbn": "9780970952721",
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": "51505431"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "worldcat-oclc-record",
+          "record_id": "OCLC 51505431",
+          "evidence": "WorldCat OCLC 51505431에서 제목·저자 Robert F. Mager·2003년·CEP Press·ISBN 9780970952721을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "isbn",
+            "oclc"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-mager",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://search.worldcat.org/title/51505431",
+          "locator": "WorldCat 저자란과 OpenLibrary 저자 전거·Learning Guild 추도문",
+          "evidence": "WorldCat은 Robert F. Mager를 저자로 표시하고, OpenLibrary 전거의 Robert Frank Mager·1923년생 및 Learning Guild의 교수설계 경력이 동일인을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority-and-birth-year",
+              "value": "Robert Frank Mager · born 1923 · OpenLibrary author OL37479A",
+              "evidence_url": "https://openlibrary.org/authors/OL37479A/Robert_Frank_Mager"
+            },
+            {
+              "kind": "professional-memorial-and-field",
+              "value": "Robert F. Mager · 1923–2020 · instructional design theorist and writer",
+              "evidence_url": "https://www.learningguild.com/articles/in-memoriam-robert-f-mager-1923-2020"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "mager-1968-developing-attitude",
+    "mager-1972-goal-analysis",
+    "mager-1973-measuring-instructional-intent",
+    "mager-1981-industry-training-academe"
+  ],
+  "claim_map": [
+    {
+      "source_id": "mager-1972-goal-analysis",
+      "section": "행동동사보다 중요한 세 요소",
+      "claim": "『Goal Analysis』에서 메이거는 태도·감상·이해 같은 추상적 목표를 직접 관찰할 수 있는 사실로 취급하지 않고 정황 증거에서 추론하며, 수행·과제 분석과 표적집단 기술을 포함하는 더 큰 분석 체계 안에서 그 의미를 구체화했다.",
+      "evidence_locator": "ERIC ED065456 초록의 Part 1 설명"
+    },
+    {
+      "source_id": "mager-1968-developing-attitude",
+      "section": "한계",
+      "claim": "한편 메이거는 학습에 대한 긍정적 태도를 이후 배운 것을 사용하고 더 학습하려는 접근 경향과 연결했으며, 활동 조건·활동 결과·교사의 본보기가 학습활동에 대한 접근과 회피를 좌우한다고 설명했다.",
+      "evidence_locator": "ERIC ED036494 초록"
+    },
+    {
+      "source_id": "mager-1973-measuring-instructional-intent",
+      "section": "목표를 수행·조건·기준으로 쓰기",
+      "claim": "1973년 『Measuring Instructional Intent; Or, Got a Match?』는 목표-문항 체크리스트와 목표-문항 매칭 흐름도를 별도 자료로 제공해, 목표의 명료성을 평가문항과의 일치 검토까지 연결했다.",
+      "evidence_locator": "CiNii Books BA28254483 주기(Note)의 삽입 자료 설명"
+    },
+    {
+      "source_id": "mager-1981-industry-training-academe",
+      "section": "주요 저작",
+      "claim": "**Industry's Training Methods: Do They Have a Place in Academe?** (1981) — 산업과 대학의 차이를 구분하면서도, 분석·설계·개발·실행으로 이어지는 준거참조 교수개발 절차를 대학 교육에도 적용할 수 있다고 제안했다.",
+      "evidence_locator": "ERIC EJ254266 초록"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/robert-mager.md:50|mager-pipe-1970|2020|1970",
+        "file": "wiki/pioneers/robert-mager.md",
+        "line": 50,
+        "claimYear": 2020,
+        "sourceId": "mager-pipe-1970",
+        "sourceYear": 1970,
+        "decision": "valid-context",
+        "reason": "같은 문단의 1970년 수행문제 진단 주장은 『Analyzing Performance Problems』가, 2020년 사망 사실은 별도의 Learning Guild 추도문이 각각 받치므로 정상적인 문맥 인용이다."
+      }
+    ],
+    "incomparable": []
+  }
+}

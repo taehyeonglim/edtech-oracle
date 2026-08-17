@@ -6,8 +6,8 @@ role: 심리학자 · 수행공학 저술가
 life: 1923—2020
 concepts: [수행목표, 조건·행동·준거, 준거지향 평가, 수행 격차]
 related: ["[[debates/mager-gagne]]", "[[debates/mager-gilbert]]"]
-updated: 2026-08-14
-sources: [bio-mager-guild, gagne-1965, gagne-1985, gilbert-1978, mager-1962, mager-pipe-1970]
+updated: 2026-08-16
+sources: [bio-mager-guild, gagne-1965, gagne-1985, gilbert-1978, mager-1962, mager-1968-developing-attitude, mager-1972-goal-analysis, mager-1973-measuring-instructional-intent, mager-1981-industry-training-academe, mager-pipe-1970]
 confidence: high
 ---
 
@@ -23,10 +23,13 @@ confidence: high
 
 - **Preparing Objectives for Programmed Instruction** (1962) — 관찰 가능한 수행과 조건, 수용 가능한 기준으로 목표를 쓰는 원리를 대중화했다.[^mager-1962]
 - **Analyzing Performance Problems** (1970) — 교육으로 해결할 문제와 환경·동기·자원 문제를 구분하는 진단 흐름을 제시했다.[^mager-pipe-1970]
+- **Industry's Training Methods: Do They Have a Place in Academe?** (1981) — 산업과 대학의 차이를 구분하면서도, 분석·설계·개발·실행으로 이어지는 준거참조 교수개발 절차를 대학 교육에도 적용할 수 있다고 제안했다.[^mager-1981-industry-training-academe]
 
 ## 행동동사보다 중요한 세 요소
 
 메이거식 목표는 수행 그 자체, 수행이 일어날 조건, 받아들일 수 있는 수준을 구분한다. 단순히 동사를 바꾸는 기술이 아니라 목표와 평가 사이의 해석 차이를 줄이는 계약에 가깝다.[^mager-1962]
+
+『Goal Analysis』에서 메이거는 태도·감상·이해 같은 추상적 목표를 직접 관찰할 수 있는 사실로 취급하지 않고 정황 증거에서 추론하며, 수행·과제 분석과 표적집단 기술을 포함하는 더 큰 분석 체계 안에서 그 의미를 구체화했다.[^mager-1972-goal-analysis]
 
 ## 교육부터 처방하지 않기
 
@@ -39,6 +42,8 @@ confidence: high
 ## 목표를 수행·조건·기준으로 쓰기
 
 1962년 『Preparing Instructional Objectives』에서 메이거는 학습자가 보여야 할 수행, 그 수행이 일어날 조건, 받아들일 수 있는 기준을 목표 진술에서 확인하도록 했다. 이 틀은 모든 교육목표가 반드시 세 문구를 기계적으로 가져야 한다는 규칙보다, 성공의 증거를 설계자와 학습자가 분명히 공유하도록 돕는 점에 의미가 있다.[^mager-1962]
+
+1973년 『Measuring Instructional Intent; Or, Got a Match?』는 목표-문항 체크리스트와 목표-문항 매칭 흐름도를 별도 자료로 제공해, 목표의 명료성을 평가문항과의 일치 검토까지 연결했다.[^mager-1973-measuring-instructional-intent]
 
 ## 교육이 필요한 문제인지 먼저 묻기
 
@@ -53,6 +58,8 @@ confidence: high
 ## 한계
 
 메이거의 목표 형식은 학습자가 보여야 할 수행과 그 조건, 수용 가능한 기준을 미리 말할 수 있을 때 가장 선명하다. 따라서 이해·감상·정체성처럼 의미가 맥락 속에서 형성되거나 성공 기준이 하나로 고정되기 어려운 교육목적에는, 이를 억지로 단일한 관찰 행동으로 번역할 때 목표가 목적의 일부만 대표하게 되는 한계가 있다.[^mager-1962]
+
+한편 메이거는 학습에 대한 긍정적 태도를 이후 배운 것을 사용하고 더 학습하려는 접근 경향과 연결했으며, 활동 조건·활동 결과·교사의 본보기가 학습활동에 대한 접근과 회피를 좌우한다고 설명했다.[^mager-1968-developing-attitude]
 
 『Analyzing Performance Problems』는 모든 [[concepts/performance-gap]]이 교육 문제는 아니라고 구분한다. 그런데 수행 격차를 발견할 때마다 교육목표와 훈련 과정으로 곧장 바꾸면, 메이거와 파이프가 먼저 보라고 한 환경·보상·도구·피드백의 원인을 놓치게 된다.[^mager-pipe-1970]
 
@@ -72,4 +79,8 @@ confidence: high
 [^gagne-1985]: Robert M. Gagné; Leslie J. Briggs; Walter W. Wager. (1985). Principles of Instructional Design. Holt, Rinehart and Winston. <https://archive.org/details/principlesofinst0000gagn> — tier B · [[sources/gagne-1985]]
 [^gilbert-1978]: Thomas F. Gilbert. (1978). Human Competence: Engineering Worthy Performance. McGraw-Hill. <https://agris.fao.org/search/en/providers/122535/records/65ddd7cd0f3e94b9e5c5db55> — tier A · [[sources/gilbert-1978]]
 [^mager-1962]: Robert F. Mager. (1962). Preparing Objectives for Programmed Instruction. Fearon Publishers. <https://eric.ed.gov/?id=ED018143> — tier A · [[sources/mager-1962]]
+[^mager-1968-developing-attitude]: Robert F. Mager. (1968). Developing Attitude Toward Learning. Fearon Publishers. <https://eric.ed.gov/?id=ED036494> — tier A · [[sources/mager-1968-developing-attitude]]
+[^mager-1972-goal-analysis]: Robert F. Mager. (1972). Goal Analysis. Fearon Publishers. <https://eric.ed.gov/?id=ED065456> — tier A · [[sources/mager-1972-goal-analysis]]
+[^mager-1973-measuring-instructional-intent]: Robert F. Mager. (1973). Measuring Instructional Intent; Or, Got a Match?. Fearon Publishers. <https://ci.nii.ac.jp/ncid/BA28254483> — tier A · [[sources/mager-1973-measuring-instructional-intent]]
+[^mager-1981-industry-training-academe]: Robert F. Mager. (1981). Industry's Training Methods: Do They Have a Place in Academe?. Engineering Education, 72(2), 148–153. <https://eric.ed.gov/?id=EJ254266> — tier A · [[sources/mager-1981-industry-training-academe]]
 [^mager-pipe-1970]: Robert F. Mager; Peter Pipe. (1970). Analyzing Performance Problems. Fearon Publishers. <https://archive.org/details/analyzingperform0000mage> — tier A · [[sources/mager-pipe-1970]]
