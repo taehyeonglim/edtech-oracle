@@ -3,33 +3,34 @@
 
 작업 디렉터리는 `/Users/taehyeong/Documents/GitHub/edtech-oracle` 이다.
 
-## 이번 실행 대상 — 남은 13명, 이 순서대로
+## 이번 실행 대상 — 남은 9명, 마지막 구간이다
 
-**이미 끝난 18명은 건드리지 마라.** `docs/superpowers/audits/source-expansion/`에
+**이미 끝난 22명은 건드리지 마라.** `docs/superpowers/audits/source-expansion/`에
 감사 기록이 있는 위인이 그들이다.
 
 | 부족분 | slug |
 |---|---|
-| +4 | `thomas-gilbert` |
-| +3 | `albert-bandura` · `david-jonassen` · `edward-thorndike` · `john-dewey` · `robert-kozma` |
+| +3 | `john-dewey` · `robert-kozma` |
 | +2 | `jean-lave` · `richard-clark` · `walter-dick` |
 | +1 | `bf-skinner` · `jerome-bruner` · `john-keller` · `lev-vygotsky` |
 
-합계 13명 · 29건. 부족분이 큰 순서대로 한 명씩 처리한다.
-시작 전 `npm run verify:source-expansion`이 "새 id 87건, 완료 감사 18건"으로
+합계 9명 · 16건. 부족분이 큰 순서대로 처리한다.
+시작 전 `npm run verify:source-expansion`이 "새 id 100건, 완료 감사 22건"으로
 통과하는지 확인하라. 다르면 멈추고 보고하라.
 
-**요청 후보 수는 부족분 n에 대해 `max(2n, n+3)`이다.** 부족분 1이면 4건,
-2면 5, 3이면 6건을 요청한다.
+**요청 후보 수는 `max(2n, n+3)`이다.** 부족분 1이면 4건, 2면 5, 3이면 6건.
 
-**여기서부터 어려워진다.** 남은 위인은 이미 7~9건이 등재돼 있어 새로 찾는 것이
-기존과 겹치기 쉽다. **중복 색인을 반드시 확인하라.** 중복이면 승인하지 말고
-다른 후보를 찾아라. 그래도 못 채우면 그 위인은 보류하고 다음으로 넘어간다 —
-숫자를 맞추려고 중복이나 약한 관계를 승인하지 마라.
+**가장 어려운 구간이다.** 이 위인들은 이미 7~9건이 등재돼 있고 문헌이 많은
+인물이라 새로 찾는 것이 기존과 겹치기 쉽다. 중복 색인(242건)을 반드시
+확인하라. 중복이면 `rejected`다 — "확인 못 함"이 아니라 "이미 있음"이다.
 
-**고위험 동명이인 — `richard-clark` · `john-keller`가 남아 있다.**
-독립 식별 신호 2개와 강한 신호 1개를 요구한다. `allan-collins`에서는 BBN 소속과
+**못 채우면 보류하고 넘어가라.** 숫자를 맞추려고 중복이나 약한 관계를 승인하지
+마라. 여기까지 22명이 보류 없이 채워졌지만 그것이 목표는 아니다.
+
+**고위험 동명이인 — `richard-clark`(+2) · `john-keller`(+1)가 남아 있다.**
+독립 식별 신호 2개와 강한 신호 1개를 요구한다. `allan-collins`는 BBN 소속과
 공저자망(Loftus·Grignetti·John Seely Brown)으로 확인해 통과했다. 같은 수준이다.
+부족분이 작아 후보 여유가 얇으니 특히 조심하라.
 
 **한 위인이 끝날 때마다 진행 상황을 stdout에 한 줄로 남겨라.**
 
