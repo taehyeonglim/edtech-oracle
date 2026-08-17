@@ -6,8 +6,8 @@ role: 원격교육 이론가 · 교육학자
 life: 생년 미확인—현재
 concepts: [교류간격, 대화, 구조, 학습자 자율성]
 related: ["[[debates/moore-dick]]", "[[debates/moore-wenger]]"]
-updated: 2026-08-14
-sources: [bio-moore-author, bio-moore-hall, dick-carey-1978, moore-1973, moore-1993, wenger-1998]
+updated: 2026-08-16
+sources: [bio-moore-author, bio-moore-hall, dick-carey-1978, gokool-ramdoo-2008-transactional-distance, gorsky-caspi-2005-transactional-distance, moore-1972-learner-autonomy, moore-1973, moore-1993, moore-kearsley-1996-distance-education-systems, wenger-1998]
 confidence: medium
 ---
 
@@ -40,15 +40,23 @@ confidence: medium
 
 1970년대 초 무어는 독립학습을 교수와 학습 양쪽의 관계로 이론화하고 학습자 자율성을 핵심 차원으로 제시했다. 후기의 교류간격 이론은 원격교육의 거리를 단순한 물리적 분리가 아니라 대화, 프로그램 구조, 자율성이 만드는 심리적·의사소통적 공간으로 설명했다. 같은 기술을 쓰더라도 설계에 따라 교육적 거리는 달라질 수 있다.[^moore-1973][^moore-1993]
 
+무어는 1972년 연구에서 학습자 자율성을 독립학습의 두 번째 차원으로 제시하고, 특정 교과 내용을 전달하기보다 학습하는 방법을 가르치는 방향을 전망했다.[^moore-1972-learner-autonomy]
+
 ## 원격교육을 하나의 학문 분야로
 
 영국 Open University와 Wisconsin의 연구·교육을 거친 무어는 1986년 Penn State 교수가 됐다. 그는 American Center for the Study of Distance Education, American Journal of Distance Education, 국제 온라인 토론망과 초기 온라인 대학원 과정을 구축했고 Penn State World Campus 구상에도 참여했다. 연구, 저널, 과정과 전문 공동체를 함께 만든 점에서 분야 형성자로 평가된다.[^bio-moore-author][^bio-moore-hall]
+
+무어와 키어슬리는 원격교육을 기술·매체, 과정 설계, 학습자, 행정·정책, 이론이 서로 연결된 하나의 체제로 조직했다.[^moore-kearsley-1996-distance-education-systems]
+
+고쿨람두는 교류간격 이론의 적용 범위를 교수학습 경험에 한정하지 않고 원격교육의 품질보증과 정책 개발까지 확장할 수 있다고 제안했다.[^gokool-ramdoo-2008-transactional-distance]
 
 ## 당대의 비판
 
 웽거는 학습을 대화의 양이나 프로그램 구조만으로 설명하지 않고, 공동의 실천에 참여하며 의미와 정체성을 협상하는 과정으로 이론화했다. 이 관점은 무어의 교류간격 변수가 원격교육의 의사소통 조건을 분석하는 데 유용하더라도, 학습자가 어떤 공동체에 소속되고 어떤 실천에 참여하는지까지 설명해야 한다는 반론을 제기한다.[^wenger-1998][^moore-1993]
 
 딕과 캐리는 교수체제를 목표·학습자·맥락·평가·전략·자료가 상호작용하는 설계 과정으로 제시하고 형성평가를 통한 수정을 포함했다. 이 체계적 관점에서 보면 무어의 대화·구조·자율성은 중요한 진단 변인이지만, 그 변인을 실제 과정과 평가로 번역하는 설계 절차를 충분히 제공하지 않는다는 비판을 받는다.[^dick-carey-1978][^moore-1993]
+
+고르스키와 카스피는 교류간격 이론을 검증한 경험 연구가 이론을 부분적으로만 지지하거나 신뢰도·구성타당도가 부족했다고 평가하고, 대화 증가와 거리 감소의 명제가 동어반복으로 환원될 수 있다고 비판했다.[^gorsky-caspi-2005-transactional-distance]
 
 ## 한계
 
@@ -70,6 +78,10 @@ confidence: medium
 [^bio-moore-author]: Michael Grahame Moore. Michael G. Moore — Distinguished Professor Emeritus. The Pennsylvania State University / author site. <https://michaelgmoore.com/a/> — tier B · [[sources/bio-moore-author]]
 [^bio-moore-hall]: International Adult and Continuing Education Hall of Fame. Michael Grahame Moore — Inductee Details. University of Oklahoma Outreach. <https://halloffame.outreach.ou.edu/Inductions/Inductee-Details/michael-grahame-moore> — tier B · [[sources/bio-moore-hall]]
 [^dick-carey-1978]: Walter Dick; Lou Carey. (1978). The Systematic Design of Instruction. Scott, Foresman. <https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952/9780135824146> — tier A · [[sources/dick-carey-1978]]
+[^gokool-ramdoo-2008-transactional-distance]: Sushita Gokool-Ramdoo. (2008). Beyond the Theoretical Impasse: Extending the Applications of Transactional Distance Education Theory. The International Review of Research in Open and Distributed Learning, 9(3). DOI: 10.19173/irrodl.v9i3.541. <https://doi.org/10.19173/irrodl.v9i3.541> — tier B · [[sources/gokool-ramdoo-2008-transactional-distance]]
+[^gorsky-caspi-2005-transactional-distance]: Paul Gorsky; Avner Caspi. (2005). A Critical Analysis of Transactional Distance Theory. Quarterly Review of Distance Education, 6(1), 1–11. DOI: 10.1108/QRDE-02-2005-0002. <https://eric.ed.gov/?id=EJ874984> — tier B · [[sources/gorsky-caspi-2005-transactional-distance]]
+[^moore-1972-learner-autonomy]: Michael G. Moore. (1972). Learner Autonomy: The Second Dimension of Independent Learning. Convergence, 5(2), 76–88. <https://eric.ed.gov/?id=EJ064957> — tier A · [[sources/moore-1972-learner-autonomy]]
 [^moore-1973]: Michael G. Moore. (1973). Toward a Theory of Independent Learning and Teaching. Journal of Higher Education, 44. <https://eric.ed.gov/?id=ED285573> — tier A · [[sources/moore-1973]]
 [^moore-1993]: Michael G. Moore. (1993). Theory of Transactional Distance. Routledge. <https://www.taylorfrancis.com/chapters/edit/10.4324/9780203983065-4/theory-transactional-distance-michael-moore> — tier B · [[sources/moore-1993]]
+[^moore-kearsley-1996-distance-education-systems]: Michael G. Moore; Greg Kearsley. (1996). Distance Education: A Systems View. Wadsworth Publishing Company. <https://archive.org/details/distanceeducatio0000moor> — tier B · [[sources/moore-kearsley-1996-distance-education-systems]]
 [^wenger-1998]: Etienne Wenger. (1998). Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press. DOI: 10.1017/CBO9780511803932. <https://doi.org/10.1017/CBO9780511803932> — tier A · [[sources/wenger-1998]]

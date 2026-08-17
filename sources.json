@@ -5715,5 +5715,202 @@
     "identifiers": {
       "doi": "10.1017/CBO9780511816833.008"
     }
+  },
+  {
+    "id": "moore-1972-learner-autonomy",
+    "tier": "A",
+    "type": "원논문",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "무어가 독립학습의 두 번째 차원으로 학습자 자율성을 직접 제시하고 연구한 본인 원논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record",
+        "record_id": "EJ064957",
+        "evidence": "ERIC EJ064957에서 제목·저자 Michael G. Moore·1972년·Convergence 5(2), 76–88쪽을 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "year",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "michael-g-moore",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=EJ064957",
+        "locator": "ERIC 저자란과 University of Oklahoma 공식 명예의전당 프로필",
+        "evidence": "ERIC은 Michael G. Moore를 단독 저자로 표시하며, University of Oklahoma 공식 명예의전당 프로필의 Michael Grahame Moore·Penn State·원격교육 이론 경력이 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-hall-profile-and-career",
+            "value": "Michael Grahame Moore · Penn State professor for 26 years · distance education and transactional distance theorist · founder of AJDE and ACDE",
+            "evidence_url": "https://halloffame.outreach.ou.edu/Inductions/Inductee-Details/michael-grahame-moore"
+          }
+        ]
+      }
+    },
+    "authors": "Michael G. Moore",
+    "title": "Learner Autonomy: The Second Dimension of Independent Learning",
+    "year": "1972",
+    "publisher": "Convergence, 5(2), 76–88",
+    "url": "https://eric.ed.gov/?id=EJ064957",
+    "identifiers": {
+      "eric": "EJ064957"
+    }
+  },
+  {
+    "id": "moore-kearsley-1996-distance-education-systems",
+    "tier": "B",
+    "type": "연구서",
+    "tier_review": {
+      "rule": "2-book-or-chapter-role",
+      "evidence": "무어와 키어슬리가 기존 원격교육 연구·설계·기술·행정·이론을 체제 관점으로 종합한 연구서이므로 B다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-googlebooks-and-internet-archive-records",
+        "record_id": "OL7784031M; distanceeducatio0000moor",
+        "evidence": "OpenLibrary edition OL7784031M, Google Books, Internet Archive 서지에서 제목·저자 Michael G. Moore와 Greg Kearsley·1996년 판본·Wadsworth·ISBN·목차를 대조했다. OpenLibrary의 등록일 표시는 1995-11-03이다.",
+        "matched_fields": [
+          "title",
+          "authors",
+          "edition_year",
+          "publisher",
+          "isbn",
+          "openlibrary_edition",
+          "archive_record",
+          "table_of_contents"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "michael-g-moore",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://books.google.com/books/about/Distance_Education.html?id=z3cmAQAAIAAJ",
+        "locator": "Google Books 저자·서지와 University of Oklahoma 공식 명예의전당 프로필",
+        "evidence": "Google Books는 Michael G. Moore와 Greg Kearsley를 공저자로 표시하며, University of Oklahoma 공식 프로필의 Michael Grahame Moore·Penn State·원격교육 분야 경력이 동일인을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-university-hall-profile-and-career",
+            "value": "Michael Grahame Moore · Penn State professor for 26 years · distance education and transactional distance theorist · founder of AJDE and ACDE",
+            "evidence_url": "https://halloffame.outreach.ou.edu/Inductions/Inductee-Details/michael-grahame-moore"
+          }
+        ]
+      }
+    },
+    "authors": "Michael G. Moore; Greg Kearsley",
+    "title": "Distance Education: A Systems View",
+    "year": "1996",
+    "publisher": "Wadsworth Publishing Company",
+    "url": "https://archive.org/details/distanceeducatio0000moor",
+    "identifiers": {
+      "isbn": "9780534264963",
+      "openlibrary_edition": "OL7784031M"
+    }
+  },
+  {
+    "id": "gorsky-caspi-2005-transactional-distance",
+    "tier": "B",
+    "type": "비판 원논문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "고르스키와 카스피가 무어의 교류간격 이론에 대한 경험 연구의 신뢰도·구성타당도와 기본 명제를 직접 비판한 타인의 학술 논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-eric-record",
+        "record_id": "10.1108/QRDE-02-2005-0002",
+        "evidence": "Crossref와 ERIC EJ874984에서 DOI·제목·저자 Paul Gorsky와 Avner Caspi·2005년·Quarterly Review of Distance Education 6(1), 1–11쪽을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "authors",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "page",
+          "eric_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "michael-g-moore",
+        "kind": "criticizes",
+        "person_role": null,
+        "evidence_url": "https://eric.ed.gov/?id=EJ874984",
+        "locator": "ERIC 제목·초록",
+        "evidence": "초록은 Moore(1993)의 transactional distance theory를 명시하고, 경험 연구가 이론을 부분 지지하거나 신뢰도·구성타당도가 부족했으며 기본 명제가 동어반복으로 환원될 수 있다고 직접 비판한다.",
+        "identity_signals": []
+      }
+    },
+    "authors": "Paul Gorsky; Avner Caspi",
+    "title": "A Critical Analysis of Transactional Distance Theory",
+    "year": "2005",
+    "publisher": "Quarterly Review of Distance Education, 6(1), 1–11",
+    "url": "https://eric.ed.gov/?id=EJ874984",
+    "doi": "10.1108/QRDE-02-2005-0002",
+    "identifiers": {
+      "doi": "10.1108/QRDE-02-2005-0002",
+      "eric": "EJ874984"
+    }
+  },
+  {
+    "id": "gokool-ramdoo-2008-transactional-distance",
+    "tier": "B",
+    "type": "타인 학술 논문",
+    "tier_review": {
+      "rule": "3-other-scholar-or-institution",
+      "evidence": "고쿨람두가 무어의 교류간격 이론을 직접 분석하고 품질보증·정책 영역으로 적용 범위를 넓힌 타인의 학술 논문이다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-journal-record",
+        "record_id": "10.19173/irrodl.v9i3.541",
+        "evidence": "Crossref와 IRRODL 공식 논문 페이지에서 DOI·제목·저자 Sushita Gokool-Ramdoo·2008년·The International Review of Research in Open and Distributed Learning 9(3)을 대조했다.",
+        "matched_fields": [
+          "doi",
+          "title",
+          "author",
+          "issued",
+          "container-title",
+          "volume",
+          "issue",
+          "journal_record"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "michael-g-moore",
+        "kind": "about",
+        "person_role": null,
+        "evidence_url": "https://www.irrodl.org/index.php/irrodl/article/view/9.3.3",
+        "locator": "IRRODL 제목·키워드·초록",
+        "evidence": "제목·키워드·초록이 Moore의 transactional distance educational theory를 명시하고, 교수학습 경험을 넘어 품질보증과 정책 개발에 적용하는 방안을 직접 분석한다.",
+        "identity_signals": []
+      }
+    },
+    "authors": "Sushita Gokool-Ramdoo",
+    "title": "Beyond the Theoretical Impasse: Extending the Applications of Transactional Distance Education Theory",
+    "year": "2008",
+    "publisher": "The International Review of Research in Open and Distributed Learning, 9(3)",
+    "url": "https://doi.org/10.19173/irrodl.v9i3.541",
+    "doi": "10.19173/irrodl.v9i3.541",
+    "identifiers": {
+      "doi": "10.19173/irrodl.v9i3.541"
+    }
   }
 ]
