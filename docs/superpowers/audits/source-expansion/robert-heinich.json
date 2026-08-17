@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "slug": "robert-heinich",
+  "base_commit": "fa5af8980fe103d14b4386d947d1d45690a9f227",
+  "initial_source_ids": [
+    "bio-heinich-iu",
+    "heinich-1984",
+    "heinich-media-1982",
+    "seels-richey-1994",
+    "seels-richey-1994-case"
+  ],
+  "required_additions": 5,
+  "candidates": [
+    {
+      "candidate_key": "c01-teacher-in-instructional-system",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED012713 레코드 초록이 1966년 보고서의 일곱 글 가운데 첫 글로 Robert Heinich의 ‘The Teacher in an Instructional System’을 제목과 저자까지 명시한다.",
+      "source_id": "heinich-1966-teacher-system",
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "The Teacher in an Instructional System",
+        "year": "1966",
+        "publisher": "University of Nebraska Teachers College",
+        "url": "https://eric.ed.gov/?id=ED012713",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED012713",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record-annotated-component",
+          "record_id": "ED012713",
+          "evidence": "ERIC ED012713 레코드 초록이 1966년 보고서의 일곱 글 가운데 첫 글로 Robert Heinich의 ‘The Teacher in an Instructional System’을 제목과 저자까지 명시한다.",
+          "matched_fields": [
+            "component_title",
+            "component_author",
+            "publication_date",
+            "container_record",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=ED012713",
+          "locator": "ERIC 초록의 첫 번째 수록 글",
+          "evidence": "ERIC 초록은 해당 글을 ‘Robert Heinich’s The Teacher in an Instructional System’으로 직접 귀속한다. 인디애나대 공식 추모록의 교수체제기술 교수·AECT 회장 경력이 교육공학자 Robert Heinich라는 독립 정체 신호를 제공한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation-and-field-role",
+              "value": "Robert Heinich · Professor Emeritus of Instructional Systems Technology · Indiana University · AECT president",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "하이니히가 교수체제 속 교사와 체제분석의 역할을 직접 논한 원 장이다."
+      },
+      "claim_seed": {
+        "section": "학교 시청각 실무에서 시작한 교육공학",
+        "claim": "1966년 글에서 하이니히는 교사를 교수체제의 구성요소로 다루며, 교수·학습 과정에서 체제분석이 맡는 역할을 직접 논했다.",
+        "locator": "ERIC ED012713 초록의 첫 번째 수록 글 설명",
+        "evidence_url": "https://eric.ed.gov/?id=ED012713"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "c02-changing-aspects-instructional-technology",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED059207 원문 저널호의 목차와 296–298쪽에서 제목, 저자 Robert Heinich, Educational Theatre Journal 19(2A), 1967년을 대조했다.",
+      "source_id": "heinich-1967-changing-aspects",
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "The Changing Aspects of Instructional Technology",
+        "year": "1967",
+        "publisher": "American Educational Theatre Association",
+        "url": "https://files.eric.ed.gov/fulltext/ED059207.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED059207",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-full-text-journal-issue",
+          "record_id": "ED059207",
+          "evidence": "ERIC ED059207 원문 저널호의 목차와 296–298쪽에서 제목, 저자 Robert Heinich, Educational Theatre Journal 19(2A), 1967년을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_year",
+            "container_title",
+            "volume",
+            "issue",
+            "page",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED059207.pdf",
+          "locator": "저널호 목차와 논문 296쪽 제목·byline",
+          "evidence": "ERIC 원문은 ‘The Changing Aspects of Instructional Technology’ 아래 저자를 Robert Heinich로 표시한다. 인디애나대 공식 추모록의 교수체제기술 교수·AECT 회장 경력이 동일 분야의 인물을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation-and-field-role",
+              "value": "Robert Heinich · Professor Emeritus of Instructional Systems Technology · Indiana University · AECT president",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "하이니히가 시청각 자료의 지위 변화와 교사·전자장치의 체제적 관계를 직접 논한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "기계에서 조직으로",
+        "claim": "1967년 하이니히는 영화가 보충자료에서 교육과정의 기본 요소로 이동하고 있으며, 전자장치와 교사가 수업 체제 안에서 협력하는 관계가 나타난다고 서술했다.",
+        "locator": "ERIC 원문 수록 논문 pp. 296–298, PDF pp. 67–69",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED059207.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "c03-technology-management-instruction",
+      "decision": "pending_manual",
+      "reason": "CiNii Books에서 단행본의 제목·저자·1970년·AECT Monograph No. 4를 확인했지만, 정확한 5건 승인 묶음에서는 1972년 정의 원문과 1973년 관리모형 보고서가 제도·관리 논지를 서로 다른 실질 주장으로 더 직접 보강하므로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "Technology and the Management of Instruction",
+        "year": "1970",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://ci.nii.ac.jp/ncid/BA33942838",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "cinii-books-library-record",
+          "record_id": "BA33942838",
+          "evidence": "CiNii Books 도서관 전거에서 제목, 저자 Robert Heinich, AECT Monograph No. 4, 출판사, 1970년을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "series",
+            "publisher",
+            "publication_year",
+            "library_record_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://ci.nii.ac.jp/ncid/BA33942838",
+          "locator": "CiNii Books 저자·서지정보란과 인디애나대 공식 경력 전거",
+          "evidence": "CiNii Books는 Robert Heinich를 단독 저자로 기록하고, 인디애나대 공식 추모록은 교수체제기술 교수이자 AECT 회장이었던 동일 분야의 Robert Heinich를 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation-and-field-role",
+              "value": "Robert Heinich · Indiana University Instructional Systems Technology · AECT president",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "c04-eclectic-instructional-development",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED062824 원문의 목차와 Contribution One 표제에서 제목, 저자 Robert Heinich, Indiana University 소속, 1972년 AECT 자료를 대조했다.",
+      "source_id": "heinich-1972-eclectic-definition",
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "Toward a Definition of Instructional Development: An Eclectic Approach",
+        "year": "1972",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://files.eric.ed.gov/fulltext/ED062824.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED062824",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-full-text-contribution",
+          "record_id": "ED062824",
+          "evidence": "ERIC ED062824 원문의 목차와 Contribution One 표제에서 제목, 저자 Robert Heinich, Indiana University 소속, 1972년 AECT 자료를 대조했다.",
+          "matched_fields": [
+            "component_title",
+            "component_author",
+            "official_affiliation",
+            "publication_year",
+            "publisher",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED062824.pdf",
+          "locator": "목차와 Contribution One 표제·소속란",
+          "evidence": "원문은 Robert Heinich를 해당 장의 저자로, Indiana University를 소속으로 명시한다. 인디애나대 공식 추모록도 1969–1990년 교수체제기술 교수 경력을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Robert Heinich · Indiana University · Instructional Systems Technology faculty 1969–1990",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "하이니히가 교수개발 정의의 제약과 제도 독립적 개념화를 직접 논한 원 장이다."
+      },
+      "claim_seed": {
+        "section": "현장 언어와 학문 정체성",
+        "claim": "1972년 하이니히는 교수개발의 정의가 특정 제도 배치에 종속되지 않아야 하며, 교수 과정뿐 아니라 관련 제도를 재구성할 개념적 기반을 제공해야 한다고 주장했다.",
+        "locator": "Contribution One, 원문 pp. 10–11, PDF pp. 14–15",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED062824.pdf"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "c05-field-of-educational-communications",
+      "decision": "pending_manual",
+      "reason": "ERIC에서 실재·단독 저자·전문영역 군집이라는 논지를 확인했지만, 정확한 승인 묶음에서는 1972년 원 장이 정의의 제도적 제약과 재구성 원리를 원문에서 더 구체적으로 제시하므로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "Is There a Field of Educational Communications and Technology?",
+        "year": "1973",
+        "publisher": "Association for Educational Communications and Technology",
+        "url": "https://eric.ed.gov/?id=EJ080621",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "EJ080621",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record",
+          "record_id": "EJ080621",
+          "evidence": "ERIC EJ080621에서 제목, 저자 Robert Heinich, 1973년, Audiovisual Instruction 18(5), 7–8쪽을 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_year",
+            "container_title",
+            "volume",
+            "issue",
+            "page",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://eric.ed.gov/?id=EJ080621",
+          "locator": "ERIC 저자란·초록과 인디애나대 공식 분야 전거",
+          "evidence": "ERIC은 Robert Heinich를 단독 저자로 기록하고, 인디애나대 공식 추모록은 교수체제기술 교수·AECT 회장이라는 동일 분야의 정체를 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation-and-field-role",
+              "value": "Robert Heinich · Indiana University Instructional Systems Technology · AECT president",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "c06-management-models-productivity",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. ERIC ED086205 레코드와 원문에서 제목, 저자 Robert Heinich, 1973년, 17쪽 보고서를 대조했다.",
+      "source_id": "heinich-1973-management-models",
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "Management Models and Instructional Productivity",
+        "year": "1973",
+        "publisher": "Research for Better Schools",
+        "url": "https://eric.ed.gov/?id=ED086205",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED086205",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record-and-full-text",
+          "record_id": "ED086205",
+          "evidence": "ERIC ED086205 레코드와 원문에서 제목, 저자 Robert Heinich, 1973년, 17쪽 보고서를 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "publication_year",
+            "pages",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED086205.pdf",
+          "locator": "문서 표제지 저자·소속란",
+          "evidence": "원문 표제지는 Robert Heinich를 저자이자 Indiana University 교육학 교수로 명시한다. 인디애나대 공식 추모록도 같은 교수체제기술 교수 경력을 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Robert Heinich · Professor of Education · Indiana University Bloomington",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "하이니히가 기술기반 교수체제의 관리·재정·의사결정 모형을 직접 제안한 원보고서다."
+      },
+      "claim_seed": {
+        "section": "기계에서 조직으로",
+        "claim": "1973년에는 재정지원 기준을 교사 수보다 학생의 필요에 연결하고, 교육과정·수업 결정은 개별 교실이 아니라 설계 단계에서 협력적으로 내려야 한다고 제안했다.",
+        "locator": "ERIC ED086205 초록과 원문 표제 뒤 초록",
+        "evidence_url": "https://eric.ed.gov/?id=ED086205"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "c07-systemic-barriers-analysis",
+      "decision": "pending_manual",
+      "reason": "ERIC 원문에서 실재·발표자·Indiana University 소속·체제 장벽 논지를 확인했지만, 1973년 관리모형과 1985년 교육구조 논문이 같은 문제의 처방과 이론적 후속을 더 직접 분담하므로 정확한 승인 묶음에서 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "An Analysis of Systemic Barriers to Educational Technology and Instructional Productivity",
+        "year": "1975",
+        "publisher": "Association for Educational Communications and Technology and ERIC Clearinghouse on Information Resources",
+        "url": "https://files.eric.ed.gov/fulltext/ED104373.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED104373",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-full-text-conference-abstract",
+          "record_id": "ED104373",
+          "evidence": "ERIC ED104373 원문의 목차와 첫 연구초록에서 제목, 발표자 Robert Heinich, Indiana University 소속, 1975년 AECT 학술대회를 대조했다.",
+          "matched_fields": [
+            "title",
+            "presenter",
+            "official_affiliation",
+            "conference",
+            "publication_year",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED104373.pdf",
+          "locator": "목차 첫 항목과 연구초록 저자·소속란",
+          "evidence": "원문은 Robert Heinich를 해당 연구초록의 발표자로, Indiana University 교육학 교수로 명시하며 인디애나대 공식 추모록의 경력과 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Robert Heinich · Professor of Education · Indiana University Bloomington",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "c08-legal-barriers-final-report",
+      "decision": "pending_manual",
+      "reason": "ERIC 레코드와 원문에서 실재·Robert Heinich와 Kim Ebert·Indiana University 소속·법적 장벽 분석을 확인했지만, 정확한 승인 묶음에서는 1985년 후속 논문이 법적 거버넌스와 조직유형을 한 주장으로 종합하므로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert Heinich",
+          "Kim Ebert"
+        ],
+        "title": "Legal Barriers to Educational Technology and Instructional Productivity: Final Report",
+        "year": "1976",
+        "publisher": "National Institute of Education, Finance and Productivity Group",
+        "url": "https://files.eric.ed.gov/fulltext/ED124118.pdf",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": "ED124118",
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record-and-full-text",
+          "record_id": "ED124118",
+          "evidence": "ERIC ED124118 레코드와 원문에서 제목, Robert Heinich·Kim Ebert, 1976년 5월, National Institute of Education 보고서를 대조했다.",
+          "matched_fields": [
+            "title",
+            "authors",
+            "publication_date",
+            "sponsor",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://files.eric.ed.gov/fulltext/ED124118.pdf",
+          "locator": "표제지의 책임연구자·소속란과 ERIC 저자란",
+          "evidence": "원문은 Robert Heinich를 책임연구자이자 Indiana University 교육학 교수로, ERIC은 그와 Kim Ebert를 저자로 기록한다. 인디애나대 공식 추모록의 경력이 독립 신호로 일치한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation",
+              "value": "Robert Heinich · Principal Investigator · Professor of Education · Indiana University Bloomington",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "c09-educating-all-handicapped-children",
+      "decision": "pending_manual",
+      "reason": "ERIC에서 제목·편집자 Robert Heinich·1979년·ISBN과 논지를 확인했지만 OpenLibrary 판본 OL4725105M은 7초 간격 최대 5회 모두 타임아웃이었다. 정확한 승인 묶음에서는 직접 저술한 원 장·논문·보고서를 우선해 이 편저를 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "Educating All Handicapped Children",
+        "year": "1979",
+        "publisher": "Educational Technology Publications",
+        "url": "https://eric.ed.gov/?id=ED165803",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0877781311",
+          "eric": "ED165803",
+          "openlibrary_edition": "OL4725105M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "eric-record-with-openlibrary-retry",
+          "record_id": "ED165803",
+          "evidence": "ERIC ED165803에서 제목, 편집자 Robert Heinich, 1979년 1월, ISBN 0-87778-131-1을 대조했다. OpenLibrary OL4725105M API는 7초 간격 최대 5회 모두 타임아웃이었다.",
+          "matched_fields": [
+            "title",
+            "editor",
+            "publication_date",
+            "isbn",
+            "document_id"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "editor",
+          "evidence_url": "https://eric.ed.gov/?id=ED165803",
+          "locator": "ERIC 저자·편집자란과 인디애나대 공식 분야 전거",
+          "evidence": "ERIC은 Robert Heinich를 편집자로 명시하고, 인디애나대 공식 추모록은 교수체제기술 교수·AECT 회장·대표 교재 공저자라는 정체를 독립적으로 확인한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation-and-field-role",
+              "value": "Robert Heinich · Indiana University Instructional Systems Technology · AECT president · instructional media textbook coauthor",
+              "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "c10-structure-of-education",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. Crossref와 Springer 공식 페이지에서 DOI, 제목, 저자 Robert Heinich, 1985년, ECTJ 33(1), 9–15쪽을 대조했다.",
+      "source_id": "heinich-1985-structure-education",
+      "bibliography": {
+        "authors": [
+          "Robert Heinich"
+        ],
+        "title": "Instructional Technology and the Structure of Education",
+        "year": "1985",
+        "publisher": "Springer",
+        "url": "https://link.springer.com/article/10.1007/BF02769337",
+        "identifiers": {
+          "doi": "10.1007/BF02769337",
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": null,
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "crossref-doi-and-publisher-record",
+          "record_id": "10.1007/BF02769337",
+          "evidence": "Crossref와 Springer 공식 페이지에서 DOI, 제목, 저자 Robert Heinich, 1985년, ECTJ 33(1), 9–15쪽을 대조했다.",
+          "matched_fields": [
+            "doi",
+            "title",
+            "author",
+            "issued",
+            "container-title",
+            "volume",
+            "issue",
+            "page"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "robert-heinich",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://link.springer.com/article/10.1007/BF02769337",
+          "locator": "Springer 저자·소속란과 1984년 선행논문 연결 초록",
+          "evidence": "Springer는 Robert Heinich를 단독 저자로, Indiana University Bloomington을 소속으로 기록하고 이 글이 그의 1984년 ‘The Proper Study of Instructional Technology’의 확장임을 명시한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation-and-work-link",
+              "value": "Robert Heinich · Indiana University Bloomington · extension of The Proper Study of Instructional Technology",
+              "evidence_url": "https://link.springer.com/article/10.1007/BF02769337"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "하이니히가 교육기관의 장인적 조직 성격과 법적 거버넌스를 직접 분석한 원논문이다."
+      },
+      "claim_seed": {
+        "section": "핀의 지도와 기술 체제의 이론화",
+        "claim": "1985년 하이니히는 교육기관이 기술적 조직보다 장인적 조직의 성격을 보이고 법적 거버넌스가 이를 강화한다고 분석하며, 제도 자체를 교수기술 연구의 변수로 삼자고 제안했다.",
+        "locator": "Springer 공식 초록",
+        "evidence_url": "https://link.springer.com/article/10.1007/BF02769337"
+      },
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "heinich-1966-teacher-system",
+    "heinich-1967-changing-aspects",
+    "heinich-1972-eclectic-definition",
+    "heinich-1973-management-models",
+    "heinich-1985-structure-education"
+  ],
+  "claim_map": [
+    {
+      "source_id": "heinich-1966-teacher-system",
+      "section": "학교 시청각 실무에서 시작한 교육공학",
+      "claim": "1966년 글에서 하이니히는 교사를 교수체제의 구성요소로 다루며, 교수·학습 과정에서 체제분석이 맡는 역할을 직접 논했다.",
+      "evidence_locator": "ERIC ED012713 초록의 첫 번째 수록 글 설명"
+    },
+    {
+      "source_id": "heinich-1967-changing-aspects",
+      "section": "기계에서 조직으로",
+      "claim": "1967년 하이니히는 영화가 보충자료에서 교육과정의 기본 요소로 이동하고 있으며, 전자장치와 교사가 수업 체제 안에서 협력하는 관계가 나타난다고 서술했다.",
+      "evidence_locator": "ERIC 원문 수록 논문 pp. 296–298, PDF pp. 67–69"
+    },
+    {
+      "source_id": "heinich-1972-eclectic-definition",
+      "section": "현장 언어와 학문 정체성",
+      "claim": "1972년 하이니히는 교수개발의 정의가 특정 제도 배치에 종속되지 않아야 하며, 교수 과정뿐 아니라 관련 제도를 재구성할 개념적 기반을 제공해야 한다고 주장했다.",
+      "evidence_locator": "Contribution One, 원문 pp. 10–11, PDF pp. 14–15"
+    },
+    {
+      "source_id": "heinich-1973-management-models",
+      "section": "기계에서 조직으로",
+      "claim": "1973년에는 재정지원 기준을 교사 수보다 학생의 필요에 연결하고, 교육과정·수업 결정은 개별 교실이 아니라 설계 단계에서 협력적으로 내려야 한다고 제안했다.",
+      "evidence_locator": "ERIC ED086205 초록과 원문 표제 뒤 초록"
+    },
+    {
+      "source_id": "heinich-1985-structure-education",
+      "section": "핀의 지도와 기술 체제의 이론화",
+      "claim": "1985년 하이니히는 교육기관이 기술적 조직보다 장인적 조직의 성격을 보이고 법적 거버넌스가 이를 강화한다고 분석하며, 제도 자체를 교수기술 연구의 변수로 삼자고 제안했다.",
+      "evidence_locator": "Springer 공식 초록"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/robert-heinich.md:55|heinich-1984|2020|1984",
+        "file": "wiki/pioneers/robert-heinich.md",
+        "line": 55,
+        "claimYear": 2020,
+        "sourceId": "heinich-1984",
+        "sourceYear": 1984,
+        "decision": "valid-context",
+        "reason": "2020년 사망은 같은 문장의 인디애나대 추모록이 받치며, heinich-1984는 조직을 교수기술의 분석 단위로 남긴 연구 유산을 별도로 받치는 정상 혼합 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/robert-heinich.md:55|heinich-media-1982|2020|1982",
+        "file": "wiki/pioneers/robert-heinich.md",
+        "line": 55,
+        "claimYear": 2020,
+        "sourceId": "heinich-media-1982",
+        "sourceYear": 1982,
+        "decision": "valid-context",
+        "reason": "2020년 사망은 같은 문장의 인디애나대 추모록이 받치며, heinich-media-1982는 앞서 서술한 1982년 공동 교재 출간을 별도로 받치는 정상 혼합 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/robert-heinich.md:59|heinich-1984|1994|1984",
+        "file": "wiki/pioneers/robert-heinich.md",
+        "line": 59,
+        "claimYear": 1994,
+        "sourceId": "heinich-1984",
+        "sourceYear": 1984,
+        "decision": "valid-context",
+        "reason": "1994년 정의는 같은 문단의 seels-richey-1994가 직접 받치며, heinich-1984는 대비되는 하이니히의 조직 중심 입장을 별도로 받친다."
+      },
+      {
+        "key": "wiki/pioneers/robert-heinich.md:61|heinich-1984|1994|1984",
+        "file": "wiki/pioneers/robert-heinich.md",
+        "line": 61,
+        "claimYear": 1994,
+        "sourceId": "heinich-1984",
+        "sourceYear": 1984,
+        "decision": "valid-context",
+        "reason": "1994년 정의 형성 과정은 seels-richey-1994-case가 직접 받치며, heinich-1984는 비교 대상인 하이니히의 적절한 연구대상·조직 중심 분석을 별도로 받친다."
+      }
+    ],
+    "incomparable": []
+  }
+}

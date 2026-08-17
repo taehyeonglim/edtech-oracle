@@ -1887,6 +1887,166 @@
     "eric": "ED038873"
   },
   {
+    "id": "heinich-1966-teacher-system",
+    "tier": "A",
+    "type": "원 장",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record-annotated-component",
+        "record_id": "ED012713",
+        "evidence": "ERIC ED012713 레코드 초록이 1966년 보고서의 일곱 글 가운데 첫 글로 Robert Heinich의 ‘The Teacher in an Instructional System’을 제목과 저자까지 명시한다.",
+        "matched_fields": ["component_title", "component_author", "publication_date", "container_record", "document_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-heinich",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://eric.ed.gov/?id=ED012713",
+        "locator": "ERIC 초록의 첫 번째 수록 글",
+        "evidence": "ERIC 초록은 해당 글을 ‘Robert Heinich’s The Teacher in an Instructional System’으로 직접 귀속한다. 인디애나대 공식 추모록의 교수체제기술 교수·AECT 회장 경력이 교육공학자 Robert Heinich라는 독립 정체 신호를 제공한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation-and-field-role",
+            "value": "Robert Heinich · Professor Emeritus of Instructional Systems Technology · Indiana University · AECT president",
+            "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "하이니히가 교수체제 속 교사와 체제분석의 역할을 직접 논한 원 장이다."
+    },
+    "authors": "Robert Heinich",
+    "title": "The Teacher in an Instructional System",
+    "year": "1966",
+    "publisher": "Media Competencies for Teachers, University of Nebraska Teachers College",
+    "url": "https://eric.ed.gov/?id=ED012713",
+    "eric": "ED012713"
+  },
+  {
+    "id": "heinich-1967-changing-aspects",
+    "tier": "A",
+    "type": "원논문",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-full-text-journal-issue",
+        "record_id": "ED059207",
+        "evidence": "ERIC ED059207 원문 저널호의 목차와 296–298쪽에서 제목, 저자 Robert Heinich, Educational Theatre Journal 19(2A), 1967년을 대조했다.",
+        "matched_fields": ["title", "author", "publication_year", "container_title", "volume", "issue", "page", "document_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-heinich",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED059207.pdf",
+        "locator": "저널호 목차와 논문 296쪽 제목·byline",
+        "evidence": "ERIC 원문은 ‘The Changing Aspects of Instructional Technology’ 아래 저자를 Robert Heinich로 표시한다. 인디애나대 공식 추모록의 교수체제기술 교수·AECT 회장 경력이 동일 분야의 인물을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation-and-field-role",
+            "value": "Robert Heinich · Professor Emeritus of Instructional Systems Technology · Indiana University · AECT president",
+            "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "하이니히가 시청각 자료의 지위 변화와 교사·전자장치의 체제적 관계를 직접 논한 원논문이다."
+    },
+    "authors": "Robert Heinich",
+    "title": "The Changing Aspects of Instructional Technology",
+    "year": "1967",
+    "publisher": "Educational Theatre Journal, 19(2A), 296–298",
+    "url": "https://files.eric.ed.gov/fulltext/ED059207.pdf",
+    "eric": "ED059207"
+  },
+  {
+    "id": "heinich-1972-eclectic-definition",
+    "tier": "A",
+    "type": "원 장",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-full-text-contribution",
+        "record_id": "ED062824",
+        "evidence": "ERIC ED062824 원문의 목차와 Contribution One 표제에서 제목, 저자 Robert Heinich, Indiana University 소속, 1972년 AECT 자료를 대조했다.",
+        "matched_fields": ["component_title", "component_author", "official_affiliation", "publication_year", "publisher", "document_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-heinich",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED062824.pdf",
+        "locator": "목차와 Contribution One 표제·소속란",
+        "evidence": "원문은 Robert Heinich를 해당 장의 저자로, Indiana University를 소속으로 명시한다. 인디애나대 공식 추모록도 1969–1990년 교수체제기술 교수 경력을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Robert Heinich · Indiana University · Instructional Systems Technology faculty 1969–1990",
+            "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "하이니히가 교수개발 정의의 제약과 제도 독립적 개념화를 직접 논한 원 장이다."
+    },
+    "authors": "Robert Heinich",
+    "title": "Toward a Definition of Instructional Development: An Eclectic Approach",
+    "year": "1972",
+    "publisher": "Association for Educational Communications and Technology",
+    "url": "https://files.eric.ed.gov/fulltext/ED062824.pdf",
+    "eric": "ED062824"
+  },
+  {
+    "id": "heinich-1973-management-models",
+    "tier": "A",
+    "type": "원보고서",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "eric-record-and-full-text",
+        "record_id": "ED086205",
+        "evidence": "ERIC ED086205 레코드와 원문에서 제목, 저자 Robert Heinich, 1973년, 17쪽 보고서를 대조했다.",
+        "matched_fields": ["title", "author", "publication_year", "pages", "document_id"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-heinich",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://files.eric.ed.gov/fulltext/ED086205.pdf",
+        "locator": "문서 표제지 저자·소속란",
+        "evidence": "원문 표제지는 Robert Heinich를 저자이자 Indiana University 교육학 교수로 명시한다. 인디애나대 공식 추모록도 같은 교수체제기술 교수 경력을 독립적으로 확인한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation",
+            "value": "Robert Heinich · Professor of Education · Indiana University Bloomington",
+            "evidence_url": "https://education.indiana.edu/alumni/alumni-magazine/PDF/Chalkboard-2020-Spring.pdf"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "하이니히가 기술기반 교수체제의 관리·재정·의사결정 모형을 직접 제안한 원보고서다."
+    },
+    "authors": "Robert Heinich",
+    "title": "Management Models and Instructional Productivity",
+    "year": "1973",
+    "publisher": "Research for Better Schools",
+    "url": "https://eric.ed.gov/?id=ED086205",
+    "eric": "ED086205"
+  },
+  {
     "id": "heinich-1984",
     "tier": "A",
     "type": "원논문",
@@ -1901,6 +2061,46 @@
     "publisher": "Educational Communication and Technology Journal, 32(2)",
     "url": "https://doi.org/10.1007/BF02766667",
     "doi": "10.1007/BF02766667"
+  },
+  {
+    "id": "heinich-1985-structure-education",
+    "tier": "A",
+    "type": "원논문",
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "crossref-doi-and-publisher-record",
+        "record_id": "10.1007/BF02769337",
+        "evidence": "Crossref와 Springer 공식 페이지에서 DOI, 제목, 저자 Robert Heinich, 1985년, ECTJ 33(1), 9–15쪽을 대조했다.",
+        "matched_fields": ["doi", "title", "author", "issued", "container-title", "volume", "issue", "page"]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "robert-heinich",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://link.springer.com/article/10.1007/BF02769337",
+        "locator": "Springer 저자·소속란과 1984년 선행논문 연결 초록",
+        "evidence": "Springer는 Robert Heinich를 단독 저자로, Indiana University Bloomington을 소속으로 기록하고 이 글이 그의 1984년 ‘The Proper Study of Instructional Technology’의 확장임을 명시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation-and-work-link",
+            "value": "Robert Heinich · Indiana University Bloomington · extension of The Proper Study of Instructional Technology",
+            "evidence_url": "https://link.springer.com/article/10.1007/BF02769337"
+          }
+        ]
+      }
+    },
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "하이니히가 교육기관의 장인적 조직 성격과 법적 거버넌스를 직접 분석한 원논문이다."
+    },
+    "authors": "Robert Heinich",
+    "title": "Instructional Technology and the Structure of Education",
+    "year": "1985",
+    "publisher": "Educational Communication and Technology Journal, 33(1), 9–15",
+    "url": "https://doi.org/10.1007/BF02769337",
+    "doi": "10.1007/BF02769337"
   },
   {
     "id": "heinich-media-1982",
