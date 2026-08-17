@@ -6,8 +6,8 @@ role: 인지심리학자 · 교육이론가
 life: 1915—2016
 concepts: [발견학습, 나선형 교육과정, 지식의 구조, 스캐폴딩]
 related: ["[[debates/bruner-mayer]]", "[[debates/piaget-bruner]]", "[[debates/bruner-novak]]"]
-updated: 2026-08-14
-sources: [bio-wiki-bruner, gardner-bruner-2017, bruner-1960, bruner-1966, bruner-1990, mayer-2005, novak-1984, piaget-1970, schunk-2012]
+updated: 2026-08-18
+sources: [bio-wiki-bruner, bruner-1960, bruner-1966, bruner-1990, bruner-goodnow-austin-1956-thinking, gardner-bruner-2017, mayer-2005, novak-1984, piaget-1970, schunk-2012]
 confidence: high
 ---
 
@@ -40,6 +40,8 @@ confidence: high
 
 1950년대 후반 브루너는 George Miller 등과 함께 인간이 정보를 표상·조직·변환하는 방식을 연구하며 이른바 인지혁명의 핵심 인물로 자리했다. 1959년 Woods Hole 회의에서 과학 교육의 구조를 논의했고, 그 결과는 『The Process of Education』(1960)으로 이어졌다. 이 책의 지식 구조·발견학습·나선형 교육과정은 교육과정 설계의 언어를 바꾸었다.[^bio-wiki-bruner][^bruner-1960][^bruner-1966]
 
+이에 앞서 브루너는 재클린 굿나우·조지 오스틴과 함께 개념 형성을 조사한 일련의 연구 결과를 보고했으며, 이들이 사용한 개념 형성 과제는 후속 연구에서 폭넓게 활용되었다.[^bruner-goodnow-austin-1956-thinking]
+
 ## 문화와 의미로의 회귀
 
 브루너는 1970년대에 옥스퍼드대학교로 옮겼고, 이후 뉴욕대학교에서 법·언어·문화·서사 연구를 이어갔다. 2016년 뉴욕에서 사망했다.[^gardner-bruner-2017] 말년의 문화심리학은 초기 발견학습을 단순한 탐구 기법이 아니라, 학습자가 공동체의 의미 체계에 참여하는 과정으로 다시 읽도록 한다.[^bio-wiki-bruner][^bruner-1966][^mayer-2005]
@@ -69,10 +71,11 @@ confidence: high
 - [[debates/bruner-novak]] — 발견과 유의미한 연결 (상대: 조지프 노백)[^bruner-1960][^novak-1984]
 
 [^bio-wiki-bruner]: Wikipedia editors. Jerome Bruner. Wikipedia. <https://en.wikipedia.org/wiki/Jerome_Bruner> — tier C · [[sources/bio-wiki-bruner]]
-[^gardner-bruner-2017]: Howard Gardner. (2017). Jerome Seymour Bruner (Biographical Memoir). Proceedings of the American Philosophical Society, Vol. 161, No. 4. <https://www.amphilsoc.org/sites/default/files/2018-03/attachments/Bruner.pdf> — tier B · [[sources/gardner-bruner-2017]]
 [^bruner-1960]: Jerome S. Bruner. (1960). The Process of Education. Harvard University Press. <https://archive.org/details/processofeducati00brun> — tier A · [[sources/bruner-1960]]
 [^bruner-1966]: Jerome S. Bruner. (1966). Toward a Theory of Instruction. Harvard University Press. <https://archive.org/details/towardtheoryofin00brun> — tier A · [[sources/bruner-1966]]
 [^bruner-1990]: Jerome Bruner. (1990). Acts of Meaning. Harvard University Press. <https://www.hup.harvard.edu/books/9780674003613> — tier A · [[sources/bruner-1990]]
+[^bruner-goodnow-austin-1956-thinking]: Jerome S. Bruner; Jacqueline J. Goodnow; George A. Austin. (1956). A Study of Thinking. John Wiley & Sons. <https://openlibrary.org/books/OL21231224M/A_Study_of_thinking> — tier A · [[sources/bruner-goodnow-austin-1956-thinking]]
+[^gardner-bruner-2017]: Howard Gardner. (2017). Jerome Seymour Bruner (Biographical Memoir). Proceedings of the American Philosophical Society, Vol. 161, No. 4. <https://www.amphilsoc.org/sites/default/files/2018-03/attachments/Bruner.pdf> — tier B · [[sources/gardner-bruner-2017]]
 [^mayer-2005]: Richard E. Mayer (ed.). (2005). The Cambridge Handbook of Multimedia Learning. Cambridge University Press. <https://assets.cambridge.org/052183/8738/frontmatter/0521838738_frontmatter.htm> — tier B · [[sources/mayer-2005]]
 [^novak-1984]: Joseph D. Novak; D. Bob Gowin. (1984). Learning How to Learn. Cambridge University Press. DOI: 10.1017/CBO9781139173469. <https://doi.org/10.1017/CBO9781139173469> — tier A · [[sources/novak-1984]]
 [^piaget-1970]: Jean Piaget. (1970). Genetic Epistemology. Columbia University Press. <https://cup.columbia.edu/book/genetic-epistemology/9780231059923> — tier A · [[sources/piaget-1970]]

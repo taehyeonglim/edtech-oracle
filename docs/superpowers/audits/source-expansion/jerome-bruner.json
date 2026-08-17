@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "slug": "jerome-bruner",
+  "base_commit": "4e2dd2d1145fc28b2a123324f5e7b7f367121ca2",
+  "initial_source_ids": [
+    "bio-wiki-bruner",
+    "bruner-1960",
+    "bruner-1966",
+    "bruner-1990",
+    "gardner-bruner-2017",
+    "mayer-2005",
+    "novak-1984",
+    "piaget-1970",
+    "schunk-2012"
+  ],
+  "required_additions": 1,
+  "candidates": [
+    {
+      "candidate_key": "candidate-01",
+      "decision": "approved",
+      "reason": "존재와 관계를 각각 확인했다. OpenLibrary edition OL21231224M에서 제목·1956년·Wiley 판본·저자 전거를 확인하고 Harvard Psychology 공식 프로필의 서명·공저자·연구 내용과 대조했다.",
+      "source_id": "bruner-goodnow-austin-1956-thinking",
+      "bibliography": {
+        "authors": [
+          "Jerome S. Bruner",
+          "Jacqueline J. Goodnow",
+          "George A. Austin"
+        ],
+        "title": "A Study of Thinking",
+        "year": "1956",
+        "publisher": "John Wiley & Sons",
+        "url": "https://openlibrary.org/books/OL21231224M/A_Study_of_thinking",
+        "identifiers": {
+          "doi": null,
+          "isbn": null,
+          "eric": null,
+          "openlibrary_edition": "OL21231224M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition-and-official-university-profile",
+          "record_id": "OL21231224M",
+          "evidence": "OpenLibrary edition OL21231224M에서 제목·1956년·Wiley 판본·저자 전거를 확인하고 Harvard Psychology 공식 프로필의 서명·공저자·연구 내용과 대조했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "official-profile-bibliography"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jerome-bruner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://psychology.fas.harvard.edu/people/jerome-bruner",
+          "locator": "Harvard Psychology 공식 프로필의 A Study of Thinking 문단",
+          "evidence": "Harvard Psychology는 1956년 A Study of Thinking을 Jerome Bruner가 Jacqueline Goodnow·George Austin과 공저한 책으로 명시하고, OpenLibrary 저자 전거 OL455355A는 Jerome S. Bruner(1915–2016)·VIAF 108296631을 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "official-affiliation-and-coauthor-network",
+              "value": "Jerome Bruner · Harvard historical faculty · Jacqueline Goodnow · George Austin · A Study of Thinking",
+              "evidence_url": "https://psychology.fas.harvard.edu/people/jerome-bruner"
+            },
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary OL455355A · Jerome S. Bruner · 1915–2016 · VIAF 108296631",
+              "evidence_url": "https://openlibrary.org/authors/OL455355A.json"
+            }
+          ]
+        }
+      },
+      "tier": "A",
+      "tier_review": {
+        "rule": "1-original-work",
+        "evidence": "브루너·굿나우·오스틴이 개념 형성에 관한 일련의 실험 연구와 과제를 직접 보고한 공저 원저서다."
+      },
+      "claim_seed": {
+        "section": "인지혁명과 교육과정",
+        "claim": "브루너는 굿나우·오스틴과 함께 개념 형성을 조사한 일련의 연구 결과를 보고했고, 그들이 사용한 개념 형성 과제는 후속 연구에서 폭넓게 활용되었다.",
+        "locator": "Harvard Psychology official profile, A Study of Thinking paragraph",
+        "evidence_url": "https://psychology.fas.harvard.edu/people/jerome-bruner"
+      },
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-02",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary에서 1986년 Harvard University Press 판본과 브루너 전거를 확인했으나, 정확한 부족분 1건은 인지혁명기의 개념 형성 연구를 공식 하버드 설명으로 직접 보강하는 A Study of Thinking에 우선 배정해 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jerome S. Bruner"
+        ],
+        "title": "Actual Minds, Possible Worlds",
+        "year": "1986",
+        "publisher": "Harvard University Press",
+        "url": "https://openlibrary.org/books/OL2545463M/Actual_minds_possible_worlds",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0674003659",
+          "eric": null,
+          "openlibrary_edition": "OL2545463M",
+          "oclc": "12946633"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL2545463M",
+          "evidence": "OpenLibrary OL2545463M에서 제목·1986년·Harvard University Press 판본·저자 키 OL455355A와 영구 식별자를 확인했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "isbn",
+            "oclc"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jerome-bruner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/authors/OL455355A.json",
+          "locator": "OpenLibrary 판본 저자 키와 인명 전거",
+          "evidence": "판본은 저자를 OL455355A로 연결하고 인명 전거는 Jerome S. Bruner(1915–2016)와 VIAF 108296631을 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary OL455355A · Jerome S. Bruner · 1915–2016 · VIAF 108296631",
+              "evidence_url": "https://openlibrary.org/authors/OL455355A.json"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-03",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary에서 1996년 Harvard University Press 판본과 브루너 전거를 확인했으나, 정확한 부족분이 이미 채워져 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jerome S. Bruner"
+        ],
+        "title": "The Culture of Education",
+        "year": "1996",
+        "publisher": "Harvard University Press",
+        "url": "https://openlibrary.org/books/OL810010M/The_culture_of_education",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0674179528",
+          "eric": null,
+          "openlibrary_edition": "OL810010M",
+          "oclc": "33664429"
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL810010M",
+          "evidence": "OpenLibrary OL810010M에서 제목·1996년·Harvard University Press 판본·저자 키 OL455355A와 영구 식별자를 확인했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "isbn",
+            "oclc"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jerome-bruner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/authors/OL455355A.json",
+          "locator": "OpenLibrary 판본 저자 키와 인명 전거",
+          "evidence": "판본은 저자를 OL455355A로 연결하고 인명 전거는 Jerome S. Bruner(1915–2016)와 VIAF 108296631을 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary OL455355A · Jerome S. Bruner · 1915–2016 · VIAF 108296631",
+              "evidence_url": "https://openlibrary.org/authors/OL455355A.json"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    },
+    {
+      "candidate_key": "candidate-04",
+      "decision": "pending_manual",
+      "reason": "OpenLibrary에서 1971년 Norton 판본과 브루너 전거를 확인했으나, 정확한 부족분이 이미 채워져 후속 확장 후보로 보류했다.",
+      "source_id": null,
+      "bibliography": {
+        "authors": [
+          "Jerome S. Bruner"
+        ],
+        "title": "The Relevance of Education",
+        "year": "1971",
+        "publisher": "W. W. Norton & Company",
+        "url": "https://openlibrary.org/books/OL5078378M/The_relevance_of_education",
+        "identifiers": {
+          "doi": null,
+          "isbn": "0393043347",
+          "eric": null,
+          "openlibrary_edition": "OL5078378M",
+          "oclc": null
+        }
+      },
+      "source_review": {
+        "existence": {
+          "status": "verified",
+          "method": "openlibrary-edition",
+          "record_id": "OL5078378M",
+          "evidence": "OpenLibrary OL5078378M에서 제목·1971년·W. W. Norton 판본·저자 키 OL455355A와 영구 식별자를 확인했다.",
+          "matched_fields": [
+            "title",
+            "author",
+            "year",
+            "publisher",
+            "openlibrary_edition",
+            "isbn"
+          ]
+        },
+        "relation": {
+          "status": "verified",
+          "pioneer": "jerome-bruner",
+          "kind": "authored_by",
+          "person_role": "author",
+          "evidence_url": "https://openlibrary.org/authors/OL455355A.json",
+          "locator": "OpenLibrary 판본 저자 키와 인명 전거",
+          "evidence": "판본은 저자를 OL455355A로 연결하고 인명 전거는 Jerome S. Bruner(1915–2016)와 VIAF 108296631을 제시한다.",
+          "identity_signals": [
+            {
+              "kind": "library-authority",
+              "value": "OpenLibrary OL455355A · Jerome S. Bruner · 1915–2016 · VIAF 108296631",
+              "evidence_url": "https://openlibrary.org/authors/OL455355A.json"
+            }
+          ]
+        }
+      },
+      "tier": null,
+      "tier_review": null,
+      "corrections": []
+    }
+  ],
+  "approved_ids": [
+    "bruner-goodnow-austin-1956-thinking"
+  ],
+  "claim_map": [
+    {
+      "source_id": "bruner-goodnow-austin-1956-thinking",
+      "section": "인지혁명과 교육과정",
+      "claim": "이에 앞서 브루너는 재클린 굿나우·조지 오스틴과 함께 개념 형성을 조사한 일련의 연구 결과를 보고했으며, 이들이 사용한 개념 형성 과제는 후속 연구에서 폭넓게 활용되었다.",
+      "evidence_locator": "Harvard Psychology official profile, A Study of Thinking paragraph"
+    }
+  ],
+  "citation_year_review": {
+    "candidates": [
+      {
+        "key": "wiki/pioneers/jerome-bruner.md:47|bruner-1966|2016|1966",
+        "file": "wiki/pioneers/jerome-bruner.md",
+        "line": 47,
+        "claimYear": 2016,
+        "sourceId": "bruner-1966",
+        "sourceYear": 1966,
+        "decision": "valid-context",
+        "reason": "2016년 사망은 바로 앞 gardner-bruner-2017 각주가 받치고, bruner-1966은 같은 문단의 초기 수업·표상 이론과 말년 문화심리학을 연결하는 별도 해석을 받치는 정상적인 혼합 인용이다."
+      },
+      {
+        "key": "wiki/pioneers/jerome-bruner.md:47|mayer-2005|2016|2005",
+        "file": "wiki/pioneers/jerome-bruner.md",
+        "line": 47,
+        "claimYear": 2016,
+        "sourceId": "mayer-2005",
+        "sourceYear": 2005,
+        "decision": "valid-context",
+        "reason": "2016년 사망은 gardner-bruner-2017이 직접 받치며, mayer-2005는 같은 문단 후반의 표상·의미 구성과 교육 해석을 보조하는 정상적인 혼합 인용이다."
+      }
+    ],
+    "incomparable": [
+      {
+        "key": "wiki/pioneers/jerome-bruner.md:47|bio-wiki-bruner|2016|none",
+        "file": "wiki/pioneers/jerome-bruner.md",
+        "line": 47,
+        "claimYear": 2016,
+        "sourceId": "bio-wiki-bruner",
+        "sourceYear": null,
+        "decision": "valid-context",
+        "reason": "bio-wiki-bruner는 발행연도가 없는 인물 약력이며, 2016년 사망과 옥스퍼드·뉴욕대 경력을 설명하는 생애 문맥에 붙은 정상적인 인용이다."
+      }
+    ]
+  }
+}

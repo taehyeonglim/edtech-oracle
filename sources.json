@@ -7590,5 +7590,60 @@
     "identifiers": {
       "doi": "10.1126/science.128.3330.969"
     }
+  },
+  {
+    "id": "bruner-goodnow-austin-1956-thinking",
+    "tier": "A",
+    "type": "원저서",
+    "tier_review": {
+      "rule": "1-original-work",
+      "evidence": "브루너·굿나우·오스틴이 개념 형성에 관한 일련의 실험 연구와 과제를 직접 보고한 공저 원저서다."
+    },
+    "source_review": {
+      "existence": {
+        "status": "verified",
+        "method": "openlibrary-edition-and-official-university-profile",
+        "record_id": "OL21231224M",
+        "evidence": "OpenLibrary edition OL21231224M에서 제목·1956년·Wiley 판본·저자 전거를 확인하고 Harvard Psychology 공식 프로필의 서명·공저자·연구 내용과 대조했다.",
+        "matched_fields": [
+          "title",
+          "author",
+          "year",
+          "publisher",
+          "openlibrary_edition",
+          "official-profile-bibliography"
+        ]
+      },
+      "relation": {
+        "status": "verified",
+        "pioneer": "jerome-bruner",
+        "kind": "authored_by",
+        "person_role": "author",
+        "evidence_url": "https://psychology.fas.harvard.edu/people/jerome-bruner",
+        "locator": "Harvard Psychology 공식 프로필의 A Study of Thinking 문단",
+        "evidence": "Harvard Psychology는 1956년 A Study of Thinking을 Jerome Bruner가 Jacqueline Goodnow·George Austin과 공저한 책으로 명시하고, OpenLibrary 저자 전거 OL455355A는 Jerome S. Bruner(1915–2016)·VIAF 108296631을 제시한다.",
+        "identity_signals": [
+          {
+            "kind": "official-affiliation-and-coauthor-network",
+            "value": "Jerome Bruner · Harvard historical faculty · Jacqueline Goodnow · George Austin · A Study of Thinking",
+            "evidence_url": "https://psychology.fas.harvard.edu/people/jerome-bruner"
+          },
+          {
+            "kind": "library-authority",
+            "value": "OpenLibrary OL455355A · Jerome S. Bruner · 1915–2016 · VIAF 108296631",
+            "evidence_url": "https://openlibrary.org/authors/OL455355A.json"
+          }
+        ]
+      }
+    },
+    "authors": "Jerome S. Bruner; Jacqueline J. Goodnow; George A. Austin",
+    "title": "A Study of Thinking",
+    "year": "1956",
+    "publisher": "John Wiley & Sons",
+    "url": "https://openlibrary.org/books/OL21231224M/A_Study_of_thinking",
+    "openlibrary_edition": "OL21231224M",
+    "identifiers": {
+      "openlibrary_edition": "OL21231224M"
+    }
   }
 ]
