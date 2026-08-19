@@ -65,6 +65,28 @@ export function buildArgs({
 }
 
 /**
+ * 서브에이전트 반환 텍스트에 하네스가 덧붙이는 꼬리.
+ *
+ * 실측(2026-08-20 성능 프로브)에서 `tool_result` 텍스트 끝에 `agentId: …(use SendMessage …)`와
+ * `<usage>…</usage>`가 붙어 왔다. 이것을 걷어내지 않으면 답변 게이트가 **위인이 쓰지도 않은
+ * 문장을 위인의 산문으로 세고** 규칙 9(마커 없는 문단)를 발화시킨다. 형식급 수치가 위인 탓인지
+ * 하네스 탓인지 구분되지 않으면 그 지표로는 아무것도 판정할 수 없다.
+ *
+ * 이 두 패턴만 지운다. 위인이 스스로 쓴 줄은 남긴다 — 그것이 규칙 위반이라면 그건 진짜 위반이고
+ * 감춰야 할 것이 아니다.
+ */
+const META_RE = [
+  /agentId:\s*\S+\s*\(use SendMessage[^)]*\)\s*/g,
+  /<usage>[\s\S]*?<\/usage>\s*/g,
+];
+
+export function stripAgentMetadata(text) {
+  let out = String(text ?? "");
+  for (const re of META_RE) out = out.replace(re, "");
+  return out.trim();
+}
+
+/**
  * 스트림에서 **서브에이전트가 끝나는 순간**을 잡아낸다.
  *
  * `tool_use:Agent`가 id와 `subagent_type`(=위인 slug)을 알려주고, 같은 id의 `tool_result`가
@@ -90,7 +112,7 @@ export function makeSpeakerWatcher(onSpeaker) {
         const text = Array.isArray(b.content)
           ? b.content.map((x) => x?.text ?? "").join("")
           : String(b.content ?? "");
-        if (slug) onSpeaker({ slug, text });
+        if (slug) onSpeaker({ slug, text: stripAgentMetadata(text) });
       }
     }
   };

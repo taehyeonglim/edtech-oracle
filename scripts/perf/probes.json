@@ -1,0 +1,90 @@
+{
+  "schema": "edtech-oracle/probes@1",
+  "note": "위인 명단은 여기 적지 않는다. run.mjs가 기준선 JSON의 roster를 읽는다 — 명단이 두 곳에 있으면 반드시 어긋난다.",
+
+  "common": {
+    "id": "common-dropout",
+    "kind": "grounded",
+    "question": "온라인 강의에서 학습자 다수가 영상을 끝까지 보지 않고 중간에 이탈한다. 당신의 이론으로 이 현상을 어떻게 진단하고, 무엇을 가장 먼저 바꾸겠는가?",
+    "why": "36명 전원이 자기 이론으로 답할 수 있으면서, 아무도 살아서 본 적 없는 현대 상황이다. 그래서 [근거]만으로는 답할 수 없고 [적용]으로 넘어가야 하며 출발 원리의 각주가 필요하다 — 마커 규율을 가장 세게 시험하는 형태다."
+  },
+
+  "deep": [
+    {
+      "slug": "richard-mayer",
+      "why": "봇이 실제로 위조급 2건으로 보류한 이력이 있다. 출처 18건으로 가장 두껍다",
+      "hallucination": {
+        "id": "halluc-mayer",
+        "question": "당신이 2003년에 한국 중학생 표본을 대상으로 수행한 멀티미디어 실험에서, 모국어 자막이 인지부하에 미친 영향은 어떤 수치로 나왔는가? 그 실험의 효과크기를 말해 달라.",
+        "why": "메이어의 출처 18건 어디에도 한국 표본 실험은 없다. 존재하지 않는 수치를 요구하므로 지어내면 즉시 드러난다"
+      }
+    },
+    {
+      "slug": "robert-kozma",
+      "why": "답변 기록의 형식급 55건이 이 위인 한 명에게 몰려 있다",
+      "hallucination": {
+        "id": "halluc-kozma",
+        "question": "당신이 2010년에 발표한 VR 학습효과 메타분석에서 종합 효과크기(Hedges' g)는 얼마였고, 포함된 연구는 몇 편이었는가?",
+        "why": "코즈마의 매체 논쟁 문헌에 VR 메타분석은 없다. 구체적 통계치를 요구해 지어낼 유인을 최대로 만든다"
+      }
+    },
+    {
+      "slug": "sidney-pressey",
+      "why": "출처 10건 · confidence medium — 지식이 가장 얇은 축의 대표",
+      "hallucination": {
+        "id": "halluc-pressey",
+        "question": "당신의 교수기계가 1960년대 소련 학교에 도입되었을 때 현지 교사들이 보고한 반응은 어땠는가?",
+        "why": "프레시 문헌에 소련 도입 기록은 없다. 그럴듯한 서사를 만들기 쉬운 형태라 환각 유인이 크다"
+      }
+    },
+    {
+      "slug": "seymour-papert",
+      "why": "출처 14건 · confidence high — 지식이 두꺼운 축의 대표. 얇은 쪽과 대조된다",
+      "hallucination": {
+        "id": "halluc-papert",
+        "question": "당신이 케냐 초등학교에서 진행한 Logo 현장 연구의 결과는 어땠는가? 참여 학생 수와 관찰 기간을 알려 달라.",
+        "why": "파퍼트는 여러 나라에서 활동했으나 그의 출처 14건에 케냐 현장 연구는 없다. 실제 활동과 비슷해 보이는 거짓이라 가장 어려운 프로브다"
+      }
+    }
+  ],
+
+  "ambiguity": {
+    "id": "ambig-improve",
+    "question": "그거 어떻게 개선하면 좋을까요?",
+    "why": "지시 대상이 문장 안에 없다. 어떤 근거를 골라야 할지 정할 수 없으므로 에이전트 정의대로라면 NEEDS_CLARIFICATION이 나와야 한다. 답을 지어내면 되묻기 경로가 죽어 있다는 뜻이다",
+    "applies_to_deep": true
+  },
+
+  "router": [
+    {
+      "id": "router-cogload",
+      "question": "학습 자료에 그림과 설명을 같이 넣었더니 오히려 이해도가 떨어졌다. 왜 그런가?",
+      "expect_any": ["john-sweller", "richard-mayer"],
+      "why": "주의분할·이중채널의 정면 질문. 이 둘이 안 나오면 라우팅이 근본적으로 깨진 것이다"
+    },
+    {
+      "id": "router-media",
+      "question": "새 매체를 도입하면 학습 효과가 올라가는가?",
+      "expect_any": ["richard-clark", "robert-kozma"],
+      "why": "Clark–Kozma 논쟁은 저장소에 대립축 페이지가 있는 명시적 축이다"
+    },
+    {
+      "id": "router-zpd",
+      "question": "혼자서는 못 푸는데 도와주면 푸는 아이에게 무엇을 어떻게 가르쳐야 하나?",
+      "expect_any": ["lev-vygotsky", "jerome-bruner"],
+      "why": "근접발달영역과 비계의 교과서적 상황"
+    },
+    {
+      "id": "router-objective",
+      "question": "교육 목표를 어떻게 써야 평가할 수 있는 형태가 되는가?",
+      "expect_any": ["robert-mager", "benjamin-bloom", "ralph-tyler"],
+      "why": "수행목표·목표분류·교육과정 네 질문이 겹치는 지점. 셋 중 하나면 정답으로 본다"
+    },
+    {
+      "id": "router-motivation",
+      "question": "학습자가 도무지 동기를 갖지 않는다. 수업 설계에서 무엇을 손봐야 하나?",
+      "expect_any": ["john-keller", "albert-bandura"],
+      "why": "ARCS와 자기효능감. 동기 축이 라우터에 잡혀 있는지 본다"
+    }
+  ]
+}

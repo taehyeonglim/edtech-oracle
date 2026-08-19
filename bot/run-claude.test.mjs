@@ -211,3 +211,45 @@ test("구독자가 터져도 실행은 끝까지 간다", async () => {
   assert.equal(r.sessionId, "sid-x");
   rmSync(dir, { recursive: true, force: true });
 });
+
+test("하네스가 덧붙인 메타데이터는 발언에서 걷어낸다", () => {
+  // 실측(2026-08-20 성능 프로브)에서 tool_result 텍스트 끝에 `agentId: …`와 `<usage>` 블록이
+  // 붙어 왔다. 걷어내지 않으면 답변 게이트가 이것을 위인의 산문으로 세고 규칙 9(마커 없는 문단)를
+  // 발화시킨다 — 위인이 쓰지도 않은 문장으로 지표가 깎인다.
+  const got = [];
+  const watch = makeSpeakerWatcher((s) => got.push(s));
+  watch(ev([{ type: "tool_use", name: "Agent", id: "t1", input: { subagent_type: "sidney-pressey" } }]));
+  watch(
+    ev([
+      {
+        type: "tool_result",
+        tool_use_id: "t1",
+        content: [
+          {
+            type: "text",
+            text:
+              "[근거] 즉각적 확인이 핵심이다.[^pressey-1926]\n\n" +
+              "관련 파일: `/repo/wiki/pioneers/sidney-pressey.md`" +
+              "agentId: a3917f2184e541996 (use SendMessage with to: 'a3917f2184e541996', summary: '<5-10 word recap>' to continue this agent)\n" +
+              "<usage>subagent_tokens: 18071\ntool_uses: 1\nduration_ms: 42049</usage>",
+          },
+        ],
+      },
+    ]),
+  );
+
+  assert.equal(got.length, 1);
+  assert.ok(!got[0].text.includes("agentId:"), "agentId 꼬리가 발언에 남았다");
+  assert.ok(!got[0].text.includes("<usage>"), "usage 블록이 발언에 남았다");
+  assert.ok(got[0].text.includes("즉각적 확인이 핵심이다"), "위인의 발언까지 잘라냈다");
+  // 위인이 스스로 쓴 줄은 남긴다. 그것은 진짜 규칙 9 위반이고 하네스가 숨길 일이 아니다.
+  assert.ok(got[0].text.includes("관련 파일:"), "위인이 쓴 줄까지 걷어냈다");
+});
+
+test("메타데이터가 없는 발언은 손대지 않는다", () => {
+  const got = [];
+  const watch = makeSpeakerWatcher((s) => got.push(s));
+  watch(ev([{ type: "tool_use", name: "Agent", id: "t1", input: { subagent_type: "john-dewey" } }]));
+  watch(ev([{ type: "tool_result", tool_use_id: "t1", content: "[근거] 경험의 재구성이다.[^dewey-1938]" }]));
+  assert.equal(got[0].text, "[근거] 경험의 재구성이다.[^dewey-1938]");
+});
