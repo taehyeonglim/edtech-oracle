@@ -27,7 +27,7 @@ import {
   MessageFlags,
 } from "discord.js";
 import { loadPages } from "../scripts/wiki-parse.mjs";
-import { loadAnswerContext, speakerSections } from "../scripts/check-answer.mjs";
+import { loadAnswerContext, speakerSections, formatFindings } from "../scripts/check-answer.mjs";
 import { runClaude, snapshotAnswers, findAnswer, makeSpeakerWatcher } from "./run-claude.mjs";
 import { gateSection, sameText } from "./gate.mjs";
 import { claimSingleInstance, DEFAULT_GUARD_PORT } from "./single-instance.mjs";
@@ -176,9 +176,12 @@ function commitAnswer(file, subject) {
  * `/ask`와 `/debate`가 같은 함수를 쓴다. `/ask`는 라운드가 하나뿐인 경우일 뿐이다.
  *
  * @param {number} since  이미 게시한 섹션 수. 라운드 2 이후는 델타만 올린다
+ * @param {string} [tag]  로그 앞에 붙는 표지(`ask`·`R2`). **로그가 라운드를 구분하지 못하면
+ *   "라운드 2에서 위인 서브에이전트를 거쳤는가"를 사후에 판정할 수 없다.** 위인 격리는
+ *   인용 범위 검사(규칙 3)를 신뢰하는 근거이므로 그 질문은 로그로 답할 수 있어야 한다
  * @returns {Promise<{ok: boolean, file: string|null, sectionCount: number, sessionId: string|null}>}
  */
-async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since = 0, subject }) {
+async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since = 0, subject, tag = "-" }) {
   const before = snapshotAnswers(answersDir);
   // 이미 올린 발언. 키는 `<slug>#<그 화자의 몇 번째 발언인가>` — `/debate`는 같은 위인이
   // 라운드마다 다시 말하므로 slug만으로는 구분되지 않는다.
@@ -203,15 +206,18 @@ async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since =
     // 순번은 **게이트 통과 여부와 무관하게** 센다. 건너뛴 발언이 순번을 비우면
     // 마지막 정산에서 화자의 몇 번째 발언인지가 한 칸씩 어긋난다.
     const k = nextKey(slug);
-    const { md, skip } = gateSection({ slug, text, ctx, dir: gateDir, pioneers });
+    const { md, skip, forge } = gateSection({ slug, text, ctx, dir: gateDir, pioneers });
     if (skip) {
       // 위조급이 남았으면 여기서 멈춘다. 오케스트레이터가 재호출로 고친 판이
       // 마지막 정산에서 올라간다 — 검사를 통과하지 않은 인용은 채널에 먼저 나가지 않는다.
-      console.log(`  보류 ${slug}: ${skip}`);
+      console.log(`  [${tag}] 보류 ${slug}: ${skip}`);
+      // 개수만 남기면 사건을 사후에 진단할 수 없다. 무엇을 왜 막았는지가 이미 손에 있는데
+      // 버리고 있었다 — 실제로 richard-mayer 보류 건이 "위조급 2건" 한 줄만 남기고 사라졌다.
+      for (const line of formatFindings(forge)) console.log(`      ${line}`);
       return;
     }
     posted.set(k, text);
-    console.log(`  게시 ${slug}`);
+    console.log(`  [${tag}] 게시 ${slug}`);
     enqueue(render(md, { baseUrl: config.baseUrl, speakers }).payloads);
   };
 
@@ -361,6 +367,7 @@ async function advance(id, channel, ack) {
       resume: state.sessionId,
       since: state.sectionCount,
       subject: state.subject,
+      tag: `R${next}`,
     });
     if (!r.ok) {
       debates.delete(id);
@@ -450,13 +457,14 @@ async function onCommand(interaction) {
     // 지연 응답은 15분에 만료되는데 `/debate` 3라운드는 그것을 넘길 수 있다.
     await interaction.reply({ content: `${isAsk ? "/ask" : "/debate"} 시작했다: ${subject}` });
     if (isAsk) {
-      await runAndPost(channel, { prompt: `/ask ${subject}`, subject });
+      await runAndPost(channel, { prompt: `/ask ${subject}`, subject, tag: "ask" });
       return;
     }
     const r = await runAndPost(channel, {
       prompt: `/debate ${subject}`,
       appendSystemPrompt: ROUND_1,
       subject,
+      tag: "R1",
     });
     if (!r.ok || !r.sessionId) return;
 
