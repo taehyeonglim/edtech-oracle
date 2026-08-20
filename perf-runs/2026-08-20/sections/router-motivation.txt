@@ -1,0 +1,12 @@
+PIONEERS: john-keller, albert-bandura, david-merrill
+
+REASON:
+- `john-keller` — 라우터 맵에서 영역이 "동기, 교수설계"로 질문의 두 주제어를 모두 담은 유일한 행이라 앵커로 둔다
+- `albert-bandura` — [[debates/bandura-keller]] 대립축(자기효능감과 자신감)의 반대편이며 영역 "사회학습, 동기"가 동기 축에 직접 걸린다
+- `david-merrill` — [[debates/merrill-keller]] 대립축(과제 중심 + 동기 설계)의 반대편이며 영역 "교수설계, 문제중심학습"이 설계 축에 직접 걸린다
+
+제외: `benjamin-bloom`은 [[debates/bloom-keller]] 축에 있으나 행의 영역(교육목표, 완전학습)이 두 주제어 어느 쪽에도 걸리지 않고, 넣으면 4명이 되어 상한을 넘는다.
+
+참조한 파일:
+- /Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/router-map.md
+- /Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/index.md

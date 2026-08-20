@@ -31,6 +31,31 @@ const EOL_RE = /\r?\n/;
 const HEADING_RE = new RegExp(`^${INDENT}##\\s+(.+)$`);
 /** 마커를 요구하지 않는 블록. 인용문·목록·표와 되묻기 신호. */
 const SKIP_PARA_RE = /^(>|[-*]\s|\d+\.\s|\||NEEDS_CLARIFICATION)/;
+/**
+ * 주장이 아니라 **구조**인 줄. 헤딩과 수평선이다.
+ *
+ * 실측(2026-08-20 성능 프로브)에서 규칙 9 위반 159건 중 36건이 `# 제목`과 `---`였다.
+ * 구조를 산문으로 세면 위인이 쓰지도 않은 주장에 마커를 요구하게 되고, 더 나쁜 것은
+ * **진짜 마커 누락 106건이 오탐 36건 속에 묻힌다**는 점이다. 검사기 관할을 좁게 유지한다.
+ *
+ * `##`는 화자 구분자라 speakerSections()가 이미 걷어 갔고, 여기 남는 것은 `#`과 `###` 이하다.
+ */
+const STRUCTURE_LINE_RE = /^\s{0,3}(#{1,6}\s|-{3,}\s*$|\*{3,}\s*$|_{3,}\s*$)/;
+
+/**
+ * 문단 앞머리의 구조 줄을 걷어내고 **주장이 시작되는 첫 줄**을 돌려준다.
+ * 전부 구조면 빈 문자열 — 마커를 요구하지 않는다.
+ *
+ * 시작 문자만 보고 통째로 건너뛰지 않는 이유는 `# 진단` 다음 줄에 산문이 이어질 수 있기
+ * 때문이다. 구조를 봐주는 것이 그 뒤의 주장까지 봐주는 것이 되면 규칙이 뚫린다.
+ */
+export function claimLine(para) {
+  for (const line of para.split(EOL_RE)) {
+    if (line.trim() === "" || STRUCTURE_LINE_RE.test(line)) continue;
+    return line;
+  }
+  return "";
+}
 
 const forge = (rule, speaker, message) => ({ rule, severity: "forge", speaker, message });
 const form = (rule, speaker, message) => ({ rule, severity: "form", speaker, message });
@@ -143,7 +168,9 @@ export function checkAnswer({ file, wikiDir, sourcesPath, ctx }) {
 
     for (const para of paragraphs(text)) {
       if (SKIP_PARA_RE.test(para)) continue;
-      const m = MARKER_RE.exec(para.split(EOL_RE)[0]);
+      const first = claimLine(para);
+      if (!first) continue; // 헤딩·수평선만 있는 문단. 주장이 없으므로 마커도 요구하지 않는다
+      const m = MARKER_RE.exec(first);
       if (!m) {
         findings.push(form(9, speaker, `마커 없는 문단: ${para.slice(0, 24)}…`));
         continue;

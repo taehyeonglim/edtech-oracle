@@ -1,0 +1,6 @@
+PIONEERS: lev-vygotsky, jerome-bruner, allan-collins
+REASON: 레프 비고츠키 — "혼자서는 못 하지만 도와주면 하는" 것이 근접발달영역의 정의 그대로이므로 무엇을 가르칠지의 기준을 갖고 있다; 제롬 브루너 — 개념 열에 스캐폴딩이 있어 도움을 어떻게 설계해 주는지를 담당한다; 앨런 콜린스 — 모델링·코칭과 페이딩으로 도움을 어떻게 거두어 혼자 하게 만드는지의 경로를 담당한다.
+
+참조한 파일: `/Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/router-map.md`, `/Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/index.md`
+
+라우팅 판단 메모: `router-map.md`의 대립축 표에서 비고츠키가 걸린 축은 bandura·papert·lave 세 개인데 이 질문은 어느 쪽도 건드리지 않으므로, 양측 소집 규칙은 발동하지 않는다고 보고 대립 구성 없이 3명을 골랐다.

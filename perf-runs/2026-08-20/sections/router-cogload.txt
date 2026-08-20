@@ -1,0 +1,6 @@
+PIONEERS: richard-mayer, john-sweller, edgar-dale
+REASON: 리처드 메이어 — `멀티미디어, 인지부하` 영역에 `이중 채널·제한된 작업기억·외재적 인지부하`가 있어 그림+설명 병치가 왜 역효과를 내는지 직접 담당한다. 존 스웰러 — `인지부하` 영역의 `주의분할·전문성 역전`이 그림과 텍스트를 함께 처리할 때 이해도가 떨어지는 기제를 설명한다. 에드거 데일 — [[debates/dale-mayer]] 「경험의 추상성 vs 인지 처리」의 반대편으로, `경험의 원추·구체성과 추상성·매체 선택` 관점에서 그림을 넣은 원래 의도와 매체 선택 기준을 맞세운다.
+
+관련 파일: `/Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/router-map.md`, `/Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/index.md`
+
+(참고: 완료 전 advisor 호출을 시도했으나 rate-limit으로 조언을 받지 못했습니다.)

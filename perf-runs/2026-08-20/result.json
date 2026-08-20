@@ -1,0 +1,1794 @@
+{
+  "schema": "edtech-oracle/perf-run@1",
+  "ran_at": "2026-08-20T00:01:27.740Z",
+  "baseline": "docs/baselines/2026-08-20-baseline.json",
+  "baseline_commit": "e6a86cb4bfa3a5b53657f4689d19ffb72d8963c5",
+  "wall_ms": 1331492,
+  "concurrency": 4,
+  "answers_leaked": [],
+  "knowledge": {
+    "albert-bandura": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "allan-collins": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "ann-brown": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 10
+    },
+    "barbara-seels": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 10
+    },
+    "benjamin-bloom": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "bf-skinner": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "charles-reigeluth": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "david-jonassen": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "david-merrill": {
+      "sources": 11,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "edgar-dale": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "edward-thorndike": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "etienne-wenger-trayner": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "jean-lave": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "jean-piaget": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "jeroen-van-merrienboer": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "jerome-bruner": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "john-dewey": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "john-keller": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "john-sweller": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 10
+    },
+    "joseph-novak": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "lev-vygotsky": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "marlene-scardamalia": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "michael-g-moore": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "ralph-tyler": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 10
+    },
+    "richard-clark": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "richard-mayer": {
+      "sources": 18,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "rita-richey": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "robert-gagne": {
+      "sources": 15,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "robert-glaser": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "robert-heinich": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 10
+    },
+    "robert-kozma": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "robert-mager": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "seymour-papert": {
+      "sources": 14,
+      "confidence": "high",
+      "sections": 11
+    },
+    "sidney-pressey": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 10
+    },
+    "thomas-gilbert": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "walter-dick": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    }
+  },
+  "results": [
+    {
+      "id": "common-dropout/albert-bandura",
+      "kind": "common",
+      "slug": "albert-bandura",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "albert-bandura"
+      ],
+      "duration_ms": 204864,
+      "turns": 2,
+      "chars": 3667,
+      "forge": 0,
+      "form": 8,
+      "markers": {
+        "근거": 4,
+        "적용": 1,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: # 온라인 강의 중도 이탈 진단…",
+        "형식 [규칙 9] 마커 없는 문단: 이 구분을 온라인 강의 이탈에 적용해 보면 …",
+        "형식 [규칙 9] 마커 없는 문단: \"끝까지 보지 않고 중간에\" 이탈한다는 서술…",
+        "형식 [규칙 9] 마커 없는 문단: # 가장 먼저 바꿀 것…",
+        "형식 [규칙 9] 마커 없는 문단: 이 조정 다음으로는 전문가 모델을 학습자와 …",
+        "형식 [규칙 9] 마커 없는 문단: # 한계…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 8
+      }
+    },
+    {
+      "id": "common-dropout/allan-collins",
+      "kind": "common",
+      "slug": "allan-collins",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "allan-collins"
+      ],
+      "duration_ms": 165579,
+      "turns": 2,
+      "chars": 3943,
+      "forge": 0,
+      "form": 12,
+      "markers": {
+        "근거": 3,
+        "적용": 2,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내가 존과 수전과 함께 정리한 인지도제 원리…",
+        "형식 [규칙 9] 마커 없는 문단: 같은 원리를 하나 더 적용하면, 이탈은 콘텐…",
+        "형식 [규칙 9] 마커 없는 문단: 세 번째로, 영상 강의는 대개 일방향 전달이…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **대화형 튜터링이라는 선례** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 이 진단이 근거 없는 유추만은 아니다. 그리…",
+        "형식 [규칙 9] 마커 없는 문단: 여러 가지를 한꺼번에 고치기보다 하나만 고르…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **이것을 설계연구로 다룬다** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 한 구간을 이렇게 바꾼 뒤에는 그 결과를 보…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **내 틀이 놓치는 것** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 다만 레이브와 웽거의 비판을 인정해야 한다.…",
+        "형식 [규칙 9] 마커 없는 문단: 온라인 강의 이탈의 실제 원인 — 재생 속도…",
+        "형식 [규칙 9] 마커 없는 문단: ---\n참고한 파일: `/Users/taeh…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 12
+      }
+    },
+    {
+      "id": "common-dropout/ann-brown",
+      "kind": "common",
+      "slug": "ann-brown",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "ann-brown"
+      ],
+      "duration_ms": 177737,
+      "turns": 2,
+      "chars": 4630,
+      "forge": 0,
+      "form": 21,
+      "markers": {
+        "근거": 6,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 영상을 끝까지 안 보고 이탈하는 현상을 내 …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **전략을 안다고 끝까지 쓰는 건 아니다**…",
+        "형식 [규칙 9] 마커 없는 문단: 나와 동료들이 반복해서 확인한 것은, 아동에…",
+        "형식 [규칙 9] 마커 없는 문단: 이 원리를 온라인 영상에 적용해 추론하면, …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **메타인지 요소가 빠져 있다는 것이 더 구…",
+        "형식 [규칙 9] 마커 없는 문단: 나는 메타인지를 예측·확인·감시·현실 검증,…",
+        "형식 [규칙 9] 마커 없는 문단: 이 틀을 영상 이탈에 적용해 추론하면, 대부…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **가장 먼저 바꿀 것 — 상호교수법 구조의…",
+        "형식 [규칙 9] 마커 없는 문단: 앤마리 팔린사와 내가 개발한 상호교수법은 요…",
+        "형식 [규칙 9] 마커 없는 문단: 이 원리를 오늘의 영상 강의에 적용해 추론하…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **학습자·자료·과제의 상호작용으로 보는 틀…",
+        "형식 [규칙 9] 마커 없는 문단: 나와 브랜스포드·페라라·캠피온은 학습을 학습…",
+        "형식 [규칙 9] 마커 없는 문단: 이 틀을 적용해 추론하면, 영상 이탈 문제는…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **검증은 설계실험 방식으로, 그리고 비판을…",
+        "형식 [규칙 9] 마커 없는 문단: 이 개입이 실제로 효과가 있는지는 이론만으로…",
+        "형식 [규칙 9] 마커 없는 문단: 이를 적용해 추론하면, 상호교수법 구조를 영…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **한계** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 상호교수법의 대표 연구는 독해 이해를 촉진하…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: --…",
+        "형식 [규칙 9] 마커 없는 문단: 참고: 답변에 사용한 자료는 `/Users/…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 21
+      }
+    },
+    {
+      "id": "common-dropout/barbara-seels",
+      "kind": "common",
+      "slug": "barbara-seels",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "barbara-seels"
+      ],
+      "duration_ms": 98354,
+      "turns": 2,
+      "chars": 3645,
+      "forge": 0,
+      "form": 1,
+      "markers": {
+        "근거": 6,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 1
+      }
+    },
+    {
+      "id": "common-dropout/benjamin-bloom",
+      "kind": "common",
+      "slug": "benjamin-bloom",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "benjamin-bloom"
+      ],
+      "duration_ms": 154500,
+      "turns": 2,
+      "chars": 3140,
+      "forge": 0,
+      "form": 9,
+      "markers": {
+        "근거": 1,
+        "적용": 3,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 완전학습 관점은 학습자 간 성취 차이를 …",
+        "형식 [규칙 9] 마커 없는 문단: 분류학의 핵심은 학습자가 무엇을 기억하는지,…",
+        "형식 [규칙 9] 마커 없는 문단: 글레이저는 평가가 학습자를 서열화하는 데 그…",
+        "형식 [규칙 9] 마커 없는 문단: 완전학습의 조건은 목표를 명료하게 정하고, …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **한계 — 이 진단이 다루지 못하는 부분*…",
+        "형식 [규칙 9] 마커 없는 문단: 이 진단에는 뚜렷한 한계가 있다. 켈러는 완…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 남긴 문헌에는 온라인 영상 시청 행태나…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 9
+      }
+    },
+    {
+      "id": "common-dropout/bf-skinner",
+      "kind": "common",
+      "slug": "bf-skinner",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "bf-skinner"
+      ],
+      "duration_ms": 114031,
+      "turns": 2,
+      "chars": 2406,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 2,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: # 이탈 현상의 진단과 조치…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 3
+      }
+    },
+    {
+      "id": "common-dropout/charles-reigeluth",
+      "kind": "common",
+      "slug": "charles-reigeluth",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "charles-reigeluth"
+      ],
+      "duration_ms": 157836,
+      "turns": 2,
+      "chars": 4268,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 3,
+        "적용": 3,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/david-jonassen",
+      "kind": "common",
+      "slug": "david-jonassen",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "david-jonassen"
+      ],
+      "duration_ms": 91686,
+      "turns": 2,
+      "chars": 3668,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 4,
+        "적용": 1,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 0
+      }
+    },
+    {
+      "id": "common-dropout/david-merrill",
+      "kind": "common",
+      "slug": "david-merrill",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "david-merrill"
+      ],
+      "duration_ms": 108681,
+      "turns": 2,
+      "chars": 2886,
+      "forge": 0,
+      "form": 4,
+      "markers": {
+        "근거": 1,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내가 제안한 제1원리는 학습이 활성화·시연·…",
+        "형식 [규칙 9] 마커 없는 문단: 내 이론에서 가장 먼저 손댈 지점은 하나다.…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **내 이론의 한계 — 이탈은 동기의 문제일…",
+        "형식 [규칙 9] 마커 없는 문단: 다만 나는 이것이 완전한 진단이라고 주장하지…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 4
+      }
+    },
+    {
+      "id": "common-dropout/edgar-dale",
+      "kind": "common",
+      "slug": "edgar-dale",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "edgar-dale"
+      ],
+      "duration_ms": 106256,
+      "turns": 2,
+      "chars": 2907,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 2,
+        "적용": 2,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 11] [근거없음]인데 각주를 달았다: **원추가 답하지 못하는 것** [근거없음]…",
+        "형식 [규칙 9] 마커 없는 문단: ---\n참고한 파일: `/Users/taeh…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/edward-thorndike",
+      "kind": "common",
+      "slug": "edward-thorndike",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "edward-thorndike"
+      ],
+      "duration_ms": 144229,
+      "turns": 2,
+      "chars": 3239,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 1,
+        "적용": 5,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: **손다이크: 온라인 강의 중도 이탈 진단*…",
+        "형식 [규칙 9] 마커 없는 문단: ---…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/etienne-wenger-trayner",
+      "kind": "common",
+      "slug": "etienne-wenger-trayner",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "etienne-wenger-trayner"
+      ],
+      "duration_ms": 137141,
+      "turns": 2,
+      "chars": 3718,
+      "forge": 0,
+      "form": 8,
+      "markers": {
+        "근거": 1,
+        "적용": 4,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 이론은 학습을 지식 항목의 습득이 아니라…",
+        "형식 [규칙 9] 마커 없는 문단: 레이브와 나는 초보자가 실천공동체에 들어가 …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **낭만화하지 않기 — 플랫폼을 여는 것만으…",
+        "형식 [규칙 9] 마커 없는 문단: 나는 실천공동체가 온라인 플랫폼이나 회원 목…",
+        "형식 [규칙 9] 마커 없는 문단: 웽거-트레이너 부부와 나는 사회학습공간을 새…",
+        "형식 [규칙 11] [근거없음]인데 각주를 달았다: 무어는 원격교육에서 심리적 거리를 물리적으로…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 내 페이지: `/Users/taehy…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 8
+      }
+    },
+    {
+      "id": "common-dropout/jean-lave",
+      "kind": "common",
+      "slug": "jean-lave",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "jean-lave"
+      ],
+      "duration_ms": 85612,
+      "turns": 2,
+      "chars": 3492,
+      "forge": 0,
+      "form": 9,
+      "markers": {
+        "근거": 1,
+        "적용": 3,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내가 라이베리아 재봉사 도제 연구와 『Cog…",
+        "형식 [규칙 9] 마커 없는 문단: 레이브는 장보기 활동을 \"물질적이며 역사적으…",
+        "형식 [규칙 9] 마커 없는 문단: 정당한 주변적 참여는 초보자가 실제 공동체의…",
+        "형식 [규칙 9] 마커 없는 문단: **이 진단의 한계** [한계로 표시된 근거…",
+        "형식 [규칙 9] 마커 없는 문단: 다만 이것으로 이탈을 다 설명할 수는 없다.…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **한계 — 실제 공동체 접근이 없는 환경*…",
+        "형식 [규칙 9] 마커 없는 문단: 정당한 주변적 참여는 초보자가 실제 공동체에…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 9
+      }
+    },
+    {
+      "id": "common-dropout/jean-piaget",
+      "kind": "common",
+      "slug": "jean-piaget",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "jean-piaget"
+      ],
+      "duration_ms": 119341,
+      "turns": 2,
+      "chars": 2496,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 2,
+        "적용": 3,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/jeroen-van-merrienboer",
+      "kind": "common",
+      "slug": "jeroen-van-merrienboer",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "jeroen-van-merrienboer"
+      ],
+      "duration_ms": 171022,
+      "turns": 2,
+      "chars": 4803,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 4,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/jerome-bruner",
+      "kind": "common",
+      "slug": "jerome-bruner",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "jerome-bruner"
+      ],
+      "duration_ms": 157573,
+      "turns": 2,
+      "chars": 3213,
+      "forge": 0,
+      "form": 9,
+      "markers": {
+        "근거": 2,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 이론은 학습이 학습자가 정보를 스스로 선…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **두 번째 진단: 구조 없는 정보 나열**…",
+        "형식 [규칙 9] 마커 없는 문단: 브루너는 지식의 구조를 파악하지 못한 채 정…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 가장 먼저 손대는 지점은 영상의 순서 …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **한계 — 이 개입만으로는 부족하다** […",
+        "형식 [규칙 9] 마커 없는 문단: 내 이론 자체가 이 지점에서 두 방향의 비판…",
+        "형식 [규칙 9] 마커 없는 문단: 리처드 메이어의 멀티미디어 학습 연구는 사람…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 9
+      }
+    },
+    {
+      "id": "common-dropout/john-dewey",
+      "kind": "common",
+      "slug": "john-dewey",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "john-dewey"
+      ],
+      "duration_ms": 165119,
+      "turns": 2,
+      "chars": 3470,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 3,
+        "적용": 2,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 3
+      }
+    },
+    {
+      "id": "common-dropout/john-keller",
+      "kind": "common",
+      "slug": "john-keller",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "john-keller"
+      ],
+      "duration_ms": 108589,
+      "turns": 2,
+      "chars": 4615,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 6,
+        "적용": 1,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: # 온라인 강의 이탈 진단과 우선 개입…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: **참고한 내 페이지와 각주**\n- `/Us…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 3
+      }
+    },
+    {
+      "id": "common-dropout/john-sweller",
+      "kind": "common",
+      "slug": "john-sweller",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "john-sweller"
+      ],
+      "duration_ms": 142724,
+      "turns": 2,
+      "chars": 3410,
+      "forge": 0,
+      "form": 7,
+      "markers": {
+        "근거": 1,
+        "적용": 3,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내가 다룬 문헌 중 온라인 강의 시청 이탈률…",
+        "형식 [규칙 9] 마커 없는 문단: 전문성 역전 효과는 같은 자료가 사전지식 수…",
+        "형식 [규칙 9] 마커 없는 문단: 질문이 \"가장 먼저\"를 물으니 하나를 고른다…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **이 진단의 한계** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 내 이론은 작업기억 용량, 요소 상호작용, …",
+        "형식 [규칙 9] 마커 없는 문단: 이탈이 실제로 몇 분 지점에서 일어나는지, …",
+        "형식 [규칙 9] 마커 없는 문단: ---…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 7
+      }
+    },
+    {
+      "id": "common-dropout/joseph-novak",
+      "kind": "common",
+      "slug": "joseph-novak",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "joseph-novak"
+      ],
+      "duration_ms": 86984,
+      "turns": 2,
+      "chars": 2547,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 3,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: **가장 먼저 바꾸겠다: 영상 앞에 학습자가…",
+        "형식 [규칙 9] 마커 없는 문단: ---\n참고로 사용한 내 페이지와 대립축 파…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/lev-vygotsky",
+      "kind": "common",
+      "slug": "lev-vygotsky",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "lev-vygotsky"
+      ],
+      "duration_ms": 114966,
+      "turns": 2,
+      "chars": 2669,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 2,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 이 공간은 고정된 능력 목록이 아니라 상호작…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고로 확인한 파일: `/Users/taeh…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 3
+      }
+    },
+    {
+      "id": "common-dropout/marlene-scardamalia",
+      "kind": "common",
+      "slug": "marlene-scardamalia",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "marlene-scardamalia"
+      ],
+      "duration_ms": 176843,
+      "turns": 2,
+      "chars": 4424,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 6,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고: 이 답변은 위인 에이전트로서 `wik…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/michael-g-moore",
+      "kind": "common",
+      "slug": "michael-g-moore",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "michael-g-moore"
+      ],
+      "duration_ms": 61363,
+      "turns": 2,
+      "chars": 2992,
+      "forge": 0,
+      "form": 13,
+      "markers": {
+        "근거": 5,
+        "적용": 1,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 10] [근거]인데 각주가 없다: **진단: 이탈은 \"물리적 분리\"가 아니라 …",
+        "형식 [규칙 9] 마커 없는 문단: 영상을 끝까지 보지 않고 이탈하는 현상을 나…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **가장 먼저 볼 변수: 구조가 지나치게 경…",
+        "형식 [규칙 9] 마커 없는 문단: 교류간격 이론에서 거리를 줄이는 두 축은 대…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **세 번째로 볼 변수: 그 학습자에게 필요…",
+        "형식 [규칙 9] 마커 없는 문단: 나는 1972년 연구에서 학습자 자율성을 독…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **가장 먼저 바꿀 것: 구조를 낮추거나 대…",
+        "형식 [규칙 9] 마커 없는 문단: 내 이론이 제시하는 처방은 두 방향 중 하나…",
+        "형식 [규칙 9] 마커 없는 문단: 여기서부터는 내가 직접 다룬 적 없는 기술 …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **내 이론이 답하지 못하는 부분** [근거…",
+        "형식 [규칙 9] 마커 없는 문단: 다만 나는 이 세 변인만으로는 학습자가 영상…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 13
+      }
+    },
+    {
+      "id": "common-dropout/ralph-tyler",
+      "kind": "common",
+      "slug": "ralph-tyler",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "ralph-tyler"
+      ],
+      "duration_ms": 117647,
+      "turns": 2,
+      "chars": 2349,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 2,
+        "적용": 4,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 0
+      }
+    },
+    {
+      "id": "common-dropout/richard-clark",
+      "kind": "common",
+      "slug": "richard-clark",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "richard-clark"
+      ],
+      "duration_ms": 180304,
+      "turns": 2,
+      "chars": 5045,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 5,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/richard-mayer",
+      "kind": "common",
+      "slug": "richard-mayer",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "richard-mayer"
+      ],
+      "duration_ms": 71046,
+      "turns": 2,
+      "chars": 2921,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 4,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: # 온라인 강의 이탈 현상에 대한 진단…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 3
+      }
+    },
+    {
+      "id": "common-dropout/rita-richey",
+      "kind": "common",
+      "slug": "rita-richey",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "rita-richey"
+      ],
+      "duration_ms": 142358,
+      "turns": 2,
+      "chars": 3512,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 2,
+        "적용": 3,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 내 페이지: `/Users/taehy…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 2
+      }
+    },
+    {
+      "id": "common-dropout/robert-gagne",
+      "kind": "common",
+      "slug": "robert-gagne",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-gagne"
+      ],
+      "duration_ms": 86172,
+      "turns": 2,
+      "chars": 3222,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 4,
+        "적용": 1,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 학습자 이탈을 진단하려면 먼저 물어야 할 질…",
+        "형식 [규칙 11] [근거없음]인데 각주를 달았다: **한계를 밝혀둔다** [근거없음] 내 문헌…",
+        "형식 [규칙 9] 마커 없는 문단: ---\n참고한 파일: `/Users/taeh…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 3
+      }
+    },
+    {
+      "id": "common-dropout/robert-glaser",
+      "kind": "common",
+      "slug": "robert-glaser",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-glaser"
+      ],
+      "duration_ms": 162793,
+      "turns": 2,
+      "chars": 3660,
+      "forge": 0,
+      "form": 5,
+      "markers": {
+        "근거": 0,
+        "적용": 4,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 1963년 논문의 핵심 주장은, 학습자의…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 후기에 초보자와 전문가의 지식 구조 차…",
+        "형식 [규칙 9] 마커 없는 문단: 내 이론에서 가장 먼저 손댈 지점은 영상 자…",
+        "형식 [규칙 9] 마커 없는 문단: 다만 이 지점에서 가녜의 지적을 인정해야 한…",
+        "형식 [규칙 9] 마커 없는 문단: 1984년 나는 사고와 수행을 지식 구조의 …"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 5
+      }
+    },
+    {
+      "id": "common-dropout/robert-heinich",
+      "kind": "common",
+      "slug": "robert-heinich",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-heinich"
+      ],
+      "duration_ms": 155442,
+      "turns": 2,
+      "chars": 3492,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 5,
+        "적용": 1,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 0
+      }
+    },
+    {
+      "id": "common-dropout/robert-kozma",
+      "kind": "common",
+      "slug": "robert-kozma",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-kozma"
+      ],
+      "duration_ms": 85877,
+      "turns": 2,
+      "chars": 3903,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 3,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 0
+      }
+    },
+    {
+      "id": "common-dropout/robert-mager",
+      "kind": "common",
+      "slug": "robert-mager",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-mager"
+      ],
+      "duration_ms": 81635,
+      "turns": 2,
+      "chars": 2822,
+      "forge": 0,
+      "form": 11,
+      "markers": {
+        "근거": 3,
+        "적용": 2,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 10] [근거]인데 각주가 없다: **진단의 출발점 — 이것이 교육 문제인가,…",
+        "형식 [규칙 9] 마커 없는 문단: 학습자가 영상을 끝까지 보지 않는다는 현상을…",
+        "형식 [규칙 9] 마커 없는 문단: 『Analyzing Performance P…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **목표가 먼저 보이는가** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 『Preparing Objectives…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **시청이라는 경험 자체가 회피를 학습시키고…",
+        "형식 [규칙 9] 마커 없는 문단: 『Developing Attitude Tow…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 가장 먼저 손대는 것은 영상 자체의 편…",
+        "형식 [규칙 9] 마커 없는 문단: 나는 스트리밍 플랫폼의 이탈률 데이터나 추천…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 근거는 `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 11
+      }
+    },
+    {
+      "id": "common-dropout/seymour-papert",
+      "kind": "common",
+      "slug": "seymour-papert",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "seymour-papert"
+      ],
+      "duration_ms": 95323,
+      "turns": 2,
+      "chars": 3149,
+      "forge": 0,
+      "form": 10,
+      "markers": {
+        "근거": 3,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 10] [근거]인데 각주가 없다: **진단: 이탈은 \"정답 기계\"를 보고 있다…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 컴퓨터를 바라본 방식은 처음부터 하나였…",
+        "형식 [규칙 9] 마커 없는 문단: 가장 좋은 학습은 학습자가 가장 잘 아는 것…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **같은 데이터를 다르게 읽는 시각도 있다*…",
+        "형식 [규칙 9] 마커 없는 문단: 내 이론만이 유일한 진단은 아니다. 메이어를…",
+        "형식 [규칙 9] 마커 없는 문단: 내 원리에서 따라 나오는 첫 조치는 영상을 …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **이 처방의 한계** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 인정해야 할 한계도 있다. 구성이 일어…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: **참고 파일**\n- `/Users/taeh…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 10
+      }
+    },
+    {
+      "id": "common-dropout/sidney-pressey",
+      "kind": "common",
+      "slug": "sidney-pressey",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "sidney-pressey"
+      ],
+      "duration_ms": 76251,
+      "turns": 2,
+      "chars": 3069,
+      "forge": 0,
+      "form": 4,
+      "markers": {
+        "근거": 1,
+        "적용": 2,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 기계의 핵심은 하드웨어가 아니라 피드백 …",
+        "형식 [규칙 9] 마커 없는 문단: 내가 가장 먼저 바꾸겠다는 것은 영상의 화질…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **이 진단의 한계** [근거]…",
+        "형식 [규칙 11] [근거없음]인데 각주를 달았다: 다만 이 처방은 정답이 미리 정해질 수 있는…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 4
+      }
+    },
+    {
+      "id": "common-dropout/thomas-gilbert",
+      "kind": "common",
+      "slug": "thomas-gilbert",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "thomas-gilbert"
+      ],
+      "duration_ms": 102853,
+      "turns": 2,
+      "chars": 3518,
+      "forge": 0,
+      "form": 10,
+      "markers": {
+        "근거": 3,
+        "적용": 2,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 10] [근거]인데 각주가 없다: **진단의 출발점** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 학습자가 영상을 끝까지 보지 않는다고 해서 …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **행동과 가치 있는 성과를 구분한다** […",
+        "형식 [규칙 9] 마커 없는 문단: 먼저 물어야 할 것은 \"영상을 끝까지 보는 …",
+        "형식 [규칙 9] 마커 없는 문단: 나는 유튜브식 온라인 강의 플랫폼을 본 적이…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 PIP(수행개선 잠재력)에서 쓴 논리를…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **이 진단의 한계** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 여기서 멈춰야 할 지점이 있다. 리처드 클라…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 10
+      }
+    },
+    {
+      "id": "common-dropout/walter-dick",
+      "kind": "common",
+      "slug": "walter-dick",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "walter-dick"
+      ],
+      "duration_ms": 80868,
+      "turns": 2,
+      "chars": 3250,
+      "forge": 0,
+      "form": 12,
+      "markers": {
+        "근거": 4,
+        "적용": 1,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 10] [근거]인데 각주가 없다: **진단 — 이탈은 형성평가가 잡아야 할 신…",
+        "형식 [규칙 9] 마커 없는 문단: 내 모형에서 수업은 목표·학습자·맥락·평가·…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **먼저 볼 곳 — 교수분석과 학습자·맥락 …",
+        "형식 [규칙 9] 마커 없는 문단: 가장 먼저 확인할 것은 교수분석(instru…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **가장 먼저 바꿀 것 — 형성평가 데이터를…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 가장 먼저 바꾸는 것은 영상 내용이 아…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 직접 다룬 적 없는 온라인 영상 플랫폼…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **내 이론이 설명하지 못하는 부분** [근…",
+        "형식 [규칙 11] [근거없음]인데 각주를 달았다: 다만 인정해야 할 한계가 있다. 형성평가가 …",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: ---…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 12
+      }
+    },
+    {
+      "id": "halluc-mayer",
+      "kind": "halluc",
+      "slug": "richard-mayer",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "richard-mayer"
+      ],
+      "duration_ms": 33990,
+      "turns": 2,
+      "chars": 1018,
+      "forge": 0,
+      "form": 1,
+      "markers": {
+        "근거": 1,
+        "적용": 0,
+        "근거없음": 2
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 혹시 자막(caption)과 인지부하의 관계…"
+      ],
+      "pass": true,
+      "judge": {
+        "said_none": true,
+        "marker_none": 2,
+        "marker_grounded": 1,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-kozma",
+      "kind": "halluc",
+      "slug": "robert-kozma",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-kozma"
+      ],
+      "duration_ms": 30773,
+      "turns": 2,
+      "chars": 745,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 2010년 VR 학습효과 메타분석은 제 문헌…",
+        "형식 [규칙 9] 마커 없는 문단: 다른 연구자(예: VR/실감형 학습 메타분석…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "said_none": true,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-pressey",
+      "kind": "halluc",
+      "slug": "sidney-pressey",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "sidney-pressey"
+      ],
+      "duration_ms": 24404,
+      "turns": 2,
+      "chars": 1011,
+      "forge": 0,
+      "form": 4,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 페이지와 각주 어디에도 소련 학교 도입이…",
+        "형식 [규칙 11] [근거없음]인데 각주를 달았다: [근거없음] 내 문헌은 1920년대 미국 오…",
+        "형식 [규칙 9] 마커 없는 문단: 굳이 짚자면, Petrina의 분석은 내 장…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "said_none": true,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-papert",
+      "kind": "halluc",
+      "slug": "seymour-papert",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "seymour-papert"
+      ],
+      "duration_ms": 79395,
+      "turns": 2,
+      "chars": 992,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 1,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 페이지 어디에도 케냐 초등학교 현장 연구…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 근거로 가진 Logo 관련 사실은 이 …",
+        "형식 [규칙 9] 마커 없는 문단: 혹시 내가 남아프리카공화국(프리토리아) 출신…"
+      ],
+      "pass": true,
+      "judge": {
+        "said_none": true,
+        "marker_none": 1,
+        "marker_grounded": 1,
+        "forge": 0
+      }
+    },
+    {
+      "id": "ambig-improve/richard-mayer",
+      "kind": "ambig",
+      "slug": "richard-mayer",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "richard-mayer"
+      ],
+      "duration_ms": 18936,
+      "turns": 2,
+      "chars": 187,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "clarified": true
+      }
+    },
+    {
+      "id": "ambig-improve/robert-kozma",
+      "kind": "ambig",
+      "slug": "robert-kozma",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-kozma"
+      ],
+      "duration_ms": 15805,
+      "turns": 2,
+      "chars": 144,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "clarified": true
+      }
+    },
+    {
+      "id": "ambig-improve/sidney-pressey",
+      "kind": "ambig",
+      "slug": "sidney-pressey",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "sidney-pressey"
+      ],
+      "duration_ms": 15378,
+      "turns": 2,
+      "chars": 129,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "clarified": true
+      }
+    },
+    {
+      "id": "ambig-improve/seymour-papert",
+      "kind": "ambig",
+      "slug": "seymour-papert",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "seymour-papert"
+      ],
+      "duration_ms": 20861,
+      "turns": 2,
+      "chars": 195,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "clarified": true
+      }
+    },
+    {
+      "id": "router-cogload",
+      "kind": "router",
+      "slug": "router",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "router"
+      ],
+      "duration_ms": 47736,
+      "turns": 2,
+      "chars": 534,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "picked": [
+          "edgar-dale",
+          "john-sweller",
+          "richard-mayer"
+        ],
+        "expected_any": [
+          "john-sweller",
+          "richard-mayer"
+        ]
+      }
+    },
+    {
+      "id": "router-media",
+      "kind": "router",
+      "slug": "router",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "router"
+      ],
+      "duration_ms": 43711,
+      "turns": 2,
+      "chars": 563,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "picked": [
+          "richard-clark",
+          "richard-mayer",
+          "robert-kozma"
+        ],
+        "expected_any": [
+          "richard-clark",
+          "robert-kozma"
+        ]
+      }
+    },
+    {
+      "id": "router-zpd",
+      "kind": "router",
+      "slug": "router",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "router"
+      ],
+      "duration_ms": 86573,
+      "turns": 2,
+      "chars": 519,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "picked": [
+          "allan-collins",
+          "jerome-bruner",
+          "lev-vygotsky"
+        ],
+        "expected_any": [
+          "lev-vygotsky",
+          "jerome-bruner"
+        ]
+      }
+    },
+    {
+      "id": "router-objective",
+      "kind": "router",
+      "slug": "router",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "router"
+      ],
+      "duration_ms": 91977,
+      "turns": 2,
+      "chars": 608,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "picked": [
+          "benjamin-bloom",
+          "ralph-tyler",
+          "robert-gagne",
+          "robert-mager"
+        ],
+        "expected_any": [
+          "robert-mager",
+          "benjamin-bloom",
+          "ralph-tyler"
+        ]
+      }
+    },
+    {
+      "id": "router-motivation",
+      "kind": "router",
+      "slug": "router",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "router"
+      ],
+      "duration_ms": 98416,
+      "turns": 2,
+      "chars": 596,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "picked": [
+          "albert-bandura",
+          "benjamin-bloom",
+          "david-merrill",
+          "john-keller"
+        ],
+        "expected_any": [
+          "john-keller",
+          "albert-bandura"
+        ]
+      }
+    }
+  ]
+}

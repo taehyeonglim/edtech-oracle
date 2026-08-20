@@ -1,0 +1,9 @@
+PIONEERS: robert-mager, robert-gagne, benjamin-bloom
+REASON:
+- `robert-mager` — 개념 열의 수행목표·조건·행동·준거·준거지향 평가가 "평가 가능한 목표 진술 형식"이라는 질문어와 정면으로 일치한다.
+- `robert-gagne` — [[debates/mager-gagne]] "수행목표와 학습 결과" 대립축에 걸리는 질문이므로, 관찰 가능한 행동 명세 대신 학습 결과 유형에서 목표를 도출하는 반대편을 함께 부른다.
+- `benjamin-bloom` — 교육목표 분류와 평가 정렬이 목표를 어떤 인지 수준으로 진술해야 평가가 맞물리는지를 다루므로 진술 형식 문제에 직접 근거를 갖는다.
+
+참고한 파일: `/Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/router-map.md`, `/Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/index.md`
+
+랠프 타일러(`ralph-tyler`)도 교육목표·평가를 담당하지만, 그의 개념 열(네 질문·학습경험·평가 순환)은 목표 진술 형식보다 교육과정 절차 쪽이라 3인 상한에서 제외했다.

@@ -1,0 +1,6 @@
+PIONEERS: richard-clark, robert-kozma, richard-mayer
+REASON: 리처드 클라크 — 매체 효과/방법-매체 구분의 부정 측, "매체는 성취에 영향을 주지 않는다"는 대립축 [[debates/clark-kozma]]의 한 축; 로버트 코즈마 — 매체 어포던스·표상으로 매체의 고유 기여를 주장하는 반대 축; 리처드 메이어 — 매체 자체가 아니라 이중 채널·인지부하 설계가 효과를 가른다는 실증적 조정점([[debates/clark-mayer]]·[[debates/kozma-mayer]]).
+
+관련 파일: /Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/router-map.md (43-44행, 82-84행), /Users/taehyeong/Documents/GitHub/edtech-oracle/wiki/index.md
+
+참고: advisor 호출은 rate-limit으로 실패해 검토 없이 라우팅을 확정했다. 3명이 길다고 판단되면 `richard-clark, robert-kozma` 두 축만으로도 질문은 커버된다.
