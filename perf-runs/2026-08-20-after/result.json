@@ -1,0 +1,238 @@
+{
+  "schema": "edtech-oracle/perf-run@1",
+  "ran_at": "2026-08-20T00:09:23.204Z",
+  "baseline": "docs/baselines/2026-08-20-baseline.json",
+  "baseline_commit": "e6a86cb4bfa3a5b53657f4689d19ffb72d8963c5",
+  "wall_ms": 238221,
+  "concurrency": 3,
+  "answers_leaked": [],
+  "knowledge": {
+    "allan-collins": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "ann-brown": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 10
+    },
+    "michael-g-moore": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "robert-mager": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "seymour-papert": {
+      "sources": 14,
+      "confidence": "high",
+      "sections": 11
+    },
+    "walter-dick": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    }
+  },
+  "results": [
+    {
+      "id": "common-dropout/allan-collins",
+      "kind": "common",
+      "slug": "allan-collins",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "allan-collins"
+      ],
+      "duration_ms": 160732,
+      "turns": 2,
+      "chars": 4157,
+      "forge": 0,
+      "form": 1,
+      "markers": {
+        "근거": 3,
+        "적용": 6,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: ---\n참고한 파일: `/Users/taeh…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 1
+      }
+    },
+    {
+      "id": "common-dropout/ann-brown",
+      "kind": "common",
+      "slug": "ann-brown",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "ann-brown"
+      ],
+      "duration_ms": 87161,
+      "turns": 2,
+      "chars": 3610,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 6,
+        "근거없음": 1
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 0
+      }
+    },
+    {
+      "id": "common-dropout/michael-g-moore",
+      "kind": "common",
+      "slug": "michael-g-moore",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "michael-g-moore"
+      ],
+      "duration_ms": 68523,
+      "turns": 2,
+      "chars": 2611,
+      "forge": 0,
+      "form": 9,
+      "markers": {
+        "근거": 4,
+        "적용": 1,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 10] [근거]인데 각주가 없다: **진단: 물리적 접근성과 교류간격은 다른 …",
+        "형식 [규칙 9] 마커 없는 문단: 온라인 영상은 클릭 한 번으로 재생되니 지리…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **대화 축의 결핍이 첫 번째 용의자다** …",
+        "형식 [규칙 9] 마커 없는 문단: 일방향으로 재생되는 강의 영상은 정의상 대화…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **구조의 경직성과 자율성 불일치가 두 번째…",
+        "형식 [규칙 9] 마커 없는 문단: 1972년 연구에서 나는 학습자 자율성을 독…",
+        "형식 [규칙 9] 마커 없는 문단: 내 문헌은 영상 스트리밍 플랫폼을 다루지 않…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **한계: 이 진단이 전부는 아니다** [근…",
+        "형식 [규칙 9] 마커 없는 문단: 교류간격 이론은 대화·프로그램 구조·학습자 …"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 9
+      }
+    },
+    {
+      "id": "common-dropout/robert-mager",
+      "kind": "common",
+      "slug": "robert-mager",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-mager"
+      ],
+      "duration_ms": 163637,
+      "turns": 2,
+      "chars": 3474,
+      "forge": 0,
+      "form": 10,
+      "markers": {
+        "근거": 4,
+        "적용": 4,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 10] [근거]인데 각주가 없다: **\"완주율\"이 잘못된 지표일 수 있다** …",
+        "형식 [규칙 9] 마커 없는 문단: 먼저 짚어야 할 것은, \"영상을 끝까지 본다…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **진단이 먼저다 — 못 하는가, 안 하는가…",
+        "형식 [규칙 9] 마커 없는 문단: 그래서 내가 가장 먼저 바꾸는 것은 영상 자…",
+        "형식 [규칙 9] 마커 없는 문단: 만약 진단 결과 학습자가 못 봐서가 아니라 …",
+        "형식 [규칙 9] 마커 없는 문단: 같은 진단을 다른 각도에서도 볼 수 있다. …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **한계와 길버트의 반론** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 다만 이 진단이 놓치는 부분도 있다. 길버트…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **요약** [근거]…",
+        "형식 [규칙 9] 마커 없는 문단: 정리하면, 나는 완주율 하락을 그 자체로 콘…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 10
+      }
+    },
+    {
+      "id": "common-dropout/seymour-papert",
+      "kind": "common",
+      "slug": "seymour-papert",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "seymour-papert"
+      ],
+      "duration_ms": 65080,
+      "turns": 2,
+      "chars": 2326,
+      "forge": 0,
+      "form": 7,
+      "markers": {
+        "근거": 3,
+        "적용": 1,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 10] [근거]인데 각주가 없다: **진단: 영상은 \"재료\"가 아니라 \"장치\"…",
+        "형식 [규칙 9] 마커 없는 문단: 내가 MIT에서 Logo와 거북이 그래픽을 …",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **측정 지표 자체가 잘못된 것을 재고 있다…",
+        "형식 [규칙 9] 마커 없는 문단: 내 관점에서 오늘날의 디지털 학습은 플랫폼 …",
+        "형식 [규칙 9] 마커 없는 문단: 내가 직접 온라인 동영상 강의를 다뤄본 적은…",
+        "형식 [규칙 10] [근거]인데 각주가 없다: **다만 이 처방에는 내 이론 자체의 한계가…",
+        "형식 [규칙 9] 마커 없는 문단: Mindstorms는 풍부한 재료와 그것을 …"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 7
+      }
+    },
+    {
+      "id": "common-dropout/walter-dick",
+      "kind": "common",
+      "slug": "walter-dick",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "walter-dick"
+      ],
+      "duration_ms": 81568,
+      "turns": 2,
+      "chars": 3601,
+      "forge": 0,
+      "form": 1,
+      "markers": {
+        "근거": 5,
+        "적용": 1,
+        "근거없음": 0
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 학습자가 영상 중간에 이탈한다는 현상 하나만…"
+      ],
+      "pass": true,
+      "judge": {
+        "forge": 0,
+        "form": 1
+      }
+    }
+  ]
+}
