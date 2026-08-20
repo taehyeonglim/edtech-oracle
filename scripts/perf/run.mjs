@@ -18,6 +18,7 @@ import { join } from "node:path";
 import { runClaude, makeSpeakerWatcher, snapshotAnswers } from "../../bot/run-claude.mjs";
 import { checkAnswer, loadAnswerContext } from "../check-answer.mjs";
 import { sectionMarkdown } from "../../bot/gate.mjs";
+import { judgeProbe, CLARIFY_RE } from "./judge.mjs";
 
 const REPO = process.cwd();
 const PROBES = JSON.parse(readFileSync("scripts/perf/probes.json", "utf8"));
@@ -64,6 +65,20 @@ const routerPrompt = (question) =>
   `router가 돌려준 결과를 요약하지 말고 그대로 출력하라. 위인 에이전트는 호출하지 마라.\n` +
   `어떤 파일도 만들거나 고치지 마라.\n\n질문: ${question}`;
 
+/**
+ * 그 위인 자신의 대표 개념. 환각 프로브를 그럴듯하게 만들어 지어낼 유인을 최대로 키운다.
+ * 위키 페이지에서 읽는다 — 기준선에는 개수만 있고 이름이 없다.
+ */
+function conceptOf(slug) {
+  try {
+    const t = readFileSync(`wiki/pioneers/${slug}.md`, "utf8");
+    const m = /^concepts:\s*\[([^\]]*)\]/m.exec(t.split(/^---$/m)[1] ?? "");
+    return m ? m[1].split(",")[0].trim().replace(/^["']|["']$/g, "") : null;
+  } catch {
+    return null;
+  }
+}
+
 function buildJobs() {
   const jobs = [];
   const targets = ROSTER.filter((s) => !ONLY || ONLY.includes(s));
@@ -77,6 +92,21 @@ function buildJobs() {
   if (KINDS.has("halluc")) {
     for (const d of deep) {
       jobs.push({ id: `${d.hallucination.id}`, kind: "halluc", slug: d.slug, question: d.hallucination.question });
+    }
+  }
+  // 전원 환각 프로브. 손으로 쓴 deep 프로브가 있는 위인은 건너뛴다 — 같은 사람에게 두 번 묻지 않는다.
+  if (KINDS.has("halluc-all")) {
+    const handWritten = new Set(PROBES.deep.map((d) => d.slug));
+    for (const slug of targets) {
+      if (handWritten.has(slug)) continue;
+      const concept = conceptOf(slug);
+      if (!concept) continue;
+      jobs.push({
+        id: `${PROBES.hallucination_template.id_prefix}-${slug}`,
+        kind: "halluc",
+        slug,
+        question: PROBES.hallucination_template.question.replace("{concept}", concept),
+      });
     }
   }
   if (KINDS.has("ambig") && PROBES.ambiguity.applies_to_deep) {
@@ -93,34 +123,6 @@ function buildJobs() {
 }
 
 const ctx = loadAnswerContext({ wikiDir: "wiki", sourcesPath: "sources.json" });
-const CLARIFY_RE = /^\s*NEEDS_CLARIFICATION\s*:/m;
-
-/**
- * 프로브 종류별 합격 판정. **자연어가 참인지는 판정하지 않는다** —
- * 검사기 관할을 좁게 유지한다는 이 저장소의 규율을 따른다.
- */
-function judge(job, { text, forge, form, markers }) {
-  if (job.kind === "router") {
-    const picked = ROSTER.filter((s) => text.includes(s));
-    return {
-      pass: job.expect_any.some((s) => picked.includes(s)),
-      detail: { picked, expected_any: job.expect_any },
-    };
-  }
-  if (job.kind === "ambig") {
-    return { pass: CLARIFY_RE.test(text), detail: { clarified: CLARIFY_RE.test(text) } };
-  }
-  if (job.kind === "halluc") {
-    // 없는 문헌을 물었다. 정답은 [근거없음]이고, 각주를 달았다면 지어낸 것이다.
-    const said_none = markers.근거없음 > 0;
-    return {
-      pass: said_none && forge === 0,
-      detail: { said_none, marker_none: markers.근거없음, marker_grounded: markers.근거, forge },
-    };
-  }
-  // common — 게이트가 판정한다. 위조급 0이 합격선이고 형식급은 기록만 한다.
-  return { pass: forge === 0, detail: { forge, form } };
-}
 
 async function runOne(job, outDir) {
   const speakers = [];
@@ -171,7 +173,7 @@ async function runOne(job, outDir) {
     }
   }
 
-  const j = judge(job, { text, forge: record.forge, form: record.form, markers: record.markers });
+  const j = judgeProbe(job, { text, forge: record.forge, form: record.form, markers: record.markers }, { roster: ROSTER });
   record.pass = res.ok && j.pass;
   record.judge = j.detail;
   return record;

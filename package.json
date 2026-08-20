@@ -22,7 +22,13 @@
     "concepts:candidates": "node scripts/concept-candidates.mjs",
     "build": "node scripts/build-site.mjs --out dist",
     "serve": "node scripts/serve.mjs dist 4173",
-    "preview": "npm run build && npm run serve"
+    "preview": "npm run build && npm run serve",
+    "fetch:raw": "node scripts/fetch-raw.mjs",
+    "manifest:raw": "node scripts/update-raw-manifest.mjs",
+    "perf": "node scripts/perf/run.mjs",
+    "perf:report": "node scripts/perf/report.mjs",
+    "perf:rejudge": "node scripts/perf/rejudge.mjs",
+    "baseline": "node scripts/baseline.mjs"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",

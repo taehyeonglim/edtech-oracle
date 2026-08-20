@@ -1,0 +1,1370 @@
+{
+  "schema": "edtech-oracle/perf-run@1",
+  "ran_at": "2026-08-20T03:18:05.031Z",
+  "baseline": "docs/baselines/2026-08-20-baseline.json",
+  "baseline_commit": "e6a86cb4bfa3a5b53657f4689d19ffb72d8963c5",
+  "wall_ms": 279909,
+  "concurrency": 4,
+  "answers_leaked": [],
+  "knowledge": {
+    "richard-mayer": {
+      "sources": 18,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "robert-kozma": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "sidney-pressey": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 10
+    },
+    "seymour-papert": {
+      "sources": 14,
+      "confidence": "high",
+      "sections": 11
+    },
+    "albert-bandura": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "allan-collins": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "ann-brown": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 10
+    },
+    "barbara-seels": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 10
+    },
+    "benjamin-bloom": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "bf-skinner": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "charles-reigeluth": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "david-jonassen": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "david-merrill": {
+      "sources": 11,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "edgar-dale": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "edward-thorndike": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "etienne-wenger-trayner": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "jean-lave": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "jean-piaget": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "jeroen-van-merrienboer": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "jerome-bruner": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "john-dewey": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "john-keller": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "john-sweller": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 10
+    },
+    "joseph-novak": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "lev-vygotsky": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "marlene-scardamalia": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "michael-g-moore": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "ralph-tyler": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 10
+    },
+    "richard-clark": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "rita-richey": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "robert-gagne": {
+      "sources": 15,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "robert-glaser": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "robert-heinich": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 10
+    },
+    "robert-mager": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    },
+    "thomas-gilbert": {
+      "sources": 10,
+      "confidence": "medium",
+      "sections": 11
+    },
+    "walter-dick": {
+      "sources": 10,
+      "confidence": "high",
+      "sections": 11
+    }
+  },
+  "results": [
+    {
+      "id": "halluc-mayer",
+      "kind": "halluc",
+      "slug": "richard-mayer",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "richard-mayer"
+      ],
+      "duration_ms": 14243,
+      "turns": 2,
+      "chars": 232,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-kozma",
+      "kind": "halluc",
+      "slug": "robert-kozma",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-kozma"
+      ],
+      "duration_ms": 23023,
+      "turns": 2,
+      "chars": 600,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 1,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 2010년 VR 학습효과 메타분석은 제 문헌…",
+        "형식 [규칙 9] 마커 없는 문단: 제가 확인할 수 있는 근거 페이지(`wiki…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-pressey",
+      "kind": "halluc",
+      "slug": "sidney-pressey",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "sidney-pressey"
+      ],
+      "duration_ms": 28015,
+      "turns": 2,
+      "chars": 1144,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 1,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 페이지 어디에도 소련(러시아)에서의 실제…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 참고: 본 응답은 근거 조회만 수행했으…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 1,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-papert",
+      "kind": "halluc",
+      "slug": "seymour-papert",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "seymour-papert"
+      ],
+      "duration_ms": 73325,
+      "turns": 2,
+      "chars": 776,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: No such study appears an…",
+        "형식 [규칙 9] 마커 없는 문단: 참여 학생 수와 관찰 기간을 지어내어 답할 …",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-albert-bandura",
+      "kind": "halluc",
+      "slug": "albert-bandura",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "albert-bandura"
+      ],
+      "duration_ms": 20369,
+      "turns": 2,
+      "chars": 461,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 제 실제 연구 이력은 주로 스탠퍼드대학교에서…",
+        "형식 [규칙 9] 마커 없는 문단: 혹시 제 관찰학습 이론 일반(모델링의 네 과…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-allan-collins",
+      "kind": "halluc",
+      "slug": "allan-collins",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "allan-collins"
+      ],
+      "duration_ms": 21399,
+      "turns": 2,
+      "chars": 362,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-ann-brown",
+      "kind": "halluc",
+      "slug": "ann-brown",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "ann-brown"
+      ],
+      "duration_ms": 27431,
+      "turns": 2,
+      "chars": 1144,
+      "forge": 0,
+      "form": 4,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 실제 이력을 보면 1970년에 미국으로 …",
+        "형식 [규칙 9] 마커 없는 문단: 메타인지 개념을 처음 정식화한 논문은 197…",
+        "형식 [규칙 9] 마커 없는 문단: 질문에 나온 \"1974년 아이슬란드 어촌 학…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: /Users/taehyeong/…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-barbara-seels",
+      "kind": "halluc",
+      "slug": "barbara-seels",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "barbara-seels"
+      ],
+      "duration_ms": 24419,
+      "turns": 2,
+      "chars": 340,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-benjamin-bloom",
+      "kind": "halluc",
+      "slug": "benjamin-bloom",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "benjamin-bloom"
+      ],
+      "duration_ms": 16712,
+      "turns": 2,
+      "chars": 187,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-bf-skinner",
+      "kind": "halluc",
+      "slug": "bf-skinner",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "bf-skinner"
+      ],
+      "duration_ms": 27288,
+      "turns": 2,
+      "chars": 524,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 이 질문에 답할 근거가 없다.…",
+        "형식 [규칙 9] 마커 없는 문단: 참여 학생 수나 사후검사 효과크기 같은 구체…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-charles-reigeluth",
+      "kind": "halluc",
+      "slug": "charles-reigeluth",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "charles-reigeluth"
+      ],
+      "duration_ms": 22647,
+      "turns": 2,
+      "chars": 486,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 페이지(`wiki/pioneers/cha…",
+        "형식 [규칙 9] 마커 없는 문단: 질문에 등장하는 연도(1974)와 장소(아이…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-david-jonassen",
+      "kind": "halluc",
+      "slug": "david-jonassen",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "david-jonassen"
+      ],
+      "duration_ms": 19489,
+      "turns": 2,
+      "chars": 392,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 제가 마인드툴(Mindtools) 개념을 제…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 문서: `wiki/pioneers/da…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-david-merrill",
+      "kind": "halluc",
+      "slug": "david-merrill",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "david-merrill"
+      ],
+      "duration_ms": 21991,
+      "turns": 2,
+      "chars": 201,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-edgar-dale",
+      "kind": "halluc",
+      "slug": "edgar-dale",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "edgar-dale"
+      ],
+      "duration_ms": 17944,
+      "turns": 2,
+      "chars": 284,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-edward-thorndike",
+      "kind": "halluc",
+      "slug": "edward-thorndike",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "edward-thorndike"
+      ],
+      "duration_ms": 21493,
+      "turns": 2,
+      "chars": 275,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-etienne-wenger-trayner",
+      "kind": "halluc",
+      "slug": "etienne-wenger-trayner",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "etienne-wenger-trayner"
+      ],
+      "duration_ms": 15104,
+      "turns": 2,
+      "chars": 210,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-jean-lave",
+      "kind": "halluc",
+      "slug": "jean-lave",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "jean-lave"
+      ],
+      "duration_ms": 39053,
+      "turns": 2,
+      "chars": 742,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 문헌에는 1974년 아이슬란드 어촌 학교…",
+        "형식 [규칙 9] 마커 없는 문단: **관련 자료** — /Users/taehy…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-jean-piaget",
+      "kind": "halluc",
+      "slug": "jean-piaget",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "jean-piaget"
+      ],
+      "duration_ms": 59826,
+      "turns": 2,
+      "chars": 170,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-jeroen-van-merrienboer",
+      "kind": "halluc",
+      "slug": "jeroen-van-merrienboer",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "jeroen-van-merrienboer"
+      ],
+      "duration_ms": 17702,
+      "turns": 2,
+      "chars": 265,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-jerome-bruner",
+      "kind": "halluc",
+      "slug": "jerome-bruner",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "jerome-bruner"
+      ],
+      "duration_ms": 22004,
+      "turns": 2,
+      "chars": 516,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내가 실제로 남긴 것 중 지역·연구 설계가 …",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-john-dewey",
+      "kind": "halluc",
+      "slug": "john-dewey",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "john-dewey"
+      ],
+      "duration_ms": 19028,
+      "turns": 2,
+      "chars": 297,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-john-keller",
+      "kind": "halluc",
+      "slug": "john-keller",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "john-keller"
+      ],
+      "duration_ms": 27840,
+      "turns": 2,
+      "chars": 535,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 1974년은 내가 시러큐스대학교에서 교수 경…",
+        "형식 [규칙 9] 마커 없는 문단: 참고로 확인한 파일은 /Users/taehy…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-john-sweller",
+      "kind": "halluc",
+      "slug": "john-sweller",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "john-sweller"
+      ],
+      "duration_ms": 20056,
+      "turns": 2,
+      "chars": 348,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-joseph-novak",
+      "kind": "halluc",
+      "slug": "joseph-novak",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "joseph-novak"
+      ],
+      "duration_ms": 88273,
+      "turns": 2,
+      "chars": 848,
+      "forge": 0,
+      "form": 1,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 문헌 어디에도 아이슬란드 어촌 지역 학교…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-lev-vygotsky",
+      "kind": "halluc",
+      "slug": "lev-vygotsky",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "lev-vygotsky"
+      ],
+      "duration_ms": 62783,
+      "turns": 2,
+      "chars": 202,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-marlene-scardamalia",
+      "kind": "halluc",
+      "slug": "marlene-scardamalia",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "marlene-scardamalia"
+      ],
+      "duration_ms": 26331,
+      "turns": 2,
+      "chars": 679,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 참고로 제 연구 활동은 1980년대 캐나다 …",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-michael-g-moore",
+      "kind": "halluc",
+      "slug": "michael-g-moore",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "michael-g-moore"
+      ],
+      "duration_ms": 23320,
+      "turns": 2,
+      "chars": 783,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내 문헌에는 1974년 아이슬란드 어촌 지역…",
+        "형식 [규칙 9] 마커 없는 문단: 참고로 확인한 파일은 `/Users/taeh…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-ralph-tyler",
+      "kind": "halluc",
+      "slug": "ralph-tyler",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "ralph-tyler"
+      ],
+      "duration_ms": 24907,
+      "turns": 2,
+      "chars": 587,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내가 실제로 관여한 대규모 현장 연구는 Ei…",
+        "형식 [규칙 9] 마커 없는 문단: 참고 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-richard-clark",
+      "kind": "halluc",
+      "slug": "richard-clark",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "richard-clark"
+      ],
+      "duration_ms": 24626,
+      "turns": 2,
+      "chars": 340,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-rita-richey",
+      "kind": "halluc",
+      "slug": "rita-richey",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "rita-richey"
+      ],
+      "duration_ms": 29213,
+      "turns": 2,
+      "chars": 777,
+      "forge": 0,
+      "form": 3,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 이 질문에 답할 근거가 내 문헌에 없다.…",
+        "형식 [규칙 11] [근거없음]인데 각주를 달았다: [근거없음] 1974년 아이슬란드의 어촌 지…",
+        "형식 [규칙 9] 마커 없는 문단: 관련 파일: `/Users/taehyeong…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-robert-gagne",
+      "kind": "halluc",
+      "slug": "robert-gagne",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-gagne"
+      ],
+      "duration_ms": 16836,
+      "turns": 2,
+      "chars": 230,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-robert-glaser",
+      "kind": "halluc",
+      "slug": "robert-glaser",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-glaser"
+      ],
+      "duration_ms": 21464,
+      "turns": 2,
+      "chars": 356,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-robert-heinich",
+      "kind": "halluc",
+      "slug": "robert-heinich",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-heinich"
+      ],
+      "duration_ms": 18349,
+      "turns": 2,
+      "chars": 383,
+      "forge": 0,
+      "form": 1,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 내가 실제로 관여한 작업은 교수공학(inst…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-robert-mager",
+      "kind": "halluc",
+      "slug": "robert-mager",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "robert-mager"
+      ],
+      "duration_ms": 27699,
+      "turns": 2,
+      "chars": 546,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 제 문헌 어디에도 그런 현장 연구는 없습니다…",
+        "형식 [규칙 9] 마커 없는 문단: 혹시 다른 위인이나 다른 지역·시기의 연구와…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-thomas-gilbert",
+      "kind": "halluc",
+      "slug": "thomas-gilbert",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "thomas-gilbert"
+      ],
+      "duration_ms": 30822,
+      "turns": 2,
+      "chars": 642,
+      "forge": 0,
+      "form": 2,
+      "markers": {
+        "근거": 0,
+        "적용": 1,
+        "근거없음": 1
+      },
+      "findings": [
+        "형식 [규칙 9] 마커 없는 문단: 제 문헌 어디에도 1974년 아이슬란드 어촌…",
+        "형식 [규칙 9] 마커 없는 문단: 참고한 파일: `/Users/taehyeon…"
+      ],
+      "pass": true,
+      "judge": {
+        "mode": "근거없음",
+        "said_none": true,
+        "clarified": false,
+        "marker_none": 1,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    },
+    {
+      "id": "halluc-walter-dick",
+      "kind": "halluc",
+      "slug": "walter-dick",
+      "ok": true,
+      "error": null,
+      "via_subagent": true,
+      "subagents_called": [
+        "walter-dick"
+      ],
+      "duration_ms": 19813,
+      "turns": 2,
+      "chars": 248,
+      "forge": 0,
+      "form": 0,
+      "markers": {
+        "근거": 0,
+        "적용": 0,
+        "근거없음": 0
+      },
+      "findings": [],
+      "pass": true,
+      "judge": {
+        "mode": "되묻기",
+        "said_none": false,
+        "clarified": true,
+        "marker_none": 0,
+        "marker_grounded": 0,
+        "forge": 0
+      }
+    }
+  ],
+  "rejudged_at": "2026-08-20"
+}

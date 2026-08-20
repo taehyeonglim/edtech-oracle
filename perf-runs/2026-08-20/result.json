@@ -1407,7 +1407,9 @@
       ],
       "pass": true,
       "judge": {
+        "mode": "근거없음",
         "said_none": true,
+        "clarified": false,
         "marker_none": 2,
         "marker_grounded": 1,
         "forge": 0
@@ -1440,7 +1442,9 @@
       ],
       "pass": true,
       "judge": {
+        "mode": "근거없음",
         "said_none": true,
+        "clarified": false,
         "marker_none": 1,
         "marker_grounded": 0,
         "forge": 0
@@ -1474,7 +1478,9 @@
       ],
       "pass": true,
       "judge": {
+        "mode": "근거없음",
         "said_none": true,
+        "clarified": false,
         "marker_none": 1,
         "marker_grounded": 0,
         "forge": 0
@@ -1507,7 +1513,9 @@
       ],
       "pass": true,
       "judge": {
+        "mode": "근거없음",
         "said_none": true,
+        "clarified": false,
         "marker_none": 1,
         "marker_grounded": 1,
         "forge": 0
@@ -1643,7 +1651,14 @@
         "picked": [
           "edgar-dale",
           "john-sweller",
-          "richard-mayer"
+          "richard-mayer",
+          "richard-mayer",
+          "richard-mayer",
+          "router",
+          "router",
+          "router",
+          "router",
+          "router"
         ],
         "expected_any": [
           "john-sweller",
@@ -1677,7 +1692,16 @@
         "picked": [
           "richard-clark",
           "richard-mayer",
-          "robert-kozma"
+          "robert-kozma",
+          "richard-mayer",
+          "robert-kozma",
+          "richard-mayer",
+          "robert-kozma",
+          "router",
+          "router",
+          "router",
+          "router",
+          "router"
         ],
         "expected_any": [
           "richard-clark",
@@ -1711,7 +1735,12 @@
         "picked": [
           "allan-collins",
           "jerome-bruner",
-          "lev-vygotsky"
+          "lev-vygotsky",
+          "router",
+          "router",
+          "router",
+          "router",
+          "router"
         ],
         "expected_any": [
           "lev-vygotsky",
@@ -1746,7 +1775,12 @@
           "benjamin-bloom",
           "ralph-tyler",
           "robert-gagne",
-          "robert-mager"
+          "robert-mager",
+          "router",
+          "router",
+          "router",
+          "router",
+          "router"
         ],
         "expected_any": [
           "robert-mager",
@@ -1782,7 +1816,12 @@
           "albert-bandura",
           "benjamin-bloom",
           "david-merrill",
-          "john-keller"
+          "john-keller",
+          "router",
+          "router",
+          "router",
+          "router",
+          "router"
         ],
         "expected_any": [
           "john-keller",
@@ -1790,5 +1829,6 @@
         ]
       }
     }
-  ]
+  ],
+  "rejudged_at": "2026-08-20"
 }
