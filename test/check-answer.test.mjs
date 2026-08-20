@@ -332,6 +332,53 @@ test("인용문·목록·표는 마커 검사에서 제외된다", () => {
   assert.ok(!rulesOf(findings).includes(9));
 });
 
+test("소제목만 있는 문단은 마커를 다음 문단에 넘긴다", () => {
+  // 실측(2026-08-20 /debate): 형식급 70건 중 69건이 이 한 가지 습관에서 나왔다.
+  // 위인이 `**소제목** [근거]`와 본문 사이에 빈 줄을 넣으면 두 문단이 되어,
+  // 앞은 각주가 없다고(규칙 10) 뒤는 마커가 없다고(규칙 9) 짝으로 걸린다.
+  // 소제목은 주장이 아니라 제목이다. 마커는 뒤따르는 본문의 것이다.
+  const body = [
+    "## a-pioneer",
+    "",
+    "**경험의 재구성으로서의 학습** [근거]",
+    "",
+    "학습이란 경험의 재구성이다.[^a-src]",
+    "",
+    DEF_A,
+  ].join("\n");
+  const { findings, markers } = run(body);
+  assert.deepEqual(rulesOf(findings), [], "소제목 분리를 위반으로 셌다");
+  assert.equal(markers.근거, 1, "마커를 두 번 세거나 놓쳤다");
+});
+
+test("소제목이 넘긴 [근거]도 본문에 각주를 요구한다", () => {
+  // 느슨해지면 안 된다. 마커가 넘어간 자리에서도 근거는 근거다.
+  const body = ["## a-pioneer", "", "**단정한다** [근거]", "", "각주 없이 단정한다."].join("\n");
+  const { findings } = run(body);
+  assert.ok(rulesOf(findings).includes(10), "넘긴 마커의 각주 요구가 사라졌다");
+});
+
+test("본문이 자기 마커를 가지면 소제목의 마커를 쓰지 않는다", () => {
+  const body = [
+    "## a-pioneer",
+    "",
+    "**소제목** [근거]",
+    "",
+    "[적용] 원리에서 추론한다.[^a-src]",
+    "",
+    DEF_A,
+  ].join("\n");
+  const { markers } = run(body);
+  assert.equal(markers.적용, 1);
+  assert.equal(markers.근거, 1, "소제목의 마커가 사라졌다");
+});
+
+test("넘길 곳이 없는 소제목의 [근거]는 여전히 각주를 요구한다", () => {
+  const body = ["## a-pioneer", "", "**각주 없는 소제목** [근거]"].join("\n");
+  const { findings } = run(body);
+  assert.ok(rulesOf(findings).includes(10), "본문 없는 소제목이 검사를 빠져나갔다");
+});
+
 test("헤딩과 수평선은 마커 검사에서 제외된다", () => {
   // 실측(2026-08-20 성능 프로브): 규칙 9 위반 159건 중 36건이 `# 제목`과 `---`였다.
   // 이 둘은 주장 문단이 아니라 구조다. 구조를 산문으로 세면 위인이 쓰지도 않은 주장에

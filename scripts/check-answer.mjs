@@ -49,6 +49,21 @@ const STRUCTURE_LINE_RE = /^\s{0,3}(#{1,6}\s|-{3,}\s*$|\*{3,}\s*$|_{3,}\s*$)/;
  * 시작 문자만 보고 통째로 건너뛰지 않는 이유는 `# 진단` 다음 줄에 산문이 이어질 수 있기
  * 때문이다. 구조를 봐주는 것이 그 뒤의 주장까지 봐주는 것이 되면 규칙이 뚫린다.
  */
+/**
+ * `**소제목** [근거]`처럼 **소제목과 마커만** 있는 한 줄짜리 문단.
+ *
+ * 실측(2026-08-20 `/debate`)에서 형식급 70건 중 69건이 이 한 가지 습관에서 나왔다.
+ * 위인이 소제목과 본문 사이에 빈 줄을 넣으면 두 문단이 되어, 앞은 각주가 없다고(규칙 10)
+ * 뒤는 마커가 없다고(규칙 9) **짝으로** 걸린다. 위반 하나가 둘로 세어지는 셈이다.
+ *
+ * 소제목은 주장이 아니라 제목이고 마커는 뒤따르는 본문의 것이다. `#` 헤딩을 산문으로 세지
+ * 않는 것과 같은 이유다 — 다만 이쪽은 마커를 달고 있어 "제목이 본문의 마커를 가져간" 형태다.
+ */
+const SUBHEAD_ONLY_RE =
+  /^(?:\[(?:근거없음|근거|적용)\]\s*)?\*\*[^*\n]+\*\*(?:\s*\[(?:근거없음|근거|적용)\])?\s*$/;
+
+const isSubheadOnly = (para) => !para.includes("\n") && SUBHEAD_ONLY_RE.test(para.trim());
+
 export function claimLine(para) {
   for (const line of para.split(EOL_RE)) {
     if (line.trim() === "" || STRUCTURE_LINE_RE.test(line)) continue;
@@ -166,24 +181,54 @@ export function checkAnswer({ file, wikiDir, sourcesPath, ctx }) {
 
     if (isOrchestrator) continue;
 
+    /** 소제목이 넘긴 마커. 뒤따르는 본문 하나가 받아 간다. */
+    let carried = null;
+    /** 각주 유무는 소제목과 본문을 **합쳐서** 본다 — 마커가 넘어가도 근거는 근거다. */
+    const judge = (marker, scope, label) => {
+      const hasRef = footnoteRefs(scope).length > 0;
+      if (marker === "근거" && !hasRef) {
+        findings.push(form(10, speaker, `[근거]인데 각주가 없다: ${label.slice(0, 24)}…`));
+      }
+      if (marker === "근거없음" && hasRef) {
+        findings.push(form(11, speaker, `[근거없음]인데 각주를 달았다: ${label.slice(0, 24)}…`));
+      }
+    };
+    /** 본문을 만나지 못한 소제목은 그 자리에서 판정한다. 넘길 곳이 없다고 빠져나가지 못한다. */
+    const flush = () => {
+      if (carried) judge(carried.marker, carried.para, carried.para);
+      carried = null;
+    };
+
     for (const para of paragraphs(text)) {
       if (SKIP_PARA_RE.test(para)) continue;
       const first = claimLine(para);
       if (!first) continue; // 헤딩·수평선만 있는 문단. 주장이 없으므로 마커도 요구하지 않는다
-      const m = MARKER_RE.exec(first);
-      if (!m) {
-        findings.push(form(9, speaker, `마커 없는 문단: ${para.slice(0, 24)}…`));
+      const own = MARKER_RE.exec(first);
+
+      if (own && isSubheadOnly(para)) {
+        flush(); // 앞 소제목이 본문 없이 또 소제목을 만났다
+        markers[own[1]] += 1; // 마커는 여기서 한 번만 센다. 본문이 받아도 다시 세지 않는다
+        carried = { marker: own[1], para };
         continue;
       }
-      markers[m[1]] += 1;
-      const hasRef = footnoteRefs(para).length > 0;
-      if (m[1] === "근거" && !hasRef) {
-        findings.push(form(10, speaker, `[근거]인데 각주가 없다: ${para.slice(0, 24)}…`));
+
+      const marker = own ? own[1] : carried?.marker ?? null;
+      if (!marker) {
+        findings.push(form(9, speaker, `마커 없는 문단: ${para.slice(0, 24)}…`));
+        carried = null;
+        continue;
       }
-      if (m[1] === "근거없음" && hasRef) {
-        findings.push(form(11, speaker, `[근거없음]인데 각주를 달았다: ${para.slice(0, 24)}…`));
+      if (own) {
+        // 본문이 자기 마커를 가지면 그것을 쓴다. 앞 소제목은 넘길 곳을 잃었으므로 따로 판정한다.
+        flush();
+        markers[own[1]] += 1;
+        judge(own[1], para, para);
+      } else {
+        judge(marker, `${carried.para}\n${para}`, para);
+        carried = null;
       }
     }
+    flush();
   }
 
   const declaredSpeakers = new Set(Array.isArray(fm.speakers) ? fm.speakers : []);

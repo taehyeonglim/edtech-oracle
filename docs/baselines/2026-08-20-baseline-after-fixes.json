@@ -2,7 +2,7 @@
   "schema": "edtech-oracle/baseline@1",
   "taken_at": "2026-08-20",
   "anchor": {
-    "commit": "18447fb1c5f56ca628bd9d3dd45edbf8bdadd272",
+    "commit": "91fed8019d3cdc758042607dae537ce5064fb58a",
     "branch": "main",
     "knowledge_dirty": false
   },
@@ -42,13 +42,13 @@
     },
     "lint_answers": {
       "exit": 0,
-      "answers": 5,
-      "claims": 91,
-      "marker_grounded": 65,
-      "marker_applied": 17,
-      "marker_none": 9,
+      "answers": 7,
+      "claims": 183,
+      "marker_grounded": 139,
+      "marker_applied": 28,
+      "marker_none": 16,
       "forgery": 0,
-      "format": 55
+      "format": 26
     }
   },
   "pioneers": [
