@@ -234,6 +234,9 @@ async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since =
 
   if (!run.ok) {
     // 조용히 죽지 않는다. 레이트리밋도 폴백 없이 메시지를 그대로 전달한다.
+    // **로그에도 남긴다.** 채널로만 보내면 디스코드를 못 보는 자리에서는 원인을 알 수 없다 —
+    // 2026-08-20 라운드 2 실패가 정확히 그래서 로그에 아무 흔적이 없었다.
+    console.error(`  [${tag}] 실행 실패 (${Math.round(run.durationMs / 1000)}s, ${run.turns}턴): ${run.error}`);
     await say(channel, `실행이 실패했다.\n\`\`\`\n${String(run.error).slice(0, 1800)}\n\`\`\``);
     return { ok: false, file: null, sectionCount: since, sessionId: run.sessionId };
   }
@@ -242,6 +245,7 @@ async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since =
 
   const { file, created } = findAnswer(answersDir, before);
   if (!file) {
+    console.error(`  [${tag}] 답변 파일이 생기지 않았다`);
     await say(channel, `답변 파일이 생기지 않았다. ${raw()}`);
     return { ok: false, file: null, sectionCount: since, sessionId: run.sessionId };
   }
@@ -255,6 +259,7 @@ async function runAndPost(channel, { prompt, resume, appendSystemPrompt, since =
   if (sectionCount <= from) {
     // 파일은 있는데 새 섹션이 없다 — "파일이 안 생김"과 같은 실패다. 조용히 넘어가면
     // 몇 분을 기다린 끝에 요약 한 줄만 남는다.
+    console.error(`  [${tag}] 답변 파일에 새 발언이 없다: ${file} (섹션 ${sectionCount} ≤ 기준 ${from})`);
     await say(channel, `답변 파일에 새 발언이 없다(\`${file}\`). ${raw()}`);
     return { ok: false, file, sectionCount: since, sessionId: run.sessionId };
   }

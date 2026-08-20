@@ -19,8 +19,18 @@ import { join } from "node:path";
  */
 export const PERMISSION_MODE = "acceptEdits";
 
-/** `/lint`가 212초였다. `/debate` 한 라운드는 더 길 수 있어 넉넉히 잡는다. */
-export const DEFAULT_TIMEOUT_MS = 15 * 60 * 1000;
+/**
+ * `/lint`가 212초였다. `/debate` 한 라운드는 더 길다.
+ *
+ * **15분은 실측으로 부족하다.** 2026-08-20에 참가자 4명 `/debate`의 라운드 2가 900초에서
+ * 잘렸다 — 마지막 위인이 899초에 반환했고 파일을 쓸 시간이 없었다. 세션 기록으로 복원한 내역:
+ * 위인 4명 직렬 작업 559초 + 호출 사이 준비 200초 + 파일 쓰기·게이트·커밋 135초 ≈ 894초.
+ *
+ * 라운드 2가 직렬인 것은 설계다(`docs/superpowers/specs/2026-08-14-edtech-oracle-design.md`) —
+ * 반박이 목적이므로 뒷사람이 앞사람의 반박을 본다. 그래서 비용이 참가자 수에 비례해 늘고,
+ * 한도가 그것을 수용해야 한다. 병렬로 바꾸면 빨라지지만 그건 토론의 성질을 바꾸는 일이다.
+ */
+export const DEFAULT_TIMEOUT_MS = 30 * 60 * 1000;
 
 /**
  * `--disallowedTools`는 가변 인자(`<tools...>`)라 뒤따르는 값을 계속 삼킨다.
