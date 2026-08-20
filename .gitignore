@@ -19,3 +19,4 @@ images/
 
 # 봇 로그
 bot/bot.log
+perf-runs/run.log
